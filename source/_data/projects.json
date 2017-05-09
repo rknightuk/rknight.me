@@ -1,0 +1,17 @@
+[
+    {
+       "name":"Ruminate",
+       "url":"http://ruminatepodcast.com",
+       "desc":"A podcast about what's on our minds"
+    },
+    {
+       "name":"#DevsDoDesign",
+       "url":"http://devsdodesign.com",
+       "desc":"A multi-award winning hackathon team"
+    },
+    {
+       "name":"One40",
+       "url":"http://github.com/rmlewisuk/one40",
+       "desc":"Self hosted personal Twitter archive"
+    }
+]
