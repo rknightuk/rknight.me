@@ -3,6 +3,7 @@ title: Amazon Echo Initial Thoughts
 permalink: /amazon-echo-initial-thoughts
 layout: post
 excerpt: "My initial thoughts on the Amazon Echo"
+date: 2016-09-29
 ---
 
 I have no self control so I bought an [Echo](https://www.amazon.co.uk/Amazon-SK705DI-Echo-Black/dp/B01GAGVIE4/ref=sr_1_1?sr=8-1&ie=UTF8&keywords=echo&qid=1475139825) while Amazon were offering £50 off for Prime members last week. Here's a brain dump of my initial thoughts on the device.

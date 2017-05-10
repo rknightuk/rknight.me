@@ -1,0 +1,28 @@
+<% if (site.data.projects) { %>
+<section id="projects">
+  <span class="h1"><a href="<%- url_for("projects") %>">Projects</a></span>
+
+  <%- page.content %>
+  
+  <ul class="project-list">
+    <li class="project-item">
+      <a href="https://github.com/rmlewisuk">GitHub</a>: All open source projects
+    </li>
+    <% for(var obj in site.data.projects){ %>
+      <li class="project-item">
+        <a href="<%= site.data.projects[obj].url %>"><%= site.data.projects[obj].name %></a>: <%- site.data.projects[obj].desc %>
+        <% if (site.data.projects[obj].projects) { %>
+  			<ul class="project-list-sub">
+  			  <% for(var sub in site.data.projects[obj].projects){ %>
+  			    <li class="project-item">
+  			      <a href="<%= site.data.projects[obj].projects[sub].url %>"><%= site.data.projects[obj].projects[sub].name %></a><% if (site.data.projects[obj].projects[sub].desc) { %>: <%- site.data.projects[obj].projects[sub].desc %>
+		      		<% } %>
+  			    </li>
+  			  <% } %>
+  			</ul>      	
+        <% } %>
+      </li>
+    <% } %>
+  </ul>
+</section>
+<% } %>

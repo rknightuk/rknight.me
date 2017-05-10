@@ -5,18 +5,17 @@
 		"desc": "Hot Takes and terrible jokes"
 	},
 	{
-		"name": "Flickr",
-		"url": "https://www.flickr.com/photos/rmlewisuk",
-		"desc": "Sporadic photos of Lego"
-	},
-	{
 		"name": "GitHub",
 		"url": "https://github.com/rmlewisuk",
 		"desc": "All my open source projects"
 	},
 	{
-		"name": "Everywhere else",
-		"url": "http://lmgtfy.com/?q=rmlewisuk",
-		"desc": "<em>rmlewisuk</em>"
+		"name": "Flickr",
+		"url": "https://www.flickr.com/photos/rmlewisuk",
+		"desc": "Sporadic photos of Lego"
+	},
+	{
+		"name": "PSN, Twitch, FB, &amp; more",
+		"desc": ".../<em>rmlewisuk</em>"
 	}
 ]

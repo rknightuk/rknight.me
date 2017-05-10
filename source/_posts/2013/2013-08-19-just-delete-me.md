@@ -5,8 +5,6 @@ featured: true
 date: 2013-08-19 08:00:34
 layout: post
 excerpt: "After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out won’t delete your details I decided to build JustDelete.me."
-link: http://justdelete.me
-link-title: JustDelete.me
 ---
 
 After seeing a few tweets about how difficult it can be [to delete your Skype account](https://twitter.com/aral/status/368265156868190208) and then hearing that Netflix flat-out _won’t_ delete your details I decided to build [JustDelete.me](http://justdelete.me). 

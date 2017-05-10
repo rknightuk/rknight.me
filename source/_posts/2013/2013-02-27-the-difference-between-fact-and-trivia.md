@@ -1,6 +1,6 @@
 ---
 title: The Difference Between Fact and Trivia
-permalink: /the-difference-between-fact-and-trivia/
+permalink: /the-difference-between-fact-and-trivia
 date: 2013-02-27 13:11:01
 layout: post
 ---

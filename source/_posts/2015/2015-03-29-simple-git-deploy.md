@@ -4,6 +4,7 @@ permalink: /simple-git-deploy
 layout: post
 featured: true
 excerpt: "A simple method to git push to deploy."
+date: 2015-03-29
 ---
 
 This is a simple way to deploy to a remote server, more for my reference than anything else.

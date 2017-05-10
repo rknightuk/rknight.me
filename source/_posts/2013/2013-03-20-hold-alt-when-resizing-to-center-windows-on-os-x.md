@@ -1,7 +1,7 @@
 ---
 title: Hold Alt When Resizing to Center Windows on OS X
-permalink: /hold-alt-when-resizing-to-center-windows-on-os-x/
-date: 2013-03-20 13:05:12
+permalink: /hold-alt-when-resizing-to-center-windows-on-os-x
+date: 2013-03-20
 layout: post
 ---
 

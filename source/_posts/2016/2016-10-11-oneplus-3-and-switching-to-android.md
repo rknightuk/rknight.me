@@ -3,11 +3,13 @@ title: Thoughts on OnePlus 3 and Switching to Android
 permalink: /oneplus-3-and-switching-to-android
 layout: post
 excerpt: "My thoughts after just under two weeks with the OnePlus 3"
+date: 2016-10-11
 ---
 
-<div class="post--note">
-If you want to hear more about this, or just prefer listening to reading (hi Myke), I spoke about this with John on episode 30 of our podcast, <a href="http://ruminatepodcast.com/31">Ruminate</a>. Find it in <a href="https://overcast.fm/itunes1033235350/ruminate-podcast">Overcast</a>, <a href="http://pca.st/ruminate">Pocketcasts</a>, or <a href="https://itunes.apple.com/gb/podcast/ruminate-podcast/id1033235350">iTunes</a>, or any other podcast app you use.
-</div>
+
+*If you want to hear more about this, or just prefer listening over reading (hi Myke), I spoke about this with John on episode 30 of our podcast, <a href="http://ruminatepodcast.com/31">Ruminate</a>. Find it in <a href="https://overcast.fm/itunes1033235350/ruminate-podcast">Overcast</a>, <a href="http://pca.st/ruminate">Pocketcasts</a>, or <a href="https://itunes.apple.com/gb/podcast/ruminate-podcast/id1033235350">iTunes</a>, or any other podcast app you use.*
+
+---
 
 I wrote about [replacing all my apps on Android](http://robblewis.me/replacing-apps-on-android) just under a week ago, but I wanted to lay out some of my thoughts about the [OnePlus 3](https://oneplus.net/uk/3) and Android in general.
 

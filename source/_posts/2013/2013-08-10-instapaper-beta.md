@@ -2,7 +2,7 @@
 title: Instapaper Beta
 permalink: /instapaper-beta
 featured: true
-date: 2013-08-10 15:01:33
+date: 2013-08-10
 layout: post
 ---
 

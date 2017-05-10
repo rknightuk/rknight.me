@@ -1,7 +1,8 @@
 ---
 title: 70Decibels and 5by5
-permalink: /70decibels-and-5by5/
+permalink: /70decibels-and-5by5
 layout: post
+date: 2013-03-14
 ---
 
 [70Decibels is merging with 5by5](http://www.70decibels.com/blog/2013/3/13/were-moving-to-5by5.html) which is great news for everyone involved, including listeners. Myke has worked incredibly hard to get 70Decibels to where it is today, starting with The Bro Show and expanding to the packed list of shows now:

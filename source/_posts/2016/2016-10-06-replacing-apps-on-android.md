@@ -3,6 +3,7 @@ title: Replacing Apps on Android
 permalink: /replacing-apps-on-android
 layout: post
 excerpt: "The first step to switching to Android: replacing all my apps"
+date: 2016-10-06
 ---
 
 ![](http://rmlewisuk.s3.amazonaws.com/home-screen-tiles.png)

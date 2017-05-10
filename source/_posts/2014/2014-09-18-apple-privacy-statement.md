@@ -3,6 +3,7 @@ title: Apple Privacy Statement
 permalink: /apple-privacy-statement
 layout: post
 excerpt: "Apple issued a statement on privacy and government information requests."
+date: 2014-09-18
 ---
 
 [Apple:](http://www.apple.com/privacy/government-information-requests/)

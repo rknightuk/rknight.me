@@ -4,6 +4,7 @@ permalink: /ruminate-podcast
 layout: post
 featured: true
 excerpt: "A new podcast by John Voorhees and myself"
+date: 2015-08-24
 ---
 
 [John Voorhees](http://twitter.com/johnvoorhees) and I decided to have a go at creating out own podcast. The current description of the show is:

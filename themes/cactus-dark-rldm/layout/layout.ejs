@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
+<%- partial('_partial/head') %>
+<body>
+    <div class="content index width mx-auto px2 my4">
+        <%- partial('_partial/header') %>
+        <%- body %>
+    </div>
+    <%- partial('_partial/footer') %>
+</body>
+</html>
+<%- partial('_partial/styles') %>
+<%- partial('_partial/scripts') %>

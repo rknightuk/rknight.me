@@ -4,6 +4,7 @@ permalink: /thoughts-on-chromecast
 layout: post
 featured: true
 excerpt: "The Google Chromecast has been released in the UK, so I had to buy one and try it out."
+date: 2014-03-21
 ---
 
 The Chromecast got released in the UK on Wednesday and I bought one, in the hopes it will be better than the plethora of other streaming devices I have (Apple TV, Google TV, Xbox 360, PS3). As a side note, the Google TV, specifically [this model](https://www.sony.co.uk/support/en/product/NSZ-GS7) is the worst peice of equipment I've ever owned.

@@ -1,0 +1,20 @@
+<article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+  <header>
+    <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
+    <div class="meta">
+      <div class="postdate">
+          <time datetime="<%= date_xml(page.date) %>" itemprop="datePublished"><%= date(page.date, config.post_format) %></time>
+      </div>
+      <%- partial('_partial/post/tag') %>
+    </div>
+  </header>
+  <%- partial('_partial/post/gallery') %>
+  <div class="content" itemprop="articleBody">
+    <%- page.content %>
+
+    <p class="byline">
+      This weblog has no comments. If you want to discuss this post or anything else contact me <a href="http://twitter.com/rmlewisuk">on&nbsp;Twitter (@rmlewisuk)</a> or <a href="/contact">email me</a>.
+    </p>
+  </div>
+</article>
+<%- partial('_partial/comments') %>

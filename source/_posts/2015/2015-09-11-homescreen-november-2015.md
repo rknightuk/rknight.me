@@ -3,6 +3,7 @@ title: My Homescreen
 permalink: /homescreen-september-2015
 layout: post
 excerpt: "My iPhone homescreen as of September 2015. This post orignally appeared in the MacStories newsletter."
+date: 2015-09-11
 ---
 
 *My iPhone homescreen as of September 2015. This post orignally appeared in the [MacStories newsletter (now Club MacStories)](https://www.macstories.net/club/).*

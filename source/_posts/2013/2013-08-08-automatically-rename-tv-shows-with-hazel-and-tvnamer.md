@@ -1,7 +1,7 @@
 ---
 title: Automatically Rename TV Shows with Hazel and TVNamer
 permalink: /automatically-rename-tv-shows-with-hazel-and-tvnamer
-date: 2013-08-08 13:14:20
+date: 2013-08-08
 layout: post
 ---
 

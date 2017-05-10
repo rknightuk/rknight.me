@@ -1,8 +1,8 @@
 ---
 title: Google Reader and Alternatives
-permalink: /google-reader-and-alternatives/
-date: 2013-03-14 11:00:07
+permalink: /google-reader-and-alternatives
 layout: post
+date: 2013-03-14
 ---
 
 Google have announced that they're shutting down Google Reader come July 1st: 

@@ -4,6 +4,7 @@ permalink: /ultraviolet
 layout: post
 featured: true
 excerpt: "I tried to redeem an UltraViolet download code. It didn't go well."
+date: 2015-02-20
 ---
 
 Joe Steel [wrote about digital content](http://joe-steel.com/2015-02-20-Discs-not-Included.html) following an interview with a Kevin Tsujihara, CEO of Warner Bros. Entertainment:
