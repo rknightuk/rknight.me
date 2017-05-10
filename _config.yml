@@ -69,7 +69,9 @@ theme: cactus-dark-rldm
 # Deployment
 ## Docs: https://hexo.io/docs/deployment.html
 deploy:
-  type:
+  type: git
+  repo: ssh://root@95.85.28.250/var/repo/rldm.git
+  branch: master
 
 # RSS feed
 feed:
