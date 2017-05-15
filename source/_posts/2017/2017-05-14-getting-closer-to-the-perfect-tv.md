@@ -1,5 +1,6 @@
 ---
 title: Getting Closer to the Perfect TV
+permalink: /getting-closer-to-the-perfect-tv
 date: 2017-05-15
 ---
 
