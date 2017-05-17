@@ -7,7 +7,7 @@
     var path = window.location.pathname
     if (path == '/') path = '/home'
 
-    fetch('https://micro-analytics-glezcraqhw.now.sh' + path)
+    fetch('http://stats.rbbl.ws' + path)
     // Log total pageviews for current page to console
     .then(response => response.json())
     .then(json => console.log(json.views))
