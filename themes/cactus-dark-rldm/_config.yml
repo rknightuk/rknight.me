@@ -8,6 +8,7 @@ nav:
 footer:
   Contact: /contact/
   RSS: /feed.xml
+  JSON: /feed.json
 
 projects_url: http://github.com/rmlewisuk
 
