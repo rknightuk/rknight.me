@@ -65,11 +65,12 @@
 		"name": "Guide to Bricklink",
 		"url": "http://guidetobricklink.com/",
 		"desc": "A complete guide to buying from Bricklink",
-		"featured": true
+		"featured": false
 	},
 	{
-		"name": "Stig Quote Generator",
-		"url": "http://code.robblewis.me/stig-quotes/",
-		"desc": "Random Stig introduction generator"
+		"name": "Micro Dashboard",
+		"url": "http://code.robblewis.me/micro-dashboard/",
+		"desc": "A dashboard for micro-analytics",
+		"featured": true
 	}
 ]
