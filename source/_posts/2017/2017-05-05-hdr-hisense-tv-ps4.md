@@ -12,6 +12,6 @@ My Hisense TV ([H43M3000](https://hisense.co.uk/electronics/tvs/m3000/43)) recen
 2. Open the TV settings and go to System then the "HDMI & CEC Function" section
 3. Select "Adjust" on the HDMI 2.0 Format setting and choose "Enhanced Format"
 
-Once I restarted the PS4 and TV, HDR was supported (and looked beautiful in [Horizon Xero Dawn](http://media.rbbl.ws/game/2017/05/01/horizon-zero-dawn/)) 🎉.
+Once I restarted the PS4 and TV, HDR was supported (and looked beautiful in [Horizon Zero Dawn](http://media.rbbl.ws/game/2017/05/01/horizon-zero-dawn/)) 🎉.
 
 _nb: I have an [original PS4](https://twitter.com/rmlewisuk/status/736500604705591297) so I can't confirm if this TV works with 4K on the PS4 Pro._
