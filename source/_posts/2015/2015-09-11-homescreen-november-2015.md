@@ -1,5 +1,5 @@
 ---
-title: My Homescreen
+title: My Homescreen (September 2015)
 permalink: /homescreen-september-2015
 layout: post
 excerpt: "My iPhone homescreen as of September 2015. This post orignally appeared in the MacStories newsletter."
