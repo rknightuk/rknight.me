@@ -2,7 +2,7 @@
 title: Convert a Spotify Account From Facebook to Email Login
 permalink: /convert-spotify-facebook-to-email-login
 date: 2018-03-21
-excerpt: ""
+excerpt: "This morning I tweeted that there's no way to convert a Spotify account from Facebook login to email and password login."
 ---
 
 This morning [I tweeted](https://twitter.com/rmlewisuk/status/976392265374535680) that there's no way to convert a Spotify account from Facebook login to email and password login. I even spoke to Spotify support who said:
