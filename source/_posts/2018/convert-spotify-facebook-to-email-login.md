@@ -9,7 +9,7 @@ This morning [I tweeted](https://twitter.com/rmlewisuk/status/976392265374535680
 
 > As your account was created via Facebook, it can't be unlinked. Don't worry, we can free up your email address so you can create a new account. Once that's done, we'll transfer all of your tunes and student details across.
 
-I complained about this in one the Slack groups I'm in, and Nathaniel suggested I try doing a "forgot password" to set a password on the account and it worked. After that I was able to disconnect Spotify from the [Facebook settings page](https://facebook.com/settings?tab=applications).
+I complained about this in one the Slack groups I'm in, and [Nathaniel](https://twitter.com/ndaught) suggested I try doing a "forgot password" to set a password on the account and it worked. After that I was able to disconnect Spotify from the [Facebook settings page](https://facebook.com/settings?tab=applications).
 
 1. On the [Spotify website](https://www.spotify.com/), log out
 2. Go to the login page and choose "forgot password" and use the email associated with your Facebook account
