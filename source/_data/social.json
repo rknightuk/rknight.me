@@ -2,13 +2,7 @@
 	{
 		"name": "Twitter",
 		"url": "https://twitter.com/rmlewisuk",
-		"desc": "Hot Takes and terrible jokes",
-		"strike": true
-	},
-	{
-		"name": "Mastodon",
-		"url": "https://toot.rodeo/@rmlewisuk",
-		"desc": "Decentralised Hot Takes and terrible jokes"
+		"desc": "Hot Takes and terrible jokes"
 	},
 	{
 		"name": "GitHub",
@@ -16,8 +10,9 @@
 		"desc": "All my open source projects"
 	},
 	{
-		"name": "Nintendo Switch",
-		"desc": "SW-5633-0258-5413"
+		"name": "Flickr",
+		"url": "https://www.flickr.com/photos/rmlewisuk",
+		"desc": "Sporadic photos of Lego"
 	},
 	{
 		"name": "PSN, Twitch, FB, &amp; more",
