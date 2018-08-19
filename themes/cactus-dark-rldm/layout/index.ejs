@@ -53,11 +53,13 @@
   <ul class="project-list">
     <% for(var obj in site.data.social){ %>
       <li class="project-item">
+        <% if (site.data.social[obj].strike) { %><s><% } %>
         <% if (site.data.social[obj].url) { %>
           <a href="<%= site.data.social[obj].url %>"><%= site.data.social[obj].name %></a>: <%- site.data.social[obj].desc %>
         <% } else { %>
           <%- site.data.social[obj].name %>: <%- site.data.social[obj].desc %>
         <% } %>
+        <% if (site.data.social[obj].strike) { %></s><% } %>
       </li>
     <% } %>
   </ul>
