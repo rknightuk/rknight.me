@@ -3,16 +3,16 @@
 ## Source: https://github.com/hexojs/hexo/
 
 # Site
-title: Robb Lewis
+title: Robb Knight
 subtitle: Developer
 description:
-author: Robb Lewis
+author: Robb Knight
 language:
 timezone:
 
 # URL
 ## If your site is put in a subdirectory, set url as 'http://yoursite.com/child' and root as '/child/'
-url: https://robblewis.me
+url: https://rknight.me
 root: /
 permalink: :title/
 permalink_defaults:
