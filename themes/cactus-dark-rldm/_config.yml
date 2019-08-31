@@ -3,14 +3,14 @@ nav:
   Writing: /blog/
   Podcast: http://ruminatepodcast.com
   Projects: /projects/
-  Twitter: https://twitter.com/rmlewisuk
+  Twitter: https://twitter.com/rknightuk
 
 footer:
   Contact: /contact/
   RSS: /feed.xml
   JSON: /feed.json
 
-projects_url: http://github.com/rmlewisuk
+projects_url: http://github.com/rknightuk
 
 customize:
     gravatar:

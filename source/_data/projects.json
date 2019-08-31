@@ -7,7 +7,7 @@
 	},
 	{
 		"name": "One40",
-		"url": "http://github.com/rmlewisuk/one40",
+		"url": "http://github.com/rknightuk/one40",
 		"desc": "Self hosted personal Twitter archive",
 		"featured": true
 	},
@@ -69,14 +69,8 @@
 		"featured": false
 	},
 	{
-		"name": "Micro Dashboard",
-		"url": "http://code.robblewis.me/micro-dashboard/",
-		"desc": "A dashboard for micro-analytics",
-		"featured": false
-	},
-	{
 		"name": "Almanac",
-		"url": "http://github.com/rmlewisuk/almanac/",
+		"url": "http://github.com/rknightuk/almanac/",
 		"desc": "A microblog for what you've watched, read, and listened to.",
 		"featured": true
 	}
