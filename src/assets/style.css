@@ -3,7 +3,7 @@
   --body-text: #222;
   --heading-color: #222;
   --color-primary: #f62459;
-  --subtle-color: #c1c1c1;
+  --subtle-color: #8f8f8f;
 }
 
 @media (prefers-color-scheme: dark) {
