@@ -3,22 +3,25 @@ title: Blog
 layout: base
 ---
 
-<ul class="post-list no-bull">
-	{% set datePrinted = false %}
+{% set datePrinted = false %}
+{% set currentYear = 1000 %}
+{% set started = false %}
 
-	{% set currentYear = 1000 %}
+{%- for post in collections.posts %}
+	{% set postYear = post.data.date.getFullYear() %}
 
-	{%- for post in collections.posts %}
-		{% set postYear = post.data.date.getFullYear() %}
+	{% if postYear != currentYear %}
+		{% if started %}
+			</ul>
+		{% endif %}
+        <h2>{{ postYear }}</h2>
+        <ul class="post-list no-bull">
+        {% set started = true %}
+    {% endif %}
 
-		{% if postYear != currentYear %}
-	        <h2>{{ postYear }}</h2>
-	    {% endif %}
+	<li>
+		<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
+	</li>
 
-	    {% set currentYear = postYear %}
-
-		<li>
-			<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
-		</li>
-	{% endfor %}
-</ul>
+	{% set currentYear = postYear %}
+{% endfor %}
