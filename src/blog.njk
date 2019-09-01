@@ -4,9 +4,21 @@ layout: base
 ---
 
 <ul class="post-list no-bull">
+	{% set datePrinted = false %}
+
+	{% set currentYear = 1000 %}
+
 	{%- for post in collections.posts %}
-	  <li>
-	  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
-	  </li>
+		{% set postYear = post.data.date.getFullYear() %}
+
+		{% if postYear != currentYear %}
+	        <h2>{{ postYear }}</h2>
+	    {% endif %}
+
+	    {% set currentYear = postYear %}
+
+		<li>
+			<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
+		</li>
 	{% endfor %}
 </ul>
