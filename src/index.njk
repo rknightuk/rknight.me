@@ -13,17 +13,19 @@ hidetitle: true
 <section>
 	<h2 class="heading-medium"><a href="/blog">Writing</a></h2>
 
-	<ul>
-		<li>2019-08-12: <a href="#">This is a title</a></li>
-		<li>2018-01-23: <a href="#">Another thing I wrote</a></li>
-		<li>2018-01-23: <a href="#">And another post</a></li>
+	<ul class="no-bull">
+		{%- for post in collections.firstThreePosts %}
+		  <li>
+		  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
+		  </li>
+		{% endfor %}
 	</ul>
 </section>
 
 <section>
 	<h2 class="heading-medium"><a href="/projects">Projects</a></h2>
 
-	<ul>
+	<ul class="no-bull">
 		<li><a href="http://ruminatepodcast.com">Ruminate</a>: A podcast about what's on our minds. Mostly chicken.</li>
 		<li><a href="http://devsdodesign.com">#DevsDoDesign</a>: A multi-award winning hackathon team</li>
 		<li><a href="https://github.com/rknightuk/almanac">Almanac</a>: A microblog for what you've watched, read, and listened to.</li>
@@ -33,7 +35,7 @@ hidetitle: true
 <section>
 	<h2 class="heading-medium">Social</h2>
 
-	<ul>
+	<ul class="no-bull">
 		<li><a href="#">Twitter</a>: Hot Takes and terrible jokes</li>
 		<li><a href="#">GitHub</a>: All my open source projects</li>
 		<li>Nintendo Switch: SW-5633-0258-5413</li>

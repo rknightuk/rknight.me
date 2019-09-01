@@ -3,12 +3,10 @@ title: Blog
 layout: base
 ---
 
-<ul class="post-list">
-{%- for post in collections.posts | reverse -%}
-  <li>
-  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
-  </li>
-
-  </article>
-{% endfor %}
+<ul class="post-list no-bull">
+	{%- for post in collections.posts %}
+	  <li>
+	  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink }}">{{ post.data.title }}</a>
+	  </li>
+	{% endfor %}
 </ul>

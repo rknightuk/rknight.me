@@ -1,50 +1,7 @@
+---
+layout: base
+---
 
-<!DOCTYPE html>
-<html lang="en">
-	<head>
-		<meta charset="UTF-8" />
+<span class="post-date">{{ page.date | isoDateOnly }}</span>
 
-		<meta name="viewport" content="width=device-width" />
-
-		<title>{{ title }}</title>
-
-		<link href="https://fonts.googleapis.com/css?family=BioRhyme&display=swap" rel="stylesheet">
-		<link rel="stylesheet" href="/assets/style.css" type="text/css" media="screen" title="no title" charset="utf-8">
-	</head>
-	<body>
-
-		<header role="banner">
-			<h1 class="heading-large">Robb Knight</h1>
-
-			<div class="nav">
-				<ul class="nav__list">
-					<li class="nav__list--item"><a href="/">About</a></li>
-
-					<li class="nav__list--item"><a href="/blog/">Writing</a></li>
-
-					<li class="nav__list--item"><a href="/projects/">Projects</a></li>
-
-					<li class="nav__list--item"><a href="https://twitter.com/rknightuk">Twitter</a></li>
-
-					<li class="nav__list--item"><a href="http://ruminatepodcast.com">Podcast</a></li>
-				</ul>
-			</div>
-		</header>
-
-		{% if hidetitle %}
-		{% else %}
-			<h2 class="heading-medium">{{ title }}</h2>
-		{% endif %}
-
-		{% if page.date %}
-			<span class="post-date">{{ page.date | isoDateOnly }}</span>
-		{% endif %}
-
-		{{ content | safe }}
-
-		<footer>
-			Robb Knight | <a href="/contact">Contact</a> | <a href="/feed.xml">RSS</a>
-		</footer>
-
-	</body>
-</html>
+{{ content | safe }}

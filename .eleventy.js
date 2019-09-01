@@ -6,7 +6,11 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
 
   eleventyConfig.addCollection("posts", function(collection) {
-    return collection.getFilteredByGlob("src/posts/**/*.md")
+    return collection.getFilteredByGlob("src/posts/**/*.md").reverse()
+  });
+
+  eleventyConfig.addCollection("firstThreePosts", function(collection) {
+    return collection.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 3)
   });
 
   eleventyConfig.addFilter("isoDateOnly", function(date) {

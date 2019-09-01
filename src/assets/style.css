@@ -79,6 +79,14 @@ h1, h2, h3, h4, h5, h6, strong {
   color: var(--heading-color);
 }
 
+li {
+  padding: 5px 0;
+}
+
+.no-bull {
+  list-style-type: none;
+}
+
 blockquote {
   font-style: italic;
 }
@@ -131,10 +139,6 @@ footer {
 
 .post-list {
   list-style-type: none;
-}
-
-.post-list li {
-  padding: 5px 0;
 }
 
 .post-date {
