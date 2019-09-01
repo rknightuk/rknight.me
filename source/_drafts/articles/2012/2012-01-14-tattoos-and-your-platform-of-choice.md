@@ -1,8 +1,0 @@
----
-title: Tattoos and Your Platform of Choice
-permalink: /tattoos-and-your-platform-of-choice/
-date: 2012-01-14 19:17:25
-layout: post
----
-
-A few weeks ago, I got [this tattoo](http://therobb.com/2011-11-my-new-tattoo/) done. Last week I added this to my other arm: ![css2](http://therobb.com/wp-content/uploads/2012-01-css2.jpg) Then I went a bit tattoo crazy and got this Lost quote on my arm: ![5b004fe23c3f11e19e4a12313813ffc0 7](http://therobb.com/wp-content/uploads/2012-01-5b004fe23c3f11e19e4a12313813ffc0_7.jpg) Thanks to the guys over at Panic, I got a hell of a lot of traffic to the post about the first css tattoo (I used their Panic Sans font). This obviously led to a fair few comments on both my blog and through Twitter. The majority were very complementary ((for which I am very grateful)) but quite a few were not. These were comments along the lines of "_What happens when css syntax changes?_" or "_It should have been position:relative not absolute_". Guess what? I don't care. Last time I checked, these were my tattoos, not yours. So what has this got to do with which platform users choose? Everything. Why did I get these particular tattoos? Because I wanted to. Why do I use OS X and not Windows or Linux? Because I want to. It has no affect on anyone else which platform I use and yet one mention of a specific platform pretty much anywhere online and within seconds a flame war of epic proportions has occurred. Why is this happening? Why does anyone care what platform, mobile phone or pizza topping another person prefers? It doesn't affect them. I get it, you like something I don't. Good for you. I don't care.

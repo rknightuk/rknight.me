@@ -1,0 +1,145 @@
+:root {
+  --body-background: #e6e6e6;
+  --body-text: #222;
+  --heading-color: #222;
+  --color-primary: #f62459;
+  --subtle-color: #c1c1c1;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --body-background: #222527;
+    --body-text: #B2CCD6;
+    --heading-color: #fff;
+    --subtle-color: #6f6f6f;
+  }
+}
+
+body {
+  /** source: http://markdotto.com/2018/02/07/github-system-fonts/ **/
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  font-size: 1.2em;
+  line-height: 1.6;
+  color: var(--body-text);
+  max-width: 800px;
+  padding: 2rem;
+  margin: auto;
+  background: var(--body-background);
+}
+
+img {
+  max-width: 100%;
+}
+
+a {
+  color: var(--color-primary);
+  text-decoration: underline;
+}
+
+a:visited {
+  /* visited links don't work with variables on Chrome? */
+  color: #f62459;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+header {
+  text-align: center;
+}
+
+.heading-large {
+  font-size: 4em;
+  margin-bottom: 0;
+}
+
+.heading-medium {
+  font-size: 2.5em;
+  margin-bottom: 0;
+  margin-top: 0;
+}
+
+.heading-medium a {
+  color: var(--heading-color);
+  text-decoration: none;
+}
+
+@media (max-width: 630px) {
+  .heading-large {
+    font-size: 2em;
+  }
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: 'BioRhyme';
+}
+
+h1, h2, h3, h4, h5, h6, strong {
+  color: var(--heading-color);
+}
+
+blockquote {
+  font-style: italic;
+}
+
+.nav {
+
+}
+
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  list-style-type: none;
+  padding-left: 0;
+  margin-top: 0;
+}
+
+.nav__list--item {
+    flex: 1;
+    font-weight: bold;
+    text-transform: uppercase;
+    letter-spacing: 3px;
+}
+
+.nav__list--item a {
+    text-decoration: none;
+}
+
+.nav__list--item a:hover {
+    text-decoration: underline;
+}
+
+@media (max-width: 700px) {
+  .nav__list {
+    flex-wrap: wrap;
+  }
+
+  .nav__list--item {
+    flex-basis: 33%;
+  }
+
+  .heading-medium {
+    font-size: 2em;
+  }
+}
+
+footer {
+  font-size: 0.8em;
+  text-align: center;
+}
+
+.post-list {
+  list-style-type: none;
+}
+
+.post-list li {
+  padding: 5px 0;
+}
+
+.post-date {
+  font-family: monospace;
+  font-weight: bold;
+  font-size: 110%;
+  color: var(--subtle-color);
+}
