@@ -2,12 +2,12 @@
 title: My Home Screen (November 2017)
 permalink: /homescreen-november-2017/index.html
 date: 2018-03-15 15:25:45
-excerpt: "My iPhone homescreen as of November 2017. This post orignally appeared in the Club MacStories newsletter."
+excerpt: "My iPhone home screen as of November 2017"
 tags:
 layout: post
 ---
 
-*My iPhone homescreen as of November 2017. This post orignally appeared in the [Club MacStories Newsletter)](https://www.macstories.net/club/).*
+*My iPhone home screen as of November 2017. This post orignally appeared in the [Club MacStories Newsletter)](https://www.macstories.net/club/).*
 
 <a target="_blank" href="https://rmlewisuk.s3.amazonaws.com/homescreen-november-2017.jpg"><img style="float:left;padding:10px;" src="https://rmlewisuk.s3.amazonaws.com/homescreen-november-2017.jpg" width="250" height="auto"></a>
 

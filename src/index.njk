@@ -17,6 +17,10 @@ hidetitle: true
 		{%- for post in collections.firstThreePosts %}
 		  <li>
 		  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
+
+		  	<br>
+
+		  	<span class="post-excerpt">{{ post.data.excerpt }}</span>
 		  </li>
 		{% endfor %}
 	</ul>

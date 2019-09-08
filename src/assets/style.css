@@ -147,3 +147,8 @@ footer {
   font-size: 110%;
   color: var(--subtle-color);
 }
+
+.post-excerpt {
+  font-size: 0.9em;
+  font-style: italic;
+}
