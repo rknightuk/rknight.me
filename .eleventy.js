@@ -25,6 +25,10 @@ module.exports = function(eleventyConfig) {
 
     return [year, month, day].join('-');
   })
+
+  eleventyConfig.addFilter('stripIndex', function(path) {
+    return path.replace('/index.html', '/');
+  })
   
   return {
     passthroughFileCopy: true,
