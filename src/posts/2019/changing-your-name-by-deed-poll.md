@@ -29,7 +29,7 @@ I won't list everywhere I had to change my name, but here's a good list of place
 - HMRC. You can do this online through the government gateway.
 - Passport. Again, it can be done online, but you'll need to send your deed poll and another "proof". I used a bank statement in my new name.
 - Driving Licence. Requires a new application form, order online or pickup in a Post Office.
-- Bank. Depends on the bank, check thier website.
+- Bank. Depends on the bank, check their website.
 - Credit Cards.
 - Insurance (house, car, phone, etc)
 - Utilities (water, gas, electric)
