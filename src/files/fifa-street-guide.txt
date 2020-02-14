@@ -1,0 +1,672 @@
+===============================================================================
+                        _____    __    _____     _____
+                       |  ___|  |  |  |  ___|   /     \
+                       |  |__   |  |  |  |__   /  /_\  \
+                       |  ___|  |  |  |  ___|  |  ___  |
+                       |  |     |  |  |  |     |  | |  |
+                       |__|     |__|  |__|     |__| |__|
+
+                 _____  ______   _____   ______  ______   ______
+                /    / |__  __| |  _  \ |  ____||  ____| |__  __|
+               /  ._/    |  |   | |_| | |  |__  |  |__     |  |
+               \   \     |  |   |    _/ |  ___| |  ___|    |  |
+              _/   /     |  |   |    \  |  |___ |  |___    |  |
+             |____/      |__|   |_| \_\ |______||______|   |__|  
+                   
+                      _____   __  __  ___  ____   ______
+                     /  ___\ |  ||  ||   ||    \ |  ____|
+                     | | ___ |  ||  ||   || ||  ||  |__ 
+                     | ||_ _||  ||  ||   || ||  ||  ___|
+                     | \_| | |  ||  ||   ||     ||  |___
+                     \_____/ \______/|___||____/ |______|
+                     Rob Lewis AKA Chundermonkey(C) 2005
+===============================================================================
+Contents
+===============================================================================
+[1] Introduction
+  [1.1]  Legal rubbish
+  [1.2]  Using this guide
+  [1.3]  Updates and annoucements
+[2] Know your stuff
+  [2.1]  Game modes
+  [2.2]  Teams
+  [2.3]  Venues
+  [2.4]  Music
+[3] Setting up your squad for Rule The Street (RTS)
+  [3.1]  Introduction to RTS
+  [3.2]  Creating a player
+  [3.3]  Upgrading your player
+  [3.4]  Picking your squad
+  [3.5]  Picking a logo
+[4] Playing Rule The Street
+  [4.1]  Your headquarters
+  [4.2]  RTS modes
+[5] Upgrading your squad
+  [5.1]  France upgrades
+  [5.2]  New York City upgrades
+  [5.3]  Rio De Janeiro upgrades
+  [5.4]  Lagos upgrades
+  [5.5]  Amsterdam upgrades
+  [5.6]  Rome upgrades
+  [5.7]  Berlin upgrades
+  [5.8]  Mexico City upgrades
+  [5.9]  Barcelona upgrades
+  [5.10] London upgrades
+[6]  Cheat codes
+  [6.1]  PS2 codes
+  [6.2]  GC codes
+  [6.3]  XBox codes
+[7] Questions and Answers
+ 
+===============================================================================
+[1] Introduction
+===============================================================================
+[1.1] Legal rubbish
+===============================================================================
+The contents of this guide, including the artwork at the top is copyrighted (C) 
+to Rob Lewis AKA Chundermonkey. However all player names, console names, and 
+other corporate names are copyright of thier respective owners.
+
+This guide should not be sold, publicly displayed or otherwise. This guide 
+is for personal use only! Printing this guide for personal use is 
+acceptable. If you would like to use this guide on your site e-mail me at 
+roblewis88@aol.com. Any questions e-mail me and I will add a question and 
+answer section. Any suggestions would be much appriciated!
+===============================================================================
+[1.2] Using this guide
+===============================================================================
+Press CTRL+F and type the contents number in the search box.
+E.G. To find 'Upgrading your player' type 3.3 in the search box.
+
+===============================================================================
+[1.3]  Updates and annoucements
+===============================================================================
+05.04.05 - Finished main part of the faq! Still in need of XBox and GC cheat
+           codes. E-mail me if you have any for these platforms, or any more
+           for PS2.
+===============================================================================
+[2] Know your stuff
+===============================================================================
+[2.1] Game modes
+===============================================================================
+Game on - This is, in essence, quick game mode. You pick your team, the
+oppenents team and go for it. The computer randomly picks players for your
+squad.
+
+Friendly - As above, but this time you can pick both yours, and the opponents
+squad.
+
+Rule The Street - This is basically a career mode. You create a player (see
+below), pick from a line up of novices (see [4]) then play at different
+locations against local all-star teams. For full details of this, see section
+[2.4].
+
+Create a player - Here is where you create a player to be the captain of your
+squad for Rule The Sreet. For more details see section [3.2]
+
+Star team - Here, you pick from all the unlocked players to create a squad of
+all stars which you can play as, or even against, in friendly or game on mode.
+
+Options - Does exactly what it says on the tin. Choose what music to listen to,
+what language the game will use, choose whether to use autosave or not, and
+turning replays on and off. (Trust me, you will want to turn them off after
+you've heard Dizzee Rascal say 'rewind' everytime you score a goal!)
+
+Street training - This is not so much training as a video that tells you the
+controls. Goes a bit too fast for me so best off just doing what i did, just
+practice!
+
+===============================================================================
+[2.2] Teams
+===============================================================================
+There are 16 teams in Fifa Street, each represents a country. They are;
+
+1. England
+2. France
+3. Germany
+4. Ireland
+5. Italy
+6. Mexico
+7. Nigeria
+8. Portugal
+9. South Korea
+10. Spain
+11. USA
+12. Argentina
+13. Australia
+14. Brazil
+15. Czech Republic
+16. Denmark
+
+Each team has a selection of players from that specific country you can choose
+from.
+
+===============================================================================
+[2.3] Venues
+===============================================================================
+There are ten venues in Fifa street each varying from place to place, although
+they
+are, in terms of gameplay, exactly the same.
+
+1.      Marseille : France
+2.  New York City : USA
+3. Rio De Janeiro : Brazil
+4.          Lagos : Nigeria
+5.      Amsterdam : Holland
+6.           Rome : Italy
+7.         Berlin : Germany
+8.    Mexico City : Mexico
+9.      Barcelona : Spain
+10.        London : England
+
+===============================================================================
+[2.4] Music
+===============================================================================
+These are the tracks featured in the game:
+
+Artificial Intelligence - Uprising (Overthrown) VIP 
+Artificial Intelligence - Slam 
+Baobinga & I.D. - The Feeling (Special Edit) 
+Criminal Mindz - Baptised By Dub 
+Crooked Stilo - Ya Lo Saben 
+Distortionz - Onion Ringz VIP 
+Dizzee Rascal - Stand Up Tall 
+DJ Marky & XRS - Rudebwoy 
+Drumagick - Malandragem 
+Fatboy Slim - Jin Go Lo Ba 
+Max Sedgely - Happy (Fatboy Slim Remix) 
+Ming + FS - Fish Eyes 
+Ozomatli - Ya Viene El Sol (The Beatle Bob Remix) 
+Peshay - Ronaldo 
+Ramilson Maia - A Busca Da Vida 
+Roni Size - On and On 
+Shimano - Dope Style 
+SL2 - On A Ragga Tip 
+Sur-Choc - Fou Ho 
+Taishan - Shinjuku Drop 
+Timo Maas - Feedback Welcome
+
+NOTE: These can be turned on and off in options selected from the main menu.
+The default for these songs is for half to play when you are on the menus and
+half to play during gameplay. Selecting them to 'On' will play them both on
+and off the pitch.
+
+===============================================================================
+[3] Setting up your squad for Rule The Street (RTS)
+===============================================================================
+[3.1] Introduction to RTS
+===============================================================================
+Select Rule The street from the main menu, and you will be prompted to select a
+file name for your game. Once you have done this you will be asked to select an
+already created player or to create a new player. Then pick your squad from a
+group of novices. In this section I will refer to Rule The Street mode as RTS.
+
+===============================================================================
+[3.2] Creating a player
+===============================================================================
+In create a player you have 3 options;
+
+Body - Change the height, weight and skin colour of your player. Also you can
+give your player tattoos.
+
+Head - Use this to change your players facial features and also change the 
+shape of his head.
+
+Kit - Change the clothes your player will wear and what colours the rest of 
+your team will wear. NOTE: Some items of clothing are locked at this stage. 
+These will be unlocked as you progress through RTS.
+
+===============================================================================
+[3.3] Upgrading your player
+===============================================================================
+Once you have created your player, you will be prompted to use your skill bills,
+(you start with 2000) to upgrade your player. Skill bill are essentially stat
+points and are awarded after you win a game depending on how many points you
+get and how many tricks you do, during a game. My advice is to distribute them
+equally on each skill.
+
+Each player in the game has ratings for five different skills. They are:
+
+1. Speed
+2. Shot Power
+3. Shot Accuracy
+4. Tricks
+5. Tackling
+
+Some skills are higher than others depending on the type player. EG, A defender
+will have high tackling skills, whereas a forward will have high shot power and
+accuarcy.
+
+===============================================================================
+[3.4] Picking your squad
+===============================================================================
+Once you have upgraded your player, you must pick from a selction of novice
+players to be in your squad. There are 2 goal keepers, 6 defenders, 4
+midfielders, and 4 forwards. I suggest picking 1 goalkeeper and 2 of each of the
+others (defenders, midfielders and forwards), bearing in mind your created
+player counts as 1 player and if you followed my advice he will be a good,
+all-round player. Each player also has a number (SBN) which corresponds to how
+many skill bills they have.
+
+The players you have to pick from are;
+
+GOAL KEEPERS
+Kalac SBN = 16
+Kenny SBN = 16
+
+DEFENDERS
+Rau SBN = 16
+Garcia SBN = 16
+Ujfalusi SBN = 16
+Hejduk SBN = 14
+Helueg SBN = 14
+Cunningham SBN = 13
+
+MIDFIELDERS
+Jensen SBN = 15
+Holland SBN = 15
+Kilbane SBN = 14
+Lazardis SBN = 13
+
+FORWARDS
+Bravo SBN = 14
+Delgado SBN = 14
+Morrison SBN = 13
+Connolly SBN = 11
+
+===============================================================================
+[3.5] Picking a logo
+===============================================================================
+When setting up your squad for RTS, you have to pick a logo which will be used
+at the beginning sequence of each game. There are 19 logos to choose from. It
+does not matter which one you pick, so its a matter of preference. 
+They are as follows;
+
+1. Lion
+2. Snake
+3. Winged dragon
+4. Shark
+5. Bull
+6. Scorpion
+7. Eagle
+8. Welsh-style dragon
+9. Cobra
+10. Skeleton fish
+11. English-style lion
+12. Chinese dragon
+13. Football emblem
+14. Cowboy
+15. Wolf
+16. 'Whizz' football
+17. Headphones
+18. 'Flame' football
+19. Record
+
+===============================================================================
+[4] Playing Rule The Street
+===============================================================================
+[4.1] Your headquarters
+===============================================================================
+At your headquarters, you can upgrade your player using skill bills you have
+been awarded by playing matches at each location. You can also see which
+tournaments you have won and change the appearance of your squad. I only 
+really use this to upgrade my player.
+
+===============================================================================
+[4.2] RTS modes
+===============================================================================
+When you first start there are 3 locations open and you can compete in any of
+these in any order you want. The best way is to do them in order as the 
+players are better the further you go and you team will not be able to beat 
+them without a very hard, uphill struggle. So start off with france and work
+your way through.
+
+Each location has three modes;
+
+Friendly - Play against local teams to gain skill bills, you must play at least
+seven friendlies to complete each level. First to 5 goals, wins.
+
+Upgrade squad - Play against a team with a professional captain. If you win 
+you can add him to your squad. Some players cost money to play. If you lose 
+and you want to play them again, you have to pay again. see section [4.3]
+
+Tournement - Each venue has a tournement in which you play three matches. 
+Unlike friendlies, the matches have two halves (3 minutes each way for quarter
+and semi finals, and 5 minutes for the final). You must win these in order to
+unlock new venues. Dont forget to upgrade your players whenever you can,
+otherwise you will find it very hard to win the tournement. These tournements
+cost money to enter, prices of which vary at each location.
+
+===============================================================================
+[5] Upgrading your squad
+===============================================================================
+There are five players for each venue that can be unlocked and out on your 
+squad. They are as follows;
+
+===============================================================================
+[5.1] France upgrades
+===============================================================================
+Name: Viduka
+Cost: 4,800
+SBN: 53
+Position: Forward
+
+Name: Alonso
+Cost: 3,600
+SBN: 50
+Position: Midfield
+
+Name: Crespo
+Cost: 1,200
+SBN: 38
+Position: Forward
+
+Name: James
+Cost: 2,400
+SBN: 38
+Position: Goal keeper
+
+Name: Rivaldo
+Cost: FREE
+SBN: 35
+Position: Midfield
+
+===============================================================================
+[5.2] New York City upgrades
+===============================================================================
+
+Name: Cisse
+Cost: 5,304
+SBN: 55
+Position: Forward
+
+Name: Makelele
+Cost: 3,978
+SBN: 54
+Position: Midfield
+
+Name: Sorensen 
+Cost: 2,652
+SBN: 40
+Position: Goal keeper
+
+Name: Worns 
+Cost: 1,326
+SBN: 38
+Position: Defender
+
+Name: Solari 
+Cost: 663
+SBN: 29
+Position: Midfield
+
+===============================================================================
+[5.3]  Rio De Janeiro upgrades
+===============================================================================
+
+Name: Okocha 
+Cost: 5,840
+SBN: 4,380
+Position: Midfield
+
+Name: Kanu  
+Cost: 4,380
+SBN: 57
+Position: Forward
+
+Name: Helguera  
+Cost: 2,920
+SBN: 55
+Position: Defender
+
+Name: Freidel  
+Cost: 1,460
+SBN: 54
+Position: Goal keeper
+
+Name: Yakubu  
+Cost: 730
+SBN: 38
+Position: Forward
+
+
+===============================================================================
+[5.4]  Lagos upgrades
+===============================================================================
+
+
+Name: Ballack  
+Cost: 7,200
+SBN: 76
+Position: Midfield
+
+Name: Blanco   
+Cost: 5,600
+SBN: 60
+Position: Forward
+
+Name: Denilson  
+Cost: 4,000 
+SBN: 55
+Position: Midfield
+
+Name: Cafu  
+Cost: FREE 
+SBN: 52
+Position: Defender
+
+Name: Wiltord   
+Cost: FREE
+SBN: 37
+Position: Forward
+
+===============================================================================
+[5.5]   Amsterdam upgrades
+===============================================================================
+
+Name: Nesta   
+Cost: 7,875
+SBN: 80
+Position: Defender
+
+Name: Adu   
+Cost: 6,125
+SBN: 68
+Position: Midfield
+
+Name: Edward    
+Cost: FREE
+SBN: 53
+Position: Midfield
+
+Name: Lenny    
+Cost: 4,375
+SBN: 53
+Position: Midfield
+
+Name: Wright-Phillips    
+Cost: FREE
+SBN: 40
+Position: Midfield
+
+===============================================================================
+[5.6]  Rome upgrades
+===============================================================================
+
+Name: Carlos
+Cost: 8,595
+SBN: 80
+Position: Defender 
+
+Name: Rosicky
+Cost: 6,685
+SBN: 79
+Position: Midfield
+
+Name: Casillas
+Cost: 4,775
+SBN: 78
+Position: Goal keeper 
+
+Name: Maniche
+Cost: 2,865
+SBN: 59
+Position: Midfield 
+
+Name: Trezeguet 
+Cost: FREE
+SBN: 57
+Position: Forward 
+
+===============================================================================
+[5.7]  Berlin upgrades
+===============================================================================
+
+Name: Beckham 
+Cost: 10,410
+SBN: 85
+Position: Midfield
+
+Name: Saviola 
+Cost: 8,328
+SBN: 78
+Position: Forward
+
+Name: Puyol  
+Cost: 6,246
+SBN: 77
+Position: Defender
+
+Name: Pires  
+Cost: 4,164
+SBN: 70
+Position: Midfield
+
+Name: Vieri  
+Cost: 3,123
+SBN: 60
+Position: Forward
+
+===============================================================================
+[5.8]  Mexico City upgrades
+===============================================================================
+
+Name: C Ronaldo 
+Cost: 11,340
+SBN: 91
+Position: Midfield
+
+Name: Raul 
+Cost: 9,072
+SBN: 89
+Position: Forward
+
+Name: A Cole  
+Cost: 6,804
+SBN: 78
+Position: Defender
+
+Name: Lampard  
+Cost: 4,536
+SBN: 74
+Position: Midfield
+
+Name: Torres  
+Cost: 3,402
+SBN: 71
+Position: Forward
+
+===============================================================================
+[5.9]  Barcelona upgrades
+===============================================================================
+
+Name: Deco 
+Cost: 12,340
+SBN: 95
+Position: Midfield
+
+Name: Rooney 
+Cost: 9,872
+SBN: 91
+Position: Forward
+
+Name: Owen  
+Cost: 4,936
+SBN: 87
+Position: Forward
+
+Name: Buffon  
+Cost: 7,404
+SBN: 81
+Position: Goalkeeper
+
+Name: Ferdinand 
+Cost: 3,702
+SBN: 79
+Position: Defender
+
+===============================================================================
+[5.10]  London upgrades
+===============================================================================
+
+Name: Ronaldinho 
+Cost: 20,175
+SBN: 97
+Position: Forward
+
+Name: Henry 
+Cost: 14,725
+SBN: 95
+Position: Forward
+
+Name: Ronaldo
+Cost: 9,415
+SBN: 93
+Position: Forward
+
+Name: Duff
+Cost: 6,725
+SBN: 91
+Position: Midfield
+
+Name: Gerrard
+Cost: 5,380
+SBN: 77
+Position: Midfield
+===============================================================================
+[6]  Cheat codes
+===============================================================================
+[6.1] PS2 codes
+===============================================================================
+To get these cheats to work, follow the instructions as stated.
+
+FOOTWEAR AND APPAREL
+With this cheat you will get all clothing and accessories.
+On the Main Menu, hold L1 + Triangle and press:
+Right, Right, Left, Up, Up, Up, Down, Left.
+
+MINI PLAYERS
+During play, pause the game, hold L1 + Triangle and press:
+Up, Left, Down, Down, Right, Down, Up, Left.
+
+NORMAL SIZE PLAYERS
+During play, pause the game, hold L1 + Triangle and press:
+Right, Right Up, Down, Down, Left, Right, Left.
+===============================================================================
+[6.2] GC codes
+===============================================================================
+NONE AVAILABLE AS YET
+E-MAIL ME CODES FOR GC
+roblewis88@aol.com
+===============================================================================
+[6.3] XBox codes
+===============================================================================
+NONE AVAILABLE AS YET
+E-MAIL ME CODES FOR XBOX
+roblewis88@aol.com
+===============================================================================
+[7] Questions and Answers
+===============================================================================
+I HAVE RECIEVED NO QUESTIONS AS YET
+E-MAIL ME YOUR QUESTIONS
+roblewis88@aol.com
