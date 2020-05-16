@@ -10,3 +10,4 @@ I'm not going to list everything I use but here's some of the really useful apps
 - [Amphetamine](https://roaringapps.com/app/amphetamine) - Keep your Mac awake
 - [TablePlus](https://tableplus.com) - Database management app
 - [StopTheNews](https://lapcatsoftware.com/articles/StopTheNews.html) - Make Apple News links open in Safari on the Mac
+- [Glance](https://github.com/samuelmeuli/glance) - All-in-one QuickLook plugin
