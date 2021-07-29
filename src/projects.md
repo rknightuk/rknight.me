@@ -6,6 +6,7 @@ layout: base
 *   [GitHub](https://github.com/rknightuk): All open source projects
 *   [Ruminate](http://ruminatepodcast.com): A podcast about what's on our minds
 *   [Monzo Pot Image Generator](http://potimages.rknight.me): Generate images for your Monzo pots
+*   [Alfred Workflows](/alfred-workflows): All of my Alfred Workflows
 *   [Almanac](http://github.com/rknightuk/almanac/): A microblog for what you've watched, read, and listened to.
 *   [#DevsDoDesign](http://devsdodesign.com): A multi-award winning hackathon team
     *   [Has It Blown Over Yet?](http://blownover.devsdodesign.com/): Winner, [Pub Hack #1](http://www.pubhack.co.uk/pubhack-1-results-report): Most Likely to Commercially Succeed.
@@ -15,4 +16,3 @@ layout: base
     *   [T.R.U.M.P](http://devsdodesign.com/T.R.U.M.P./): Winner, [Pub Hack #5](http://www.pubhack.co.uk/pubhack-5-results/): Audience Choice Award.
 *   [Chrome Extensions](https://chrome.google.com/webstore/detail/github-pages-view-source/eboipoomjlbpkfmmiicfgmclghepgbbk/related):
     *   [Local or Live](https://chrome.google.com/webstore/detail/local-or-live/jkaaaiinegnfdfimdmmppljjomlidnlo): Add a banner to sites to indicate whether it's local or live.
-*   [Guide to Bricklink](http://guidetobricklink.com/): A complete guide to buying from Bricklink
