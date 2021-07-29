@@ -7,7 +7,9 @@
     "@11ty/eleventy": "^0.9.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "node-fetch": "^2.6.1"
+  },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/eleventy --serve",
