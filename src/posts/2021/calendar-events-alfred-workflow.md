@@ -7,7 +7,7 @@ tags:
 layout: post
 ---
 
-NB: This workflow has been deprecated and replaced with the [Agenda Workflow](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda/agenda.alfredworkflow)
+NB: This workflow has been deprecated and replaced with the [Agenda Workflow](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda)
 
 tl;dr: Calendar events workflow for Alfred. [Download it here](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/calendar-events).
 
