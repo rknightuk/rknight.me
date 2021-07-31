@@ -7,6 +7,8 @@ tags:
 layout: post
 ---
 
+NB: This workflow has been deprecated and replaced with the [Agenda Workflow](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda/agenda.alfredworkflow)
+
 tl;dr: Reminders workflow for Alfred. [Download it here](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/reminders).
 
 There are a number of workflows available for [Alfred](https://www.alfredapp.com) to manage Reminders on the Mac and I've tried most of them; none of them do everything I want. Most of them have one of these problems:

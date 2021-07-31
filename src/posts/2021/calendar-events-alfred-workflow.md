@@ -7,6 +7,8 @@ tags:
 layout: post
 ---
 
+NB: This workflow has been deprecated and replaced with the [Agenda Workflow](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda/agenda.alfredworkflow)
+
 tl;dr: Calendar events workflow for Alfred. [Download it here](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/calendar-events).
 
 I released a [Reminders workflow](https://rknight.me/reminders-alfred-workflow/) a few days ago and while working on that I realised a lot of the code would be reusable for a version to manage calendar events. So I went at it tonight while it was too hot to sleep (it's 3am).
