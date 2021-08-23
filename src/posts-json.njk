@@ -7,7 +7,8 @@ eleventyExcludeFromCollections: true
     {%- for post in collections.posts %}
     {
         "title": "{{ post.data.title }}",
-        "url": "{{ post.data.permalink }}"
+        "url": "{{ post.data.permalink }}",
+        "date": "{{ post.data.date | isoDateOnly }}"
     }{% if not loop.last %},{% else %}{%- endif -%}
     {%- endfor -%}
 ]}
