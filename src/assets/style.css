@@ -4,6 +4,7 @@
   --heading-color: #222;
   --color-primary: #f62459;
   --subtle-color: #8f8f8f;
+  --visited-color: orange;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -37,8 +38,7 @@ a {
 }
 
 a:visited {
-  /* visited links don't work with variables on Chrome? */
-  color: #f62459;
+  color: var(--color-primary);
 }
 
 a:hover {
