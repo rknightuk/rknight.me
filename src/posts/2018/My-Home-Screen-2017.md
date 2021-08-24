@@ -7,7 +7,7 @@ tags:
 layout: post
 ---
 
-*My iPhone home screen as of November 2017. This post orignally appeared in the [Club MacStories Newsletter)](https://www.macstories.net/club/).*
+*My iPhone home screen as of November 2017. This post orignally appeared in [issue 104 of MacStories Weekly](https://club.macstories.net/posts/home-screen-robb-lewis).*
 
 <a target="_blank" href="https://rmlewisuk.s3.amazonaws.com/homescreen-november-2017.jpg"><img style="float:left;padding:10px;" src="https://rmlewisuk.s3.amazonaws.com/homescreen-november-2017.jpg" width="250" height="auto"></a>
 
