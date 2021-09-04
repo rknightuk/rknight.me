@@ -1,0 +1,196 @@
+---
+title: TrackerZapper for Mac
+layout: base
+---
+
+<style>
+.header {
+    text-align: center;
+    margin-top: 20px;
+}
+
+.main-logo {
+    color: #F5E51B;
+    width: 75px;
+    height: 75px;
+}
+
+.menubar {
+    box-sizing: border-box;
+    height: 35px;
+    width: 100%;
+    margin: 20px auto;
+    background: #4A4A4A;
+    padding: 0 10px;
+    display: flex;
+}
+
+.menubar div {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.menubar svg {
+    margin: 0 5px;
+    width: 22px;
+    height: 22px;
+    color: grey;
+}
+
+.menubar .zapper {
+    color: white;
+}
+
+.menubar .right {
+    justify-content: flex-end;
+}
+
+.zap-button {
+    margin-top: 10px;
+}
+
+.zap-button a {
+    padding: 10px;
+    border: 1px solid #F5E51B;
+}
+
+.zap-button a:hover {
+    background: #F5E51B;
+    color: black;
+}
+</style>
+
+<svg width="0" height="0" class="hidden">
+        <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" id="apple">
+            <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path>
+        </symbol>
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 320 512" id="bluetooth">
+            <path fill="currentColor" d="M196.48 260.023l92.626-103.333L143.125 0v206.33l-86.111-86.111-31.406 31.405 108.061 108.399L25.608 368.422l31.406 31.405 86.111-86.111L145.84 512l148.552-148.644-97.912-103.333zm40.86-102.996l-49.977 49.978-.338-100.295 50.315 50.317zM187.363 313.04l49.977 49.978-50.315 50.316.338-100.294z"></path>
+          </symbol>
+          <symbol xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 479 479" id="logo">
+            <g id="Layer_1">
+              <ellipse stroke-width="50" ry="214.5" rx="214.5" id="svg_1" cy="239.5" cx="239.5" stroke="currentColor" fill="none"></ellipse>
+              <g stroke="null">
+                <polygon fill="currentColor" stroke="null" points="250.12964630126953,85.05557250976562 143.83333587646484,270.3888854980469 239.50000762939453,270.3888854980469 228.87036895751953,393.9444274902344 335.16666412353516,208.6111297607422 239.50000762939453,208.6111297607422 250.12964630126953,85.05557250976562 "></polygon>
+              </g>
+            </g>
+          </symbol>
+          <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 640 512" id="wifi">
+            <path fill="currentColor" d="M634.91 154.88C457.74-8.99 182.19-8.93 5.09 154.88c-6.66 6.16-6.79 16.59-.35 22.98l34.24 33.97c6.14 6.1 16.02 6.23 22.4.38 145.92-133.68 371.3-133.71 517.25 0 6.38 5.85 16.26 5.71 22.4-.38l34.24-33.97c6.43-6.39 6.3-16.82-.36-22.98zM320 352c-35.35 0-64 28.65-64 64s28.65 64 64 64 64-28.65 64-64-28.65-64-64-64zm202.67-83.59c-115.26-101.93-290.21-101.82-405.34 0-6.9 6.1-7.12 16.69-.57 23.15l34.44 33.99c6 5.92 15.66 6.32 22.05.8 83.95-72.57 209.74-72.41 293.49 0 6.39 5.52 16.05 5.13 22.05-.8l34.44-33.99c6.56-6.46 6.33-17.06-.56-23.15z"></path>
+          </symbol>
+        </svg>
+
+        <div class="header">
+            <div class="menubar">
+                <div>
+                    <svg><use xlink:href="#apple"></use></svg>
+                </div>
+                <div class="right">
+                    <svg class="zapper"><use xlink:href="#logo"></use></svg>
+                    <svg><use xlink:href="#bluetooth"></use></svg>
+                    <svg><use xlink:href="#wifi"></use></svg>
+                </div>
+            </div>
+            <p>TrackerZapper is a Mac app that sits in your menubar and silently removes tracking parameters from any links you copy.</p>
+
+            <p><a href="https://github.com/rknightuk/TrackerZapper/releases/latest">Download TrackerZapper</a>
+            <p><small>Requires MacOS Big Sur or later because I don't have anything else to test on. It might work, give it a go.</small></p>
+
+            <p>Try it out 👇️</p>
+            <textarea onclick="this.select()" id="zap-input" placeholder="Paste links here" rows="5">https://www.youtube.com/watch?v=dQw4w9WgXcQ&s=never&fbclid=gunna&gclid=give&gclsrc=you&utm_content=up&utm_term=never&utm_campaign=gunna&utm_medium=let&utm_source=you&utm_id=down&_ga=never&mc_cid=gunna&mc_eid=run&_bta_tid=around&_bta_c=and&trk_contact=desert&trk_msg=you&trk_module=never&trk_sid=gunna&gdfms=make&gdftrk=you&gdffi=cry&_ke=never&redirect_log_mongo_id=gunna&redirect_mongo_id=say&sb_referer_host=goodbye&mkwid=never&pcrid=gunna&ef_id=tell&s_kwcid=a&msclkid=lie&dm_i=and&epik=hurt&pk_campaign=you</textarea>
+            
+            <input type="submit" value="Zap the Trackers" id="zap-input-submit">
+
+            <footer>
+                <a href="https://monzo.me/robbknight?d=TrackerZapper">Buy me a Coffee</a></p>
+            </footer>
+        </div>
+
+        <script>
+            (function() {
+                document.getElementById('zap-input-submit').addEventListener('click', function(e) {
+                    e.preventDefault()
+                    const textArea = document.getElementById('zap-input')
+                    textArea.value = zap(textArea.value)
+                })
+
+                const REMOVE = [
+                    "_bta_c",
+                    "_bta_tid",
+                    "_ga",
+                    "_hsenc",
+                    "_hsmi",
+                    "_ke",
+                    "_openstat",
+                    "dm_i",
+                    "ef_id",
+                    "epik",
+                    "fbclid",
+                    "gclid",
+                    "gclsrc",
+                    "gdffi",
+                    "gdfms",
+                    "gdftrk",
+                    "hsa_",
+                    "igshid",
+                    "matomo_",
+                    "mc_",
+                    "mkwid",
+                    "msclkid",
+                    "mtm_",
+                    "name",
+                    "ns_",
+                    "oly_anon_id",
+                    "oly_enc_id",
+                    "otc",
+                    "pcrid",
+                    "piwik_",
+                    "pk_",
+                    "rb_clickid",
+                    "redirect_log_mongo_id",
+                    "redirect_mongo_id",
+                    "ref",
+                    "s_kwcid",
+                    "sb_referer_host",
+                    "soc_src",
+                    "soc_trk",
+                    "spm",
+                    "sr_",
+                    "srcid",
+                    "stm_",
+                    "trk_",
+                    "utm_",
+                    "vero_",
+                ]
+
+                zap = function(text) {
+                    // https://stackoverflow.com/a/8943487
+                    var urlPattern = /(\b(https?|ftp|file):\/\/[-A-Z0-9+&@#\/%?=~_|!:,.;]*[-A-Z0-9+&@#\/%=~_|])/ig
+                    const urls = text.match(urlPattern)
+                    if (urls === null) return text
+                    let formatted = text
+                    urls.forEach(original => {
+                        const [main, rawParams] = original.split('?')
+                        if (!rawParams) return
+                        let params = rawParams.split('&').filter(p => {
+                            let keep = true
+                            REMOVE.forEach(r => {
+                                if (!keep) return
+                                if (p.startsWith(r)) {
+                                    keep = false
+                                }
+                            })
+                            return keep
+                        })
+
+                        params = params.join('&')
+                        const changed = `${main}${params ? `?${params}` : ''}`
+                        formatted = formatted.replace(original, changed)
+                    })
+
+                    return formatted
+                }
+                
+            })();
+        </script>

@@ -4,6 +4,7 @@ layout: base
 ---
 
 *   [GitHub](https://github.com/rknightuk): All open source projects
+*   [TrackerZapper](/apps/tracker-zapper): Remove link tracking parameters automatically
 *   [Ruminate](http://ruminatepodcast.com): A podcast about what's on our minds
 *   [Monzo Pot Image Generator](http://potimages.rknight.me): Generate images for your Monzo pots
 *   [Alfred Workflows](/alfred-workflows): All of my Alfred Workflows
