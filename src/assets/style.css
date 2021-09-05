@@ -102,7 +102,7 @@ h2 a {
 
 @media (max-width: 630px) {
   .heading-large {
-    font-size: 2em;
+    font-size: 3em;
   }
 }
 
@@ -155,7 +155,7 @@ blockquote {
   }
 
   .nav__list--item {
-    flex-basis: 33%;
+    flex-basis: 50%;
   }
 
   h2 {
