@@ -1,3 +1,8 @@
+@font-face {
+  font-family: Bayshore;
+  src: url('/assets/Bayshore.woff') format('woff');
+}
+
 :root {
   --body-background: #e6e6e6;
   --body-text: #222;
@@ -23,7 +28,8 @@ body {
   line-height: 1.6;
   color: var(--body-text);
   max-width: 800px;
-  padding: 2rem;
+  padding: 30px;
+  padding-top: 0;
   margin: auto;
   background: var(--body-background);
 }
@@ -50,17 +56,46 @@ header {
 }
 
 .heading-large {
-  font-size: 4em;
+  font-family: Bayshore;
+  font-size: 4.5em;
   margin-bottom: 0;
 }
 
-.heading-medium {
-  font-size: 2.5em;
+.heading-large a {
+  text-decoration: none;
+  color: white;
+}
+
+@keyframes flicker {
+  0%, 18%, 22%, 25%, 53%, 57%, 100% {
+      text-shadow: 
+        0 0 7px var(--color-primary),
+        0 0 10px var(--color-primary),
+        0 0 21px var(--color-primary),
+        0 0 42px var(--color-primary),
+        0 0 82px var(--color-primary),
+        0 0 92px var(--color-primary),
+        0 0 102px var(--color-primary), 
+        0 0 10px var(--color-primary)
+  }
+  
+  20%, 24%, 55% {        
+      text-shadow: none;
+  }    
+}
+
+.heading-large a:hover {
+  /* text-shadow: none; */
+  animation: flicker 1.5s infinite alternate;
+}
+
+h2 {
+  font-size: 1.5em;
   margin-bottom: 0;
   margin-top: 0;
 }
 
-.heading-medium a {
+h2 a {
   color: var(--heading-color);
   text-decoration: none;
 }
@@ -69,10 +104,6 @@ header {
   .heading-large {
     font-size: 2em;
   }
-}
-
-h1, h2, h3, h4, h5, h6 {
-  font-family: 'BioRhyme';
 }
 
 h1, h2, h3, h4, h5, h6, strong {
@@ -127,8 +158,8 @@ blockquote {
     flex-basis: 33%;
   }
 
-  .heading-medium {
-    font-size: 2em;
+  h2 {
+    font-size: 1.3em;
   }
 }
 
@@ -139,6 +170,7 @@ footer {
 
 .post-list {
   list-style-type: none;
+  margin-left: -30px;
 }
 
 .post-date {
@@ -151,6 +183,25 @@ footer {
 .post-excerpt {
   font-size: 0.9em;
   font-style: italic;
+}
+
+p,
+ul {
+  margin-top: 0;
+}
+
+.project {
+  text-align: center;
+  padding: 20px 10px 5px 10px;
+  border-bottom: 1px solid var(--subtle-color);
+}
+
+.project:last-child {
+  border-bottom: none;
+}
+
+.project img {
+  height: 75px;
 }
 
 /* buttons and forms from Sakura.css */

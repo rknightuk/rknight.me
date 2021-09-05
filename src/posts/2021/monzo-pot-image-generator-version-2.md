@@ -21,4 +21,4 @@ So I spent some time adding and updating the site:
 - New coloured Monzo logo from the Monzo press kit
 - Offline support
 
-Click the beta banner at the [top of the page to try it out](https://potimages.rknight.me/).
+Try the [Monzo Pot Image Generator](https://potimages.rknight.me/).
