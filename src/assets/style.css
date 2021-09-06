@@ -46,14 +46,14 @@ header {
   margin-top: 20px;
 }
 
-.header {
+.main-header {
   font-family: Bayshore;
   font-size: 4.5em;
   margin-bottom: 0;
   color: white!important;
 }
 
-.header {
+.main-header {
   text-decoration: none;
   color: white;
 }
@@ -76,7 +76,7 @@ header {
   }    
 }
 
-.header:hover {
+.main-header:hover {
   animation: flicker 1.5s infinite alternate;
 }
 
@@ -92,7 +92,7 @@ h2 a {
 }
 
 @media (max-width: 630px) {
-  .header {
+  .main-header {
     font-size: 3em;
   }
 }
