@@ -4,21 +4,11 @@
 }
 
 :root {
-  --body-background: #e6e6e6;
-  --body-text: #222;
-  --heading-color: #222;
   --color-primary: #f62459;
-  --subtle-color: #8f8f8f;
-  --visited-color: orange;
-}
-
-@media (prefers-color-scheme: dark) {
-  :root {
-    --body-background: #222527;
-    --body-text: #B2CCD6;
-    --heading-color: #fff;
-    --subtle-color: #6f6f6f;
-  }
+  --body-background: #222527;
+  --body-text: #B2CCD6;
+  --heading-color: #fff;
+  --subtle-color: #6f6f6f;
 }
 
 body {
@@ -60,6 +50,7 @@ header {
   font-family: Bayshore;
   font-size: 4.5em;
   margin-bottom: 0;
+  color: white!important;
 }
 
 .header {
