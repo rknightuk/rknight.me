@@ -53,15 +53,16 @@ a:hover {
 
 header {
   text-align: center;
+  margin-top: 20px;
 }
 
-.heading-large {
+.header {
   font-family: Bayshore;
   font-size: 4.5em;
   margin-bottom: 0;
 }
 
-.heading-large a {
+.header {
   text-decoration: none;
   color: white;
 }
@@ -84,8 +85,7 @@ header {
   }    
 }
 
-.heading-large a:hover {
-  /* text-shadow: none; */
+.header:hover {
   animation: flicker 1.5s infinite alternate;
 }
 
@@ -101,7 +101,7 @@ h2 a {
 }
 
 @media (max-width: 630px) {
-  .heading-large {
+  .header {
     font-size: 3em;
   }
 }
