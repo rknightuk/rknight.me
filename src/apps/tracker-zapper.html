@@ -4,18 +4,18 @@ layout: base
 ---
 
 <style>
-.header {
+.tz-header {
     text-align: center;
-    margin-top: 20px;
+    margin-top: -20px;
 }
 
-.main-logo {
+.tz-main-logo {
     color: #F5E51B;
     width: 75px;
     height: 75px;
 }
 
-.menubar {
+.tz-menubar {
     box-sizing: border-box;
     height: 35px;
     width: 100%;
@@ -25,43 +25,43 @@ layout: base
     display: flex;
 }
 
-.menubar div {
+.tz-menubar div {
     flex: 1;
     display: flex;
     align-items: center;
 }
 
-.menubar svg {
+.tz-menubar svg {
     margin: 0 5px;
     width: 22px;
     height: 22px;
     color: grey;
 }
 
-.menubar .zapper {
+.tz-menubar .tz-zapper {
     color: white;
 }
 
-.menubar .right {
+.tz-menubar .tz-right {
     justify-content: flex-end;
 }
 
-.zap-button {
+.tz-zap-button {
     margin-top: 10px;
 }
 
-.zap-button a {
+.tz-zap-button a {
     padding: 10px;
     border: 1px solid #F5E51B;
 }
 
-.zap-button a:hover {
+.tz-zap-button a:hover {
     background: #F5E51B;
     color: black;
 }
 </style>
 
-<svg width="0" height="0" class="hidden">
+<svg width="0" height="0" class="tz-hidden">
         <symbol xmlns="http://www.w3.org/2000/svg" viewBox="0 0 384 512" id="apple">
             <path fill="currentColor" d="M318.7 268.7c-.2-36.7 16.4-64.4 50-84.8-18.8-26.9-47.2-41.7-84.7-44.6-35.5-2.8-74.3 20.7-88.5 20.7-15 0-49.4-19.7-76.4-19.7C63.3 141.2 4 184.8 4 273.5q0 39.3 14.4 81.2c12.8 36.7 59 126.7 107.2 125.2 25.2-.6 43-17.9 75.8-17.9 31.8 0 48.3 17.9 76.4 17.9 48.6-.7 90.4-82.5 102.6-119.3-65.2-30.7-61.7-90-61.7-91.9zm-56.6-164.2c27.3-32.4 24.8-61.9 24-72.5-24.1 1.4-52 16.4-67.9 34.9-17.5 19.8-27.8 44.3-25.6 71.9 26.1 2 49.9-11.4 69.5-34.3z"></path>
         </symbol>
@@ -81,13 +81,16 @@ layout: base
           </symbol>
         </svg>
 
-        <div class="header">
-            <div class="menubar">
+        <div class="tz-header">
+        <img src="https://raw.githubusercontent.com/rknightuk/TrackerZapper/main/TrackerZapper/Assets.xcassets/AppIcon.appiconset/128.png">
+        <p><a href="https://github.com/rknightuk/TrackerZapper/releases/latest">Download TrackerZapper</a>
+
+            <div class="tz-menubar">
                 <div>
                     <svg><use xlink:href="#apple"></use></svg>
                 </div>
-                <div class="right">
-                    <svg class="zapper"><use xlink:href="#logo"></use></svg>
+                <div class="tz-right">
+                    <svg class="tz-zapper"><use xlink:href="#logo"></use></svg>
                     <svg><use xlink:href="#bluetooth"></use></svg>
                     <svg><use xlink:href="#wifi"></use></svg>
                 </div>
@@ -96,17 +99,12 @@ layout: base
 
             <p>As seen <s>on TV</s> in <a href="https://club.macstories.net/posts/app-debuts-289">MacStories weekly</a></p>
 
-            <p><a href="https://github.com/rknightuk/TrackerZapper/releases/latest">Download TrackerZapper</a>
             <p><small>Requires MacOS Big Sur or later because I don't have anything else to test on. It might work, give it a go.</small></p>
 
             <p>Try it out 👇️</p>
             <textarea onclick="this.select()" id="zap-input" placeholder="Paste links here" rows="5">https://www.youtube.com/watch?v=dQw4w9WgXcQ&s=never&fbclid=gunna&gclid=give&gclsrc=you&utm_content=up&utm_term=never&utm_campaign=gunna&utm_medium=let&utm_source=you&utm_id=down&_ga=never&mc_cid=gunna&mc_eid=run&_bta_tid=around&_bta_c=and&trk_contact=desert&trk_msg=you&trk_module=never&trk_sid=gunna&gdfms=make&gdftrk=you&gdffi=cry&_ke=never&redirect_log_mongo_id=gunna&redirect_mongo_id=say&sb_referer_host=goodbye&mkwid=never&pcrid=gunna&ef_id=tell&s_kwcid=a&msclkid=lie&dm_i=and&epik=hurt&pk_campaign=you</textarea>
             
             <input type="submit" value="Zap the Trackers" id="zap-input-submit">
-
-            <footer>
-                <a href="https://monzo.me/robbknight?d=TrackerZapper">Buy me a Coffee</a></p>
-            </footer>
         </div>
 
         <script>
