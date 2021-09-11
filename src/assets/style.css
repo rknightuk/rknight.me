@@ -48,7 +48,7 @@ header {
 
 .main-header {
   font-family: Bayshore;
-  font-size: 4.5em;
+  font-size: 5.5em;
   margin-bottom: 0;
   color: white!important;
 }
@@ -93,7 +93,7 @@ h2 a {
 
 @media (max-width: 630px) {
   .main-header {
-    font-size: 3em;
+    font-size: 4em;
   }
 }
 
