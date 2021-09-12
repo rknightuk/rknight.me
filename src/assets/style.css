@@ -9,6 +9,12 @@
   --body-text: #B2CCD6;
   --heading-color: #fff;
   --subtle-color: #6f6f6f;
+  --project-podcast: #eeefee;
+  --project-monzo: #ec5b5c;
+  --project-tz: #F5E615;
+  --project-intersect: #DB0B5B;
+  --project-alfred: #6B279A;
+  --project-github: #4078c0;
 }
 
 body {
@@ -181,19 +187,95 @@ ul {
   margin-top: 0;
 }
 
+.projects {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  column-gap: 10px;
+  row-gap: 10px;
+  margin-bottom: 10px;
+}
+
+@media (max-width: 430px) {
+  .projects {
+    grid-template-columns: repeat(1, 1fr);
+  }
+}
+
 .project {
+    position: relative;
+    border: 1px solid var(--body-text);
+    border-top: 35px solid var(--body-text);
+    border-top-right-radius: 10px;
+    border-top-left-radius: 10px;
+    padding: 35px 10px 40px 10px;
+}
+
+.project h2 {
+  font-size: 1em;
+}
+
+.project p {
+  font-size: 14px;
+  margin-bottom: 0;
+}
+
+.project .project-link {
+  position: absolute;
+  background-color: var(--body-background);
+  bottom: 0;
+  right: 0;
+  left: 0;
   text-align: center;
-  padding: 20px 10px 5px 10px;
-  border-bottom: 1px solid var(--subtle-color);
+  text-decoration: none;
+  font-size: 14px;
+  margin-bottom: 5px;
 }
 
-.project:last-child {
-  border-bottom: none;
+.project .project-link:hover {
+  text-decoration: underline;
 }
 
-.project img {
-  height: 75px;
+.project-image {
+    position: absolute;
+    top: -25px;
+    left: 10px;
+    background-color: var(--body-text);
+    width: 50px;
+    height: 50px;
+    border-radius: 50px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 5px solid var(--body-background);
 }
+
+.project-image img {
+    height: auto;
+    width: auto;
+    max-height: 60%;
+    max-width: 60%;
+}
+
+.project.podcast { border-color: var(--project-podcast) }
+.podcast .project-image { background-color: var(--project-podcast) }
+
+.project.monzo { border-color: var(--project-monzo) }
+.monzo .project-image { background-color: var(--project-monzo) }
+
+.project.tz  { border-color: var(--project-tz) }
+.tz .project-image { background-color: var(--project-tz) }
+.tz .project-image img { max-width: 100%; max-height: 100%; }
+
+.project.intersect  { border-color: var(--project-intersect) }
+.intersect .project-image { background-color: var(--body-background) }
+.intersect .project-image img { max-width: 100%; max-height: 100%; }
+
+.project.alfred { border-color: var(--project-alfred) }
+.alfred .project-image { background-color: var(--project-alfred) }
+
+.project.github  { border-color: var(--project-github) }
+.github .project-image { background-color: var(--body-background) }
+.github .project-image img { max-width: 100%; max-height: 100%; }
 
 /* buttons and forms from Sakura.css */
 input, textarea {
