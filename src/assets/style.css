@@ -211,11 +211,10 @@ ul {
 }
 
 .project h2 {
-  font-size: 1em;
+  font-size: 1.1em;
 }
 
 .project p {
-  font-size: 14px;
   margin-bottom: 0;
 }
 
@@ -227,7 +226,6 @@ ul {
   left: 0;
   text-align: center;
   text-decoration: none;
-  font-size: 14px;
   margin-bottom: 5px;
 }
 
@@ -275,7 +273,7 @@ ul {
 
 .project.github  { border-color: var(--project-github) }
 .github .project-image { background-color: var(--body-background) }
-.github .project-image img { max-width: 100%; max-height: 100%; }
+.github .project-image img { width: 100%; max-width: 100%; max-height: 100%; }
 
 /* buttons and forms from Sakura.css */
 input, textarea {
