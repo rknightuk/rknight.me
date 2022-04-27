@@ -1,13 +1,20 @@
 ---
-permalink: posts.json
+permalink: feed.json
 eleventyExcludeFromCollections: true
 ---
 
-{"posts" : [
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Robb Knight",
+    "home_page_url": "https://rknight.me/",
+    "feed_url": "https://rknight.me/feed.json",
+    "posts" : [
     {%- for post in collections.posts %}
     {
+        "id" : "{{ post.data.permalink }}",
         "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
+        "content_text": "{{ post.templateContent | safe }}",
         "date": "{{ post.data.date | isoDateOnly }}"
     }{% if not loop.last %},{% else %}{%- endif -%}
     {%- endfor -%}
