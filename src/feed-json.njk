@@ -15,7 +15,7 @@ eleventyExcludeFromCollections: true
         "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         "content_text": "{{ post.data.excerpt }}",
-        "date_published": "{{ post.data.date | isoDateOnly }}"
+        "date_published": "{{ post.data.date | isoDateOnly }}T00:00+00:00"
     }{% if not loop.last %},{% else %}{%- endif -%}
     {%- endfor -%}
 ]}
