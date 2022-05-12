@@ -1,28 +1,12 @@
 ---
-title: Blog
+title: Blog Archive
 layout: base
-hidetitle: true
 ---
 
-{% set datePrinted = false %}
-{% set currentYear = 1000 %}
-{% set started = false %}
-
+<ul>
 {%- for post in collections.posts %}
-	{% set postYear = post.data.date.getFullYear() %}
-
-	{% if postYear != currentYear %}
-		{% if started %}
-			</ul>
-		{% endif %}
-        <h2>{{ postYear }}</h2>
-        <ul class="post-list no-bull">
-        {% set started = true %}
-    {% endif %}
-
 	<li>
 		<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
 	</li>
-
-	{% set currentYear = postYear %}
 {% endfor %}
+</ul>

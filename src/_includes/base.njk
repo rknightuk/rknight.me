@@ -16,30 +16,39 @@
 	<body>
 
 		<header>
-			<a class="main-header" href="/">Robb Knight</a>
-
-			<div class="nav">
-				<ul class="nav__list">
-					<li class="nav__list--item"><a href="/">About</a></li>
-
-					<li class="nav__list--item"><a href="/blog/">Blog</a></li>
-
-					<li class="nav__list--item"><a href="https://toot.rknight.me">Microblog</a></li>
-
-					<li class="nav__list--item"><a href="/projects/">Projects</a></li>
-				</ul>
-			</div>
+			<div class="main-header"><a href="/">Robb Knight</a></div>
 		</header>
 
-		{% if hidetitle %}
-		{% else %}
-			<h2 class="heading-medium">{{ title }}</h2>
-		{% endif %}
+		<div class="nav">
+			<ul class="nav__list">
+				<li class="nav__list--item box"><a href="/">About</a></li>
 
-		{{ content | safe }}
+				<li class="nav__list--item box"><a href="/blog/">Blog</a></li>
+
+				<li class="nav__list--item box"><a href="https://toot.rknight.me">Microblog</a></li>
+
+				<li class="nav__list--item box"><a href="/projects/">Projects</a></li>
+			</ul>
+		</div>
+
+		<div class="box">
+			{% if hidetitle %}
+			{% else %}
+				<h2 class="heading-medium">{{ title }}</h2>
+			{% endif %}
+			{{ content | safe }}
+		</div>
 
 		<footer>
-			<a href="/coffee/">Buy Me a Coffee</a> | <a href="/ref/">Referrals</a> | <a href="/contact">Contact</a> | <a href="/feed.xml">RSS</a>
+			<ul class="nav__list">
+				<li class="nav__list--item box"><a href="/ref/">Referrals</a></li>
+
+				<li class="nav__list--item box"><a href="/contact">Contact</a></li>
+
+				<li class="nav__list--item box"><a href="/subscribe">Subscribe</a></li>
+
+				<li class="nav__list--item box"><a href="/coffee/">Buy Me a Coffee</a></li>
+			</ul>
 		</footer>
 
 	</body>

@@ -4,10 +4,10 @@
 }
 
 :root {
-  --color-primary: #f62459;
-  --body-background: #222527;
-  --body-text: #B2CCD6;
-  --heading-color: #fff;
+  --color-primary: #2c3e50;
+  --body-background: #D7509A;
+  --body-text: #2c3e50;
+  --heading-color: #2c3e50;
   --subtle-color: #6f6f6f;
   --project-podcast: #eeefee;
   --project-monzo: #ec5b5c;
@@ -15,6 +15,7 @@
   --project-intersect: #DB0B5B;
   --project-alfred: #6B279A;
   --project-github: #4078c0;
+  --project-micromarks: #F2A83B;
 }
 
 body {
@@ -23,11 +24,13 @@ body {
   font-size: 1.2em;
   line-height: 1.6;
   color: var(--body-text);
-  max-width: 800px;
+  max-width: 1000px;
   padding: 30px;
   padding-top: 0;
   margin: auto;
   background: var(--body-background);
+  background: linear-gradient(328deg, rgba(233,52,240,1) 0%, rgba(234,67,135,1) 100%, rgba(0,212,255,1) 100%);
+  background-attachment: fixed;
 }
 
 img {
@@ -47,43 +50,48 @@ a:hover {
   text-decoration: none;
 }
 
+.box {
+  background-color: white;
+  border: 2px solid var(--body-text);
+  box-shadow: 3px 3px var(--body-text);
+  padding: 20px;
+  margin-bottom: 10px;
+}
+
 header {
   text-align: center;
-  margin-top: 20px;
 }
 
 .main-header {
   font-family: Bayshore;
-  font-size: 5.5em;
+  font-size: 6.5em;
   margin-bottom: 0;
-  color: white!important;
+  text-shadow: var(--body-text) 3px 3px 1px;
+  transform: rotate(-5deg);
+  letter-spacing: 3px;
 }
 
-.main-header {
+.main-header a {
   text-decoration: none;
-  color: white;
+  color: #E0E752;
 }
 
-@keyframes flicker {
-  0%, 18%, 22%, 25%, 53%, 57%, 100% {
-      text-shadow: 
-        0 0 7px var(--color-primary),
-        0 0 10px var(--color-primary),
-        0 0 21px var(--color-primary),
-        0 0 42px var(--color-primary),
-        0 0 82px var(--color-primary),
-        0 0 92px var(--color-primary),
-        0 0 102px var(--color-primary), 
-        0 0 10px var(--color-primary)
-  }
-  
-  20%, 24%, 55% {        
-      text-shadow: none;
-  }    
+@keyframes color-change {
+  0% { color: #1abc9c }
+  10% { color: #2ecc71 }
+  20% { color: #3498db }
+  30% { color: #9b59b6 }
+  40% { color: #f1c40f }
+  50% { color: #e67e22 }
+  60% { color: #e74c3c }
+  70% { color: #f39c12 }
+  80% { color: #d35400 }
+  90% { color: #ff00ff }
+  100% { color: #c0392b }
 }
 
-.main-header:hover {
-  animation: flicker 1.5s infinite alternate;
+.main-header a:hover {
+  animation: color-change 3s infinite;
 }
 
 h2 {
@@ -129,6 +137,8 @@ blockquote {
   list-style-type: none;
   padding-left: 0;
   margin-top: 0;
+  margin-bottom: 0;
+  text-align: center;
 }
 
 .nav__list--item {
@@ -136,6 +146,11 @@ blockquote {
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
+    margin-right: 10px;
+}
+
+.nav__list--item:last-child {
+    margin-right: 0;
 }
 
 .nav__list--item a {
@@ -153,6 +168,8 @@ blockquote {
 
   .nav__list--item {
     flex-basis: 50%;
+    margin-right: 0;
+    padding: 5px;
   }
 
   h2 {
@@ -165,16 +182,29 @@ footer {
   text-align: center;
 }
 
+.post img {
+  text-align: center;
+}
 .post-list {
   list-style-type: none;
   margin-left: -30px;
 }
 
-.post-date {
-  font-family: monospace;
-  font-weight: bold;
-  font-size: 110%;
+.post-date, .microblog_time {
   color: var(--subtle-color);
+  margin-bottom: 10px;
+}
+
+.microblog_time {
+  margin-top: -10px;
+}
+
+.microblog_timeline {
+  margin-left: 35px;
+}
+
+.microblog_text img {
+  display: none;
 }
 
 .post-excerpt {
@@ -203,11 +233,13 @@ ul {
 
 .project {
     position: relative;
-    border: 1px solid var(--body-text);
+    border: 2px solid var(--body-text);
     border-top: 35px solid var(--body-text);
-    border-top-right-radius: 10px;
-    border-top-left-radius: 10px;
+    box-shadow: 3px 3px var(--body-text);
     padding: 35px 10px 40px 10px;
+    background-color: white;
+    padding: 20px;
+    padding-top: 40px;
 }
 
 .project h2 {
@@ -216,21 +248,6 @@ ul {
 
 .project p {
   margin-bottom: 0;
-}
-
-.project .project-link {
-  position: absolute;
-  background-color: var(--body-background);
-  bottom: 0;
-  right: 0;
-  left: 0;
-  text-align: center;
-  text-decoration: none;
-  margin-bottom: 5px;
-}
-
-.project .project-link:hover {
-  text-decoration: underline;
 }
 
 .project-image {
@@ -244,7 +261,7 @@ ul {
     display: flex;
     justify-content: center;
     align-items: center;
-    border: 5px solid var(--body-background);
+    border: 5px solid var(--body-text);
 }
 
 .project-image img {
@@ -254,32 +271,24 @@ ul {
     max-width: 60%;
 }
 
-.project.podcast { border-color: var(--project-podcast) }
 .podcast .project-image { background-color: var(--project-podcast) }
 
-.project.monzo { border-color: var(--project-monzo) }
-.monzo .project-image { background-color: var(--project-monzo) }
-
-.project.tz  { border-color: var(--project-tz) }
 .tz .project-image { background-color: var(--project-tz) }
 .tz .project-image img { max-width: 100%; max-height: 100%; }
 
-.project.intersect  { border-color: var(--project-intersect) }
-.intersect .project-image { background-color: var(--body-background) }
 .intersect .project-image img { max-width: 100%; max-height: 100%; }
 
-.project.alfred { border-color: var(--project-alfred) }
 .alfred .project-image { background-color: var(--project-alfred) }
 
-.project.github  { border-color: var(--project-github) }
-.github .project-image { background-color: var(--body-background) }
+.micromarks .project-image { background-color: var(--project-micromarks) }
+
 .github .project-image img { width: 100%; max-width: 100%; max-height: 100%; }
 
 /* buttons and forms from Sakura.css */
 input, textarea {
-  border: 1px solid #c9c9c9; }
+  border: 1px solid #4a4a4a; }
   input:focus, textarea:focus {
-    border: 1px solid #ffffff; }
+    border: 1px solid #1d7484; }
 
 textarea {
   width: 100%; }
@@ -290,38 +299,37 @@ textarea {
   text-align: center;
   text-decoration: none;
   white-space: nowrap;
-  background-color: #ffffff;
-  color: #222222;
+  background-color: var(--body-background);
+  color: white;
   border-radius: 1px;
-  border: 1px solid #ffffff;
+  border: 1px solid var(--body-text);
   cursor: pointer;
   box-sizing: border-box; }
   .button[disabled], button[disabled], input[type="submit"][disabled], input[type="reset"][disabled], input[type="button"][disabled] {
     cursor: default;
     opacity: .5; }
   .button:focus:enabled, .button:hover:enabled, button:focus:enabled, button:hover:enabled, input[type="submit"]:focus:enabled, input[type="submit"]:hover:enabled, input[type="reset"]:focus:enabled, input[type="reset"]:hover:enabled, input[type="button"]:focus:enabled, input[type="button"]:hover:enabled {
-    background-color: #c9c9c9;
-    border-color: #c9c9c9;
-    color: #222222;
+    background-color: #982c61;
+    border-color: #982c61;
+    color: #f9f9f9;
     outline: 0; }
 
 textarea, select, input {
-  font-size: 14px;
-  color: #c9c9c9;
+  color: #4a4a4a;
   padding: 6px 10px;
   /* The 6px vertically centers text on FF, ignored by Webkit */
   margin-bottom: 10px;
-  background-color: #4a4a4a;
-  border: 1px solid #4a4a4a;
+  background-color: #f1f1f1;
+  border: 1px solid #f1f1f1;
   border-radius: 4px;
   box-shadow: none;
   box-sizing: border-box; }
   textarea:focus, select:focus, input:focus {
-    border: 1px solid #ffffff;
+    border: 1px solid #1d7484;
     outline: 0; }
 
 input[type="checkbox"]:focus {
-  outline: 1px dotted #ffffff; }
+  outline: 1px dotted #1d7484; }
 
 label, legend, fieldset {
   display: block;

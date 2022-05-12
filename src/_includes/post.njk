@@ -2,6 +2,8 @@
 layout: base
 ---
 
-<span class="post-date">{{ page.date | isoDateOnly }}</span>
+<div class="post-date">{{ page.date | isoDateOnly }}</div>
 
-{{ content | safe }}
+<span class="post">
+	{{ content | safe }}
+</span>

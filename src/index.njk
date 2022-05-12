@@ -5,67 +5,71 @@ hidetitle: true
 ---
 
 <section>
-	<p>Hi. I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a> and a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team. I also make a bunch of stuff:</p>
+	<h2 class="heading-medium">About</h2>
+	<p>👋 I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a <a href="https://ruminatepodcast.com">podcaster</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
 </section>
+</div>
 
 <div class="projects">
 	<div class="project podcast">
 		<div class="project-image">
 			<img src="/assets/img/ruminate.svg">
 		</div>
-		<h2>Ruminate</h2>
+		<h2><a href="http://ruminatepodcast.com">Ruminate</a></h2>
 		<p>A podcast about what's on our minds. Mostly chicken.</p>
-		<a class="project-link" href="http://ruminatepodcast.com">View Project</a>
 	</div>
 
 	<div class="project monzo">
 		<div class="project-image">
 			<img src="/assets/img/monzo.svg">
 		</div>
-		<h2>Monzo Pot Image Generator</h2>
-		<p>Generate images for your Monzo pots.</p>
-		<a class="project-link" href="http://potimages.rknight.me">View Project</a>
+		<h2><a href="http://potimages.rknight.me">Monzo Pot Image Generator</a></h2>
+		<p>Generate images for your Monzo pots. And now your Stream Deck too.</p>
 	</div>
 
 	<div class="project tz">
 		<div class="project-image">
 			<img src="/assets/img/trackerzapper.png">
 		</div>
-		<h2>TrackerZapper</h2>
-		<p>Mac app that sits in your menubar and removes tracking parameters from any links you copy.</p>
-		<a class="project-link" href="/apps/tracker-zapper">View Project</a>
+		<h2><a href="/apps/tracker-zapper">TrackerZapper</a></h2>
+		<p>Mac app to remove tracking parameters from links you copy.</p>
 	</div>
 
 	<div class="project intersect">
 		<div class="project-image">
 			<img src="/assets/img/intersect.png">
 		</div>
-		<h2>The Intersect</h2>
+		<h2><a href="http://intersect.rknight.me">The Intersect</a></h2>
 		<p>Everything I Know. Mostly. A personal wiki built with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
-		<a class="project-link" href="http://intersect.rknight.me">View Project</a>
+	</div>
+
+	<div class="project micromarks">
+		<div class="project-image">
+			<img src="/assets/img/micromarks.svg">
+		</div>
+		<h2><a href="http://micromarks.rknight.me">Micromarks</a></h2>
+		<p>Manage your micro.blog bookmarks.</p>
 	</div>
 
 	<div class="project alfred">
 		<div class="project-image">
 			<img src="/assets/img/alfred.png">
 		</div>
-		<h2>Alfred Workflows</h2>
+		<h2><a href="/alfred-workflows">Alfred Workflows</a></h2>
 		<p>Workflows I've built for <a href="https://www.alfredapp.com/">Alfred app</a>.</p>
-		<a class="project-link" href="/alfred-workflows">View Project</a>
 	</div>
 
-	<div class="project github">
+	{# <div class="project github">
 		<div class="project-image">
 			<img src="/assets/img/github.svg">
 		</div>
-		<h2>Everything Else</h2>
+		<h2><a href="http://github.com/rknightuk">Everything Else</a></h2>
 		<p>It's all on GitHub.</p>
-		<a class="project-link" href="http://github.com/rknightuk">View Project</a>
-	</div>
+	</div> #}
 </div>
 
-<section>
-	<h2 class="heading-medium"><a href="/blog">Writing</a></h2>
+<section class="box">
+	<h2 class="heading-medium"><a href="/blog">Blog</a></h2>
 
 	<ul class="no-bull">
 		{%- for post in collections.firstThreePosts %}
@@ -80,7 +84,12 @@ hidetitle: true
 	</ul>
 </section>
 
-<section>
+<section class="box">
+	<h2 class="heading-medium"><a href="https://micro.blog/rknightuk">Microblog</a></h2>
+	<script type="text/javascript" src="https://micro.blog/sidebar.js?username=rknightuk&count=3"></script>
+</section>
+
+<section class="box">
 	<h2 class="heading-medium">Social</h2>
 
 	<ul class="no-bull">
