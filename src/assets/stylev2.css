@@ -25,7 +25,7 @@ body {
   line-height: 1.6;
   color: var(--body-text);
   max-width: 1000px;
-  padding: 30px;
+  padding: 10px;
   padding-top: 0;
   margin: auto;
   background: var(--body-background);
