@@ -12,6 +12,18 @@
 		<link rel="stylesheet" href="/assets/stylev2.css" type="text/css" media="screen" title="no title" charset="utf-8">
 
 		<script src="https://instantaneous-fountain.rknight.me/script.js" data-site="ISEJUYJY" defer></script>
+
+		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}Robb Knight - {{ title }}{% endif %}" />
+		<meta property="og:type" content="website" />
+		<meta property="og:url" content="https://rknight.me/" />
+
+		<meta itemprop="name" content="{{ title }}">
+		<meta itemprop="description" content="{% if excerpt %}{{ excerpt}}{% else %}Robb Knight - {{ title }}{% endif %}">
+
+		<meta name="twitter:card" content="summary"/>
+		<meta name="twitter:title" content="{{ title }}"/>
+		<meta name="twitter:description" content="{% if excerpt %}{{ excerpt}}{% else %}Robb Knight - {{ title }}{% endif %}"/>
 	</head>
 	<body>
 
