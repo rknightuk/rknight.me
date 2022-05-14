@@ -2,7 +2,7 @@
 title: Thoughts on Micro.blog
 permalink: /thoughts-on-micro-blog/index.html
 date: 2022-05-14
-excerpt: "My thoughts on using Micro.blog for a month"
+excerpt: "My thoughts on using Micro.blog for the past two weeks"
 tags:
 layout: post
 ---
