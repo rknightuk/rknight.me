@@ -9,4 +9,4 @@ Use these referral links for services I use and we both get free stuff.
 - Backblaze [https://secure.backblaze.com/r/01gkf3](https://secure.backblaze.com/r/01gkf3)
 - Hover [https://hover.com/scHIv4WR](https://hover.com/scHIv4WR)
 - Fathom Analytics [https://usefathom.com/ref/IXCLSF](https://usefathom.com/ref/IXCLSF)
-- Simple Cook - Free box [https://simplycook.com/invite/EH0Q2K](https://simplycook.com/invite/EH0Q2K)
+- Simply Cook - Free box [https://simplycook.com/invite/EH0Q2K](https://simplycook.com/invite/EH0Q2K)
