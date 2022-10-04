@@ -10,3 +10,4 @@ Use these referral links for services I use and we both get free stuff.
 - Hover [https://hover.com/scHIv4WR](https://hover.com/scHIv4WR)
 - Fathom Analytics [https://usefathom.com/ref/IXCLSF](https://usefathom.com/ref/IXCLSF)
 - Simply Cook - Free box [https://simplycook.com/invite/EH0Q2K](https://simplycook.com/invite/EH0Q2K)
+- Smol Products [http://smol.refr.cc/robbknight](http://smol.refr.cc/robbknight)
