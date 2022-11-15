@@ -41,7 +41,7 @@ I also did <s>the same tweet</s> a totally original tweet when GDPR caused every
 
 > This “no I hate myself” pattern is horrible.
 
-<img src="https://toot.rknight.me/uploads/2022/8dc5330cfd.jpg" width="600" height="282" alt="" />
+<img src="https://rknightuk.s3.amazonaws.com/site/hate_discounts.jpg" width="600" height="282" alt="" />
 
 **Boris × Thanos - 2022-10-20 ([link](https://twitter.com/rknightuk/status/1583079656760410112))**
 
@@ -49,5 +49,5 @@ I didn't make this image. I had the idea and then grabbed the image from [this t
 
 > "You could not live with your own failure. Where did that bring you? Back to me"
 
-<img src="https://toot.rknight.me/uploads/2022/60302bb5a2.jpg" width="600" height="332" alt="" />
+<img src="https://rknightuk.s3.amazonaws.com/site/boris_thanos.jpg" width="600" height="332" alt="" />
 
