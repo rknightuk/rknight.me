@@ -21,6 +21,6 @@ Mac counterparts isn't something offered by a lot of Android apps so coming back
 
 Before I used Android I was a plug-in-and-sync-from-iTunes person but I signed up for Spotify the day I got my Pixel and I've been using it ever since. I have considered Apple Music but it doesn't integrate with my Amazon Echo so that's a no-go, at least for now.
 
-The rest of the apps are fairly self-explanatory; Amazon, eBay, and my bank's [terrible app](https://twitter.com/rknightuk/status/927502202914123776) because [I buy a lot of Lego](https://twitter.com/rmlewisuk/status/701068051840630784), Google Inbox because email is a necessary evil, and notes because I like the simplicity of it.
+The rest of the apps are fairly self-explanatory; Amazon, eBay, and my bank's [terrible app](https://twitter.com/rknightuk/status/927502202914123776) because [I buy a lot of Lego](https://hellsite.rknight.me/701068051840630784), Google Inbox because email is a necessary evil, and notes because I like the simplicity of it.
 
 Spending a year on Android gave me an appreciation for the things I really like about iOS as well as the areas I hope they improve on in the future like the Home screen layout and notifications.

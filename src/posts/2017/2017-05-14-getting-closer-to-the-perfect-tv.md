@@ -17,7 +17,7 @@ Unfortunately, it is. It has built-in apps but no app store to download other ap
 
 > A large number of HDMI ports
 
-The TV has 4 HDMI ports but annoyingly only two of them support UHD/4K/HDR/whatever. I assume this is a cost-saving measure but if they removed the TV tuner or the "common interface" slot, whatever the hell that is, this would cover it. It does have a SCART socket, component, and 3 USB ports but I'd prefer to replace all of those with HDMI if I could. I can [rename the inputs though](https://twitter.com/rmlewisuk/status/863400075338371072) which is the best feature of this TV by a long shot.
+The TV has 4 HDMI ports but annoyingly only two of them support UHD/4K/HDR/whatever. I assume this is a cost-saving measure but if they removed the TV tuner or the "common interface" slot, whatever the hell that is, this would cover it. It does have a SCART socket, component, and 3 USB ports but I'd prefer to replace all of those with HDMI if I could. I can [rename the inputs though](https://hellsite.rknight.me/863400075338371072) which is the best feature of this TV by a long shot.
 
 > The display should be great
 
