@@ -7,7 +7,7 @@ tags:
 layout: post
 ---
 
-I came across [Nikita Volodoev's wiki](https://wiki.nikitavoloboev.xyz/) recently when looking for other things and realised this was exactly the type of things I'd been looking for to store snippets, links, and other notes about various things that don't justify a full blog post. And because I'm an idiot I ended up [building my own solution](https://twitter.com/rknightuk/status/1426307649365286921) with [Eleventy](https://11ty.dev). The result is [Intersect](https://intersect.rknight.me).
+I came across [Nikita Volodoev's wiki](https://wiki.nikitavoloboev.xyz/) recently when looking for other things and realised this was exactly the type of things I'd been looking for to store snippets, links, and other notes about various things that don't justify a full blog post. And because I'm an idiot I ended up [building my own solution](https://hellsite.rknight.me/1426307649365286921) with [Eleventy](https://11ty.dev). The result is [Intersect](https://intersect.rknight.me).
 
 Aside from just rendering a bunch of markdown files it has a number of additional features.
 
