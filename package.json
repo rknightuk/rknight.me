@@ -8,6 +8,7 @@
     "@11ty/eleventy-plugin-rss": "^1.0.7"
   },
   "devDependencies": {
+    "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "node-fetch": "^2.6.1"
   },
   "scripts": {
