@@ -1,12 +1,26 @@
 ---
-title: How (Not) to Copy Gifs to Clipboard Programatically
+title: How to Copy Gifs to Clipboard Programatically
 permalink: /how-not-to-copy-gif-to-clipboard-programatically/index.html
 date: 2022-12-01
 excerpt: "My futile attempts at trying to copy a gif to the clipboard programatically"
 layout: post
 ---
 
-Update: [Ed Wellbrook solved this with grabgif](https://github.com/edwellbrook/grabgif) like the absolute hero he is.
+**Update 1**
+
+[Ed Wellbrook solved this with grabgif](https://github.com/edwellbrook/grabgif) like the absolute hero he is.
+
+**Update 2**
+
+Turns out in my frustrated state, some of the things I tried _did_ work but I just didn't notice (or I did something like clear the clipboard by accident). After looking at Ed's solution it clicked. This solution _does_ work:
+
+```bash
+osascript -e 'set the clipboard to POSIX file "/path/to/animated.gif"
+```
+
+I will leave the rest of the article but everything below is kind of useless now.
+
+---
 
 If you've come to this post to find out how to copy an animated gif to the clipboard programatically: I'm sorry. All I have is many solutions that either don't work at all, or only partially work.
 
