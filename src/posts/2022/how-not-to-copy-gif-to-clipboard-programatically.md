@@ -6,6 +6,8 @@ excerpt: "My futile attempts at trying to copy a gif to the clipboard programati
 layout: post
 ---
 
+Update: [Ed Wellbrook solved this with grabgif](https://github.com/edwellbrook/grabgif) like the absolute hero he is.
+
 If you've come to this post to find out how to copy an animated gif to the clipboard programatically: I'm sorry. All I have is many solutions that either don't work at all, or only partially work.
 
 Why was I doing this? I've had an idea for an [Alfred](https://www.alfredapp.com/) workflow for a while that would list all the gifs in my gif folder then copy it to the clipboard so I can paste in to Slack (or anywhere that supports copy/pasting animated gifs). I like to keep things as simple as possible with [my Alfred workflows](https://github.com/rknightuk/alfred-workflows) so I figured I'd try AppleScript/JXA first.
