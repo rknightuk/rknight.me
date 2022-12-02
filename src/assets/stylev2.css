@@ -121,6 +121,7 @@ li {
 
 .no-bull {
   list-style-type: none;
+  margin-left: -20px;
 }
 
 blockquote {
@@ -338,4 +339,18 @@ label, legend, fieldset {
 
 pre {
   font-size: 14px!important;
+}
+
+.microblog-posts img {
+  display: none;
+}
+
+.microblog-post {
+  padding: 5px;
+  margin-bottom: 5px;
+  margin-left: 15px;
+}
+
+.microblog-post .post-date {
+  margin-bottom: 0;
 }
