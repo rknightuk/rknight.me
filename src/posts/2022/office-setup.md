@@ -1,5 +1,5 @@
 ---
-title: Office Setup
+title: My Office Setup
 permalink: /office-setup/index.html
 date: 2022-12-05
 excerpt: "My office setup, originally written for Club Macstories"
