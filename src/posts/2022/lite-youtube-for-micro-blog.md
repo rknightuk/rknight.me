@@ -12,6 +12,8 @@ I've published a new [Micro.blog](https://micro.blog) plugin called [Lite YouTub
 
 ![](https://rknightuk.s3.amazonaws.com/site/lite-youtube-after.png)
 
+You can see it working on [this post about The Last of Us](https://toot.rknight.me/2022/12/04/last-of-us.html) or on [this post with two videos](https://toot.rknight.me/2022/11/22/i-just-realised.html).
+
 Why did I do this instead of using [YouTube shortcodes](https://discourse.gohugo.io/t/embed-youtube-video/2692/7)? Two reasons:
 
 1. Shortcodes are great but what if I change where my site is hosted? Those links won't work any more
