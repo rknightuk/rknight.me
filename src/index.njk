@@ -89,10 +89,9 @@ hidetitle: true
 	{%- for post in micro.posts %}
 		<div class="microblog-post">
 			{% if post.title %}
-				<p><span class="post-date">{{ post.date }}</span> <a href="{{ post.url }}">{{ post.title }}</a></p>
+				<p><a class="post-date" href="{{ post.url }}">{{ post.date }}</a> {{ post.title }}</p>
 			{% else %}
-				<p class="post-date"><a href="{{ post.url }}">{{ post.date }}</a></p>
-				{{ post.html | safe }}
+				<p><a class="post-date" href="{{ post.url }}">{{ post.date }}</a> {{ post.summary | safe }}</p>
 			{% endif %}
 		</div>
 	{% endfor %}
