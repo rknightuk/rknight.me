@@ -19,8 +19,8 @@ module.exports = function(eleventyConfig) {
     return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
   });
 
-  eleventyConfig.addCollection("firstThreePosts", function(collection) {
-    return collection.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 3)
+  eleventyConfig.addCollection("firstPosts", function(collection) {
+    return collection.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 5)
   });
 
   eleventyConfig.addFilter("isoDateOnly", function(date) {

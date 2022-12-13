@@ -7,6 +7,8 @@ hidetitle: true
 <section>
 	<h2 class="heading-medium">About</h2>
 	<p>👋 I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a <a href="https://ruminatepodcast.com">podcaster</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
+
+	<p>You can find me on <a href="https://micro.blog/rknightuk?remote_follow=1">Micro.blog as @rknightuk</a>, follow me on Mastodon as <code>robb@toot.rknight.me</code>, <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 </section>
 </div>
 
@@ -27,13 +29,13 @@ hidetitle: true
 		<p>Generate images for your Monzo pots. And now your Stream Deck too.</p>
 	</div>
 
-	<div class="project tz">
+	{# <div class="project tz">
 		<div class="project-image">
 			<img src="/assets/img/trackerzapper.png" alt="TrackerZapper Logo">
 		</div>
 		<h2><a href="/apps/tracker-zapper">TrackerZapper</a></h2>
 		<p>Mac app to remove tracking parameters from links you copy.</p>
-	</div>
+	</div> #}
 
 	<div class="project intersect">
 		<div class="project-image">
@@ -59,20 +61,20 @@ hidetitle: true
 		<p>Workflows I've built for <a href="https://www.alfredapp.com/">Alfred app</a>.</p>
 	</div>
 
-	{# <div class="project github">
+	<div class="project github">
 		<div class="project-image">
 			<img src="/assets/img/github.svg">
 		</div>
 		<h2><a href="http://github.com/rknightuk">Everything Else</a></h2>
 		<p>It's all on GitHub.</p>
-	</div> #}
+	</div>
 </div>
 
 <section class="box">
-	<h2 class="heading-medium"><a href="/blog">Blog</a></h2>
+	<h3 class="heading-medium">🗒️ <a href="/blog">Long Posts</a></h2>
 
 	<ul class="no-bull">
-		{%- for post in collections.firstThreePosts %}
+		{%- for post in collections.firstPosts %}
 		  <li>
 		  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
 
@@ -83,8 +85,7 @@ hidetitle: true
 		{% endfor %}
 	</ul>
 
-	<h2 class="heading-medium"><a href="/blog">Micro.Blog</a></h2>
-	<p><a href="https://micro.blog/rknightuk?remote_follow=1">@rknightuk</a></p>
+	<h3>🎺 <a href="https://toot.rknight.me/">Short Posts</a></h3>
 	<div class="microblog-posts">
 	{%- for post in micro.posts %}
 		<div class="microblog-post">
@@ -96,16 +97,37 @@ hidetitle: true
 		</div>
 	{% endfor %}
 	</div>
+
+	<h3>📷 <a href="https://toot.rknight.me/photos">Latest Photos<a></h3>
+	<div class="microblog-photos">
+		{%- for photo in micro.photos %}
+			<div class="microblog-photo"><a href="{{ photo.url }}"><img src="{{ photo.image }}"></a></div>
+		{%  endfor %}
+	</div>
+
+	<h3>📺 <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
+	<div class="microblog-posts">
+	{%- for watched in micro.watched %}
+		<div class="microblog-post">
+			<p><a class="post-date" href="{{ watched.url }}">{{ watched.date }}</a> {{ watched.summary | safe }}</p>
+		</div>
+	{% endfor %}
+	</div>
+
+	<h3>📚 <a href="https://toot.rknight.me/reading/">Currently Reading</a></h3>
+
+	{%- for read in micro.reading %}
+		<div class="microblog-post">
+			<p><a class="post-date" href="{{ read.url }}">{{ read.title }}</a></p>
+		</div>
+	{% endfor %}
+	</div>
 </section>
 
-<section class="box">
-	<h2 class="heading-medium">Social</h2>
-
-	<ul class="no-bull">
-		<li><a href="https://micro.blog/rknightuk?remote_follow=1">Micro.blog</a>: Mild takes and tiny blog posts</li>
-		<li><code>robb@toot.rknight.me</code> on Mastodon</li>
-		<li><a href="https://github.com/rknightuk">GitHub</a>: All my open source projects</li>
-		<li>Nintendo Switch: SW-5633-0258-5413</li>
-		<li>PSN, Twitch, & probably more things: .../rknightuk</li>
-	</ul>
+<section class="box" style="position: relative;">
+	<script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
+	<the-claw-webring-widget theme="light">
+  		<!-- TO DO ADD FALLBACK CONTENT -->
+	</the-claw-webring-widget>
+	<div class="webring"><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Webring">wtf is a webring though</a></div>
 </section>

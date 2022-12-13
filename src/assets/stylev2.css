@@ -352,3 +352,48 @@ pre {
 .microblog-post .post-date {
   margin-bottom: 0;
 }
+
+.microblog-photos {
+  display: flex;
+  box-sizing: border-box;
+  justify-content: center;
+  align-items: center;
+  padding: 15px;
+}
+
+.microblog-photo {
+  display: flex;
+  box-sizing: border-box;
+  filter: grayscale(100%);
+}
+
+.microblog-photo:hover {
+  filter: grayscale(0);
+}
+
+.microblog-photo:nth-child(odd) {
+  transform: rotate(-6deg);
+}
+.microblog-photo:nth-child(even) {
+  transform: rotate(3deg);
+}
+
+@media (max-width: 650px) {
+  .microblog-photo:nth-last-child(-n+2) {
+    display: none;
+  }
+}
+
+.microblog-photo img {
+  box-sizing: border-box;
+  max-height: 400px;
+  background-color: white;
+  box-shadow: 2px 2px 2px var(--body-text);
+}
+
+.webring {
+    font-size: 10px;
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
