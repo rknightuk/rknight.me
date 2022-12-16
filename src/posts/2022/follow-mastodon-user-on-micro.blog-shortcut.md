@@ -18,4 +18,8 @@ It will also check to see if the path/username contains an `@` symbol and if it 
 
 There is a meta tag in the HTML with `profile:username` as the property name but I don't know enough about Shortcuts to do this.
 
-[Download Follow Mastodon User on Micro.blog shortcut](https://www.icloud.com/shortcuts/c055237a4b744d9eb5b120fe017b8356)
+[Download Follow Mastodon User on Micro.blog shortcut v1.1](https://www.icloud.com/shortcuts/fe47f7e4ed104f7dbb8202b49c3482c4)
+
+### Previous Versions
+
+- [v1.0](https://www.icloud.com/shortcuts/c055237a4b744d9eb5b120fe017b8356) - this version won't work if the user hasn't been seen before by Micro.blog
