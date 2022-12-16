@@ -9,13 +9,6 @@
   --body-text: #2c3e50;
   --heading-color: #2c3e50;
   --subtle-color: #6f6f6f;
-  --project-podcast: #eeefee;
-  --project-monzo: #ec5b5c;
-  --project-tz: #F5E615;
-  --project-intersect: #DB0B5B;
-  --project-alfred: #6B279A;
-  --project-github: #4078c0;
-  --project-micromarks: #F2A83B;
 }
 
 body {
@@ -272,18 +265,7 @@ ul {
     max-width: 60%;
 }
 
-.podcast .project-image { background-color: var(--project-podcast) }
-
-.tz .project-image { background-color: var(--project-tz) }
-.tz .project-image img { max-width: 100%; max-height: 100%; }
-
-.intersect .project-image img { max-width: 100%; max-height: 100%; }
-
-.alfred .project-image { background-color: var(--project-alfred) }
-
-.micromarks .project-image { background-color: var(--project-micromarks) }
-
-.github .project-image img { width: 100%; max-width: 100%; max-height: 100%; }
+.project-logo-full img { max-width: 100%; max-height: 100%; }
 
 /* buttons and forms from Sakura.css */
 input, textarea {

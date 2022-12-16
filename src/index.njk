@@ -13,61 +13,17 @@ hidetitle: true
 </div>
 
 <div class="projects">
-	<div class="project podcast">
-		<div class="project-image">
-			<img src="/assets/img/ruminate.svg" alt="Ruminate Podcast Logo">
+	{%- for project in projects %}
+		{% if project.ignore != true %}
+		<div class="project {{ project.key }} {{ project.class }}">
+			<div class="project-image" {% if project.color %}style="background-color: {{ project.color }}"{% endif %}>
+				<img src="/assets/img/{{ project.key }}.{{ project.type }}" alt="{{ project.alt }}">
+			</div>
+			<h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+			<p>{{ project.desc | safe }}</p>
 		</div>
-		<h2><a href="http://ruminatepodcast.com">Ruminate</a></h2>
-		<p>A podcast about what's on our minds. Mostly chicken.</p>
-	</div>
-
-	<div class="project monzo">
-		<div class="project-image">
-			<img src="/assets/img/monzo.svg" alt="Monzo Logo">
-		</div>
-		<h2><a href="http://potimages.rknight.me">Monzo Pot Image Generator</a></h2>
-		<p>Generate images for your Monzo pots. And now your Stream Deck too.</p>
-	</div>
-
-	{# <div class="project tz">
-		<div class="project-image">
-			<img src="/assets/img/trackerzapper.png" alt="TrackerZapper Logo">
-		</div>
-		<h2><a href="/apps/tracker-zapper">TrackerZapper</a></h2>
-		<p>Mac app to remove tracking parameters from links you copy.</p>
-	</div> #}
-
-	<div class="project intersect">
-		<div class="project-image">
-			<img src="/assets/img/intersect.png" alt="Intersect Logo">
-		</div>
-		<h2><a href="http://intersect.rknight.me">The Intersect</a></h2>
-		<p>Everything I Know. Mostly. A personal wiki built with <a href="https://www.11ty.dev/">Eleventy</a>.</p>
-	</div>
-
-	<div class="project micromarks">
-		<div class="project-image">
-			<img src="/assets/img/micromarks.svg" alt="Micromarks Logo">
-		</div>
-		<h2><a href="http://micromarks.rknight.me">Micromarks</a></h2>
-		<p>Manage your micro.blog bookmarks.</p>
-	</div>
-
-	<div class="project alfred">
-		<div class="project-image">
-			<img src="/assets/img/alfred.png" alt="Alfred Logo">
-		</div>
-		<h2><a href="/alfred-workflows">Alfred Workflows</a></h2>
-		<p>Workflows I've built for <a href="https://www.alfredapp.com/">Alfred app</a>.</p>
-	</div>
-
-	<div class="project github">
-		<div class="project-image">
-			<img src="/assets/img/github.svg">
-		</div>
-		<h2><a href="http://github.com/rknightuk">Everything Else</a></h2>
-		<p>It's all on GitHub.</p>
-	</div>
+		{%  endif  %}
+	{% endfor %}
 </div>
 
 <section class="box">

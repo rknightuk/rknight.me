@@ -1,0 +1,66 @@
+[
+	{
+		"key": "ruminate",
+		"alt": "Ruminate Podcast Logo",
+		"name": "Ruminate",
+		"url": "https://ruminatepodcast.com",
+		"desc": "A podcast about what's on our minds. Mostly chicken.",
+		"type": "svg",
+		"color": "#eeefee"
+	},
+	{
+		"key": "monzo",
+		"alt": "Monzo Logo",
+		"name": "Monzo Pot Image Generator",
+		"url": "https://potimages.rknight.me",
+		"desc": "Generate images for your Monzo pots. And now your Stream Deck too.",
+		"type": "svg"
+	},
+	{
+		"key": "intersect",
+		"alt": "Intersect Logo",
+		"name": "Intersect",
+		"url": "https://intersect.rknight.me",
+		"desc": "Everything I Know. Mostly. A personal wiki built with <a href='https://www.11ty.dev/''>Eleventy</a>.",
+		"type": "png",
+		"class": "project-logo-full"
+	},
+	{
+		"key": "micromarks",
+		"alt": "MicroMarks Logo",
+		"name": "MicroMarks",
+		"url": "https://micromarks.rknight.me",
+		"desc": "Manage your micro.blog bookmarks.",
+		"type": "svg",
+		"color": "#f2a83b"
+	},
+	{
+		"key": "alfred",
+		"alt": "Alfred Logo",
+		"name": "Alfred Workflows",
+		"url": "/alfred-workflows",
+		"desc": "Workflows I've built for <a href='https://www.alfredapp.com/'>Alfred app</a>.",
+		"type": "png",
+		"color": "#6b279a"
+	},
+	{
+		"key": "github",
+		"alt": "GitHub Logo",
+		"name": "Everything Else",
+		"url": "https://github.com/rknightuk",
+		"desc": "It's all on GitHub.",
+		"type": "svg",
+		"class": "project-logo-full"
+	},
+	{
+		"key": "trackerzapper",
+		"alt": "TrackerZapper Logo",
+		"name": "TrackerZapper",
+		"url": "/apps/tracker-zapper",
+		"desc": "Mac app to remove tracking parameters from links you copy.",
+		"type": "png",
+		"class": "project-logo-full",
+		"color": "#f5e615",
+		"ignore": true
+	}
+]
