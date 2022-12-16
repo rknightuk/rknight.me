@@ -26,12 +26,12 @@ Some useful resources for building your own Alfred workflows:
 </ul>
 
 {%- for workflow in alfred.workflows %}
-	<div class="wf-wrap" id="{{ workflow.uid }}">
+	<div class="wf-wrap" id="{{ workflow.bundleid }}">
 		<div class="wf-head-icon">
 			<img class="wf-icon" src="{{ workflow.icon }}">
 		</div>
 		<div class="wf-head-info">
-			<h3><a href="#{{ workflow.uid }}">#</a> {{ workflow.name }}</h3>
+			<h3><a href="#{{ workflow.bundleid }}">#</a> {{ workflow.name }}</h3>
 			{% if workflow.description %}
 				<p><em>{{ workflow.description }}</em></p>
 			{% endif %}
