@@ -10,7 +10,53 @@ hidetitle: true
 
 	<p>You can find me on <a href="https://micro.blog/rknightuk?remote_follow=1">Micro.blog as @rknightuk</a>, follow me on Mastodon as <code>robb@toot.rknight.me</code>, <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 </section>
-</div>
+</div>{# don't remove this, it's important #}
+
+<style>
+    .statuslol_container {
+        background-color: white;
+        border: 2px solid var(--body-text);
+        box-shadow: 3px 3px var(--body-text);
+        padding: 10px;
+        margin-bottom: 10px;
+        font-size: 16px;
+    }
+
+    .statuslol {
+        display: flex;
+    }
+
+    .statuslol p {
+        margin-bottom: 0;
+    }
+
+    .statuslol_content {
+        display: flex;
+        font-style: italic;
+    }
+
+    .statuslol_emoji_container {
+        display: flex;
+        align-items: center;
+        margin-right: 5px;
+    }
+
+    .statuslol_emoji_container img {
+        width: 20px;
+        height: 20px;
+    }
+
+    .statuslol_time {
+        margin-left: 5px;
+        font-style: normal;
+    }
+
+    .statuslol_time:after {
+        content: ' on status.lol'
+    }
+</style>
+
+<script src="https://status.lol/robb.js?time&fluent&link"></script>
 
 <div class="projects">
 	{%- for project in projects %}
