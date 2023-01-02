@@ -10,6 +10,8 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(pluginRss);
   eleventyConfig.addPlugin(syntaxHighlight);
 
+  eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getFilteredByGlob("src/posts/**/*.md").reverse()
   });
@@ -50,7 +52,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('stripIndex', function(path) {
     return path.replace('/index.html', '/');
   })
-  
+
   return {
     passthroughFileCopy: true,
     dir: {

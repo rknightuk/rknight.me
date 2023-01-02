@@ -176,6 +176,11 @@ footer {
   text-align: center;
 }
 
+footer .copyright {
+    padding: 10px;
+    font-weight: bold;
+}
+
 .post img {
   text-align: center;
 }
