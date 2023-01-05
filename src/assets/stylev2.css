@@ -382,9 +382,14 @@ pre {
   box-shadow: 2px 2px 2px var(--body-text);
 }
 
-.webring {
+.the-claw-note {
     font-size: 10px;
-    position: absolute;
-    bottom: 5px;
-    right: 5px;
+    text-align: center;
+}
+
+.the-claw {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    padding-bottom: 10px;
 }

@@ -56,7 +56,19 @@ hidetitle: true
     }
 </style>
 
-<script src="https://status.lol/robb.js?time&fluent&link"></script>
+<div class="statuslol_container">
+    <div class="statuslol" style="">
+        <div class="statuslol_emoji_container">
+            <div>{{ statuslol[0].emoji }}</div>
+        </div>
+        <div class="statuslol_content">
+            <p>{{ statuslol[0].content }}</p>
+            <div class="statuslol_time">
+                <a style="" href="https://robb.status.lol/{{ statuslol[0].id }}">{{ statuslol[0].relative_time }}</a>
+            </div>
+        </div>
+    </div>
+</div>
 
 <div class="projects">
 	{%- for project in projects %}
@@ -126,10 +138,15 @@ hidetitle: true
 	</div>
 </section>
 
-<section class="box" style="position: relative;">
-	<script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
-	<the-claw-webring-widget theme="light">
-  		<!-- TO DO ADD FALLBACK CONTENT -->
-	</the-claw-webring-widget>
-	<div class="webring"><a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Webring">wtf is a webring though</a></div>
+<section class="box">
+    <div class="the-claw" style="margin: 0 auto;">
+        <script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
+        <the-claw-webring-widget theme="light">
+            <!-- TO DO ADD FALLBACK CONTENT -->
+        </the-claw-webring-widget>
+    </div>
+
+    <p class="the-claw-note">
+        <a target="_blank" rel="noopener noreferrer" href="https://en.wikipedia.org/wiki/Webring">wtf is a webring though</a>
+    </p>
 </section>
