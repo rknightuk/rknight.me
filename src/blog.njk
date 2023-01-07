@@ -3,10 +3,25 @@ title: Blog Archive
 layout: base
 ---
 
-<ul>
+{% set datePrinted = false %}
+{% set currentYear = 1000 %}
+{% set started = false %}
+
 {%- for post in collections.posts %}
-	<li>
+    {% set postYear = post.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        {% if started %}
+            </ul>
+        {% endif %}
+        <h3>{{ postYear }}</h3>
+        <ul>
+        {% set started = true %}
+    {% endif %}
+
+    <li>
 		<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
 	</li>
+
+    {% set currentYear = postYear %}
 {% endfor %}
-</ul>
