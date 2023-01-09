@@ -115,7 +115,7 @@ hidetitle: true
 	<h3>📷 <a href="https://toot.rknight.me/photos">Latest Photos<a></h3>
 	<div class="microblog-photos">
 		{%- for photo in micro.photos %}
-			<div class="microblog-photo"><a href="{{ photo.url }}"><img src="{{ photo.image }}"></a></div>
+			<div class="microblog-photo"><a href="{{ photo.url }}"><img src="{{ photo.image }}" alt="{{ photo.alt }}"></a></div>
 		{%  endfor %}
 	</div>
 

@@ -6,7 +6,7 @@ stripTags = (text) => {
   return text.replace(/<[^>]*>/g, '').replace(/\n\n/g, "\n").replace(/\n/g, " ")
 }
 
-module.exports = async function() {  
+module.exports = async function() {
   const { microblogkey } = JSON.parse(fs.readFileSync('./config.json'))
 
   const reading = await fetch("http://micro.blog/books/bookshelves/6464", { headers: { Authorization: `Bearer ${microblogkey}` }})
@@ -22,6 +22,7 @@ module.exports = async function() {
         return {
            url: p.url,
            image: p.image,
+           alt: p.content_html.match(/alt="([^"]*)/)[1],
         }
       })
     })
