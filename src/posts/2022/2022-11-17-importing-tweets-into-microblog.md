@@ -2,7 +2,7 @@
 title: Importing Tweets into Micro.blog
 permalink: /importing-tweets-into-microblog/index.html
 date: 2022-11-17
-excerpt: ""
+excerpt: "A script to import tweets from your tweet archive to Micro.blog"
 layout: post
 ---
 

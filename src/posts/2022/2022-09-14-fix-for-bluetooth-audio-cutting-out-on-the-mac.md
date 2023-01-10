@@ -2,7 +2,7 @@
 title: Fix for Bluetooth Audio Cutting Out on the Mac
 permalink: /fix-for-bluetooth-audio-cutting-out-on-the-mac/index.html
 date: 2022-09-14
-excerpt: ""
+excerpt: "A fix for bluetooth audio cutting out on MacOS"
 layout: post
 ---
 
