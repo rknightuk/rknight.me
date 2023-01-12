@@ -1,0 +1,26 @@
+---
+permalink: '.well-known/webfinger'
+---
+{
+    "subject": "acct:robb@social.lol",
+    "aliases": [
+        "https://social.lol/@robb",
+        "https://social.lol/users/robb"
+    ],
+    "links": [
+        {
+        "rel": "http://webfinger.net/rel/profile-page",
+        "type": "text/html",
+        "href": "https://social.lol/@robb"
+        },
+        {
+        "rel": "self",
+        "type": "application/activity+json",
+        "href": "https://social.lol/users/robb"
+        },
+        {
+        "rel": "http://ostatus.org/schema/1.0/subscribe",
+        "template": "https://social.lol/authorize_interaction?uri={uri}"
+        }
+    ]
+}
