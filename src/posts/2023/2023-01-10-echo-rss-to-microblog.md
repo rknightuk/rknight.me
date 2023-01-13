@@ -1,5 +1,5 @@
 ---
-title: "Import RSS to Micro.blog with Echo"
+title: "Import RSS to Micro.blog and Mastodon with Echo"
 permalink: /echo-rss-to-microblog/index.html
 date: 2023-01-10
 excerpt: "Echo is a node script to post new items from an RSS feed to Micro.blog"
@@ -7,6 +7,8 @@ layout: post
 ---
 
 ![Screenshot of Echo running in a terminal](https://rknightuk.s3.amazonaws.com/site/echo-screenshot.png)
+
+**Update 13/01/23**: Echo now supports Mastodon and webhooks as well as Micro.blog. [Check out the website for more details](https://echo.rknight.me).
 
 After a conversation with [Zoe](https://zoeaubert.me) about [status.lol](https://status.lol), as well as [this reply from Markus](https://micro.blog/muhh/15830286), I decided to write [Echo](https://github.com/rknightuk/echo) last night (do I know how to party on my birthday or what?). From the readme:
 
