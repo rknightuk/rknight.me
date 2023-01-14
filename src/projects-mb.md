@@ -1,5 +1,5 @@
 ---
-title: Projects
+title: Micro.blog Projects
 layout: base
 permalink: /projects/microblog/index.html
 ---
