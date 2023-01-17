@@ -109,7 +109,7 @@ h1, h2, h3, h4, h5, h6, strong {
 }
 
 li {
-  padding: 5px 0;
+  padding: 2px 0;
 }
 
 .no-bull {
@@ -425,8 +425,4 @@ pre {
 .statuslol_time {
     margin-left: 5px;
     font-style: normal;
-}
-
-.statuslol_time:after {
-    content: ' on status.lol'
 }

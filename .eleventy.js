@@ -1,6 +1,7 @@
 const pluginRss = require("@11ty/eleventy-plugin-rss");
 const util = require('util')
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
+const marked = require('marked')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -51,6 +52,10 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('stripIndex', function(path) {
     return path.replace('/index.html', '/');
+  })
+
+  eleventyConfig.addFilter('mdToHtml', function(content) {
+    return marked.parse(content)
   })
 
   return {

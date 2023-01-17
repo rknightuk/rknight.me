@@ -3,29 +3,69 @@ title: /now
 permalink: 'now/index.html'
 layout: base
 templateEngineOverride: njk,md
+css: now
 ---
 
-[What is a now page?](https://nownownow.com/about)
+<small>This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, you should make one, too.</small>
 
-### Current Status
+### {{ now.status.emoji }} Status
 
 <div class="statuslol" style="">
-    <div class="statuslol_emoji_container">
-        <div>{{ statuslol[0].emoji }}</div>
-    </div>
     <div class="statuslol_content">
-        <p>{{ statuslol[0].content }}</p>
+        <p>{{ now.status.content }}</p>
         <div class="statuslol_time">
-            <a style="" href="https://robb.status.lol/{{ statuslol[0].id }}">{{ statuslol[0].relative_time }}</a>
+            <a href="https://robb.status.lol/{{ now.status.id }}">{{ now.status.relative_time }}</a>
         </div>
     </div>
 </div>
 
-### Making
+### Currently
 
-### Reading
+<ul>
+{{ now.now.about | safe }}
+</ul>
 
-### Watching
+### 🛠️ Making
 
-### Listening To
+<ul>
+{{ now.now.making | safe }}
+</ul>
 
+### 📺 Watching
+
+<ul>
+{{ now.now.tv | safe }}
+</ul>
+
+### 🎮 Playing
+
+<ul>
+{{ now.now.playing | safe }}
+</ul>
+
+### 🎧 Listening To
+
+#### 🎙️ Podcasts
+
+<ul>
+{{ now.now.podcasts | safe }}
+</ul>
+
+#### 🎸 Music
+
+<div class="now_albums">
+{%- for album in now.music %}
+<div class="now_album">
+    <a href="{{ album.link }}" target="_blank" rel="noopener"><img src="{% if album.art %}{{ album.art }}{% else %}/assets/img/no-artwork.png{% endif %}" alt="{{ album.title }} by {{ album.artist }}"></a>
+    {% if album.art %}{% else %}<div class="now_album_text"><div class="now_album_text_container">{{ album.title }} by {{ album.artist }}</div></div>{% endif %}
+</div>
+{% endfor %}
+</div>
+
+### 📚 [Reading](https://toot.rknight.me/reading/)
+
+<ul>
+{%- for read in now.reading %}
+<li><a href="{{ read.url }}">{{ read.title }}</a> by {{ read.authors[0].name }}</li>
+{% endfor %}
+</ul>

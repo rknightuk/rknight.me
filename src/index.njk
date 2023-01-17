@@ -15,12 +15,12 @@ hidetitle: true
 <div class="statuslol_container">
     <div class="statuslol" style="">
         <div class="statuslol_emoji_container">
-            <div>{{ statuslol[0].emoji }}</div>
+            <div>{{ now.status.emoji }}</div>
         </div>
         <div class="statuslol_content">
-            <p>{{ statuslol[0].content }}</p>
+            <p>{{ now.status.content }}</p>
             <div class="statuslol_time">
-                <a style="" href="https://robb.status.lol/{{ statuslol[0].id }}">{{ statuslol[0].relative_time }}</a>
+                <a style="" href="https://robb.status.lol/{{ now.status.id }}">{{ now.status.relative_time }}</a>
             </div>
         </div>
     </div>
@@ -57,7 +57,7 @@ hidetitle: true
 
 	<h3>🎺 <a href="https://toot.rknight.me/">Short Posts</a></h3>
 	<div class="microblog-posts">
-	{%- for post in micro.posts %}
+	{%- for post in before.posts %}
 		<div class="microblog-post">
 			{% if post.title %}
 				<p><a class="post-date" href="{{ post.url }}">{{ post.date }}</a> {{ post.title }}</p>
@@ -70,27 +70,18 @@ hidetitle: true
 
 	<h3>📷 <a href="https://toot.rknight.me/photos">Latest Photos<a></h3>
 	<div class="microblog-photos">
-		{%- for photo in micro.photos %}
+		{%- for photo in before.photos %}
 			<div class="microblog-photo"><a href="{{ photo.url }}"><img src="{{ photo.image }}" alt="{{ photo.alt }}"></a></div>
 		{%  endfor %}
 	</div>
 
-	<h3>📺 <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
+	<h3>🍿 <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
 	<div class="microblog-posts">
-	{%- for watched in micro.watched %}
-		<div class="microblog-post">
-			<p><a class="post-date" href="{{ watched.url }}">{{ watched.date }}</a> {{ watched.summary | safe }}</p>
-		</div>
-	{% endfor %}
-	</div>
-
-	<h3>📚 <a href="https://toot.rknight.me/reading/">Currently Reading</a></h3>
-
-	{%- for read in micro.reading %}
-		<div class="microblog-post">
-			<p><a class="post-date" href="{{ read.url }}">{{ read.title }}</a></p>
-		</div>
-	{% endfor %}
+        <ul>
+        {%- for watched in before.watched %}
+            <li><a class="post-date" href="{{ watched.link }}">{{ watched.date }}</a> {{ watched.title }}</li>
+        {% endfor %}
+        </ul>
 	</div>
 
     <div class="the-claw" style="margin: 0 auto;">

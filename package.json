@@ -5,7 +5,9 @@
   "main": "index.html",
   "dependencies": {
     "@11ty/eleventy": "^1.0.1",
-    "@11ty/eleventy-plugin-rss": "^1.0.7"
+    "@11ty/eleventy-plugin-rss": "^1.0.7",
+    "js-yaml": "^4.1.0",
+    "marked": "^4.2.12"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
