@@ -19,7 +19,7 @@ module.exports = async function() {
             return {
                 json: data,
                 md: data.map(d => {
-                    return `- [${d.title} by ${ d.authors[0].name }](${ d.url }) {book}`
+                    return `- [${d.title}](${ d.url }) by ${ d.authors[0].name } {book}`
                 }).join('\n')
             }
         })
@@ -61,7 +61,7 @@ module.exports = async function() {
             return {
                 json: data,
                 md: data.map(d => {
-                    return `- [${d.title} by ${ d.artist }](${ d.link }) {headphones}`
+                    return `- [${d.title}](${ d.link }) by ${ d.artist } {headphones}`
                 }).join('\n')
             }
         })
