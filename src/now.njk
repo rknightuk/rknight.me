@@ -22,25 +22,25 @@ css: now
 ### Currently
 
 <ul>
-{{ now.now.about | safe }}
+{{ now.now.about.html | safe }}
 </ul>
 
 ### 🛠️ Making
 
 <ul>
-{{ now.now.making | safe }}
+{{ now.now.making.html | safe }}
 </ul>
 
 ### 📺 Watching
 
 <ul>
-{{ now.now.tv | safe }}
+{{ now.now.tv.html | safe }}
 </ul>
 
 ### 🎮 Playing
 
 <ul>
-{{ now.now.playing | safe }}
+{{ now.now.playing.html | safe }}
 </ul>
 
 ### 🎧 Listening To
@@ -48,13 +48,13 @@ css: now
 #### 🎙️ Podcasts
 
 <ul>
-{{ now.now.podcasts | safe }}
+{{ now.now.podcasts.html | safe }}
 </ul>
 
 #### 🎸 Music
 
 <div class="now_albums">
-{%- for album in now.music %}
+{%- for album in now.music.json %}
 <div class="now_album">
     <a href="{{ album.link }}" target="_blank" rel="noopener"><img src="{% if album.art %}{{ album.art }}{% else %}/assets/img/no-artwork.png{% endif %}" alt="{{ album.title }} by {{ album.artist }}"></a>
     {% if album.art %}{% else %}<div class="now_album_text"><div class="now_album_text_container">{{ album.title }} by {{ album.artist }}</div></div>{% endif %}
@@ -62,10 +62,10 @@ css: now
 {% endfor %}
 </div>
 
-### 📚 [Reading](https://toot.rknight.me/reading/)
+### 📚 Reading
 
 <ul>
-{%- for read in now.reading %}
+{%- for read in now.reading.json %}
 <li><a href="{{ read.url }}">{{ read.title }}</a> by {{ read.authors[0].name }}</li>
 {% endfor %}
 </ul>
