@@ -425,6 +425,8 @@ pre {
 .statuslol_time {
     margin-left: 5px;
     font-style: normal;
+    font-size: 0.8em;
+    padding-top: 4px;
 }
 
 code {

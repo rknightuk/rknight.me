@@ -18,7 +18,7 @@ hidetitle: true
             <div>{{ now.status.emoji }}</div>
         </div>
         <div class="statuslol_content">
-            <p>{{ now.status.content }}</p>
+            <p>{{ now.status.content | mdToHtml | safe }}</p>
             <div class="statuslol_time">
                 <a style="" href="https://robb.status.lol/{{ now.status.id }}">{{ now.status.relative_time }}</a>
             </div>
