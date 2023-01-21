@@ -8,7 +8,21 @@ layout: base
 - [Echo](http://echo.rknight.me/): RSS Cross Poster for Micro.blog and Mastodon
 - [Micro Blog Tools](/projects/microblog/): All the Micro.blog-related things I've made
 - [TrackerZapper](/apps/tracker-zapper): Remove link tracking parameters automatically
-- ~~[Almanac](http://github.com/rknightuk/almanac/): A microblog for what you've watched, read, and listened to.~~ Retired
+- [Stig Quote Generator](https://rknightuk.github.io/stig-quotes/)
+- [omgnow](https://omgnow.rknight.me/): Embed your omg.lol/now page on your website
+- [omg.log cli](https://github.com/rknightuk/omglolcli)
+- [Almanac](http://github.com/rknightuk/almanac/): A microblog for what you've watched, read, and listened to.
+- [FlatUI for Transmission Web](https://github.com/rknightuk/transmission-flatUI)
+- [Matt Bot or Not](https://rknightuk.github.io/mattbotornot/)
+- [Pebble Watch Faces](https://github.com/rknightuk/pebble-faces)
+  - [GoSquared for Pebble](https://github.com/rknightuk/gosquared-for-pebble)
+- [Back to the Future drinking game](https://rknightuk.github.io/back-to-the-future-drinking-game/)
+- [Worst popup ever](https://github.com/rknightuk/worst-popup-ever)
+- [Who's That Emoji?](https://rknightuk.github.io/whos-that-emoji/)
+- [Bonanza! Coffee](https://rknightuk.github.io/bonanzacoffee/)
+- [Hexo JSON Feed plugin](https://github.com/rknightuk/hexo-generator-json-feed-org)
+- [Better Mastodon aka Joe Rosentoot](https://rknightuk.github.io/better-mastodon)
+- [Mastodon Toot Bookmarklet](https://rknightuk.github.io/mastodon-toot-bookmarklet/)
 
 ### [#DevsDoDesign](http://devsdodesign.com): A multi-award winning hackathon team
 
