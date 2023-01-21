@@ -3,7 +3,6 @@ title: /now
 permalink: 'now/index.html'
 layout: base
 templateEngineOverride: njk,html,md
-css: now
 ---
 
 <small>This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, you should make one, too. (<a href="https://robb.omg.lol/now">Mirrored on omg.lol</a>)</small>
@@ -18,5 +17,9 @@ css: now
         </div>
     </div>
 </div>
+
+<style>
+    {{ now.albumStyles }}
+</style>
 
 {{ now.content | safe }}
