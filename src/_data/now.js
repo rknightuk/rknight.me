@@ -13,7 +13,7 @@ module.exports = async function() {
             return text
         })
 
-    const albumStyles = await fetch('https://api.rknight.me/assets/albums.css')
+    const albumStyles = await fetch('https://api.rknight.me/assets/now.css')
         .then(res => res.text())
         .then(text => {
             return text
