@@ -92,7 +92,7 @@ Like the missing artist images, this involved scraping a page because PSN doesn'
 
 - [`services/overcast.js`](https://github.com/rknightuk/api/blob/main/services/overcast)
 
-**This export isn't a secret, not are scripts to download it but don't hammer this endpoint. I'm downloading once a week. I have emailed Marco to ask if he'd implement an RSS feed of listen history so this isn't required.**
+**This export isn't a secret, nor are the scripts to download it but don't hammer this endpoint. I'm downloading once a week. I have emailed Marco to ask if he'd implement an RSS feed of listen history so this isn't required.**
 
 This one was trickier but doable. Overcast offers an ["All Data" export](https://overcast.fm/account) but you need to be logged in to access it. And it's in OPML format. So this is a two step process:
 
