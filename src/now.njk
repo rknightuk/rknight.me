@@ -7,13 +7,13 @@ templateEngineOverride: njk,html,md
 
 <small>This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, you should make one, too. (<a href="https://robb.omg.lol/now">Mirrored on omg.lol</a>)</small>
 
-### {{ now.status.emoji }} Status
+### {{ status.emoji }} Status
 
 <div class="statuslol" style="">
     <div class="statuslol_content">
-    <p>{{ now.status.content | mdToHtml | safe }}</p>
+    <p>{{ status.content | mdToHtml | safe }}</p>
         <div class="statuslol_time">
-            <a href="https://robb.status.lol/{{ now.status.id }}">{{ now.status.relative_time }}</a>
+            <a href="https://robb.status.lol/{{ status.id }}">{{ status.relative_time }}</a>
         </div>
     </div>
 </div>

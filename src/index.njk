@@ -15,12 +15,12 @@ hidetitle: true
 <div class="statuslol_container">
     <div class="statuslol" style="">
         <div class="statuslol_emoji_container">
-            <div>{{ now.status.emoji }}</div>
+            <div>{{ status.emoji }}</div>
         </div>
         <div class="statuslol_content">
-            <p>{{ now.status.content | mdToHtml | safe }}</p>
+            <p>{{ status.content | mdToHtml | safe }}</p>
             <div class="statuslol_time">
-                <a style="" href="https://robb.status.lol/{{ now.status.id }}">{{ now.status.relative_time }}</a>
+                <a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.relative_time }}</a>
             </div>
         </div>
     </div>
