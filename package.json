@@ -4,7 +4,8 @@
   "description": "",
   "main": "index.html",
   "dependencies": {
-    "@11ty/eleventy": "^1.0.1",
+    "@11ty/eleventy": "^2.0.0-beta.1",
+    "@11ty/eleventy-fetch": "^3.0.0",
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "js-yaml": "^4.1.0",
     "marked": "^4.2.12"
@@ -17,7 +18,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/eleventy --serve",
-    "build": "rm -rf public/* && ./node_modules/.bin/eleventy"
+    "build": "rm -rf public/* && ./node_modules/.bin/eleventy",
+    "clear": "rm -rf .cache"
   },
   "author": "Robb Knight",
   "license": "ISC"

@@ -1,3 +1,4 @@
 node_modules
 public
 config.json
+.cache

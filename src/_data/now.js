@@ -1,6 +1,16 @@
 const fetch = require('node-fetch')
+const { AssetCache } = require("@11ty/eleventy-fetch")
 
 module.exports = async function() {
+    console.log("Fetching now data")
+    let asset = new AssetCache("now_data")
+
+    if (asset.isCacheValid('1h'))
+    {
+        console.log("Returning now data from cache" )
+        return await asset.getCachedValue()
+    }
+
     const status = await fetch('https://api.omg.lol/address/robb/statuses/')
         .then(res => res.json())
         .then(json => {
@@ -19,9 +29,13 @@ module.exports = async function() {
             return text
         })
 
-    return {
+    const data = {
         status,
         content,
         albumStyles,
     }
+
+    await asset.save(data, "json")
+
+    return data
 }

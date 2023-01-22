@@ -1,12 +1,21 @@
 const fetch = require("node-fetch");
 const fs = require('fs');
 const xml2Json = require('xml2json');
+const { AssetCache } = require("@11ty/eleventy-fetch")
 
 stripTags = (text) => {
   return text.replace(/<[^>]*>/g, '').replace(/\n\n/g, "\n").replace(/\n/g, " ")
 }
 
 module.exports = async function() {
+    console.log("Fetching before data")
+    let asset = new AssetCache("before data")
+
+    if (asset.isCacheValid('1h'))
+    {
+        console.log("Returning before data from cache" )
+        return await asset.getCachedValue()
+    }
 
   const photos = await fetch("https://toot.rknight.me/photos/index.json")
     .then(res => res.json())
@@ -55,9 +64,13 @@ module.exports = async function() {
         }).slice(0, 5)
     })
 
-    return {
+    const data = {
       posts,
       watched,
       photos,
     }
+
+    await asset.save(data, "json")
+
+    return data
 };

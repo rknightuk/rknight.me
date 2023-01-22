@@ -1,13 +1,22 @@
-const fetch = require("node-fetch");
+const fetch = require("node-fetch")
+const { AssetCache } = require("@11ty/eleventy-fetch")
 
 module.exports = async function() {
-  console.log( "Fetching Alfred Workflows" );
+    console.log("Fetching Alfred Workflows")
+    let asset = new AssetCache("alfred_workflows")
 
-  return fetch("https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/api.json")
-    .then(res => res.json())
-    .then(json => {
-      return {
-        workflows: json,
-      };
-    });
-};
+    if (asset.isCacheValid('1h'))
+    {
+        console.log("Returning Alfred Workflows from cache" )
+        return await asset.getCachedValue()
+    }
+
+    const res = await fetch("https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/api.json")
+    const json = await res.json()
+    const data = {
+        workflows: json
+    }
+    await asset.save(data, "json")
+
+    return data
+}
