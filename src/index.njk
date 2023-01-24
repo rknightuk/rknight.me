@@ -4,41 +4,26 @@ layout: base
 hidetitle: true
 ---
 
-<section>
+<div class="statuslol" style="">
+    <div class="statuslol_emoji_container">
+        <div>{{ status.emoji }}</div>
+    </div>
+    <div class="statuslol_content">
+        <p>{{ status.content | mdToHtml | safe }}</p>
+        <div class="statuslol_time">
+            <a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTime }}</a>
+        </div>
+    </div>
+</div>
+
+</div>{# don't remove this, it's important #}
+
+<section class="box">
 	<h2 class="heading-medium">About</h2>
 	<p>👋 I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a <a href="https://ruminatepodcast.com">podcaster</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
 
 	<p>You can find me on <a href="https://micro.blog/rknightuk?remote_follow=1">Micro.blog as @rknightuk</a>, follow me on Mastodon as <code>robb@toot.rknight.me</code>, <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 </section>
-</div>{# don't remove this, it's important #}
-
-<div class="statuslol_container">
-    <div class="statuslol" style="">
-        <div class="statuslol_emoji_container">
-            <div>{{ status.emoji }}</div>
-        </div>
-        <div class="statuslol_content">
-            <p>{{ status.content | mdToHtml | safe }}</p>
-            <div class="statuslol_time">
-                <a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.relative_time }}</a>
-            </div>
-        </div>
-    </div>
-</div>
-
-<div class="projects">
-	{%- for project in projects %}
-		{% if project.ignore != true %}
-		<div class="project {{ project.key }} {{ project.class }}">
-			<div class="project-image" {% if project.color %}style="background-color: {{ project.color }}"{% endif %}>
-				<img src="/assets/img/{{ project.key }}.{{ project.type }}" alt="{{ project.alt }}">
-			</div>
-			<h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-			<p>{{ project.desc | safe }}</p>
-		</div>
-		{%  endif  %}
-	{% endfor %}
-</div>
 
 <section class="box">
 	<h3 class="heading-medium">🗒️ <a href="/blog">Long Posts</a></h2>
@@ -91,3 +76,17 @@ hidetitle: true
         </the-claw-webring-widget>
     </div>
 </section>
+
+<div class="projects">
+	{%- for project in projects %}
+		{% if project.ignore != true %}
+		<div class="project {{ project.key }} {{ project.class }}">
+			<div class="project-image" {% if project.color %}style="background-color: {{ project.color }}"{% endif %}>
+				<img src="/assets/img/{{ project.key }}.{{ project.type }}" alt="{{ project.alt }}">
+			</div>
+			<h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
+			<p>{{ project.desc | safe }}</p>
+		</div>
+		{%  endif  %}
+	{% endfor %}
+</div>

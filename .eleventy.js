@@ -2,6 +2,7 @@ const pluginRss = require("@11ty/eleventy-plugin-rss");
 const util = require('util')
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const marked = require('marked')
+const { DateTime } = require("luxon")
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -38,16 +39,14 @@ module.exports = function(eleventyConfig) {
     return [year, month, day].join('-');
   })
 
-  eleventyConfig.addFilter("todaysDate", function(_) {
-    var d = new Date(),
-        month = '' + (d.getMonth() + 1),
-        day = '' + d.getDate(),
-        year = d.getFullYear();
+  eleventyConfig.addFilter("toDateTime", function(date) {
+    const formatted = DateTime.fromSeconds(parseInt(date, 10))
 
-    if (month.length < 2) month = '0' + month;
-    if (day.length < 2) day = '0' + day;
+    const trail = (number) => {
+        return parseInt(number, 10) < 10 ? `0${number}` : number
+    }
 
-    return [year, month, day].join('-');
+    return `${trail(formatted.day)}-${trail(formatted.month)}-${formatted.year} ${trail(formatted.hour)}:${trail(formatted.minute)}`
   })
 
   eleventyConfig.addFilter('stripIndex', function(path) {

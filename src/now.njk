@@ -13,7 +13,7 @@ templateEngineOverride: njk,html,md
     <div class="statuslol_content">
     <p>{{ status.content | mdToHtml | safe }}</p>
         <div class="statuslol_time">
-            <a href="https://robb.status.lol/{{ status.id }}">{{ status.relative_time }}</a>
+            <a href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTime }}</a>
         </div>
     </div>
 </div>
