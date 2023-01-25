@@ -44,5 +44,5 @@ All the things I use on a day-to-day basis.
 ### Fonts
 
 - [Bayshore Font](https://www.myfonts.com/collections/bayshore-font-set-sail-studios) for my header
-- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) for body text
+- [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) for body text (thanks [Zoe](https://zoeaubert.me))
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) for code
