@@ -59,7 +59,6 @@ header {
   font-size: 6.5em;
   margin-bottom: 0;
   text-shadow: var(--body-text) 3px 3px 1px;
-  transform: rotate(-5deg);
   letter-spacing: 3px;
 }
 
@@ -129,45 +128,41 @@ blockquote {
 }
 
 .nav__list {
-  display: flex;
-  flex-direction: row;
-  list-style-type: none;
-  padding-left: 0;
-  margin-top: 0;
-  margin-bottom: 0;
-  text-align: center;
-}
-
-.nav__list--item {
-    flex: 1;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    column-gap: 10px;
+    row-gap: 10px;
+    list-style-type: none;
+    padding-left: 0;
     font-weight: bold;
     text-transform: uppercase;
     letter-spacing: 3px;
-    margin-right: 10px;
+    text-align: center;
+    margin-bottom: 10px;
 }
 
-.nav__list--item:last-child {
-    margin-right: 0;
+footer .nav__list {
+    grid-template-columns: repeat(2, 1fr);
 }
 
-.nav__list--item a {
+.nav__list--item {
+    margin-bottom: 0;
+    padding: 10px;
     text-decoration: none;
 }
 
-.nav__list--item a:hover {
+.nav__list--item:hover {
     text-decoration: underline;
 }
 
 @media (max-width: 700px) {
-  .nav__list {
-    flex-wrap: wrap;
-  }
+    .nav__list {
+        grid-template-columns: repeat(2, 1fr);
+    }
 
-  .nav__list--item {
-    flex-basis: 50%;
-    margin-right: 0;
-    padding: 5px;
-  }
+    .nav__list--item {
+        padding: 5px;
+    }
 
   h2 {
     font-size: 1.3em;
