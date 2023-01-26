@@ -17,7 +17,7 @@ module.exports = async function() {
             return text
         })
 
-    const albumStyles = await fetch('https://api.rknight.me/assets/now.css')
+    const nowStyles = await fetch('https://api.rknight.me/assets/now.css')
         .then(res => res.text())
         .then(text => {
             return text
@@ -25,7 +25,7 @@ module.exports = async function() {
 
     const data = {
         content,
-        albumStyles,
+        nowStyles,
     }
 
     await asset.save(data, "json")

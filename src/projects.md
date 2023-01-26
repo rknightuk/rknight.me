@@ -12,6 +12,7 @@ layout: base
 - [omgnow](https://omgnow.rknight.me/): Embed your omg.lol/now page on your website
 - [omg.log cli](https://github.com/rknightuk/omglolcli)
 - [chaosweb.space](https://github.com/rknightuk/chaosweb): Weird things! Wacky things! Fun things!
+- [Mac 30th Anniversary Icons](https://rknightuk.github.io/mac-30-font-svg/)
 - [Almanac](http://github.com/rknightuk/almanac/): A microblog for what you've watched, read, and listened to.
 - [FlatUI for Transmission Web](https://github.com/rknightuk/transmission-flatUI)
 - [Matt Bot or Not](https://rknightuk.github.io/mattbotornot/)
