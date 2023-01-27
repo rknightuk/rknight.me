@@ -1,0 +1,85 @@
+---
+title: Lego
+permalink: 'collections/lego/index.html'
+layout: base
+templateEngineOverride: njk,html,md
+---
+
+<p><a href="/collections">Collections</a> &gt; Lego</p>
+
+<style>
+    .game-grid-container {
+        position: relative;
+    }
+
+    .game-grid-container .icon {
+        max-height: 35px;
+        max-width: 100px;
+    }
+
+    .game-grid-container summary
+    {
+        padding: 10px 0;
+    }
+
+    .game-grid-container .summary-wrap {
+        display: flex;
+        margin-top: -35px;
+        align-items: center;
+    }
+
+    .game-grid-container:hover {
+        cursor: pointer;
+    }
+
+    .game-grid {
+        display: flex;
+        flex-wrap: wrap;
+        margin: 0 auto;
+        justify-content: space-around;
+    }
+
+    .game-grid-game {
+        text-align: center;
+        box-sizing: border-box;
+        width: 150px;
+        position: relative;
+        margin-right: 5px;
+    }
+
+    .game-grid-game img {
+        box-shadow: #adb5bd 0px 8px 24px;
+        transition: 0.2s linear;
+    }
+
+    .game-grid-game img:hover {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+
+    .game-label {
+        font-size: 0.8em;
+    }
+</style>
+
+{%- for platform in games.platforms %}
+    <details class="game-grid-container">
+        <summary>
+            <span>
+                <span class="summary-wrap">
+                    <svg class="icon {{ platform.key }}" style="color: {{ platform.color }}"><use xlink:href="#{{ platform.key }}"></use></svg> {{ platform.name }} ({{ games.games[platform.name].length }})
+                </span>
+            </span>
+        </summary>
+        <div class="game-grid">
+            {%- for game in games.games[platform.name] %}
+                <div class="game-grid-game">
+                    <a target="_blank" rel="noopener" href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
+                        <img src="/assets/games/{{ game.gameID }}.jpg">
+                    </a>
+                    <span class="game-label">{{ game.title }}</span>
+                </div>
+            {% endfor%}
+        </div>
+    </details>
+{% endfor%}
