@@ -1,0 +1,56 @@
+---
+layout: base
+---
+
+<p><a href="/collections">Collections</a> &gt; {{ title }}</p>
+
+<style>
+    .collection-grid-container {
+        margin-bottom: 5px;
+    }
+
+    .collection-grid-container:hover {
+        cursor: pointer;
+    }
+
+    .collection-grid-container summary {
+        margin-bottom: 30px;
+    }
+
+    .collection-grid {
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+        grid-gap: 10px;
+    }
+
+    .collection-item-wrapper {
+        text-align: center;
+    }
+
+    .collection-image-wrapper {
+        height: 200px;
+        position: relative;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .collection-item-wrapper img {
+        box-shadow: #adb5bd 0px 8px 24px;
+        transition: 0.2s linear;
+        max-height: 200px;
+        margin: 0 auto;
+    }
+
+    .collection-item-wrapper img:hover {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+
+    .collection-label {
+        font-size: 0.8em;
+        text-align: center;
+    }
+</style>
+
+{{ content | safe }}

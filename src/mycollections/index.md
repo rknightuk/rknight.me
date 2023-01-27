@@ -1,5 +1,5 @@
 ---
-title: Collection Tracking
+title: Collections
 layout: base
 permalink: 'collections/index.html'
 ---
