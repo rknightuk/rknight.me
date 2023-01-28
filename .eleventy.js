@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addPlugin(syntaxHighlight);
 
   eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+  eleventyConfig.addShortcode("timestamp", () => Date.now());
 
   eleventyConfig.addCollection("posts", function(collection) {
     return collection.getFilteredByGlob("src/posts/**/*.md").reverse()
