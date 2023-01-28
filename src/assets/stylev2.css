@@ -129,7 +129,7 @@ blockquote {
 
 .nav__list {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(4, 1fr);
     column-gap: 10px;
     row-gap: 10px;
     list-style-type: none;
@@ -139,6 +139,7 @@ blockquote {
     letter-spacing: 3px;
     text-align: center;
     margin-bottom: 10px;
+    position: relative;
 }
 
 footer .nav__list {
@@ -167,6 +168,29 @@ footer .nav__list {
   h2 {
     font-size: 1.3em;
   }
+}
+
+.more-menu:hover+.more-menu-links,
+.more-menu-links:hover {
+    visibility: visible;
+    opacity: 1;
+}
+
+.more-menu-links {
+    text-align: right;
+    visibility: hidden;
+    transition: 0.2s linear;
+    position: absolute;
+    right: 0;
+    width: 100%;
+    bottom: -70px;
+    opacity: 0;
+}
+
+@media (max-width: 700px) {
+    .more-menu-links {
+        bottom: -115px;
+    }
 }
 
 footer {
