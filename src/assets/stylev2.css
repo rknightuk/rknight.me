@@ -170,8 +170,11 @@ footer .nav__list {
   }
 }
 
-.more-menu:hover+.more-menu-links,
-.more-menu-links:hover {
+.more-menu:hover {
+    cursor: pointer;
+}
+
+.more-menu-links.toggled {
     visibility: visible;
     opacity: 1;
 }

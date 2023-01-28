@@ -51,8 +51,8 @@
 
                 <a class="nav__list--item box" href="/projects/">Projects</a>
 
-                <div class="nav__list--item box more-menu">More&hellip;</div>
-                <div class="more-menu-links">
+                <div class="nav__list--item box more-menu" id="more-menu">More&hellip;</div>
+                <div class="more-menu-links" id="more-menu-links">
                     <div class="nav__list" style="grid-column-start: revert;">
                         <a class="nav__list--item box" href="/uses/">/uses</a>
                         <a class="nav__list--item box" href="/collections/">Collections</a>
@@ -85,6 +85,20 @@
                 &copy; 1988 - {% year %} Robb Knight
             </div>
 		</footer>
+
+        <script>
+            (function() {
+                document.getElementById('more-menu').addEventListener('click', function() {
+                    var more = document.getElementById('more-menu-links')
+                    if (more.className.includes('toggled'))
+                    {
+                        more.className = more.className.replace(' toggled', '')
+                    } else {
+                        more.className += ' toggled'
+                    }
+                })
+            })();
+        </script>
 
 	</body>
 </html>
