@@ -14,6 +14,7 @@ layout: base
 - [chaosweb.space](https://github.com/rknightuk/chaosweb): Weird things! Wacky things! Fun things!
 - [Mac 30th Anniversary Icons](https://rknightuk.github.io/mac-30-font-svg/)
 - [Almanac](http://github.com/rknightuk/almanac/): A microblog for what you've watched, read, and listened to.
+- [Brickset CSV to JSON script](https://github.com/rknightuk/brickset-csv-to-json)
 - [FlatUI for Transmission Web](https://github.com/rknightuk/transmission-flatUI)
 - [Matt Bot or Not](https://rknightuk.github.io/mattbotornot/)
 - [Pebble Watch Faces](https://github.com/rknightuk/pebble-faces)
