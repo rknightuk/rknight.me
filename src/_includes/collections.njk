@@ -19,8 +19,14 @@ layout: base
 
     .collection-grid {
         display: grid;
-        grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-        grid-gap: 10px;
+        grid-template-columns: repeat(5, calc(20% - 0.75em));
+        grid-gap: 1em;
+    }
+    @media (max-width: 650px)
+    {
+        .collection-grid {
+            grid-template-columns: repeat(3, calc(33% - 0.75em));
+        }
     }
 
     .collection-item-wrapper {
@@ -28,7 +34,7 @@ layout: base
     }
 
     .collection-image-wrapper {
-        height: 200px;
+        height: 150px;
         position: relative;
         display: flex;
         align-items: center;
