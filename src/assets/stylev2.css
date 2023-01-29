@@ -43,11 +43,15 @@ a:hover {
 }
 
 .box {
-  background-color: white;
-  border: 2px solid var(--body-text);
-  box-shadow: 3px 3px var(--body-text);
-  padding: 20px;
-  margin-bottom: 10px;
+    background-color: white;
+    border: 2px solid var(--body-text);
+    box-shadow: 3px 3px var(--body-text);
+    margin-bottom: 10px;
+    padding: 10px 20px;
+}
+
+.box--spad {
+    padding: 5px;
 }
 
 header {
