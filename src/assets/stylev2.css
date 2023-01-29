@@ -9,6 +9,7 @@
   --body-text: #2c3e50;
   --heading-color: #2c3e50;
   --subtle-color: #6f6f6f;
+  --main-yellow: #E0E752;
 }
 
 body {
@@ -50,6 +51,10 @@ a:hover {
   margin-bottom: 10px;
 }
 
+.box-spad {
+    padding: 10px;
+}
+
 header {
   text-align: center;
 }
@@ -64,7 +69,7 @@ header {
 
 .main-header a {
   text-decoration: none;
-  color: #E0E752;
+  color: var(--main-yellow);
 }
 
 @keyframes color-change {
@@ -83,6 +88,43 @@ header {
 
 .main-header a:hover {
   animation: color-change 3s infinite;
+}
+
+.social-links {
+    margin: -20px auto 10px auto;
+    display: flex;
+    max-width: 400px;
+    justify-content: space-around;
+}
+
+.social-links a {
+    display: flex;
+    justify-content: center;
+    transition: 0.2s linear;
+    color: white;
+}
+
+a.social-masto {
+    background: #6364FF;
+}
+a.social-gh {
+    background: #EA4AAA;
+}
+a.social-coffee {
+    background: #FFDD00;
+}
+a.social-subscribe {
+    background: #FFA500;
+}
+
+.social-links a:hover {
+    background: white;
+    color: var(--body-text);
+}
+
+.social-links svg {
+    width: 30px;
+    height: 30px;
 }
 
 h2 {
