@@ -35,4 +35,15 @@ layout: base
 - [Knockoffia](http://knockoffia.devsdodesign.com/): Winner, [Pub Hack #4](http://www.pubhack.co.uk/pubhack-4-the-results/): Most Likely to Receive a Lawsuit.
 - [T.R.U.M.P](http://devsdodesign.com/T.R.U.M.P./): Winner, [Pub Hack #5](http://www.pubhack.co.uk/pubhack-5-results/): Audience Choice Award.
 
+### Oddly-Specific Playlists
+
+[Songs where the song is about how long the song is](https://music.apple.com/gb/playlist/songs-where-the-song-is-about-how-long-the-song-is/pl.u-GXVZCZJ7ad8)
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/songs-where-the-song-is-about-how-long-the-song-is/pl.u-GXVZCZJ7ad8"></iframe>
+
+[Songs that use "fit" in the lyrics in the British sense](https://music.apple.com/gb/playlist/songs-that-use-fit-in-the-lyrics-in-the-british-sense/pl.u-NqqkTm2Yjap)
+
+<iframe allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/gb/playlist/songs-that-use-fit-in-the-lyrics-in-the-british-sense/pl.u-NqqkTm2Yjap"></iframe>
+
+
 [Site Version History](/versions)
