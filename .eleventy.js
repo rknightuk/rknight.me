@@ -61,6 +61,9 @@ module.exports = function(eleventyConfig) {
   })
 
   eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    generateHTML: (outputUrl) => {
+        return `<meta property="og:image" content="https://rknight.me${outputUrl}" />`
+    },
     satoriOptions: {
       fonts: [
         {
