@@ -9,7 +9,7 @@
 
 		<meta name="generator" content="{{ eleventy.generator }}">
 
-		<title>{{ title }}</title>
+		<title>{{ title | safe }}</title>
 
 		<link rel="stylesheet" href="/assets/stylev2.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="/assets/highlight.css" type="text/css" media="screen" title="no title" charset="utf-8">
@@ -30,7 +30,8 @@
 		<meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, cat owner, sometimes blogger, fortnightly podcaster{% endif %}" />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://rknight.me{{ page.url }}" />
-        <meta property="og:image" content="https://rknight.me/assets/img/preview.png">
+        {# <meta property="og:image" content="https://rknight.me/assets/img/preview.png"> #}
+        {% ogImage "src/og-image.og.njk", { title: title | safe } %}
 
         <link rel="preconnect" href="https://fonts.bunny.net">
 		<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400" rel="stylesheet" />

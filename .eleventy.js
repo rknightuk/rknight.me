@@ -3,6 +3,8 @@ const util = require('util')
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const marked = require('marked')
 const { DateTime } = require("luxon")
+const EleventyPluginOgImage = require('eleventy-plugin-og-image')
+const fs = require('fs')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -56,6 +58,25 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('mdToHtml', function(content) {
     return marked.parse(content)
+  })
+
+  eleventyConfig.addPlugin(EleventyPluginOgImage, {
+    satoriOptions: {
+      fonts: [
+        {
+          name: 'Bayshore',
+          data: fs.readFileSync('src/assets/Bayshore.woff'),
+          weight: 700,
+          style: 'normal',
+        },
+        {
+          name: 'Atkinson Hyperlegible',
+          data: fs.readFileSync('src/assets/Atkinson-Hyperlegible-Bold-102.woff'),
+          weight: 700,
+          style: 'normal',
+        },
+      ],
+    },
   })
 
   return {
