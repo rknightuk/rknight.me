@@ -29,3 +29,5 @@ This is by far the easiest option. Don't care about your tweets. Let them wither
 [Tweetback](https://github.com/tweetback/tweetback) is a tool built with [Eleventy](https://www.11ty.dev/) and is my current choice for making my archive available. You can see mine at [hellsite.rknight.me](https://hellsite.rknight.me/). The steps to get this working are more involved than the previous options but I'm a big fan of the output. I won't go through the steps here but the [readme](https://github.com/tweetback/tweetback/blob/main/README.md) has detailed instructions.
 
 ![Tweetback screenshot](https://rknightuk.s3.amazonaws.com/site/twitter-tweetback.png)
+
+One other related part of Tweetback is [tweetback-canonical](https://github.com/tweetback/tweetback-canonical). If you add your archive and username to the repository, anyone who uses Tweetback and has tweets that mention you, those tweets will link back to your archive rather than Twitter's website itself. For example, [this tweet](https://hellsite.rknight.me/1489618994000805889/) where I mention Zach links to [his archive](https://www.zachleat.com/twitter/1489616692678434816).
