@@ -7,3 +7,6 @@ layout: base
 <span class="post">
 	{{ content | safe }}
 </span>
+
+{%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
+{% include 'webmentions.njk' %}
