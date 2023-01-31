@@ -43,6 +43,10 @@ module.exports = function(eleventyConfig) {
     return [year, month, day].join('-');
   })
 
+  eleventyConfig.addFilter('dateForFeed', function(date) {
+    return new Date(date).toISOString()
+  })
+
   eleventyConfig.addFilter("toDateTime", function(date) {
     const formatted = DateTime.fromSeconds(parseInt(date, 10))
 
