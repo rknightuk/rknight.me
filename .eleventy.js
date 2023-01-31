@@ -121,6 +121,8 @@ module.exports = function(eleventyConfig) {
         }
     })
 
+    data['in-reply-to'].sort((a,b) => (a.published > b.published) ? 1 : ((b.published > a.published) ? -1 : 0))
+
     return data
   })
 
