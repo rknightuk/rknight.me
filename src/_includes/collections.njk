@@ -21,6 +21,8 @@ layout: base
         display: grid;
         grid-template-columns: repeat(5, calc(20% - 0.75em));
         grid-gap: 1em;
+        margin-bottom: 20px;
+
     }
     @media (max-width: 650px)
     {
@@ -34,7 +36,7 @@ layout: base
     }
 
     .collection-image-wrapper {
-        height: 150px;
+        height: 170px;
         position: relative;
         display: flex;
         align-items: center;
@@ -51,6 +53,14 @@ layout: base
     .collection-item-wrapper img:hover {
         -webkit-transform: scale(1.15);
         transform: scale(1.15);
+    }
+
+    .collection-image-wrapper a {
+        height: 170px;
+    }
+
+    .collection-image-wrapper img {
+        max-height: 100%;
     }
 
     .collection-label {

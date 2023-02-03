@@ -23,6 +23,7 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
         <link rel="manifest" href="/assets/icons/site.webmanifest">
 
+
 		<script src="https://instantaneous-fountain.rknight.me/script.js" data-site="ISEJUYJY" defer></script>
 
 		<meta property="og:title" content="{{ title }}" />
@@ -45,86 +46,76 @@
 
 		<header>
 			<div class="main-header"><a href="/">Robb Knight</a></div>
-            <div class="social-links">
-                <a href="https://social.lol/@robb" class="box box-spad social-masto">
-                    <svg class="icon">
-                        <use xlink:href="#mastodon"></use>
-                    </svg>
-                </a>
-                <a href="https://github.com/rknightuk" class="box box-spad social-gh">
-                    <svg class="icon">
-                        <use xlink:href="#github"></use>
-                    </svg>
-                </a>
-                <a href="https://buymeacoffee.com/rknightuk" class="box box-spad social-coffee">
-                    <svg class="icon">
-                        <use xlink:href="#buymeacoffee"></use>
-                    </svg>
-                </a>
-                <a href="/subscribe" class="box box-spad social-subscribe">
-                    <svg class="icon">
-                        <use xlink:href="#rss"></use>
-                    </svg>
-                </a>
-            </div>
 		</header>
+
+        <div class="social-links box box-spad">
+            <a href="https://social.lol/@robb" class="social-masto">
+                <svg class="icon">
+                    <use xlink:href="#mastodon"></use>
+                </svg>
+            </a>
+            <a href="https://robb.omg.lol" class="social-omg">
+                <svg class="icon">
+                    <use xlink:href="#prami"></use>
+                </svg>
+            </a>
+            <a href="https://github.com/rknightuk" class="social-gh">
+                <svg class="icon">
+                    <use xlink:href="#github"></use>
+                </svg>
+            </a>
+            <a href="/coffee" class="social-coffee">
+                <svg class="icon">
+                    <use xlink:href="#buymeacoffee"></use>
+                </svg>
+            </a>
+            <a href="/subscribe" class="social-subscribe">
+                <svg class="icon">
+                    <use xlink:href="#rss"></use>
+                </svg>
+            </a>
+        </div>
 
 		<div class="nav">
 			<div class="nav__list">
 				<a class="nav__list--item box" href="/blog/">Blog</a>
 
+                <a class="nav__list--item box" href="/micro">Microblog</a>
+
                 <a class="nav__list--item box" href="/now">/now</a>
 
                 <a class="nav__list--item box" href="/projects/">Projects</a>
 
-                <div class="nav__list--item box more-menu" id="more-menu">More&hellip;</div>
-                <div class="more-menu-links" id="more-menu-links">
-                    <div class="nav__list" style="grid-column-start: revert;">
-                        <a class="nav__list--item box" href="/uses/">/uses</a>
-                        <a class="nav__list--item box" href="/collections/">Collections</a>
-                        <a class="nav__list--item box" href="https://intersect.rknight.me/">Wiki</a>
-                        <a class="nav__list--item box" href="https://toot.rknight.me">Microblog</a>
-                    </div>
-                </div>
+                <a class="nav__list--item box" href="/uses/">/uses</a>
+
+                <a class="nav__list--item box" href="/collections/">Collections</a>
+
+                <a class="nav__list--item box" href="/alfred-workflows">Workflows</a>
+
+                <a class="nav__list--item box" href="https://intersect.rknight.me/">Wiki</a>
 			</div>
 		</div>
 
-		<div class="box">
+		<div class="box main-content">
 			{% if hidetitle %}
 			{% else %}
-				<h2 class="heading-medium">{{ title }}</h2>
+				<h2>{{ title }}</h2>
 			{% endif %}
 			{{ content | safe }}
 		</div>
 
 		<footer>
-			<div class="nav__list">
-				<a class="nav__list--item box" href="/ref/">Referrals</a>
-
-				<a class="nav__list--item box" href="/contact">Contact</a>
-
-				<a class="nav__list--item box" href="/subscribe">Subscribe</a>
-
-				<a class="nav__list--item box" href="/coffee/">Buy Me a Coffee</a>
-			</div>
+            <div class="box">
+                <ul>
+                    {% for p in pagelist %}
+                        <li><a href="{{ p.link }}">{{ p.label }}</a></li>
+                    {% endfor %}
+                </ul>
+            </div>
             <div class="box copyright">
                 &copy; 1988 - {% year %} Robb Knight
             </div>
 		</footer>
-
-        <script>
-            (function() {
-                document.getElementById('more-menu').addEventListener('click', function() {
-                    var more = document.getElementById('more-menu-links')
-                    if (more.className.includes('toggled'))
-                    {
-                        more.className = more.className.replace(' toggled', '')
-                    } else {
-                        more.className += ' toggled'
-                    }
-                })
-            })();
-        </script>
 
         <svg width="0" height="0" style="display: none">
             <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="rss">
@@ -138,6 +129,38 @@
             </symbol>
             <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="mastodon">
                 <path fill="currentColor" d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"></path>
+            </symbol>
+            <symbol id="prami" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
+                <g transform="matrix(1.886789, 0, 0, -1.886789, -351.413971, 1414.84082)" style="">
+                    <title>Default</title>
+                    <g id="g24" transform="matrix(1, 0, 0, 1, 318.75, 511.366486)">
+                    <path d="m 0,0 c -20.346,0 -40.691,7.762 -56.215,23.285 l -53,53 c -31.047,31.047 -31.047,81.383 0,112.43 29.997,29.997 78,31.012 109.215,3.044 31.216,27.967 79.219,26.952 109.215,-3.044 31.047,-31.047 31.047,-81.383 0,-112.43 l -53,-53 C 40.692,7.762 20.346,0 0,0" style="fill:#ff69ad;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path26"/>
+                    </g>
+                    <g id="g28" transform="matrix(1, 0, 0, 1, 303.125, 656.25)">
+                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0" style="fill:#461036;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path30"/>
+                    </g>
+                    <g id="g32" transform="matrix(1, 0, 0, 1, 303.125, 656.25)">
+                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0 Z" style="fill:none;stroke:#461036;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path34"/>
+                    </g>
+                    <g id="g36" transform="matrix(1, 0, 0, 1, 346.875, 656.25)">
+                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0" style="fill:#461036;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path38"/>
+                    </g>
+                    <g id="g40" transform="matrix(1, 0, 0, 1, 346.875, 656.25)">
+                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0 Z" style="fill:none;stroke:#461036;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path42"/>
+                    </g>
+                    <g id="g44" transform="matrix(1, 0, 0, 1, 296.88681, 631.243286)">
+                    <path d="M 0,0 C 10.004,-16.325 33.722,-16.325 43.726,0" style="fill:none;stroke:#461036;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path46"/>
+                    </g>
+                    <g id="g48" transform="matrix(1, 0, 0, 1, 418.75, 637.5)">
+                    <path d="M 0,0 C 0,17.259 -13.991,31.25 -31.25,31.25 -48.509,31.25 -62.5,17.259 -62.5,0 c 0,-17.259 13.991,-31.25 31.25,-31.25 C -13.991,-31.25 0,-17.259 0,0" style="fill:#e34198;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path50"/>
+                    </g>
+                    <g id="g52" transform="matrix(1, 0, 0, 1, 281.25, 637.5)">
+                    <path d="M 0,0 C 0,17.259 -13.991,31.25 -31.25,31.25 -48.509,31.25 -62.5,17.259 -62.5,0 c 0,-17.259 13.991,-31.25 31.25,-31.25 C -13.991,-31.25 0,-17.259 0,0" style="fill:#e34198;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path54"/>
+                    </g>
+                    <g id="g56" transform="matrix(1, 0, 0, 1, 296.88681, 631.243286)">
+                    <path d="M 0,0 C 10.004,-16.325 33.722,-16.325 43.726,0" style="fill:none;stroke:#461036;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path58"/>
+                    </g>
+                </g>
             </symbol>
         </svg>
 

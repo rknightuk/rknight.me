@@ -1,0 +1,42 @@
+[
+	{
+		"label": "Blog",
+		"link": "/blog"
+	},
+    {
+		"label": "Microblog",
+		"link": "/micro"
+	},
+    {
+		"label": "Referrals",
+		"link": "/ref"
+	},
+    {
+		"label": "Contact",
+		"link": "/contact"
+    },
+    {
+		"label": "Projects",
+		"link": "/projects"
+	},
+    {
+		"label": "Subscribe",
+		"link": "/subscribe"
+	},
+    {
+		"label": "Buy me a Coffee",
+		"link": "/coffee"
+    },
+    {
+		"label": "/now",
+		"link": "/now"
+    },
+    {
+		"label": "/uses",
+		"link": "/uses"
+    },
+    {
+		"label": "Version History",
+		"link": "/versions"
+    }
+]

@@ -1,0 +1,25 @@
+---
+title: Microblog
+layout: base
+---
+
+<p>
+    <a href="/tags">All Tags</a> &bull; <a href="/podcasts">Podcast Listening History</a>
+</p>
+
+{% for post in micro.posts %}
+    {% if loop.index < 11 %}
+        {% include 'micropost.njk' %}
+        {% if loop.index === 10 %}
+            <hr>
+        {% endif %}
+    {% else %}
+        <div class="microblog-post">
+            {% if post.title %}
+                <p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.title }}</p>
+            {% else %}
+                <p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.summary | safe }}</p>
+            {% endif %}
+        </div>
+    {% endif %}
+{% endfor %}

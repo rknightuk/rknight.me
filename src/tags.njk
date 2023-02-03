@@ -1,0 +1,8 @@
+---
+title: Microblog Tags
+layout: base
+---
+
+{% for tag in micro.tags %}
+    <a href="/tags/{{ tag | slug }}">{{ tag }} ({{ micro.tagMap[tag].length }})</a><br>
+{% endfor %}

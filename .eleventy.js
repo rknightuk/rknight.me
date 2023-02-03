@@ -28,8 +28,13 @@ module.exports = function(eleventyConfig) {
   });
 
   eleventyConfig.addCollection("firstPosts", function(collection) {
-    return collection.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 5)
+    return collection.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 10)
   });
+
+  eleventyConfig.addFilter('imageLink', function(path) {
+    if (path.startsWith("https://rknightuk.s3.amazonaws.com")) return path
+      return `https://rknightuk.s3.amazonaws.com/${path}`;
+  })
 
   eleventyConfig.addFilter("isoDateOnly", function(date) {
     var d = new Date(date),
@@ -48,13 +53,23 @@ module.exports = function(eleventyConfig) {
   })
 
   eleventyConfig.addFilter("toDateTime", function(date) {
+    const formatted = DateTime.fromISO(date)
+
+    const trail = (number) => {
+        return parseInt(number, 10) < 10 ? `0${number}` : number
+    }
+
+    return `${formatted.year}-${trail(formatted.month)}-${trail(formatted.day)} ${trail(formatted.hour)}:${trail(formatted.minute)}`
+  })
+
+  eleventyConfig.addFilter("toDateTimeFromUnix", function(date) {
     const formatted = DateTime.fromSeconds(parseInt(date, 10))
 
     const trail = (number) => {
         return parseInt(number, 10) < 10 ? `0${number}` : number
     }
 
-    return `${trail(formatted.day)}-${trail(formatted.month)}-${formatted.year} ${trail(formatted.hour)}:${trail(formatted.minute)}`
+    return `${formatted.year}-${trail(formatted.month)}-${trail(formatted.day)} ${trail(formatted.hour)}:${trail(formatted.minute)}`
   })
 
   eleventyConfig.addFilter('stripIndex', function(path) {

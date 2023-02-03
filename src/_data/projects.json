@@ -23,7 +23,8 @@
 		"url": "https://intersect.rknight.me",
 		"desc": "Everything I Know. Mostly. A personal wiki built with <a href='https://www.11ty.dev/''>Eleventy</a>.",
 		"type": "png",
-		"class": "project-logo-full"
+		"class": "project-logo-full",
+        "ignore": true
 	},
 	{
 		"key": "micromarks",
@@ -32,7 +33,8 @@
 		"url": "https://micromarks.rknight.me",
 		"desc": "Manage your micro.blog bookmarks.",
 		"type": "svg",
-		"color": "#f2a83b"
+		"color": "#f2a83b",
+        "ignore": true
 	},
 	{
 		"key": "alfred",

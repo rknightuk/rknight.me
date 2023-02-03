@@ -11,7 +11,7 @@ hidetitle: true
     <div class="statuslol_content">
         <p>{{ status.content | mdToHtml | safe }}</p>
         <div class="statuslol_time">
-            <a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTime }}</a>
+            <a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTimeFromUnix }}</a>
         </div>
     </div>
 </div>
@@ -19,44 +19,44 @@ hidetitle: true
 </div>{# don't remove this, it's important #}
 
 <section class="box">
-	<h2 class="heading-medium">About</h2>
+	<h2>About</h2>
 	<p>👋 I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a <a href="https://ruminatepodcast.com">podcaster</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
 
-	<p>You can find me on <a href="https://micro.blog/rknightuk?remote_follow=1">Micro.blog as @rknightuk</a>, follow me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a>, <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
+	<p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> or <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 </section>
 
 <section class="box">
-	<h3 class="heading-medium">🗒️ <a href="/blog">Long Posts</a></h2>
+	<h3>🗒️ <a href="/blog">Long Posts</a></h2>
 
 	<ul class="no-bull">
 		{%- for post in collections.firstPosts %}
 		  <li>
-		  	<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
-
-		  	<br>
-
-		  	<span class="post-excerpt">{{ post.data.excerpt }}</span>
+		  	<span class="list-post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
 		  </li>
 		{% endfor %}
 	</ul>
+    <p><a href="/blog">View All Posts</a></p>
 
-	<h3>🎺 <a href="https://toot.rknight.me/">Short Posts</a></h3>
-	<div class="microblog-posts">
-	{%- for post in before.posts %}
-		<div class="microblog-post">
+
+    <h3>🎺 <a href="/micro">Short Posts</a></h3>
+
+    <div class="microblog-posts">
+	{%- for post in micro.posts.slice(0, 10) %}
+        <div class="microblog-post">
 			{% if post.title %}
-				<p><a class="post-date" href="{{ post.url }}">{{ post.date }}</a> {{ post.title }}</p>
+				<p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.title }}</p>
 			{% else %}
-				<p><a class="post-date" href="{{ post.url }}">{{ post.date }}</a> {{ post.summary | safe }}</p>
+				<p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.summary | safe }}</p>
 			{% endif %}
-		</div>
+        </div>
 	{% endfor %}
-	</div>
+    <p><a href="/micro">View All Micro Posts</a></p>
+    </div>
 
-	<h3>📷 <a href="https://toot.rknight.me/photos">Latest Photos<a></h3>
+    <h3>📷 <a href="/photos">Latest Photos<a></h3>
 	<div class="microblog-photos">
-		{%- for photo in before.photos %}
-			<div class="microblog-photo"><a href="{{ photo.url }}"><img src="{{ photo.image }}" alt="{{ photo.alt }}"></a></div>
+		{%- for photo in micro.images.slice(0, 5) %}
+			<div class="microblog-photo"><a href="/micro/{{ micro.postMap[photo.postId].path }}"><img src="{{ photo.url }}" alt="{{ photo.description }}"></a></div>
 		{%  endfor %}
 	</div>
 
@@ -64,14 +64,14 @@ hidetitle: true
 	<div class="microblog-posts">
         <ul>
         {%- for watched in before.watched %}
-            <li><a class="post-date" href="{{ watched.link }}">{{ watched.date }}</a> {{ watched.title }}</li>
+            <li><a class="list-post-date" href="{{ watched.link }}">{{ watched.date }}</a> {{ watched.title }}</li>
         {% endfor %}
         </ul>
 	</div>
 
     <div class="the-claw" style="margin: 0 auto;">
         <script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
-        <the-claw-webring-widget theme="light">
+        <the-claw-webring-widget theme="light" hideMembers="true">
             <!-- TO DO ADD FALLBACK CONTENT -->
         </the-claw-webring-widget>
     </div>

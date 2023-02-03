@@ -1,0 +1,10 @@
+---
+pagination:
+  data: micro.posts
+  size: 1
+  alias: post
+permalink: 'micro/{{ post.path }}'
+layout: base
+---
+
+{% include 'micropost.njk' %}

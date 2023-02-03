@@ -1,0 +1,36 @@
+<div style="margin-bottom: 10px;">
+    <h2>{{ post.title }}</h2>
+
+    <div class="post-date">
+        {{ post.date | toDateTime }}
+        {% if post.tags.length > 0 %}
+            {% for tag in post.tags %}
+                &bull; <a href="/tags/{{ tag | slug }}">{{ tag }}</a>
+            {% endfor %}
+        {% endif %}
+    </div>
+
+    {{ post.content | safe }}
+
+    {% if post.type !== 'mb' %}
+        {% if post.attachments.length > 0 %}
+        <div class="photogrid">
+            {% for image in post.attachments %}
+                {% if image.type === 'video' %}
+                    <video controls>
+                        <source src="{{ image.url | imageLink }}" type="video/mp4">
+                    </video>
+                {% else %}
+                    <img src="{{ image.url | imageLink }}" alt="{{ image.description }}">
+                {% endif %}
+            {% endfor %}
+        </div>
+        {% endif %}
+    {% endif %}
+
+    {% if post.source %}
+        <div style="font-size: 0.8em; text-align: right;">
+            <a target="_blank" rel="noopener" href="{{ post.source }}">{{ post.source }}</a>
+        </div>
+    {% endif %}
+</div>

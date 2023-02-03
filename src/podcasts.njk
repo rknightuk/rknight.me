@@ -1,0 +1,10 @@
+---
+title: Podcast Listening History
+layout: base
+---
+
+{% for post in podcasts %}
+    <div class="microblog-post">
+        <p><a class="list-post-date" href="{{ post._podcast_metadata.episodeUrl }}">{{ post.date_published | isoDateOnly }}</a> <strong>{{ post._podcast_metadata.podcastTitle }}</strong> {{ post._podcast_metadata.episodeTitle }}</p>
+    </div>
+{% endfor %}

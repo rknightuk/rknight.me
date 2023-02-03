@@ -20,7 +20,7 @@ layout: base
     {% endif %}
 
     <li>
-		<span class="post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
+		<span class="list-post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
 	</li>
 
     {% set currentYear = postYear %}
