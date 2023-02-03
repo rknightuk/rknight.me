@@ -36,6 +36,14 @@
 		"link": "/uses"
     },
     {
+		"label": "Podcasts",
+		"link": "/podcasts"
+	},
+    {
+		"label": "Search",
+		"link": "/search"
+	},
+    {
 		"label": "Version History",
 		"link": "/versions"
     }

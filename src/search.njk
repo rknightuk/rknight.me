@@ -1,0 +1,16 @@
+---
+title: Search
+layout: base
+---
+
+<link href="/_pagefind/pagefind-ui.css" rel="stylesheet">
+
+<div id="search" class="search"></div>
+
+<script src="/_pagefind/pagefind-ui.js" onload="new PagefindUI({ element: '#search', showImages: false, processResult: function (result) {
+        console.log(result)
+        if (!result.meta.title) {
+            result.meta.title = `${result.content.split('•')[0]}`
+        }
+        return result;
+    } });"></script>

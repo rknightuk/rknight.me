@@ -6,6 +6,7 @@ const { DateTime } = require("luxon")
 const EleventyPluginOgImage = require('eleventy-plugin-og-image')
 const fs = require('fs')
 const sanitizeHTML = require('sanitize-html')
+const { execSync } = require('child_process')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.addPassthroughCopy("src/assets");
@@ -143,6 +144,10 @@ module.exports = function(eleventyConfig) {
     data['in-reply-to'].sort((a,b) => (a.published > b.published) ? 1 : ((b.published > a.published) ? -1 : 0))
 
     return data
+  })
+
+  eleventyConfig.on('eleventy.after', () => {
+    execSync(`npx pagefind --source public --glob \"**/*.html\"`, { encoding: 'utf-8' })
   })
 
   return {

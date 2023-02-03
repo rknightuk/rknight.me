@@ -4,9 +4,10 @@ layout: base
 
 <div class="post-date">{{ page.date | isoDateOnly }}</div>
 
-<span class="post">
+<span class="post" data-pagefind-body>
 	{{ content | safe }}
 </span>
 
 {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
-{% include 'webmentions.njk' %}
+
+
