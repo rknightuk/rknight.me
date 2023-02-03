@@ -3,7 +3,54 @@ title: Podcast Listening History
 layout: base
 ---
 
-{% for post in podcasts %}
+<p>View top podcasts in the last 7 days on my <a href="/now">/now page</a></p>
+
+<h3><strong>Top 10 All Time*</strong> <small>*since 2017 when records began</small></h3>
+
+<style>
+.now_albums {
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    grid-gap: 10px;
+    position: relative;
+}
+
+.now_album:first-child {
+    margin-left: 0;
+}
+
+.now_album img {
+    max-width: 100%;
+    object-fit: cover;
+    transition: 0.2s linear;
+    aspect-ratio: 1/1;
+}
+
+.now_album img {
+    transition: 0.2s linear;
+    box-shadow: #adb5bd 0px 8px 24px;
+}
+
+.now_album img:hover {
+    -webkit-transform: scale(1.15);
+    transform: scale(1.15);
+}
+
+.now_album a {
+    border-bottom: none;
+}
+</style>
+<div class="now_albums">
+    {% for pod in podcasts.stats.slice(0, 10) %}
+        <div class="now_album">
+            <a href="{{ pod.url }}"><img src="{{ pod.image }}"></a>
+        </div>
+    {% endfor %}
+</div>
+
+<h3>Full History</h3>
+
+{% for post in podcasts.log %}
     <div class="microblog-post">
         <p><a class="list-post-date" href="{{ post._podcast_metadata.episodeUrl }}">{{ post.date_published | isoDateOnly }}</a> <strong>{{ post._podcast_metadata.podcastTitle }}</strong> {{ post._podcast_metadata.episodeTitle }}</p>
     </div>
