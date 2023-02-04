@@ -10,6 +10,7 @@ All the things I use on a day-to-day basis.
 - MacBook Pro 16" 2019
 - Purple iPhone 14 Pro
 - Apple Watch Series 4 44mm
+- [PiSight web cam](https://rknight.me/building-a-pisight/)
 - [MX Master 3 mouse](https://www.logitech.com/en-gb/products/mice/mx-master-3s.910-006559.html)
 - Apple Magic Keyboard
 - [Razer Seiren Mini microphone](https://www.razer.com/gb-en/streaming-microphones/razer-seiren-mini) for podcasting
