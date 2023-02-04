@@ -3,7 +3,7 @@ title: Uses
 layout: base
 ---
 
-All the things I use on a day-to-day basis.
+All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tech/).
 
 ### Hardware
 
