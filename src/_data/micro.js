@@ -19,8 +19,6 @@ module.exports = async function() {
             return json
         })
 
-    data.tags = []
-
     // await asset.save(data, "json")
 
     // posts: [],
