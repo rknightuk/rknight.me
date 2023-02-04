@@ -6,7 +6,7 @@ pagination:
 permalink: 'tags/{{ tag.toLowerCase() | slug }}/index.html'
 layout: base
 eleventyComputed:
-  title: "Tag: {{ tag }}"
+  title: "#{{ tag }}"
 ---
 
 {% if tag === 'statuses' %}
