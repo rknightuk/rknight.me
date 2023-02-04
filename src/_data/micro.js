@@ -13,11 +13,13 @@ module.exports = async function() {
     //     return await asset.getCachedValue()
     // }
 
-    const data = await fetch('https://api.rknight.me/api/micro.json')
+    let data = await fetch('https://api.rknight.me/api/micro.json')
         .then(res => res.json())
         .then(json => {
             return json
         })
+
+    data.tags = []
 
     // await asset.save(data, "json")
 
