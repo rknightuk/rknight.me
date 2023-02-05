@@ -28,6 +28,25 @@ module.exports = function(eleventyConfig) {
     return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
   });
 
+  eleventyConfig.addFilter('getYouTubeLinks', function(post) {
+    if (!post.links || post.links.length === 0)
+    {
+        return []
+    }
+
+    const youtubeIds = []
+
+    post.links.forEach(l => {
+        const matches = l.match(/(http:|https:)?\/\/(www\.)?(youtube.com|youtu.be)\/(watch)?(\?v=)?(\S+)?/)
+        if (matches && matches[6])
+        {
+            youtubeIds.push(matches[6])
+        }
+    })
+
+    return youtubeIds
+  })
+
   eleventyConfig.addCollection("firstPosts", function(collection) {
     return collection.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 10)
   });
