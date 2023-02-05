@@ -41,14 +41,8 @@ hidetitle: true
     <h3>🎺 <a href="/micro">Short Posts</a></h3>
 
     <div class="microblog-posts">
-	{%- for post in micro.posts.slice(0, 10) %}
-        <div class="microblog-post">
-			{% if post.title %}
-				<p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.title }}</p>
-			{% else %}
-				<p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.summary | safe }}</p>
-			{% endif %}
-        </div>
+	{%- for post in micro.posts.slice(0, 5) %}
+        {% include 'micropost.njk' %}
 	{% endfor %}
     <p><a href="/micro">View All Micro Posts</a></p>
     </div>
@@ -57,7 +51,7 @@ hidetitle: true
 	<div class="microblog-photos">
 		{%- for photo in micro.images.slice(0, 5) %}
 			<div class="microblog-photo"><a href="/micro/{{ micro.postMap[photo.postId].path }}"><img src="{{ photo.url }}" alt="{{ photo.description }}"></a></div>
-		{%  endfor %}
+		{% endfor %}
 	</div>
 
 	<h3>🍿 <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
