@@ -395,10 +395,6 @@ pre {
     margin: 0 auto;
 }
 
-.microblog-posts img {
-  display: none;
-}
-
 .microblog-post {
   margin-left: 15px;
 }
