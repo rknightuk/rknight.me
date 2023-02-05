@@ -32,9 +32,10 @@
         {% endif %}
     {% endif %}
 
-    {% if post.source %}
-        <div style="font-size: 0.8em; text-align: right;">
+    <div style="font-size: 0.8em; text-align: right;margin-top: 10px;">
+        {% if post.source %}
             <a target="_blank" rel="noopener" href="{{ post.source }}">{{ post.source }}</a>
-        </div>
-    {% endif %}
+        {% endif %}
+        <a href="micro/{{ post.path }}">&infin;</a>
+    </div>
 </div>

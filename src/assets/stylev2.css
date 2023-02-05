@@ -53,6 +53,8 @@ h1 a, h2 a, h3 a, .social-links a, .main-header a, .webmentions a, .collection-i
   box-shadow: 3px 3px var(--body-text);
   padding: 10px 15px;
   margin-bottom: 10px;
+  overflow-wrap: break-word;
+  word-wrap: break-word;
 }
 
 .box-spad {
@@ -555,7 +557,6 @@ lite-youtube {
     background-size: cover;
     cursor: pointer;
     max-width: 720px;
-    margin-bottom: 10px;
 }
 
 /* gradient */
