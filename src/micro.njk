@@ -1,25 +1,28 @@
 ---
-title: Microblog
+pagination:
+  data: micro.posts
+  size: 20
+  alias: post
+permalink: 'micro/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
+eleventyComputed:
+    title: Microblog
 ---
 
 <p>
     <a href="/tags">All Tags</a> &bull; <a href="/podcasts">Podcast Listening History</a>
 </p>
 
-{% for post in micro.posts %}
-    {% if loop.index < 11 %}
-        {% include 'micropost.njk' %}
-        {% if loop.index === 10 %}
-            <hr>
-        {% endif %}
-    {% else %}
-        <div class="microblog-post">
-            {% if post.title %}
-                <p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.title }}</p>
-            {% else %}
-                <p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.summary | safe }}</p>
-            {% endif %}
-        </div>
-    {% endif %}
-{% endfor %}
+<div class="pagination">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Posts</a>{% else %}Newer Posts{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Posts</a>{% else %}Older Posts{% endif %}</div>
+</div>
+
+{%- for post in pagination.items %}
+  {% include 'micropost.njk' %}
+{% endfor -%}
+
+<div class="pagination">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Posts</a>{% else %}Newer Posts{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Posts</a>{% else %}Older Posts{% endif %}</div>
+</div>

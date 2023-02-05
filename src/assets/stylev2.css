@@ -539,3 +539,9 @@ code {
     width: 100%;
     object-fit: cover;
 }
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin: 15px 10px;
+}
