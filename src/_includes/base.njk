@@ -107,11 +107,11 @@
 
 		<footer>
             <div class="box">
-                <ul>
+                <p class="footer-links">
                     {% for p in pagelist %}
-                        <li><a href="{{ p.link }}">{{ p.label }}</a></li>
+                        {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
                     {% endfor %}
-                </ul>
+                </p>
             </div>
             <div class="box copyright">
                 &copy; 1988 - {% year %} Robb Knight
