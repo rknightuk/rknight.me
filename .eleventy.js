@@ -56,6 +56,11 @@ module.exports = function(eleventyConfig) {
       return `https://rknightuk.s3.amazonaws.com/${path}`;
   })
 
+  eleventyConfig.addFilter('postPath', function(path) {
+    if (path.includes('micro/')) return path
+      return `/micro/${path}`;
+  })
+
   eleventyConfig.addFilter("isoDateOnly", function(date) {
     var d = new Date(date),
         month = '' + (d.getMonth() + 1),

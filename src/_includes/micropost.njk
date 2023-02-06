@@ -25,6 +25,6 @@
         {% if post.source %}
             <a target="_blank" rel="noopener" href="{{ post.source }}">{{ post.source }}</a>
         {% endif %}
-        <a href="{{ post.path }}">&infin;</a>
+        <a href="{{ post.path | postPath | stripIndex }}">&infin;</a>
     </div>
 </div>
