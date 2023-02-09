@@ -8,8 +8,9 @@ layout: base
 	{{ content | safe }}
 </span>
 
-{%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
-
 <footer>
     <p><a href="https://social.lol/@robb">Follow me on Mastodon</a> or <a href="/subscribe">Subscribe with RSS</a></p>
 </footer>
+
+{%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
+{% include 'webmentions.njk' %}

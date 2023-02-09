@@ -13,11 +13,5 @@ eleventyComputed:
     <p><a href="https://robb.status.lol">my status.lol page</a></p>
 {% endif %}
 {%- for post in micro.tagMap[tag] %}
-    <div class="microblog-post">
-        {% if post.title %}
-            <p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.title }}</p>
-        {% else %}
-            <p><a class="list-post-date" href="/micro/{{ post.path | stripIndex }}">{{ post.date | toDateTime }}</a> {{ post.summary | safe }}</p>
-        {% endif %}
-    </div>
+    {% include 'micropost.njk' %}
 {% endfor %}

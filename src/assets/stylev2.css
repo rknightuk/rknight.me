@@ -11,7 +11,15 @@
   --heading-color: #2c3e50;
   --subtle-color: #6f6f6f;
   --main-yellow: #E0E752;
+  --mastodon: #6364FF;
+  --github: #3884FF;
+  --coffee: #FFDD00;
+  --prami: #E34198;
 }
+
+.icon-lastfm { color: #D51007; }
+.icon-applemusic { color: #FA243C; }
+.icon-letterboxd { color: #00D735; }
 
 body {
   font-family: 'Atkinson Hyperlegible';
@@ -110,17 +118,23 @@ header {
     color: white;
 }
 
-a.social-masto {
-    color: #6364FF;
+a.social-masto,
+.icon-mastodon {
+    color: var(--mastodon);
 }
-a.social-gh {
-    color: #3884FF;
+a.social-gh,
+.icon-github {
+    color: var(--github);
 }
-a.social-coffee {
-    color: #FFDD00;
+a.social-coffee,
+.icon-buymeacoffee {
+    color: var(--coffee);
+}
+a.social-omg,
+.icon-prami {
+    color: var(--prami);
 }
 a.social-omg {
-    color: #E34198;
     transform: scale(1.2);
 }
 a.social-subscribe {

@@ -1,6 +1,7 @@
 ---
 title: Projects
 layout: base
+templateEngineOverride: njk,md
 ---
 - [Alfred Workflows](/alfred-workflows): All of my Alfred Workflows
 - [Ruminate](http://ruminatepodcast.com): A podcast about what's on our minds
@@ -26,6 +27,14 @@ layout: base
 - [Hexo JSON Feed plugin](https://github.com/rknightuk/hexo-generator-json-feed-org)
 - [Better Mastodon aka Joe Rosentoot](https://rknightuk.github.io/better-mastodon)
 - [Mastodon Toot Bookmarklet](https://rknightuk.github.io/mastodon-toot-bookmarklet/)
+
+### Shortcuts
+
+<ul>
+{%- for post in collections.shortcuts %}
+<li><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ul>
 
 ### [#DevsDoDesign](http://devsdodesign.com): A multi-award winning hackathon team
 

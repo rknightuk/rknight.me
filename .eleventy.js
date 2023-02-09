@@ -23,6 +23,12 @@ module.exports = function(eleventyConfig) {
     return collection.getFilteredByGlob("src/posts/**/*.md").reverse()
   });
 
+  eleventyConfig.addCollection("shortcuts", function(collection) {
+    return collection.getFilteredByGlob("src/posts/**/*.md").reverse().filter(p => {
+        return p.data.title.toLowerCase().includes('shortcut')
+    })
+  })
+
   eleventyConfig.addFilter('console', function(value) {
     const str = util.inspect(value);
     return `<div style="white-space: pre-wrap;">${unescape(str)}</div>;`
@@ -54,6 +60,15 @@ module.exports = function(eleventyConfig) {
   eleventyConfig.addFilter('imageLink', function(path) {
     if (path.startsWith("https://rknightuk.s3.amazonaws.com")) return path
       return `https://rknightuk.s3.amazonaws.com/${path}`;
+  })
+
+  eleventyConfig.addFilter('getFirstAttachment', function(post) {
+    if (post && post.attachments && post.attachments.length > 0)
+    {
+        return post.attachments[0].url ? post.attachments[0].url : post.attachments[0]
+    }
+
+    return 'https://rknight.me/assets/img/preview.png'
   })
 
   eleventyConfig.addFilter('postPath', function(path) {

@@ -1,0 +1,25 @@
+---
+title: Links
+layout: base
+---
+
+<style>
+.link-page-link {
+    display: flex;
+    align-items: center;
+}
+
+.link-page-link svg {
+    height: 20px;
+    width: 20px;
+    margin-right: 10px;
+}
+</style>
+{% for link in links %}
+    <p class="link-page-link">
+        <svg class="icon icon-{{ link.icon }}">
+            <use xlink:href="#{{ link.icon }}"></use>
+        </svg>
+        <a href="{{ link.link }}">{{ link.title }}</a>
+    </p>
+{% endfor %}

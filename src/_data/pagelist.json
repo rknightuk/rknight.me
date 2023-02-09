@@ -36,8 +36,16 @@
 		"link": "/uses"
     },
     {
+		"label": "/links",
+		"link": "/links"
+    },
+    {
 		"label": "Podcasts",
 		"link": "/podcasts"
+	},
+    {
+		"label": "Photos",
+		"link": "/photos"
 	},
     {
 		"label": "Search",
