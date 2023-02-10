@@ -9,9 +9,20 @@ eleventyComputed:
   title: "#{{ tag }}"
 ---
 
-{% if tag === 'statuses' %}
+{% if tag === 'Statuses' %}
     <p><a href="https://robb.status.lol">my status.lol page</a></p>
 {% endif %}
+
+{% if tag === 'Movies' %}
+<p><a href="https://letterboxd.com/rknightuk/">On Letterboxd</a></p>
+<p>Ratings:</p>
+<ul>
+	<li>★☆☆☆☆ : Never again</li>
+	<li>★★★☆☆ : Fine</li>
+	<li>★★★★★ : Good movie, would watch again</li>
+</ul>
+{% endif %}
+
 {%- for post in micro.tagMap[tag] %}
     {% include 'micropost.njk' %}
 {% endfor %}
