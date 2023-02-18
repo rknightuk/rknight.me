@@ -1,4 +1,4 @@
-{{ post.content | redirectHashtags | safe }}
+{{ post.content | safe }}
 
 {% for ytId in (post | getYouTubeLinks) %}
     <lite-youtube videoid="{{ ytId }}"></lite-youtube>
