@@ -62,6 +62,10 @@ module.exports = function(eleventyConfig) {
       return `https://rknightuk.s3.amazonaws.com/${path}`;
   })
 
+  eleventyConfig.addFilter('redirectHashtags', function(content) {
+    return content.replaceAll('https://social.lol/tags/', '/tags/')
+  })
+
   eleventyConfig.addFilter("trim", function(string, limit) {
     return string.length <= limit ? string : `${string.slice(0, limit)}...`
   })
