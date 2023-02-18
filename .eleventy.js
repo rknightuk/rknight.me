@@ -62,6 +62,10 @@ module.exports = function(eleventyConfig) {
       return `https://rknightuk.s3.amazonaws.com/${path}`;
   })
 
+  eleventyConfig.addFilter("trim", function(string, limit) {
+    return string.length <= limit ? string : `${string.slice(0, limit)}...`
+  })
+
   eleventyConfig.addFilter('getFirstAttachment', function(post) {
     if (post && post.attachments && post.attachments.length > 0)
     {
