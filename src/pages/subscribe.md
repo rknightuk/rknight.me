@@ -1,6 +1,7 @@
 ---
 title: Subscribe
 layout: base
+permalink: 'subscribe/index.html'
 ---
 
 - Long posts: [XML](/feed.xml) or [JSON Feed](/feed.json)

@@ -1,6 +1,7 @@
 ---
 title: Referral Links
 layout: base
+permalink: 'ref/index.html'
 ---
 
 Use these referral links for services I use and we both get free stuff.

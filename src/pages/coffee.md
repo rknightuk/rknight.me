@@ -1,6 +1,7 @@
 ---
 title: Buy Me a Coffee
 layout: base
+permalink: 'coffee/index.html'
 ---
 
 If you like one of my projects and want to buy me a coffee, use one of the links below:

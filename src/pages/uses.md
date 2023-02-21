@@ -1,6 +1,7 @@
 ---
 title: Uses
 layout: base
+permalink: 'uses/index.html'
 ---
 
 All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tech/).
