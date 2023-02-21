@@ -3,7 +3,6 @@ const util = require('util')
 const syntaxHighlight = require("@11ty/eleventy-plugin-syntaxhighlight")
 const marked = require('marked')
 const { DateTime } = require("luxon")
-const EleventyPluginOgImage = require('eleventy-plugin-og-image')
 const fs = require('fs')
 const sanitizeHTML = require('sanitize-html')
 const { execSync } = require('child_process')
@@ -122,28 +121,6 @@ module.exports = function(eleventyConfig) {
 
   eleventyConfig.addFilter('mdToHtml', function(content) {
     return marked.parse(content)
-  })
-
-  eleventyConfig.addPlugin(EleventyPluginOgImage, {
-    generateHTML: (outputUrl) => {
-        return `<meta property="og:image" content="https://rknight.me${outputUrl}" />`
-    },
-    satoriOptions: {
-      fonts: [
-        {
-          name: 'Bayshore',
-          data: fs.readFileSync('src/assets/Bayshore.woff'),
-          weight: 700,
-          style: 'normal',
-        },
-        {
-          name: 'Atkinson Hyperlegible',
-          data: fs.readFileSync('src/assets/Atkinson-Hyperlegible-Bold-102.woff'),
-          weight: 700,
-          style: 'normal',
-        },
-      ],
-    },
   })
 
   eleventyConfig.addFilter('webmentionsByUrl', function(webmentions, url) {
