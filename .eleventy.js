@@ -31,9 +31,11 @@ module.exports = function(eleventyConfig) {
         eleventyConfig.addFilter(filterName, dateFilters[filterName])
     })
 
+    // plugins
     eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'))
     eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'))
 
+    // pagefind index
     eleventyConfig.on('eleventy.after', () => {
         execSync(`npx pagefind --source public --glob \"**/*.html\"`, { encoding: 'utf-8' })
     })

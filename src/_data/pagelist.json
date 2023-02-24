@@ -54,5 +54,9 @@
     {
 		"label": "Version History",
 		"link": "/versions"
+    },
+    {
+		"label": "Food Graveyard",
+		"link": "/food-graveyard"
     }
 ]
