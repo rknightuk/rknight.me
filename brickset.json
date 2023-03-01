@@ -1,6 +1,45 @@
-const LEGO = {
-  "count": 213,
-  "theme": {
+{
+  "themes": [
+    "Aquazone",
+    "Architecture",
+    "Batman",
+    "BrickHeadz",
+    "Castle",
+    "City",
+    "Collectable Minifigures",
+    "Creator",
+    "Creator Expert",
+    "DC Comics Super Heroes",
+    "Discovery",
+    "Ghostbusters",
+    "Harry Potter",
+    "Hidden Side",
+    "Icons",
+    "Ideas",
+    "Juniors",
+    "Jurassic World",
+    "Legends of Chima",
+    "Marvel Super Heroes",
+    "Miscellaneous",
+    "Nexo Knights",
+    "Ninjago",
+    "Pirates",
+    "Pirates of the Caribbean",
+    "Promotional",
+    "Scooby-Doo",
+    "Seasonal",
+    "Space",
+    "Speed Champions",
+    "Spider-Man",
+    "Star Wars",
+    "Technic",
+    "Teenage Mutant Ninja Turtles",
+    "The LEGO Batman Movie",
+    "The LEGO Movie",
+    "The LEGO Movie 2",
+    "Town"
+  ],
+  "sets": {
     "Space": [
       {
         "id": "6812",
@@ -697,7 +736,7 @@ const LEGO = {
         "minifigs": "2",
         "pieces": "152",
         "theme": "DC Comics Super Heroes",
-        "subtheme": "Batman Classic TV Series",
+        "subtheme": "Promotional",
         "metadata": {
           "bricklinked": true,
           "noMinifigs": false,
@@ -1081,6 +1120,23 @@ const LEGO = {
           "exit": "31/12/2022",
           "price": ""
         }
+      },
+      {
+        "id": "31140",
+        "blId": "31140-1",
+        "year": "2023",
+        "title": "Magical Unicorn",
+        "minifigs": "",
+        "pieces": "145",
+        "theme": "Creator",
+        "subtheme": "3 in 1",
+        "metadata": {
+          "bricklinked": false,
+          "noMinifigs": false,
+          "launch": "",
+          "exit": "",
+          "price": "8.99"
+        }
       }
     ],
     "Marvel Super Heroes": [
@@ -1092,7 +1148,7 @@ const LEGO = {
         "minifigs": "",
         "pieces": "44",
         "theme": "Marvel Super Heroes",
-        "subtheme": "Constraction",
+        "subtheme": "Buildable Figures",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -1194,7 +1250,7 @@ const LEGO = {
         "minifigs": "",
         "pieces": "39",
         "theme": "Marvel Super Heroes",
-        "subtheme": "Constraction",
+        "subtheme": "Buildable Figures",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -1347,7 +1403,7 @@ const LEGO = {
         "minifigs": "1",
         "pieces": "145",
         "theme": "Marvel Super Heroes",
-        "subtheme": "Guardians of the Galaxy",
+        "subtheme": "Promotional",
         "metadata": {
           "bricklinked": true,
           "noMinifigs": true,
@@ -1517,7 +1573,7 @@ const LEGO = {
         "minifigs": "4",
         "pieces": "203",
         "theme": "Marvel Super Heroes",
-        "subtheme": "Avengers: Age of Ultron",
+        "subtheme": "Promotional",
         "metadata": {
           "bricklinked": true,
           "noMinifigs": true,
@@ -1700,7 +1756,7 @@ const LEGO = {
         "id": "30610",
         "blId": "30610-1",
         "year": "2017",
-        "title": "Giant Man Hank Pym",
+        "title": "Giant-Man Hank Pym",
         "minifigs": "1",
         "pieces": "3",
         "theme": "Marvel Super Heroes",
@@ -1955,7 +2011,7 @@ const LEGO = {
         "id": "76125",
         "blId": "76125-1",
         "year": "2019",
-        "title": "Iron Man Hall of Armour",
+        "title": "Iron Man Hall of Armor",
         "minifigs": "6",
         "pieces": "524",
         "theme": "Marvel Super Heroes",
@@ -2085,6 +2141,23 @@ const LEGO = {
           "launch": "01/04/2022",
           "exit": "31/12/2022",
           "price": "8.99"
+        }
+      },
+      {
+        "id": "76223",
+        "blId": "76223-1",
+        "year": "2022",
+        "title": "Nano Gauntlet",
+        "minifigs": "",
+        "pieces": "675",
+        "theme": "Marvel Super Heroes",
+        "subtheme": "Avengers: Endgame",
+        "metadata": {
+          "bricklinked": false,
+          "noMinifigs": false,
+          "launch": "01/08/2022",
+          "exit": "31/12/2024",
+          "price": "59.99"
         }
       }
     ],
@@ -2923,7 +2996,7 @@ const LEGO = {
         "minifigs": "1",
         "pieces": "40",
         "theme": "City",
-        "subtheme": "Traffic",
+        "subtheme": "Construction",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -3698,17 +3771,9 @@ const LEGO = {
         }
       }
     ]
+  },
+  "count": {
+    "sets": 215,
+    "themes": 38
   }
-}
-
-module.exports = function() {
-    const themes = Object.keys(LEGO.theme).sort()
-    return {
-        themes: themes,
-        sets: LEGO.theme,
-        count: {
-            sets: LEGO.count,
-            themes: themes.length,
-        },
-    }
 }

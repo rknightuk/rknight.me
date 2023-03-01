@@ -1,0 +1,582 @@
+[
+  {
+    "id": "adv010",
+    "name": "Johnny Thunder (Desert)",
+    "category": "Adventurers / Desert"
+  },
+  {
+    "id": "bat008",
+    "name": "Killer Croc",
+    "category": "Batman I / General"
+  },
+  {
+    "id": "col217",
+    "name": "Specter, Series 14 (Minifigure Only without Stand and Accessories)",
+    "category": "Collectible Minifigures / Series 14 Minifigures"
+  },
+  {
+    "id": "dim015",
+    "name": "Doc Brown - Long Hair",
+    "category": "Dimensions / Back to the Future"
+  },
+  {
+    "id": "hp105",
+    "name": "Dobby (Elf) - Light Nougat",
+    "category": "Harry Potter / Chamber of Secrets"
+  },
+  {
+    "id": "hp133",
+    "name": "Harry Potter, Black Long Coat and Vest, Dark Red Shirt and Tie",
+    "category": "Harry Potter / General"
+  },
+  {
+    "id": "hp098",
+    "name": "Lord Voldemort - White Head, Black Cape, Dark Green Robe Lines",
+    "category": "Harry Potter / General"
+  },
+  {
+    "id": "hp125",
+    "name": "Harry Potter - Yule Ball Vest and Bow Tie",
+    "category": "Harry Potter / Goblet of Fire"
+  },
+  {
+    "id": "jw005",
+    "name": "Barry",
+    "category": "Jurassic World / General"
+  },
+  {
+    "id": "jw012",
+    "name": "Claire (Claire Dearing - Tied Shirt, Lavender Undershirt)",
+    "category": "Jurassic World / General"
+  },
+  {
+    "id": "jw011",
+    "name": "Owen Grady - Leather Vest",
+    "category": "Jurassic World / General"
+  },
+  {
+    "id": "jw003",
+    "name": "Simon Masrani",
+    "category": "Jurassic World / General"
+  },
+  {
+    "id": "jw006",
+    "name": "Vet - Bowl Haircut",
+    "category": "Jurassic World / General"
+  },
+  {
+    "id": "idea001",
+    "name": "Marty McFly",
+    "category": "LEGO Ideas / General"
+  },
+  {
+    "id": "pi009",
+    "name": "Pirate Blue Jacket, White Legs, Brown Pirate Triangle Hat",
+    "category": "Pirates / Pirates I"
+  },
+  {
+    "id": "pi025",
+    "name": "Pirate Red / Black Stripes Shirt, Black Legs, Black Pirate Triangle Hat",
+    "category": "Pirates / Pirates I"
+  },
+  {
+    "id": "scd004",
+    "name": "Daphne Blake",
+    "category": "Scooby-Doo / General"
+  },
+  {
+    "id": "scd005",
+    "name": "Velma Dinkley",
+    "category": "Scooby-Doo / General"
+  },
+  {
+    "id": "sp003",
+    "name": "Classic Space - Black with Air Tanks",
+    "category": "Space / Classic Space"
+  },
+  {
+    "id": "sp005",
+    "name": "Classic Space - Red with Air Tanks",
+    "category": "Space / Classic Space"
+  },
+  {
+    "id": "sp007",
+    "name": "Classic Space - Yellow with Air Tanks",
+    "category": "Space / Classic Space"
+  },
+  {
+    "id": "spd004",
+    "name": "Mary Jane 1",
+    "category": "Spider-Man / Spider-Man 1"
+  },
+  {
+    "id": "spd013",
+    "name": "Mary Jane 3",
+    "category": "Spider-Man / Spider-Man 1"
+  },
+  {
+    "id": "spd002",
+    "name": "Peter Parker 1 - Jacket Blue, Black Legs, Brown Male Hair",
+    "category": "Spider-Man / Spider-Man 1"
+  },
+  {
+    "id": "spd014",
+    "name": "Plaid Button Shirt, Black Legs, Black Cap, Red Hair, Black Stubble (Taxi Driver)",
+    "category": "Spider-Man / Spider-Man 1"
+  },
+  {
+    "id": "spd012",
+    "name": "Spider-Man 2 - Balaclava Face",
+    "category": "Spider-Man / Spider-Man 1"
+  },
+  {
+    "id": "spd023",
+    "name": "Ambulance Driver, Dark Blue Torso with EMT Star of Life Logo, Black Legs, Black Male Hair",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd024",
+    "name": "Aunt May, Dark Tan Blouse, Dark Tan Legs, Light Bluish Gray Ponytail Hair",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd016",
+    "name": "Dr. Octopus (Otto Octavius) / Doc Ock, Light Bluish Gray Torso, Light Bluish Gray Legs - With Arms",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd027",
+    "name": "Dr. Octopus (Otto Octavius) / Doc Ock, Sand Green Jacket, Sand Green Legs, Clenched Teeth Smile - With Arms",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd026",
+    "name": "Dr. Octopus (Otto Octavius) / Doc Ock, Sand Green Jacket, Sand Green Legs, Thin Smirk - With Arms",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd022",
+    "name": "Harry Osborn 2, Dark Bluish Gray Suit Torso, Dark Bluish Gray Legs",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd017",
+    "name": "J. Jonah Jameson - Vest with Striped Tie, Flat Top Hair",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd018",
+    "name": "Jewel Thief 1, Red Torso w/ Space Logo, Black Legs",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd019",
+    "name": "Jewel Thief 2, Black Jacket Torso, Black Legs",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd003",
+    "name": "Police - Highway Patrolman, Black Shirt w/Badge and Radio, Black Legs, White Helmet",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd029",
+    "name": "Security Guard, Dark Bluish Gray Shirt w/Badge and Radio, Dark Bluish Gray Legs",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd028",
+    "name": "Spider-Man 3 - Dark Blue Arms and Legs, Silver Webbing",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "spd030",
+    "name": "Subway Train Conductor",
+    "category": "Spider-Man / Spider-Man 2"
+  },
+  {
+    "id": "sw0277",
+    "name": "Darth Vader (White Pupils)",
+    "category": "Star Wars / Star Wars Episode 4/5/6"
+  },
+  {
+    "id": "sw0637",
+    "name": "Obi-Wan Kenobi (Old) - Standard Cape",
+    "category": "Star Wars / Star Wars Episode 4/5/6"
+  },
+  {
+    "id": "sw0766",
+    "name": "Silver Protocol Droid (U-3PO)",
+    "category": "Star Wars / Star Wars Episode 4/5/6"
+  },
+  {
+    "id": "sw0658",
+    "name": "Poe Dameron (Pilot Jumpsuit, Helmet)",
+    "category": "Star Wars / Star Wars Episode 7"
+  },
+  {
+    "id": "sw0464",
+    "name": "Darth Vader (Celebration)",
+    "category": "Star Wars / Star Wars Other"
+  },
+  {
+    "id": "sh179",
+    "name": "Baron Von Strucker",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh186",
+    "name": "Black Widow - Black Jumpsuit, Dark Orange Short Hair, Printed Legs",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh177",
+    "name": "Captain America - Detailed Suit - Mask",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh171",
+    "name": "HYDRA Henchman - Chitauri Armor",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh168",
+    "name": "Iron Legion",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh167",
+    "name": "Iron Man Mark 43 Armor",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh180",
+    "name": "Quicksilver",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh170",
+    "name": "Thor - Soft Cape, Dark Blue Legs",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh176",
+    "name": "Ultimate Ultron",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh169",
+    "name": "Ultron MK1",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh178",
+    "name": "Vision - Dark Azure Spot on Forehead",
+    "category": "Super Heroes / Avengers Age of Ultron"
+  },
+  {
+    "id": "sh573",
+    "name": "Iron Man Mark 85 Armor - Helmet",
+    "category": "Super Heroes / Avengers Endgame"
+  },
+  {
+    "id": "sh501",
+    "name": "Groot, Teen Groot (Infinity War)",
+    "category": "Super Heroes / Avengers Infinity War"
+  },
+  {
+    "id": "sh496",
+    "name": "Iron Man Mark 50 Armor",
+    "category": "Super Heroes / Avengers Infinity War"
+  },
+  {
+    "id": "sh512",
+    "name": "Shuri - Orange Top",
+    "category": "Super Heroes / Avengers Infinity War"
+  },
+  {
+    "id": "sh502",
+    "name": "Thor (Infinity War)",
+    "category": "Super Heroes / Avengers Infinity War"
+  },
+  {
+    "id": "sh228",
+    "name": "Captain America, Space Captain America",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh226",
+    "name": "Captain Marvel - Red Sash",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh227",
+    "name": "Hyperion",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh229",
+    "name": "Iron Man, Space Iron Man",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh375",
+    "name": "Ms. Marvel",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh213",
+    "name": "Scuba Iron Man",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh230",
+    "name": "Thanos - Large Figure, Dark Blue Arms, Pearl Gold Armor with Helmet",
+    "category": "Super Heroes / Avengers"
+  },
+  {
+    "id": "sh050",
+    "name": "Aquaman",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh046",
+    "name": "Batman - Electro Suit",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh111",
+    "name": "Batman - Light Bluish Gray Suit with Yellow Belt and Crest, Blue Mask and Cape",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh047",
+    "name": "Batman, Arctic Batman",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh265",
+    "name": "Batman, Pirate Batman",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh024",
+    "name": "Harley Quinn - Black and Red Hands",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh049",
+    "name": "Mr. Freeze, Medium Blue",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh112",
+    "name": "Robin - Very Short Cape",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh005",
+    "name": "The Joker - Lime Vest",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh007",
+    "name": "Two-Face, Orange and Purple Suit",
+    "category": "Super Heroes / Batman II"
+  },
+  {
+    "id": "sh255",
+    "name": "Agent 13 (Sharon Carter)",
+    "category": "Super Heroes / Captain America Civil War"
+  },
+  {
+    "id": "90398pb007",
+    "name": "Ant-Man (Scott Lang) Statuette / Trophy - Original Suit",
+    "category": "Super Heroes / Captain America Civil War"
+  },
+  {
+    "id": "sh254",
+    "name": "Iron Man Mark 46 Armor - Partial Circle on Chest",
+    "category": "Super Heroes / Captain America Civil War"
+  },
+  {
+    "id": "sh256",
+    "name": "Scarlet Witch - Fabric Skirt",
+    "category": "Super Heroes / Captain America Civil War"
+  },
+  {
+    "id": "sh258",
+    "name": "War Machine - with Shooter",
+    "category": "Super Heroes / Captain America Civil War"
+  },
+  {
+    "id": "sh257",
+    "name": "Winter Soldier - Black Hands and Holster",
+    "category": "Super Heroes / Captain America Civil War"
+  },
+  {
+    "id": "sh554",
+    "name": "Nick Fury (Young)",
+    "category": "Super Heroes / Captain Marvel"
+  },
+  {
+    "id": "sh128",
+    "name": "Nova Corps Officer",
+    "category": "Super Heroes / Guardians of the Galaxy"
+  },
+  {
+    "id": "sh163",
+    "name": "Batzarro",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh148",
+    "name": "Captain Cold",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh457",
+    "name": "Firestorm",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh147",
+    "name": "Gorilla Grodd",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh153",
+    "name": "Green Arrow - Hair",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh161",
+    "name": "Scuba Robin",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh149",
+    "name": "Truck Driver - Overalls",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh150",
+    "name": "Wonder Woman - Silver Tiara, Dark Blue Legs",
+    "category": "Super Heroes / Justice League"
+  },
+  {
+    "id": "sh078",
+    "name": "General Zod",
+    "category": "Super Heroes / Man of Steel"
+  },
+  {
+    "id": "sh083",
+    "name": "Clark Kent / Superman",
+    "category": "Super Heroes / Superman"
+  },
+  {
+    "id": "sh003",
+    "name": "Superman",
+    "category": "Super Heroes / Superman"
+  },
+  {
+    "id": "sh030",
+    "name": "Chitauri Foot Soldier",
+    "category": "Super Heroes / The Avengers"
+  },
+  {
+    "id": "sh029",
+    "name": "Chitauri General",
+    "category": "Super Heroes / The Avengers"
+  },
+  {
+    "id": "sh330",
+    "name": "Catwoman - Utility Belt",
+    "category": "Super Heroes / The LEGO Batman Movie"
+  },
+  {
+    "id": "sh350",
+    "name": "Mayor McCaskill",
+    "category": "Super Heroes / The LEGO Batman Movie"
+  },
+  {
+    "id": "sh332",
+    "name": "Scarecrow, Pizza Delivery Outfit",
+    "category": "Super Heroes / The LEGO Batman Movie"
+  },
+  {
+    "id": "sh441",
+    "name": "The Penguin, Arkham Penguin",
+    "category": "Super Heroes / The LEGO Batman Movie"
+  },
+  {
+    "id": "sh115",
+    "name": "Spider-Man - Black Web Pattern, Red Hips",
+    "category": "Super Heroes / Ultimate Spider-Man"
+  },
+  {
+    "id": "tnt022",
+    "name": "The Kraang - Medium Blue Exo-Suit Body",
+    "category": "Teenage Mutant Ninja Turtles / General"
+  },
+  {
+    "id": "tnt006",
+    "name": "The Kraang - Medium Blue Exo-Suit Body with Jet Pack",
+    "category": "Teenage Mutant Ninja Turtles / General"
+  },
+  {
+    "id": "tlm052",
+    "name": "Alfie the Apprentice",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm054",
+    "name": "Dr. McScrubs",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm028",
+    "name": "Executron",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm047",
+    "name": "Frank the Foreman",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm053",
+    "name": "Plumber Joe",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm065",
+    "name": "Robo Pilot",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm046",
+    "name": "Robo SWAT - Helmet",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm048",
+    "name": "Robo Skeleton",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm073",
+    "name": "Unikitty - Angry Kitty",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "tlm071",
+    "name": "Vitruvius with Medallion and Black Eyes with Pupils",
+    "category": "The LEGO Movie / General"
+  },
+  {
+    "id": "cty0055",
+    "name": "Fire - Reflective Stripes, Black Legs, White Fire Helmet, Brown Beard Rounded",
+    "category": "Town / City / Fire"
+  }
+]

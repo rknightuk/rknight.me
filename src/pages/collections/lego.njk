@@ -17,6 +17,28 @@ css: collections
 
 <h3>{{ lego.count.sets }} sets across {{ lego.count.themes }} themes</h3>
 
+<details class="collection-grid-container">
+    <summary>
+        <span>
+            <span class="summary-wrap">
+                Loose Minifigures ({{ minifigs.length }})
+            </span>
+        </span>
+    </summary>
+    <div class="collection-grid">
+        {%- for minifig in minifigs %}
+            <div class="collection-item-wrapper">
+                <div class="collection-image-wrapper">
+                    <a target="_blank" rel="noopener" href="https://brickset.com/minifigs/{{ minifig.id }}">
+                        <img src="/assets/lego/figs/{{ minifig.id }}.jpg">
+                    </a>
+                </div>
+                <div class="collection-label">{{ minifig.name }} ({{ minifig.id }})</div>
+            </div>
+        {% endfor%}
+    </div>
+</details>
+
 {%- for theme in lego.themes %}
     <details class="collection-grid-container">
         <summary>
