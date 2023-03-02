@@ -8,7 +8,7 @@ function run() {
     fs.createReadStream('./scripts/brickset/minifigs.csv')
     .pipe(csv())
     .on('data', (data) => {
-        if (data.OwnedLoose === '0' || !data.MinifigName)
+        if (!data.MinifigName)
         {
             return
         }
@@ -17,6 +17,7 @@ function run() {
             id: data.MinifigNumber,
             name: data.MinifigName,
             category: data.MinifigCategory,
+            loose: data.OwnedLoose === '1',
         })
     })
     .on('end', () => {
@@ -40,7 +41,10 @@ function run() {
             }
         })
 
-        fs.writeFileSync('./src/_data/minifigs.json', JSON.stringify(results, '', 2))
+        fs.writeFileSync('./src/_data/minifigs.json', JSON.stringify({
+            loose: results.filter(r => r.loose),
+            sets: results.filter(r => !r.loose)
+        }, '', 2))
     })
 }
 

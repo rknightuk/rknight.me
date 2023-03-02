@@ -21,12 +21,34 @@ css: collections
     <summary>
         <span>
             <span class="summary-wrap">
-                Loose Minifigures ({{ minifigs.length }})
+                Loose Minifigures ({{ minifigs.loose.length }})
             </span>
         </span>
     </summary>
     <div class="collection-grid">
-        {%- for minifig in minifigs %}
+        {%- for minifig in minifigs.loose %}
+            <div class="collection-item-wrapper">
+                <div class="collection-image-wrapper">
+                    <a target="_blank" rel="noopener" href="https://brickset.com/minifigs/{{ minifig.id }}">
+                        <img src="/assets/lego/figs/{{ minifig.id }}.jpg">
+                    </a>
+                </div>
+                <div class="collection-label">{{ minifig.name }} ({{ minifig.id }})</div>
+            </div>
+        {% endfor%}
+    </div>
+</details>
+
+<details class="collection-grid-container">
+    <summary>
+        <span>
+            <span class="summary-wrap">
+                Minifigures from sets ({{ minifigs.sets.length }})
+            </span>
+        </span>
+    </summary>
+    <div class="collection-grid">
+        {%- for minifig in minifigs.sets %}
             <div class="collection-item-wrapper">
                 <div class="collection-image-wrapper">
                     <a target="_blank" rel="noopener" href="https://brickset.com/minifigs/{{ minifig.id }}">
