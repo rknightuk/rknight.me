@@ -44,6 +44,8 @@ module.exports = function(eleventyConfig) {
 }
 ```
 
+**Note**: if you haven’t already, you must install `child_process`: `npm i child_process`. Once you have done that, add the line `const execSync = require('child_process').execSync;` somewhere before the function, in your `.eleventy.js`.
+
 Note the `_site` source option - if your site is built to a different directory then change this. This outputs a `_pagefind` directory to the build folder.
 
 ### Add a Search Box
