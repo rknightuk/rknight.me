@@ -965,6 +965,11 @@ const GAMES = {
         "title": "Detroit: Become Human"
       },
       {
+        "gameID": 53669,
+        "platformID": 4980,
+        "title": "A Hat in Time"
+      },
+      {
         "gameID": 20954,
         "platformID": 4919,
         "title": "Grand Theft Auto V"
