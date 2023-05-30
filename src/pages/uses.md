@@ -20,6 +20,7 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
     - [Beats Studio Buds](https://www.beatsbydre.com/uk/earbuds/studio-buds)
     - [AirPods Pro 1st Generation](https://support.apple.com/kb/SP811?locale=en_US)
     - [Audio Technica ATH-M50x](https://www.audio-technica.com/en-gb/ath-m50x)
+    - [Anker Soundcore Life Q30](https://uk.soundcore.com/products/a3028311)
 - [Deco M5 mesh Wi-Fi](https://www.tp-link.com/uk/home-networking/deco/deco-m5/#deco)
 - [LG LED UQ75 65" TV](https://www.lg.com/uk/tvs/lg-65uq75006lf)
 - PS5
