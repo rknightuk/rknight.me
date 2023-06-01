@@ -955,6 +955,11 @@ const GAMES = {
     ],
     "PS4": [
       {
+        "gameID": 114853,
+        "platformID": 4919,
+        "title": "Cat Quest + Cat Quest 2: Pawsome Pack"
+      },
+      {
         "gameID": 43904,
         "platformID": 4919,
         "title": "Crash Bandicoot N. Sane Trilogy"
