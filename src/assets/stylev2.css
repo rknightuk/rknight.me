@@ -645,3 +645,17 @@ lite-youtube.lyt-activated>.lty-playbtn {
     white-space: nowrap;
     width: 1px;
 }
+
+table {
+    margin-bottom: 10px;
+}
+table,
+th,
+td {
+    border: 1px solid var(--body-text);
+    border-collapse: collapse;
+}
+
+td, th {
+    padding: 3px 10px;
+}
