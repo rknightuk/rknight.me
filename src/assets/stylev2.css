@@ -247,6 +247,7 @@ footer .copyright {
 
 .post img {
   text-align: center;
+  display: flex;
 }
 .post-list {
   list-style-type: none;
@@ -402,10 +403,6 @@ label, legend, fieldset {
 
 pre {
     font-size: 14px!important;
-}
-
-.main-content img {
-    margin: 0 auto;
 }
 
 .microblog-post {
