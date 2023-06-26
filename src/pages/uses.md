@@ -8,7 +8,7 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
 
 ### Hardware
 
-- MacBook Pro 16" 2019
+- MacBook Pro 16" 2023 M2 Max
 - Purple iPhone 14 Pro
 - Apple Watch Series 4 44mm
 - [PiSight web cam](https://rknight.me/building-a-pisight/)
@@ -61,7 +61,6 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 
 - [Fathom](https://usefathom.com/ref/IXCLSF) for analytics
 - [Backblaze](https://secure.backblaze.com/r/01gkf3) for off-site backup
-- [Micro.blog](https://micro.blog)
 - [omg.lol](https://home.omg.lol/referred-by/robb) for Mastodon and some other stuff
 - [DigitalOcean](https://www.digitalocean.com/?refcode=8e1d8283bd20) for site hosting
 - [Laravel Forge](http://forge.laravel.com) for deployments
