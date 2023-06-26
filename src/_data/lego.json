@@ -1243,23 +1243,6 @@
         }
       },
       {
-        "id": "5000022",
-        "blId": "5000022-1",
-        "year": "2012",
-        "title": "The Hulk",
-        "minifigs": "1",
-        "pieces": "4",
-        "theme": "Marvel Super Heroes",
-        "subtheme": "The Avengers",
-        "metadata": {
-          "bricklinked": false,
-          "noMinifigs": false,
-          "launch": "",
-          "exit": "",
-          "price": ""
-        }
-      },
-      {
         "id": "4530",
         "blId": "4530-1",
         "year": "2012",
@@ -1274,6 +1257,23 @@
           "launch": "01/05/2012",
           "exit": "31/12/2012",
           "price": "10.99"
+        }
+      },
+      {
+        "id": "5000022",
+        "blId": "5000022-1",
+        "year": "2012",
+        "title": "The Hulk",
+        "minifigs": "1",
+        "pieces": "4",
+        "theme": "Marvel Super Heroes",
+        "subtheme": "The Avengers",
+        "metadata": {
+          "bricklinked": false,
+          "noMinifigs": false,
+          "launch": "",
+          "exit": "",
+          "price": ""
         }
       },
       {
@@ -3170,7 +3170,7 @@
         "minifigs": "1",
         "pieces": "5",
         "theme": "Jurassic World",
-        "subtheme": "",
+        "subtheme": "Promotional",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -3285,6 +3285,23 @@
           "launch": "01/03/2015",
           "exit": "31/12/2016",
           "price": "12.99"
+        }
+      },
+      {
+        "id": "76912",
+        "blId": "76912-1",
+        "year": "2022",
+        "title": "Fast & Furious 1970 Dodge Charger R/T",
+        "minifigs": "1",
+        "pieces": "345",
+        "theme": "Speed Champions",
+        "subtheme": "Dodge",
+        "metadata": {
+          "bricklinked": false,
+          "noMinifigs": false,
+          "launch": "01/08/2022",
+          "exit": "31/12/2023",
+          "price": "19.99"
         }
       }
     ],
@@ -3790,7 +3807,7 @@
     ]
   },
   "count": {
-    "sets": 216,
+    "sets": 217,
     "themes": 38
   }
 }
