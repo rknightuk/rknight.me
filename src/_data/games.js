@@ -955,6 +955,11 @@ const GAMES = {
     ],
     "PS4": [
       {
+        "gameID": 78820,
+        "platformID": 4919,
+        "title": "John Wick Hex"
+      },
+      {
         "gameID": 114853,
         "platformID": 4919,
         "title": "Cat Quest + Cat Quest 2: Pawsome Pack"
