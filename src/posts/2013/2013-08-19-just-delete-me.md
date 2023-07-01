@@ -7,7 +7,7 @@ layout: post
 excerpt: "After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out won’t delete your details I decided to build JustDelete.me."
 ---
 
-After seeing a few tweets about how difficult it can be [to delete your Skype account](https://twitter.com/aral/status/368265156868190208) and then hearing that Netflix flat-out _won’t_ delete your details I decided to build [JustDelete.me](http://justdelete.me). 
+After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out _won’t_ delete your details I decided to build [JustDelete.me](http://justdelete.me). 
 
 JustDelete.Me is a directory of urls to delete your account from web services. (Yes, I am aware how terrible that description is. If you’ve got a better one, [let me know](/contact)). Services are marked either easy, medium or hard depending on how difficult it is to delete that account. Those marked as hard have additional information on how to completely remove your account, such as Skype which requires you to contact customer services to do so.
 

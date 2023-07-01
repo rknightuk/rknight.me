@@ -26,7 +26,7 @@ The Echo also functions as a bluetooth speaker. Saying "Alexa, pair my device" w
 
 Alexa understood every command I gave her [including when we played around with it in the office](https://hellsite.rknight.me/781140637089423360) and you can see a list of commands you've asked in the Alexa app, which has Google Now-style cards with extra information for some things like traffic, timers, or shopping lists.
 
-I was looking forward to using [IFTTT](https://ifttt.com) to automate some tasks such as moving my Alexa shopping list items to [Todoist](https://todoist.com) but IFTTT [doesn't currently support Echo in the UK](https://twitter.com/IFTTT/status/781280599755464704) which is disappointing, but IFTTT say they're working on it. Hopefully this will be fixed soon.
+I was looking forward to using [IFTTT](https://ifttt.com) to automate some tasks such as moving my Alexa shopping list items to [Todoist](https://todoist.com) but IFTTT doesn't currently support Echo in the UK which is disappointing, but IFTTT say they're working on it. Hopefully this will be fixed soon.
 
 The Alexa app is pretty slow and janky (it's a web app in a wrapper) but it's only used for setup of the device, and adding new skills. You can access the "app" from [alexa.amazon.com](http://alexa.amazon.com) as well if you prefer to setup from a browser.
 

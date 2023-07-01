@@ -8,7 +8,7 @@ date: 2016-10-06
 
 ![](http://rmlewisuk.s3.amazonaws.com/home-screen-tiles.png)
 
-If you [follow me on Twitter](https://twitter.com/rmlewisuk), you probably already know I've ditched my iPhone in favour of a [OnePlus 3](https://oneplus.net/uk/3). The biggest hurdle to switching is the apps I used regularly (and some not-so-regularly). After [making a list of apps I had installed](http://rmlewisuk.s3.amazonaws.com/apps.md) on my iPhone, I was able to filter it down to just two lists: ones with no equivalent, and ones I needed to find an Android alternative for. The three with no equivalent were:
+If you follow me on Twitter, you probably already know I've ditched my iPhone in favour of a [OnePlus 3](https://oneplus.net/uk/3). The biggest hurdle to switching is the apps I used regularly (and some not-so-regularly). After [making a list of apps I had installed](http://rmlewisuk.s3.amazonaws.com/apps.md) on my iPhone, I was able to filter it down to just two lists: ones with no equivalent, and ones I needed to find an Android alternative for. The three with no equivalent were:
 
 - Apple Store
 - Blink
@@ -30,7 +30,7 @@ I haven't been able to find anything that is as easy for creating lists as Clear
 
 ![Google Inbox' inline delivery information](http://rmlewisuk.s3.amazonaws.com/google-inbox-inline-delivery.jpg)
 
-I switched to [Google Inbox](https://inbox.google.com) prior to buying the OnePlus and it manages to show delivery tracking inline with the email so I decided I didn't need Deliveries anymore. [Dan](https://twitter.com/danharper7) also told me Google Now should tell me about my deliveries based on my email, but I haven't seen that working yet. Google Now also has a reminders feature, which has mostly replaced Due.
+I switched to [Google Inbox](https://inbox.google.com) prior to buying the OnePlus and it manages to show delivery tracking inline with the email so I decided I didn't need Deliveries anymore. [Dan](https://danharper.me) also told me Google Now should tell me about my deliveries based on my email, but I haven't seen that working yet. Google Now also has a reminders feature, which has mostly replaced Due.
 
 The stock [Google calendar](https://play.google.com/store/apps/details?id=com.google.android.calendar&hl=en_GB) app and widget replaced Fantastical for what I needed with no problems.
 

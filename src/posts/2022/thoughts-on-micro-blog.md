@@ -37,5 +37,5 @@ There's [an API](https://help.micro.blog/t/json-api/97) which I'm sure I'll be u
 
 ### Missing Pieces
 
-As much as I've complained about Twitter, there are people who I still want to subscribe to. Of course Twitter doesn't have RSS feeds any more but thankfully [NetNewsWire](https://netnewswire.com) allows me to subscribe to [specific people](https://twitter.com/daviddarnes) so I'm "following" a handful of Twitter accounts there instead.
+As much as I've complained about Twitter, there are people who I still want to subscribe to. Of course Twitter doesn't have RSS feeds any more but thankfully [NetNewsWire](https://netnewswire.com) allows me to subscribe to specific people so I'm "following" a handful of Twitter accounts there instead.
 

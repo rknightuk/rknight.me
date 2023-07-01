@@ -70,7 +70,7 @@ If a set you want it out of your price range, you're not interested in the minif
 
 There are three places I buy individual minifigures:
 
-- [The Minifigure Store](http://www.theminifigurestore.co.uk?affiliates=18): Prices are competitive with Bricklink and they run money off promotions through their [Twitter account](https://twitter.com/minifigstore) on a regular basis.
+- [The Minifigure Store](http://www.theminifigurestore.co.uk?affiliates=18): Prices are competitive with Bricklink and they run money off promotions through their Twitter account on a regular basis.
 - [Bricklink](http://bricklink.com): Bricklink is best place to pick up spare pieces as well as individual minifigures. If you're buying just one minifigure, the price with postage can be the same as the Minifigure store/eBay, but buying a few at a time can have some good savings. Read our [Guide to Bricklink](http://guidetobricklink.com) to find out about buying from Bricklink.
 - [eBay](http://ebay.co.uk): Prices are slightly higher than Bricklink, but most of the times postage is free and just-released minifigures are generally available within a few days.
 

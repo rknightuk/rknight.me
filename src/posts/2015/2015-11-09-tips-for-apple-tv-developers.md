@@ -7,14 +7,13 @@ excerpt: "Some tips for marketing your Apple TV app successfully."
 date: 2015-11-09
 ---
 
-Since the Apple TV got released I have been running [Apple TV Apps](http://atvapps.net), a blog and [Twitter account](http://twitter.com/_atvapps) showcasing the best Apple TV apps available. With discoverability being sub-par compared to the iOS app store, the site has been moderately successful and I've been contacted by a number of developers with iTunes links to their apps asking me to feature them, but there's a problem. Those links don't go anywhere; no web previews, no way to view these apps in iTunes.
+Since the Apple TV got released I have been running [Apple TV Apps](http://atvapps.net), a blog and Twitter account showcasing the best Apple TV apps available. With discoverability being sub-par compared to the iOS app store, the site has been moderately successful and I've been contacted by a number of developers with iTunes links to their apps asking me to feature them, but there's a problem. Those links don't go anywhere; no web previews, no way to view these apps in iTunes.
 
 ![Connecting to iTunes](http://rmlewisuk.s3.amazonaws.com/connecting-to-itunes.png)
 
-Graham Spencer [summed up what is needed from developers](https://twitter.com/greyham/status/663646601647378432) really well:
+Graham Spencer summed up what is needed from developers really well:
 
-<blockquote class="twitter-tweet" data-align="center" lang="en"><p lang="en" dir="ltr">Apple TV developers, *please* make sure you have a landing page with screenshots, info, price and press kit!</p>&mdash; Graham (@greyham) <a href="https://twitter.com/greyham/status/663646601647378432">November 9, 2015</a></blockquote>
-<script async src="//platform.twitter.com/widgets.js" charset="utf-8"></script>
+> Apple TV developers, *please* make sure you have a landing page with screenshots, info, price and press kit!
 
 The page doesn't have to be the most beautiful website in the world but the information needs to be available if you expect your app to be featured anywhere. There are a number of options to get a simple website up and running with very little effort.
 

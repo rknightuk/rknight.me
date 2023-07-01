@@ -5,7 +5,7 @@ date: 2017-05-15
 layout: post
 ---
 
-In 2015, [Pieter Siekerman](https://twitter.com/psiekerman) [wrote a blog post](http://technology.siekerman.nl/post/133644449664/the-perfect-tv) describing what the perfect TV should be:
+In 2015, Pieter Siekerman [wrote a blog post](http://technology.siekerman.nl/post/133644449664/the-perfect-tv) describing what the perfect TV should be:
 
 > For two years now I’ve closely watched various TV manufacturers trying to find their way in the changing landscape of TV platforms and I just don’t get it. 
 
