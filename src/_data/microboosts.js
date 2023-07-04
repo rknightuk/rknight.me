@@ -7,11 +7,11 @@ module.exports = async function() {
     console.log("Fetching boosts")
     let asset = new AssetCache("boosts")
 
-    // if (asset.isCacheValid('1h'))
-    // {
-    //     console.log("Returning mastodo data from cache")
-    //     return await asset.getCachedValue()
-    // }
+    if (asset.isCacheValid('1h'))
+    {
+        console.log("Returning mastodo data from cache")
+        return await asset.getCachedValue()
+    }
 
     let data = await fetch('https://api.rknight.me/api/mastodon-boosts.json')
         .then(res => res.json())
@@ -19,10 +19,7 @@ module.exports = async function() {
             return json
         })
 
-    // await asset.save(data, "json")
-
-    // posts: [],
-    // tags: [],
-    // tagMap: {},
+    await asset.save(data, "json")
+    
     return Object.values(data)
 }
