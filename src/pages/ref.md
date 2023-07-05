@@ -14,3 +14,4 @@ Use these referral links for services I use and we both get free stuff.
 - Fathom Analytics [https://usefathom.com/ref/IXCLSF](https://usefathom.com/ref/IXCLSF)
 - Simply Cook - Free box [https://simplycook.com/invite/EH0Q2K](https://simplycook.com/invite/EH0Q2K)
 - Smol Products [http://smol.refr.cc/robbknight](http://smol.refr.cc/robbknight)
+- Ooni [http://rwrd.io/4orgua6?c](http://rwrd.io/4orgua6?c) - 10% off
