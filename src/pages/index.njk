@@ -5,27 +5,29 @@ hidetitle: true
 permalink: 'index.html'
 ---
 
-<div class="statuslol" style="">
-    <div class="statuslol_emoji_container">
-        <div>{{ status.emoji }}</div>
-    </div>
-    <div class="statuslol_content">
-        <p>{{ status.content | mdToHtml | safe }}</p>
-        <div class="statuslol_time">
-            <a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTimeFromUnix }}</a>
-        </div>
-    </div>
-</div>
-
-</div>{# don't remove this, it's important #}
-
-<section class="box">
-	<h2>About</h2>
+	<h2>Ahoy</h2>
 	<p>👋 I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a podcaster with <a href="https://ruminatepodcast.com">two</a> <a href="https://wegot.family">shows</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
 
 	<p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> or <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 
     <p><a href="/links">View all my links</a></p>
+
+</div>{# don't remove this, it's important #}
+
+<section class="box">
+	
+	<div class="statuslol" style="">
+		<div class="statuslol_emoji_container">
+			<div>{{ status.emoji }}</div>
+		</div>
+		<div class="statuslol_content">
+			<p>{{ status.content | mdToHtml | safe }}</p>
+			<div class="statuslol_time">
+				<a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTimeFromUnix }}</a>
+			</div>
+		</div>
+	</div>
+
 </section>
 
 <section class="box">

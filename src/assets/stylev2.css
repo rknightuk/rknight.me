@@ -105,42 +105,6 @@ header {
   animation: color-change 3s infinite;
 }
 
-.social-links {
-    margin: 0 auto 10px auto;
-    display: flex;
-    justify-content: space-around;
-}
-
-.social-links a {
-    display: flex;
-    justify-content: center;
-    transition: 0.2s linear;
-    color: white;
-}
-
-a.social-masto,
-.icon-mastodon {
-    color: var(--mastodon);
-}
-a.social-gh,
-.icon-github {
-    color: var(--github);
-}
-a.social-coffee,
-.icon-buymeacoffee {
-    color: var(--coffee);
-}
-a.social-omg,
-.icon-prami {
-    color: var(--prami);
-}
-a.social-omg {
-    transform: scale(1.2);
-}
-a.social-subscribe {
-    color: #FFA500;
-}
-
 .social-links a:hover {
     color: var(--body-text);
 }
@@ -215,6 +179,11 @@ blockquote {
 .nav__list--item:hover {
     border-bottom-color: var(--color-primary);
 }
+
+/* .nav__list--item {
+  border-bottom: none;
+  color: white;
+} */
 
 @media (max-width: 700px) {
     .nav__list {
