@@ -1,5 +1,5 @@
 ---
-title: Uses
+title: /uses
 layout: base
 permalink: 'uses/index.html'
 ---
@@ -46,6 +46,7 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 - [CleanShot X](https://cleanshot.com) for screenshots, screen recording, and annotation
 - [Sleeve](https://replay.software/sleeve) for now playing
 - [Rectangle](https://rectangleapp.com/) for window snapping
+- [Mic Drop](https://getmicdrop.com/) for muting my microphone
 
 #### iOS
 

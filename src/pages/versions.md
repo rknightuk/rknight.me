@@ -1,7 +1,7 @@
 ---
 title: Version History
 layout: base
-permalink: 'versions/index.html'
+permalink: 'log/versions/index.html'
 ---
 
 - [2023](/files/versions/2023.png)

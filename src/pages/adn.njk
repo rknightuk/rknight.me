@@ -1,11 +1,10 @@
 ---
 layout: base
 title: App.net Archive
-permalink: 'adn/index.html'
+permalink: 'micro/adn/index.html'
 ---
 
 <p>My App.net archive. RIP.</p>
-
 
 {%- for post in adn.reverse() %}
     {% if not post.text.startsWith('@') and not post.text.startsWith('>') %}

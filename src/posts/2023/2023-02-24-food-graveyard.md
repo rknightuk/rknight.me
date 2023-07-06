@@ -1,7 +1,9 @@
 ---
 title: Food Graveyard
-layout: base
-permalink: food-graveyard/index.html
+permalink: /food-graveyard/index.html
+date: 2023-02-24T22:54:57.098Z
+excerpt: "Discontinued food that I want back"
+layout: post
 ---
 
 Discontinued food items I miss.

@@ -3,7 +3,7 @@ pagination:
   data: micro.images
   size: 50
   alias: post
-permalink: 'photos/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
+permalink: 'micro/photos/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
 eleventyComputed:
     title: Photos

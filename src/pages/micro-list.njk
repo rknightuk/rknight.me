@@ -9,9 +9,12 @@ eleventyComputed:
     title: Microblog
 ---
 
-<p>
-    <a href="/tags">All Tags</a> &bull; <a href="/micro/boosts">Boosted Links</a> &bull; <a href="/podcasts">Podcast Listening History</a> &bull; <a href="/photos">Photos</a> &bull; <a href="/adn">App.net archive</a>
-</p>
+<ul>
+    <li><a href="/micro/tags">Tags</a></li>
+    <li><a href="/micro/photos">Photos</a></li>
+    <li><a href="/micro/boosts">Boosted Links</a></li>
+    <li><a href="/micro/adn">App.net archive</a></li>
+</ul>
 
 <div class="pagination">
     <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Posts</a>{% else %}Newer Posts{% endif %}</div>

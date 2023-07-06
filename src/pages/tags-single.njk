@@ -3,7 +3,7 @@ pagination:
   data: micro.tags
   size: 1
   alias: tag
-permalink: 'tags/{{ tag.toLowerCase() | slug }}/index.html'
+permalink: 'micro/tags/{{ tag.toLowerCase() | slug }}/index.html'
 layout: base
 eleventyComputed:
   title: "#{{ tag }}"
