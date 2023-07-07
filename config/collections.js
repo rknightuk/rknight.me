@@ -3,7 +3,7 @@ module.exports = {
         return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse()
     },
     firstPosts: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 10)
+        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 5)
     },
     shortcuts: (collectionApi) => {
         return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().filter(p => {

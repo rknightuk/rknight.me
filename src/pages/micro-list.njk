@@ -9,23 +9,27 @@ eleventyComputed:
     title: Microblog
 ---
 
-<ul>
-    <li><a href="/micro/tags">Tags</a></li>
-    <li><a href="/micro/photos">Photos</a></li>
-    <li><a href="/micro/boosts">Boosted Links</a></li>
-    <li><a href="/micro/adn">App.net archive</a></li>
-</ul>
+  <ul>
+      <li><a href="/micro/tags">Tags</a></li>
+      <li><a href="/micro/photos">Photos</a></li>
+      <li><a href="/micro/boosts">Boosted Links</a></li>
+      <li><a href="/micro/adn">App.net archive</a></li>
+  </ul>
 
-<div class="pagination">
-    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Posts</a>{% else %}Newer Posts{% endif %}</div>
-    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Posts</a>{% else %}Older Posts{% endif %}</div>
+  <div class="pagination">
+      <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Posts</a>{% else %}Newer Posts{% endif %}</div>
+      <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Posts</a>{% else %}Older Posts{% endif %}</div>
+  </div>
+
 </div>
 
 {%- for post in pagination.items %}
-  {% include 'micropost.njk' %}
+  <div class="box">
+    {% include 'micropost.njk' %}
+  </div>
 {% endfor -%}
 
-<div class="pagination">
+<div class="pagination box">
     <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Posts</a>{% else %}Newer Posts{% endif %}</div>
     <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Posts</a>{% else %}Older Posts{% endif %}</div>
 </div>

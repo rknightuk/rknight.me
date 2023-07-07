@@ -1,24 +1,8 @@
 [
-	{
-		"label": "Blog",
-		"link": "/blog"
-	},
-    {
-		"label": "Microblog",
-		"link": "/micro"
-	},
-    {
-		"label": "Save",
-		"link": "/save"
-	},
     {
 		"label": "Contact",
 		"link": "/contact"
     },
-    {
-		"label": "Projects",
-		"link": "/projects"
-	},
     {
 		"label": "Subscribe",
 		"link": "/subscribe"
@@ -27,26 +11,6 @@
 		"label": "Buy me a Coffee",
 		"link": "/coffee"
     },
-    {
-		"label": "/now",
-		"link": "/now"
-    },
-    {
-		"label": "/uses",
-		"link": "/uses"
-    },
-    {
-		"label": "/links",
-		"link": "/links"
-    },
-    {
-		"label": "Podcasts",
-		"link": "/log/podcasts"
-	},
-    {
-		"label": "Photos",
-		"link": "/micro/photos"
-	},
     {
 		"label": "Search",
 		"link": "/search"

@@ -6,7 +6,7 @@ excerpt: "I've watched too much Hey Bear and wrote about how weird it is"
 layout: post
 ---
 
-Hey Bear is [a YouTube channel](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) with videos of dancing fruits, vegetables, and other nonsense designed to ~~make kids stfu~~ entertain young children. It works. [Baby Knight](https://rknight.me/tags/babyknight/) loves it.
+Hey Bear is [a YouTube channel](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) with videos of dancing fruits, vegetables, and other nonsense designed to ~~make kids stfu~~ entertain young children. It works. [Baby Knight](https://rknight.me/micro/tags/babyknight/) loves it.
 
 Last night my partner asked if I was okay because I looked distant and downtrodden. I wasn't sad or tired, I was pondering the biology of the fruits that dance in these videos.
 

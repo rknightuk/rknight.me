@@ -32,3 +32,6 @@ Some other articles I had saved related to this:
 - [An In-Depth Tutorial of Webmentions + Eleventy](https://sia.codes/posts/webmentions-eleventy-in-depth/)
 - [Webmentions for your Static Site | Rowan Manning](https://rowanmanning.com/posts/webmentions-for-your-static-site/)
 - [Scheduling Netlify Deployments with Github Actions](https://css-irl.info/scheduling-netlify-deployments-with-github-actions/)
+- [Cactus Comments - Federated Web Comments](https://cactus.chat/)
+- [Toot toot! Mastodon-powered Blog Comments ⋅ Cassidy James Blaede](https://cassidyjames.com/blog/fediverse-blog-comments-mastodon/)
+

@@ -72,10 +72,35 @@ I've set this up to run every hour on a cron, merge new data with the existing d
 
 To get this to render on my post pages, I lifted most of [Max's solution](https://mxb.dev/blog/using-webmentions-on-static-sites/) with a few changes like grouping the different types of responses together. As an aside, I still don't know what a `mention-of` webmention looks like or how one happens.
 
+**Update 07/07/2023**
+
+I finally got some data to see what `mention-of` gives. I decided against showing these though because at least half of them didn't exist after only ~6 months.
+
+```json
+{
+    "type": "entry",
+    "author": {
+    "type": "card",
+    "name": "",
+    "photo": "",
+    "url": ""
+    },
+    "url": "https://blog.luiscarlospando.com/coding/2023/02/hay-nuevo-sistema-de-comentarios-en-mi-blog-2/",
+    "published": null,
+    "wm-received": "2023-07-07T00:18:46Z",
+    "wm-id": 1693400,
+    "wm-source": "https://blog.luiscarlospando.com/coding/2023/02/hay-nuevo-sistema-de-comentarios-en-mi-blog-2/",
+    "wm-target": "https://rknight.me/adding-webmentions-to-your-site/",
+    "mention-of": "https://rknight.me/adding-webmentions-to-your-site/",
+    "wm-property": "mention-of",
+    "wm-private": false
+}
+```
+
 ```js
 // .eleventy.js
 eleventyConfig.addFilter('webmentionsByUrl', function(webmentions, url) {
-    const allowedTypes = ['mention-of', 'in-reply-to', 'like-of', 'repost-of']
+    const allowedTypes = ['in-reply-to', 'like-of', 'repost-of']
 
     const data = {
         'like-of': [],

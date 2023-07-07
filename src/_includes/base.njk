@@ -23,6 +23,11 @@
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
         <link rel="manifest" href="/assets/icons/site.webmanifest">
 
+        <script>
+          {%- set mentions = webmentions.mentions | webmentionsByUrl('/convert-spotify-facebook-to-email-login/') -%}
+          mentions = {{ mentions | dump | safe }}
+        </script>
+
 
         <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
 
@@ -49,6 +54,23 @@
 
 		<header>
 			<div class="main-header"><a href="/">Robb Knight</a></div>
+            <div class="social-links">
+                <a href="https://social.lol/@robb" class="social-masto">
+                    <svg class="icon">
+                        <use xlink:href="#mastodon"></use>
+                    </svg>
+                </a>
+                <a href="https://github.com/rknightuk" class="social-gh">
+                    <svg class="icon">
+                        <use xlink:href="#github"></use>
+                    </svg>
+                </a>
+                <a href="/subscribe" class="social-subscribe">
+                    <svg class="icon">
+                        <use xlink:href="#rss"></use>
+                    </svg>
+                </a>
+            </div>
 		</header>
 
 		<div class="nav">
@@ -171,6 +193,87 @@
             <symbol viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" id="oku">
                 <path d="M500 183.794v64.23c-57.312 0-112.648 22.727-153.162 62.253-32.609 32.608-54.348 73.122-61.265 117.589H500v65.217H0v-65.217h215.415c-6.917-44.467-28.656-85.969-61.265-118.577C113.636 269.763 58.3 247.036 0 247.036v-65.218c51.383 0 102.767 13.834 146.245 40.514 44.466 25.692 80.04 63.241 104.743 108.696 23.716-44.467 59.289-82.016 103.755-107.708 43.478-26.68 93.874-39.526 145.257-39.526ZM169.96 85.968c0-43.478 35.574-79.051 80.04-79.051 44.466 0 80.04 35.573 80.04 79.051 0 43.479-35.574 78.064-80.04 78.064-44.466 0-80.04-34.585-80.04-78.064Zm0 0"></path>
             </symbol>
+            <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="ticket">
+    <title>ticket</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Artboard-4" transform="translate(-708.000000, -511.000000)">
+        <g id="196" transform="translate(708.000000, 511.000000)">
+          <path d="M14.2675644,19 L2.991155,19 C1.89147046,19 1,18.1029399 1,16.9941413 L1,13.7324356 C1.59780137,13.3866262 2,12.7402824 2,12 C2,11.2597176 1.59780137,10.6133738 1,10.2675644 L1,7.00585866 C1,5.89805351 1.88967395,5 2.991155,5 L14.2675644,5 C14.6133738,5.59780137 15.2597176,6 16,6 C16.7402824,6 17.3866262,5.59780137 17.7324356,5 L21.008845,5 C22.1085295,5 23,5.89706013 23,7.00585866 L23,10.2675644 C22.4021986,10.6133738 22,11.2597176 22,12 C22,12.7402824 22.4021986,13.3866262 23,13.7324356 L23,16.9941413 C23,18.1019465 22.1103261,19 21.008845,19 L17.7324356,19 C17.3866262,18.4021986 16.7402824,18 16,18 C15.2597176,18 14.6133738,18.4021986 14.2675644,19 Z" id="Combined-Shape" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+          <rect id="Rectangle" fill="currentColor" x="15" y="6" width="2" height="3" rx="1"></rect>
+          <rect id="Rectangle" fill="currentColor" x="15" y="10" width="2" height="4" rx="1"></rect>
+          <rect id="Rectangle" fill="currentColor" x="15" y="15" width="2" height="3" rx="1"></rect>
+          <rect id="Rectangle-133" fill="currentColor" opacity="0.5" x="4" y="8" width="8" height="2" rx="1"></rect>
+          <rect id="Rectangle-133" fill="currentColor" opacity="0.5" x="4" y="11" width="4" height="2" rx="1"></rect>
+          <rect id="Rectangle-133" fill="currentColor" opacity="0.200000003" x="4" y="15" width="9" height="1" rx="0.5"></rect>
+        </g>
+      </g>
+    </g>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="polaroids">
+    <title>polaroids</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Artboard-4" transform="translate(-884.000000, -379.000000)">
+        <g id="140" transform="translate(884.000000, 379.000000)">
+          <g id="2" transform="translate(0.068124, 1.974212)" fill="currentColor">
+            <path d="M3.93187648,2.60283088 L2.09644494,3.09350651 L3.93187648,9.94343026 L3.93187648,17.4076278 L0.230395558,3.59351294 C-0.0541723055,2.53149121 0.577347276,1.43952472 1.64224814,1.15418539 L3.93187648,0.540681329 L3.93187648,2.60283088 Z" id="Combined-Shape"></path>
+          </g>
+          <g id="1" transform="translate(6.000000, 2.000000)">
+            <path d="M0,1.99079514 C0,0.891309342 0.892622799,0 1.99508929,0 L16.0049107,0 C17.1067681,0 18,0.898212381 18,1.99079514 L18,18.0092049 C18,19.1086907 17.1073772,20 16.0049107,20 L1.99508929,20 C0.893231902,20 0,19.1017876 0,18.0092049 L0,1.99079514 Z M2,2 L2,16 L16,16 L16,2 L2,2 Z" id="Combined-Shape" fill="currentColor"></path>
+            <circle id="Oval-39" fill="currentColor" cx="6" cy="6" r="2"></circle>
+            <path d="M15,8 C14,8 12.5,8.5 11,10 C9.5,11.5 9,14 9,15" id="Path-54" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+            <path d="M4,15 C4,14 4.5,12 7,11 C9.5,10 11,10.5 11,10.5" id="Path-55" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+          </g>
+        </g>
+      </g>
+    </g>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="pen">
+    <title>pen-tool</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Artboard-4" transform="translate(-532.000000, -687.000000)" stroke="currentColor" stroke-width="2">
+        <g id="272" transform="translate(531.000000, 687.000000)">
+          <g id="pen-tool" transform="translate(12.474344, 12.574381) rotate(-315.000000) translate(-12.474344, -12.574381) translate(5.474344, 2.074381)">
+            <path d="M7,22.5 C7,22.5 12,11 13,10 C12,9 10,3 10,3 L4,3 C4,3 2,9 1,10 C2,11 7,22.5 7,22.5 Z" id="Path-208" stroke-linecap="round" stroke-linejoin="round"></path>
+            <rect id="Rectangle-194" stroke-linecap="round" stroke-linejoin="round" x="3" y="0" width="8" height="3"></rect>
+            <path d="M7,21 L7,10" id="Path-209"></path>
+            <circle id="Oval-150" cx="7" cy="10" r="1"></circle>
+          </g>
+        </g>
+      </g>
+    </g>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="chat">
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Artboard-4" transform="translate(-664.000000, -115.000000)">
+        <g id="15" transform="translate(664.000000, 115.000000)">
+          <path d="M5.58578644,18 L8.29289322,20.7071068 L9,21.4142136 L9.70710678,20.7071068 L12.4142136,18 L20.0024554,18 C21.1070219,18 22,17.1024207 22,15.9975267 L22,6.00247329 C22,4.90415942 21.1082892,4 20.0066023,4 L3.99339768,4 C2.89058031,4 2,4.89859975 2,6.00247329 L2,15.9975267 C2,17.0970743 2.89547708,18 3.99895656,18 L5.58578644,18 Z" id="Rectangle-406" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
+          <rect id="Rectangle-407" fill="currentColor" x="6" y="8" width="12" height="2" rx="1"></rect>
+          <rect id="Rectangle-407" fill="currentColor" x="6" y="12" width="12" height="2" rx="1"></rect>
+        </g>
+      </g>
+    </g>
+  </symbol>
+  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="terminal">
+    <title>terminal</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+      <g id="Artboard-4" transform="translate(-752.000000, -379.000000)">
+        <g id="136" transform="translate(752.000000, 379.000000)">
+          <rect id="Rectangle-87" stroke="currentColor" stroke-width="2" x="2" y="4" width="20" height="16" rx="2"></rect>
+          <polyline id="Path-63" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="6 8 8 10 6 12"></polyline>
+          <rect id="Rectangle-88" fill="currentColor" x="10" y="11" width="6" height="2" rx="1"></rect>
+        </g>
+      </g>
+    </g>
+  </symbol>
         </svg>
 
 	</body>

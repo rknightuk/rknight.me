@@ -5,8 +5,8 @@ hidetitle: true
 permalink: 'index.html'
 ---
 
-	<h2>Ahoy</h2>
-	<p>👋 I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a podcaster with <a href="https://ruminatepodcast.com">two</a> <a href="https://wegot.family">shows</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
+	<h3 class="home"><svg class="icon"><use xlink:href="#terminal"></use></svg> Ahoy</h3>
+	<p>I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a podcaster with <a href="https://ruminatepodcast.com">two</a> <a href="https://wegot.family">shows</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
 
 	<p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> or <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 
@@ -14,24 +14,27 @@ permalink: 'index.html'
 
 </div>{# don't remove this, it's important #}
 
-<section class="box">
-	
-	<div class="statuslol" style="">
-		<div class="statuslol_emoji_container">
-			<div>{{ status.emoji }}</div>
-		</div>
-		<div class="statuslol_content">
-			<p>{{ status.content | mdToHtml | safe }}</p>
-			<div class="statuslol_time">
-				<a style="" href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTimeFromUnix }}</a>
-			</div>
-		</div>
-	</div>
+<section class="box" style="padding: 15px 15px 25px 15px;position: relative;">
+	<h3 class="home"><svg class="icon"><use xlink:href="#chat"></use></svg>Latest Toot</h3>
 
+	{%- for post in micro.posts.slice(0, 1) %}
+		{% if post.spoiler %}
+			<details>
+				<summary>{{ post.spoiler }} <strong>(spoilers)</strong></summary>
+				{% include 'micropost_data.njk' %}
+			</details>
+		{% else %}
+			{% include 'micropost_data.njk' %}
+		{% endif %}
+		<div class="post-date" style="position: absolute; bottom: 15px; right: 15px; margin-bottom: 0;">
+			<a target="_blank" rel="noopener" href="{% if post.source %}{{ post.source }}{% else %}{{ post.path | postPath | stripIndex }}{% endif %}">{{ post.date | toDateTime }}</a>
+			<a href="{{ post.path | postPath | stripIndex }}">&infin;</a>
+		</div>
+	{% endfor %}
 </section>
 
 <section class="box">
-	<h3>🗒️ <a href="/blog">Long Posts</a></h2>
+	<h3 class="home"><svg class="icon"><use xlink:href="#pen"></use></svg> <a href="/blog">Posts</a></h2>
 
 	<ul class="no-bull">
 		{%- for post in collections.firstPosts %}
@@ -42,25 +45,23 @@ permalink: 'index.html'
 	</ul>
     <p><a href="/blog">View All Posts</a></p>
 
+</section>
 
-    <h3>🎺 <a href="/micro">Short Posts</a></h3>
+<section class="box">
 
-    <div class="microblog-posts">
-	{%- for post in micro.posts.slice(0, 5) %}
-        {% include 'micropost.njk' %}
-	{% endfor %}
-    <p><a href="/micro">View All Micro Posts</a></p>
-    </div>
-
-    <h3>📷 <a href="/photos">Latest Photos<a></h3>
+    <h3 class="home"><svg class="icon"><use xlink:href="#polaroids"></use></svg> <a href="/micro/photos">Latest Photos<a></h3>
 	<div class="microblog-photos">
 		{%- for photo in micro.images.slice(0, 5) %}
 			<div class="microblog-photo"><a href="/micro/{{ micro.postMap[photo.postId].path }}"><img src="{{ photo.url }}" alt="{{ photo.description }}"></a></div>
 		{% endfor %}
 	</div>
-    <p><a href="/photos">View All Photos</a></p>
 
-	<h3>🍿 <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
+	<p><a href="/micro/photos">View All Photos</a></p>
+
+</section>
+
+<section class="box">
+	<h3 class="home"><svg class="icon"><use xlink:href="#ticket"></use></svg> <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
 	<div class="microblog-posts">
         <ul>
         {%- for watched in before.watched %}
@@ -68,25 +69,13 @@ permalink: 'index.html'
         {% endfor %}
         </ul>
 	</div>
-
-    <div class="the-claw" style="margin: 0 auto;">
-        <script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
-        <the-claw-webring-widget theme="light" hideMembers="true">
-            <!-- TO DO ADD FALLBACK CONTENT -->
-        </the-claw-webring-widget>
-    </div>
 </section>
 
-<div class="projects">
-	{%- for project in projects %}
-		{% if project.ignore != true %}
-		<div class="project {{ project.key }} {{ project.class }}">
-			<div class="project-image" {% if project.color %}style="background-color: {{ project.color }}"{% endif %}>
-				<img src="/assets/img/{{ project.key }}.{{ project.type }}" alt="{{ project.alt }}">
-			</div>
-			<h2><a href="{{ project.url }}">{{ project.name }}</a></h2>
-			<p>{{ project.desc | safe }}</p>
-		</div>
-		{%  endif  %}
-	{% endfor %}
-</div>
+<section class="box">
+	<div class="the-claw" style="margin: 0 auto;">
+		<script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
+		<the-claw-webring-widget theme="light" hideMembers="true">
+			<!-- TO DO ADD FALLBACK CONTENT -->
+		</the-claw-webring-widget>
+	</div>
+</section>
