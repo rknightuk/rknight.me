@@ -8,8 +8,8 @@
 		"link": "/micro"
 	},
     {
-		"label": "Referrals",
-		"link": "/ref"
+		"label": "Save",
+		"link": "/save"
 	},
     {
 		"label": "Contact",
@@ -41,11 +41,11 @@
     },
     {
 		"label": "Podcasts",
-		"link": "/podcasts"
+		"link": "/log/podcasts"
 	},
     {
 		"label": "Photos",
-		"link": "/photos"
+		"link": "/micro/photos"
 	},
     {
 		"label": "Search",
@@ -53,10 +53,6 @@
 	},
     {
 		"label": "Version History",
-		"link": "/versions"
-    },
-    {
-		"label": "Food Graveyard",
-		"link": "/food-graveyard"
+		"link": "/log/versions"
     }
 ]
