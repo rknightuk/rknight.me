@@ -43,5 +43,10 @@
         "title": "Buy Me a Coffee",
         "link": "https://www.buymeacoffee.com/rknightuk",
         "icon": "buymeacoffee"
+    },
+    {
+        "title": "Subscribe",
+        "link": "/subscribe",
+        "icon": "rss"
     }
 ]

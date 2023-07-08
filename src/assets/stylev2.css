@@ -137,7 +137,8 @@ a.social-gh:hover,
   color: var(--github);
 }
 
-a.social-subscribe:hover{
+a.social-subscribe:hover,
+.icon-rss {
   color: #FFA500;
 }
 

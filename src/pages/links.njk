@@ -8,6 +8,7 @@ permalink: 'links/index.html'
 .link-page-link {
     display: flex;
     align-items: center;
+    padding: 10px;
 }
 
 .link-page-link svg {
@@ -15,12 +16,26 @@ permalink: 'links/index.html'
     width: 20px;
     margin-right: 10px;
 }
+
+.link-page-links {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 10px;
+}
+
+@media (max-width: 550px) {
+  .link-page-links {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
 </style>
+<div class="link-page-links">
 {% for link in links %}
-    <p class="link-page-link">
+    <div class="link-page-link">
         <svg class="icon icon-{{ link.icon }}">
             <use xlink:href="#{{ link.icon }}"></use>
         </svg>
         <a href="{{ link.link }}">{{ link.title }}</a>
-    </p>
+    </div>
 {% endfor %}
+</div>
