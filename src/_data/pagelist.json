@@ -18,5 +18,9 @@
     {
 		"label": "Version History",
 		"link": "/log/versions"
-    }
+    },
+	{
+		"label": "Icons by Robbie Pearce",
+		"link": "https://www.robbiepearce.com/softies"
+	}
 ]
