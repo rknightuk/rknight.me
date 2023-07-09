@@ -9,6 +9,9 @@ module.exports = {
         if (path.startsWith('https://rknightuk.s3.amazonaws.com')) return path
         return `https://rknightuk.s3.amazonaws.com/${path}`
     },
+    objectDebug: function(value) {
+        return `<pre>${JSON.stringify(value, '', 2)}</pre>`
+    },
     postPath: (path) => {
         if (path.includes('micro/')) return path
         return `/micro/${path}`

@@ -34,7 +34,24 @@ permalink: 'index.html'
 </section>
 
 <section class="box">
-	<h3 class="home"><svg class="icon"><use xlink:href="#pen"></use></svg> <a href="/blog">Posts</a></h2>
+	<h3 class="home"><svg class="icon"><use xlink:href="#ipod"></use></svg>Latest Podcast Episodes</h3>
+	{%- for pod in mypodcasts %}
+		<div class="latest-pod">
+			<div class="latest-pod-art">
+				<a href="{{ pod.show.link }}"><img src="{{ pod.show.art }}"></a>
+			</div>
+			<div class="latest-pod-data">
+				<h4>{{ pod.show.title }}</h4>
+				<p><a href="{{ pod.link }}">{{ pod.title | safe }}</a></p>
+				<p class="post-date">{{ pod.date }}</p>
+			</div>
+		</div>
+	{% endfor %}
+
+</section>
+
+<section class="box">
+	<h3 class="home"><svg class="icon"><use xlink:href="#pen"></use></svg> <a href="/blog">Latest Posts</a></h2>
 
 	<ul class="no-bull">
 		{%- for post in collections.firstPosts %}
