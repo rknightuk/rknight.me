@@ -7,10 +7,10 @@ stripTags = (text) => {
   return text.replace(/<[^>]*>/g, '').replace(/\n\n/g, "\n").replace(/\n/g, " ")
 }
 
-handle = (data) => {
+handle = (data, key) => {
     const showData = {
         title: data.rss.channel.title,
-        art: data.rss.channel['itunes:image'].href,
+        art: `/assets/img/${key}-cover.png`,
         link: data.rss.channel.link,
     }
 
@@ -46,12 +46,12 @@ module.exports = async function() {
     const ruminate = await fetch("https://ruminatepodcast.com/feed.xml")
         .then(response => response.text())
         .then(str => xml2Json.toJson(str, { object: true }))
-        .then(data => handle(data))
+        .then(data => handle(data, 'ruminate'))
 
     const family = await fetch("https://wegot.family/feed.xml")
         .then(response => response.text())
         .then(str => xml2Json.toJson(str, { object: true }))
-        .then(data => handle(data))
+        .then(data => handle(data, 'family'))
 
     const data = [
         family,
