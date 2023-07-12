@@ -17,6 +17,10 @@ eleventyComputed:
 <p><a href="https://letterboxd.com/rknightuk/">On Letterboxd</a> &bull; <a href="https://rknight.me/no-more-ratings/">No More Ratings</a></p>
 {% endif %}
 
+</div>
+
 {%- for post in micro.tagMap[tag] %}
-    {% include 'micropost.njk' %}
+     <div class="box">
+      {% include 'micropost.njk' %}
+    </div>
 {% endfor %}
