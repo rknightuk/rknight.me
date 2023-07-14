@@ -1,30 +1,101 @@
-const PLATFORMS = [
-    { "name": "PS5", "key": "ps5", "color": "#003791" },
-    { "name": "PS4", "key": "ps4", "color": "#003791" },
-    { "name": "PS3", "key": "ps3", "color": "#003791" },
-    { "name": "PS2", "key": "ps2", "color": "#003791" },
-    { "name": "PS1", "key": "ps1" },
-    { "name": "Xbox One", "key": "xbox", "color": "#107C10" },
-    { "name": "Xbox 360", "key": "xbox", "color": "#107C10" },
-    { "name": "Xbox", "key": "xbox", "color": "#107C10" },
-    { "name": "Switch", "key": "switch", "color": "#e60012" },
-    { "name": "Wii", "key": "wii", "color": "#8B8B8B" },
-    { "name": "3DS", "key": "3ds", "color": "#D12228" },
-    { "name": "GameCube", "key": "gamecube", "color": "#6A5FBB" },
-    { "name": "N64", "key": "n64", "color": "" },
-    { "name": "Master System", "key": "sega", "color": "#0089CF" },
-]
-const GAMES = {
+{
+  "platforms": [
+    {
+      "name": "PS5",
+      "key": "ps5",
+      "color": "#003791"
+    },
+    {
+      "name": "PS4",
+      "key": "ps4",
+      "color": "#003791"
+    },
+    {
+      "name": "PS3",
+      "key": "ps3",
+      "color": "#003791"
+    },
+    {
+      "name": "PS2",
+      "key": "ps2",
+      "color": "#003791"
+    },
+    {
+      "name": "PS1",
+      "key": "ps1"
+    },
+    {
+      "name": "Xbox One",
+      "key": "xbox",
+      "color": "#107C10"
+    },
+    {
+      "name": "Xbox 360",
+      "key": "xbox",
+      "color": "#107C10"
+    },
+    {
+      "name": "Xbox",
+      "key": "xbox",
+      "color": "#107C10"
+    },
+    {
+      "name": "Switch",
+      "key": "switch",
+      "color": "#e60012"
+    },
+    {
+      "name": "Wii",
+      "key": "wii",
+      "color": "#8B8B8B"
+    },
+    {
+      "name": "3DS",
+      "key": "3ds",
+      "color": "#D12228"
+    },
+    {
+      "name": "GameCube",
+      "key": "gamecube",
+      "color": "#6A5FBB"
+    },
+    {
+      "name": "N64",
+      "key": "n64",
+      "color": ""
+    },
+    {
+      "name": "Master System",
+      "key": "sega",
+      "color": "#0089CF"
+    }
+  ],
+  "games": {
     "PS2": [
+      {
+        "gameID": 5869,
+        "platformID": 11,
+        "title": "Airblade"
+      },
       {
         "gameID": 23444,
         "platformID": 11,
         "title": "Atari Anthology"
       },
       {
-        "gameID": 5869,
+        "gameID": 17930,
         "platformID": 11,
-        "title": "Airblade"
+        "title": "Batman: Rise of Sin Tzu"
+      },
+      {
+        "gameID": 68081,
+        "platformID": 11,
+        "title": "Buzz! Brain of the UK"
+      },
+      {
+        "gameID": 18389,
+        "platformID": 11,
+        "title": "Buzz! Pop Quiz"
       },
       {
         "gameID": 9640,
@@ -32,24 +103,19 @@ const GAMES = {
         "title": "Buzz! The BIG Quiz"
       },
       {
-        "gameID": 9650,
+        "gameID": 27516,
         "platformID": 11,
-        "title": "Dave Mirra Freestyle BMX 2"
+        "title": "Buzz! The Hollywood Quiz"
       },
       {
-        "gameID": 4920,
+        "gameID": 28233,
         "platformID": 11,
-        "title": "EyeToy: Play"
+        "title": "Buzz! The Mega Quiz"
       },
       {
-        "gameID": 73235,
+        "gameID": 9639,
         "platformID": 11,
-        "title": "Eyetoy Play 2"
-      },
-      {
-        "gameID": 17930,
-        "platformID": 11,
-        "title": "Batman: Rise of Sin Tzu"
+        "title": "Buzz! The Music Quiz"
       },
       {
         "gameID": 34884,
@@ -62,34 +128,24 @@ const GAMES = {
         "title": "Crazy Taxi"
       },
       {
+        "gameID": 9650,
+        "platformID": 11,
+        "title": "Dave Mirra Freestyle BMX 2"
+      },
+      {
         "gameID": 22561,
         "platformID": 11,
         "title": "Disney's Extreme Skate Adventure"
       },
       {
-        "gameID": 68081,
+        "gameID": 4920,
         "platformID": 11,
-        "title": "Buzz! Brain of the UK"
+        "title": "EyeToy: Play"
       },
       {
-        "gameID": 9639,
+        "gameID": 73235,
         "platformID": 11,
-        "title": "Buzz! The Music Quiz"
-      },
-      {
-        "gameID": 18389,
-        "platformID": 11,
-        "title": "Buzz! Pop Quiz"
-      },
-      {
-        "gameID": 27516,
-        "platformID": 11,
-        "title": "Buzz! The Hollywood Quiz"
-      },
-      {
-        "gameID": 28233,
-        "platformID": 11,
-        "title": "Buzz! The Mega Quiz"
+        "title": "Eyetoy Play 2"
       },
       {
         "gameID": 7256,
@@ -132,9 +188,9 @@ const GAMES = {
         "title": "Grand Theft Auto III"
       },
       {
-        "gameID": 4166,
+        "gameID": 7288,
         "platformID": 11,
-        "title": "Grand Theft Auto: Vice City"
+        "title": "Grand Theft Auto: Liberty City Stories"
       },
       {
         "gameID": 3930,
@@ -142,9 +198,9 @@ const GAMES = {
         "title": "Grand Theft Auto: San Andreas"
       },
       {
-        "gameID": 5381,
+        "gameID": 4166,
         "platformID": 11,
-        "title": "Iron Man"
+        "title": "Grand Theft Auto: Vice City"
       },
       {
         "gameID": 7289,
@@ -152,14 +208,24 @@ const GAMES = {
         "title": "Grand Theft Auto: Vice City Stories"
       },
       {
-        "gameID": 7288,
-        "platformID": 11,
-        "title": "Grand Theft Auto: Liberty City Stories"
-      },
-      {
         "gameID": 7189,
         "platformID": 11,
         "title": "Guitar Hero"
+      },
+      {
+        "gameID": 15178,
+        "platformID": 11,
+        "title": "Guitar Hero 5"
+      },
+      {
+        "gameID": 19749,
+        "platformID": 11,
+        "title": "Guitar Hero Encore: Rocks the 80s"
+      },
+      {
+        "gameID": 7187,
+        "platformID": 11,
+        "title": "Guitar Hero II"
       },
       {
         "gameID": 7290,
@@ -167,9 +233,9 @@ const GAMES = {
         "title": "Guitar Hero III: Legends of Rock"
       },
       {
-        "gameID": 19749,
+        "gameID": 7188,
         "platformID": 11,
-        "title": "Guitar Hero Encore: Rocks the 80s"
+        "title": "Guitar Hero: World Tour"
       },
       {
         "gameID": 7972,
@@ -182,39 +248,19 @@ const GAMES = {
         "title": "Hot Wheels: Stunt Track Challenge"
       },
       {
-        "gameID": 4877,
+        "gameID": 5381,
         "platformID": 11,
-        "title": "The Incredible Hulk: Ultimate Destruction"
-      },
-      {
-        "gameID": 4865,
-        "platformID": 11,
-        "title": "Jak and Daxter: The Precursor Legacy"
-      },
-      {
-        "gameID": 7187,
-        "platformID": 11,
-        "title": "Guitar Hero II"
-      },
-      {
-        "gameID": 15178,
-        "platformID": 11,
-        "title": "Guitar Hero 5"
-      },
-      {
-        "gameID": 7188,
-        "platformID": 11,
-        "title": "Guitar Hero: World Tour"
-      },
-      {
-        "gameID": 4867,
-        "platformID": 11,
-        "title": "Jak II"
+        "title": "Iron Man"
       },
       {
         "gameID": 4872,
         "platformID": 11,
         "title": "Jak 3"
+      },
+      {
+        "gameID": 4867,
+        "platformID": 11,
+        "title": "Jak II"
       },
       {
         "gameID": 9720,
@@ -227,29 +273,9 @@ const GAMES = {
         "title": "Jak and Daxter: The Lost Frontier"
       },
       {
-        "gameID": 4840,
+        "gameID": 4865,
         "platformID": 11,
-        "title": "LEGO Star Wars: The Video Game"
-      },
-      {
-        "gameID": 4845,
-        "platformID": 11,
-        "title": "LEGO Star Wars II: The Original Trilogy"
-      },
-      {
-        "gameID": 15763,
-        "platformID": 11,
-        "title": "Lemmings"
-      },
-      {
-        "gameID": 4572,
-        "platformID": 11,
-        "title": "The Matrix: Path of Neo"
-      },
-      {
-        "gameID": 4170,
-        "platformID": 11,
-        "title": "Max Payne"
+        "title": "Jak and Daxter: The Precursor Legacy"
       },
       {
         "gameID": 10831,
@@ -257,9 +283,29 @@ const GAMES = {
         "title": "LEGO Indiana Jones: The Original Adventures"
       },
       {
+        "gameID": 4845,
+        "platformID": 11,
+        "title": "LEGO Star Wars II: The Original Trilogy"
+      },
+      {
+        "gameID": 4840,
+        "platformID": 11,
+        "title": "LEGO Star Wars: The Video Game"
+      },
+      {
+        "gameID": 15763,
+        "platformID": 11,
+        "title": "Lemmings"
+      },
+      {
         "gameID": 61935,
         "platformID": 11,
         "title": "London Racer II"
+      },
+      {
+        "gameID": 15790,
+        "platformID": 11,
+        "title": "MX Rider"
       },
       {
         "gameID": 43190,
@@ -267,9 +313,9 @@ const GAMES = {
         "title": "Mashed: Fully Loaded"
       },
       {
-        "gameID": 7797,
+        "gameID": 4170,
         "platformID": 11,
-        "title": "Ratchet & Clank"
+        "title": "Max Payne"
       },
       {
         "gameID": 28315,
@@ -287,9 +333,9 @@ const GAMES = {
         "title": "Mortal Kombat: Deadly Alliance"
       },
       {
-        "gameID": 15790,
+        "gameID": 7797,
         "platformID": 11,
-        "title": "MX Rider"
+        "title": "Ratchet & Clank"
       },
       {
         "gameID": 7797,
@@ -297,9 +343,24 @@ const GAMES = {
         "title": "Ratchet & Clank"
       },
       {
+        "gameID": 70957,
+        "platformID": 11,
+        "title": "Ratchet & Clank 2"
+      },
+      {
+        "gameID": 3940,
+        "platformID": 11,
+        "title": "Ratchet & Clank 3"
+      },
+      {
         "gameID": 13384,
         "platformID": 11,
         "title": "Ratchet & Clank: Size Matters"
+      },
+      {
+        "gameID": 37165,
+        "platformID": 11,
+        "title": "Ratchet: Gladiator"
       },
       {
         "gameID": 32257,
@@ -315,21 +376,6 @@ const GAMES = {
         "gameID": 39465,
         "platformID": 11,
         "title": "Rumble Racing"
-      },
-      {
-        "gameID": 70957,
-        "platformID": 11,
-        "title": "Ratchet & Clank 2"
-      },
-      {
-        "gameID": 3940,
-        "platformID": 11,
-        "title": "Ratchet & Clank 3"
-      },
-      {
-        "gameID": 37165,
-        "platformID": 11,
-        "title": "Ratchet: Gladiator"
       },
       {
         "gameID": 13385,
@@ -352,31 +398,6 @@ const GAMES = {
         "title": "Shadow of Memories"
       },
       {
-        "gameID": 16548,
-        "platformID": 11,
-        "title": "The Simpsons Game"
-      },
-      {
-        "gameID": 5420,
-        "platformID": 11,
-        "title": "The Simpsons: Hit & Run"
-      },
-      {
-        "gameID": 5421,
-        "platformID": 11,
-        "title": "The Simpsons: Road Rage"
-      },
-      {
-        "gameID": 4776,
-        "platformID": 11,
-        "title": "The Simpsons Skateboarding"
-      },
-      {
-        "gameID": 20111,
-        "platformID": 11,
-        "title": "Singstar Rocks!"
-      },
-      {
         "gameID": 20116,
         "platformID": 11,
         "title": "SingStar '80s"
@@ -387,9 +408,9 @@ const GAMES = {
         "title": "SingStar '90s"
       },
       {
-        "gameID": 28332,
+        "gameID": 28330,
         "platformID": 11,
-        "title": "Singstar: Boybands vs. Girlbands"
+        "title": "SingStar Anthems"
       },
       {
         "gameID": 20113,
@@ -402,9 +423,9 @@ const GAMES = {
         "title": "SingStar Party"
       },
       {
-        "gameID": 28330,
+        "gameID": 16592,
         "platformID": 11,
-        "title": "SingStar Anthems"
+        "title": "SingStar Queen"
       },
       {
         "gameID": 16587,
@@ -417,24 +438,24 @@ const GAMES = {
         "title": "Singstar Pop Hits"
       },
       {
-        "gameID": 16592,
+        "gameID": 20111,
         "platformID": 11,
-        "title": "SingStar Queen"
+        "title": "Singstar Rocks!"
       },
       {
-        "gameID": 23489,
+        "gameID": 28332,
         "platformID": 11,
-        "title": "Sonic Gems Collection"
-      },
-      {
-        "gameID": 4778,
-        "platformID": 11,
-        "title": "Spider-Man 2"
+        "title": "Singstar: Boybands vs. Girlbands"
       },
       {
         "gameID": 9817,
         "platformID": 11,
         "title": "Smuggler's Run"
+      },
+      {
+        "gameID": 23489,
+        "platformID": 11,
+        "title": "Sonic Gems Collection"
       },
       {
         "gameID": 19762,
@@ -447,14 +468,19 @@ const GAMES = {
         "title": "Space Invaders Anniversary"
       },
       {
-        "gameID": 4777,
+        "gameID": 4778,
         "platformID": 11,
-        "title": "Spider-Man: The Movie"
+        "title": "Spider-Man 2"
       },
       {
         "gameID": 5368,
         "platformID": 11,
         "title": "Spider-Man 3"
+      },
+      {
+        "gameID": 4777,
+        "platformID": 11,
+        "title": "Spider-Man: The Movie"
       },
       {
         "gameID": 24719,
@@ -477,6 +503,36 @@ const GAMES = {
         "title": "Swing Away Golf"
       },
       {
+        "gameID": 4877,
+        "platformID": 11,
+        "title": "The Incredible Hulk: Ultimate Destruction"
+      },
+      {
+        "gameID": 4572,
+        "platformID": 11,
+        "title": "The Matrix: Path of Neo"
+      },
+      {
+        "gameID": 16548,
+        "platformID": 11,
+        "title": "The Simpsons Game"
+      },
+      {
+        "gameID": 4776,
+        "platformID": 11,
+        "title": "The Simpsons Skateboarding"
+      },
+      {
+        "gameID": 5420,
+        "platformID": 11,
+        "title": "The Simpsons: Hit & Run"
+      },
+      {
+        "gameID": 5421,
+        "platformID": 11,
+        "title": "The Simpsons: Road Rage"
+      },
+      {
         "gameID": 9232,
         "platformID": 11,
         "title": "TimeSplitters"
@@ -492,6 +548,51 @@ const GAMES = {
         "title": "TimeSplitters: Future Perfect"
       },
       {
+        "gameID": 4773,
+        "platformID": 11,
+        "title": "Tony Hawk's American Wasteland"
+      },
+      {
+        "gameID": 37273,
+        "platformID": 11,
+        "title": "Tony Hawk's Downhill Jam"
+      },
+      {
+        "gameID": 4772,
+        "platformID": 11,
+        "title": "Tony Hawk's Pro Skater 3"
+      },
+      {
+        "gameID": 9743,
+        "platformID": 11,
+        "title": "Tony Hawk's Pro Skater 4"
+      },
+      {
+        "gameID": 14092,
+        "platformID": 11,
+        "title": "Tony Hawk's Project 8"
+      },
+      {
+        "gameID": 15489,
+        "platformID": 11,
+        "title": "Tony Hawk's Proving Ground"
+      },
+      {
+        "gameID": 4774,
+        "platformID": 11,
+        "title": "Tony Hawk's Underground"
+      },
+      {
+        "gameID": 9309,
+        "platformID": 11,
+        "title": "Tony Hawk's Underground 2"
+      },
+      {
+        "gameID": 4770,
+        "platformID": 11,
+        "title": "Ultimate Spider-Man"
+      },
+      {
         "gameID": 28379,
         "platformID": 11,
         "title": "Who Wants to be a Millionaire: Party Edition"
@@ -500,68 +601,48 @@ const GAMES = {
         "gameID": 66216,
         "platformID": 11,
         "title": "World Snooker Championship 2005"
-      },
-      {
-        "gameID": 4770,
-        "platformID": 11,
-        "title": "Ultimate Spider-Man"
-      },
-      {
-        "gameID": 14092,
-        "platformID": 11,
-        "title": "Tony Hawk's Project 8"
-      },
-      {
-        "gameID": 4772,
-        "platformID": 11,
-        "title": "Tony Hawk's Pro Skater 3"
-      },
-      {
-        "gameID": 9309,
-        "platformID": 11,
-        "title": "Tony Hawk's Underground 2"
-      },
-      {
-        "gameID": 15489,
-        "platformID": 11,
-        "title": "Tony Hawk's Proving Ground"
-      },
-      {
-        "gameID": 4773,
-        "platformID": 11,
-        "title": "Tony Hawk's American Wasteland"
-      },
-      {
-        "gameID": 9743,
-        "platformID": 11,
-        "title": "Tony Hawk's Pro Skater 4"
-      },
-      {
-        "gameID": 37273,
-        "platformID": 11,
-        "title": "Tony Hawk's Downhill Jam"
-      },
-      {
-        "gameID": 4774,
-        "platformID": 11,
-        "title": "Tony Hawk's Underground"
       }
     ],
     "PS5": [
       {
-        "gameID": 73752,
+        "gameID": 92522,
         "platformID": 4980,
-        "title": "Sackboy: A Big Adventure"
+        "title": "Alan Wake Remastered"
       },
       {
-        "gameID": 73917,
+        "gameID": 73721,
         "platformID": 4980,
-        "title": "Marvel's Spider-Man: Miles Morales [Launch Edition]"
+        "title": "Deathloop"
+      },
+      {
+        "gameID": 97933,
+        "platformID": 4980,
+        "title": "Horizon II: Forbidden West [Special Edition]"
+      },
+      {
+        "gameID": 92653,
+        "platformID": 4980,
+        "title": "Hot Wheels Unleashed"
       },
       {
         "gameID": 77471,
         "platformID": 4980,
         "title": "Immortals Fenyx Rising"
+      },
+      {
+        "gameID": 101298,
+        "platformID": 4980,
+        "title": "Last of Us Part I [Firefly Edition]"
+      },
+      {
+        "gameID": 87596,
+        "platformID": 4980,
+        "title": "Marvel's Guardians of the Galaxy"
+      },
+      {
+        "gameID": 73917,
+        "platformID": 4980,
+        "title": "Marvel's Spider-Man: Miles Morales [Launch Edition]"
       },
       {
         "gameID": 79393,
@@ -574,76 +655,21 @@ const GAMES = {
         "title": "Ratchet & Clank: Rift Apart"
       },
       {
-        "gameID": 73721,
+        "gameID": 73752,
         "platformID": 4980,
-        "title": "Deathloop"
-      },
-      {
-        "gameID": 92653,
-        "platformID": 4980,
-        "title": "Hot Wheels Unleashed"
-      },
-      {
-        "gameID": 97933,
-        "platformID": 4980,
-        "title": "Horizon II: Forbidden West [Special Edition]"
+        "title": "Sackboy: A Big Adventure"
       },
       {
         "gameID": 100122,
         "platformID": 4980,
         "title": "Sifu [Vengeance Edition]"
-      },
-      {
-        "gameID": 92522,
-        "platformID": 4980,
-        "title": "Alan Wake Remastered"
-      },
-      {
-        "gameID": 87596,
-        "platformID": 4980,
-        "title": "Marvel's Guardians of the Galaxy"
-      },
-      {
-        "gameID": 101298,
-        "platformID": 4980,
-        "title": "Last of Us Part I [Firefly Edition]"
       }
     ],
     "N64": [
       {
-        "gameID": 173,
-        "platformID": 3,
-        "title": "Perfect Dark"
-      },
-      {
         "gameID": 178,
         "platformID": 3,
         "title": "Diddy Kong Racing"
-      },
-      {
-        "gameID": 161,
-        "platformID": 3,
-        "title": "The Legend of Zelda: Ocarina of Time"
-      },
-      {
-        "gameID": 390,
-        "platformID": 3,
-        "title": "Pokémon Snap"
-      },
-      {
-        "gameID": 1230,
-        "platformID": 3,
-        "title": "V-Rally Edition '99"
-      },
-      {
-        "gameID": 266,
-        "platformID": 3,
-        "title": "Mario Kart 64"
-      },
-      {
-        "gameID": 1150,
-        "platformID": 3,
-        "title": "MRC: Multi-Racing Championship"
       },
       {
         "gameID": 1100,
@@ -651,14 +677,44 @@ const GAMES = {
         "title": "F-1 World Grand Prix"
       },
       {
+        "gameID": 1102,
+        "platformID": 3,
+        "title": "FIFA: Road to World Cup 98"
+      },
+      {
         "gameID": 160,
         "platformID": 3,
         "title": "GoldenEye 007"
       },
       {
-        "gameID": 1102,
+        "gameID": 1150,
         "platformID": 3,
-        "title": "FIFA: Road to World Cup 98"
+        "title": "MRC: Multi-Racing Championship"
+      },
+      {
+        "gameID": 266,
+        "platformID": 3,
+        "title": "Mario Kart 64"
+      },
+      {
+        "gameID": 173,
+        "platformID": 3,
+        "title": "Perfect Dark"
+      },
+      {
+        "gameID": 390,
+        "platformID": 3,
+        "title": "Pokémon Snap"
+      },
+      {
+        "gameID": 161,
+        "platformID": 3,
+        "title": "The Legend of Zelda: Ocarina of Time"
+      },
+      {
+        "gameID": 1230,
+        "platformID": 3,
+        "title": "V-Rally Edition '99"
       }
     ],
     "3DS": [
@@ -673,6 +729,11 @@ const GAMES = {
         "title": "Code Name: S.T.E.A.M."
       },
       {
+        "gameID": 12733,
+        "platformID": 4912,
+        "title": "Mario Kart 7"
+      },
+      {
         "gameID": 42663,
         "platformID": 4912,
         "title": "Poochy & Yoshi's Woolly World"
@@ -681,35 +742,30 @@ const GAMES = {
         "gameID": 65193,
         "platformID": 4912,
         "title": "The Legend of Zelda: Ocarina of Time 3D [Nintendo Selects]"
-      },
-      {
-        "gameID": 12733,
-        "platformID": 4912,
-        "title": "Mario Kart 7"
       }
     ],
     "GameCube": [
       {
-        "gameID": 64119,
-        "platformID": 2,
-        "title": "Mario Kart: Double Dash!! Includes Bonus Disc With Playable Demos"
-      },
-      {
         "gameID": 166,
         "platformID": 2,
         "title": "Mario Kart: Double Dash!!"
+      },
+      {
+        "gameID": 64119,
+        "platformID": 2,
+        "title": "Mario Kart: Double Dash!! Includes Bonus Disc With Playable Demos"
       }
     ],
     "Xbox": [
       {
-        "gameID": 10395,
-        "platformID": 14,
-        "title": "Oddworld: Munch's Oddysee"
-      },
-      {
         "gameID": 6076,
         "platformID": 14,
         "title": "Grand Theft Auto: San Andreas"
+      },
+      {
+        "gameID": 10395,
+        "platformID": 14,
+        "title": "Oddworld: Munch's Oddysee"
       }
     ],
     "Master System": [
@@ -744,6 +800,11 @@ const GAMES = {
         "title": "Desert Speedtrap starring Road Runner and Wile E. Coyote"
       },
       {
+        "gameID": 2803,
+        "platformID": 35,
+        "title": "GP Rider"
+      },
+      {
         "gameID": 2795,
         "platformID": 35,
         "title": "Ghouls'n Ghosts"
@@ -754,9 +815,9 @@ const GAMES = {
         "title": "Mick & Mack: Global Gladiators"
       },
       {
-        "gameID": 2803,
+        "gameID": 2926,
         "platformID": 35,
-        "title": "GP Rider"
+        "title": "Mortal Kombat"
       },
       {
         "gameID": 3076,
@@ -777,11 +838,6 @@ const GAMES = {
         "gameID": 3104,
         "platformID": 35,
         "title": "Winter Olympics: Lillehammer '94"
-      },
-      {
-        "gameID": 2926,
-        "platformID": 35,
-        "title": "Mortal Kombat"
       }
     ],
     "PS1": [
@@ -796,16 +852,6 @@ const GAMES = {
         "title": "Mat Hoffman's Pro BMX"
       },
       {
-        "gameID": 619,
-        "platformID": 10,
-        "title": "Tomb Raider II - Starring Lara Croft"
-      },
-      {
-        "gameID": 10775,
-        "platformID": 10,
-        "title": "Tomb Raider Chronicles"
-      },
-      {
         "gameID": 2420,
         "platformID": 10,
         "title": "Oddworld: Abe's Oddysee"
@@ -816,14 +862,14 @@ const GAMES = {
         "title": "Tomb Raider"
       },
       {
-        "gameID": 11668,
+        "gameID": 10775,
         "platformID": 10,
-        "title": "Tony Hawk's Pro Skater 4"
+        "title": "Tomb Raider Chronicles"
       },
       {
-        "gameID": 11667,
+        "gameID": 619,
         "platformID": 10,
-        "title": "Tony Hawk's Pro Skater 3"
+        "title": "Tomb Raider II - Starring Lara Croft"
       },
       {
         "gameID": 4177,
@@ -834,6 +880,16 @@ const GAMES = {
         "gameID": 9353,
         "platformID": 10,
         "title": "Tony Hawk's Pro Skater 2"
+      },
+      {
+        "gameID": 11667,
+        "platformID": 10,
+        "title": "Tony Hawk's Pro Skater 3"
+      },
+      {
+        "gameID": 11668,
+        "platformID": 10,
+        "title": "Tony Hawk's Pro Skater 4"
       }
     ],
     "Wii": [
@@ -848,21 +904,6 @@ const GAMES = {
         "title": "Carnival Games"
       },
       {
-        "gameID": 8080,
-        "platformID": 9,
-        "title": "The Legend of Zelda: Skyward Sword"
-      },
-      {
-        "gameID": 109,
-        "platformID": 9,
-        "title": "The Legend of Zelda: Twilight Princess"
-      },
-      {
-        "gameID": 7659,
-        "platformID": 9,
-        "title": "Mario Strikers Charged"
-      },
-      {
         "gameID": 18432,
         "platformID": 9,
         "title": "Carnival Games: Mini-Golf"
@@ -871,6 +912,11 @@ const GAMES = {
         "gameID": 3466,
         "platformID": 9,
         "title": "Game Party"
+      },
+      {
+        "gameID": 3299,
+        "platformID": 9,
+        "title": "GoldenEye 007"
       },
       {
         "gameID": 2248,
@@ -883,9 +929,24 @@ const GAMES = {
         "title": "Mario & Sonic at the Olympic Games"
       },
       {
+        "gameID": 169,
+        "platformID": 9,
+        "title": "Mario Kart Wii"
+      },
+      {
+        "gameID": 7659,
+        "platformID": 9,
+        "title": "Mario Strikers Charged"
+      },
+      {
         "gameID": 44577,
         "platformID": 9,
         "title": "My Fitness Coach: Get In Shape"
+      },
+      {
+        "gameID": 170,
+        "platformID": 9,
+        "title": "New Super Mario Bros. Wii"
       },
       {
         "gameID": 5345,
@@ -898,24 +959,34 @@ const GAMES = {
         "title": "Red Steel 2"
       },
       {
-        "gameID": 170,
+        "gameID": 64855,
         "platformID": 9,
-        "title": "New Super Mario Bros. Wii"
+        "title": "Super Mario All-Stars [Nintendo Selects]"
       },
       {
-        "gameID": 169,
+        "gameID": 8080,
         "platformID": 9,
-        "title": "Mario Kart Wii"
+        "title": "The Legend of Zelda: Skyward Sword"
       },
       {
-        "gameID": 3299,
+        "gameID": 109,
         "platformID": 9,
-        "title": "GoldenEye 007"
+        "title": "The Legend of Zelda: Twilight Princess"
       },
       {
         "gameID": 7736,
         "platformID": 9,
         "title": "Tony Hawk's Downhill Jam"
+      },
+      {
+        "gameID": 25857,
+        "platformID": 9,
+        "title": "Tony Hawk: Ride"
+      },
+      {
+        "gameID": 14859,
+        "platformID": 9,
+        "title": "Tony Hawk: Shred"
       },
       {
         "gameID": 3257,
@@ -928,24 +999,9 @@ const GAMES = {
         "title": "Wii Play"
       },
       {
-        "gameID": 64855,
-        "platformID": 9,
-        "title": "Super Mario All-Stars [Nintendo Selects]"
-      },
-      {
-        "gameID": 25857,
-        "platformID": 9,
-        "title": "Tony Hawk: Ride"
-      },
-      {
         "gameID": 3194,
         "platformID": 9,
         "title": "Wii Sports Resort"
-      },
-      {
-        "gameID": 14859,
-        "platformID": 9,
-        "title": "Tony Hawk: Shred"
       },
       {
         "gameID": 76992,
@@ -955,9 +1011,9 @@ const GAMES = {
     ],
     "PS4": [
       {
-        "gameID": 78820,
-        "platformID": 4919,
-        "title": "John Wick Hex"
+        "gameID": 53669,
+        "platformID": 4980,
+        "title": "A Hat in Time"
       },
       {
         "gameID": 114853,
@@ -975,14 +1031,24 @@ const GAMES = {
         "title": "Detroit: Become Human"
       },
       {
-        "gameID": 53669,
-        "platformID": 4980,
-        "title": "A Hat in Time"
+        "gameID": 52805,
+        "platformID": 4919,
+        "title": "God of War"
       },
       {
         "gameID": 20954,
         "platformID": 4919,
         "title": "Grand Theft Auto V"
+      },
+      {
+        "gameID": 43221,
+        "platformID": 4919,
+        "title": "Horizon Zero Dawn Collector's Edition"
+      },
+      {
+        "gameID": 78820,
+        "platformID": 4919,
+        "title": "John Wick Hex"
       },
       {
         "gameID": 23993,
@@ -1010,24 +1076,29 @@ const GAMES = {
         "title": "LEGO Star Wars: The Force Awakens"
       },
       {
-        "gameID": 52796,
+        "gameID": 69686,
         "platformID": 4919,
-        "title": "Shadow of the Colossus"
+        "title": "Last of Us Part II [Collector’s Edition]"
       },
       {
-        "gameID": 67615,
+        "gameID": 35162,
         "platformID": 4919,
-        "title": "Shadow of the Tomb Raider Definitive Edition"
+        "title": "Life is Strange - Limited Edition"
       },
       {
-        "gameID": 76868,
+        "gameID": 75692,
         "platformID": 4919,
-        "title": "Tony Hawk's Pro Skater 1 + 2"
+        "title": "Life is Strange: Before the Storm [Limited Edition] (EU)"
       },
       {
-        "gameID": 35301,
+        "gameID": 61067,
         "platformID": 4919,
-        "title": "Uncharted 4: A Thief's End Libertalia Collector's Edition"
+        "title": "Marvel's Spider-Man [Collector's Edition]"
+      },
+      {
+        "gameID": 67500,
+        "platformID": 4919,
+        "title": "Monkey King: Hero is Back"
       },
       {
         "gameID": 41187,
@@ -1040,59 +1111,9 @@ const GAMES = {
         "title": "Ratchet & Clank"
       },
       {
-        "gameID": 48363,
-        "platformID": 4919,
-        "title": "Uncharted: The Lost Legacy"
-      },
-      {
-        "gameID": 68992,
-        "platformID": 4919,
-        "title": "Untitled Goose Game"
-      },
-      {
         "gameID": 55247,
         "platformID": 4919,
         "title": "Red Dead Redemption 2"
-      },
-      {
-        "gameID": 21182,
-        "platformID": 4919,
-        "title": "The Last of Us Remastered"
-      },
-      {
-        "gameID": 75692,
-        "platformID": 4919,
-        "title": "Life is Strange: Before the Storm [Limited Edition] (EU)"
-      },
-      {
-        "gameID": 31758,
-        "platformID": 4919,
-        "title": "Uncharted: The Nathan Drake Collection"
-      },
-      {
-        "gameID": 35162,
-        "platformID": 4919,
-        "title": "Life is Strange - Limited Edition"
-      },
-      {
-        "gameID": 52805,
-        "platformID": 4919,
-        "title": "God of War"
-      },
-      {
-        "gameID": 43221,
-        "platformID": 4919,
-        "title": "Horizon Zero Dawn Collector's Edition"
-      },
-      {
-        "gameID": 61067,
-        "platformID": 4919,
-        "title": "Marvel's Spider-Man [Collector's Edition]"
-      },
-      {
-        "gameID": 69686,
-        "platformID": 4919,
-        "title": "Last of Us Part II [Collector’s Edition]"
       },
       {
         "gameID": 70831,
@@ -1100,36 +1121,56 @@ const GAMES = {
         "title": "Sayonara Wild Hearts"
       },
       {
-        "gameID": 67500,
+        "gameID": 52796,
         "platformID": 4919,
-        "title": "Monkey King: Hero is Back"
+        "title": "Shadow of the Colossus"
+      },
+      {
+        "gameID": 67615,
+        "platformID": 4919,
+        "title": "Shadow of the Tomb Raider Definitive Edition"
       },
       {
         "gameID": 63395,
         "platformID": 4919,
         "title": "Starlink: Battle for Atlas (Starter Pack)"
+      },
+      {
+        "gameID": 21182,
+        "platformID": 4919,
+        "title": "The Last of Us Remastered"
+      },
+      {
+        "gameID": 76868,
+        "platformID": 4919,
+        "title": "Tony Hawk's Pro Skater 1 + 2"
+      },
+      {
+        "gameID": 35301,
+        "platformID": 4919,
+        "title": "Uncharted 4: A Thief's End Libertalia Collector's Edition"
+      },
+      {
+        "gameID": 48363,
+        "platformID": 4919,
+        "title": "Uncharted: The Lost Legacy"
+      },
+      {
+        "gameID": 31758,
+        "platformID": 4919,
+        "title": "Uncharted: The Nathan Drake Collection"
+      },
+      {
+        "gameID": 68992,
+        "platformID": 4919,
+        "title": "Untitled Goose Game"
       }
     ],
     "Xbox 360": [
       {
-        "gameID": 8913,
+        "gameID": 7139,
         "platformID": 15,
-        "title": "F1 2010"
-      },
-      {
-        "gameID": 10918,
-        "platformID": 15,
-        "title": "The Orange Box"
-      },
-      {
-        "gameID": 7579,
-        "platformID": 15,
-        "title": "skate."
-      },
-      {
-        "gameID": 12518,
-        "platformID": 15,
-        "title": "Far Cry 3"
+        "title": "Assassin's Creed"
       },
       {
         "gameID": 76297,
@@ -1137,19 +1178,9 @@ const GAMES = {
         "title": "Assassin's Creed : Brotherhood [Platinum Hits]"
       },
       {
-        "gameID": 17924,
+        "gameID": 2762,
         "platformID": 15,
-        "title": "Assassin's Creed IV: Black Flag"
-      },
-      {
-        "gameID": 7139,
-        "platformID": 15,
-        "title": "Assassin's Creed"
-      },
-      {
-        "gameID": 8854,
-        "platformID": 15,
-        "title": "Assassin's Creed: Revelations"
+        "title": "Assassin's Creed II"
       },
       {
         "gameID": 11954,
@@ -1157,19 +1188,29 @@ const GAMES = {
         "title": "Assassin's Creed III"
       },
       {
+        "gameID": 17924,
+        "platformID": 15,
+        "title": "Assassin's Creed IV: Black Flag"
+      },
+      {
         "gameID": 22485,
         "platformID": 15,
         "title": "Assassin's Creed Rogue"
       },
       {
-        "gameID": 2762,
+        "gameID": 8854,
         "platformID": 15,
-        "title": "Assassin's Creed II"
+        "title": "Assassin's Creed: Revelations"
       },
       {
         "gameID": 17412,
         "platformID": 15,
         "title": "Batman: Arkham Origins"
+      },
+      {
+        "gameID": 41824,
+        "platformID": 15,
+        "title": "Bulletstorm - Epic Edition"
       },
       {
         "gameID": 7153,
@@ -1187,24 +1228,9 @@ const GAMES = {
         "title": "Crackdown"
       },
       {
-        "gameID": 15561,
+        "gameID": 12062,
         "platformID": 15,
-        "title": "FIFA Street 3"
-      },
-      {
-        "gameID": 8862,
-        "platformID": 15,
-        "title": "Driver: San Francisco"
-      },
-      {
-        "gameID": 12516,
-        "platformID": 15,
-        "title": "Family Guy: Back to the Multiverse"
-      },
-      {
-        "gameID": 41824,
-        "platformID": 15,
-        "title": "Bulletstorm - Epic Edition"
+        "title": "Crackdown 2"
       },
       {
         "gameID": 9333,
@@ -1212,19 +1238,29 @@ const GAMES = {
         "title": "Deus Ex: Human Revolution"
       },
       {
-        "gameID": 12062,
+        "gameID": 8862,
         "platformID": 15,
-        "title": "Crackdown 2"
+        "title": "Driver: San Francisco"
       },
       {
-        "gameID": 24,
+        "gameID": 8913,
         "platformID": 15,
-        "title": "Gears of War 2 (PAL)"
+        "title": "F1 2010"
       },
       {
-        "gameID": 15490,
+        "gameID": 15561,
         "platformID": 15,
-        "title": "Gears of War: Judgment"
+        "title": "FIFA Street 3"
+      },
+      {
+        "gameID": 12516,
+        "platformID": 15,
+        "title": "Family Guy: Back to the Multiverse"
+      },
+      {
+        "gameID": 12518,
+        "platformID": 15,
+        "title": "Far Cry 3"
       },
       {
         "gameID": 7481,
@@ -1232,9 +1268,19 @@ const GAMES = {
         "title": "Gears of War"
       },
       {
+        "gameID": 24,
+        "platformID": 15,
+        "title": "Gears of War 2 (PAL)"
+      },
+      {
         "gameID": 935,
         "platformID": 15,
         "title": "Gears of War 3"
+      },
+      {
+        "gameID": 15490,
+        "platformID": 15,
+        "title": "Gears of War: Judgment"
       },
       {
         "gameID": 12699,
@@ -1252,14 +1298,34 @@ const GAMES = {
         "title": "L.A. Noire: The Complete Edition"
       },
       {
-        "gameID": 13091,
+        "gameID": 12565,
         "platformID": 15,
-        "title": "Lips"
+        "title": "LEGO Batman 2: DC Super Heroes"
       },
       {
-        "gameID": 13090,
+        "gameID": 7515,
         "platformID": 15,
-        "title": "Lips: Number One Hits"
+        "title": "LEGO Batman: The Videogame"
+      },
+      {
+        "gameID": 12800,
+        "platformID": 15,
+        "title": "LEGO Indiana Jones 2: The Adventure Continues"
+      },
+      {
+        "gameID": 13038,
+        "platformID": 15,
+        "title": "LEGO Indiana Jones: The Original Adventures"
+      },
+      {
+        "gameID": 13198,
+        "platformID": 15,
+        "title": "LEGO Pirates of the Caribbean: The Video Game"
+      },
+      {
+        "gameID": 12773,
+        "platformID": 15,
+        "title": "LEGO Star Wars III: The Clone Wars"
       },
       {
         "gameID": 13200,
@@ -1267,9 +1333,19 @@ const GAMES = {
         "title": "LEGO Star Wars: The Complete Saga"
       },
       {
-        "gameID": 7515,
+        "gameID": 13091,
         "platformID": 15,
-        "title": "LEGO Batman: The Videogame"
+        "title": "Lips"
+      },
+      {
+        "gameID": 13093,
+        "platformID": 15,
+        "title": "Lips: I Love the 80s"
+      },
+      {
+        "gameID": 13090,
+        "platformID": 15,
+        "title": "Lips: Number One Hits"
       },
       {
         "gameID": 13092,
@@ -1282,39 +1358,9 @@ const GAMES = {
         "title": "Max Payne 3"
       },
       {
-        "gameID": 13093,
+        "gameID": 65003,
         "platformID": 15,
-        "title": "Lips: I Love the 80s"
-      },
-      {
-        "gameID": 12565,
-        "platformID": 15,
-        "title": "LEGO Batman 2: DC Super Heroes"
-      },
-      {
-        "gameID": 13198,
-        "platformID": 15,
-        "title": "LEGO Pirates of the Caribbean: The Video Game"
-      },
-      {
-        "gameID": 13038,
-        "platformID": 15,
-        "title": "LEGO Indiana Jones: The Original Adventures"
-      },
-      {
-        "gameID": 12800,
-        "platformID": 15,
-        "title": "LEGO Indiana Jones 2: The Adventure Continues"
-      },
-      {
-        "gameID": 12773,
-        "platformID": 15,
-        "title": "LEGO Star Wars III: The Clone Wars"
-      },
-      {
-        "gameID": 12328,
-        "platformID": 15,
-        "title": "Saints Row: The Third"
+        "title": "Perfect Dark Zero (Limited Collector's Edition)"
       },
       {
         "gameID": 16306,
@@ -1327,9 +1373,9 @@ const GAMES = {
         "title": "Red Dead Redemption: Game of the Year Edition"
       },
       {
-        "gameID": 12637,
+        "gameID": 12523,
         "platformID": 15,
-        "title": "Saints Row 2"
+        "title": "SSX"
       },
       {
         "gameID": 7572,
@@ -1337,9 +1383,9 @@ const GAMES = {
         "title": "Saints Row"
       },
       {
-        "gameID": 65003,
+        "gameID": 12637,
         "platformID": 15,
-        "title": "Perfect Dark Zero (Limited Collector's Edition)"
+        "title": "Saints Row 2"
       },
       {
         "gameID": 17218,
@@ -1347,9 +1393,9 @@ const GAMES = {
         "title": "Saints Row IV"
       },
       {
-        "gameID": 8306,
+        "gameID": 12328,
         "platformID": 15,
-        "title": "Skate 3"
+        "title": "Saints Row: The Third"
       },
       {
         "gameID": 14789,
@@ -1357,14 +1403,24 @@ const GAMES = {
         "title": "Skate 2"
       },
       {
-        "gameID": 12523,
+        "gameID": 8306,
         "platformID": 15,
-        "title": "SSX"
+        "title": "Skate 3"
+      },
+      {
+        "gameID": 12843,
+        "platformID": 15,
+        "title": "Sonic & All-Stars Racing Transformed"
       },
       {
         "gameID": 7623,
         "platformID": 15,
         "title": "Stranglehold"
+      },
+      {
+        "gameID": 10918,
+        "platformID": 15,
+        "title": "The Orange Box"
       },
       {
         "gameID": 15784,
@@ -1377,14 +1433,14 @@ const GAMES = {
         "title": "Tony Hawk's Project 8"
       },
       {
-        "gameID": 12843,
-        "platformID": 15,
-        "title": "Sonic & All-Stars Racing Transformed"
-      },
-      {
         "gameID": 7694,
         "platformID": 15,
         "title": "Tony Hawk's Proving Ground"
+      },
+      {
+        "gameID": 7579,
+        "platformID": 15,
+        "title": "skate."
       }
     ],
     "PS3": [
@@ -1404,29 +1460,9 @@ const GAMES = {
         "title": "Bureau: XCOM Declassified"
       },
       {
-        "gameID": 6631,
+        "gameID": 8303,
         "platformID": 12,
-        "title": "Street Fighter IV"
-      },
-      {
-        "gameID": 10392,
-        "platformID": 12,
-        "title": "The Last of Us"
-      },
-      {
-        "gameID": 28552,
-        "platformID": 12,
-        "title": "Ratchet & Clank: Tools of Destruction"
-      },
-      {
-        "gameID": 46,
-        "platformID": 12,
-        "title": "Mirror's Edge"
-      },
-      {
-        "gameID": 12816,
-        "platformID": 12,
-        "title": "The Sly Collection"
+        "title": "Call of Duty: Modern Warfare 3"
       },
       {
         "gameID": 34237,
@@ -1434,54 +1470,9 @@ const GAMES = {
         "title": "Classics HD: The Ratchet & Clank Trilogy"
       },
       {
-        "gameID": 319,
+        "gameID": 15780,
         "platformID": 12,
-        "title": "Heavy Rain"
-      },
-      {
-        "gameID": 8303,
-        "platformID": 12,
-        "title": "Call of Duty: Modern Warfare 3"
-      },
-      {
-        "gameID": 31413,
-        "platformID": 12,
-        "title": "SEGA Mega Drive: Ultimate Collection"
-      },
-      {
-        "gameID": 12706,
-        "platformID": 12,
-        "title": "Need for Speed: Hot Pursuit"
-      },
-      {
-        "gameID": 11126,
-        "platformID": 12,
-        "title": "Ratchet & Clank: Full Frontal Assault"
-      },
-      {
-        "gameID": 13124,
-        "platformID": 12,
-        "title": "The Tomb Raider Trilogy"
-      },
-      {
-        "gameID": 13482,
-        "platformID": 12,
-        "title": "Ratchet & Clank: Quest For Booty"
-      },
-      {
-        "gameID": 6624,
-        "platformID": 12,
-        "title": "Prince of Persia"
-      },
-      {
-        "gameID": 20162,
-        "platformID": 12,
-        "title": "LEGO The Hobbit"
-      },
-      {
-        "gameID": 10967,
-        "platformID": 12,
-        "title": "ModNation Racers"
+        "title": "Gran Turismo 5 Prologue"
       },
       {
         "gameID": 31,
@@ -1489,19 +1480,9 @@ const GAMES = {
         "title": "Heavenly Sword"
       },
       {
-        "gameID": 18224,
+        "gameID": 319,
         "platformID": 12,
-        "title": "Ratchet & Clank: Into the Nexus"
-      },
-      {
-        "gameID": 42586,
-        "platformID": 12,
-        "title": "The Jak and Daxter Trilogy"
-      },
-      {
-        "gameID": 12716,
-        "platformID": 12,
-        "title": "Lost Planet 2"
+        "title": "Heavy Rain"
       },
       {
         "gameID": 36,
@@ -1509,9 +1490,9 @@ const GAMES = {
         "title": "Killzone 2"
       },
       {
-        "gameID": 15780,
+        "gameID": 20162,
         "platformID": 12,
-        "title": "Gran Turismo 5 Prologue"
+        "title": "LEGO The Hobbit"
       },
       {
         "gameID": 28550,
@@ -1519,31 +1500,101 @@ const GAMES = {
         "title": "Little Big Planet"
       },
       {
+        "gameID": 12716,
+        "platformID": 12,
+        "title": "Lost Planet 2"
+      },
+      {
+        "gameID": 46,
+        "platformID": 12,
+        "title": "Mirror's Edge"
+      },
+      {
+        "gameID": 10967,
+        "platformID": 12,
+        "title": "ModNation Racers"
+      },
+      {
+        "gameID": 12706,
+        "platformID": 12,
+        "title": "Need for Speed: Hot Pursuit"
+      },
+      {
+        "gameID": 6624,
+        "platformID": 12,
+        "title": "Prince of Persia"
+      },
+      {
         "gameID": 6626,
         "platformID": 12,
         "title": "Ratchet & Clank Future: A Crack in Time"
       },
       {
-        "gameID": 62644,
+        "gameID": 11126,
         "platformID": 12,
-        "title": "Uncharted 3: Drake's Deception (Special Edition)"
+        "title": "Ratchet & Clank: Full Frontal Assault"
+      },
+      {
+        "gameID": 18224,
+        "platformID": 12,
+        "title": "Ratchet & Clank: Into the Nexus"
+      },
+      {
+        "gameID": 13482,
+        "platformID": 12,
+        "title": "Ratchet & Clank: Quest For Booty"
+      },
+      {
+        "gameID": 28552,
+        "platformID": 12,
+        "title": "Ratchet & Clank: Tools of Destruction"
+      },
+      {
+        "gameID": 31413,
+        "platformID": 12,
+        "title": "SEGA Mega Drive: Ultimate Collection"
+      },
+      {
+        "gameID": 6631,
+        "platformID": 12,
+        "title": "Street Fighter IV"
+      },
+      {
+        "gameID": 42586,
+        "platformID": 12,
+        "title": "The Jak and Daxter Trilogy"
+      },
+      {
+        "gameID": 10392,
+        "platformID": 12,
+        "title": "The Last of Us"
+      },
+      {
+        "gameID": 12816,
+        "platformID": 12,
+        "title": "The Sly Collection"
+      },
+      {
+        "gameID": 13124,
+        "platformID": 12,
+        "title": "The Tomb Raider Trilogy"
       },
       {
         "gameID": 6637,
         "platformID": 12,
         "title": "Tony Hawk's Project 8"
+      },
+      {
+        "gameID": 62644,
+        "platformID": 12,
+        "title": "Uncharted 3: Drake's Deception (Special Edition)"
       }
     ],
     "Xbox One": [
       {
-        "gameID": 20800,
+        "gameID": 40680,
         "platformID": 4920,
-        "title": "Crackdown 3"
-      },
-      {
-        "gameID": 20792,
-        "platformID": 4920,
-        "title": "Sunset Overdrive"
+        "title": "Back to the Future: The Game"
       },
       {
         "gameID": 21415,
@@ -1551,49 +1602,19 @@ const GAMES = {
         "title": "Batman: Arkham Knight"
       },
       {
-        "gameID": 53379,
-        "platformID": 4920,
-        "title": "LEGO Marvel Super Heroes 2"
-      },
-      {
-        "gameID": 41601,
-        "platformID": 4920,
-        "title": "Trials Fusion The Awesome Max Edition"
-      },
-      {
         "gameID": 46199,
         "platformID": 4920,
         "title": "Batman: Return to Arkham"
       },
       {
-        "gameID": 20491,
+        "gameID": 20800,
         "platformID": 4920,
-        "title": "Watch Dogs"
+        "title": "Crackdown 3"
       },
       {
-        "gameID": 32132,
+        "gameID": 35012,
         "platformID": 4920,
-        "title": "Rare Replay"
-      },
-      {
-        "gameID": 41765,
-        "platformID": 4920,
-        "title": "LEGO Jurassic World"
-      },
-      {
-        "gameID": 34840,
-        "platformID": 4920,
-        "title": "LEGO Marvel's Avengers"
-      },
-      {
-        "gameID": 40680,
-        "platformID": 4920,
-        "title": "Back to the Future: The Game"
-      },
-      {
-        "gameID": 19196,
-        "platformID": 4920,
-        "title": "Tomb Raider: Definitive Edition"
+        "title": "Dishonored: Definitive Edition"
       },
       {
         "gameID": 32352,
@@ -1601,9 +1622,34 @@ const GAMES = {
         "title": "Gears of War 4"
       },
       {
+        "gameID": 41765,
+        "platformID": 4920,
+        "title": "LEGO Jurassic World"
+      },
+      {
+        "gameID": 53379,
+        "platformID": 4920,
+        "title": "LEGO Marvel Super Heroes 2"
+      },
+      {
+        "gameID": 34840,
+        "platformID": 4920,
+        "title": "LEGO Marvel's Avengers"
+      },
+      {
+        "gameID": 32132,
+        "platformID": 4920,
+        "title": "Rare Replay"
+      },
+      {
         "gameID": 20798,
         "platformID": 4920,
         "title": "Rise of the Tomb Raider"
+      },
+      {
+        "gameID": 20792,
+        "platformID": 4920,
+        "title": "Sunset Overdrive"
       },
       {
         "gameID": 23924,
@@ -1611,41 +1657,26 @@ const GAMES = {
         "title": "The LEGO Movie Videogame"
       },
       {
-        "gameID": 35012,
+        "gameID": 19196,
         "platformID": 4920,
-        "title": "Dishonored: Definitive Edition"
+        "title": "Tomb Raider: Definitive Edition"
+      },
+      {
+        "gameID": 41601,
+        "platformID": 4920,
+        "title": "Trials Fusion The Awesome Max Edition"
+      },
+      {
+        "gameID": 20491,
+        "platformID": 4920,
+        "title": "Watch Dogs"
       }
     ],
     "Switch": [
       {
-        "gameID": 61026,
-        "platformID": 4971,
-        "title": "Yoshi's Crafted World"
-      },
-      {
-        "gameID": 42320,
-        "platformID": 4971,
-        "title": "Super Mario Odyssey"
-      },
-      {
-        "gameID": 52671,
-        "platformID": 4971,
-        "title": "Mario Tennis Aces"
-      },
-      {
-        "gameID": 76855,
-        "platformID": 4971,
-        "title": "Super Mario 3D All-Stars"
-      },
-      {
         "gameID": 60223,
         "platformID": 4971,
         "title": "Captain Toad Treasure Tracker"
-      },
-      {
-        "gameID": 63380,
-        "platformID": 4971,
-        "title": "Pokémon Sword"
       },
       {
         "gameID": 63379,
@@ -1653,26 +1684,39 @@ const GAMES = {
         "title": "Legend of Zelda: Link's Awakening, The"
       },
       {
+        "gameID": 52671,
+        "platformID": 4971,
+        "title": "Mario Tennis Aces"
+      },
+      {
+        "gameID": 63380,
+        "platformID": 4971,
+        "title": "Pokémon Sword"
+      },
+      {
         "gameID": 55725,
         "platformID": 4971,
         "title": "Pokémon: Let’s Go, Eevee!"
+      },
+      {
+        "gameID": 76855,
+        "platformID": 4971,
+        "title": "Super Mario 3D All-Stars"
+      },
+      {
+        "gameID": 42320,
+        "platformID": 4971,
+        "title": "Super Mario Odyssey"
+      },
+      {
+        "gameID": 61026,
+        "platformID": 4971,
+        "title": "Yoshi's Crafted World"
       }
     ]
-}
-
-module.exports = function() {
-    const sortedGames = {}
-    let count = 0
-    Object.keys(GAMES).map(key => {
-        sortedGames[key] = GAMES[key].sort((a,b) => (a.title > b.title) ? 1 : ((b.title > a.title) ? -1 : 0))
-        count += GAMES[key].length
-    })
-    return {
-        platforms: PLATFORMS,
-        games: sortedGames,
-        count: {
-            games: count,
-            platforms: PLATFORMS.length,
-        },
-    }
+  },
+  "count": {
+    "games": 323,
+    "platforms": 14
+  }
 }

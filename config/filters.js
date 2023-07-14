@@ -9,6 +9,7 @@ module.exports = {
         if (path.startsWith('https://rknightuk.s3.amazonaws.com')) return path
         return `https://rknightuk.s3.amazonaws.com/${path}`
     },
+    // usage {{ myObject | objectDebug | safe }}
     objectDebug: function(value) {
         return `<pre>${JSON.stringify(value, '', 2)}</pre>`
     },
