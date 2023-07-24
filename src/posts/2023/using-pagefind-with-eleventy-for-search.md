@@ -46,7 +46,7 @@ module.exports = function(eleventyConfig) {
 
 **Note**: if you haven’t already, you must install `child_process`: `npm i child_process`. Once you have done that, add the line `const execSync = require('child_process').execSync;` somewhere before the function, in your `.eleventy.js`.
 
-**Update 24/07/23**: If you have a lot (read: ~3000) of pages like I do then you might find the build crashes trying to build the index. If that's the case, do the pagefind command _after_ you're eleventy site has built instead of in the `after` event.
+**Update 24/07/23**: If you have a lot (read: ~3000) of pages like I do then you might find the build crashes trying to build the index. If that's the case, do the pagefind command _after_ your Eleventy site build script has finished instead of in the `after` event.
 
 Note the `_site` source option - if your site is built to a different directory then change this. This outputs a `_pagefind` directory to the build folder.
 
