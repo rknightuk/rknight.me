@@ -204,7 +204,7 @@
         "minifigs": "1",
         "pieces": "24",
         "theme": "Pirates",
-        "subtheme": "Classic",
+        "subtheme": "Promotional",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -872,7 +872,7 @@
         "minifigs": "",
         "pieces": "63",
         "theme": "DC Comics Super Heroes",
-        "subtheme": "DC Extended Universe",
+        "subtheme": "Batman v Superman: Dawn of Justice",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -889,7 +889,7 @@
         "minifigs": "4",
         "pieces": "197",
         "theme": "DC Comics Super Heroes",
-        "subtheme": "DC Extended Universe",
+        "subtheme": "Justice League Film",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -1066,7 +1066,7 @@
           "bricklinked": false,
           "noMinifigs": false,
           "launch": "01/06/2016",
-          "exit": "31/12/2023",
+          "exit": "31/12/2024",
           "price": ""
         }
       },
@@ -1133,8 +1133,8 @@
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
-          "launch": "",
-          "exit": "",
+          "launch": "01/03/2023",
+          "exit": "31/12/2024",
           "price": "8.99"
         }
       }
@@ -2088,7 +2088,7 @@
           "bricklinked": false,
           "noMinifigs": false,
           "launch": "01/06/2021",
-          "exit": "31/12/2023",
+          "exit": "31/12/2024",
           "price": "79.99"
         }
       },
@@ -2166,11 +2166,11 @@
         "id": "8909",
         "blId": "8909-17",
         "year": "2012",
-        "title": "LEGO Minifigures - Team GB - Complete",
+        "title": "LEGO Minifigures - Team GB Series - Complete",
         "minifigs": "9",
         "pieces": "63",
         "theme": "Collectable Minifigures",
-        "subtheme": "Team GB",
+        "subtheme": "Team GB Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2187,7 +2187,7 @@
         "minifigs": "16",
         "pieces": "94",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Movie",
+        "subtheme": "The LEGO Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2221,7 +2221,7 @@
         "minifigs": "1",
         "pieces": "5",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2238,7 +2238,7 @@
         "minifigs": "1",
         "pieces": "7",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2255,7 +2255,7 @@
         "minifigs": "1",
         "pieces": "8",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2272,7 +2272,7 @@
         "minifigs": "1",
         "pieces": "6",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2289,7 +2289,7 @@
         "minifigs": "1",
         "pieces": "6",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2306,7 +2306,7 @@
         "minifigs": "1",
         "pieces": "7",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2323,7 +2323,7 @@
         "minifigs": "1",
         "pieces": "7",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2340,7 +2340,7 @@
         "minifigs": "1",
         "pieces": "6",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2357,7 +2357,7 @@
         "minifigs": "1",
         "pieces": "5",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2374,7 +2374,7 @@
         "minifigs": "1",
         "pieces": "6",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2391,7 +2391,7 @@
         "minifigs": "1",
         "pieces": "4",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2408,7 +2408,7 @@
         "minifigs": "1",
         "pieces": "7",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2425,7 +2425,7 @@
         "minifigs": "1",
         "pieces": "8",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -2442,7 +2442,7 @@
         "minifigs": "1",
         "pieces": "7",
         "theme": "Collectable Minifigures",
-        "subtheme": "The LEGO Batman Movie",
+        "subtheme": "The LEGO Batman Movie Series",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": false,
@@ -3303,6 +3303,23 @@
           "exit": "31/12/2023",
           "price": "19.99"
         }
+      },
+      {
+        "id": "76917",
+        "blId": "76917-1",
+        "year": "2023",
+        "title": "2 Fast 2 Furious Nissan Skyline GT-R (R34)",
+        "minifigs": "1",
+        "pieces": "319",
+        "theme": "Speed Champions",
+        "subtheme": "Nissan",
+        "metadata": {
+          "bricklinked": false,
+          "noMinifigs": false,
+          "launch": "01/01/2023",
+          "exit": "31/12/2024",
+          "price": "19.99"
+        }
       }
     ],
     "Star Wars": [
@@ -3314,7 +3331,7 @@
         "minifigs": "4",
         "pieces": "717",
         "theme": "Star Wars",
-        "subtheme": "The Force Awakens",
+        "subtheme": "Episode VII",
         "metadata": {
           "bricklinked": false,
           "noMinifigs": true,
@@ -3747,7 +3764,7 @@
           "bricklinked": false,
           "noMinifigs": false,
           "launch": "01/06/2021",
-          "exit": "31/12/2023",
+          "exit": "31/12/2024",
           "price": "30.99"
         }
       },
@@ -3807,7 +3824,7 @@
     ]
   },
   "count": {
-    "sets": 217,
+    "sets": 218,
     "themes": 38
   }
 }
