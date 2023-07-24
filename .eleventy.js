@@ -36,9 +36,9 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'))
 
     // pagefind index
-    eleventyConfig.on('eleventy.after', () => {
-        execSync(`npx pagefind --source public --glob \"**/*.html\"`, { encoding: 'utf-8' })
-    })
+    // eleventyConfig.on('eleventy.after', () => {
+    //     execSync(`npx pagefind --source public --glob \"**/*.html\"`, { encoding: 'utf-8' })
+    // })
 
     return {
         passthroughFileCopy: true,
