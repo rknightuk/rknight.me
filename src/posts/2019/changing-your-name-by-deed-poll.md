@@ -40,7 +40,7 @@ I won't list everywhere I had to change my name, but here's a good list of place
 
 ### Make Multiple Deed Polls
 
-I used [Free UK Deed Poll](https://freedeedpoll.org.uk/) to make my deed poll, printed on some certificate paper I got on Amazon. This is 100% legal and any company that charges you for a deed poll is just printing a piece of paper for you. I would suggest getting at least four or five deed polls signed (you need two witnesses); I currently have three in the mail and a final one at home which won't be leaving my sight until at least one has been returned.
+I used [Free UK Deed Poll](https://freedeedpoll.org.uk/) to make my deed poll, printed on some cerificate paper I got on Amazon. This is 100% legal and any company that charges you for a deed poll is just printing a piece of paper for you. I would suggest getting at least four or five deed polls signed (you need two witnesses); I currently have three in the mail and a final one at home which won't be leaving my sight until at least one has been returned.
 
 ### Do Your Passport or Driving Licence as Soon as Possible
 
