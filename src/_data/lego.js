@@ -19,5 +19,5 @@ module.exports = async function() {
 
     await asset.save(data.brickset, "json")
 
-    return data
+    return data.brickset
 }
