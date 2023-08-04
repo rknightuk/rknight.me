@@ -4,5 +4,5 @@ title: Log
 permalink: 'log/index.html'
 ---
 
-- [Podcast Listening History](/log/podcasts)
+- [Podcasts](/log/podcasts)
 - [Site Version History](/log/versions)

@@ -1,8 +1,17 @@
 ---
-title: Podcast History
+title: Podcasts
 layout: base
 permalink: 'log/podcasts/index.html'
 ---
+
+<h3 id="current">Current Subscriptions</h3>
+
+<ul>
+    {% for pod in podcasts.subscriptions %}
+        <li><a href="{{ pod.url }}">{{ pod.title }}</a></li>
+    {% endfor %}
+</ul>
+
 
 <h3 id="guest">Guest</h3>
 
