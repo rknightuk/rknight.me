@@ -1,15 +1,21 @@
-const { execSync } = require('child_process')
-
 const collections = require('./config/collections.js')
 const shortcodes = require('./config/shortcodes.js')
 const filters = require('./config/filters.js')
 const dateFilters = require('./config/dateFilters.js')
+const plugins = require('./config/plugins.js')
 
 module.exports = function(eleventyConfig) {
     // passthrough
-    ['src/assets', 'src/files'].forEach(path =>
-        eleventyConfig.addPassthroughCopy(path)
-    )
+    ['src/assets', 'src/files'].forEach(path => {
+        eleventyConfig.addPassthroughCopy(path, {
+            filter: path => !path.endsWith('.css') && !path.startsWith('_')
+        })
+    })
+
+    // plugins
+    plugins.forEach(pluginName => {
+        eleventyConfig.addPlugin(require(pluginName))
+    })
 
     // collections
     Object.keys(collections).forEach(collectionName => {
@@ -30,10 +36,6 @@ module.exports = function(eleventyConfig) {
     Object.keys(dateFilters).forEach(filterName => {
         eleventyConfig.addFilter(filterName, dateFilters[filterName])
     })
-
-    // plugins
-    eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-rss'))
-    eleventyConfig.addPlugin(require('@11ty/eleventy-plugin-syntaxhighlight'))
 
     return {
         passthroughFileCopy: true,
