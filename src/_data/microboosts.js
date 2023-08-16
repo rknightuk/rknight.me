@@ -9,7 +9,7 @@ module.exports = async function() {
 
     if (asset.isCacheValid('1h'))
     {
-        console.log("Returning mastodo data from cache")
+        console.log("Returning mastodon data from cache")
         return await asset.getCachedValue()
     }
 
