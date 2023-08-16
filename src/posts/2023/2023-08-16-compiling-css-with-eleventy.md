@@ -18,7 +18,7 @@ The first response was [Jason](https://social.lol/@jgarber@mastodon.cc/110894115
 
 ### Read the fucking manual
 
-David Darnes came at me with a classic [RTFM](https://en.wikipedia.org/wiki/RTFM). Turns out Eleventy has a [page on the docs for doing exactly this](https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy). This method uses [Sass](https://www.npmjs.com/package/sass) and requires a little bit of config. One thing to note is by default this will output _all_ `.scss` file to the built site, so I added a check to see if the file is named `app` and if it's not, then skip it. `style: 'compressed'` will minimise the CSS.
+David Darnes came at me with a classic [RTFM](https://en.wikipedia.org/wiki/RTFM). Turns out Eleventy has a [page on the docs for doing exactly this](https://www.11ty.dev/docs/languages/custom/#example-add-sass-support-to-eleventy). This method uses [Sass](https://www.npmjs.com/package/sass) and requires a little bit of config. One thing to note is by default this will output _all_ `.scss` file to the built site, so I added a check to see if the file is named `app` and if it's not, then skip it. Alternatively you can put your files in an `_includes` directory and these won't be output (thanks Dave). `style: 'compressed'` will minimise the CSS.
 
 ```js
 // .eleventy.js
