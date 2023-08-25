@@ -11,6 +11,7 @@
 
 		<title>{{ title | safe }}</title>
 
+    <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="/assets/stylev2.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="/assets/highlight.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		{% if css %}
@@ -99,242 +100,19 @@
 		</div>
 
 		<footer>
-            <div class="box">
-                <p class="footer-links">
-                    {% for p in pagelist %}
-                        {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
-                    {% endfor %}
-                </p>
-            </div>
-            <div class="box copyright">
-                &copy; 1988 - {% year %} Robb Knight
-            </div>
+      <div class="box">
+          <p class="footer-links">
+              {% for p in pagelist %}
+                  {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
+              {% endfor %}
+          </p>
+      </div>
+      <div class="box copyright">
+          &copy; 1988 - {% year %} Robb Knight
+      </div>
 		</footer>
 
-        <svg width="0" height="0" style="display: none">
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="rss">
-                <path fill="currentColor" d="M19.199 24C19.199 13.467 10.533 4.8 0 4.8V0c13.165 0 24 10.835 24 24h-4.801zM3.291 17.415c1.814 0 3.293 1.479 3.293 3.295 0 1.813-1.485 3.29-3.301 3.29C1.47 24 0 22.526 0 20.71s1.475-3.294 3.291-3.295zM15.909 24h-4.665c0-6.169-5.075-11.245-11.244-11.245V8.09c8.727 0 15.909 7.184 15.909 15.91z"></path>
-            </symbol>
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="buymeacoffee">
-                <path fill="currentColor" d="M20.216 6.415l-.132-.666c-.119-.598-.388-1.163-1.001-1.379-.197-.069-.42-.098-.57-.241-.152-.143-.196-.366-.231-.572-.065-.378-.125-.756-.192-1.133-.057-.325-.102-.69-.25-.987-.195-.4-.597-.634-.996-.788a5.723 5.723 0 00-.626-.194c-1-.263-2.05-.36-3.077-.416a25.834 25.834 0 00-3.7.062c-.915.083-1.88.184-2.75.5-.318.116-.646.256-.888.501-.297.302-.393.77-.177 1.146.154.267.415.456.692.58.36.162.737.284 1.123.366 1.075.238 2.189.331 3.287.37 1.218.05 2.437.01 3.65-.118.299-.033.598-.073.896-.119.352-.054.578-.513.474-.834-.124-.383-.457-.531-.834-.473-.466.074-.96.108-1.382.146-1.177.08-2.358.082-3.536.006a22.228 22.228 0 01-1.157-.107c-.086-.01-.18-.025-.258-.036-.243-.036-.484-.08-.724-.13-.111-.027-.111-.185 0-.212h.005c.277-.06.557-.108.838-.147h.002c.131-.009.263-.032.394-.048a25.076 25.076 0 013.426-.12c.674.019 1.347.067 2.017.144l.228.031c.267.04.533.088.798.145.392.085.895.113 1.07.542.055.137.08.288.111.431l.319 1.484a.237.237 0 01-.199.284h-.003c-.037.006-.075.01-.112.015a36.704 36.704 0 01-4.743.295 37.059 37.059 0 01-4.699-.304c-.14-.017-.293-.042-.417-.06-.326-.048-.649-.108-.973-.161-.393-.065-.768-.032-1.123.161-.29.16-.527.404-.675.701-.154.316-.199.66-.267 1-.069.34-.176.707-.135 1.056.087.753.613 1.365 1.37 1.502a39.69 39.69 0 0011.343.376.483.483 0 01.535.53l-.071.697-1.018 9.907c-.041.41-.047.832-.125 1.237-.122.637-.553 1.028-1.182 1.171-.577.131-1.165.2-1.756.205-.656.004-1.31-.025-1.966-.022-.699.004-1.556-.06-2.095-.58-.475-.458-.54-1.174-.605-1.793l-.731-7.013-.322-3.094c-.037-.351-.286-.695-.678-.678-.336.015-.718.3-.678.679l.228 2.185.949 9.112c.147 1.344 1.174 2.068 2.446 2.272.742.12 1.503.144 2.257.156.966.016 1.942.053 2.892-.122 1.408-.258 2.465-1.198 2.616-2.657.34-3.332.683-6.663 1.024-9.995l.215-2.087a.484.484 0 01.39-.426c.402-.078.787-.212 1.074-.518.455-.488.546-1.124.385-1.766zm-1.478.772c-.145.137-.363.201-.578.233-2.416.359-4.866.54-7.308.46-1.748-.06-3.477-.254-5.207-.498-.17-.024-.353-.055-.47-.18-.22-.236-.111-.71-.054-.995.052-.26.152-.609.463-.646.484-.057 1.046.148 1.526.22.577.088 1.156.159 1.737.212 2.48.226 5.002.19 7.472-.14.45-.06.899-.13 1.345-.21.399-.072.84-.206 1.08.206.166.281.188.657.162.974a.544.544 0 01-.169.364zm-6.159 3.9c-.862.37-1.84.788-3.109.788a5.884 5.884 0 01-1.569-.217l.877 9.004c.065.78.717 1.38 1.5 1.38 0 0 1.243.065 1.658.065.447 0 1.786-.065 1.786-.065.783 0 1.434-.6 1.499-1.38l.94-9.95a3.996 3.996 0 00-1.322-.238c-.826 0-1.491.284-2.26.613z"></path>
-            </symbol>
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="github">
-                <path fill="currentColor" d="M12 .297c-6.63 0-12 5.373-12 12 0 5.303 3.438 9.8 8.205 11.385.6.113.82-.258.82-.577 0-.285-.01-1.04-.015-2.04-3.338.724-4.042-1.61-4.042-1.61C4.422 18.07 3.633 17.7 3.633 17.7c-1.087-.744.084-.729.084-.729 1.205.084 1.838 1.236 1.838 1.236 1.07 1.835 2.809 1.305 3.495.998.108-.776.417-1.305.76-1.605-2.665-.3-5.466-1.332-5.466-5.93 0-1.31.465-2.38 1.235-3.22-.135-.303-.54-1.523.105-3.176 0 0 1.005-.322 3.3 1.23.96-.267 1.98-.399 3-.405 1.02.006 2.04.138 3 .405 2.28-1.552 3.285-1.23 3.285-1.23.645 1.653.24 2.873.12 3.176.765.84 1.23 1.91 1.23 3.22 0 4.61-2.805 5.625-5.475 5.92.42.36.81 1.096.81 2.22 0 1.606-.015 2.896-.015 3.286 0 .315.21.69.825.57C20.565 22.092 24 17.592 24 12.297c0-6.627-5.373-12-12-12"></path>
-            </symbol>
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="mastodon">
-                <path fill="currentColor" d="M23.268 5.313c-.35-2.578-2.617-4.61-5.304-5.004C17.51.242 15.792 0 11.813 0h-.03c-3.98 0-4.835.242-5.288.309C3.882.692 1.496 2.518.917 5.127.64 6.412.61 7.837.661 9.143c.074 1.874.088 3.745.26 5.611.118 1.24.325 2.47.62 3.68.55 2.237 2.777 4.098 4.96 4.857 2.336.792 4.849.923 7.256.38.265-.061.527-.132.786-.213.585-.184 1.27-.39 1.774-.753a.057.057 0 0 0 .023-.043v-1.809a.052.052 0 0 0-.02-.041.053.053 0 0 0-.046-.01 20.282 20.282 0 0 1-4.709.545c-2.73 0-3.463-1.284-3.674-1.818a5.593 5.593 0 0 1-.319-1.433.053.053 0 0 1 .066-.054c1.517.363 3.072.546 4.632.546.376 0 .75 0 1.125-.01 1.57-.044 3.224-.124 4.768-.422.038-.008.077-.015.11-.024 2.435-.464 4.753-1.92 4.989-5.604.008-.145.03-1.52.03-1.67.002-.512.167-3.63-.024-5.545zm-3.748 9.195h-2.561V8.29c0-1.309-.55-1.976-1.67-1.976-1.23 0-1.846.79-1.846 2.35v3.403h-2.546V8.663c0-1.56-.617-2.35-1.848-2.35-1.112 0-1.668.668-1.67 1.977v6.218H4.822V8.102c0-1.31.337-2.35 1.011-3.12.696-.77 1.608-1.164 2.74-1.164 1.311 0 2.302.5 2.962 1.498l.638 1.06.638-1.06c.66-.999 1.65-1.498 2.96-1.498 1.13 0 2.043.395 2.74 1.164.675.77 1.012 1.81 1.012 3.12z"></path>
-            </symbol>
-            <symbol id="prami" viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg">
-                <g transform="matrix(1.886789, 0, 0, -1.886789, -351.413971, 1414.84082)" style="">
-                    <title>Default</title>
-                    <g id="g24" transform="matrix(1, 0, 0, 1, 318.75, 511.366486)">
-                    <path d="m 0,0 c -20.346,0 -40.691,7.762 -56.215,23.285 l -53,53 c -31.047,31.047 -31.047,81.383 0,112.43 29.997,29.997 78,31.012 109.215,3.044 31.216,27.967 79.219,26.952 109.215,-3.044 31.047,-31.047 31.047,-81.383 0,-112.43 l -53,-53 C 40.692,7.762 20.346,0 0,0" style="fill:#ff69ad;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path26"/>
-                    </g>
-                    <g id="g28" transform="matrix(1, 0, 0, 1, 303.125, 656.25)">
-                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0" style="fill:#461036;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path30"/>
-                    </g>
-                    <g id="g32" transform="matrix(1, 0, 0, 1, 303.125, 656.25)">
-                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0 Z" style="fill:none;stroke:#461036;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path34"/>
-                    </g>
-                    <g id="g36" transform="matrix(1, 0, 0, 1, 346.875, 656.25)">
-                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0" style="fill:#461036;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path38"/>
-                    </g>
-                    <g id="g40" transform="matrix(1, 0, 0, 1, 346.875, 656.25)">
-                    <path d="m 0,0 c 0,-3.452 -2.798,-6.25 -6.25,-6.25 -3.452,0 -6.25,2.798 -6.25,6.25 0,3.452 2.798,6.25 6.25,6.25 C -2.798,6.25 0,3.452 0,0 Z" style="fill:none;stroke:#461036;stroke-width:6;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path42"/>
-                    </g>
-                    <g id="g44" transform="matrix(1, 0, 0, 1, 296.88681, 631.243286)">
-                    <path d="M 0,0 C 10.004,-16.325 33.722,-16.325 43.726,0" style="fill:none;stroke:#461036;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path46"/>
-                    </g>
-                    <g id="g48" transform="matrix(1, 0, 0, 1, 418.75, 637.5)">
-                    <path d="M 0,0 C 0,17.259 -13.991,31.25 -31.25,31.25 -48.509,31.25 -62.5,17.259 -62.5,0 c 0,-17.259 13.991,-31.25 31.25,-31.25 C -13.991,-31.25 0,-17.259 0,0" style="fill:#e34198;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path50"/>
-                    </g>
-                    <g id="g52" transform="matrix(1, 0, 0, 1, 281.25, 637.5)">
-                    <path d="M 0,0 C 0,17.259 -13.991,31.25 -31.25,31.25 -48.509,31.25 -62.5,17.259 -62.5,0 c 0,-17.259 13.991,-31.25 31.25,-31.25 C -13.991,-31.25 0,-17.259 0,0" style="fill:#e34198;fill-opacity:1;fill-rule:nonzero;stroke:none" id="path54"/>
-                    </g>
-                    <g id="g56" transform="matrix(1, 0, 0, 1, 296.88681, 631.243286)">
-                    <path d="M 0,0 C 10.004,-16.325 33.722,-16.325 43.726,0" style="fill:none;stroke:#461036;stroke-width:10;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;stroke-dasharray:none;stroke-opacity:1" id="path58"/>
-                    </g>
-                </g>
-            </symbol>
-            <symbol xmlnsDc="http://purl.org/dc/elements/1.1/" xmlnsCc="http://web.resource.org/cc/" xmlnsRdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#" xmlnsSvg="http://www.w3.org/2000/svg" xmlns="http://www.w3.org/2000/svg" xmlnsSodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlnsInkscape="http://www.inkscape.org/namespaces/inkscape" version="1.0" id="psn" overflow="visible" enable-background="new 0 0 612.092 560.54" xml:space="preserve" sodipodiVersion="0.32" inkscapeVersion="0.44.1" sodipodiDocname="Playstation logo colour.svg" sodipodiDocbase="C:\Documents and Settings\Sigurd\Mine dokumenter\Mine bilder" viewBox="0 0 612.092 560.54">
-                <metadata id="metadata20">
-                <rdf:RDF>
-                    <cc:Work rdfAbout="">
-                    <dc:format>image/svg+xml</dc:format>
-                    <dc:type rdfResource="http://purl.org/dc/dcmitype/StillImage"></dc:type>
-                    </cc:Work>
-                </rdf:RDF>
-                </metadata>
-                <defs id="defs18"></defs>
-                <sodipodi:namedview inkscapeWindowHeight="719" inkscapeWindowWidth="1024" inkscapePageshadow="2" inkscapePageopacity="0.0" guidetolerance="10.0" gridtolerance="10.0" objecttolerance="10.0" borderopacity="1.0" bordercolor="#666666" pagecolor="#ffffff" id="base" inkscapeZoom="1.9023033" inkscapeCx="145.65542" inkscapeCy="98.001689" inkscapeWindowX="-4" inkscapeWindowY="-4" inkscapeCurrentLayer="g3"></sodipodi:namedview>
-                <g id="g3" transform="translate(-61.68556,-312.8684)">
-                <path fill="#de0029" clip-rule="evenodd" d="M 395.06807,434.21345 L 394.60021,863.39514 L 279.61012,825.99696 L 279.61012,321.53515 L 426.38841,360.34125 C 520.34231,385.59251 577.83949,434.67697 576.90381,520.70189 C 575.96956,620.75529 529.69221,660.95773 439.47538,634.77658 L 439.47538,437.47977 C 439.47538,413.635 395.06807,412.23866 395.06807,434.21345 L 395.06807,434.21345 z " id="path7"></path>
-                <path fill="#f3c202" clip-rule="evenodd" d="M 226.78568,742.76757 L 172.56056,761.00535 C 137.49733,773.16387 107.58489,744.64627 139.83807,732.95128 L 166.01346,723.60717 L 67.381005,692.27665 C 36.994899,702.56663 8.4787729,724.53999 10.3531,755.3983 C 12.223081,786.7187 83.74009,794.20296 138.90381,803.08643 C 190.32031,811.49773 237.06553,806.82349 279.60869,791.86223 L 279.60869,759.60031 L 226.78568,742.76757 L 226.78568,742.76757 z M 395.53446,863.39514 L 496.03688,828.32754 L 394.60021,796.07291 L 394.60021,861.05298 L 395.53446,863.39514 L 395.53446,863.39514 z " id="path9"></path>
-                <path fill="#326db3" clip-rule="evenodd" d="M 662.91715,769.42531 L 664.78565,768.95457 C 708.72663,753.53123 727.42501,732.01703 722.75363,711.92089 C 715.27373,678.26121 661.51646,660.02348 578.77524,653.9442 C 519.41092,649.73926 460.98092,662.82627 403.95154,682.46035 L 394.60164,685.73681 L 496.97405,717.52794 L 556.80624,697.42166 C 619.44554,685.73681 644.69244,706.30513 584.38808,725.47573 L 554.46981,735.75553 L 662.91715,769.42531 L 662.91715,769.42531 z M 279.61012,620.75529 L 234.26272,636.17869 L 279.61012,650.2057 L 279.61012,620.75529 L 279.61012,620.75529 z " id="path11"></path>
-                <path fill="00aa9e" clip-rule="evenodd" d="M 496.03688,828.32754 L 662.91715,769.42531 L 554.46695,735.75553 L 394.60021,790.45575 L 394.60021,796.07291 L 496.03688,828.32754 L 496.03688,828.32754 z M 279.61012,725.00349 L 226.78712,742.76906 L 279.61012,759.60031 L 279.61012,725.00349 L 279.61012,725.00349 z M 394.60021,752.5955 L 394.60021,685.73681 L 496.97262,717.52794 L 394.60021,752.5955 L 394.60021,752.5955 z M 166.01492,723.60717 L 279.60869,682.93251 L 279.60869,650.2057 L 234.26272,636.17869 L 69.718853,691.81461 C 69.250983,691.81461 68.316721,692.27665 67.38246,692.27665 L 166.01492,723.60717 L 166.01492,723.60717 z " id="path13"></path>
-                </g>
-            </symbol>
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="lastfm">
-                <path fill="currentColor" d="M10.584 17.21l-.88-2.392s-1.43 1.594-3.573 1.594c-1.897 0-3.244-1.649-3.244-4.288 0-3.382 1.704-4.591 3.381-4.591 2.42 0 3.189 1.567 3.849 3.574l.88 2.749c.88 2.666 2.529 4.81 7.285 4.81 3.409 0 5.718-1.044 5.718-3.793 0-2.227-1.265-3.381-3.63-3.931l-1.758-.385c-1.21-.275-1.567-.77-1.567-1.595 0-.934.742-1.484 1.952-1.484 1.32 0 2.034.495 2.144 1.677l2.749-.33c-.22-2.474-1.924-3.492-4.729-3.492-2.474 0-4.893.935-4.893 3.932 0 1.87.907 3.051 3.189 3.601l1.87.44c1.402.33 1.869.907 1.869 1.704 0 1.017-.99 1.43-2.86 1.43-2.776 0-3.93-1.457-4.59-3.464l-.907-2.75c-1.155-3.573-2.997-4.893-6.653-4.893C2.144 5.333 0 7.89 0 12.233c0 4.18 2.144 6.434 5.993 6.434 3.106 0 4.591-1.457 4.591-1.457z"></path>
-            </symbol>
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="applemusic">
-                <path fill="currentColor" d="M23.994 6.124a9.23 9.23 0 00-.24-2.19c-.317-1.31-1.062-2.31-2.18-3.043a5.022 5.022 0 00-1.877-.726 10.496 10.496 0 00-1.564-.15c-.04-.003-.083-.01-.124-.013H5.986c-.152.01-.303.017-.455.026-.747.043-1.49.123-2.193.4-1.336.53-2.3 1.452-2.865 2.78-.192.448-.292.925-.363 1.408-.056.392-.088.785-.1 1.18 0 .032-.007.062-.01.093v12.223c.01.14.017.283.027.424.05.815.154 1.624.497 2.373.65 1.42 1.738 2.353 3.234 2.801.42.127.856.187 1.293.228.555.053 1.11.06 1.667.06h11.03a12.5 12.5 0 001.57-.1c.822-.106 1.596-.35 2.295-.81a5.046 5.046 0 001.88-2.207c.186-.42.293-.87.37-1.324.113-.675.138-1.358.137-2.04-.002-3.8 0-7.595-.003-11.393zm-6.423 3.99v5.712c0 .417-.058.827-.244 1.206-.29.59-.76.962-1.388 1.14-.35.1-.706.157-1.07.173-.95.045-1.773-.6-1.943-1.536a1.88 1.88 0 011.038-2.022c.323-.16.67-.25 1.018-.324.378-.082.758-.153 1.134-.24.274-.063.457-.23.51-.516a.904.904 0 00.02-.193c0-1.815 0-3.63-.002-5.443a.725.725 0 00-.026-.185c-.04-.15-.15-.243-.304-.234-.16.01-.318.035-.475.066-.76.15-1.52.303-2.28.456l-2.325.47-1.374.278c-.016.003-.032.01-.048.013-.277.077-.377.203-.39.49-.002.042 0 .086 0 .13-.002 2.602 0 5.204-.003 7.805 0 .42-.047.836-.215 1.227-.278.64-.77 1.04-1.434 1.233-.35.1-.71.16-1.075.172-.96.036-1.755-.6-1.92-1.544-.14-.812.23-1.685 1.154-2.075.357-.15.73-.232 1.108-.31.287-.06.575-.116.86-.177.383-.083.583-.323.6-.714v-.15c0-2.96 0-5.922.002-8.882 0-.123.013-.25.042-.37.07-.285.273-.448.546-.518.255-.066.515-.112.774-.165.733-.15 1.466-.296 2.2-.444l2.27-.46c.67-.134 1.34-.27 2.01-.403.22-.043.442-.088.663-.106.31-.025.523.17.554.482.008.073.012.148.012.223.002 1.91.002 3.822 0 5.732z"></path>
-            </symbol>
-            <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="letterboxd">
-                <path fill="currentColor" d="M8.29 16.752V7.2H6.546V4.8h6.328v2.4h-1.746v9.574h3.925v-2.618h2.839V19.2H6.545v-2.448h1.746zM0 12c0 6.628 5.372 12 12 12s12-5.372 12-12S18.628 0 12 0 0 5.372 0 12z"></path>
-            </symbol>
-            <symbol viewBox="0 0 500 500" xmlns="http://www.w3.org/2000/svg" id="oku">
-                <path d="M500 183.794v64.23c-57.312 0-112.648 22.727-153.162 62.253-32.609 32.608-54.348 73.122-61.265 117.589H500v65.217H0v-65.217h215.415c-6.917-44.467-28.656-85.969-61.265-118.577C113.636 269.763 58.3 247.036 0 247.036v-65.218c51.383 0 102.767 13.834 146.245 40.514 44.466 25.692 80.04 63.241 104.743 108.696 23.716-44.467 59.289-82.016 103.755-107.708 43.478-26.68 93.874-39.526 145.257-39.526ZM169.96 85.968c0-43.478 35.574-79.051 80.04-79.051 44.466 0 80.04 35.573 80.04 79.051 0 43.479-35.574 78.064-80.04 78.064-44.466 0-80.04-34.585-80.04-78.064Zm0 0"></path>
-            </symbol>
-            <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="ticket">
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Artboard-4" transform="translate(-708.000000, -511.000000)">
-        <g id="196" transform="translate(708.000000, 511.000000)">
-          <path d="M14.2675644,19 L2.991155,19 C1.89147046,19 1,18.1029399 1,16.9941413 L1,13.7324356 C1.59780137,13.3866262 2,12.7402824 2,12 C2,11.2597176 1.59780137,10.6133738 1,10.2675644 L1,7.00585866 C1,5.89805351 1.88967395,5 2.991155,5 L14.2675644,5 C14.6133738,5.59780137 15.2597176,6 16,6 C16.7402824,6 17.3866262,5.59780137 17.7324356,5 L21.008845,5 C22.1085295,5 23,5.89706013 23,7.00585866 L23,10.2675644 C22.4021986,10.6133738 22,11.2597176 22,12 C22,12.7402824 22.4021986,13.3866262 23,13.7324356 L23,16.9941413 C23,18.1019465 22.1103261,19 21.008845,19 L17.7324356,19 C17.3866262,18.4021986 16.7402824,18 16,18 C15.2597176,18 14.6133738,18.4021986 14.2675644,19 Z" id="Combined-Shape" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-          <rect id="Rectangle" fill="currentColor" x="15" y="6" width="2" height="3" rx="1"></rect>
-          <rect id="Rectangle" fill="currentColor" x="15" y="10" width="2" height="4" rx="1"></rect>
-          <rect id="Rectangle" fill="currentColor" x="15" y="15" width="2" height="3" rx="1"></rect>
-          <rect id="Rectangle-133" fill="currentColor" opacity="0.5" x="4" y="8" width="8" height="2" rx="1"></rect>
-          <rect id="Rectangle-133" fill="currentColor" opacity="0.5" x="4" y="11" width="4" height="2" rx="1"></rect>
-          <rect id="Rectangle-133" fill="currentColor" opacity="0.200000003" x="4" y="15" width="9" height="1" rx="0.5"></rect>
-        </g>
-      </g>
-    </g>
-  </symbol>
-  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="polaroids">
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Artboard-4" transform="translate(-884.000000, -379.000000)">
-        <g id="140" transform="translate(884.000000, 379.000000)">
-          <g id="2" transform="translate(0.068124, 1.974212)" fill="currentColor">
-            <path d="M3.93187648,2.60283088 L2.09644494,3.09350651 L3.93187648,9.94343026 L3.93187648,17.4076278 L0.230395558,3.59351294 C-0.0541723055,2.53149121 0.577347276,1.43952472 1.64224814,1.15418539 L3.93187648,0.540681329 L3.93187648,2.60283088 Z" id="Combined-Shape"></path>
-          </g>
-          <g id="1" transform="translate(6.000000, 2.000000)">
-            <path d="M0,1.99079514 C0,0.891309342 0.892622799,0 1.99508929,0 L16.0049107,0 C17.1067681,0 18,0.898212381 18,1.99079514 L18,18.0092049 C18,19.1086907 17.1073772,20 16.0049107,20 L1.99508929,20 C0.893231902,20 0,19.1017876 0,18.0092049 L0,1.99079514 Z M2,2 L2,16 L16,16 L16,2 L2,2 Z" id="Combined-Shape" fill="currentColor"></path>
-            <circle id="Oval-39" fill="currentColor" cx="6" cy="6" r="2"></circle>
-            <path d="M15,8 C14,8 12.5,8.5 11,10 C9.5,11.5 9,14 9,15" id="Path-54" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-            <path d="M4,15 C4,14 4.5,12 7,11 C9.5,10 11,10.5 11,10.5" id="Path-55" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-          </g>
-        </g>
-      </g>
-    </g>
-  </symbol>
-  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="pen">
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Artboard-4" transform="translate(-532.000000, -687.000000)" stroke="currentColor" stroke-width="2">
-        <g id="272" transform="translate(531.000000, 687.000000)">
-          <g id="pen-tool" transform="translate(12.474344, 12.574381) rotate(-315.000000) translate(-12.474344, -12.574381) translate(5.474344, 2.074381)">
-            <path d="M7,22.5 C7,22.5 12,11 13,10 C12,9 10,3 10,3 L4,3 C4,3 2,9 1,10 C2,11 7,22.5 7,22.5 Z" id="Path-208" stroke-linecap="round" stroke-linejoin="round"></path>
-            <rect id="Rectangle-194" stroke-linecap="round" stroke-linejoin="round" x="3" y="0" width="8" height="3"></rect>
-            <path d="M7,21 L7,10" id="Path-209"></path>
-            <circle id="Oval-150" cx="7" cy="10" r="1"></circle>
-          </g>
-        </g>
-      </g>
-    </g>
-  </symbol>
-  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="chat">
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Artboard-4" transform="translate(-664.000000, -115.000000)">
-        <g id="15" transform="translate(664.000000, 115.000000)">
-          <path d="M5.58578644,18 L8.29289322,20.7071068 L9,21.4142136 L9.70710678,20.7071068 L12.4142136,18 L20.0024554,18 C21.1070219,18 22,17.1024207 22,15.9975267 L22,6.00247329 C22,4.90415942 21.1082892,4 20.0066023,4 L3.99339768,4 C2.89058031,4 2,4.89859975 2,6.00247329 L2,15.9975267 C2,17.0970743 2.89547708,18 3.99895656,18 L5.58578644,18 Z" id="Rectangle-406" stroke="currentColor" stroke-width="2" stroke-linejoin="round"></path>
-          <rect id="Rectangle-407" fill="currentColor" x="6" y="8" width="12" height="2" rx="1"></rect>
-          <rect id="Rectangle-407" fill="currentColor" x="6" y="12" width="12" height="2" rx="1"></rect>
-        </g>
-      </g>
-    </g>
-  </symbol>
-  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="terminal">
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Artboard-4" transform="translate(-752.000000, -379.000000)">
-        <g id="136" transform="translate(752.000000, 379.000000)">
-          <rect id="Rectangle-87" stroke="currentColor" stroke-width="2" x="2" y="4" width="20" height="16" rx="2"></rect>
-          <polyline id="Path-63" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" points="6 8 8 10 6 12"></polyline>
-          <rect id="Rectangle-88" fill="currentColor" x="10" y="11" width="6" height="2" rx="1"></rect>
-        </g>
-      </g>
-    </g>
-  </symbol>
-  <symbol version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 24 24" id="ipod">
-    <desc>Created with Sketch.</desc>
-    <defs></defs>
-    <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-      <g id="Artboard-4" transform="translate(-136.000000, -291.000000)" stroke="#333333">
-        <g id="83" transform="translate(136.000000, 291.000000)">
-          <rect id="Rectangle-410" stroke-width="2" stroke-linejoin="round" x="5" y="2" width="14" height="20" rx="1"></rect>
-          <rect id="Rectangle-412" opacity="0.5" x="7.5" y="4.5" width="9" height="6" rx="1"></rect>
-          <circle id="Oval-31" stroke-width="2" cx="12" cy="16" r="3"></circle>
-        </g>
-      </g>
-    </g>
-  </symbol>
-  <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" id="maccy">
-      <defs/>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-         <g id="Artboard-4" transform="translate(-576.000000, -291.000000)">
-            <g id="93" transform="translate(576.000000, 291.000000)">
-               <rect id="Rectangle-29" stroke="#333333" stroke-width="2" x="4" y="1" width="16" height="19" rx="1"/>
-               <path d="M5,20 L19,20 L19,22.0010434 C19,22.5527519 18.5500512,23 17.9931545,23 L6.00684547,23 C5.45078007,23 5,22.5573397 5,22.0010434 L5,20 Z" id="Rectangle-30" stroke="#333333" stroke-width="2"/>
-               <path d="M7,3.5 L6.5,3.5 L6.5,4 L6.5,12 L6.5,12.5 L7,12.5 L12,12.5 L17,12.5 L17.5,12.5 L17.5,12 L17.5,4 L17.5,3.5 L17,3.5 L7,3.5 Z" id="Rectangle-31" stroke="#333333" stroke-linejoin="round"/>
-               <rect id="Combined-Shape" fill="#333333" x="13" y="15" width="4" height="1"/>
-               <rect id="Rectangle-34" fill="#333333" x="6" y="16" width="2" height="1"/>
-               <path d="M9,5 L10,5 L10,7 L9,7 L9,5 Z M11,8 L12,8 L12,9 L11,9 L11,8 Z M12,5 L13,5 L13,9 L12,9 L12,5 Z M9,9 L10,9 L10,10 L9,10 L9,9 Z M10,10 L14,10 L14,11 L10,11 L10,10 Z M14,9 L15,9 L15,10 L14,10 L14,9 Z M14,5 L15,5 L15,7 L14,7 L14,5 Z" id="Combined-Shape" fill="#333333" opacity="0.5"/>
-            </g>
-         </g>
-      </g>
-   </symbol>
-   <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" id="iphone">
-      <defs/>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
-         <g id="Artboard-4" transform="translate(-796.000000, -115.000000)">
-            <g id="18" transform="translate(796.000000, 115.000000)">
-               <rect id="Rectangle-410" stroke="#333333" stroke-width="2" stroke-linejoin="round" x="6" y="2" width="12" height="20" rx="1"/>
-               <rect id="Rectangle-412" fill="#333333" x="10" y="4" width="4" height="1" rx="0.5"/>
-               <circle id="Oval-31" fill="#333333" cx="12" cy="19" r="1"/>
-            </g>
-         </g>
-      </g>
-   </symbol>
-   <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" id="macmini">
-      <defs/>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-         <g id="Artboard-4" transform="translate(-532.000000, -115.000000)" stroke-width="2" stroke="#333333">
-            <g id="12" transform="translate(532.000000, 115.000000)">
-               <polygon id="Triangle-1" points="5 21 5 3 21 12"/>
-            </g>
-         </g>
-      </g>
-   </symbol>
-   <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" id="home">
-      <defs/>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linecap="round" stroke-linejoin="round">
-         <g id="Artboard-4" transform="translate(-620.000000, -159.000000)" stroke="#333333" stroke-width="2">
-            <g id="34" transform="translate(620.000000, 159.000000)">
-               <path d="M1,11 L12,2 C12,2 22.9999989,11.0000005 23,11" id="Path-50"/>
-               <path d="M3,10 C3,10 3,10.4453982 3,10.9968336 L3,20.0170446 C3,20.5675806 3.43788135,21.0138782 4.00292933,21.0138781 L8.99707067,21.0138779 C9.55097324,21.0138779 10,20.5751284 10,20.0089602 L10,15.0049177 C10,14.449917 10.4433532,14 11.0093689,14 L12.9906311,14 C13.5480902,14 14,14.4387495 14,15.0049177 L14,20.0089602 C14,20.5639609 14.4378817,21.0138779 15.0029302,21.0138779 L19.9970758,21.0138781 C20.5509789,21.0138782 21.000006,20.56848 21.000006,20.0170446 L21.0000057,10" id="Path-51"/>
-            </g>
-         </g>
-      </g>
-   </symbol>
-   <symbol xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="24px" height="24px" viewBox="0 0 24 24" version="1.1" id="heart">
-      <defs/>
-      <g id="Page-1" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd" stroke-linejoin="round">
-         <g id="Artboard-4" transform="translate(-48.000000, -115.000000)" stroke="#333333" stroke-width="2" fill-rule="nonzero">
-            <g id="1" transform="translate(48.000000, 115.000000)">
-               <path d="M12.0174466,21 L20.9041801,11.3556763 C22.6291961,9.13778099 22.2795957,5.90145416 20.1233257,4.12713796 C17.9670557,2.35282175 14.8206518,2.71241362 13.0956358,4.93030888 L12.0174465,6.5 L10.9043642,4.93030888 C9.17934824,2.71241362 6.0329443,2.35282175 3.87667432,4.12713796 C1.72040435,5.90145416 1.37080391,9.13778099 3.09581989,11.3556763 L12.0174466,21 Z" id="Path-2"/>
-            </g>
-         </g>
-      </g>
-   </symbol>
-        </svg>
+    {% include 'svgs.njk' %}
 
 	</body>
 </html>
