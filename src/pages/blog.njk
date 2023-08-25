@@ -21,7 +21,7 @@ permalink: 'blog/index.html'
     {% endif %}
 
     <li>
-		<span class="list-post-date">{{ post.data.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
+		<span class="list-post-date">{{ post.data.date | monthDay }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
 	</li>
 
     {% set currentYear = postYear %}

@@ -11,8 +11,7 @@
 
 		<title>{{ title | safe }}</title>
 
-    <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
-		<link rel="stylesheet" href="/assets/stylev2.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
+        <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="/assets/highlight.css" type="text/css" media="screen" title="no title" charset="utf-8">
 		{% if css %}
 			<link rel="stylesheet" href="/assets/{{ css }}.css" type="text/css" media="screen" title="no title" charset="utf-8">
@@ -23,6 +22,7 @@
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
         <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
         <link rel="manifest" href="/assets/icons/site.webmanifest">
+
         <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
 
         <script src="/assets/lite-yt.js"></script>
@@ -100,16 +100,16 @@
 		</div>
 
 		<footer>
-      <div class="box">
-          <p class="footer-links">
-              {% for p in pagelist %}
-                  {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
-              {% endfor %}
-          </p>
-      </div>
-      <div class="box copyright">
-          &copy; 1988 - {% year %} Robb Knight
-      </div>
+            <div class="box">
+                <p class="footer-links">
+                    {% for p in pagelist %}
+                        {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
+                    {% endfor %}
+                </p>
+            </div>
+            <div class="box copyright">
+                &copy; 1988 - {% year %} Robb Knight
+            </div>
 		</footer>
 
     {% include 'svgs.njk' %}

@@ -1,3 +1,171 @@
+body {
+    font-family: 'Atkinson Hyperlegible';
+    font-size: 1.1em;
+    line-height: 1.6;
+    color: var(--body-text);
+    max-width: 800px;
+    padding: 10px;
+    padding-top: 0;
+    margin: auto;
+    background: var(--body-background);
+    background: rgb(215, 80, 154);
+    background: linear-gradient(135deg, rgba(215, 80, 154, 1) 55%, rgba(252, 222, 0, 1) 100%);
+    background-attachment: fixed;
+}
+
+img,
+video {
+    max-width: 100%;
+}
+
+a {
+    color: var(--color-primary);
+    text-decoration: none;
+    border-bottom: 2px solid var(--body-text);
+}
+
+a:hover {
+    color: var(--color-secondary);
+    text-decoration: none;
+    border-bottom-color: var(--color-secondary);
+}
+
 p {
     margin-bottom: 1em;
+}
+
+/* buttons and forms from Sakura.css */
+input,
+textarea {
+    border: 1px solid #4a4a4a;
+}
+
+input:focus,
+textarea:focus {
+    border: 1px solid #1d7484;
+}
+
+textarea {
+    width: 100%;
+}
+
+.button,
+button,
+input[type="submit"],
+input[type="reset"],
+input[type="button"] {
+    display: inline-block;
+    padding: 15px 10px;
+    font-weight: bold;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    background-color: var(--body-background);
+    color: white;
+    border-radius: 1px;
+    border: 1px solid var(--body-text);
+    cursor: pointer;
+    box-sizing: border-box;
+}
+
+.button[disabled],
+button[disabled],
+input[type="submit"][disabled],
+input[type="reset"][disabled],
+input[type="button"][disabled] {
+    cursor: default;
+    opacity: .5;
+}
+
+.button:focus:enabled,
+.button:hover:enabled,
+button:focus:enabled,
+button:hover:enabled,
+input[type="submit"]:focus:enabled,
+input[type="submit"]:hover:enabled,
+input[type="reset"]:focus:enabled,
+input[type="reset"]:hover:enabled,
+input[type="button"]:focus:enabled,
+input[type="button"]:hover:enabled {
+    background-color: #982c61;
+    border-color: #982c61;
+    color: #f9f9f9;
+    outline: 0;
+}
+
+textarea,
+select,
+input {
+    color: #4a4a4a;
+    padding: 6px 10px;
+    /* The 6px vertically centers text on FF, ignored by Webkit */
+    margin-bottom: 10px;
+    background-color: #f1f1f1;
+    border: 1px solid #f1f1f1;
+    border-radius: 4px;
+    box-shadow: none;
+    box-sizing: border-box;
+}
+
+textarea:focus,
+select:focus,
+input:focus {
+    border: 1px solid #1d7484;
+    outline: 0;
+}
+
+input[type="checkbox"]:focus {
+    outline: 1px dotted #1d7484;
+}
+
+label,
+legend,
+fieldset {
+    display: block;
+    margin-bottom: .5rem;
+    font-weight: 600;
+}
+
+pre {
+    font-size: 14px !important;
+}
+
+code {
+    margin: 0;
+    font-size: 85%;
+    white-space: break-spaces;
+    background-color: #e8e8e8;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--body-text);
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 3px 10px;
+}
+
+p,
+ul {
+    margin-top: 0;
+}
+
+li {
+    padding: 2px 0;
+}
+
+blockquote {
+    font-style: italic;
+    border-left: 2px solid var(--body-background);
+    margin: 0;
+    padding: 10px 10px 5px 10px;
+    margin-bottom: 15px;
 }

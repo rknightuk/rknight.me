@@ -8,7 +8,7 @@
     {% if post.attachments.length > 0 %}
     <div class="photogrid">
         {% for image in post.attachments %}
-            {% if image.type === 'video' %}
+            {% if image.type === 'video' or image.type === 'gifv' %}
                 <video controls>
                     <source src="{{ image.url | imageLink }}" type="video/mp4">
                 </video>

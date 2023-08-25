@@ -1,0 +1,18 @@
+@font-face {
+    font-family: Bayshore;
+    src: url('/assets/Bayshore.woff') format('woff');
+}
+
+:root {
+    --color-primary: #2c3e50;
+    --color-secondary: #D7509A;
+    --body-background: #D7509A;
+    --body-text: #2c3e50;
+    --heading-color: #2c3e50;
+    --subtle-color: #6f6f6f;
+    --main-yellow: #E0E752;
+    --mastodon: #6364FF;
+    --github: #1C2128;
+    --coffee: #FFDD00;
+    --prami: #E34198;
+}
