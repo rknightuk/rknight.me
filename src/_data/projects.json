@@ -1,68 +1,45 @@
-[
-	{
-		"key": "ruminate",
-		"alt": "Ruminate Podcast Logo",
-		"name": "Ruminate",
-		"url": "https://ruminatepodcast.com",
-		"desc": "A podcast about what's on our minds. Mostly chicken.",
-		"type": "svg",
-		"color": "#eeefee"
-	},
-	{
-		"key": "monzo",
-		"alt": "Monzo Logo",
-		"name": "Monzo Pot Image Generator",
-		"url": "https://potimages.rknight.me",
-		"desc": "Generate images for your Monzo pots. And now your Stream Deck too.",
-		"type": "svg"
-	},
-	{
-		"key": "intersect",
-		"alt": "Intersect Logo",
-		"name": "Intersect",
-		"url": "https://intersect.rknight.me",
-		"desc": "Everything I Know. Mostly. A personal wiki built with <a href='https://www.11ty.dev/''>Eleventy</a>.",
-		"type": "png",
-		"class": "project-logo-full",
-        "ignore": true
-	},
-	{
-		"key": "micromarks",
-		"alt": "MicroMarks Logo",
-		"name": "MicroMarks",
-		"url": "https://micromarks.rknight.me",
-		"desc": "Manage your micro.blog bookmarks.",
-		"type": "svg",
-		"color": "#f2a83b",
-        "ignore": true
-	},
-	{
-		"key": "alfred",
-		"alt": "Alfred Logo",
-		"name": "Alfred Workflows",
-		"url": "/alfred-workflows",
-		"desc": "Workflows I've built for <a href='https://www.alfredapp.com/'>Alfred app</a>.",
-		"type": "png",
-		"color": "#6b279a"
-	},
-	{
-		"key": "github",
-		"alt": "GitHub Logo",
-		"name": "Everything Else",
-		"url": "https://github.com/rknightuk",
-		"desc": "It's all on GitHub.",
-		"type": "svg",
-		"class": "project-logo-full"
-	},
-	{
-		"key": "trackerzapper",
-		"alt": "TrackerZapper Logo",
-		"name": "TrackerZapper",
-		"url": "/apps/tracker-zapper",
-		"desc": "Mac app to remove tracking parameters from links you copy.",
-		"type": "png",
-		"class": "project-logo-full",
-		"color": "#f5e615",
-		"ignore": true
-	}
-]
+{
+	"current": [
+		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "tags": ["JS", "AppleScript"] },
+		{ "title": "Monzo Pot Image Generator", "link": "http://potimages.rknight.me", "desc": "Generate images for your Monzo pots", "tags": ["JS", "11ty"] },
+		{ "title": "Custom Finder Sidebar Icons", "link": "https://github.com/rknightuk/custom-finder-sidebar-icons", "desc": "Customise your sidebar icons in Finder", "tags": ["Swift"] },
+		{ "title": "Echo", "link": "http://echo.rknight.me/", "desc": "RSS Cross Poster for Micro.blog and Mastodon", "tags": ["JS"] },
+		{ "title": "Brian Butterfield Diet Soundboard", "link": "https://treatday.rknight.me/", "desc": "Saturday is treat day", "tags": ["JS", "11ty"] },
+		{ "title": "Podcast Duration", "link": "https://podcast-duration.netlify.app", "desc": "Find out the total duration of all episodes of a podcast", "tags": ["JS", "Netlify"] },
+		{ "title": "Defocused vs. the Movies", "link": "https://defocused-vs-the-movies.netlify.app/", "desc": "Which is longer: every episode of Defocused or the runtime of all the movies they've reviewed?", "tags": ["JS", "11ty"] },
+		{ "title": "Now API", "link": "https://github.com/rknightuk/api", "desc": "API for fetching now page information and archiving my toots ", "tags": ["JS"] },
+		{ "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "tags": ["Swift"] },
+		{ "title": "Mac 30th Anniversary Icons", "link": "https://rknightuk.github.io/mac-30-font-svg/", "desc": "", "tags": ["11ty"] },
+		{ "title": "Brickset CSV to JSON script", "link": "https://github.com/rknightuk/brickset-csv-to-json", "desc": "", "tags": ["JS"] },
+		{ "title": "Back to the Future drinking game", "link": "https://rknightuk.github.io/back-to-the-future-drinking-game/", "desc": "" },
+		{ "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Voiceover work for a game during HackPompey" },
+		{ "title": "Micro Blog Tools", "link": "/projects/microblog/", "desc": "All the Micro.blog-related things I've made" },
+		{ "title": "Stig Quote Generator", "link": "https://rknightuk.github.io/stig-quotes/", "desc": "" }
+	],
+	"profile": [
+		{ "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "tags": ["JS"] },
+		{ "title": "omgnow", "link": "https://omgnow.rknight.me/", "desc": "Embed your omg.lol/now page", "tags": ["JS", "PHP"] },
+		{ "title": "RecentFM", "link": "https://recentfm.rknight.me/", "desc": "Embed your now playing song from Last.fm", "tags": ["JS", "PHP"] },
+		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "tags": ["JS", "PHP"] }
+	],
+	"ddd": [
+
+	],
+	"playlists": [
+
+	],
+	"legacy": [
+		{ "title": "Worst popup ever", "link": "https://github.com/rknightuk/worst-popup-ever" },
+		{ "title": "Who's That Emoji?", "link": "https://rknightuk.github.io/whos-that-emoji/" },
+		{ "title": "Bonanza! Coffee", "link": "https://rknightuk.github.io/bonanzacoffee/" },
+		{ "title": "Hexo JSON Feed plugin", "link": "https://github.com/rknightuk/hexo-generator-json-feed-org" },
+		{ "title": "Better Mastodon aka Joe Rosentoot", "link": "https://rknightuk.github.io/better-mastodon" },
+		{ "title": "Mastodon Toot Bookmarklet", "link": "https://rknightuk.github.io/mastodon-toot-bookmarklet/" },
+		{ "title": "FlatUI for Transmission Web", "link": "https://github.com/rknightuk/transmission-flatUI" },
+		{ "title": "Matt Bot or Not", "link": "https://rknightuk.github.io/mattbotornot/" },
+		{ "title": "Pebble Watch Faces", "link": "https://github.com/rknightuk/pebble-faces" },
+		{ "title": "GoSquared for Pebble", "link": "https://github.com/rknightuk/gosquared-for-pebble" },
+		{ "title": "Almanac", "link": "http://github.com/rknightuk/almanac/", "desc": "A microblog for what you've watched, read, and listened to." },
+		{ "title": "Just Delete Me", "link": "https://justdeleteme.xyz/" }
+	]
+}
