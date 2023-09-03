@@ -16,6 +16,8 @@ I set a milestone of $150 at which point I will watch all 99 minutes of [Superfa
 
 My original goal was $250 but [Adam of omg.lol](https://adam.omg.lol) kindly donated the entire amount in one go. Then he went one step further and commited to donating 50% of profits from omg.lol for the _entire month_. So if you're an omg.lol member (or you [sign up](https://home.omg.lol/referred-by/robb) for a new account) and you renew your address you're donating to the campaign.
 
-I have moved the goal to $1000 and as generous as Adam is being, I don't want it to all come from him so if you can donate anything, even a dollar, it all helps towards an amazing cause.
+We also have two omg.lol codes up for grabs: anyone who donates $10 or more will be entered to win a five year code and whoever donates the most will win an ultra-rare lifetime code.
+
+I have moved the goal to $3000 and as generous as Adam is being, I don't want it to all come from him so if you can donate anything, even a dollar, it all helps towards an amazing cause.
 
 [Donate to the campaign here](https://rknight.me/stjude)    
