@@ -18,6 +18,6 @@ My original goal was $250 but [Adam of omg.lol](https://adam.omg.lol) kindly don
 
 We also have two omg.lol codes up for grabs: anyone who donates $10 or more will be entered to win a five year code and whoever donates the most will win an ultra-rare lifetime code.
 
-I have moved the goal to ~~$3000~~ $5000 and as generous as Adam is being, I don't want it to all come from him so if you can donate anything, even a dollar, it all helps towards an amazing cause.
+I have moved the goal to ~~$3000~~ ~~$5000~~ $10000 and as generous as Adam is being, I don't want it to all come from him so if you can donate anything, even a dollar, it all helps towards an amazing cause.
 
 [Donate to the campaign here](https://rknight.me/stjude)    
