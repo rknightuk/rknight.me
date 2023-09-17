@@ -47,6 +47,14 @@ permalink: 'projects/index.html'
 {% endfor%}
 </ul>
 
+### Relay FM/St Jude tools
+
+<ul>
+{%- for project in projects.stjude %}
+  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
+{% endfor%}
+</ul>
+
 ### Shortcuts
 
 <ul>

@@ -19,8 +19,12 @@
 	"profile": [
 		{ "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "tags": ["JS"] },
 		{ "title": "omgnow", "link": "https://omgnow.rknight.me/", "desc": "Embed your omg.lol/now page", "tags": ["JS", "PHP"] },
-		{ "title": "RecentFM", "link": "https://recentfm.rknight.me/", "desc": "Embed your now playing song from Last.fm", "tags": ["JS", "PHP"] },
-		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "tags": ["JS", "PHP"] }
+		{ "title": "RecentFM", "link": "https://recentfm.rknight.me/", "desc": "Embed your now playing song from Last.fm", "tags": ["JS", "PHP"] }
+	],
+	"stjude": [
+		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "tags": ["JS", "PHP"] },
+		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay FM for St Jude desk mat", "tags": ["JS", "PHP"] },
+		{ "title": "Coin Me, Daddy", "link": "https://coin.rknight.me/", "desc": "Help someone out who needs just one dollar to get a Relay FM for St Jude challenge coin", "tags": ["JS", "PHP"] }
 	],
 	"ddd": [
 
