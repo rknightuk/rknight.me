@@ -23,6 +23,8 @@ This attempt at generating listen stats was partially research into an idea I've
 
 The accounts, uploading files, hosting websites, is all easy enough but when you consider download costs the answer, after going over some calculations with [Zoe](https://zoeaubert.me), is no. The file egress costs (the cost of downloading the files from a CDN) is too high even for a small show.
 
+Update: I got the calculations wrong here for Bunny's pricing so it _might_ still be viable as a product although the margins are still tight.
+
 As an example, if a show has a 30mb episode and that show gets 500 downloads, that's ~15gb of egress. On [BunnyCDN](https://bunny.net) that would cost somewhere in the region of $1.50. AWS S3 is about the same. Assuming one episode a month (unlikely), that's pretty close to $20 a year.
 
 These calculations don't even take into account older episodes getting more downloads over time (they definitely will) or the show growing over time (it likely will). What about if someone decides to [listen to all 74 episodes of a show at once](https://rknight.me/three-years-of-hemispheric-views-feedback/) leading to 2-3gb of downloads in one go?
