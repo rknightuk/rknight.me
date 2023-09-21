@@ -72,7 +72,8 @@ layout: base
 
 <script>
     const expandAll = document.getElementById('expand-all')
-    expandAll.addEventListener('click', () => {
+    expandAll.addEventListener('click', (e) => {
+        e.preventDefault()
         const to = expandAll.dataset.to === 'true'
         expandAll.dataset.to = !to
         Array.from(document.getElementsByTagName('details')).forEach(d => d.open = to)
