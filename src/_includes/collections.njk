@@ -68,4 +68,15 @@ layout: base
     }
 </style>
 
+<p><small><a href="#" id="expand-all" data-to="true">Toggle All</small></a>
+
+<script>
+    const expandAll = document.getElementById('expand-all')
+    expandAll.addEventListener('click', () => {
+        const to = expandAll.dataset.to === 'true'
+        expandAll.dataset.to = !to
+        Array.from(document.getElementsByTagName('details')).forEach(d => d.open = to)
+    })
+</script>
+
 {{ content | safe }}
