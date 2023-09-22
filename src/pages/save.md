@@ -14,3 +14,4 @@ Use these referral links for services I use and we both get free stuff.
 - Simply Cook - Free box [https://simplycook.com/invite/EH0Q2K](https://simplycook.com/invite/EH0Q2K)
 - Smol Products [http://smol.refr.cc/robbknight](http://smol.refr.cc/robbknight)
 - Ooni [http://rwrd.io/4orgua6?c](http://rwrd.io/4orgua6?c) - 10% off
+- Bunny CDN [https://bunny.net?ref=b2i4y24apu](https://bunny.net?ref=b2i4y24apu)
