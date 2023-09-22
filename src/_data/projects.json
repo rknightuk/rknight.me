@@ -5,7 +5,7 @@
 		{ "title": "Custom Finder Sidebar Icons", "link": "https://github.com/rknightuk/custom-finder-sidebar-icons", "desc": "Customise your sidebar icons in Finder", "tags": ["Swift"] },
 		{ "title": "Echo", "link": "http://echo.rknight.me/", "desc": "RSS Cross Poster for Micro.blog and Mastodon", "tags": ["JS"] },
 		{ "title": "Brian Butterfield Diet Soundboard", "link": "https://treatday.rknight.me/", "desc": "Saturday is treat day", "tags": ["JS", "11ty"] },
-		{ "title": "Podcast Duration", "link": "https://podcast-duration.netlify.app", "desc": "Find out the total duration of all episodes of a podcast", "tags": ["JS", "Netlify"] },
+		{ "title": "Podcast Duration", "link": "https://podduration.rknight.me", "desc": "Find out the total duration of all episodes of a podcast", "tags": ["JS", "Netlify"] },
 		{ "title": "Defocused vs. the Movies", "link": "https://defocused-vs-the-movies.netlify.app/", "desc": "Which is longer: every episode of Defocused or the runtime of all the movies they've reviewed?", "tags": ["JS", "11ty"] },
 		{ "title": "Now API", "link": "https://github.com/rknightuk/api", "desc": "API for fetching now page information and archiving my toots ", "tags": ["JS"] },
 		{ "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "tags": ["Swift"] },
