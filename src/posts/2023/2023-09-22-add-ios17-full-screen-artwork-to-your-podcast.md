@@ -1,5 +1,5 @@
 ---
-title: Add iOS17 Full Screen Artwork to Your Podcast
+title: Add Full Screen Artwork to Your Podcast
 permalink: /add-ios17-full-screen-artwork-to-your-podcast/index.html
 date: 2023-09-22T12:18:12.741Z
 excerpt: "How (not) to add full screen artwork to the Apple Podcasts app for your podcast"
