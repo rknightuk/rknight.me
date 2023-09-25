@@ -1,5 +1,6 @@
 {
 	"current": [
+		{ "title": "KnightBot", "link": "https://knightbot.rknight.me", "desc": "Script for bots using Tracery", "tags": ["JS"] },
 		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "tags": ["JS", "AppleScript"] },
 		{ "title": "Monzo Pot Image Generator", "link": "http://potimages.rknight.me", "desc": "Generate images for your Monzo pots", "tags": ["JS", "11ty"] },
 		{ "title": "Custom Finder Sidebar Icons", "link": "https://github.com/rknightuk/custom-finder-sidebar-icons", "desc": "Customise your sidebar icons in Finder", "tags": ["Swift"] },
