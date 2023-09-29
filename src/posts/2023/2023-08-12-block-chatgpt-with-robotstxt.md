@@ -1,5 +1,5 @@
 ---
-title: Block ChatGPT with robots.txt
+title: Block ChatGPT and other AI bots with robots.txt
 permalink: /block-chatgpt-with-robotstxt/index.html
 date: 2023-08-12T09:12:43.328Z
 excerpt: "How to block ChatGPT from crawling your site with a robots.txt file"
@@ -18,12 +18,37 @@ User-agent: ChatGPT-User
 Disallow: /
 ```
 
+Update 2023-09-29: [Neil Clarke has a great post](https://neil-clarke.com/block-the-bots-that-feed-ai-models-by-scraping-your-website/) with some additional bots that should be blocked:
+
+```txt
+User-agent: CCBot
+Disallow: /
+
+User-agent: Google-Extended
+Disallow: /
+
+User-agent: Omgilibot
+Disallow: /
+```
+
+
 ### Adding a robots.txt file to Eleventy
 
 Using Eleventy's [passthrough file copy](https://www.11ty.dev/docs/copy/) we can create a `robots.txt` file and then add the following to our Eleventy config to make sure the file is copied to your built site:
 
 ```js
 eleventyConfig.addPassthroughCopy('robots.txt')
+```
+
+Alternatively you can do this with just a file and a permalink:
+
+```txt
+---
+permalink: robots.txt
+eleventyExcludeFromCollections: true
+---
+
+// user agents here
 ```
 
 And there we go. ChatGPT, in theory, should be blocked from crawling our site.
