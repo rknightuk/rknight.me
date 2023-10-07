@@ -31,6 +31,11 @@
 		{ "title": "Ruminate × omg.lol sticker", "link": "/assets/projects/ruminate-sticker.png", "desc": "Limited Edition Ruminate sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/giants-2.font\">Giants</a>, <a href=\"https://www.creativefabrica.com/product/spicy-pizza/\">Spicy Pizza</a>, and <a href=\"https://www.dafont.com/culinary-art.font\">Culinary Art</a>", "image": "ruminate-sticker.png" },
 		{ "title": "We Got Family × omg.lol sticker", "link": "/assets/projects/wgf-sticker.png", "desc": "Limited Edition We Got Family sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/niiiii-trous.font\">Niiiii-trous</a>", "image": "wgf-sticker.png" }
 	],
+	"bots": [
+		{ "title": "We Got Family", "link": "https://bugle.lol/@family", "desc": "Built with Tracery. \"I don't have <X>, I got family\"" },
+		{ "title": "Bad Movie Remakes", "link": "https://bugle.lol/@movieremakes", "desc": "Takes the top ~250 movies of all time and swaps the actors for those in the top films of the last decade. Also adds an AI-generated image" },
+		{ "title": "Brian Butterfield Restuarant Bot", "link": "https://bugle.lol/@treatday", "desc": "Built with Tracery. Generated an ad read for a new themed restaurant with a menu from the Butterfield Diet" }
+	],
 	"ddd": [
 
 	],

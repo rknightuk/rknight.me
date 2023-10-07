@@ -92,6 +92,14 @@ permalink: 'projects/index.html'
 {%- for project in projects.design %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
+### Mastodon Bots
+
+<ul>
+{%- for project in projects.bots %}
+  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
+{% endfor %}
+</ul>
+
 ### Shortcuts
 
 <ul>
