@@ -1,0 +1,15 @@
+<div class="card">
+      <div class="card__image" style="background-image: url('/assets/projects/{{ project.image }}');">
+        <div class="card__tags">
+            {%- for tag in project.tags %}
+              <div class="card__tag">
+                {{ tag }}
+              </div>
+            {% endfor%}
+          </div>
+      </div>
+      <div class="card__text">
+          <span class="card__title"><a href="{{ project.link }}">{{ project.title }}</a></span>
+          <span class="card__description">{{ project.desc | safe }}</span>
+      </div>
+  </div>

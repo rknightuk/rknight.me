@@ -1,32 +1,35 @@
 {
 	"current": [
-		{ "title": "KnightBot", "link": "https://knightbot.rknight.me", "desc": "Script for bots using Tracery", "tags": ["JS"] },
-		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "tags": ["JS", "AppleScript"] },
-		{ "title": "Monzo Pot Image Generator", "link": "http://potimages.rknight.me", "desc": "Generate images for your Monzo pots", "tags": ["JS", "11ty"] },
-		{ "title": "Custom Finder Sidebar Icons", "link": "https://github.com/rknightuk/custom-finder-sidebar-icons", "desc": "Customise your sidebar icons in Finder", "tags": ["Swift"] },
-		{ "title": "Echo", "link": "http://echo.rknight.me/", "desc": "RSS Cross Poster for Micro.blog and Mastodon", "tags": ["JS"] },
-		{ "title": "Brian Butterfield Diet Soundboard", "link": "https://treatday.rknight.me/", "desc": "Saturday is treat day", "tags": ["JS", "11ty"] },
-		{ "title": "Podcast Duration", "link": "https://podduration.rknight.me", "desc": "Find out the total duration of all episodes of a podcast", "tags": ["JS", "Netlify"] },
-		{ "title": "Defocused vs. the Movies", "link": "https://defocused-vs-the-movies.netlify.app/", "desc": "Which is longer: every episode of Defocused or the runtime of all the movies they've reviewed?", "tags": ["JS", "11ty"] },
-		{ "title": "Now API", "link": "https://github.com/rknightuk/api", "desc": "API for fetching now page information and archiving my toots ", "tags": ["JS"] },
-		{ "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "tags": ["Swift"] },
-		{ "title": "Mac 30th Anniversary Icons", "link": "https://rknightuk.github.io/mac-30-font-svg/", "desc": "", "tags": ["11ty"] },
-		{ "title": "Brickset CSV to JSON script", "link": "https://github.com/rknightuk/brickset-csv-to-json", "desc": "", "tags": ["JS"] },
-		{ "title": "Back to the Future drinking game", "link": "https://rknightuk.github.io/back-to-the-future-drinking-game/", "desc": "" },
-		{ "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Voiceover work for a game during HackPompey" },
-		{ "title": "Micro Blog Tools", "link": "/projects/microblog/", "desc": "All the Micro.blog-related things I've made" },
-		{ "title": "Stig Quote Generator", "link": "https://rknightuk.github.io/stig-quotes/", "desc": "" }
+		{ "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.png", "tags": ["11ty", "Audio"] },
+		{ "title": "We Got Family", "link": "https://wegot.family", "desc": "A Fast and Furious podcast", "image": "wegotfamily.png", "tags": ["11ty", "Audio"] },
+		{ "title": "KnightBot", "link": "https://knightbot.rknight.me", "desc": "Script for bots using Tracery", "image": "knightbot.png", "tags": ["JS"] },
+		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.png", "tags": ["JS", "AppleScript", "Python"] },
+		{ "title": "Monzo Pot Image Generator", "link": "http://potimages.rknight.me", "desc": "Generate images for your Monzo pots", "image": "potimages.png", "tags": ["JS", "11ty"] },
+		{ "title": "Intersect", "link": "https://intersect.rknight.me", "desc": "Everything I know. Mostly.", "image": "intersect.png", "tags": ["JS", "11ty"] },
+		{ "title": "Custom Finder Sidebar Icons", "link": "https://github.com/rknightuk/custom-finder-sidebar-icons", "desc": "Customise your sidebar icons in Finder", "image": "sidebar.png", "tags": ["Swift"] },
+		{ "title": "Echo", "link": "http://echo.rknight.me/", "desc": "RSS Cross Poster for Micro.blog and Mastodon", "image": "echo.png", "tags": ["JS"] },
+		{ "title": "Brian Butterfield Diet Soundboard", "link": "https://treatday.rknight.me/", "desc": "Saturday is treat day", "image": "treatday.png", "tags": ["JS", "11ty"] },
+		{ "title": "Podcast Duration", "link": "https://podduration.rknight.me", "desc": "Find out the total duration of all episodes of a podcast", "image": "podduration.png", "tags": ["JS"] },
+		{ "title": "Defocused vs. the Movies", "link": "https://defocused-vs-the-movies.netlify.app/", "desc": "Which is longer: every episode of Defocused or the runtime of all the movies they've reviewed?", "image": "dvsm.png", "tags": ["JS", "11ty"] },
+		{ "title": "Now API", "link": "https://github.com/rknightuk/api", "desc": "API for fetching now page information and archiving my toots ", "image": "nowapi.png", "tags": ["JS", "Python"] },
+		{ "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "image": "trackerzapper.png", "tags": ["Swift"] },
+		{ "title": "Mac 30th Anniversary Icons", "link": "https://rknightuk.github.io/mac-30-font-svg/", "desc": "SVG icons extracted from the 30th Anniversary Mac Font", "image": "mac-30.png", "tags": ["11ty"] },
+		{ "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Voiceover work for a game during HackPompey", "image": "blahbarian.png", "tags": ["Audio"] }
 	],
 	"profile": [
-		{ "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "tags": ["JS"] },
-		{ "title": "omgnow", "link": "https://omgnow.rknight.me/", "desc": "Embed your omg.lol/now page", "tags": ["JS", "PHP"] },
-		{ "title": "RecentFM", "link": "https://recentfm.rknight.me/", "desc": "Embed your now playing song from Last.fm", "tags": ["JS", "PHP"] }
+		{ "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.png", "tags": ["JS"] },
+		{ "title": "omgnow", "link": "https://omgnow.rknight.me/", "desc": "Embed your omg.lol/now page", "image": "omgnow.png", "tags": ["JS", "PHP"] },
+		{ "title": "RecentFM", "link": "https://recentfm.rknight.me/", "desc": "Embed your now playing song from Last.fm", "image": "recentfm.png", "tags": ["JS", "PHP"] }
 	],
 	"stjude": [
-		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "tags": ["JS", "PHP"] },
-		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay FM for St Jude desk mat", "tags": ["JS", "PHP"] },
-		{ "title": "Coin Me, Daddy", "link": "https://coinme.dad/", "desc": "Help someone out who needs just one dollar to get a Relay FM for St Jude challenge coin", "tags": ["JS", "PHP"] },
-		{ "title": "Donation Treats", "link": "https://donationtreats.rknight.me/", "desc": "Donate some money, get a treat", "tags": ["JS", "PHP"] }
+		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "image": "septembed.png", "tags": ["JS", "PHP"] },
+		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay FM for St Jude desk mat", "image": "deskmathelp.png", "tags": ["JS", "PHP", "11ty"] },
+		{ "title": "Coin Me, Daddy", "link": "https://coinme.dad/", "desc": "Help someone out who needs just one dollar to get a Relay FM for St Jude challenge coin", "image": "coinmedad.png", "tags": ["JS", "PHP"] },
+		{ "title": "Donation Treats", "link": "https://donationtreats.rknight.me/", "desc": "Donate some money, get a treat", "image": "donationtreats.png", "tags": ["JS", "PHP"] }
+	],
+	"design": [
+		{ "title": "Ruminate × omg.lol sticker", "link": "/assets/projects/ruminate-sticker.png", "desc": "Limited Edition Ruminate sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/giants-2.font\">Giants</a>, <a href=\"https://www.creativefabrica.com/product/spicy-pizza/\">Spicy Pizza</a>, and <a href=\"https://www.dafont.com/culinary-art.font\">Culinary Art</a>", "image": "ruminate-sticker.png" },
+		{ "title": "We Got Family × omg.lol sticker", "link": "/assets/projects/wgf-sticker.png", "desc": "Limited Edition We Got Family sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/niiiii-trous.font\">Niiiii-trous</a>", "image": "wgf-sticker.png" }
 	],
 	"ddd": [
 
@@ -34,7 +37,11 @@
 	"playlists": [
 
 	],
-	"legacy": [
+	"other": [
+		{ "title": "Brickset CSV to JSON script", "link": "https://github.com/rknightuk/brickset-csv-to-json", "desc": "", "tags": ["JS"] },
+		{ "title": "Back to the Future drinking game", "link": "https://rknightuk.github.io/back-to-the-future-drinking-game/", "desc": "" },
+		{ "title": "Micro Blog Tools", "link": "/projects/microblog/", "desc": "All the Micro.blog-related things I've made", "tags": ["JS", "PHP", "Hugo"] },
+		{ "title": "Stig Quote Generator", "link": "https://rknightuk.github.io/stig-quotes/", "desc": "" },
 		{ "title": "Worst popup ever", "link": "https://github.com/rknightuk/worst-popup-ever" },
 		{ "title": "Who's That Emoji?", "link": "https://rknightuk.github.io/whos-that-emoji/" },
 		{ "title": "Bonanza! Coffee", "link": "https://rknightuk.github.io/bonanzacoffee/" },

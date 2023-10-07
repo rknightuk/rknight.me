@@ -5,61 +5,106 @@ templateEngineOverride: njk,md
 permalink: 'projects/index.html'
 ---
 
-### Podcasts
-
 <style>
-  .projects-podcasts {
+
+  .cards {
     display: grid;
-    grid-template-columns: 1fr 1fr;
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 20px;
     margin-bottom: 20px;
   }
 
-  .projects-podcasts img {
+  .card {
+    margin-top: 10px;
+    max-width: 100%;
+    border: 1px solid black;
     box-shadow: 3px 3px var(--body-text);
+  }
+
+  .card__image {
+    height: 200px;
+    background-size: cover;
+    background-color: #e1e8ed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+  }
+
+  .card__tags {
+    width: 100%;
+    display: flex;
+    padding: 5px;
+    grid-gap: 3px;
+  }
+
+  .card__tag {
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.8em;
+    padding: 3px 5px;
+    box-shadow: 2px 2px 2px white;
+  }
+
+  .card__text {
+    border-top: 1px solid black;
+    padding: 5px 10px;
+    font-size: 0.9em;
+  }
+
+  .card__title {
+    display: block;
+    font-weight: bold;
+  }
+
+  .card__description {
+    display: block;
+    font-style: italic;
+  }
+
+  .card__link {
+    display: block;
   }
 </style>
 
-<div class="projects-podcasts">
-  <div>
-    <img src="https://rknightuk.s3.amazonaws.com/site/podcast-ruminate.png">
-    <p><a href="https://ruminatepodcast.com">Ruminate</a>: A podcast about what's on our minds</p>
-  </div>
-  <div>
-    <img src="https://rknightuk.s3.amazonaws.com/site/podcast-family.png">
-    <p><a href="https://wegot.family">We Got Family</a>: A Fast and Furious podcast</p>
-  </div>
-</div>
-
 ### Current
 
-<ul>
-{%- for project in projects.current %}
-  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
-{% endfor %}
-</ul>
+<div class="cards">
+{%- for project in projects.current %}{% include 'project-card.njk' %}{% endfor%}
+</div>
 
 ### omg.lol/Embed Tools
 
-<ul>
-{%- for project in projects.profile %}
-  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
-{% endfor%}
-</ul>
+<div class="cards">
+{%- for project in projects.profile %}{% include 'project-card.njk' %}{% endfor%}
+</div>
 
-### Relay FM/St Jude tools
+### Relay FM for St Jude Fundraising
 
-<ul>
-{%- for project in projects.stjude %}
-  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
-{% endfor%}
-</ul>
+<div class="cards">
+{%- for project in projects.stjude %}{% include 'project-card.njk' %}{% endfor%}
+</div>
+
+### Design
+
+<div class="cards">
+{%- for project in projects.design %}{% include 'project-card.njk' %}{% endfor%}
+</div>
 
 ### Shortcuts
 
 <ul>
 {%- for post in collections.shortcuts %}
 <li><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ul>
+
+### Misc
+
+<ul>
+{%- for project in projects.other %}
+  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
 {% endfor %}
 </ul>
 
@@ -76,32 +121,6 @@ permalink: 'projects/index.html'
 - [Songs where the song is about how long the song is](https://music.apple.com/gb/playlist/songs-where-the-song-is-about-how-long-the-song-is/pl.u-GXVZCZJ7ad8)
 - [Songs that use "fit" in the lyrics in the British sense](https://music.apple.com/gb/playlist/songs-that-use-fit-in-the-lyrics-in-the-british-sense/pl.u-NqqkTm2Yjap)
 
-### Design
-
-<style>
-  .design-stickers {
-    max-width: 300px;
-    {# margin: 0 auto; #}
-    margin-bottom: 5px;
-  }
-</style>
-
-<img class="design-stickers" src="https://rknightuk.s3.amazonaws.com/site/ruminate-rounded.png">
-
-- Limited Edition Ruminate sticker for [St Jude 2023](https://rknight.me/st-jude-2023-final-numbers/)
-
-<img class="design-stickers" src="https://rknightuk.s3.amazonaws.com/site/wgf-rounded.png">
-
-- Limited Edition We Got Family sticker for [St Jude 2023](https://rknight.me/st-jude-2023-final-numbers/)
-
-### Legacy
-
-<ul>
-{%- for project in projects.legacy %}
-  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
-{% endfor %}
-</ul>
-
 [Site Version History](/versions)
 
 <details>
@@ -111,8 +130,6 @@ permalink: 'projects/index.html'
     <ul>  
       <li><code>old name domain 1, redirects here</code></li>
       <li><code>old name domain 2, redirects here</code></li>
-      <li><a href="https://coin.rknight.me"><code>coin.rknight.me</code></a></li>
-      <li><a href="https://deskmat.rknight.me"><code>deskmat.rknight.me</code></a></li>
       <li><a href="https://septembed.rknight.me"><code>septembed.rknight.me</code></a></li>
       <li><a href="https://donationtreats.rknight.me"><code>donationtreats.rknight.me</code></a></li>
       <li><a href="https://donationdaddy.rknight.me"><code>donationdaddy.rknight.me</code></a></li>
