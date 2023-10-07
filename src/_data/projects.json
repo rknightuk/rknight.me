@@ -14,7 +14,7 @@
 		{ "title": "Now API", "link": "https://github.com/rknightuk/api", "desc": "API for fetching now page information and archiving my toots ", "image": "nowapi.png", "tags": ["JS", "Python"] },
 		{ "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "image": "trackerzapper.png", "tags": ["Swift"] },
 		{ "title": "Mac 30th Anniversary Icons", "link": "https://rknightuk.github.io/mac-30-font-svg/", "desc": "SVG icons extracted from the 30th Anniversary Mac Font", "image": "mac-30.png", "tags": ["11ty"] },
-		{ "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Cheif noise maker for a game during HackPompey", "image": "blahbarian.png", "tags": ["Audio"] }
+		{ "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Chief noise maker for a game during HackPompey", "image": "blahbarian.png", "tags": ["Audio"] }
 	],
 	"profile": [
 		{ "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.png", "tags": ["JS"] },
