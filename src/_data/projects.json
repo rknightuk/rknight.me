@@ -23,7 +23,7 @@
 	],
 	"stjude": [
 		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "image": "septembed.png", "tags": ["JS", "PHP"] },
-		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay FM for St Jude desk mat", "image": "deskmathelp.png", "tags": ["JS", "PHP", "11ty"] },
+		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay FM for St Jude desk mat", "image": "deskmathelp.png", "tags": ["JS", "PHP"] },
 		{ "title": "Coin Me, Daddy", "link": "https://coinme.dad/", "desc": "Help someone out who needs just one dollar to get a Relay FM for St Jude challenge coin", "image": "coinmedad.png", "tags": ["JS", "PHP"] },
 		{ "title": "Donation Treats", "link": "https://donationtreats.rknight.me/", "desc": "Donate some money, get a treat", "image": "donationtreats.png", "tags": ["JS", "PHP"] }
 	],
