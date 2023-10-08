@@ -100,11 +100,9 @@ permalink: 'projects/index.html'
 
 ### Mastodon Bots
 
-<ul>
-{%- for project in projects.bots %}
-  <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
-{% endfor %}
-</ul>
+<div class="cards">
+{%- for project in projects.bots %}{% include 'project-card.njk' %}{% endfor%}
+</div>
 
 ### Shortcuts
 
