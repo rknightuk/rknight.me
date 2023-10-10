@@ -14,7 +14,16 @@ module.exports = async function() {
     const res = await fetch("https://raw.githubusercontent.com/rknightuk/alfred-workflows/main/api.json")
     const json = await res.json()
     const data = {
-        workflows: json
+        workflows: json.map(w => {
+            return {
+                title: w.name,
+                desc: w.description,
+                link: w.link,
+                image: w.screenshot,
+                tags: [ `v${w.version}` ],
+                icon: w.icon,
+            }
+        })
     }
     await asset.save(data, "json")
 

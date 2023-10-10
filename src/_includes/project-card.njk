@@ -1,6 +1,11 @@
 <div class="card">
-      <div class="card__image" style="background-image: url('/assets/projects/{{ project.image }}');">
+      <div class="card__image" style="background-image: url('{{ imagePrefix }}{{ project.image }}');">
         <div class="card__tags">
+          {% if project.icon %}
+            <div class="card__icon">
+              <img src="{{ project.icon }}">
+            </div>
+          {% endif %}
             {%- for tag in project.tags %}
               <div class="card__tag">
                 {{ tag }}

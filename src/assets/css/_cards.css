@@ -1,0 +1,76 @@
+.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-gap: 20px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 600px) {
+    .cards {
+        grid-template-columns: repeat(1, 1fr);
+    }
+}
+
+.card {
+    margin-top: 10px;
+    max-width: 100%;
+    border: 1px solid black;
+    box-shadow: 3px 3px var(--body-text);
+    position: relative;
+}
+
+.card__image {
+    height: 200px;
+    background-size: cover;
+    background-color: #e1e8ed;
+    background-repeat: no-repeat;
+    background-position: 50%;
+    padding: 5px;
+}
+
+.card__icon {
+    width: 28px;
+    height: 28px;
+}
+
+.card__tags {
+    width: 100%;
+    display: flex;
+    grid-gap: 3px;
+}
+
+.card__tag {
+    background-color: #333333;
+    color: white;
+    border-radius: 5px;
+    text-align: center;
+    font-family: 'Source Code Pro', monospace;
+    font-size: 0.8em;
+    padding: 3px 5px;
+    box-shadow: 2px 2px 2px white;
+}
+
+.card__text {
+    border-top: 1px solid black;
+    padding: 5px 10px;
+    font-size: 0.9em;
+}
+
+.card__title {
+    display: block;
+    font-weight: bold;
+}
+
+.card__description {
+    display: block;
+    font-style: italic;
+}
+
+.card__link {
+    display: block;
+}
+
+.cards.workflows .card__image {
+    background-size: contain;
+    background-origin: content-box;
+}

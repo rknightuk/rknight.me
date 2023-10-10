@@ -1,11 +1,10 @@
 ---
 title: Alfred Workflows
 layout: base
-css: workflows
 permalink: 'alfred-workflows/index.html'
 ---
 
-<div class="wf-header-img">
+<div style="margin: 20px 0;">
 	<img src="/assets/img/workflows.png">
 </div>
 
@@ -26,20 +25,6 @@ Some useful resources for building your own Alfred workflows:
 	<li><a href="https://www.alfredforum.com/topic/9873-how-to-package-a-workflow-via-the-command-line/">A guide on how to programatically export workflows</a></li>
 </ul>
 
-{%- for workflow in alfred.workflows %}
-	<div class="wf-wrap" id="{{ workflow.bundleid }}">
-		<div class="wf-head-icon">
-			<img class="wf-icon" src="{{ workflow.icon }}">
-		</div>
-		<div class="wf-head-info">
-			<h3><a href="#{{ workflow.bundleid }}">#</a> {{ workflow.name }}</h3>
-			{% if workflow.description %}
-				<p><em>{{ workflow.description }}</em></p>
-			{% endif %}
-			<p><a href="{{ workflow.link }}">Download version {{ workflow.version }}</a></p>
-		</div>
-	</div>
-	{% if workflow.screenshot %}
-		<img class="wf-screenshot" src="{{ workflow.screenshot }}">
-	{% endif %}
-{% endfor %}
+<div class="cards workflows">
+{%- for project in alfred.workflows %}{% include 'project-card.njk' %}{% endfor%}
+</div>
