@@ -28,7 +28,7 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
 - [Alfred](https://www.alfredapp.com/) with many [workflows](/alfred-workflows)
 - [TablePlus](https://tableplus.com/) for database management
 - [Obsidian](https://obsidian.md)
-- [Dato Calendar](https://sindresorhus.com/dato)
+- [Fantastical](https://flexibits.com/fantastical) for calendars. I used [Dato](https://sindresorhus.com/dato) for a while but it just wasn't as good for what I need
 - [Batteries for Mac](https://www.fadel.io/batteries)
 - [SoundSource](https://rogueamoeba.com/soundsource/)
 - [Gitify](https://www.gitify.io/) for GitHub notifications in the menu bar
@@ -54,10 +54,10 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
 - [NetNewsWire](https://netnewswire.com/) for RSS
 - [Ivory](https://tapbots.com/ivory/) for Mastodon
 - [Overcast](https://overcast.fm/) for podcasts
-- [ntfy.sh](https://ntfy.sh/) for site build notifications
+- [Fantastical](https://flexibits.com/fantastical) for calendars
 - [Marvis Pro](https://apps.apple.com/app/marvis-pro/id1447768809) for music
 - [status.log](https://apps.apple.com/gb/app/status-log/id6444921793) for updating status.lol
-- [Bean](https://lemmy.world/c/bean) for Lemmy
+- [ntfy.sh](https://ntfy.sh/) for site build notifications
 
 <h3><svg class="icon"><use xlink:href="#macmini"></use></svg>Mac Mini</h3>
 
