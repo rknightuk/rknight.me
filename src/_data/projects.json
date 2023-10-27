@@ -3,6 +3,7 @@
 		{ "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.png", "tags": ["11ty", "Audio"] },
 		{ "title": "We Got Family", "link": "https://wegot.family", "desc": "A Fast and Furious podcast", "image": "wegotfamily.png", "tags": ["11ty", "Audio"] },
 		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.png", "tags": ["JS", "AppleScript", "Python"] },
+		{ "title": "VLCNR", "link": "https://vlcnr.rknight.me", "desc": "The original VLCNR soundboard revived from the dead", "image": "vlcnr.png" },
 		{ "title": "Bugle", "link": "https://bugle.lol", "desc": "A minimal ActivityPub server built with Laravel", "image": "bugle.png", "tags": ["PHP", "Laravel"] },
 		{ "title": "Echo", "link": "http://echo.rknight.me/", "desc": "RSS Cross Poster for Micro.blog and Mastodon", "image": "echo.png", "tags": ["JS"] },
 		{ "title": "Brian Butterfield Diet Soundboard", "link": "https://treatday.rknight.me/", "desc": "Saturday is treat day", "image": "treatday.png", "tags": ["JS", "11ty"] },
