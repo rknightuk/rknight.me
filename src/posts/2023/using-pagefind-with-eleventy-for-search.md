@@ -35,7 +35,7 @@ PageFind works by scanning a bunch of HTML files and looking for [one of the `da
 We want to run the PageFind CLI _after_ the site has been built so we use the [`after` Eleventy event](https://www.11ty.dev/docs/events/#eleventy.after) and run the command with [`execSync`](https://nodejs.org/api/child_process.html#child_processexecsynccommand-options) on all HTML files in the built site:
 
 ```js
-const { execSync } = require('child_process')
+const { execSync } = require('child_process').execSync
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.on('eleventy.after', () => {
@@ -43,8 +43,6 @@ module.exports = function(eleventyConfig) {
   })
 }
 ```
-
-**Note**: if you haven’t already, you must install `child_process`: `npm i child_process`. Once you have done that, add the line `const execSync = require('child_process').execSync;` somewhere before the function, in your `.eleventy.js`.
 
 **Update 24/07/23**: If you have a lot (read: ~3000) of pages like I do then you might find the build crashes trying to build the index. If that's the case, do the pagefind command _after_ your Eleventy site build script has finished instead of in the `after` event.
 
