@@ -70,6 +70,11 @@ module.exports = {
         filtered.forEach(m => {
             if (data[m['wm-property']])
             {
+                const exists = data[m['wm-property']].find(wm => {
+                    return wm['wm-id'] === m['wm-id']
+                })
+                if (exists) return
+
                 const isReply = m['wm-property'] === 'in-reply-to'
                 const isValidReply = isReply && hasRequiredFields(m)
                 if (isReply)
