@@ -32,3 +32,5 @@ Inspired by [Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemis
 - **Music**: Apple Music
 - **Podcasts**: Overcast
 - **Password Management**: 1Password
+
+[Read more app default posts](https://defaults.rknight.me/)
