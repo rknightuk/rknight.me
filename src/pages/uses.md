@@ -6,6 +6,8 @@ permalink: 'uses/index.html'
 
 All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tech/).
 
+![My Desk](https://rknightuk.s3.amazonaws.com/site/desk-2023.jpg)
+
 <h3><svg class="icon"><use xlink:href="#maccy"></use></svg>MacBook Pro</h3>
 
 #### Hardware
