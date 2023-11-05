@@ -8,29 +8,81 @@ layout: post
 
 Inspired by [Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemisphericviews.com/097) and this [post by Gabz](https://gabz.blog/2023/11/03/my-defaults.html) herein lies all the apps I use in the various categories as written by Andrew:
 
-- **Mail Client**: Mail.app
-- **Mail Server**: iCloud with custom domain
-- **Notes**: Notes.app, Obsidian
-- **To-Do**: Reminders
-- **iPhone Photo Shooting**: iOS Camera
-- **Photo Management**: Photos.app
-- **Calendar**: Fantastical
-- **Cloud file storage**: iCloud Drive
-- **RSS**: NetNewsWire
-- **Contacts**: Contacts.app
-- **Browser**: Safari, Chrome for development/work
-- **Chat**: iMessage, WhatsApp, Discord
-- **Bookmarks**: [The Intersect](https://intersect.rknight.me)
-- **Read It Later**: Omnivore
-- **Word Processing**: Sublime Text
-- **Spreadsheets**: Numbers
-- **Presentations**: Keynote
-- **Shopping Lists**: Reminders
-- **Meal Planning**: n/a
-- **Budgeting & Personal Finance**: A spreadsheet
-- **News**: Mastodon, BBC News
-- **Music**: Apple Music
-- **Podcasts**: Overcast
-- **Password Management**: 1Password
+- **📨 Mail Client**
+    - Mail.app 
+    - Score: 1
+- **📮 Mail Server**
+    - iCloud with custom domain 
+    - Score: 1
+- **📝 Notes**
+    - Notes.app, Obsidian 
+    - Score: 2
+- **✅ To-Do**
+    - Reminders 
+    - Score: 1
+- **📷 iPhone Photo Shooting**
+    - iOS Camera 
+    - Score: 1
+- **🟦 Photo Management**
+    - Photos.app 
+    - Score: 1
+- **📆 Calendar**
+    - Fantastical 
+    - Score: 2
+- **📁 Cloud File Storage**
+    - iCloud Drive 
+    - Score: 1
+- **📖 RSS**
+    - NetNewsWire 
+    - Score: 2
+- **🙍🏻‍♂️ Contacts**
+    - Contacts.app 
+    - Score: 1
+- **🌐 Browser**
+    - Safari, Chrome for development/work 
+    - Score: 2
+- **💬 Chat**
+    - Discord 
+    - Score: 2
+- **🔖 Bookmarks**
+    - [The Intersect](https://intersect.rknight.me)
+    - Score: 2
+- **📑 Read It Later**
+    - Omnivore 
+    - Score: 3
+- **📜 Word Processing**
+    - Sublime Text 
+    - Score: 3
+- **📈 Spreadsheets**
+    - Numbers 
+    - Score: 1
+- **📊 Presentations**
+    - Keynote 
+    - Score: 1
+- **🛒 Shopping Lists**
+    - Reminders 
+    - Score: 1
+- **🍴 Meal Planning**
+    - n/a 
+    - Score: 0
+- **💰 Budgeting and Personal Finance**
+    - A spreadsheet 
+    - Score: 2
+- **📰 News**
+    - Mastodon, BBC News 
+    - Score: 2
+- **🎵 Music**
+    - Apple Music 
+    - Score: 1
+- **🎤 Podcasts**
+    - Overcast 
+    - Score: 2
+- **🔐 Password Management**
+    - 1Password 
+    - Score: 2
+- **🔔 [Hard Quiz](https://en.wikipedia.org/wiki/Hard_Quiz) Special Topic Interlude (Something for  Which I’d Be the Subject Matter Expert in the Room)**
+    - Back to the Future
+
+Final score: 37
 
 [Read more app default posts](https://defaults.rknight.me/)
