@@ -2,7 +2,7 @@
 title: Please, Expose your RSS
 permalink: /please-expose-your-rss/index.html
 date: 2023-11-06T13:11:20.440Z
-excerpt: ""
+excerpt: "I noticed a lot of people don't expose their RSS feeds"
 layout: post
 ---
 
