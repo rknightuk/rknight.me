@@ -22,6 +22,9 @@ Like the standard link, a lot of sites were also missing this. This is (at least
 
 ```html
 <link rel="alternate" type="application/rss+xml" title="My Cool Website" href="https://example.com/feed.xml" />
+
+<!-- use application/atom+xml for an atom feed -->
+<link rel="alternate" type="application/atom+xml" title="My Cool Website" href="https://example.com/atom.xml" />
 ```
 
 If you have multiple feeds, you can have more than one `link` tag that links to those feeds as well. For example, say you have a [JSON feed](https://www.jsonfeed.org) and a podcast feed you want to link to:
