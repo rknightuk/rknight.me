@@ -63,7 +63,7 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
 
 <h3><svg class="icon"><use xlink:href="#macmini"></use></svg>Mac Mini</h3>
 
-- 2010 8GB/500GB
+- 2014 i5/16GB/1TB
 - 2 × 2TB external hard drives
 - [Plex](https://www.plex.tv/en-gb/)
 
