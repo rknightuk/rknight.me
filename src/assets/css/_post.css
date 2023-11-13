@@ -1,0 +1,26 @@
+.post-meta {
+    margin-bottom: 30px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    grid-gap: 10px;
+}
+
+.post-meta div {
+    display: flex;
+    align-items: center;
+    font-size: 0.9em;
+    font-family: var(--cr);
+}
+
+.post-meta div svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}

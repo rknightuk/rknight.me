@@ -2,14 +2,16 @@
 layout: base
 ---
 
-<div class="post-date">{{ page.date | isoDateOnly }}</div>
-
 <span class="post" data-pagefind-body>
 	{{ content | safe }}
 </span>
 
-<footer>
-    <p><a href="https://social.lol/@robb">Follow me on Mastodon</a> or <a href="/subscribe">Subscribe with RSS</a></p>
+<footer class="callout">
+    <p><a href="https://social.lol/@robb"><svg class="icon">
+        <use xlink:href="#mastodon"></use>
+    </svg>Follow me on Mastodon</a> or <a href="/subscribe"><svg class="icon">
+        <use xlink:href="#rss"></use>
+    </svg>Subscribe with RSS</a></p>
 </footer>
 
 {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}

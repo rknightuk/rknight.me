@@ -1,11 +1,19 @@
 ---
 title: Subscribe
+subtitle: "Don't forget to <s>smash that bell fam</s> use open web protocols to get the latest updates"
 layout: base
 permalink: 'subscribe/index.html'
 ---
 
-- Long posts: [XML](/feed.xml) or [JSON Feed](/feed.json)
-- Micro posts: [XML](https://social.lol/@robb.rss)
-- Mastodon:
-    - Find me on [social.lol/@robb](https://social.lol/@robb)
-    - Search for `robb@rknight.me` on Mastodon
+You can subscribe to my posts using RSS with the following feeds:
+
+- Long posts: [RSS](/feed.xml) or [JSON Feed](/feed.json)
+- Micro posts: [RSS](https://social.lol/@robb.rss)
+
+To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
+
+I also always toot my new posts on Mastodon:
+
+- Find me on [social.lol/@robb](https://social.lol/@robb)
+- Search for `robb@rknight.me` on Mastodon
+

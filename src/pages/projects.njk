@@ -1,13 +1,21 @@
 ---
 title: Projects
+subtitle: "All of the projects I've worked on. Most of the source for them can be found on [my GitHub](https://github.com/rknightuk)."
 layout: base
 templateEngineOverride: njk,md
 permalink: 'projects/index.html'
+wide: true
 ---
 
-### Current
-
 {% set imagePrefix = '/assets/projects/' %}
+
+### Podcasts
+
+<div class="cards">
+{%- for project in projects.podcasts %}{% include 'project-card.njk' %}{% endfor%}
+</div>
+
+### Current
 
 <div class="cards">
 {%- for project in projects.current %}{% include 'project-card.njk' %}{% endfor%}
@@ -36,6 +44,8 @@ permalink: 'projects/index.html'
 <div class="cards">
 {%- for project in projects.bots %}{% include 'project-card.njk' %}{% endfor%}
 </div>
+
+</div><div class="container container-sm">
 
 ### Shortcuts
 
@@ -109,3 +119,4 @@ permalink: 'projects/index.html'
   </ul>
     
 </details>
+</div>

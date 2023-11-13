@@ -1,5 +1,6 @@
 ---
 title: Blog Archive
+subtitle: "Subscribe to get new posts [via RSS](/subscribe)"
 layout: base
 permalink: 'blog/index.html'
 ---
@@ -20,9 +21,7 @@ permalink: 'blog/index.html'
         {% set started = true %}
     {% endif %}
 
-    <li>
-		<span class="list-post-date">{{ post.data.date | monthDay }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
-	</li>
+    <li><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></li>
 
     {% set currentYear = postYear %}
 {% endfor %}

@@ -13,9 +13,6 @@
 
         <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title" charset="utf-8">
 		<link rel="stylesheet" href="/assets/highlight.css" type="text/css" media="screen" title="no title" charset="utf-8">
-		{% if css %}
-			<link rel="stylesheet" href="/assets/{{ css }}.css" type="text/css" media="screen" title="no title" charset="utf-8">
-		{%  endif %}
 
         <link rel="alternate" type="application/rss+xml" title="Robb Knight RSS Feed" href="https://rknight.me/feed.xml" />
         <link rel="alternate" type="application/json" title="Robb Knight JSON Feed" href="https://rknight.me/feed.json" />
@@ -49,73 +46,105 @@
         <a style="display: none;" href="https://github.com/rknightuk" rel="me">github.com/rknightuk</a>
         <a style="display: none;" href="https://proven.lol/aaecd5">proven.lol/aaecd5</a>
 
-		<header>
-			<div class="main-header"><a href="/">Robb Knight</a></div>
-            <div class="social-links">
-                <a href="https://social.lol/@robb" class="social-masto">
-                    <svg class="icon">
-                        <use xlink:href="#mastodon"></use>
-                    </svg>
-                </a>
-                <a href="https://github.com/rknightuk" class="social-gh">
-                    <svg class="icon">
-                        <use xlink:href="#github"></use>
-                    </svg>
-                </a>
-                <a href="/subscribe" class="social-subscribe">
-                    <svg class="icon">
-                        <use xlink:href="#rss"></use>
-                    </svg>
-                </a>
+        <header class="main">
+            <div class="container">
+                <div class="main__title">
+                    <a href="/">
+                        <div class="logo">
+                            <svg class="icon">
+                                <use xlink:href="#logo"></use>
+                            </svg>
+                        </div>
+                        <h1>Robb<span class="fullstop">.</span> <span class="surname">Knight.</span></h1>
+                    </a>
+                </div>
+                <div class="main__links">
+                    <a href="https://social.lol/@robb">
+                        <svg class="icon">
+                            <use xlink:href="#mastodon"></use>
+                        </svg>
+                        <span>Mastodon</span>
+                    </a>
+                    <a href="/subscribe">
+                        <svg class="icon">
+                            <use xlink:href="#rss"></use>
+                        </svg>
+                        <span>RSS</span>
+                    </a>
+                </div>
             </div>
-		</header>
+        </header>
 
-		<div class="nav">
-			<div class="nav__list">
-				<a class="nav__list--item box" href="/blog/">Blog</a>
+        <nav class="main">
+            <div class="container">
+                <a href="/blog">Blog</a>
+                <a href="/micro">Microblog</a>
+                <a href="/log">Log</a>
+                <a href="/projects">Projects</a>
+                <a href="/collections">Collections</a>
+                <a href="/now">/now</a>
+                <a href="/uses">/uses</a>
+                <a href="/sitemap">Sitemap</a>
+            </div>
+        </nav>
 
-                <a class="nav__list--item box" href="/micro">Microblog</a>
+        <section class="block">
+            <div class="container container-sm">
+                {% if homepage %}
+                    <h2>👋 Ahoy there, I'm Robb</h2>
+                    {% include 'homepage_header.njk' %}
+                {% else %}
+                    <h2>{{ title }}</h2>
+                    {% if subtitle %}<p>{{ subtitle | mdToHtml | safe }}</p>{% endif %}
+                {% endif %}
 
-                <a class="nav__list--item box" href="/log">Log</a>
+                {% if layout == 'post' %}
+                    <div class="post-meta">
+                        <div>
+                            <svg class="icon">
+                                <use xlink:href="#calendar"></use>
+                            </svg>
+                            {{ page.date | postDate }}
+                        </div>
+                    </div>
+                {% endif %}
+            </div>
+        </section>
 
-                <a class="nav__list--item box" href="/projects/">Projects</a>
+        {% if homepage %}
+            {% include 'homepage_blocks.njk' %}
+        {% endif %}
 
-                <a class="nav__list--item box" href="/collections/">Collections</a>
+        <main>
+            <div class="
+                container
+                {% if wide %}{% else %}container-sm{% endif %}
+            ">
+                {{ content | safe }}
+            </div>
+        </main>
 
-                <a class="nav__list--item box" href="/now">/now</a>
+        <div class="container container-sm">
+            <hr>
+        </div>
 
-                <a class="nav__list--item box" href="/uses/">/uses</a>
-
-                <a class="nav__list--item box" href="/save">/Save</a>
-
-                <a class="nav__list--item box" href="/search">Search</a>
-
-                <a class="nav__list--item box" href="https://intersect.rknight.me/">Wiki</a>
-			</div>
-		</div>
-
-		<div class="box main-content">
-			{% if hidetitle %}
-			{% else %}
-				<h2>{{ title }}</h2>
-			{% endif %}
-			{{ content | safe }}
-		</div>
-
-		<footer>
-            <div class="box">
+        <footer class="main">
+            <div>
                 <p class="footer-links">
-                    {% for p in pagelist %}
+                    {% for p in footerpages %}
                         {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
                     {% endfor %}
                 </p>
             </div>
-            <div class="box copyright">
-                &copy; 1988 - {% year %} Robb Knight
+            <div class="container container-sm">
+                <div><p>© {% year %} Robb Knight</p></div>
+                <div>
+                    <a href="/coffee" class="button coffee-button">☕ Buy Me a Coffee</a>
+                </div>
             </div>
-		</footer>
+        </footer>
 
-    {% include 'svgs.njk' %}
+        {% include 'svgs.njk' %}
 
 	</body>
 </html>

@@ -1,98 +1,34 @@
 ---
 title: Robb Knight
 layout: base
-hidetitle: true
+homepage: true
 permalink: 'index.html'
+wide: true
 ---
 
-	<h3 class="home"><svg class="icon"><use xlink:href="#terminal"></use></svg> Ahoy</h3>
-	<p>I'm Robb, lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a podcaster with <a href="https://ruminatepodcast.com">two</a> <a href="https://wegot.family">shows</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
-
-	<p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> or <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
-
-    <p><a href="/links">View all my links</a></p>
-
-</div>{# don't remove this, it's important #}
-
-<section class="box" style="padding: 15px 15px 25px 15px;position: relative;">
-	<h3 class="home"><svg class="icon"><use xlink:href="#chat"></use></svg>Latest Toot</h3>
-
-	{%- for post in micro.posts.slice(0, 1) %}
-		{% if post.spoiler %}
-			<details>
-				<summary>{{ post.spoiler }} <strong>(spoilers)</strong></summary>
-				{% include 'micropost_data.njk' %}
-			</details>
-		{% else %}
-			{% include 'micropost_data.njk' %}
-		{% endif %}
-		<div class="post-date" style="position: absolute; bottom: 15px; right: 15px; margin-bottom: 0;">
-			<a target="_blank" rel="noopener" href="{% if post.source %}{{ post.source }}{% else %}{{ post.path | postPath | stripIndex }}{% endif %}">{{ post.date | toDateTime }}</a>
-			<a href="{{ post.path | postPath | stripIndex }}">&infin;</a>
-		</div>
-	{% endfor %}
-</section>
-
-<section class="box">
-	<h3 class="home"><svg class="icon"><use xlink:href="#pen"></use></svg> <a href="/blog">Latest Posts</a></h2>
-
-	<ul>
-		{%- for post in collections.firstPosts %}
-		  <li>
-		  	<a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a>
-		  </li>
-		{% endfor %}
-	</ul>
-    <p><a href="/blog">View All Posts</a></p>
-
-</section>
-
-<section class="box">
-	<h3 class="home"><svg class="icon"><use xlink:href="#ipod"></use></svg>Latest Podcast Episodes</h3>
-	{%- for pod in mypodcasts %}
-		<div class="latest-pod">
-			<div class="latest-pod-art">
-				<a href="{{ pod.show.link }}"><img src="{{ pod.show.art }}"></a>
-			</div>
-			<div class="latest-pod-data">
-				<h4>{{ pod.show.title }}</h4>
-				<p><a href="{{ pod.link }}">{{ pod.title | safe }}</a></p>
-				<p class="post-date">{{ pod.date }}</p>
-			</div>
-		</div>
-	{% endfor %}
-
-</section>
-
-<section class="box">
-
-    <h3 class="home"><svg class="icon"><use xlink:href="#polaroids"></use></svg> <a href="/micro/photos">Latest Photos<a></h3>
-	<div class="microblog-photos">
-		{%- for photo in micro.images.slice(0, 5) %}
-			<div class="microblog-photo"><a href="/micro/{{ micro.postMap[photo.postId].path }}"><img src="{{ photo.url }}" alt="{{ photo.description }}"></a></div>
-		{% endfor %}
-	</div>
-
-	<p><a href="/micro/photos">View All Photos</a></p>
-
-</section>
-
-<section class="box">
-	<h3 class="home"><svg class="icon"><use xlink:href="#ticket"></use></svg> <a href="https://toot.rknight.me/categories/movies">Recently Watched<a></h3>
-	<div class="microblog-posts">
-        <ul>
-        {%- for watched in before.watched %}
-            <li><a href="{{ watched.link }}">{{ watched.title }}</a></li>
-        {% endfor %}
-        </ul>
-	</div>
-</section>
-
-<section class="box">
-	<div class="the-claw" style="margin: 0 auto;">
+<div class="webrings">
+	<div class="the-claw">
 		<script src="https://the-claw-webring-widget.netlify.app/the-claw-webring-widget.mjs" type="module"></script>
 		<the-claw-webring-widget theme="light" hideMembers="true">
-			<!-- TO DO ADD FALLBACK CONTENT -->
 		</the-claw-webring-widget>
 	</div>
-</section>
+
+	<h4>CSS Joy Webring</h4>
+	<div class="webring">
+		<a href="https://webri.ng/webring/cssjoy/previous?via=https://rknight.me">
+			<svg class="icon webring--navicon">
+				<use xlink:href="#chevron-left"></use>
+			</svg>
+		</a>
+		<a href="https://webri.ng/webring/cssjoy/random?via=https://rknight.me">
+			<svg class="icon webring--randomicon">
+				<use xlink:href="#dice"></use>
+			</svg>
+		</a>
+		<a href="https://webri.ng/webring/cssjoy/next?via=https://rknight.me">
+			<svg class="icon webring--navicon">
+				<use xlink:href="#chevron-right"></use>
+			</svg>
+		</a>
+	</div>
+</div>

@@ -32,7 +32,9 @@ permalink: 'log/podcasts/index.html'
 
 <p>View top podcasts in the last 7 days on my <a href="/now">/now page</a>.</p>
 
-<h3 id="top-10-all-time-since-2017-when-records-began-">Top 10 All Time (since 2017 when records began)</h3>
+<h3>Full History (since 2017)</h3>
+
+<h4>Top 10 All Time</h4>
 
 <style>
 .now_albums {
@@ -55,7 +57,6 @@ permalink: 'log/podcasts/index.html'
 
 .now_album img {
     transition: 0.2s linear;
-    box-shadow: #adb5bd 0px 8px 24px;
 }
 
 .now_album img:hover {
@@ -75,10 +76,11 @@ permalink: 'log/podcasts/index.html'
     {% endfor %}
 </div>
 
-<h3>Full History</h3>
-
-{% for post in podcasts.log %}
-    <div class="microblog-post">
-        <p><a class="list-post-date" href="{{ post._podcast_metadata.episodeUrl }}">{{ post.date_published | isoDateOnly }}</a> <strong>{{ post._podcast_metadata.podcastTitle }}</strong> {{ post._podcast_metadata.episodeTitle }}</p>
-    </div>
-{% endfor %}
+<details class="details">
+    <summary>{{ podcasts.log.length }} {% if podcasts.log.length > 1 %}Episodes{% else %}Episode{% endif %}</summary>
+    {% for post in podcasts.log %}
+        <div class="microblog-post">
+            <p><a class="list-post-date" href="{{ post._podcast_metadata.episodeUrl }}">{{ post.date_published | isoDateOnly }}</a> <strong>{{ post._podcast_metadata.podcastTitle }}</strong> {{ post._podcast_metadata.episodeTitle }}</p>
+        </div>
+    {% endfor %}
+</details>

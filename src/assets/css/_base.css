@@ -1,40 +1,77 @@
+@font-face {
+    font-family: 'Cartridge-BoldRough';
+    src: url('/assets/Cartridge-BoldRough.woff2 ') format('woff2');
+}
+
+@font-face {
+    font-family: 'Cartridge-Rough';
+    src: url('/assets/Cartridge-Rough.woff2 ') format('woff2');
+}
+
+* {
+    box-sizing: border-box;
+}
+
 body {
-    font-family: 'Atkinson Hyperlegible';
-    font-size: 1.1em;
     line-height: 1.6;
-    color: var(--body-text);
-    max-width: 800px;
-    padding: 10px;
-    padding-top: 0;
-    margin: auto;
-    background: var(--body-background);
-    background: rgb(215, 80, 154);
-    background: linear-gradient(135deg, rgba(215, 80, 154, 1) 55%, rgba(252, 222, 0, 1) 100%);
-    background-attachment: fixed;
-}
-
-img,
-video {
-    max-width: 100%;
-}
-
-a {
-    color: var(--color-primary);
-    text-decoration: none;
-    border-bottom: 2px solid var(--body-text);
-}
-
-a:hover {
-    color: var(--color-secondary);
-    text-decoration: none;
-    border-bottom-color: var(--color-secondary);
+    padding: 0;
+    margin: 0;
+    font-family: 'Atkinson Hyperlegible';
+    font-size: 1.4em;
+    background-color: var(--nearblack);
+    color: var(--offwhite);
 }
 
 p {
     margin-bottom: 1em;
+    margin-top: 1em;
 }
 
-/* buttons and forms from Sakura.css */
+h1,
+h2,
+h3,
+h4 {
+    font-family: var(--cbr);
+    color: var(--secondary);
+}
+
+h2 {
+    font-size: 2em;
+}
+
+h3 {
+    font-size: 1.7em;
+}
+
+h4 {
+    font-size: 1.4em;
+    color: var(--tertiary);
+}
+
+a {
+    color: #f55841;
+    text-decoration: none;
+    border-bottom: 1px solid #f55841;
+}
+
+a:hover {
+    color: var(--offwhite);
+    border-color: var(--offwhite);
+}
+
+hr {
+    border: 1px solid var(--offwhite);
+    width: 50%;
+    margin: 20px auto;
+}
+
+code {
+    white-space: break-spaces;
+    background-color: #e8e8e8;
+    margin: 0;
+    color: var(--nearblack);
+}
+
 input,
 textarea {
     border: 1px solid #4a4a4a;
@@ -60,10 +97,10 @@ input[type="button"] {
     text-align: center;
     text-decoration: none;
     white-space: nowrap;
-    background-color: var(--body-background);
+    background-color: var(--secondary);
+    border: none;
     color: white;
     border-radius: 1px;
-    border: 1px solid var(--body-text);
     cursor: pointer;
     box-sizing: border-box;
 }
@@ -87,10 +124,13 @@ input[type="reset"]:focus:enabled,
 input[type="reset"]:hover:enabled,
 input[type="button"]:focus:enabled,
 input[type="button"]:hover:enabled {
-    background-color: #982c61;
-    border-color: #982c61;
-    color: #f9f9f9;
+    background-color: var(--primary);
+    color: var(--offwhite);
     outline: 0;
+}
+
+.button:hover {
+    background-color: var(--primary);
 }
 
 textarea,
@@ -100,8 +140,8 @@ input {
     padding: 6px 10px;
     /* The 6px vertically centers text on FF, ignored by Webkit */
     margin-bottom: 10px;
-    background-color: #f1f1f1;
-    border: 1px solid #f1f1f1;
+    background-color: var(--purewhite);
+    border: none;
     border-radius: 4px;
     box-shadow: none;
     box-sizing: border-box;
@@ -110,12 +150,12 @@ input {
 textarea:focus,
 select:focus,
 input:focus {
-    border: 1px solid #1d7484;
+    border: none;
     outline: 0;
 }
 
 input[type="checkbox"]:focus {
-    outline: 1px dotted #1d7484;
+    outline: none;
 }
 
 label,
@@ -126,46 +166,22 @@ fieldset {
     font-weight: 600;
 }
 
-pre {
-    font-size: 14px !important;
+.details {
+    margin: 10px 0;
 }
 
-code {
-    margin: 0;
-    font-size: 85%;
-    white-space: break-spaces;
-    background-color: #e8e8e8;
+.details:hover {
+    cursor: pointer;
 }
 
-table {
+.details summary {
+    font-family: var(--cbr);
+    font-size: 1.4em;
+    color: var(--tertiary);
     margin-bottom: 10px;
 }
 
-table,
-th,
-td {
-    border: 1px solid var(--body-text);
-    border-collapse: collapse;
-}
-
-td,
-th {
-    padding: 3px 10px;
-}
-
-p,
-ul {
-    margin-top: 0;
-}
-
-li {
-    padding: 2px 0;
-}
-
-blockquote {
-    font-style: italic;
-    border-left: 2px solid var(--body-background);
-    margin: 0;
-    padding: 10px 10px 5px 10px;
-    margin-bottom: 15px;
+img,
+video {
+    max-width: 100%;
 }

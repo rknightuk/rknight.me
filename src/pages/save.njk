@@ -1,0 +1,13 @@
+---
+title: r knight dot me slash save
+subtitle: Use these referral links for services I use and we both get free stuff.
+layout: base
+permalink: 'save/index.html'
+---
+
+{%- for s in save %}
+    <p>
+        <strong>{{ s.name }}</strong> <a href="{{ s.link }}">{{ s.link }}</a><br>
+        {{ s.desc }}
+    </p>
+{% endfor %}

@@ -5,6 +5,8 @@ pagination:
   alias: post
 permalink: 'micro/{{ post.path }}'
 layout: base
+eleventyComputed:
+  title: "{{ post.date | toDateTime }}"
 ---
 
 <p><a href="/micro">All Micro Posts</a></p>

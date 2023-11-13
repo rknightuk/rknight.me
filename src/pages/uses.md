@@ -1,10 +1,22 @@
 ---
 title: /uses
+subtitle: "All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tech/)."
 layout: base
 permalink: 'uses/index.html'
 ---
 
-All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tech/).
+<style>
+    h3 {
+        display: flex;
+        align-items: center;
+    }
+
+    h3 svg {
+        width: 35px;
+        height: 35px;
+        margin-right: 10px;
+    }
+</style>
 
 ![My Desk](https://rknightuk.s3.amazonaws.com/site/desk-2023.jpg)
 
@@ -41,7 +53,7 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
 - [NetNewsWire](https://netnewswire.com/) for RSS
 - [Color Slurp](https://colorslurp.com/)
 
-<h3><svg class="icon"><use xlink:href="#iphone"></use></svg>Purple iPhone 14 Pro</h3>
+<h3><svg class="icon"><use xlink:href="#iphone"></use></svg>iPhone</h3>
 
 #### Hardware
 
@@ -64,7 +76,8 @@ All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tec
 <h3><svg class="icon"><use xlink:href="#macmini"></use></svg>Mac Mini</h3>
 
 - 2014 i5/16GB/1TB
-- 2 × 2TB external hard drives
+- 2TB external hard drive
+- 3TB external hard drive
 - [Plex](https://www.plex.tv/en-gb/)
 
 <h3><svg class="icon"><use xlink:href="#home"></use></svg>Home</h3>
@@ -89,7 +102,14 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 
 #### Fonts
 
-- [Bayshore Font](https://www.myfonts.com/collections/bayshore-font-set-sail-studios) for my header
+- [Bayshore Font](https://www.myfonts.com/collections/bayshore-font-set-sail-studios)
+- [Cartridge](https://simplebits.shop/collections/fonts/products/cartridge)
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) for body text (thanks [Zoe](https://zoeaubert.me))
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) for code
+
+#### Fonts and Icons
+
 - [Softies Icons](https://www.robbiepearce.com/softies) by Robbie Pearce
+- [Feather](https://feathericons.com/)
+
+I keep a running list of interesting fonts I find [on The Intersect](https://intersect.rknight.me/webdev/resources/icons/)

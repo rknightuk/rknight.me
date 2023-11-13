@@ -1,0 +1,54 @@
+<section class="block home" style="background-color: #4da2b7;">
+    <div class="container container-sm">
+    <h2>Latest from the 'don</h2>
+        {%- for post in micro.posts.slice(0, 1) %}
+            {% include 'micropost.njk' %}
+        {% endfor %}
+    </div>
+</section>
+    
+<section class="block home" style="background-color: #4db5ad;">
+    <div class="container container-sm">
+        <h2>Latest Blog Posts</h2>
+        
+        {%- for post in collections.firstPosts %}
+            <h4 style="margin-bottom: 5px;"><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></h4>
+            <p style="margin-top: 5px;"><em>{{ post.data.excerpt }}</em></p>
+        {% endfor %}
+        <p><a href="/blog">View All Posts</a></p>
+    </div>
+</section>
+
+<section class="block home" style="background-color: #efaa32;">
+    <div class="container container-sm">
+        <h2>Latest Podcasts</h2>
+        
+        {%- for pod in mypodcasts %}
+            <div class="latest-pod">
+                <div class="latest-pod-art">
+                    <a href="{{ pod.show.link }}"><img src="{{ pod.show.art }}"></a>
+                </div>
+                <div class="latest-pod-data">
+                    <h4><a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a></h4>
+                    <p><em>{{ pod.desc }}</em></p>
+                </div>
+            </div>
+        {% endfor %}
+    </div>
+</section>
+
+<section class="block home" style="background-color: #44a25e;">
+    <div class="container">
+        <h2>Recent Projects</h2>
+        
+        <div class="home-projects">
+            {%- for project in projects.featured %}
+            <div class="home-project" style="background-image: url('/assets/projects/{{ project.image }}');">
+                <a href="{{ project.link }}">{{ project.title }}</a>
+            </div>
+            {% endfor%}
+        </div>
+
+        <p><a href="/projects">View All Projects</a></p>
+    </div>
+</section>

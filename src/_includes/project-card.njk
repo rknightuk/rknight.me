@@ -6,11 +6,7 @@
               <img src="{{ project.icon }}">
             </div>
           {% endif %}
-            {%- for tag in project.tags %}
-              <div class="card__tag">
-                {{ tag }}
-              </div>
-            {% endfor%}
+            {%- for tag in project.tags %}<div class="card__tag">{{ tag }}</div>{% endfor%}
           </div>
       </div>
       <div class="card__text">

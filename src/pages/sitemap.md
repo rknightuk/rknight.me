@@ -1,0 +1,34 @@
+---
+title: Sitemap
+layout: base
+permalink: 'sitemap/index.html'
+---
+
+- [Home](/)
+- [Alfred Workflows](/alfred-workflows)
+- [Apps](/apps)
+    - [TrackerZapper](/tracker-zapper)
+- [Blog](/blog)
+- [Buy Me a Coffee](/coffee)
+- [Collections](/collections)
+    - [Games](/collections/games)
+    - [Lego](/collections/lego)
+- [Contact](/contact)
+- [Links](/links)
+- [Log](/log)
+    - [Podcast History](/log/podcasts)
+    - [Site Versions](/log/versions)
+- [Microblog](/micro)
+    - [Tags](/micro/tags)
+    - [Boosted Links](/micro/boosts)
+    - [App.net Archive](/micro/adn)
+    - [Photos](/micro/photos)
+- [/now](/now)
+- [Projects](/projects)
+    - [Micro.blog Tools](/projects/microblog)
+- [/save](/save)
+- [Search](/search)
+- [Subscribe](/subscribe)
+    - [JSON Feed](feed.json)
+    - [RSS Feed](feed.xml)
+- [/uses](/uses)

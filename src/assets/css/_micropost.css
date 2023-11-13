@@ -3,11 +3,13 @@
 }
 
 .microblog-post {
-    margin-left: 15px;
+    border-left: 2px solid var(--primary);
+    padding-left: 15px;
 }
 
 .microblog-post .post-date {
-    margin-bottom: 0;
+    margin-top: 15px;
+    font-size: 0.8em;
 }
 
 .microblog-photos {
@@ -89,20 +91,4 @@
     height: 100% !important;
     width: 100%;
     object-fit: cover;
-}
-
-.statuslol {
-    display: flex;
-}
-
-.statuslol_content {
-    display: flex;
-    font-style: italic;
-}
-
-.statuslol_time {
-    margin-left: 5px;
-    font-style: normal;
-    font-size: 0.8em;
-    padding-top: 4px;
 }

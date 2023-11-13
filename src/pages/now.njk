@@ -1,11 +1,10 @@
 ---
 title: /now
+subtitle: "This is [a now page](https://nownownow.com/about), and if you have your own site, you should make one, too. ([Mirrored on omg.lol](https://robb.omg.lol/now)). [My now profile on nownownow](https://nownownow.com/p/cEgQ)."
 permalink: 'now/index.html'
 layout: base
 templateEngineOverride: njk,html,md
 ---
-
-<p>This is <a href="https://nownownow.com/about">a now page</a>, and if you have your own site, you should make one, too. (<a href="https://robb.omg.lol/now">Mirrored on omg.lol</a>). <a href="https://nownownow.com/p/cEgQ">My now profile on nownownow</a>.</p>
 
 <p><a href="https://rknight.me/automating-my-now-page/">Read how I automated my /now page</a></p>
 
@@ -14,6 +13,25 @@ templateEngineOverride: njk,html,md
 </blockquote>
 
 ### {{ status.emoji }} Status
+
+<style>
+    .statuslol {
+    display: flex;
+}
+
+.statuslol_content {
+    display: flex;
+    font-style: italic;
+    align-items: center;
+}
+
+.statuslol_time {
+    margin-left: 5px;
+    font-style: normal;
+    font-size: 0.8em;
+    padding-top: 4px;
+}
+</style>
 
 <div class="statuslol" style="">
     <div class="statuslol_content">
@@ -25,7 +43,96 @@ templateEngineOverride: njk,html,md
 </div>
 
 <style>
-    {{ now.nowStyles }}
+    .now_game_text {
+        position: absolute;
+        right: 0;
+        left: 0;
+        bottom: 20px;
+        width: 100%;
+        text-align: center;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-weight: bold;
+    }
+
+    .now_game_text a {
+        color: white;
+        background: black;
+        padding: 5px 10px;
+        opacity: 0.8;
+        border-bottom: none;
+        text-decoration: none;
+    }
+
+    .now_game_text a:hover {
+        text-decoration: underline;
+    }
+
+    .now_albums,
+    .now_shows {
+        display: grid;
+        grid-template-columns: auto auto auto auto auto;
+        grid-gap: 10px;
+        position: relative;
+    }
+
+    .now_show {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .now_album:first-child {
+        margin-left: 0;
+    }
+
+    .now_album img {
+        max-width: 100%;
+        object-fit: cover;
+        transition: 0.2s linear;
+        aspect-ratio: 1/1;
+    }
+
+    .now_show img {
+        max-height: 200px;
+    }
+
+    .now_show img,
+    .now_album img {
+        transition: 0.2s linear;
+    }
+
+    .now_album img:hover,
+    .now_show img:hover {
+        -webkit-transform: scale(1.15);
+        transform: scale(1.15);
+    }
+
+    .now_album_text {
+        position: absolute;
+        top: 10px;
+        right: 0;
+        bottom: 0;
+        left: 0;
+        text-align: center;
+        color: white;
+    }
+
+    .now_album_text_container {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        height: 100%;
+        width: 100%;
+        font-size: 0.7em;
+        padding: 3px;
+    }
+
+    .now_album a,
+    .now_show a {
+        border-bottom: none;
+    }
 </style>
 
 {{ now.content | safe }}

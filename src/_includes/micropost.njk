@@ -1,4 +1,4 @@
-<div style="margin-bottom: 20px;" data-pagefind-body>
+<div class="microblog-post" style="margin-bottom: 20px;font-size:0.9em" data-pagefind-body>
     {% if post.title %}
         <h2>{{ post.title }}</h2>
     {% endif %}
@@ -12,7 +12,7 @@
         {% include 'micropost_data.njk' %}
     {% endif %}
 
-    <div class="post-date" style="text-align: right">
+    <div class="post-date">
         {% if post.tags.length > 0 %}
             {% for tag in post.tags %}
                 #<a href="/micro/tags/{{ tag | slug }}">{{ tag }}</a>

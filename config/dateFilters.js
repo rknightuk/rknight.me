@@ -33,6 +33,24 @@ module.exports = {
 
         return [year, month, day].join('-');
     },
+    postDate: (date) => {
+        const nth = (d) => {
+            if (d > 3 && d < 21) return 'th';
+            switch (d % 10) {
+                case 1:  return 'st'
+                case 2:  return 'nd'
+                case 3:  return 'rd'
+                default: return 'th'
+            }
+        }
+        const d = new Date(date)
+        const month = d.toLocaleString('default', { month: 'long' })
+        const day = d.getDate()
+        const nominal = nth(d.getDate())
+        const year = d.getFullYear()
+
+        return `${month} ${day}${nominal} ${year}`
+    },
     monthDay: (date) => {
         let d = new Date(date)
         let month = '' + (d.getMonth() + 1)

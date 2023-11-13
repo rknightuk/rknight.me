@@ -1,8 +1,14 @@
 .cards {
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
+    grid-template-columns: repeat(3, 1fr);
     grid-gap: 20px;
     margin-bottom: 20px;
+}
+
+@media (max-width: 900px) {
+    .cards {
+        grid-template-columns: repeat(2, 1fr);
+    }
 }
 
 @media (max-width: 600px) {
@@ -14,9 +20,8 @@
 .card {
     margin-top: 10px;
     max-width: 100%;
-    border: 1px solid black;
-    box-shadow: 3px 3px var(--body-text);
     position: relative;
+    border: 1px solid var(--purewhite);
 }
 
 .card__image {
@@ -40,18 +45,17 @@
 }
 
 .card__tag {
-    background-color: #333333;
+    background-color: var(--secondary);
     color: white;
     border-radius: 5px;
     text-align: center;
     font-family: 'Source Code Pro', monospace;
     font-size: 0.8em;
     padding: 3px 5px;
-    box-shadow: 2px 2px 2px white;
 }
 
 .card__text {
-    border-top: 1px solid black;
+    border-top: 1px solid var(--purewhite);
     padding: 5px 10px;
     font-size: 0.9em;
 }

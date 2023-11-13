@@ -1,62 +1,130 @@
-header {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
+header.main .container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 }
 
-.main-header {
-    font-family: Bayshore;
-    font-size: 6.5em;
-    margin-bottom: 0;
-    text-shadow: var(--body-text) 3px 3px 1px;
-    letter-spacing: 3px;
-    font-size: 5em;
+header.main {
+    background-color: var(--nearblack);
+    overflow: auto;
+    padding: 10px 0;
 }
 
-.main-header a {
-  text-decoration: none;
-  color: var(--main-yellow);
+header.main h1 {
+    margin: 0;
+    color: var(--offwhite);
+    transition: text-shadow 0.5s ease;
 }
 
-@keyframes color-change {
-  0% { color: #1abc9c }
-  10% { color: #2ecc71 }
-  20% { color: #3498db }
-  30% { color: #9b59b6 }
-  40% { color: #f1c40f }
-  50% { color: #e67e22 }
-  60% { color: #e74c3c }
-  70% { color: #f39c12 }
-  80% { color: #d35400 }
-  90% { color: #ff00ff }
-  100% { color: #c0392b }
+header.main a {
+    color: var(--offwhite);
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    font-family: var(--cr);
+    border-bottom: none;
 }
 
-.main-header a:hover {
-  animation: color-change 3s infinite;
+header.main a:hover {
+    color: #f55841;
+    border-color: #f55841;
 }
 
-.social-links {
-  display: flex;
-  flex-direction: column;
+.main__title a {
+    color: var(--offwhite);
+    text-decoration: none;
+    border-bottom: 2px solid white;
+    font-family: var(--cr);
+    border-bottom: none;
 }
 
-.social-links a {
-    color: var(--main-yellow);
-    filter: drop-shadow(2px 2px 1px rgb(0 0 0 / 0.9));
+.main__title .logo {
+    border: 2px solid var(--offwhite);
+    border-radius: 5px;
+    margin-right: 10px;
+    width: 60px;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: box-shadow 0.5s ease-in-out;
+    background-color: var(--primary);
+    background-image: var(--blur);
 }
 
-.social-links a:hover {
-  animation: color-change 3s infinite;
+.main__title .logo svg {
+    width: 60%;
+    height: 60%;
+    margin-left: 3px;
 }
 
-.social-links svg {
-    width: 25px;
-    height: 25px;
+.main__title a {
+    display: flex;
+    align-items: center;
 }
 
-@media (max-width: 630px) {
-  .main-header {
-    font-size: 4em;
-  }
+.main__title a:hover {
+    color: var(--offwhite);
+    text-shadow: var(--double-shadow);
+}
+
+.main__title a:hover .logo {
+    color: var(--offwhite);
+    box-shadow: var(--double-shadow);
+}
+
+.main__title .fullstop {
+    display: none;
+}
+
+@media (max-width: 260px) {
+    .main__title h1 {
+        display: none;
+    }
+}
+
+@media (max-width: 420px) {
+    .main__title .surname {
+        display: none;
+    }
+
+    .main__title .fullstop {
+        display: inline;
+    }
+}
+
+@media (max-width: 550px) {
+    .main__links span {
+        display: none;
+    }
+}
+
+.main__links .icon {
+    width: 20px;
+    height: 20px;
+}
+
+.main__links {
+    display: flex;
+    grid-gap: 10px;
+}
+
+.main__links a {
+    display: flex;
+    align-items: center;
+    text-transform: lowercase;
+    line-height: 1px;
+    justify-content: flex-end;
+}
+
+.main__links .icon {
+    margin-right: 5px;
+}
+
+.main__links span {
+    margin-top: -3px;
+}
+
+.main__links a:hover {
+    color: #f55841;
+    border-color: #f55841;
 }

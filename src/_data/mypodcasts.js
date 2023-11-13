@@ -9,7 +9,7 @@ stripTags = (text) => {
 
 handle = (data, key) => {
     const showData = {
-        title: data.rss.channel.title,
+        title: data.rss.channel.title.replace(' Podcast', ''),
         art: `/assets/img/${key}-cover.png`,
         link: data.rss.channel.link,
     }

@@ -1,0 +1,12 @@
+main {
+    overflow: auto;
+    padding-top: 30px;
+}
+
+main h1,
+main h2,
+main h3,
+main h4 {
+    margin-bottom: 5px;
+    margin-top: 5px;
+}

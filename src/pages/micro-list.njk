@@ -7,6 +7,7 @@ permalink: 'micro/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumbe
 layout: base
 eleventyComputed:
     title: Microblog
+    subtitle: This is a mirror of my [Mastodon feed](https://social.lol/@robb) as well as my previous posts from micro.blog.
 ---
 
   <ul>
@@ -21,12 +22,8 @@ eleventyComputed:
       <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Posts</a>{% else %}Older Posts{% endif %}</div>
   </div>
 
-</div>
-
 {%- for post in pagination.items %}
-  <div class="box">
     {% include 'micropost.njk' %}
-  </div>
 {% endfor -%}
 
 <div class="pagination box">

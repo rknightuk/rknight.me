@@ -1,63 +1,4 @@
-</div>
-
-<div class="box webmentions">
-
-<style>
-
-    .webmentions h4 {
-        margin: 10px 0;
-    }
-
-    .webmentions--likeboost {
-        display: flex;
-        flex-wrap: wrap;
-    }
-
-    .webmentions--likeboost a {
-        margin-left: -10px;
-    }
-
-    .webmentions--likeboost img {
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        border: 3px solid white;
-        transition: 0.2s linear;
-    }
-
-    .webmentions--likeboost img:hover,
-    .webmentions--comment--header img:hover {
-        border: 3px solid #E93BBF;
-    }
-
-    .webmentions--comment {
-        display: flex;
-        flex-direction: column;
-    }
-
-    .webmentions--comment--header {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    .webmentions--comment--header img {
-        border: 3px solid white;
-        width: 50px;
-        height: 50px;
-        border-radius: 50px;
-        transition: 0.2s linear;
-    }
-
-    .webmentions--comment--header--name {
-        display: flex;
-        align-items: center;
-        font-weight: bold;
-    }
-
-    .webmentions--comment--header--name img {
-        margin-right: 10px;
-    }
-</style>
+<div class="webmentions">
 
 {%- set mentions = webmentions.mentions | webmentionsByUrl(webmentionUrl) -%}
 
@@ -80,26 +21,28 @@
 {% endif %}
 
 {% if mentions['in-reply-to']|length %}
-    <h4>Comments</h4>
-    <div class="webmentions--comments">
-        {%- for mention in mentions['in-reply-to'] %}
-            <div class="webmentions--comment">
-                <div class="webmentions--comment--header">
-                    <div class="webmentions--comment--header--name">
-                        <a target="_blank" rel="noopener" href="{{mention.author.url}}"><img src="{{mention.author.photo}}" title="{{mention.author.name}}"></a> {{mention.author.name}}
+    <details class="details">
+        <summary>{{ mentions['in-reply-to'].length }} {% if mentions['in-reply-to'].length > 1 %}Comments{% else %}Comment{% endif %}</summary>
+        <div class="webmentions--comments">
+            {%- for mention in mentions['in-reply-to'] %}
+                <div class="webmentions--comment">
+                    <div class="webmentions--comment--header">
+                        <div class="webmentions--comment--header--name">
+                            <a target="_blank" rel="noopener" href="{{mention.author.url}}"><img src="{{mention.author.photo}}" title="{{mention.author.name}}"></a> {{mention.author.name}}
+                        </div>
+                        <div class="webmentions--comment--header--time">
+                            <a target="_blank" rel="noopener" href="{{mention.url}}">{{ mention.published | toDateTime }}</a>
+                        </div>
                     </div>
-                    <div>
-                        <a target="_blank" rel="noopener" href="{{mention.url}}">{{ mention.published | isoDateOnly }}</a>
+                    <div class="webmentions--comment--content">
+                        {{ mention.sanitized | safe }}
                     </div>
                 </div>
-                <div class="webmentions--comment--content">
-                    {{ mention.sanitized | safe }}
-                </div>
-            </div>
-        {% endfor%}
-    </div>
+            {% endfor%}
+        </div>
+    </details>
 {% else %}
-    No webmentions yet
+    
 {% endif %}
 
 </div>
