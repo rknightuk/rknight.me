@@ -112,4 +112,4 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 - [Softies Icons](https://www.robbiepearce.com/softies) by Robbie Pearce
 - [Feather](https://feathericons.com/)
 
-I keep a running list of interesting fonts I find [on The Intersect](https://intersect.rknight.me/webdev/resources/icons/)
+I keep a list of icon sets I find [on The Intersect](https://intersect.rknight.me/webdev/resources/icons/)
