@@ -1,0 +1,64 @@
+/* logos */
+
+.logo-light {
+    color: var(--offwhite);
+}
+
+.logo-dark {
+    color: var(--nearblack);
+}
+
+.logo-dot {
+    fill: var(--primary);
+}
+
+.design--logo {
+    height: 200px;
+    border: 1px solid var(--offwhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 10px;
+}
+
+.design--logo.logo-dark {
+    background-color: var(--offwhite);
+}
+
+/* colors */
+
+.design--colors {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.design--colors div {
+    height: 200px;
+    border: 1px solid var(--purewhite);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+}
+
+.design--colors div:nth-child(1) {
+    background-color: var(--primary);
+}
+
+.design--colors div:nth-child(2) {
+    background-color: var(--secondary);
+}
+
+.design--colors div:nth-child(3) {
+    background-color: var(--tertiary);
+}
+
+.design--colors div:nth-child(4) {
+    background-color: var(--offwhite);
+    color: var(--nearblack)
+}
+
+.design--colors div:nth-child(5) {
+    background-color: var(--nearblack);
+}

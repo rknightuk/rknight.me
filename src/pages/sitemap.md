@@ -14,6 +14,7 @@ permalink: 'sitemap/index.html'
     - [Games](/collections/games)
     - [Lego](/collections/lego)
 - [Contact](/contact)
+- [Design](/design)
 - [Links](/links)
 - [Log](/log)
     - [Podcast History](/log/podcasts)
