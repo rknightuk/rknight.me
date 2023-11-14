@@ -26,7 +26,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/eleventy --serve",
     "build": "rm -rf .cache && ./node_modules/.bin/eleventy",
-    "clear": "rm -rf .cache"
+    "clear": "rm -rf .cache",
+    "pagefind": "npx pagefind --source public --glob \"**/*.html\""
   },
   "author": "Robb Knight",
   "license": "ISC"
