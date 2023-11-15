@@ -14,9 +14,9 @@ In [episode 028 of Hemispheric Views](https://listen.hemisphericviews.com/025) [
 Before we get into it, the JD system has concepts that are worth knowing about for any of this to make sense:
 
 - Areas - these are the top level of the folder system, e.g. `10-19 Family`
-- Categories - These are the folders _inside_ categories, e.g. `10 Finance`
+- Categories - These are the folders _inside_ areas, e.g. `10 Finance`
 - IDs or Items - These are the actual files that exist inside of areas, e.g. `10.01 Insurance`
-
+1
 ### Attempt One
 
 I skimmed through the [beautiful website](https://johnnydecimal.com) to get a sense of what the "rules" are for the system and starting coming up with my categories. Note I use the word "skimmed" there because I got this _very_ wrong; my categories were too narrow and my areas were too broad to make any sense. Johnny was kind enough [in the JD Discord](https://johnnydecimal.com/20-29-communication/23-forums-and-chat/23.02-discord/) to give me some feedback after I clearly rushed though and didn't pay enough attention to the website. I'll just go over two of them here:
