@@ -1,6 +1,7 @@
 main {
     overflow: auto;
     padding-top: 30px;
+    font-size: 0.95em;
 }
 
 main h1,

@@ -17,7 +17,7 @@ body {
     padding: 0;
     margin: 0;
     font-family: 'Atkinson Hyperlegible';
-    font-size: 1.4em;
+    font-size: 1.3em;
     background-color: var(--nearblack);
     color: var(--offwhite);
 }
@@ -181,4 +181,11 @@ fieldset {
 img,
 video {
     max-width: 100%;
+}
+
+blockquote {
+    border-left: 2px solid var(--primary);
+    margin: 0 0 15px;
+    padding: 0 0 0 20px;
+    font-style: italic;
 }
