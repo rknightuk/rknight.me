@@ -45,9 +45,15 @@
 	</head>
 	<body>
 
+        <div style="margin-left:-10px;margin-right:-10px;font-weight: bold;font-size:1.5em;padding:10px;background: black;color:white;display:flex;align-items:center;justify-content:center;text-align:center;">
+            <p style="margin-bottom: 0;">This is an archived version of the site. Visit <a style="color:white" href="https://rknight.me">rknight.me</a> for the current version.</p>
+        </div>
+
 		<a style="display: none;" rel="me" href="https://social.lol/@robb">Mastodon</a>
         <a style="display: none;" href="https://github.com/rknightuk" rel="me">github.com/rknightuk</a>
         <a style="display: none;" href="https://proven.lol/aaecd5">proven.lol/aaecd5</a>
+
+        <div style="max-width: 800px;margin: 0 auto;">
 
 		<header>
 			<div class="main-header"><a href="/">Robb Knight</a></div>
@@ -102,7 +108,7 @@
 			{{ content | safe }}
 		</div>
 
-		<footer>
+		<footer style="max-width: 800px;margin: 0 auto;">
             <div class="box">
                 <p class="footer-links">
                     {% for p in pagelist %}
@@ -114,6 +120,8 @@
                 &copy; 1988 - {% year %} Robb Knight
             </div>
 		</footer>
+
+        </div>
 
     {% include 'svgs.njk' %}
 
