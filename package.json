@@ -17,6 +17,7 @@
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
+    "eleventy-plugin-og-image": "^2.1.1",
     "node-fetch": "^2.6.1",
     "pagefind": "^0.10.7",
     "sass": "^1.65.1",

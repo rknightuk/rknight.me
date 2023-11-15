@@ -3,42 +3,50 @@
         width: 100%;
         height: 100%;
         display: flex;
-        align-items: center;
-        background: linear-gradient(328deg, rgba(233,52,240,1) 0%, rgba(234,67,135,1) 100%, rgba(0,212,255,1) 100%);
-    }
-
-    .wrapper {
-        display: flex;
         flex-direction: column;
         align-items: center;
         justify-content: center;
-        width: 80%;
-        margin: 0 auto;
+        background: #272523;
+    }
+
+    .logo {
+        display: flex;
+        align-items: flex-end;
+        justify-content: center;
+        width: 100%;
+        margin-bottom: 20px;
+    }
+
+    .logo svg {
+        width: 175px;
+        height: 175px;
     }
 
     .title {
-        color: white;
-        font-size: 80px;
-        margin: 0 auto;
-        font-family: 'Atkinson Hyperlegible';
+        display: flex;
+        align-items: flex-start;
+        justify-content: center;
         text-align: center;
-    }
-
-    .name {
-        text-shadow: black 3px 3px 1px;
-        color: white;
-        font-size: 140px;
-        margin: 30px auto 10px auto;
-        font-family: 'Bayshore';
-        text-align: center;
+        width: 100%;
+        font-size: 75px;
+        font-family: 'Cartridge-BoldRough';
+        color: #fff0d4;
     }
 </style>
 
 <div class="root">
-    <div class="wrapper">
-        <div class="name">Robb Knight</div>
-        {% if title !== 'Robb Knight' %}
-            <div class="title">{{ title }}</div>
+    <div class="logo">
+        <svg viewBox="0 0 400 400" xmlns="http://www.w3.org/2000/svg" id="rklogo">
+            <path class="logo-bar" fill="#fef1d4" fill-rule="evenodd" stroke="none" d="M 300 400 L 200 200 L 300 0 L 400 0 L 300 200 L 400 400 L 300 400 Z"/>
+            <path class="logo-dot" fill="#e33d94" fill-rule="evenodd" stroke="none" d="M 0 399 L 75 399 L 75 324 L 0 324 Z"/>
+            <path class="logo-bar" fill="#fef1d4" fill-rule="evenodd" stroke="none" d="M 150 400 L 50 200 L 106 89 L 0 89 L 0 0 L 250 0 L 150 200 L 250 400 L 150 400 Z"/>
+        </svg>
+    </div>
+    <div class="title">
+        {% if title == 'Robb Knight' %}
+            robb knight.
+        {% else %}
+            {{ title }}
         {% endif %}
     </div>
 </div>

@@ -10,6 +10,7 @@
 
 .logo-dot {
     fill: var(--primary);
+    color: var(--primary)
 }
 
 .design--logo {

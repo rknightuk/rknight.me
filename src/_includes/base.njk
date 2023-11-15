@@ -36,7 +36,11 @@
 		<meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}" />
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://rknight.me{{ page.url }}" />
-        <meta property="og:image" content="{{ post | getFirstAttachment }}">
+        {% if ('/micro' in page.url) or homepage %}
+            <meta property="og:image" content="{{ post | getFirstAttachment }}">
+        {% else %}
+            {% ogImage "src/og-image.og.njk", { title: title | safe } %}
+        {% endif %}
 
         <link rel="preconnect" href="https://fonts.bunny.net">
 		<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400" rel="stylesheet" />
@@ -59,7 +63,7 @@
                                 <use xlink:href="#rklogo"></use>
                             </svg>
                         </div>
-                        <h1>Robb<span class="fullstop">.</span> <span class="surname">Knight.</span></h1>
+                        <h1>Robb<span class="fullstop logo-dot">.</span> <span class="surname">Knight<span class="logo-dot">.</span></span></h1>
                     </a>
                 </div>
                 <div class="main__links">

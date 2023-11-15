@@ -1,12 +1,12 @@
 ---
-title: ChatCGT and mySQL Database Schemas
+title: ChatGPT and mySQL Database Schemas
 permalink: /chatcgt-and-mysql-database-schemas/index.html
 date: 2022-12-16T19:38:40.307Z
 excerpt: ""
 layout: post
 ---
 
-[ChatCGT](https://chat.openai.com/chat) is wild. I entered "_Describe a mysql database schema for tracking the owned books of multiple people_" and it came back with the queries to write the tables including foreign keys:
+[ChatGPT](https://chat.openai.com/chat) is wild. I entered "_Describe a mysql database schema for tracking the owned books of multiple people_" and it came back with the queries to write the tables including foreign keys:
 
 ```sql
 CREATE TABLE people (

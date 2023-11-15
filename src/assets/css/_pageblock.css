@@ -28,12 +28,10 @@
 
 .block a {
     color: var(--purewhite);
-    border-color: var(--purewhite);
 }
 
 .block a:hover {
     color: var(--nearblack);
-    border-color: var(--nearblack);
 }
 
 .block h2 {

@@ -23,22 +23,17 @@ header.main h1 {
 header.main a {
     color: var(--offwhite);
     text-decoration: none;
-    border-bottom: 2px solid white;
     font-family: var(--cr);
-    border-bottom: none;
 }
 
 header.main a:hover {
-    color: #f55841;
-    border-color: #f55841;
+    color: var(--primary);
 }
 
 .main__title a {
     color: var(--offwhite);
     text-decoration: none;
-    border-bottom: 2px solid white;
     font-family: var(--cr);
-    border-bottom: none;
 }
 
 .main__title .logo {
@@ -127,6 +122,6 @@ header.main a:hover {
 }
 
 .main__links a:hover {
-    color: #f55841;
-    border-color: #f55841;
+    color: var(--primary);
+    border-color: var(--primary);
 }

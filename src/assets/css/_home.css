@@ -83,10 +83,6 @@
     justify-content: center;
 }
 
-.webrings a {
-    border-bottom: none;
-}
-
 .webring {
     display: flex;
     grid-gap: 10px;
@@ -123,7 +119,7 @@
     display: flex;
     align-items: center;
     justify-content: center;
-    overflow: hidden
+    overflow: hidden;
 }
 
 .home-project a {
@@ -133,10 +129,11 @@
     font-family: var(--cr);
     width: 100%;
     text-align: center;
-    background: rgba(0, 0, 0, 0.7)
+    background: rgba(0, 0, 0, 0.7);
 }
 
 .home-project a:hover {
     color: var(--purewhite);
-    border-color: var(--purewhite);
+    border-top: 1px solid var(--purewhite);
+    border-bottom: 1px solid var(--purewhite);
 }

@@ -27,10 +27,8 @@
 
 .callout a {
     color: var(--purewhite);
-    border-color: var(--purewhite);
 }
 
 .callout a:hover {
     color: var(--nearblack);
-    border-color: var(--nearblack);
 }
