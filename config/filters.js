@@ -81,7 +81,7 @@ module.exports = {
                 {
                     if (isValidReply)
                     {
-                        m.sanitized = sanitizeHTML(m.content.html)
+                        m.sanitized = sanitizeHTML(m.content.html).replace(/\?\?\?\?/g, '') // fix for https://github.com/aaronpk/webmention.io/issues/203
                         data[m['wm-property']].unshift(m)
                     }
 
