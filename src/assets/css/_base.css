@@ -64,9 +64,7 @@ hr {
 
 code {
     white-space: break-spaces;
-    background-color: #e8e8e8;
     margin: 0;
-    color: var(--nearblack);
 }
 
 input,
@@ -188,4 +186,20 @@ blockquote {
     margin: 0 0 15px;
     padding: 0 0 0 20px;
     font-style: italic;
+}
+
+table {
+    margin-bottom: 10px;
+}
+
+table,
+th,
+td {
+    border: 1px solid var(--purewhite);
+    border-collapse: collapse;
+}
+
+td,
+th {
+    padding: 3px 10px;
 }
