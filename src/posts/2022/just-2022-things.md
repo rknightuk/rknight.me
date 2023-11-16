@@ -41,7 +41,7 @@ I made a bunch of little plugins/webapps for [Micro.blog](https://mbtools.rknigh
 
 I didn't play many games due to the aforementioned home project but I did manage to play through the [GTA Trilogy](https://store.rockstargames.com/game/buy-grand-theft-auto-the-trilogy-the-definitive-edition) as well as [Horizon Forbidden West](https://www.playstation.com/en-gb/games/horizon-forbidden-west/).
 
-#### Movies
+### Movies
 
 According to [Letterboxd](https://letterboxd.com/rknightuk/films/diary/for/2022/) I've watched 103 movies this year. Of those, 12 of them came out this year. My favourites of those are:
 
