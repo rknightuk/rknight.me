@@ -57,8 +57,13 @@ Things it doesn't do right now:
 - View followers
 - View your activity
 
-
-
 I will probably come back to this at some point and add some of these features but as it is I'm pretty happy with this as a day's project.
 
 Credit for the name goes to [Zoe](https://zoeaubert.me).
+
+Fonts used:
+
+- [PKMN RBYGSC Font](https://www.dafont.com/pkmn-rbygsc.font) for the text on the screens
+- [Pokémon Font | dafont.com](https://www.dafont.com/pokemon.font) for the logo
+- [Atkinson Hyperlegible Font](https://brailleinstitute.org/freefont) for the body text
+
