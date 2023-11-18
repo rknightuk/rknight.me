@@ -19,6 +19,36 @@ It's fairly limited but you can:
 - Navigate with the keyboard (up/down for newer/older toots)
 - Listen to a toot with the [SpeechSynthesis API](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesis)
 
+The Mastodon OAuth process is handled by [Laravel Socialite](https://laravel.com/docs/10.x/socialite) and [this Mastodon socialite provider](https://github.com/kawax/socialite-mastodon) which has excellent examples in the readme enabling me to have this up and running in under an hour. Interacting with the Mastodon API is done with [`kawax/laravel-mastodon-api`](https://github.com/kawax/laravel-mastodon-api) by the same author.
+
+The SpeechSynthesis API allows you to do text to speech in the browser. For this project I used the `speak` method as well as two events of the [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance): `end` and `boundary`:
+
+```js
+
+// text to speech
+let msg = new SpeechSynthesisUtterance()
+msg.text = 'Hello'
+window.speechSynthesis.speak(msg)
+
+msg.addEventListener('end', (event) => {
+    // do something
+})
+```
+
+To get the text to output as it's spoken, I took the text, split it on a blank space, then slice the array and join again and then put that back in the element after each `boundary` event. This isn't the best way as it removes any HTML like links. I'd be interested in a reliable way to do this while keeping the HTML in tact.
+
+```js
+const toot = document.getElementById('#toot')
+const content = toot.innerText
+const tootWords = content.split(' ')
+let currentBoundary = 0
+
+msg.addEventListener('boundary', (event) => {
+    currentBoundary++
+    toot.innerHTML = `<p>${tootWords.slice(0, currentBoundary).join(' ')}</p>`
+})
+```
+
 Things it doesn't do right now:
 
 - Be responsive. I just didn't have time today.
@@ -26,6 +56,8 @@ Things it doesn't do right now:
 - Allow you to pause audio.
 - View followers
 - View your activity
+
+
 
 I will probably come back to this at some point and add some of these features but as it is I'm pretty happy with this as a day's project.
 
