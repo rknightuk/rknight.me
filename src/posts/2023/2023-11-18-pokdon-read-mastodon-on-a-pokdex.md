@@ -28,3 +28,5 @@ Things it doesn't do right now:
 - View your activity
 
 I will probably come back to this at some point and add some of these features but as it is I'm pretty happy with this as a day's project.
+
+Credit for the name goes to [Zoe](https://zoeaubert.me).
