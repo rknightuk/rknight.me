@@ -4,7 +4,7 @@ layout: base
 permalink: 'log/versions/index.html'
 ---
 
-- [2023](/files/versions/2023.png)
+- [2023](https://2023.rknight.me)
 - [2022v2](/files/versions/2022v2.png)
 - [2022](/files/versions/2022.png)
 - [2019](/files/versions/2019.png)
