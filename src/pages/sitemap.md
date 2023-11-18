@@ -30,6 +30,6 @@ permalink: 'sitemap/index.html'
 - [/save](/save)
 - [Search](/search)
 - [Subscribe](/subscribe)
-    - [JSON Feed](feed.json)
-    - [RSS Feed](feed.xml)
+    - [JSON Feed](/feed.json)
+    - [RSS Feed](/feed.xml)
 - [/uses](/uses)
