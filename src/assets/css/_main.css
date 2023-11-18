@@ -4,6 +4,10 @@ main {
     font-size: 0.95em;
 }
 
+main img {
+    margin: 0 auto;
+}
+
 main h1,
 main h2,
 main h3,
