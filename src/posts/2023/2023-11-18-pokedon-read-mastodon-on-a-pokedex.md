@@ -21,7 +21,7 @@ It's fairly limited but you can:
 
 The Mastodon OAuth process is handled by [Laravel Socialite](https://laravel.com/docs/10.x/socialite) and [this Mastodon socialite provider](https://github.com/kawax/socialite-mastodon) which has excellent examples in the readme enabling me to have this up and running in under an hour. Interacting with the Mastodon API is done with [`kawax/laravel-mastodon-api`](https://github.com/kawax/laravel-mastodon-api) by the same author.
 
-The SpeechSynthesis API allows you to do text to speech in the browser. For this project I used the `speak` method as well as two events of the [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance): `end` and `boundary`:
+The SpeechSynthesis API allows you to do text to speech in the browser. For this project I used the `speak` method as well as two events of [SpeechSynthesisUtterance](https://developer.mozilla.org/en-US/docs/Web/API/SpeechSynthesisUtterance): `end` and `boundary`:
 
 ```js
 
