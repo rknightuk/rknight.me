@@ -81,6 +81,6 @@ Credit for the name goes to [Zoe](https://zoeaubert.me).
 Fonts used:
 
 - [PKMN RBYGSC Font](https://www.dafont.com/pkmn-rbygsc.font) for the text on the screens
-- [Pokémon Font | dafont.com](https://www.dafont.com/pokemon.font) for the logo
+- [Pokémon Font](https://www.dafont.com/pokemon.font) for the logo
 - [Atkinson Hyperlegible Font](https://brailleinstitute.org/freefont) for the body text
 
