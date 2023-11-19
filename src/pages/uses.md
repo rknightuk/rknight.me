@@ -52,6 +52,8 @@ permalink: 'uses/index.html'
 - [Mic Drop](https://getmicdrop.com/) for muting my microphone
 - [NetNewsWire](https://netnewswire.com/) for RSS
 - [Color Slurp](https://colorslurp.com/)
+- [Boop](https://boop.okat.best/) for formatting HTML, JSON, XML, and loads of other stuff
+
 
 <h3><svg class="icon"><use xlink:href="#iphone"></use></svg>iPhone</h3>
 
