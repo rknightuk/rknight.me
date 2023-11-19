@@ -49,6 +49,23 @@ msg.addEventListener('boundary', (event) => {
 })
 ```
 
+To make Professor Oak slide up when talking, I used CSS transitions on the height of the element:
+
+```css
+.poak {
+    position: absolute;
+    bottom: -5px;
+    left: 75px;
+    height: 230px;
+    overflow: hidden;
+    transition: all 1s;
+}
+
+.poak.close {
+    height: 0;
+}
+```
+
 Things it doesn't do right now:
 
 - Be responsive. I just didn't have time today.
