@@ -79,7 +79,7 @@ permalink: 'log/podcasts/index.html'
 <details class="details">
     <summary>{{ podcasts.log.length }} {% if podcasts.log.length > 1 %}Episodes{% else %}Episode{% endif %}</summary>
     {% for post in podcasts.log %}
-        <div class="microblog-post">
+        <div>
             <p><a class="list-post-date" href="{{ post._podcast_metadata.episodeUrl }}">{{ post.date_published | isoDateOnly }}</a> <strong>{{ post._podcast_metadata.podcastTitle }}</strong> {{ post._podcast_metadata.episodeTitle }}</p>
         </div>
     {% endfor %}
