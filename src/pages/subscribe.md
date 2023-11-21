@@ -9,6 +9,7 @@ You can subscribe to my posts using RSS with the following feeds:
 
 - Long posts: [RSS](/feed.xml) or [JSON Feed](/feed.json)
 - Micro posts: [RSS](https://social.lol/@robb.rss)
+- Project Changelog: [RSS](/changelog.xml)
 
 To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
 

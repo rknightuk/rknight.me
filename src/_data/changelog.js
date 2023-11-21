@@ -3,6 +3,7 @@
 // extract links with markdown link extractor for filters/tags
 
 const fs = require('fs')
+const marked = require('marked')
 
 module.exports = () => {
     const changelog = fs.readFileSync('./src/_data/changelog.md', 'utf8').split('\n')
@@ -12,12 +13,15 @@ module.exports = () => {
         const link = c.match(/[^()]+(?=\))/)[0]
         const description = c.split(`[${type}] `)[1]
 
+        const htmlDesc = description ? marked.parseInline(description) : ''
+
         return {
             date,
             title,
             link,
             type,
             description,
+            encoded: `<p>[${type}] ${htmlDesc} ${date} (<a href="${link}">${title}</a>)</p>`
         }
     })
 }

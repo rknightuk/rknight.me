@@ -1,0 +1,29 @@
+---
+permalink: changelog.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Robb Knight Project Changelog</title>
+  <link href="https://rknight.me/changelog.xml" rel="self"/>
+  <link href="https://rknight.me/log"/>
+  <updated>{{ changelog[0].date }}</updated>
+  <id>rknight.me/log</id>
+  <author>
+    <name>Robb Knight</name>
+    <email></email>
+  </author>
+  {%- for cl in changelog %}
+    <entry>
+        <title>{{ cl.title }}</title>
+        <link href="{{ cl.link }}"/>
+        <updated>{{ cl.date | rssDate }}</updated>
+        <id>{{ cl.link }}#{{ cl.date }}</id>
+        <content type="html">
+            <![CDATA[
+                {{ cl.encoded | safe }}
+            ]]>
+        </content>
+    </entry>
+  {%- endfor %}
+</feed>
