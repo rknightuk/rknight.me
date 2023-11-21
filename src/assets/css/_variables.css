@@ -9,4 +9,5 @@
     --double-shadow: rgba(245, 88, 65, 0.7) 3px 3px 0px, rgba(76, 162, 183, 0.7) -3px -3px 0px;
     --cr: 'Cartridge-Rough', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     --cbr: 'Cartridge-BoldRough', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    --monospace: 'Source Code Pro', monospace;
 }

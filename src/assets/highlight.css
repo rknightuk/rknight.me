@@ -7,7 +7,7 @@ pre[class*="language-"] {
 	word-wrap: normal;
 	color: #eee;
 	background: #2f2f2f;
-    font-family: 'Source Code Pro', monospace !important;
+    font-family: var(--monospace);
 	font-size: 0.9em;
 	line-height: 1.5em;
 

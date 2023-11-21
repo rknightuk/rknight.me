@@ -21,7 +21,12 @@ module.exports = {
         return path.replace('/index.html', '/')
     },
     mdToHtml: (content) => {
+        if (!content) return ''
         return marked.parse(content)
+    },
+    mdToHtmlInline: (content) => {
+        if (!content) return ''
+        return marked.parseInline(content)
     },
     getFirstAttachment: (post) => {
         if (post && post.attachments && post.attachments.length > 0)

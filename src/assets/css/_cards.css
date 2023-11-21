@@ -49,7 +49,7 @@
     color: white;
     border-radius: 5px;
     text-align: center;
-    font-family: 'Source Code Pro', monospace;
+    font-family: var(--monospace);
     font-size: 0.8em;
     padding: 3px 5px;
 }
