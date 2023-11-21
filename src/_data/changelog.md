@@ -1,4 +1,4 @@
-[2023-11-21] [Pokédon](https://pokedon.rknight.me) [feature] New logo and social image
+[2023-11-21] [Pokédon](https://pokedon.rknight.me) [feature] New logo and social image. Responsive.
 [2023-11-21] [rknight.me](https://rknight.me) [feature] Added project changelog to [/log](/log)
 [2023-11-18] [Pokédon](https://pokedon.rknight.me) [project] Browse Mastodon on a Pokédex
 [2023-11-16] [App Defaults](https://defaults.rknight.me) [feature] Added [network graph](https://defaults.rknight.me/network)
