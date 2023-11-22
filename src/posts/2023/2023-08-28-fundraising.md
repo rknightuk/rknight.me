@@ -10,7 +10,7 @@ This year is [Relay FM's 5th annual fundraiser](https://relay.experience.stjude.
 
 > The mission of St. Jude Children’s Research Hospital is to advance cures, and means of prevention, for pediatric catastrophic diseases through research and treatment. Consistent with the vision of our founder Danny Thomas, no child is denied treatment based on race, religion or a family’s ability to pay.
 
-Their goal this year is to hit $2.5 _million_ lifetime donations. As part of that individuals, like me, can set up their own campaign which is [exactly what I've done](https://rknight.me/stjude).
+Their goal this year is to hit $2.5 _million_ lifetime donations. As part of that individuals, like me, can set up their own campaign which is [exactly what I've done](https://tiltify.com/@rknightuk/stjude2023).
 
 I set a milestone of $150 at which point I will watch all 99 minutes of [Superfast!](https://www.imdb.com/title/tt2933474/), a Fast and Furious parody movie which I definitely do not want to watch in any way. That milestone has been hit already so keep an eye out on the [We Got Family podcast](https://wegot.family) feed for an episode about it.
 
@@ -20,4 +20,6 @@ We also have two omg.lol codes up for grabs: anyone who donates $10 or more will
 
 I have moved the goal to ~~$3000~~ ~~$5000~~ $10000 and as generous as Adam is being, I don't want it to all come from him so if you can donate anything, even a dollar, it all helps towards an amazing cause.
 
-[Donate to the campaign here](https://rknight.me/stjude)    
+[Donate to the campaign here](https://tiltify.com/@rknightuk/stjude2023)
+
+[Update post](https://rknight.me/st-jude-2023-final-numbers/)
