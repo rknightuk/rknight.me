@@ -12,8 +12,7 @@
         <h2>Latest Blog Posts</h2>
         
         {%- for post in collections.firstPosts %}
-            <h4 style="margin-bottom: 5px;"><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></h4>
-            <p style="margin-top: 5px;"><em>{{ post.data.excerpt }}</em></p>
+            {% include 'post_list_item.njk' %}
         {% endfor %}
         <p><a href="/blog">View All Posts</a></p>
     </div>

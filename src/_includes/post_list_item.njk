@@ -1,0 +1,9 @@
+<p>
+    <h4><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></h4>
+    <em>{{ post.data.excerpt }}</em><br>
+    <small>
+    {% for tag in post.data.tags %}
+        <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < post.data.tags.length %}&nbsp;&nbsp; {% endif %}
+    {% endfor %}
+    </small>
+</p>
