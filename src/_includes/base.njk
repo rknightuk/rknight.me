@@ -96,33 +96,31 @@
             </div>
         </nav>
 
-        <section class="block">
-            <div class="container container-sm">
-                {% if homepage %}
-                    <h2>👋 Ahoy there, I'm Robb</h2>
-                    {% include 'homepage_header.njk' %}
-                {% else %}
+        {% if homepage %}
+        {% else %}
+            <section class="block block-main">
+                <div class="container">
                     <h2>{{ title }}</h2>
                     {% if subtitle %}<p>{{ subtitle | mdToHtml | safe }}</p>{% endif %}
-                {% endif %}
 
-                {% if layout == 'post' %}
-                    <div class="post-meta">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="#calendar"></use>
-                            </svg>
-                            {{ page.date | postDate }}
+                    {% if layout == 'post' %}
+                        <div class="post-meta">
+                            <div>
+                                <svg class="icon">
+                                    <use xlink:href="#calendar"></use>
+                                </svg>
+                                {{ page.date | postDate }}
+                            </div>
+                            <div>
+                                {% for tag in tags %}
+                                    <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
+                                {% endfor %}
+                            </div>
                         </div>
-                        <div>
-                            {% for tag in tags %}
-                                <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
-                            {% endfor %}
-                        </div>
-                    </div>
-                {% endif %}
-            </div>
-        </section>
+                    {% endif %}
+                </div>
+            </section>
+        {% endif %}
 
         {% if homepage %}
             {% include 'homepage_blocks.njk' %}
