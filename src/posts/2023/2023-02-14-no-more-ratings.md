@@ -2,8 +2,10 @@
 title: No More Ratings
 permalink: /no-more-ratings/index.html
 date: 2023-02-14T09:52:15.619Z
-excerpt: "Why I'm not rating movies any more"
+excerpt: "Why I'm not rating movies (or anything) any more"
 layout: post
+tags:
+  - Movies
 ---
 
 When I used to use [Plot](http://plotapp.io/) (RIP) to track movies that had a thumbs up or down system. When I switched to my own CMS for this I did the same thing. Then when I switched to Letterboxd I translated what was essentially a 1-3 rating system to the five-star system (even though it's actually out of ten not five) Letterboxd uses. From [my Letterboxd profile](https://letterboxd.com/rknightuk/):

@@ -4,6 +4,9 @@ permalink: /biology-of-hey-bear-fruits/index.html
 date: 2023-06-22T17:44:51.466Z
 excerpt: "I've watched too much Hey Bear and wrote about how weird it is"
 layout: post
+tags:
+  - BabyKnight
+  - TV
 ---
 
 Hey Bear is [a YouTube channel](https://www.youtube.com/channel/UCtf9cFBJkHVAf2qMqF01xYg) with videos of dancing fruits, vegetables, and other nonsense designed to ~~make kids stfu~~ entertain young children. It works. [Baby Knight](https://rknight.me/micro/tags/babyknight/) loves it.

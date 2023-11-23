@@ -5,6 +5,8 @@ featured: true
 date: 2013-08-20 13:49:57
 layout: post
 excerpt: "“I’m sure I’ll get a couple of hundred visitors”. That’s what I was thinking yesterday when I launched justdelete.me. I wasn’t completely wrong."
+tags:
+    - Development
 ---
 
 “_I’m sure I’ll get a couple of hundred visitors_”. That’s what I was thinking yesterday when I launched [justdelete.me](http://justdelete.me). I wasn’t completely wrong.

@@ -4,6 +4,7 @@
     align-items: center;
     justify-content: center;
     grid-gap: 10px;
+    flex-direction: column;
 }
 
 .post-meta div {

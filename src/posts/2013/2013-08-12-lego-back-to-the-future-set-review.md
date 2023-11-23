@@ -5,6 +5,9 @@ featured: true
 date: 2013-08-12 10:00:52
 layout: post
 excerpt: My review of the fourth Lego Cuusoo set, Back to The Future.
+tags:
+    - Lego
+    - Movies
 ---
 
 ![](http://rmlewisuk.s3.amazonaws.com/lego-back-to-the-future-set-review.png)

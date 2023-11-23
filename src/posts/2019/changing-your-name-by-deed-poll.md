@@ -3,8 +3,9 @@ title: Changing Your Name by Deed Poll
 permalink: /changing-your-name-by-deed-poll/index.html
 date: 2019-09-08
 excerpt: "I changed my name and there's some things that would have been good to know before I started"
-tags:
 layout: post
+tags:
+    - Personal
 ---
 
 I changed my name (and my email) a couple of weeks ago and I have a few thoughts about the process. Most of this should also apply if you've changed your name because of marriage.

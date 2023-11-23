@@ -77,7 +77,7 @@
                         <svg class="icon">
                             <use xlink:href="#rss"></use>
                         </svg>
-                        <span>RSS</span>
+                        <span>Subscribe</span>
                     </a>
                 </div>
             </div>
@@ -113,6 +113,11 @@
                                 <use xlink:href="#calendar"></use>
                             </svg>
                             {{ page.date | postDate }}
+                        </div>
+                        <div>
+                            {% for tag in tags %}
+                                <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
+                            {% endfor %}
                         </div>
                     </div>
                 {% endif %}

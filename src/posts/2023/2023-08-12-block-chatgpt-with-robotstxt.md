@@ -4,6 +4,8 @@ permalink: /block-chatgpt-with-robotstxt/index.html
 date: 2023-08-12T09:12:43.328Z
 excerpt: "How to block ChatGPT from crawling your site with a robots.txt file"
 layout: post
+tags:
+  - AI
 ---
 
 A `robots.txt` file "tells search engine crawlers which URLs the crawler can access on your site". Generally one would use this to tell a search engine which directories should be crawled, which ones shouldn't, or to completely block from crawling your site. The file lives at the root of your site. You can [see mine here](https://rknight.me/robots.txt). 

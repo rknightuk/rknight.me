@@ -4,6 +4,9 @@ permalink: /just-2022-things/index.html
 date: 2022-12-30
 excerpt: "A big list of things that happened in 2022"
 layout: post
+tags:
+    - Personal
+    - YearInReview
 ---
 
 Inspired by [Sophie's post](https://localghost.dev/blog/2022-the-year-in-lists/) I decided to do a little roundup of things I've done the year.

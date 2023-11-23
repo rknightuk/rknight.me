@@ -1,9 +1,12 @@
 ---
 title: Instapaper Beta
 permalink: /instapaper-beta/index.html
+excerpt: "Instapaper has a new beta version of the website"
 featured: true
 date: 2013-08-10
 layout: post
+tags:
+    - Apps
 ---
 
 Instapaper, having been [sold to Betaworks](http://www.marco.org/2013-04-25/instapaper-next-generation) in April, has a [shiny new beta](http://beta.instapaper.com) for the web interface which is long overdue. Not that the site wasn’t usable, but it was starting to feel very dated when compared to the likes of [Pocket](http://getpocket.com). Despite this I had stuck with Instapaper as it had the one thing Pocket still doesn’t have: a way for me to pay them for the service, but that’s a topic for another day.

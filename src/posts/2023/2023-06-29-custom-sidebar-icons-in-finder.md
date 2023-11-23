@@ -4,6 +4,9 @@ permalink: /custom-sidebar-icons-in-finder/index.html
 date: 2023-06-29T16:28:34.602Z
 excerpt: "Setting custom sidebar icons for folders in MacOS. Managed to get this working with a lot of trial and error"
 layout: post
+tags:
+  - Development
+  - MacOS
 ---
 
 ![Custom icons in the Finder](https://rknightuk.s3.amazonaws.com/site/custom-icons.png)

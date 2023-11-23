@@ -3,8 +3,9 @@ title: Get Safari Tabs Shortcut
 permalink: /get-safari-tabs-shortcut/index.html
 date: 2022-05-13
 excerpt: "My MacStories Automation April entry"
-tags:
 layout: post
+tags:
+    - Shortcuts
 ---
 
 For [Automation April](https://www.macstories.net/stories/introducing-automation-april/) MacStories ran a [contest](https://www.macstories.net/stories/introducing-the-2022-automation-april-shortcuts-contest-winners/) where people could submit a shortcut and be in with a chance of winning an Analogue Pocket and a Stream Deck.

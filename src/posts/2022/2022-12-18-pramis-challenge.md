@@ -2,8 +2,11 @@
 title: Prami's Challenge
 permalink: /pramis-challenge/index.html
 date: 2022-12-18T07:43:47.235Z
-excerpt: ""
+excerpt: "I attempted Prami's challenge and didn't even get close"
 layout: post
+tags:
+    - Development
+    - SocialMedia
 ---
 
 [Prami posted a challenge on social.lol](https://social.lol/@prami/109530090151262300) to decode this string and win a lifetime subscription to [omg.lol](https://home.omg.lol/referred-by/robb). 

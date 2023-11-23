@@ -1,8 +1,12 @@
 ---
 title: DIY Game Controller Rack
 permalink: /diy-game-controller-rack/index.html
+excerpt: "A quick and dirty solution to storing all my game controllers"
 date: 2013-03-11 10:00:31
 layout: post
+tags:
+    - DIY
+    - Games
 ---
 
 Two Playstation 2, two GameCube, four N64, two Xbox, four Wii, two Guitar Hero. You get the idea, I have lots of controllers. So does [Matt Gemmell](http://mattgemmell.com/2013/03-02-playing-nintendo-games-on-a-mac/). And I'm sure, so do a lot of other people. My solution for organising them is a fairly simple one, but I haven't seen it documented elsewhere on the web. So here it is.

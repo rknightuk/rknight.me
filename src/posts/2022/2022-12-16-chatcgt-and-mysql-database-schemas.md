@@ -2,8 +2,11 @@
 title: ChatGPT and mySQL Database Schemas
 permalink: /chatcgt-and-mysql-database-schemas/index.html
 date: 2022-12-16T19:38:40.307Z
-excerpt: ""
+excerpt: "I tried ChatGPT for a common task and it worked pretty well"
 layout: post
+tags:
+  - AI
+  - Development
 ---
 
 [ChatGPT](https://chat.openai.com/chat) is wild. I entered "_Describe a mysql database schema for tracking the owned books of multiple people_" and it came back with the queries to write the tables including foreign keys:

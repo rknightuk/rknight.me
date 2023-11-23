@@ -4,6 +4,9 @@ permalink: /navigate-project-folders-with-pick/index.html
 date: 2023-01-19
 excerpt: "Using pick to jump to a project quickly"
 layout: post
+tags:
+  - Development
+  - MacOS
 ---
 
 When I started my industrial placement at Radweb nearly 10 years ago (👴), [Dan Harper](https://github.com/danharper) sent me his [bash aliases](https://github.com/danharper/dotfiles) which included a lot of handy Git ones including this one that uses [`pick`](https://github.com/mptre/pick) to list git branches. I can either do `gco`, search, and enter to checkout to that branch, or do `gco branchName` to checkout immediately to a branch:

@@ -4,6 +4,9 @@ permalink: /im-not-building-a-podcast-host/index.html
 date: 2023-09-20T11:32:33.057Z
 excerpt: "Why I considered building a podcast host until I did the maths on the costs"
 layout: post
+tags:
+  - Podcasting
+  - Development
 ---
 
 Late last year I moved [Ruminate](https://ruminatepodcast.com) from Simplecast to it's [own site built with Eleventy](https://rknight.me/bulding-podcast-site-eleventy/) for a two reasons:

@@ -4,6 +4,10 @@ permalink: /adding-webmentions-to-your-site/index.html
 date: 2023-01-30
 excerpt: "Some notes on what webmentions are and how I implemented them for this site"
 layout: post
+tags:
+  - OpenWeb
+  - Development
+  - Eleventy
 ---
 
 Right off the bat, I read the following two articles to get a sense of how to do this so I won't go over too much of the same content but rather add some thoughts of my own about the process. I would highly recommend reading both of these.

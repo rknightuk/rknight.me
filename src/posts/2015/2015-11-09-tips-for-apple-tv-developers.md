@@ -5,6 +5,8 @@ layout: post
 featured: true
 excerpt: "Some tips for marketing your Apple TV app successfully."
 date: 2015-11-09
+tags:
+    - TV
 ---
 
 Since the Apple TV got released I have been running [Apple TV Apps](http://atvapps.net), a blog and Twitter account showcasing the best Apple TV apps available. With discoverability being sub-par compared to the iOS app store, the site has been moderately successful and I've been contacted by a number of developers with iTunes links to their apps asking me to feature them, but there's a problem. Those links don't go anywhere; no web previews, no way to view these apps in iTunes.

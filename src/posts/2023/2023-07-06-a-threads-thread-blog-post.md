@@ -4,6 +4,9 @@ permalink: /a-threads-thread-blog-post/index.html
 date: 2023-07-06T08:05:16.652Z
 excerpt: "A thread about Threads that turned in a blog post about Threads"
 layout: post
+tags:
+  - SocialMedia
+  - ActivityPub
 ---
 
 I wanted to expand a bit on my [Threads thread](https://social.lol/@robb/110665866974743896) so instead of adding to the thread, I've written a blog post about Threads. Clear? Good.

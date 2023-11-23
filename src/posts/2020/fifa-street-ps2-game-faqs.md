@@ -3,8 +3,9 @@ title: Game FAQs
 permalink: /fifa-street-ps2-game-faqs/index.html
 date: 2020-02-14
 excerpt: "Before YouTube was the go-to place for game tutorials, GameFAQs was the best place for video game guides. I wrote one for Fifa Street on the PS2"
-tags:
 layout: post
+tags:
+    - Games
 ---
 
 Before YouTube was the go-to place for game tutorials, [GameFAQs](https://gamefaqs.com) was one of the only decent places online to get in-depth guides on how to complete games or get cheat codes. GameFAQs only allowed text posts on the site so people came up with interesting ways to navigate chapters and sections in what feels like a precursor to [Markdown](https://daringfireball.net/projects/markdown/). 

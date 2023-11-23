@@ -5,6 +5,8 @@ featured: true
 date: 2013-08-29 08:04:32
 layout: post
 excerpt: "Just Delete Me was launched just 10 days ago and has already had over one million page views."
+tags:
+    - Development
 ---
 
 When I wrote [this post](/24-hours-of-just-delete-me/) about [justdelete.me](http://justdelete.me) I assumed that would pretty much be the best I could hope for in terms of traffic. 3000 visitors in 24 hours was an amazing response to get.The last few days? We’ve been doing that in half an hour.

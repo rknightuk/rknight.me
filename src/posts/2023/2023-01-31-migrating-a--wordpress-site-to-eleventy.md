@@ -4,6 +4,9 @@ permalink: /note-on-migrating-wordpress-site-eleventy/index.html
 date: 2023-01-31T22:13:16.196Z
 excerpt: "Some helpful notes and tools for migrating an existing Wordpress site to Eleventy"
 layout: post
+tags:
+  - Eleventy
+  - Development
 ---
 
 I recently helped my friend Tim move [his site](https://nahumck.me/) from a Wordpress install to a much simpler Eleventy setup. The biggest hurdle was transforming the Wordpress exported data into Markdown files. Thankfully [`wordpress-export-to-markdown`](https://github.com/lonekorean/wordpress-export-to-markdown) exists. This is a command line tool that takes a wordpress export, puts all the posts in markdown files, and downloads all the images contained in the posts.

@@ -4,6 +4,8 @@ permalink: /fix-for-bluetooth-audio-cutting-out-on-the-mac/index.html
 date: 2022-09-14
 excerpt: "A fix for bluetooth audio cutting out on MacOS"
 layout: post
+tags:
+    - MacOS
 ---
 
 Bluetooth cutting out randomly on my Mac when using wireless headphones has been an issue for me for ages. I assumed it was because of everyones BT devices in the office but I'm here by myself this morning and it was still happening.

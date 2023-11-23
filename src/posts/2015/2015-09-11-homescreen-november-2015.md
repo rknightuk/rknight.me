@@ -4,6 +4,8 @@ permalink: /homescreen-september-2015/index.html
 layout: post
 excerpt: "My iPhone home screen as of September 2015"
 date: 2015-09-11
+tags:
+    - Homescreen
 ---
 
 *My iPhone home screen as of September 2015. This post originally appeared in the [MacStories newsletter (now Club MacStories)](https://www.macstories.net/club/).*

@@ -3,8 +3,9 @@ title: Save Bookmark to Micro.blog Shortcut
 permalink: /save-bookmark-to-micro-blog-shortcut/index.html
 date: 2022-04-28
 excerpt: "A shortcut to save bookmarks on micro.blog"
-tags:
 layout: post
+tags:
+    - Shortcuts
 ---
 
 I recently signed up (again) to [Micro.blog](https://micro.blog) in an attempt to move away from services run by [billionare shitposters](https://en.wikipedia.org/wiki/Elon_Musk). I will probably write up a full post about it soon but you can hear me talk about it on [episode 144 of Ruminate](https://ruminatepodcast.com/episodes/144) or [view my micro blog here](https://toot.rknight.me).

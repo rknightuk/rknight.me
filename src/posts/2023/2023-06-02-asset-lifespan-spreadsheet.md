@@ -2,8 +2,11 @@
 title: Asset Lifespan Spreadsheet
 permalink: /asset-lifespan-spreadsheet/index.html
 date: 2023-06-02T16:22:40.119Z
-excerpt: ""
+excerpt: "My asset lifespan spreadsheet"
 layout: post
+tags:
+  - Podcasting
+  - MacOS
 ---
 
 In [episode 20 of Hemispheric Views](https://listen.hemisphericviews.com/020) Andrew talks about his asset lifespan spreadsheet which shows the cost of an item, the date purchased, and the cost per week for said item.

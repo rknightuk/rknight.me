@@ -4,6 +4,10 @@ permalink: /so-many-default-apps/index.html
 date: 2023-11-16T22:16:38.787Z
 excerpt: "A look at just over two weeks of adding submissions and features to the default apps website"
 layout: post
+tags:
+  - Apps
+  - Development
+  - Podcasting
 ---
 
 Two weeks ago when [Hemispheric Views 097](https://listen.hemisphericviews.com/097) released and [people](https://gabz.blog/2023/11/03/my-defaults.html) [started](https://rknight.me/app-defaults/) [putting](https://maique.eu/2023/11/03/defaults.html) [up](https://lmika.org/2023/11/04/defaults.html) [their](https://alpine.weblog.lol/2023/11/the-defaults) [default](https://canion.blog/2023/11/04/duel-of-the.html) [app](https://www.andycarolan.com/appdefaults) [posts](https://mb.esamecar.net/2023/11/04/app-defaults.html) [Jason](https://grepjason.sh/) said this in the HV Discord:

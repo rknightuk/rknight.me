@@ -4,6 +4,10 @@ permalink: /year-of-renovation/index.html
 date: 2022-11-08
 excerpt: "Before and after photos of our house after renovation"
 layout: post
+tags:
+    - DIY
+    - YearInReview
+    - Personal
 ---
 
 We moved into our house November 3rd 2021, just over a year ago. Most of the house hadn't been decorated since it was built in the '70s so everything needed redoing. With the exception of a few carpets and a bit of painting, everything is now done.

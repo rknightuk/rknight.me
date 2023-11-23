@@ -4,6 +4,9 @@ permalink: /importing-tweets-into-microblog/index.html
 date: 2022-11-17
 excerpt: "A script to import tweets from your tweet archive to Micro.blog"
 layout: post
+tags:
+    - SocialMedia
+    - Development
 ---
 
 I wanted to import a bunch of tweets from my archive (mostly cat photos and a few other bits) but I didn't want to have to manually go through each tweet, copy the text and download the photos. So I wrote a script to do it for me once I had the IDs (which I got with my [Safari shortcut](https://rknight.me/get-safari-tabs-shortcut/)).

@@ -3,8 +3,9 @@ title: Building a PiSight
 permalink: /building-a-pisight/index.html
 date: 2022-02-10
 excerpt: "My notes on building a PiSight"
-tags:
 layout: post
+tags:
+    - MacOS
 ---
 
 ![My finished PiSight](https://rknightuk.s3.amazonaws.com/site/pisight.jpg)

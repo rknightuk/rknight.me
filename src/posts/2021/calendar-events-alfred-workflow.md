@@ -3,8 +3,10 @@ title: Calendar Events Alfred Workflow
 permalink: /calendar-events-alfred-workflow/index.html
 date: 2021-07-22
 excerpt: "An Alfred workflow to manage calendars on your Mac"
-tags:
 layout: post
+tags:
+    - Alfred
+    - MacOS
 ---
 
 NB: This workflow has been deprecated and replaced with the [Agenda Workflow](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda)

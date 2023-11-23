@@ -4,6 +4,10 @@ permalink: /building-an-activitypub-server/index.html
 date: 2023-06-28T05:48:41.588Z
 excerpt: "I built Bugle, an ActivityPub server with Laravel and PHP. These are my notes on how it all works to the best of my understanding"
 layout: post
+tags:
+  - ActivityPub
+  - Development
+  - OpenWeb
 ---
 
 To start with, I'm not convinced everything I've done here is exactly to the ActivityPub specification or if there will be problems interacting with Bugle on various ActivityPub servers outside the main ones (Mastodon, Calckey, etc). I'm also unclear on which parts of this are Mastodon-specific and which parts are pure ActivityPub. I will use Mastodon as the example external server throughout.

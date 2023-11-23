@@ -4,6 +4,9 @@ permalink: /one-year-of-pizza-making/index.html
 date: 2023-05-03T12:24:32.372Z
 excerpt: "Things I've learnt in a year or so of making pizza"
 layout: post
+tags:
+  - Recipes
+  - Food
 ---
 
 In November 2021 I bought an [Ooni Frya 12](https://uk.ooni.com/products/ooni-fyra) (thanks Black Friday discounts!) and since then I've used it somewhere between 10 and 15 times. Each time I've managed to make _something_ about the pizza better; the sauce, the dough, the topping ratio. Herein lies my notes about making better pizzas.

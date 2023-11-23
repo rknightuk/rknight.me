@@ -1,11 +1,12 @@
 ---
 title: What to Do When Your iTunes Account Gets Hacked
 permalink: /what-to-do-when-your-itunes-account-gets-hacked/index.html
+excerpt: "How I quickly solved an unauthorised purchase on my iTunes account at 2am."
 date: 2012-11-26 20:30:49
 layout: post
 ---
 
-Early Saturday morning, 2a.m. to be exact, I recieved an email from Apple confirming my lastest purchase. Nothing unusual, I buy apps all the time. Didn’t bother checking it, just marked it as read and archived it. Then I started thinking about what I had bought that day from the iTunes store. I couldn’t think of anything, so I checked the email: £149.99 for an in-app purchase of NBA Season Pass. “Shit” was my first reaction. My account had been comprimised. 
+Early Saturday morning, 2am to be exact, I recieved an email from Apple confirming my lastest purchase. Nothing unusual, I buy apps all the time. Didn’t bother checking it, just marked it as read and archived it. Then I started thinking about what I had bought that day from the iTunes store. I couldn’t think of anything, so I checked the email: £149.99 for an in-app purchase of NBA Season Pass. “Shit” was my first reaction. My account had been comprimised. 
 
 As someone with a keen interested in technology and specifically Apple, I’ve read about this stuff countless times and yet I had no idea what to do. So I had to wing it. First thing was fairly obvious: change my password. If your account gets comprimised, this is the first thing you need to do. To do this go to <http://iforgot.apple.com> and reset your password. 
 

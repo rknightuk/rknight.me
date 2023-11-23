@@ -4,6 +4,8 @@ permalink: /jekyll-category-year-archive/index.html
 layout: post
 excerpt: "Code Snippet for creating a post archive grouped by year in Jekyll"
 date: 2017-01-12
+tags:
+    - Development
 ---
 
 ```html

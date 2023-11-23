@@ -18,6 +18,7 @@ module.exports = {
         return `/micro/${path}`
     },
     stripIndex: (path) => {
+        if (!path) return 'FUCKFUCKFUCKFUICKLFIUCLKCJBIJDVBID'
         return path.replace('/index.html', '/')
     },
     mdToHtml: (content) => {
@@ -100,5 +101,12 @@ module.exports = {
         data['in-reply-to'].sort((a,b) => (a.published > b.published) ? 1 : ((b.published > a.published) ? -1 : 0))
 
         return data
+    },
+    getAllTags: (collection) => {
+        let tagSet = new Set()
+        for (let item of collection) {
+            (item.data.tags || []).forEach((tag) => tagSet.add(tag))
+        }
+        return Array.from(tagSet)
     }
 }

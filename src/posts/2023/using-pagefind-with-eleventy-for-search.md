@@ -4,6 +4,9 @@ permalink: /using-pagefind-with-eleventy-for-search/index.html
 date: 2023-01-04
 excerpt: "How to use PageFind to implement search for an Eleventy site"
 layout: post
+tags:
+  - Eleventy
+  - Development
 ---
 
 In the past, I have implemented my own search for static sites and while it's good _enough_, it's not great. Recently [Tweetback](https://github.com/tweetback/tweetback), a self-hosted Twitter archive, added search using [PageFind](https://pagefind.app) so I dug into the code to see how it's done. PageFind is:

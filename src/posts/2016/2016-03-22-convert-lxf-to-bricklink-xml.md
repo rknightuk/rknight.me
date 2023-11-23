@@ -4,6 +4,8 @@ permalink: /convert-lxf-to-bricklink-xml/index.html
 layout: post
 excerpt: "How to use Rebrickable to convert an LXF file to Bricklink XML format to upload to a wanted list."
 date: 2016-03-22
+tags:
+    - Lego
 ---
 
 When you've created a model in Lego Digital Designer, you likely want get those parts into a Bricklink wanted list so you can order them. Unfortunately, LDD doesn't have an option to export to the required [Bricklink XML format](http://www.bricklink.com/help.asp?helpID=207). Thankfully, [Rebrickable](http://rebrickable.com) has the ability to convert an LDD model to Bricklink XML. You'll need a Rebrickable account to do this, so if you haven't got one yet, [register for one](http://rebrickable.com/signup), and sign in.
@@ -17,8 +19,6 @@ Rebrickable will then show all the parts from the model and indicate if any colo
 Once you're happy with your part list, click "Add to your Bricklink Wanted List". A window will popup allowing you to login to Bricklink. You can choose to add them to an existing list, or create a new one from this window. Once you click "Add parts", a message will confirm that the parts have been added, and there will be a button to view your wanted list.
 
 ![](http://studshq.s3.amazonaws.com/rebrickable-add-to-list.jpg)
-
-Want to learn more about buying on Bricklink? Check out my in-depth guide at [GuideToBricklink.com](http://guidetobricklink.com).
 
 ***
 

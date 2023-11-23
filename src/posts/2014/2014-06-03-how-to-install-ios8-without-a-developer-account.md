@@ -4,6 +4,8 @@ permalink: /how-to-install-ios8-without-a-developer-account/index.html
 layout: post
 excerpt: "How to install iOS8 beta without a developer account."
 date: 2014-06-03
+tags:
+    - Development
 ---
 
 No no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no no.

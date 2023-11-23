@@ -3,8 +3,9 @@ title: The "Best" Tweets
 permalink: /the-best-tweets/index.html
 date: 2022-11-15
 excerpt: "My post popular tweets before Twitter dies"
-tags:
 layout: post
+tags:
+    - SocialMedia
 ---
 
 A few days ago [James Thomson posted](https://twitter.com/jamesthomson/status/1591538731756191745) that you can find your tweets based on how many likes they got with the following link (switching my username for yours):

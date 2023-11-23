@@ -9,6 +9,7 @@ permalink: 'sitemap/index.html'
 - [Apps](/apps)
     - [TrackerZapper](/tracker-zapper)
 - [Blog](/blog)
+    - [Tags](/blog/tags)
 - [Buy Me a Coffee](/coffee)
 - [Collections](/collections)
     - [Games](/collections/games)

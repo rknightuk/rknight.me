@@ -4,6 +4,8 @@ permalink: /just-delete-me-ten-years-later/index.html
 date: 2023-08-18T12:44:06.279Z
 excerpt: "Ten years ago we launched JustDelete.me"
 layout: post
+tags:
+  - Development
 ---
 
 Ten years ago [Ed Poole](https://www.edpoole.me/) and I [launched Just Delete Me](https://hellsite.rknight.me/369368988762906626/). Just Delete Me, as I [described it at the time](https://rknight.me/just-delete-me/), was:

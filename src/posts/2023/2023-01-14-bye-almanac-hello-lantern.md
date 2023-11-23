@@ -4,6 +4,12 @@ permalink: /bye-almanac-hello-lantern/index.html
 date: 2023-01-14
 excerpt: "Retiring my media blogging engine Almanac and launching it's spirtual successor Lantern"
 layout: post
+tags:
+  - Development
+  - Games
+  - TV
+  - Movies
+  - OpenWeb
 ---
 
 I am a hoarder of data. I have exports from dead Tumblr sites, Twitter accounts,  Pinboard, Instapaper, and probably more I'm not thinking of. I also like to be able to check when I did something, watched something, or just tweeted something funny (it happened [at least once](https://hellsite.rknight.me/656762307494682624/)).

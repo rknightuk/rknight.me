@@ -4,6 +4,10 @@ permalink: /im-done-with-closed-services/index.html
 date: 2023-01-24
 excerpt: "I'm no longer willing to use services that don't allow me to access my data via an API or RSS"
 layout: post
+tags:
+  - OpenWeb
+  - Development
+  - Apps
 ---
 
 I'm not signing up to any service that doesn't offer at minimum RSS feeds for my data. Ideally an API, even a simple one. No more apps that aren't [part of the web](https://www.jwz.org/blog/2022/11/psa-do-not-use-services-that-hate-the-internet/). I'm done.

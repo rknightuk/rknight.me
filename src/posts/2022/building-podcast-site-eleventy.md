@@ -4,6 +4,10 @@ permalink: /bulding-podcast-site-eleventy/index.html
 date: 2022-12-28
 excerpt: "Moving Ruminate's site from Simplecast to Eleventy"
 layout: post
+tags:
+    - Podcasting
+    - Eleventy
+    - Development
 ---
 
 When me and John started [Ruminate](https://ruminatepodcast.com), we didn't know much about hosting podcasts so we decided to go with [Simplecast](https://simplecast.com) to host and manage the podcast. Seven years later, Simplecast has changed quite a bit to the point that it's hindering rather than helping me post the show. It's not a bad service, but it's overkill for posting one episode every two weeks.

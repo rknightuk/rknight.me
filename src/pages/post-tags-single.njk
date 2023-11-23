@@ -1,0 +1,38 @@
+---
+pagination:
+  data: collections
+  size: 1
+  alias: tag
+permalink: /blog/tags/{{ tag }}/
+layout: base
+eleventyComputed:
+  title: "#{{ tag }}"
+  subtitle: "{{ collections[tag].length }}  post{% if collections[tag].length > 1 %}s{% endif %} tagged with #{{ tag }} • <a href='/blog/tags'>All Tags</a> • <a href='/blog'>All Posts</a>"
+---
+
+{% set datePrinted = false %}
+{% set currentYear = 1000 %}
+
+<ul>
+    {% set taglist = collections[tag] %}
+    {% for post in taglist | reverse %}
+
+        {% set postYear = post.date.getFullYear() %}
+
+        {% if postYear != currentYear %}
+            <h3>{{ postYear }}</h3>
+        {% endif %}
+
+        <p>
+          <h4><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></h4>
+          <em>{{ post.data.excerpt }}</em><br>
+          <small>
+          {% for tag in post.data.tags %}
+              <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < post.data.tags.length %}&nbsp;&nbsp; {% endif %}
+          {% endfor %}
+          </small>
+      </p>
+
+        {% set currentYear = postYear %}
+    {% endfor %}
+</ul>

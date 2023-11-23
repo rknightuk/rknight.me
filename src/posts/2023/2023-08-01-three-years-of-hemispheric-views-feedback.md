@@ -4,6 +4,8 @@ permalink: /three-years-of-hemispheric-views-feedback/index.html
 date: 2023-08-01T12:00:01.145Z
 excerpt: "I listened to ~70 hours of Hemispheric Views and wrote down all my feedback"
 layout: post
+tags:
+  - Podcasting
 ---
 
 I recently started listening to the [Hemispheric Views](https://hemisphericviews.com/) podcast and decided I would go back to the start and listen to the 74 previous episodes that I hadn't listened to. I wrote down _all_ my feedback. I started this endevour on the 17th of May and finished the last episode this morning. [Jason](https://grepjason.sh/) agreed to this:

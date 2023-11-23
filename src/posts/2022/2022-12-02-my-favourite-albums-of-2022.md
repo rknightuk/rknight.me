@@ -4,6 +4,9 @@ permalink: /my-favourite-albums-of-2022/index.html
 date: 2022-12-02T19:50:00.081Z
 excerpt: "My favourite albums of 2022"
 layout: post
+tags:
+    - Music
+    - YearInReview
 ---
 
 It's been a really good year for music especially for artists I've been listening to for years.

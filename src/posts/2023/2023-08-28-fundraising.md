@@ -4,6 +4,8 @@ permalink: /st-jude-2023/index.html
 date: 2023-08-28T15:28:07.162Z
 excerpt: "I'm fundraising for St Jude this September as part of Relay's campaign"
 layout: post
+tags:
+  - StJude
 ---
 
 This year is [Relay FM's 5th annual fundraiser](https://relay.experience.stjude.org) for [St Jude Children's Research Hospital](https://www.stjude.org). If you don't know St Jude:

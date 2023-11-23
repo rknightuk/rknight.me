@@ -4,6 +4,8 @@ permalink: /twitter-backup-and-archiving-options/index.html
 date: 2023-01-29
 excerpt: "Three different options for managing your Twitter archive"
 layout: post
+tags:
+  - SocialMedia
 ---
 
 If you want to make your Twitter archive a bit more useful than the standard backup Twitter give you, there are 3 options of varying complexity I'm aware of.

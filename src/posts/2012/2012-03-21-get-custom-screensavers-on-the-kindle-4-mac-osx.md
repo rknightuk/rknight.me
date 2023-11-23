@@ -1,6 +1,7 @@
 ---
 title: Get Custom Screensavers on the Kindle 4 on OS X
 permalink: /get-custom-screensavers-on-the-kindle-4-mac-osx/index.html
+excerpt: "Guide to adding custom screensavers on a Kindle because why not?"
 date: 2012-03-21 01:17:56
 layout: post
 ---
@@ -15,11 +16,14 @@ On the left hand side you should see `RNDIS/…Gadget` in the connections list. 
 
 The commands you need to enter are as follows:
 
-`ssh root@192.168.15.1`
 
-`enter password if/when prompted`
+```bash
+ssh root@192.168.15.1
 
-`mntroot rw mkdir /mnt/us/screensaver mount /dev/mmcblk0p1 /mnt/base-mmc mv /mnt/base-mmc/opt/amazon/screen_saver/600x800 /mnt/base-mmc/opt/amazon/screen_saver/600x800.old ln -sfn /mnt/us/screensaver /mnt/base-mmc/opt/amazon/screen_saver/600x800`
+# enter password if/when prompted
+
+mntroot rw mkdir /mnt/us/screensaver mount /dev/mmcblk0p1 /mnt/base-mmc mv /mnt/base-mmc/opt/amazon/screen_saver/600x800 /mnt/base-mmc/opt/amazon/screen_saver/600x800.old ln -sfn /mnt/us/screensaver /mnt/base-mmc/opt/amazon/screen_saver/600x800
+```
 
 Now you can disconnect your Kindle and exit the diagnostics mode. To do this, simply press the right arrow to exit each menu until you see `Exit, Reboot or Disable Diags`. Select this and then choose `Disable diags` and confirm with the left arrow and your Kindle should reboot. Once your Kindle has rebooted, connect it back up to your Mac and open it in Finder. There should be a new folder called "Screensavers". Simply put your custom screensavers in that folder and restart your Kindle. And voila, custom screensavers! 
 

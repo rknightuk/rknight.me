@@ -3,8 +3,10 @@ title: Two Social Networks? In This Economy?
 permalink: /two-social-networks-in-this-economy/index.html
 date: 2022-12-22
 excerpt: "Why I'm using Micro.blog and Mastodon"
-tags:
 layout: post
+tags:
+    - SocialMedia
+    - Mastodon
 ---
 
 The past few months Micro.blog (M.b.) has improved its support for Mastodon and thanks to Space Karen doing what he does best, I've been following more and more people from there as they join via M.b. 

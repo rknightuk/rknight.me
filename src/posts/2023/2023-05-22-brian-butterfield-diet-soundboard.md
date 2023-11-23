@@ -4,6 +4,9 @@ permalink: /brian-butterfield-diet-soundboard/index.html
 date: 2023-05-22T14:27:43.112Z
 excerpt: "A soundboard for the Brian Butterfield Diet"
 layout: post
+tags:
+  - Development
+  - TV
 ---
 
 Over the weekend I spent some time splitting the audio from [the Brian Butterfield Diet sketch](https://www.youtube.com/watch?v=1NjTWvl8x-U) and then subsequently the [Christmas version](https://www.youtube.com/watch?v=Nyk6sXHY9Vg). Both of these sketches are from [The Peter Serafinowicz Show](https://en.wikipedia.org/wiki/The_Peter_Serafinowicz_Show) from 2007.

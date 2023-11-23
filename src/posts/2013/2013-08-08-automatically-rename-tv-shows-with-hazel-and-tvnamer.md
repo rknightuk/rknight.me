@@ -1,8 +1,12 @@
 ---
 title: Automatically Rename TV Shows with Hazel and TVNamer
 permalink: /automatically-rename-tv-shows-with-hazel-and-tvnamer/index.html
+excerpt: "How I'm using Hazel and TVNamer to save a ton of time renaming files"
 date: 2013-08-08
 layout: post
+tags:
+    - TV
+    - MacOS
 ---
 
 I download a lot of TV shows (all legal of course) and have been renaming the files using [TVRenamer](https://github.com/tvrenamer/tvrenamer). After using TVRenamer manually for months I got fed up with having to do it, or the much more likely scenario happened where I would just leave them to build up in my downloads folder. I recently started using [Hazel](http://www.noodlesoft.com/hazel.php) to automatically rename and organise my photos. This works well because Hazel simply changes the filename to the date they were taken. TV shows are a little more complex than that as they have season and episode numbers as well as titles. Enter [TVNamer](https://github.com/dbr/tvnamer).

@@ -4,6 +4,8 @@ permalink: /food-graveyard/index.html
 date: 2023-02-24T22:54:57.098Z
 excerpt: "Discontinued food that I want back"
 layout: post
+tags:
+  - Food
 ---
 
 Discontinued food items I miss.

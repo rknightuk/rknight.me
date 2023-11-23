@@ -4,6 +4,9 @@ permalink: /lite-youtube-for-micro-blog/index.html
 date: 2022-12-06
 excerpt: "A plugin to automatically append Lite YouTube embeds to posts"
 layout: post
+tags:
+    - SocialMedia
+    - Development
 ---
 
 I've published a new [Micro.blog](https://micro.blog) plugin called [Lite YouTube](https://github.com/rknightuk/micro-blog-lite-youtube) which does one thing: finds YouTube links in posts and appends a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) to the post. Example before and after below:

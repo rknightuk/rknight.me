@@ -4,6 +4,9 @@ permalink: /get-mastodon-account-id-from-username/index.html
 date: 2023-01-27
 excerpt: "The Mastodon API requires the account ID for making API requests"
 layout: post
+tags:
+  - Mastodon
+  - Development
 ---
 
 Note: Every Mastodon has an RSS feed you can use to get statuses if you don't need the data in JSON format `https://example.social/@foobar.rss`.

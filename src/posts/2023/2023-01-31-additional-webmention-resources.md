@@ -4,6 +4,10 @@ permalink: /additional-webmention-resources/index.html
 date: 2023-01-31
 excerpt: "Some more links and tools related to webmentions"
 layout: post
+tags:
+  - OpenWeb
+  - Development
+  - Eleventy
 ---
 
 Some more links and tools I've found or had saved about webmentions. Read my post on [adding webmentions here](/adding-webmentions-to-your-site/).
@@ -34,5 +38,5 @@ Some other articles I had saved related to this:
 - [Scheduling Netlify Deployments with Github Actions](https://css-irl.info/scheduling-netlify-deployments-with-github-actions/)
 - [Cactus Comments - Federated Web Comments](https://cactus.chat/)
 - [Toot toot! Mastodon-powered Blog Comments ⋅ Cassidy James Blaede](https://cassidyjames.com/blog/fediverse-blog-comments-mastodon/)
-- [lewis/webmentions - webmentions - Gitea: Git with a cup of tea](https://git.lewisdale.dev/lewis/webmentions)
+- [lewis/webmentions - OpenWebmentions - Gitea: Git with a cup of tea](https://git.lewisdale.dev/lewis/webmentions)
 

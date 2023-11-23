@@ -4,6 +4,9 @@ permalink: /add-to-musicthread-shortcut/index.html
 date: 2023-02-06T18:04:43.513Z
 excerpt: "A shortcut to add new tracks or albums to MusicThread"
 layout: post
+tags:
+  - Shortcuts
+  - Music
 ---
 
 [MusicThread](https://musicthread.app/) is "_a website to create and share lists of music_" by [Ed Wellbrook](https://mastodon.social/@edwellbrook). I recently started using it to save [new tracks I've found](https://musicthread.app/thread/2L6IuBPKCCo7fsA8SFyXZLirH5W) and [new albums](https://musicthread.app/thread/2L6LZz60026Onq3waGuwt7WdJ5x), which are then cross-posted to [my Mastodon account](https://social.lol/@robb) with [Echo](https://echo.rknight.me).

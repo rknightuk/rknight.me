@@ -4,6 +4,9 @@ permalink: /please-expose-your-rss/index.html
 date: 2023-11-06T13:11:20.440Z
 excerpt: "I noticed a lot of people don't have a link to their RSS feeds on their sites or have the correct metadata for auto-discovery"
 layout: post
+tags:
+  - OpenWeb
+  - Development
 ---
 
 Earlier this week I had a need to manually find a bunch of people's RSS feed links. It seemed simple enough: go to their website and look for an RSS/Subscribe link but I was surprised to find that a lot of people don't have a link anywhere to their feed.

@@ -3,8 +3,9 @@ title: Monzo Pot Image Generator
 permalink: /monzo-pot-image-generator/index.html
 date: 2020-07-21
 excerpt: "Generate images for your Monzo pots"
-tags:
 layout: post
+tags:
+    - Development
 ---
 
 While browsing [this thread on the Monzo forums](https://community.monzo.com/t/custom-pot-images-to-use/62748/325) I came up with an idea to generate Monzo pot images whenever I want so I created the [Monzo Pot Image Generator](https://potimages.rknight.me/).

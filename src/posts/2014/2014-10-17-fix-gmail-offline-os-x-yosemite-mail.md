@@ -4,6 +4,8 @@ permalink: /fix-gmail-offline-os-x-yosemite-mail/index.html
 layout: post
 excerpt: "How to fix Gmail SMTP showing as offline in Yosemite mail."
 date: 2014-10-17
+tags:
+    - MacOS
 ---
 
 Yosemite Mail will sometimes show Gmail outgoing mail as being offline when you first setup a Gmail account. To fix this open up Mail and do the following steps:

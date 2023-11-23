@@ -4,6 +4,8 @@ permalink: /using-the-johnny-decimal-system/index.html
 date: 2023-11-15T18:09:17.596Z
 excerpt: "I finally found some time to dig into the Johnny Decimal system and reorganise all my files"
 layout: post
+tags:
+  - MacOS
 ---
 
 In [episode 028 of Hemispheric Views](https://listen.hemisphericviews.com/025) [Andrew](https://canion.blog) mentioned the [Johnny Decimal (JD) system](https://johnnydecimal.com) for organising files. I made a note of it as a thing to look into. Then, like a lot of things, I never went back to investigate. Then in [episode 096](https://listen.hemisphericviews.com/096) they had Mr Johnny Decimal himself on to talk about the system. This was the kick I needed to properly check it out. I also spoke with [John](https://mastodon.macstories.net/@johnvoorhees) about the JD system on the two most recent episodes of Ruminate if audio is more your thing.

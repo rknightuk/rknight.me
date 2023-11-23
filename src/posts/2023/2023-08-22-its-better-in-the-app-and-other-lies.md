@@ -4,6 +4,9 @@ permalink: /its-better-in-the-app-and-other-lies/index.html
 date: 2023-08-22T10:00:00.608Z
 excerpt: "Some thoughts on why there are so many apps when when in a lot of cases a good old website will do"
 layout: post
+tags:
+  - OpenWeb
+  - Apps
 ---
 
 I've seen a few conversations on Mastodon the last week or so about why we have so many apps rather than decent mobile websites and why we're shown "things are better in the app!" banners (and who's fault is that website?!). I've been thinking about this on and off for a [long time](https://social.lol/@robb/110588163612894889). I don't like that Apple hold all the keys to distrubting an app and I'm a big fan of the open web. I do beleive there are good reasons for native apps in some cases (specifically native features not available in browsers) but not _everything_ needs an app. I think there are three different reasons this is happening so much.

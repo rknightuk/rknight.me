@@ -4,6 +4,8 @@ permalink: /add-full-screen-artwork-to-your-podcast/index.html
 date: 2023-09-22T12:18:12.741Z
 excerpt: "How (not) to add full screen artwork to the Apple Podcasts app for your podcast"
 layout: post
+tags:
+  - Podcasting
 ---
 
 tl;dr: You can't set full screen artwork without being featured by Apple.

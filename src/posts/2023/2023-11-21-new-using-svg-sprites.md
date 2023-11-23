@@ -4,6 +4,8 @@ permalink: /using-svg-sprites/index.html
 date: 2023-11-21T21:41:14.019Z
 excerpt: "How to use SVG sprites on your website"
 layout: post
+tags:
+  - Development
 ---
 
 Recently someone emailed me to ask how I was doing SVGs on my website because they'd looked in the source but it wasn't obvious how it actually rendered the SVG so I figured I would do a proper post about it. Here is their email:

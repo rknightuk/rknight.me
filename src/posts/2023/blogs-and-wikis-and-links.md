@@ -4,6 +4,8 @@ permalink: /blogs-and-wikis-and-links/index.html
 date: 2023-01-07
 excerpt: "A brain dump of thoughts of how to handle links, wikis, and websites"
 layout: post
+tags:
+  - OpenWeb
 ---
 
 I've been thinking about how better to handle all the different places I'm posting too including this site,  [Micro.blog](https://micro.blog/rknightuk), and [my wiki](https://intersect.rknight.me/).  To quote [myself](https://toot.rknight.me/2023/01/07/starting-to-think.html):

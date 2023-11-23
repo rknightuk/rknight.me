@@ -3,8 +3,11 @@ title: Follow Mastodon User on Micro.blog Shortcut
 permalink: /follow-mastodon-user-on-micro.blog-shortcut/index.html
 date: 2022-11-03
 excerpt: "A shortcut to redirect to the correct follow page to follow a Mastodon user on Micro.blog"
-tags:
 layout: post
+tags:
+    - Mastodon
+    - SocialMedia
+    - Shortcuts
 ---
 
 [Micro.blog](https://micro.blog) has support for following and replying to Mastodon users but getting from someone's profile on Mastodon to the follow page on Micro.blog can be a pain. To search for a user you need have it in the format of `cooluser@mastodon.instance` which isn't the same as the profile URLs. To make this easier I made a shortcut that does the following:

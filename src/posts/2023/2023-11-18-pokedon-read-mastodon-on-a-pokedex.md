@@ -4,6 +4,12 @@ permalink: /pokedon-read-mastodon-on-a-pokedex/index.html
 date: 2023-11-18T19:32:15.071Z
 excerpt: "A Mastodon client in a Pokédex I built at a hackathon today"
 layout: post
+tags:
+  - ActivityPub
+  - Mastodon
+  - SocialMedia
+  - Development
+  - Hackathon
 ---
 
 Today, I attended a casual no-official-name hackathon. Just a bunch of people working on silly projects. It _did_ have a theme though: silly interfaces. I spent the first hour before I arrived thinking of a few ideas until I thought of the perfect thing: a Mastodon client but it's in a Pokédex.
@@ -68,7 +74,7 @@ To make Professor Oak slide up when talking, I used CSS transitions on the heigh
 
 Things it doesn't do right now:
 
-- Be responsive. I just didn't have time today.
+- ~~Be responsive. I just didn't have time today.~~ Done 2023-11-21
 - Allow boosting and favouriting.
 - Allow you to pause audio.
 - View followers

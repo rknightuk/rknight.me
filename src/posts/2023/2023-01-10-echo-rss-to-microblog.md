@@ -4,6 +4,11 @@ permalink: /echo-rss-to-microblog/index.html
 date: 2023-01-10
 excerpt: "Echo is a node script to post new items from an RSS feed to Micro.blog"
 layout: post
+tags:
+  - OpenWeb
+  - Development
+  - SocialMedia
+  - Mastodon
 ---
 
 ![Screenshot of Echo running in a terminal](https://rknightuk.s3.amazonaws.com/site/echo-screenshot.png)

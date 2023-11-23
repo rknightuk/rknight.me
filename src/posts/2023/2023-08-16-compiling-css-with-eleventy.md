@@ -4,6 +4,9 @@ permalink: /compiling-css-with-eleventy/index.html
 date: 2023-08-16T12:30:35.115Z
 excerpt: "A list of different options for compiling CSS with Eleventy"
 layout: post
+tags:
+  - Development
+  - Eleventy
 ---
 
 Yesterday I [asked on Mastodon](https://social.lol/@robb/110894030545897361) what methods people are using for compiling CSS with Eleventy. It's been a while since I've need anything more than a single stylesheet but since I keep adding various things to my site, the stylesheet has got a bit unweildy. I'll admit, I know very little about the various css libraries and tools (the last time I did this I used Gulp which tells you how long ago that was) so I was coming to this with basically no knowledge. My basic requirements were:

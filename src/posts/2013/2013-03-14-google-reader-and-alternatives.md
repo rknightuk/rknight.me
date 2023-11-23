@@ -1,8 +1,11 @@
 ---
 title: Google Reader and Alternatives
 permalink: /google-reader-and-alternatives/index.html
+excerpt: "Google Reader is shutting down so I had a look for some alternatives"
 layout: post
 date: 2013-03-14
+tags:
+    - OpenWeb
 ---
 
 Google have announced that they're shutting down Google Reader come July 1st: 

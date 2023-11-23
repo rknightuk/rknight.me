@@ -4,6 +4,8 @@ permalink: /convert-spotify-facebook-to-email-login/index.html
 date: 2018-03-21
 excerpt: "Despite what Spotify tell you, you can unlink your account from Facebook"
 layout: post
+tags:
+    - Music
 ---
 
 This morning [I tweeted](https://hellsite.rknight.me/976392265374535680) that there's no way to convert a Spotify account from Facebook login to email and password login. I even spoke to Spotify support who said:
