@@ -1,0 +1,19 @@
+---
+title: Blogroll
+subtitle: "(noun) a list of hyperlinks to other blogs • <a href='/log/podcasts'>View Podroll</a>"
+layout: base
+permalink: 'blog/roll/index.html'
+wide: true
+---
+
+<div class="blogroll">
+    {%- for blog in blogroll -%}
+        <div class="blogroll--blog">
+            <div class="blogroll--data">
+                <h3><a href="{{ blog.url }}">{{ blog.name }}</a></h3>
+                <p class="blog--subtitle"><em>{{ blog.url }}</em></p>
+                <p>Latest post: <a href="{{ blog.post.link }}">{{ blog.post.title }}</a></p>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>

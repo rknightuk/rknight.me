@@ -40,42 +40,6 @@
     justify-content: center;
 }
 
-.latest-pod {
-    display: grid;
-    grid-template-columns: 150px auto;
-    grid-gap: 20px;
-    margin-bottom: 10px;
-    align-items: center;
-}
-
-.latest-pod h4,
-.latest-pod p {
-    margin-bottom: 0;
-    margin-top: 0;
-    color: var(--purewhite)
-}
-
-.latest-pod-art {
-    margin-right: 10px;
-    width: 150px;
-}
-
-.latest-pod-art img {
-    width: 150px;
-    height: 150px;
-    box-shadow: var(--double-shadow);
-}
-
-.latest-pod-art a {
-    border-bottom: none;
-}
-
-.latest-pod-data {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-}
-
 .webrings {
     display: flex;
     flex-direction: column;

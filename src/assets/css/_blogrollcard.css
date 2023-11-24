@@ -1,0 +1,55 @@
+.blogroll {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-gap: 10px;
+}
+
+.blogroll--podcasts {
+    grid-template-columns: repeat(2, 1fr);
+}
+
+.blogroll--data {
+    padding: 5px 15px;
+    width: 100%;
+    height: 100%;
+}
+
+.blogroll--podcasts .blogroll--data {
+    background-color: rgba(0, 0, 0, 0.8);
+}
+
+@media (max-width: 800px) {
+    .blogroll {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+@media (max-width: 550px) {
+    .blogroll {
+        grid-template-columns: 1fr;
+    }
+}
+
+.blogroll--blog {
+    border: 1px solid var(--purewhite);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.blogroll--blog h3 {
+    font-size: 1.4em;
+    margin-bottom: 0;
+}
+
+.blogroll--blog h3 a {
+    color: var(--purewhite)!important;
+}
+
+.blogroll--blog h3 a:hover {
+    color: var(--primary)!important;
+}
+
+.blog--subtitle {
+    margin-top: 0;
+}

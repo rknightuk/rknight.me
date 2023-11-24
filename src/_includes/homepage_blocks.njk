@@ -51,18 +51,19 @@
 
 <section class="block home">
     <div class="container container-sm">
-    
-        {%- for pod in mypodcasts %}
-            <div class="latest-pod">
-                <div class="latest-pod-art">
-                    <a href="{{ pod.show.link }}"><img src="{{ pod.show.art }}"></a>
+
+        <div class="blogroll blogroll--podcasts">
+            {%- for pod in mypodcasts %}
+                <div class="blogroll--blog" style="background-image: url('{{ pod.show.art }}')">
+                    <div class="blogroll--data">
+                        <h3><a href="{{ pod.show.link }}">{{ pod.show.title }}</a></h3>
+                        <p class="blog--subtitle"><em><a href="{{ pod.link }}">{{ pod.title | safe }}</a></em></p>
+                        <p>{{ pod.desc }}</p>
+                    </div>
                 </div>
-                <div class="latest-pod-data">
-                    <h4><a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a></h4>
-                    <p><em>{{ pod.desc }}</em></p>
-                </div>
-            </div>
-        {% endfor %}
+            {%- endfor -%}
+        </div>
+
     </div>
 </section>
 
