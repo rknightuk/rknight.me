@@ -53,7 +53,7 @@
     <div class="container container-sm">
 
         <div class="blogroll blogroll--podcasts">
-            {%- for pod in mypodcasts %}
+            {%- for pod in mypodcasts.latest %}
                 <div class="blogroll--blog" style="background-image: url('{{ pod.show.art }}')">
                     <div class="blogroll--data">
                         <h3><a href="{{ pod.show.link }}">{{ pod.show.title }}</a></h3>

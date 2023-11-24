@@ -14,7 +14,7 @@ handle = (data, key) => {
         link: data.rss.channel.link,
     }
 
-    return (Array.isArray(data.rss.channel.item) ? data.rss.channel.item : [data.rss.channel.item]).slice(0, 1).map(l => {
+    return (Array.isArray(data.rss.channel.item) ? data.rss.channel.item : [data.rss.channel.item]).map(l => {
         let d = new Date(l['pubDate'])  
         let month = '' + (d.getMonth() + 1)
         let day = '' + d.getDate()
@@ -29,8 +29,9 @@ handle = (data, key) => {
             desc: l['itunes:summary'],
             link: l.link,
             date: [year, month, day].join('-'),
+            year: year,
         }
-    })[0]
+    })
 }
 
 module.exports = async function() {
@@ -53,13 +54,17 @@ module.exports = async function() {
         .then(str => xml2Json.toJson(str, { object: true }))
         .then(data => handle(data, 'family'))
 
-    const data = [
-        family,
-        ruminate,
+    const all = [
+        ...family,
+        ...ruminate,
     ].sort((a,b) => (a.date < b.date) ? 1 : ((b.date < a.date) ? -1 : 0))
 
+    const latest = [
+        family[0],
+        ruminate[0],
+    ].sort((a,b) => (a.date < b.date) ? 1 : ((b.date < a.date) ? -1 : 0))
 
-    await asset.save(data, "json")
+    await asset.save({ all, latest }, "json")
 
-    return data
-};
+    return { all, latest }
+}

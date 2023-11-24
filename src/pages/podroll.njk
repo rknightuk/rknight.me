@@ -1,0 +1,18 @@
+---
+title: Podroll
+subtitle: "(noun) a list of hyperlinks to other podcasts • <a href='/blog/roll'>View Blogroll</a>"
+layout: base
+permalink: 'podcasts/roll/index.html'
+wide: true
+---
+
+<div class="blogroll blogroll--podcasts">
+    {%- for pod in podroll -%}
+        <div class="blogroll--blog" style="background-image: url('{{ pod.show.image }}')">
+            <div class="blogroll--data">
+                <h3><a href="{{ pod.show.link }}">{{ pod.show.title }}</a></h3>
+                <p>Latest episode: <a href="{{ pod.link }}">{{ pod.title }}</a></p>
+            </div>
+        </div>
+    {%- endfor -%}
+</div>
