@@ -10,6 +10,7 @@
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.1.2",
     "@remy/webmention": "^1.4.5",
     "csv-parser": "^3.0.0",
+    "dotenv": "^16.3.1",
     "js-yaml": "^4.1.0",
     "luxon": "^3.2.1",
     "marked": "^4.2.12",
@@ -18,8 +19,11 @@
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-plugin-og-image": "^2.1.1",
+    "glob": "^10.3.10",
+    "moment": "^2.29.4",
     "node-fetch": "^2.6.1",
     "pagefind": "^0.10.7",
+    "qs": "^6.11.2",
     "sass": "^1.65.1",
     "xml2json": "^0.12.0"
   },

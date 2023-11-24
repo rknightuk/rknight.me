@@ -4,4 +4,7 @@ layout: base
 permalink: '404.html'
 ---
 
-So sorry :(
+So sorry but this page has disappeared to god knows where. Here are some popular blog posts or you can <a href="/">go back to the home page</a>.
+
+{%- set popular = fathom | popularPosts(10) -%}
+{% include 'popular_posts.njk' %}

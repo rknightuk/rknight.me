@@ -16,3 +16,9 @@ layout: base
 
 {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
 {% include 'webmentions.njk' %}
+
+<hr>
+
+{%- set pageUrl -%}{{ page.url | stripIndex }}{%- endset -%}
+{%- set popular = fathom | popularPosts(5, pageUrl) -%}
+{% include 'popular_posts.njk' %}

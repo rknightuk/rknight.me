@@ -1,0 +1,10 @@
+<div>
+    <h4><svg class="icon"><use xlink:href="#popular"></use></svg> Popular Posts</h4>
+    <ul>
+        {%- for p in popular %}
+            <li><a href="{{ p.url }}">{{ p.title }}</li>
+        {% endfor %}
+    </ul>
+
+    <p><small>Analytics powered by <a href="https://usefathom.com/ref/IXCLSF">Fathom</a></small></p>
+</div>

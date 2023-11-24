@@ -18,7 +18,7 @@ module.exports = {
         return `/micro/${path}`
     },
     stripIndex: (path) => {
-        if (!path) return 'FUCKFUCKFUCKFUICKLFIUCLKCJBIJDVBID'
+        if (!path) return ''
         return path.replace('/index.html', '/')
     },
     mdToHtml: (content) => {
@@ -108,5 +108,8 @@ module.exports = {
             (item.data.tags || []).forEach((tag) => tagSet.add(tag))
         }
         return Array.from(tagSet)
+    },
+    popularPosts: (pageviews, limit, url) => {
+        return pageviews.filter(pv => pv.url !== url).slice(0, limit)
     }
 }

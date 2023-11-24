@@ -32,3 +32,6 @@ permalink: 'search/index.html'
         });
     });
 </script>
+
+{%- set popular = fathom | popularPosts(10) -%}
+{% include 'popular_posts.njk' %}
