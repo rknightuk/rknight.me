@@ -9,11 +9,13 @@ const blogs = [
     { name: 'Zoe Aubert', url: 'https://zoeaubert.me', feed: 'https://zoeaubert.me/rss.xml' },
     { name: 'Sophie Koonin', url: 'https://localghost.dev', feed: 'https://localghost.dev/feed.xml' },
     { name: 'Martin Feld', url: 'https://loungeruminator.net', feed: 'https://loungeruminator.net/feed/' },
+    { name: 'Joe Steel', url: 'https://joe-steel.com', feed: 'https://joe-steel.com/feed' },
     { name: 'Lewis Dale', url: 'https://lewisdale.dev', feed: 'https://lewisdale.dev/feed/' },
     { name: 'Jarrod Blundy', url: 'https://heydingus.net', feed: 'https://heydingus.net/feed.rss' },
     { name: 'fLaMEd', url: 'https://flamedfury.com', feed: 'https://flamedfury.com/feed.xml/' },
     { name: 'Matt Birchler', url: 'https://birchtree.me', feed: 'https://birchtree.me/rss/' },
-    { name: 'Andrew Canion', url: 'https://canion.blog', feed: 'https://canion.blog/categories/article/feed.xml' }
+    { name: 'Andrew Canion', url: 'https://canion.blog', feed: 'https://canion.blog/categories/article/feed.xml' },
+    { name: 'Apple Annie', url: 'https://weblog.anniegreens.lol/', feed: 'https://weblog.anniegreens.lol/rss.xml' },
 ]
 
 module.exports = async () => {
@@ -32,7 +34,7 @@ module.exports = async () => {
         const data = await xml2Json.toJson(xml, { object: true })
         if (data.feed?.entry) {
             const firstPost = (Array.isArray(data.feed.entry) ? data.feed.entry : [data.feed.entry]).slice(0, 1)[0]
-            return {
+            blogData = {
                 ...blog,
                 post: {
                     title: firstPost.title,
@@ -41,7 +43,7 @@ module.exports = async () => {
             }
         } else {
             const firstPost = (Array.isArray(data.rss.channel.item) ? data.rss.channel.item : [data.rss.channel.item]).slice(0, 1)[0]
-            return {
+            blogData = {
                 ...blog,
                 post: {
                     title: firstPost.title,
@@ -49,6 +51,12 @@ module.exports = async () => {
                 }
             }
         }
+
+        if (!blogData.post.link.startsWith('http')) {
+            blogData.post.link = `${blog.url}${blogData.post.link}`
+        }
+
+        return blogData
     })
     const data = await Promise.all(promises)
     
