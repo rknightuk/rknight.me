@@ -1,3 +1,4 @@
+[2023-11-25] [rknight.me](https://rknight.me) [feature] Added Jason × Thanos mode
 [2023-11-24] [rknight.me](https://rknight.me) [feature] Popular pages now show on search, 404, and blog posts
 [2023-11-24] [rknight.me](https://rknight.me) [feature] Blogroll and podroll
 [2023-11-21] [Pokédon](https://pokedon.rknight.me) [feature] New logo and social image. Responsive.
