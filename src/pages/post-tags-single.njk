@@ -7,7 +7,7 @@ permalink: /blog/tags/{{ tag }}/
 layout: base
 eleventyComputed:
   title: "#{{ tag }}"
-  subtitle: "{{ collections[tag].length }}  post{% if collections[tag].length > 1 %}s{% endif %} tagged with #{{ tag }} • <a href='/blog/tags'>All Tags</a> • <a href='/blog'>All Posts</a>"
+  subtitle: "{{ collections[tag].length }}  post{% if collections[tag].length > 1 %}s{% endif %} tagged with #{{ tag }}<br> <a href='/blog/tags'>All Tags</a> • <a href='/blog'>All Posts</a>"
 ---
 
 {% set datePrinted = false %}

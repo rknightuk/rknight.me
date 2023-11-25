@@ -10,6 +10,7 @@ permalink: 'sitemap/index.html'
     - [TrackerZapper](/tracker-zapper)
 - [Blog](/blog)
     - [Tags](/blog/tags)
+    - [Blogroll](/blog/roll)
 - [Buy Me a Coffee](/coffee)
 - [Collections](/collections)
     - [Games](/collections/games)
