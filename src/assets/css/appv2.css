@@ -19,3 +19,32 @@
 @import "_liteyt.css";
 @import "_design.css";
 @import "_blogrollcard.css";
+
+.scale-left {
+    display: none;
+}
+
+.scale {
+    display: inline-block;
+}
+
+.balanced .scale-left {
+    display: inline-block;
+}
+
+.balanced .scale {
+    display: none;
+}
+
+.perfect-balanced-as-all-things-should-be {
+    clip-path: polygon(
+        0 0, /* left top */
+        100% 0, /* right top */
+        100% 100%, /* right bottom */
+        0 100% /* left bottom */
+    );
+}
+
+#scales-button {
+    color: var(--primary);
+}

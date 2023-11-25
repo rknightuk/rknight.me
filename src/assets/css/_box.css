@@ -16,7 +16,8 @@
         /* right bottom */
         0 100%
         /* left bottom */
-    )
+    );
+    transition: clip-path 1s;
 }
 
 .callout svg {

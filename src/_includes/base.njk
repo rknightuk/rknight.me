@@ -79,6 +79,14 @@
                         </svg>
                         <span>Subscribe</span>
                     </a>
+                    <a href="#" id="jason-thinks-thanos-was-right">
+                        <svg class="icon scale">
+                            <use xlink:href="#balance-scale"></use>
+                        </svg>
+                        <svg class="icon scale-left">
+                            <use xlink:href="#balance-scale-left"></use>
+                        </svg>
+                    </a>
                 </div>
             </div>
         </header>
@@ -156,6 +164,19 @@
         </footer>
 
         {% include 'svgs.njk' %}
+
+        <script>
+            (function() {
+                const jasonMode = document.getElementById('jason-thinks-thanos-was-right')
+                jasonMode.addEventListener('click', (e) => {
+                    e.preventDefault()
+                    jasonMode.classList.toggle('balanced')
+                    Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
+                    Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
+                    Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
+                })
+            })()
+        </script>
 
 	</body>
 </html>

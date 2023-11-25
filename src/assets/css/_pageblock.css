@@ -15,7 +15,8 @@
         100% 0, /* right top */
         100% calc(100% - 20px), /* right bottom */
         0 100% /* left bottom */
-    )
+    );
+    transition: clip-path 1s;
 }
 
 .block-header {
@@ -31,6 +32,7 @@
     padding-bottom: 30px;
     text-align: center;
     margin-top: -20px;
+    transition: clip-path 1s;
 }
 
 .block-header.first {
