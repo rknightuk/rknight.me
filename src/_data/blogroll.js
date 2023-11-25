@@ -16,6 +16,7 @@ const blogs = [
     { name: 'Matt Birchler', url: 'https://birchtree.me', feed: 'https://birchtree.me/rss/' },
     { name: 'Andrew Canion', url: 'https://canion.blog', feed: 'https://canion.blog/categories/article/feed.xml' },
     { name: 'Apple Annie', url: 'https://weblog.anniegreens.lol/', feed: 'https://weblog.anniegreens.lol/rss.xml' },
+    { name: 'Zach Leatherman', url: 'https://www.zachleat.com', feed: 'https://www.zachleat.com/web/feed.xml' },
 ]
 
 module.exports = async () => {
