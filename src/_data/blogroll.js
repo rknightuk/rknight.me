@@ -12,6 +12,7 @@ const blogs = [
     { name: 'Joe Steel', url: 'https://joe-steel.com', feed: 'https://joe-steel.com/feed' },
     { name: 'Lewis Dale', url: 'https://lewisdale.dev', feed: 'https://lewisdale.dev/feed/' },
     { name: 'Jarrod Blundy', url: 'https://heydingus.net', feed: 'https://heydingus.net/feed.rss' },
+    { name: 'Wade Urry', url: 'https://www.iwader.co.uk', feed: 'https://iwader.co.uk/feed.xml' },
     { name: 'fLaMEd', url: 'https://flamedfury.com', feed: 'https://flamedfury.com/feed.xml/' },
     { name: 'Matt Birchler', url: 'https://birchtree.me', feed: 'https://birchtree.me/rss/' },
     { name: 'Andrew Canion', url: 'https://canion.blog', feed: 'https://canion.blog/categories/article/feed.xml' },
