@@ -17,7 +17,7 @@ eleventyExcludeFromCollections: true
     <entry>
         <title>{{ cl.title }}</title>
         <link href="{{ cl.link }}"/>
-        <updated>{{ cl.date | rssDate }}</updated>
+        <updated>{{ cl.date | dateForFeed }}</updated>
         <id>{{ cl.link }}#{{ cl.date }}</id>
         <content type="html">
             <![CDATA[
