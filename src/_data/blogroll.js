@@ -41,7 +41,7 @@ module.exports = async () => {
                 ...blog,
                 post: {
                     title: firstPost.title,
-                    link: firstPost.link.href,
+                    link: Array.isArray(firstPost.link) ? firstPost.id : firstPost.link.href,
                 }
             }
         } else {
