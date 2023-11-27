@@ -1,8 +1,8 @@
 {
 	"featured": [
+		{ "title": "DoubleShift", "link": "https://doubleshift.rknight.me", "desc": "Actors who have appeared in multiple medical TV shows", "image": "doubleshift.png", "tags": ["11ty", "JS"] },
 		{ "title": "Pokédon", "link": "https://pokedon.rknight.me", "desc": "Browse the 'don on a Pokédex", "image": "pokedon.png", "tags": ["PHP", "Laravel", "JS"] },
-		{ "title": "App Defaults", "link": "https://defaults.rknight.me", "desc": "Collecting all the app default posts from Hemispheric Views 097 - Duel of the Defaults!", "image": "defaults.png", "tags": ["11ty"] },
-		{ "title": "VLCNR", "link": "https://vlcnr.rknight.me", "desc": "The original VLCNR soundboard revived from the dead", "image": "vlcnr.png" }
+		{ "title": "App Defaults", "link": "https://defaults.rknight.me", "desc": "Collecting all the app default posts from Hemispheric Views 097 - Duel of the Defaults!", "image": "defaults.png", "tags": ["11ty"] }
 	],
 	"podcasts": [
 		{ "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.png", "tags": ["11ty", "Audio"] },
@@ -10,6 +10,7 @@
 	],
 	"current": [
 		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.png", "tags": ["JS", "AppleScript", "Python"] },
+		{ "title": "DoubleShift", "link": "https://doubleshift.rknight.me", "desc": "Actors who have appeared in multiple medical TV shows", "image": "doubleshift.png", "tags": ["11ty", "JS"] },
 		{ "title": "Pokédon", "link": "https://pokedon.rknight.me", "desc": "Browse the 'don on a Pokédex", "image": "pokedon.png", "tags": ["PHP", "Laravel", "JS"] },
 		{ "title": "App Defaults", "link": "https://defaults.rknight.me", "desc": "Collecting all the app default posts from Hemispheric Views 097 - Duel of the Defaults!", "image": "defaults.png", "tags": ["11ty"] },
 		{ "title": "VLCNR", "link": "https://vlcnr.rknight.me", "desc": "The original VLCNR soundboard revived from the dead", "image": "vlcnr.png" },
