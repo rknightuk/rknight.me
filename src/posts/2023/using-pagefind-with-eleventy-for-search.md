@@ -38,7 +38,7 @@ PageFind works by scanning a bunch of HTML files and looking for [one of the `da
 We want to run the PageFind CLI _after_ the site has been built so we use the [`after` Eleventy event](https://www.11ty.dev/docs/events/#eleventy.after) and run the command with [`execSync`](https://nodejs.org/api/child_process.html#child_processexecsynccommand-options) on all HTML files in the built site:
 
 ```js
-const { execSync } = require('child_process').execSync
+const { execSync } = require('child_process')
 
 module.exports = function(eleventyConfig) {
   eleventyConfig.on('eleventy.after', () => {
