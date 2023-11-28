@@ -1,9 +1,9 @@
 ---
 pagination:
-  data: collections
+  data: collections.blogTags
   size: 1
   alias: tag
-permalink: blog/tags/{{ tag }}/index.html
+permalink: blog/tags/{{ tag | toLowerCase }}/index.html
 layout: base
 eleventyComputed:
   title: "#{{ tag }}"
