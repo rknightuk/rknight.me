@@ -7,6 +7,30 @@ const EleventyPluginOgImage = require('eleventy-plugin-og-image')
 const fs = require('fs')
 
 module.exports = function(eleventyConfig) {
+
+    const markdownIt = require("markdown-it")
+    const markdownItFootnote = require("markdown-it-footnote")
+
+    const options = {
+        html: true, // Enable HTML tags in source
+        breaks: true,  // Convert '\n' in paragraphs into <br>
+        linkify: true // Autoconvert URL-like text to links
+    };
+
+    let markdownLib =  markdownIt(options).use(markdownItFootnote)
+    // replace the stupid emoji
+    markdownLib.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
+        var id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf)
+
+        if (tokens[idx].meta.subId > 0) {
+            id += ':' + tokens[idx].meta.subId
+        }
+
+        return ' <a href="#fnref' + id + '" class="footnote-backref">&#10558;</a>'
+    }
+
+    eleventyConfig.setLibrary('md', markdownLib);
+
     // passthrough
     ['src/assets', 'src/files'].forEach(path => {
         eleventyConfig.addPassthroughCopy(path, {

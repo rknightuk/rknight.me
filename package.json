@@ -20,6 +20,8 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-plugin-og-image": "^2.1.1",
     "glob": "^10.3.10",
+    "markdown-it": "^13.0.2",
+    "markdown-it-footnote": "^3.0.3",
     "moment": "^2.29.4",
     "node-fetch": "^2.6.1",
     "pagefind": "^0.10.7",
