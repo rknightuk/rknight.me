@@ -68,3 +68,6 @@ I used [Eleventy](https://11ty.dev) like I always do because it's data files are
 It's worth noting that when using the [subsequent-sibling combinator](https://developer.mozilla.org/en-US/docs/Web/CSS/Subsequent-sibling_combinator) (`~`) the two elements must be children of the same parent so I couldn't have the radio buttons inside their own container which made styling them slightly harder, but a small price to pay to not rely on JS here.
 
 [View the DoubleShift site here](https://doubleshift.rknight.me) and you can view [the source on GitHub](https://github.com/rknightuk/doubleshift)
+
+- Update 2023-11-28: Added four more shows and leaderboards
+- Update 2023-11-30: Check out [Crossover](/crossover) to compare _any_ two TV shows

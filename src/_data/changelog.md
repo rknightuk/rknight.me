@@ -1,3 +1,5 @@
+[2023-11-30] [Crossover](https://crossover.rknight.me) [project] 
+[2023-11-30] [rknight.me](https://rknight.me) [feature] Added support for footnotes
 [2023-11-28] [DoubleShift](https://doubleshift.rknight.me) [feature] Added four new shows
 [2023-11-27] [DoubleShift](https://doubleshift.rknight.me) [project] 
 [2023-11-25] [rknight.me](https://rknight.me) [feature] Added Jason × Thanos mode
