@@ -5,9 +5,7 @@
             <div class="card__icon">
               <img src="{{ project.icon }}">
             </div>
-          {% endif %}
-            {%- for tag in project.tags %}<div class="card__tag">{{ tag }}</div>{% endfor%}
-          </div>
+          {% endif %}{% if project.tags %}{%- for tag in project.tags %}<div class="card__tag">{{ tag }}</div>{% endfor%}{% endif %}</div>
       </div>
       <div class="card__text">
           <span class="card__title"><a href="{{ project.link }}">{{ project.title }}</a></span>
