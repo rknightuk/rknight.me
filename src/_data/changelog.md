@@ -1,3 +1,4 @@
+[2023-12-01] [rknight.me](https://rknight.me) [feature] Added hCard for site and posts
 [2023-12-01] [rknight.me](https://rknight.me) [fix] Fixed Lego on mobile, thanks Charlie.
 [2023-11-30] [Crossover](https://crossover.rknight.me) [project] 
 [2023-11-30] [rknight.me](https://rknight.me) [feature] Added support for footnotes
