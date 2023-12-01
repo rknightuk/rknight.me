@@ -13,7 +13,7 @@ This is a simple way to deploy to a remote server, more for my reference than an
 
 Create a new folder on the server and initialise a bare git repository in it.
 
-```
+```bash
 mkdir /root/repos/project-name
 cd /root/repos/project-name
 git init --bare
@@ -21,7 +21,7 @@ git init --bare
 
 Create a post-receive hook (`nano /hooks/post-receive`) with this as the contents:
 
-```
+```bash
 #!/bin/sh
 REPO=/root/repos/project-name
 TMP_GIT_CLONE=/tmp/project-name
@@ -33,6 +33,6 @@ rm -rf $TMP_GIT_CLONE
 ```
 Make sure to create the public directory if it doesn't already exist. Then add the remote to your local repo.
 
-```
+```bash
 git remote add live ssh@server:/root/repos/project-name
 ```
