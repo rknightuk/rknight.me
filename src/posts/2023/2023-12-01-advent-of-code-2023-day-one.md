@@ -5,7 +5,7 @@ date: 2023-12-01T11:30:30.578Z
 excerpt: "My advent of code day one solution"
 layout: post
 tags:
-    - Programming
+    - Development
     - AdventOfCode
 ---
 
