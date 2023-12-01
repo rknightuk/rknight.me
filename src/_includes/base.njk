@@ -130,11 +130,11 @@
                                 <svg class="icon">
                                     <use xlink:href="#calendar"></use>
                                 </svg>
-                                <time class="dt-published" datetime="{{ page.date | isoString }}">{{ page.date | postDate }}</time>
+                                <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
                             </div>
                             <div>
                                 {% for tag in tags %}
-                                    <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
+                                    <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
                                 {% endfor %}
                             </div>
                         </div>

@@ -22,9 +22,6 @@ module.exports = {
 
         return `${formatted.year}-${trail(formatted.month)}-${trail(formatted.day)} ${trail(formatted.hour)}:${trail(formatted.minute)}`
     },
-    isoString: (date) => {
-        return new Date(date).toISOString()
-    },
     isoDateOnly: (date) => {
         let d = new Date(date)
         let month = '' + (d.getMonth() + 1)
@@ -53,6 +50,21 @@ module.exports = {
         const year = d.getFullYear()
 
         return `${month} ${day}${nominal} ${year}`
+    },
+    toDateTimeForHCard: (date) => {
+        let d = new Date(date)
+        let month = '' + (d.getMonth() + 1)
+        let day = '' + d.getDate()
+        let year = d.getFullYear()
+        let hour = d.getHours()
+        let minute = d.getMinutes()
+        let seconds = d.getSeconds()
+
+        if (month.length < 2) month = '0' + month;
+        if (day.length < 2) day = '0' + day;
+
+        let output = [year, month, day].join('-');
+        return `${output} ${hour}:${minute}:${seconds}`
     },
     monthDay: (date) => {
         let d = new Date(date)
