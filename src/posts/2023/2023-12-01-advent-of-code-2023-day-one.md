@@ -15,7 +15,7 @@ Until [Zoe](https://zoeaubert.me) mentioned it this morning, I didn't know what 
 
 The first challenge was to extract the first and last digit from an array of strings, concatenate them, then get the total. For example the result of this on `1fghy2` would give `12`.
 
-Anyone who knows me professionally knows regex is my kryptonite. It just doesn't click with my brain and I seem to forget anything I learn aboit it instantly. I fired up [regex101](https://regex101.com/) to give this a go anyway. Regex101 has a handy quick reference which told me I needed `\d` to find any digit. I used `preg_match_all` to get all digits:
+Anyone who knows me professionally knows regex is my kryptonite. It just doesn't click with my brain and I seem to forget anything I learn about it instantly. I fired up [regex101](https://regex101.com/) to give this a go anyway. Regex101 has a handy quick reference which told me I needed `\d` to find any digit. I used `preg_match_all` to get all digits:
 
 ```php
 $input = [
