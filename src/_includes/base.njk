@@ -121,7 +121,7 @@
         {% else %}
             <section class="block block-main">
                 <div class="container">
-                    <h2>{{ title }}</h2>
+                    <h2 class="p-name">{{ title }}</h2>
                     {% if subtitle %}<p>{{ subtitle | mdToHtml | safe }}</p>{% endif %}
 
                     {% if layout == 'post' %}
@@ -130,7 +130,7 @@
                                 <svg class="icon">
                                     <use xlink:href="#calendar"></use>
                                 </svg>
-                                {{ page.date | postDate }}
+                                <time class="dt-published" datetime="{{ page.date | isoString }}">{{ page.date | postDate }}</time>
                             </div>
                             <div>
                                 {% for tag in tags %}
@@ -151,6 +151,7 @@
             <div class="
                 container
                 {% if wide %}{% else %}container-sm{% endif %}
+                h-entry
             ">
                 {{ content | safe }}
             </div>

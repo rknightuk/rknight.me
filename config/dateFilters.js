@@ -22,6 +22,9 @@ module.exports = {
 
         return `${formatted.year}-${trail(formatted.month)}-${trail(formatted.day)} ${trail(formatted.hour)}:${trail(formatted.minute)}`
     },
+    isoString: (date) => {
+        return new Date(date).toISOString()
+    },
     isoDateOnly: (date) => {
         let d = new Date(date)
         let month = '' + (d.getMonth() + 1)
