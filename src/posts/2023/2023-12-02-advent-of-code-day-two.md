@@ -4,6 +4,9 @@ permalink: /advent-of-code-2023-day-two/index.html
 date: 2023-12-02T22:06:56.581Z
 excerpt: "My advent of code day two solution"
 layout: post
+tags:
+    - Development
+    - AdventOfCode
 ---
 
 After finally finding time to do today's challenge, I was able to knock it out in about 30 minutes for parts one and two. At the core of both of parts was parsing strings like this:
