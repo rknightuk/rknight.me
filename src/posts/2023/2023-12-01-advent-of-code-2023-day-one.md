@@ -11,7 +11,7 @@ tags:
 
 Until [Zoe](https://zoeaubert.me) mentioned it this morning, I didn't know what [Advent of Code](https://adventofcode.com) was [^1]. Advent of Code is an "_advent calendar of small programming puzzles_". So once I knew what it was, I figured I'd give it a go. I'm not sure if I'll make it all month but I'll certainly try. I'm doing it in PHP because it's what I know and it will annoy Zoe a little bit; you can see [her rust-based solution here](https://zoeaubert.me/blog/advent-of-code-2023-day-01/).
 
-### Part 1
+### Part One
 
 The first challenge was to extract the first and last digit from an array of strings, concatenate them, then get the total. For example the result of this on `1fghy2` would give `12`.
 
@@ -40,7 +40,7 @@ echo 'The total is ' . $result . PHP_EOL;
 // The total is 142
 ```
 
-### Part 2
+### Part One
 
 Part two added a complexity that some of the numbers could be written out as words instead of digits. Some of the strings might have no digits and some might have no numbers-as-words. So `onedsjfbi2` would give `12` and `23sdshseven` would give `27`. This part I _did_ know; find all digits, or the words of 1-9. A quick swap of my regex from before and mapping words to numbers with PHPs [null coalescing operator](https://www.php.net/manual/en/migration70.new-features.php):
 
@@ -65,7 +65,9 @@ After a bit of googling what I needed was a [capturing technique inside an unanc
 preg_match_all('/(?=(\d|one|two|three|four|five|six|seven|eight|nine))/', $line, $matches);
 ```
 
-And there we go, day one done. My solutions are [on GitHub](https://github.com/rknightuk/adventofcode/tree/main/2023/01) if you want to have a look.
+And there we go, day one done. 
+
+My solution is [on GitHub](https://github.com/rknightuk/adventofcode/tree/main/2023/01).
 
 [^1]: Or more likely, I did know and just forgot about it.
 [^2]: Very normal sentence, yes. Nothing to see here.

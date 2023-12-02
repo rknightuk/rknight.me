@@ -20,7 +20,7 @@ $input = [
 ];
 ```
 
-### Part 1
+### Part One
 
 For part one I needed to get the game ID plus the amount and related colors from each pick of the games. There are a lot of ways of doing this but the solution I went with was some good-old fashioned string-replacement and exploding:
 
@@ -61,7 +61,7 @@ echo $validGameTotal . PHP_EOL;
 
 A `break` statement would make more sense instead of using `continue` but I'm not changing it now.
 
-### Part 2
+### Part Two
 
 Part two was similar but I needed to find the highest value of each given color and multiply them. PHP's `max` function made this easy:
 
@@ -97,3 +97,5 @@ foreach ($input as $line) {
 ```
 
 Onwards to day three.
+
+My solution is [on GitHub](https://github.com/rknightuk/adventofcode/tree/main/2023/02).
