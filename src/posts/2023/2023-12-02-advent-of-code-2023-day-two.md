@@ -2,7 +2,7 @@
 title: "Advent of Code 2023: Day Two"
 permalink: /advent-of-code-2023-day-two/index.html
 date: 2023-12-02T22:06:56.581Z
-excerpt: "My advent of code day two solution"
+excerpt: "My solution for \"Cube Conundrum\""
 layout: post
 tags:
     - Development
