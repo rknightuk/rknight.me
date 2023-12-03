@@ -10,7 +10,7 @@ const meta = `---
 title: "${title}"
 permalink: /${slug}/index.html
 date: ${postDate}
-excerpt: "My Solution for \"{{TODO}}\""
+excerpt: "My solution for \"{{TODO}}\""
 layout: post
 tags:
     - Development
