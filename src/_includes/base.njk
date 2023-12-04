@@ -32,7 +32,7 @@
         <script src="/assets/lite-yt.js"></script>
 
 		<meta property="og:title" content="{{ title }}" />
-        {% if ('/micro' in page.url) or homepage %}
+        {% if ('/micro' in page.url) %}
             <meta property="description" content="{{ post.summary }}" />
             <meta property="og:description" content="{{ post.summary }}" />
         {% else %}
