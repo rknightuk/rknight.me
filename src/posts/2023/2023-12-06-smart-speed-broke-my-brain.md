@@ -4,6 +4,8 @@ permalink: /smart-speed-broke-my-brain/index.html
 date: 2023-12-06T22:30:39.098Z
 excerpt: "I turned off smart speed for the first time in a decade"
 layout: post
+tags:
+    - Podcasting
 ---
 
 According to [Overcast](https://overcast.fm/)'s stats I've saved 424 hours with smart speed. Smart speed, or "trim silence" as other apps call it, is a feature that will remove silences from podcasts and at launch was Overcast’s primary selling point. After the best part of a decade I was convinced [by Keenan](https://gkeenan.co/avgb/hot-take-its-okay-if-we-dont-consume-all-of-the-worlds-information-before-we-die) (if you can, listen to the audio version of the post, it's wonderful) to turn it off and I’m so glad I did. 
