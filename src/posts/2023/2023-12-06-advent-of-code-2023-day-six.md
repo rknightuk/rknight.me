@@ -109,6 +109,6 @@ echo 'Total is ' . array_product($wins) . PHP_EOL;
 
 And that was part two. I don't know how efficient `array_product` is and I could have just calculated the total as I went along instead of adding to an array instead.
 
-My solution is [on GitHub](https://github.com/rknightuk/adventofcode/tree/main/2023/{{TODO}}).
+My solution is [on GitHub](https://github.com/rknightuk/adventofcode/tree/main/2023/06).
 
 [^1]: The "story" part of advent of code is really something.
