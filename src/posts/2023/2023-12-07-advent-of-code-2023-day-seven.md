@@ -201,7 +201,7 @@ I ran the code and got a warning:
 chr(): Passing null to parameter #1 ($codepoint) of type int is deprecated
 ```
 
-One of the edge cases (maybe the only one?) was a hand that was five of a kind of all `J` cards. I hadn't accounted for this in my new code for locating the joker replacement; I was skipping every card that was a `J` so it never the replacement index would be `null``. One more quick change and I had part two finished.
+One of the edge cases (maybe the only one?) was a hand that was five of a kind of all `J` cards. I hadn't accounted for this in my new code for locating the joker replacement; I was skipping every card that was a `J` so it never the replacement index would be `null`. One more quick change and I had part two finished.
 
 ```diff
 + $replace = $index ? chr($index) : 'A';
