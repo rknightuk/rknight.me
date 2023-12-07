@@ -1,3 +1,4 @@
+[2023-12-07] [rknight.me](https://rknight.me) [feature] Date now shows on blog post lists
 [2023-12-04] [App Defaults](https://defaults.rknight.me) [feature] New layout for blog posts
 [2023-12-01] [rknight.me](https://rknight.me) [feature] Added hCard for site and posts
 [2023-12-01] [rknight.me](https://rknight.me) [fix] Fixed Lego on mobile, thanks Charlie.

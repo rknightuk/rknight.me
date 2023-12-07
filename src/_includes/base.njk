@@ -133,7 +133,7 @@
                                 <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
                             </div>
                             <div>
-                                {% for tag in tags %}
+                                {% for tag in tags | sort %}
                                     <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
                                 {% endfor %}
                             </div>
