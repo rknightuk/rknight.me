@@ -18,7 +18,7 @@ It’s a common joke in the [Relay FM Discord](https://www.relay.fm/membership) 
 
 > They don’t. I wasn’t talking about China anymore, I was talking about me.
 
-I haven’t listened to a show at standard speed for years. Ater I turned off smart speed and listened to a show I realised how calm I felt compared to usual. It was relaxing. I had time to process what was being said without also trying to hear the next part of the conversation. I realised for the past decade I’ve been on high alert just to listen to a podcast, concentrating really hard to consume all the information. I was _stressed_ from something that’s supposed to be enjoyable. I was accustomed to _readying myself_ to listen to a show. Smart speed had broken my brain.
+I haven’t listened to a show at standard speed for years. After I turned off smart speed and listened to a show I realised how calm I felt compared to usual. It was relaxing. I had time to process what was being said without also trying to hear the next part of the conversation. I realised for the past decade I’ve been on high alert just to listen to a podcast, concentrating really hard to consume all the information. I was _stressed_ from something that’s supposed to be enjoyable. I was accustomed to _readying myself_ to listen to a show. Smart speed had broken my brain.
 
 424 hours "saved" according to Overcast. Saved what though? 424 more hours to _consume content_. Lovely.
 
