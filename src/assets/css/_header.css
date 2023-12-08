@@ -26,6 +26,14 @@ header.main a {
     font-family: var(--cr);
 }
 
+header.main a .subscribe-icon {
+    color: var(--color-rss);
+}
+
+header.main a .mastodon-icon {
+    color: var(--color-mastodon);
+}
+
 header.main a:hover {
     color: var(--primary);
 }

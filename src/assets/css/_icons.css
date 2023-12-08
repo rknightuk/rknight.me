@@ -11,7 +11,7 @@
 }
 
 .icon-mastodon {
-    color: #6364FF;
+    color: var(--color-mastodon);
 }
 
 .icon-github {
@@ -19,7 +19,7 @@
 }
 
 .icon-rss {
-    color: #FFA500;
+    color: var(--color-rss);
 }
 
 .icon-buymeacoffee {
