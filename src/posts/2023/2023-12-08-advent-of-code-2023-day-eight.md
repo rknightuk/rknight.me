@@ -1,7 +1,7 @@
 ---
 title: "Advent of Code 2023: Day Eight"
 permalink: /advent-of-code-2023-day-eight/index.html
-date: 2023-12-08T08:19:58.879Z
+date: 2023-12-08T15:05:58.956Z
 excerpt: "My solution for \"Haunted Wasteland\""
 layout: post
 tags:
