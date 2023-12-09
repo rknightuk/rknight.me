@@ -44,3 +44,9 @@ If you have multiple feeds, you can have more than one `link` tag that links to 
 ```
 
 Please, expose your RSS.
+
+Update 2023-12-09 via [James](https://bne.social/@james/111545470669286673):
+
+> if you're going to add an RSS button, please ensure it looks like an RSS button and is in RSS orange
+
+This is an excellent idea and I have done so here.
