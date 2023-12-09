@@ -187,4 +187,6 @@ echo (string) $result . PHP_EOL;
 
 I'm still not clear on _why_ this gets the answer beyond _maths_ but whatever, it's done. Onwards to day nine.
 
+Update: Zoe has a [good explanation of why this is the answer](https://zoeaubert.me/blog/advent-of-code-2023-day-08/).
+
 My solution is [on GitHub](https://github.com/rknightuk/adventofcode/tree/main/2023/08).
