@@ -13,18 +13,16 @@ eleventyComputed:
 {% set datePrinted = false %}
 {% set currentYear = 1000 %}
 
-<ul>
-    {% set taglist = collections[tag] %}
-    {% for post in taglist | reverse %}
+{% set taglist = collections[tag] %}
+{% for post in taglist | reverse %}
 
-        {% set postYear = post.date.getFullYear() %}
+    {% set postYear = post.date.getFullYear() %}
 
-        {% if postYear != currentYear %}
-            <h3>{{ postYear }}</h3>
-        {% endif %}
+    {% if postYear != currentYear %}
+        <h3>{{ postYear }}</h3>
+    {% endif %}
 
-        {% include 'post_list_item.njk' %}
+    {% include 'post_list_item.njk' %}
 
-        {% set currentYear = postYear %}
-    {% endfor %}
-</ul>
+    {% set currentYear = postYear %}
+{% endfor %}
