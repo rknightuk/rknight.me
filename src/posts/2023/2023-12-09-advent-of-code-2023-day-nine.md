@@ -59,7 +59,7 @@ foreach ($lines as $line) {
 echo "Total: $total" . PHP_EOL;
 ```
 
-This worked perfectly on the sample input but like other days the real input had a gotchas. As I noted above, I made the assumption that if the sum of a row was more than zero we should carry on but this doesn't account for negative numbers. What I _should_ have done was check if the sum was not _exactly zero_:
+This worked perfectly on the sample input but like other days the real input had a gotcha. As I noted above, I made the assumption that if the sum of a row was more than zero we should carry on but this doesn't account for negative numbers. What I _should_ have done was check if the sum was not _exactly zero_:
 
 ```diff
 + while (array_sum($finalNumbers) !== 0) {
