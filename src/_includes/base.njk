@@ -41,11 +41,11 @@
         {% endif %}
 		<meta property="og:type" content="article" />
 		<meta property="og:url" content="https://rknight.me{{ page.url }}" />
-        {% if ('/micro' in page.url) or homepage %}
+        {# {% if ('/micro' in page.url) or homepage %} #}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
-        {% else %}
-            {% ogImage "src/og-image.og.njk", { title: title | safe } %}
-        {% endif %}
+        {# {% else %} #}
+            {# {% ogImage "src/og-image.og.njk", { title: title | safe } %} #}
+        {# {% endif %} #}
 
         <link rel="preconnect" href="https://fonts.bunny.net">
 		<link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i|source-code-pro:400" rel="stylesheet" />
