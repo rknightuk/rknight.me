@@ -31,7 +31,8 @@ I have a 1Password Family account but I get this for free through my job.
 
 - [Connected Pro/Relay FM](getconnectedpro.co) (£4 / month). Ad-free episodes with extra content for connected, bonus episodes and access to the Relay Discord.
 - [Hemispheric Views One Prime Plus](https://oneprimeplus.com/) (£4 / month). Bonus episodes, a newsletter, access to a members-only Discord channel, plus some dandy stickers. I _just_ bumped this from $2 to $5 because I'm not convinced much of my $2 is actually reaching them once you account for fees and whatnot.
-- **Total:** £8 / month
+- [Eleventy](https://www.11ty.dev) (£4 / month). I build so many of my sites with Eleventy, it's a no-brainer.
+- **Total:** £12 / month
 
 ### Apps and Services
 
@@ -45,4 +46,4 @@ I have a 1Password Family account but I get this for free through my job.
 
 ### Grand Total
 
-£97.25 isn't too bad considering everything I'm getting for that. Not sure what conclusion to draw from this, nothing here I really need to cut. Maybe if it goes into triple digits I'll think about it some more.
+£101.25 isn't too bad considering everything I'm getting for that. Not sure what conclusion to draw from this, nothing here I really need to cut. Maybe if it goes much higher I'll think about it some more.
