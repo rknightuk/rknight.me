@@ -21,7 +21,7 @@ I have a 1Password Family account but I get this for free through my job.
 
 ### Streaming
 
-- Netflix (£7.99 / month). We cheap out on this because it's mostly for my wife to watch old crime documenataries and the quality doesn't really matter
+- Netflix (£7.99 / month). We cheap out on this because it's mostly for my wife to watch old crime documentaries and the quality doesn't really matter
 - Disney+ (£10.99 / month). We don't actually pay for this, instead we use out Tesco Clubcard vouchers every three months instead.
 - Amazon Prime (£7.99 / month (paid yearly)). We don't so much pay for this as we just get it included because we want quick delivery. 
 - Apple TV+, Apple Music (£36.95 / month).
