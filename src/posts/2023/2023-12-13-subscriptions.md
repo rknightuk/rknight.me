@@ -29,7 +29,7 @@ I have a 1Password Family account but I get this for free through my job.
 
 ### Memberships
 
-- [Connected Pro/Relay FM](getconnectedpro.co) (£4 / month). Ad-free episodes with extra content for connected, bonus episodes and access to the Relay Discord.
+- [Connected Pro/Relay FM](http://getconnectedpro.co) (£4 / month). Ad-free episodes with extra content for connected, bonus episodes and access to the Relay Discord.
 - [Hemispheric Views One Prime Plus](https://oneprimeplus.com/) (£4 / month). Bonus episodes, a newsletter, access to a members-only Discord channel, plus some dandy stickers. I _just_ bumped this from $2 to $5 because I'm not convinced much of my $2 is actually reaching them once you account for fees and whatnot.
 - [Eleventy](https://www.11ty.dev) (£4 / month). I build so many of my sites with Eleventy, it's a no-brainer.
 - **Total:** £12 / month
