@@ -38,7 +38,7 @@ I have a 1Password Family account but I get this for free through my job.
 
 - [omg.lol](https://home.omg.lol/referred-by/robb) (£1.33 / month (paid annually)). My main use is the [Mastodon instance](https://social.lol) but it has loads of stuff. Read [Blake's post](https://blakewatson.com/journal/omg-lol-an-oasis-on-the-internet/) for a better overview than I could ever write. 
 - [Digital Ocean](https://www.digitalocean.com/?refcode=8e1d8283bd20) (£12 / month). Hosting for this website and all my [side projects](https://rknight.me/projects).
-- [Fathom Analytics](https://usefathom.com/ref/IXCLSF) (£11 / month). Analytics I use for my sites. Worth noting here I get ~$7/$5 back each month thanks to referrals so the actual price paid here is ~£6.
+- [Fathom Analytics](https://usefathom.com/ref/IXCLSF) (£11 / month). Analytics I use for my sites. Worth noting here I get ~$7/£5 back each month thanks to referrals so the actual price paid here is ~£6.
 - [BunnyCDN](https://bunny.net/?ref=b2i4y24apu) (£1 / month). Currently only using this to host the files for [We Got Family](https://wegot.family/).
 - [Ivory](https://tapbots.com/ivory/) (£2 / month (paid yearly)). The best Mastodon client on the Mac and iOS.
 - **Total:** £25.33 / month
