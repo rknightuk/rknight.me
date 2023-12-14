@@ -3,7 +3,7 @@ const shortcodes = require('./config/shortcodes.js')
 const filters = require('./config/filters.js')
 const dateFilters = require('./config/dateFilters.js')
 const plugins = require('./config/plugins.js')
-const EleventyPluginOgImage = require('eleventy-plugin-og-image')
+const EleventyPluginOgImage = require('./config/eleventy-plugin-og-image')
 const fs = require('fs')
 
 module.exports = function(eleventyConfig) {
@@ -44,6 +44,8 @@ module.exports = function(eleventyConfig) {
     })
 
     eleventyConfig.addPlugin(EleventyPluginOgImage, {
+        outputDir: 'src/assets/ogi',
+        urlPath: '/assets/ogi/',
         satoriOptions: {
             fonts: [
                 {
@@ -81,6 +83,8 @@ module.exports = function(eleventyConfig) {
     Object.keys(dateFilters).forEach(filterName => {
         eleventyConfig.addFilter(filterName, dateFilters[filterName])
     })
+
+    eleventyConfig.watchIgnores.add('src/assets/ogi/**/*')
 
     return {
         passthroughFileCopy: true,
