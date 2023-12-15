@@ -16,7 +16,7 @@ Take my profile for example: [https://social.lol/@robb](https://social.lol/@robb
 
 They are doing this because they have to. The EU is breathing down all the big tech companies neck's to be more open and interoperable.[^1] They only launched in the EU yesterday and I'd bet my left bollock it took so long because they were doing sneaky shit with tracking that the EU would have fined them for immediately. The EU didn't make Threads illegal like certain tech pundits claimed, Meta were just doing illegal things. Just a little crime, as a treat.
 
-[Some instances](https://fedipact.veganism.social/) have already blocked Threads completely meaning their users have no way of intereacting with accounts on Threads. Purely on the basis that it's Meta with no evidence that they're doing anything nefarious or dangerous. Congratulations, you've made your instance worse for your users. By all means, wait and see if federating with Threads _becomes_ a problem, but doing it just becuase "meta bad" is ridiculous.
+[Some instances](https://fedipact.veganism.social/) have already blocked Threads completely meaning their users have no way of intereacting with accounts on Threads. Purely on the basis that it's Meta with no evidence that they're doing anything nefarious or dangerous. Congratulations, you've made your instance worse for your users. By all means, wait and see if federating with Threads _becomes_ a problem, but doing it just because "meta bad" is ridiculous.
 
 [Cassidy James](https://mastodon.blaede.family/@cassidy/111576987371347535):
 
