@@ -31,6 +31,12 @@ function processPostFile(filePath) {
     }
 }
 
+function generateDateIndexKey(date) {
+    const d = new Date(date)
+
+    return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`
+}
+
 function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockCount, avgDays, yearCharacterCount, yearParagraphCount) {
     return {
         year: currentYear,
@@ -78,7 +84,8 @@ module.exports = {
             firstPostDate: new Date(),
             lastPostDate: new Date(),
             highPostCount: 0,
-            years: []
+            years: [],
+            postsByDay: {},
         }
 
         let avgDays = 0;
@@ -115,6 +122,11 @@ module.exports = {
         
         for (let post of posts) {
             let postDate = post.data.page.date;
+            const dateIndexKey = generateDateIndexKey(postDate)
+            if (!statsObject.postsByDay[dateIndexKey]) {
+                statsObject.postsByDay[dateIndexKey] = 0
+            }
+            statsObject.postsByDay[dateIndexKey]++
             let daysBetween = (postDate - prevPostDate) / oneDayMilliseconds;
             let thisYear = postDate.getFullYear();
             if (thisYear != currentYear) {
