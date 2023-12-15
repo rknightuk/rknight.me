@@ -36,22 +36,6 @@ templateEngineOverride: njk,html
     .graph__data {
         margin-left: 10px;
     }
-
-    .map {
-        display: grid;
-        grid-template-columns: repeat(52, 1fr);
-        margin-bottom: 10px;
-        grid-gap: 1px;
-    }
-
-    .map__box {
-        aspect-ratio: 1 / 1;
-        background: var(--code-black);
-    }
-
-    .sdjoabfi {
-        background: red;
-    }
 </style>
 
 <span class="post-stats">
@@ -74,24 +58,3 @@ templateEngineOverride: njk,html
     </div>
     {% endfor %}
 </div>
-
-{%- for year in collections.postStats.years %}
-    <div class="map">
-        {%- for week in range(1, 53) %}
-            {%- for day in range(1, 8) %}
-            {% set indexKey = [year.year, "-", week, "-", day] | join %}
-
-            {% if collections.postStats.postsByDay[indexKey] %}
-                <div class="map__box sdjoabfi">
-                    
-                </div>
-            {% else %}
-                <div class="map__box">
-                    
-                </div>
-            {% endif %}
-            
-            {% endfor %}
-        {% endfor %}
-    </div>
-{% endfor %}
