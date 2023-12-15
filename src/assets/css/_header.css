@@ -81,13 +81,13 @@ header.main a:hover {
     display: none;
 }
 
-@media (max-width: 260px) {
+@media (max-width: 290px) {
     .main__title h1 {
         display: none;
     }
 }
 
-@media (max-width: 420px) {
+@media (max-width: 435px) {
     .main__title .surname {
         display: none;
     }
@@ -97,7 +97,7 @@ header.main a:hover {
     }
 }
 
-@media (max-width: 550px) {
+@media (max-width: 610px) {
     .main__links span {
         display: none;
     }

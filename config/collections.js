@@ -1,5 +1,6 @@
 const fs = require('fs')
 const writingStats = require('writing-stats')
+const moment = require('moment')
 
 function processPostFile(filePath) {
     try {
@@ -31,15 +32,12 @@ function processPostFile(filePath) {
     }
 }
 
-function generateDateIndexKey(date) {
-    const d = new Date(date)
-
-    return `${d.getFullYear()}-${d.getMonth() + 1}-${d.getDate()}`
-}
-
 function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockCount, avgDays, yearCharacterCount, yearParagraphCount) {
+    const daysInYear = ((currentYear % 4 === 0 && currentYear % 100 > 0) || currentYear % 400 == 0) ? 366 : 365;
+
     return {
         year: currentYear,
+        daysInYear: daysInYear,
         postCount: yearPostCount,
         wordCount: yearWordCount,
         codeBlockCount: yearCodeBlockCount,
@@ -122,7 +120,7 @@ module.exports = {
         
         for (let post of posts) {
             let postDate = post.data.page.date;
-            const dateIndexKey = generateDateIndexKey(postDate)
+            const dateIndexKey = `${moment(postDate).year()}-${moment(postDate).dayOfYear()}`;
             if (!statsObject.postsByDay[dateIndexKey]) {
                 statsObject.postsByDay[dateIndexKey] = 0
             }

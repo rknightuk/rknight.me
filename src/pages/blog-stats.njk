@@ -12,7 +12,7 @@ templateEngineOverride: njk,html
     }
 
     .graph {
-        margin-top: 20px;
+        margin: 20px 0;
     }
 
     .graph__wrapper {
@@ -38,19 +38,40 @@ templateEngineOverride: njk,html
     }
 
     .map {
+        font-size: 0.8em;
+    }
+
+    .map__year {
+        text-align: center;
+        font-weight: bold;
+    }
+
+    .map__months {
+        display: flex;
+        justify-content: space-between;
+    }
+
+    @media (max-width: 410px) {
+        .map__months {
+            display: none;
+        }
+    }
+
+    .map__squares {
         display: grid;
-        grid-template-columns: repeat(52, 1fr);
+        grid-template-rows: repeat(7, 1fr);
+        grid-auto-flow: column;
         margin-bottom: 10px;
-        grid-gap: 1px;
+        grid-gap: 2px;
     }
 
     .map__box {
         aspect-ratio: 1 / 1;
-        background: var(--code-black);
+        background: var(--bg-darker);
     }
 
-    .sdjoabfi {
-        background: red;
+    .hasPost {
+        background: var(--primary-subtle);
     }
 </style>
 
@@ -63,7 +84,7 @@ templateEngineOverride: njk,html
 <h3>Posts by Year</h3>
 
 <div class="graph">
-    {%- for year in collections.postStats.years %}
+    {%- for year in collections.postStats.years.reverse() %}
     <div class="graph__wrapper">
         <div class="graph__year">{{ year.year }}</div>
         <div class="graph__progress" style="width: {{ year.postCount / collections.postStats.highPostCount * 100 }}%;">
@@ -75,23 +96,33 @@ templateEngineOverride: njk,html
     {% endfor %}
 </div>
 
-{%- for year in collections.postStats.years %}
-    <div class="map">
-        {%- for week in range(1, 53) %}
-            {%- for day in range(1, 8) %}
-            {% set indexKey = [year.year, "-", week, "-", day] | join %}
+<h4>Post Distribution Graphs</h4>
 
-            {% if collections.postStats.postsByDay[indexKey] %}
-                <div class="map__box sdjoabfi">
-                    
-                </div>
-            {% else %}
-                <div class="map__box">
-                    
-                </div>
-            {% endif %}
-            
+{%- for year in collections.postStats.years.reverse() %}
+    <div class="map">
+        <div class="map__year">{{ year.year }}</div>
+        <div class="map__months">
+            <div>Jan</div>
+            <div>Feb</div>
+            <div>Mar</div>
+            <div>Apr</div>
+            <div>May</div>
+            <div>Jun</div>
+            <div>Jul</div>
+            <div>Aug</div>
+            <div>Sep</div>
+            <div>Oct</div>
+            <div>Nov</div>
+            <div>Dec</div>
+        </div>
+        <div class="map__squares">
+            {%- for day in range(1, year.daysInYear + 1) %}
+                {% set indexKey = [year.year, "-", day] | join %}
+                <div class="
+                    map__box 
+                    {% if collections.postStats.postsByDay[indexKey] %} hasPost {% endif %}
+                "></div>
             {% endfor %}
-        {% endfor %}
+        </div>
     </div>
 {% endfor %}
