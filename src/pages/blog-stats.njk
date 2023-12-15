@@ -1,0 +1,60 @@
+---
+title: Statistics
+subtitle: "Generated with a modified version of <a href='https://github.com/johnwargo/eleventy-plugin-post-stats'>eleventy-plugin-post-stats</a>"
+permalink: /blog/stats/index.html
+layout: base
+templateEngineOverride: njk,html
+---
+
+<style>
+    .post-stats strong {
+        color: var(--primary);
+    }
+
+    .graph {
+        margin-top: 20px;
+    }
+
+    .graph__wrapper {
+        position: relative;
+        height: 30px;
+        margin-bottom: 5px;
+        display: flex;
+        align-items: center;
+    }
+
+    .graph__progress {
+        background: var(--secondary);
+        height: 100%;
+        margin-left: 10px;
+    }
+    
+    .graph__year {
+        font-family: var(--monospace);
+    }
+
+    .graph__data {
+        margin-left: 10px;
+    }
+</style>
+
+<span class="post-stats">
+<p>My first post was published on <strong>{{ collections.postStats.firstPostDate | postDate }}</strong> and my most recent one was published on <strong>{{ collections.postStats.lastPostDate | postDate }}</strong>. I've published <strong>{{ collections.postStats.postCount }} posts</strong> containing <strong>{{ collections.postStats.totalWordCount }} words</strong> and <strong>{{ collections.postStats.totalCodeBlockCount }} code samples</strong>.</p>
+
+<p>Posts have, on average, <strong>{{ collections.postStats.avgWordCount | round }} words</strong> and a gap of <strong>{{ collections.postStats.avgDays | round }} days</strong> between them.</p>
+</span>
+
+<h3>Posts by Year</h3>
+
+<div class="graph">
+    {%- for year in collections.postStats.years %}
+    <div class="graph__wrapper">
+        <div class="graph__year">{{ year.year }}</div>
+        <div class="graph__progress" style="width: {{ year.postCount / collections.postStats.highPostCount * 100 }}%;">
+        </div>
+        <div class="graph__data">
+            {{ year.postCount }}
+        </div>
+    </div>
+    {% endfor %}
+</div>

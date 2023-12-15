@@ -14,7 +14,8 @@
     "js-yaml": "^4.1.0",
     "luxon": "^3.2.1",
     "marked": "^4.2.12",
-    "sanitize-html": "^2.8.1"
+    "sanitize-html": "^2.8.1",
+    "writing-stats": "^1.0.6"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
