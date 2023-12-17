@@ -98,7 +98,7 @@ templateEngineOverride: njk,html
 
 <h4>Post Distribution Graphs</h4>
 
-{%- for year in collections.postStats.years.reverse() %}
+{%- for year in collections.postStats.years %}
     <div class="map">
         <div class="map__year">{{ year.year }}</div>
         <div class="map__months">
