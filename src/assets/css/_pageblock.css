@@ -91,7 +91,7 @@
 }
 
 .block.home a {
-    color: var(--primary);
+    color: var(--primary-links);
 }
 
 .block.home a:hover {

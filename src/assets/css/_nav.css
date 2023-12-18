@@ -13,7 +13,7 @@ nav.main .container {
 
 nav.main a:hover {
     background-color: var(--primary);
-    color: var(--offwhite);
+    color: var(--nav-text);
 }
 
 
@@ -22,7 +22,7 @@ nav.main a {
     border-bottom: none;
     padding: 5px 10px;
     text-decoration: none;
-    color: var(--offwhite);
+    color: var(--nav-text);
     border-radius: 5px;
     text-transform: lowercase;
     font-size: 0.8em;

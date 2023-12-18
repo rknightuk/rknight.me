@@ -19,6 +19,7 @@
 @import "_liteyt.css";
 @import "_design.css";
 @import "_blogrollcard.css";
+@import "_highlight.css";
 
 .scale-left {
     display: none;

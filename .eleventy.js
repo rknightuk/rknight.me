@@ -50,13 +50,13 @@ module.exports = function(eleventyConfig) {
             fonts: [
                 {
                     name: 'Cartridge-BoldRough',
-                    data: fs.readFileSync('src/assets/Cartridge-BoldRough.woff'),
+                    data: fs.readFileSync('src/assets/fonts/Cartridge-BoldRough.woff'),
                     weight: 700,
                     style: 'normal',
                 },
                 {
                     name: 'Atkinson Hyperlegible',
-                    data: fs.readFileSync('src/assets/Atkinson-Hyperlegible-Bold-102.woff'),
+                    data: fs.readFileSync('src/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff'),
                     weight: 700,
                     style: 'normal',
                 },

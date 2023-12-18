@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Cartridge-BoldRough';
-    src: url('/assets/Cartridge-BoldRough.woff2 ') format('woff2');
+    src: url('/assets/fonts/Cartridge-BoldRough.woff2 ') format('woff2');
     font-display: swap;
 }
 
 @font-face {
     font-family: 'Cartridge-Rough';
-    src: url('/assets/Cartridge-Rough.woff2 ') format('woff2');
+    src: url('/assets/fonts/Cartridge-Rough.woff2 ') format('woff2');
     font-display: swap;
 }
 
@@ -18,7 +18,7 @@ body {
     line-height: 1.6;
     padding: 0;
     margin: 0;
-    font-family: 'Atkinson Hyperlegible', -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+    font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
     font-size: 1.3em;
     background-color: var(--nearblack);
     color: var(--offwhite);
@@ -67,7 +67,7 @@ h4 svg {
 }
 
 a {
-    color: var(--primary);
+    color: var(--primary-links);
 }
 
 a:hover {
@@ -116,7 +116,7 @@ input[type="button"] {
     white-space: nowrap;
     background-color: var(--secondary);
     border: none;
-    color: white;
+    color: var(--nav-text);
     border-radius: 1px;
     cursor: pointer;
     box-sizing: border-box;

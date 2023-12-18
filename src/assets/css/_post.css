@@ -1,3 +1,9 @@
+.post-title {
+    font-size: 1.4em;
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
 .post-meta {
     margin-bottom: 30px;
     display: flex;

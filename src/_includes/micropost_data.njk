@@ -1,9 +1,5 @@
 {{ post.content | safe }}
 
-{% for ytId in (post | getYouTubeLinks) %}
-    <lite-youtube videoid="{{ ytId }}"></lite-youtube>
-{% endfor %}
-
 {% if post.type !== 'mb' %}
     {% if post.attachments.length > 0 %}
     <div class="photogrid">
