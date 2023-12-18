@@ -10,7 +10,7 @@
         <div class="home-links">
             {% for link in links %}
                 <div>
-                    <a href="{{ link.link }}" target="_blank" rel="noopener">
+                    <a href="{{ link.link }}" target="_blank" rel="noopener" aria-label="Link to {{ link.icon }}">
                         <svg class="icon icon-{{ link.icon }}">
                             <use xlink:href="#{{ link.icon }}"></use>
                         </svg>
