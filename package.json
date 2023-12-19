@@ -9,6 +9,7 @@
     "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.1.2",
     "@remy/webmention": "^1.4.5",
+    "@rknightuk/eleventy-plugin-post-graph": "^1.0.0",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.3.1",
     "js-yaml": "^4.1.0",

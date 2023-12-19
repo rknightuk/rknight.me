@@ -97,32 +97,6 @@ templateEngineOverride: njk,html
 </div>
 
 <h4>Post Distribution Graphs</h4>
+<p><small>Made with <a href="https://postgraph.rknight.me">Eleventy Post Graph</a></small></p>
 
-{%- for year in collections.postStats.years %}
-    <div class="map">
-        <div class="map__year">{{ year.year }}</div>
-        <div class="map__months">
-            <div>Jan</div>
-            <div>Feb</div>
-            <div>Mar</div>
-            <div>Apr</div>
-            <div>May</div>
-            <div>Jun</div>
-            <div>Jul</div>
-            <div>Aug</div>
-            <div>Sep</div>
-            <div>Oct</div>
-            <div>Nov</div>
-            <div>Dec</div>
-        </div>
-        <div class="map__squares">
-            {%- for day in range(1, year.daysInYear + 1) %}
-                {% set indexKey = [year.year, "-", day] | join %}
-                <div class="
-                    map__box 
-                    {% if collections.postStats.postsByDay[indexKey] %} hasPost {% endif %}
-                "></div>
-            {% endfor %}
-        </div>
-    </div>
-{% endfor %}
+{% postGraph collections.posts %}

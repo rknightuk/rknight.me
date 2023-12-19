@@ -3,6 +3,7 @@ const shortcodes = require('./config/shortcodes.js')
 const filters = require('./config/filters.js')
 const dateFilters = require('./config/dateFilters.js')
 const plugins = require('./config/plugins.js')
+const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
 const EleventyPluginOgImage = require('./config/eleventy-plugin-og-image')
 const fs = require('fs')
 
@@ -39,29 +40,8 @@ module.exports = function(eleventyConfig) {
     })
 
     // plugins
-    plugins.forEach(pluginName => {
-        eleventyConfig.addPlugin(require(pluginName))
-    })
-
-    eleventyConfig.addPlugin(EleventyPluginOgImage, {
-        outputDir: 'src/assets/ogi',
-        urlPath: '/assets/ogi/',
-        satoriOptions: {
-            fonts: [
-                {
-                    name: 'Cartridge-BoldRough',
-                    data: fs.readFileSync('src/assets/fonts/Cartridge-BoldRough.woff'),
-                    weight: 700,
-                    style: 'normal',
-                },
-                {
-                    name: 'Atkinson Hyperlegible',
-                    data: fs.readFileSync('src/assets/fonts/Atkinson-Hyperlegible-Bold-102.woff'),
-                    weight: 700,
-                    style: 'normal',
-                },
-            ],
-        },
+    plugins.forEach(plugin => {
+        eleventyConfig.addPlugin(require(plugin.name), { ...plugin.options })
     })
 
     // collections
