@@ -1,7 +1,7 @@
 {
 	"featured": [
+		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.png", "tags": ["JS"] },
 		{ "title": "Crossover", "link": "https://crossover.rknight.me", "desc": "Compare actors who have appeared in any two TV shows", "image": "crossover.png", "tags": ["JS"] },
-		{ "title": "DoubleShift", "link": "https://doubleshift.rknight.me", "desc": "Actors who have appeared in multiple medical TV shows", "image": "doubleshift.png", "tags": ["11ty", "JS"] },
 		{ "title": "Pokédon", "link": "https://pokedon.rknight.me", "desc": "Browse the 'don on a Pokédex", "image": "pokedon.png", "tags": ["PHP", "Laravel", "JS"] }
 	],
 	"podcasts": [
@@ -10,6 +10,7 @@
 	],
 	"current": [
 		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.png", "tags": ["JS", "AppleScript", "Python"] },
+		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.png", "tags": ["JS"] },
 		{ "title": "Crossover", "link": "https://crossover.rknight.me", "desc": "Compare actors who have appeared in any two TV shows", "image": "crossover.png", "tags": ["JS"] },
 		{ "title": "DoubleShift", "link": "https://doubleshift.rknight.me", "desc": "Actors who have appeared in multiple medical TV shows", "image": "doubleshift.png", "tags": ["11ty", "JS"] },
 		{ "title": "Pokédon", "link": "https://pokedon.rknight.me", "desc": "Browse the 'don on a Pokédex", "image": "pokedon.png", "tags": ["PHP", "Laravel", "JS"] },
