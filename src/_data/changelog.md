@@ -1,3 +1,5 @@
+[2023-12-19] [Eleventy Post Graph](https://postgraph.rknight.me) [project] 
+[2023-12-15] [rknight.me](https://rknight.me) [feature] Added blog stats page
 [2023-12-07] [rknight.me](https://rknight.me) [feature] Date now shows on blog post lists
 [2023-12-04] [App Defaults](https://defaults.rknight.me) [feature] New layout for blog posts
 [2023-12-01] [rknight.me](https://rknight.me) [feature] Added hCard for site and posts
