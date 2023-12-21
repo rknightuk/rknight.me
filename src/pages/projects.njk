@@ -50,7 +50,7 @@ templateEngineOverride: njk,html,md
 ### Shortcuts
 
 <ul>
-{%- for post in collections['shortcuts'] %}
+{%- for post in collections['Shortcuts'] %}
 <li><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></li>
 {% endfor %}
 </ul>
