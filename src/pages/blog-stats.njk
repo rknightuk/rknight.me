@@ -36,43 +36,6 @@ templateEngineOverride: njk,html
     .graph__data {
         margin-left: 10px;
     }
-
-    .map {
-        font-size: 0.8em;
-    }
-
-    .map__year {
-        text-align: center;
-        font-weight: bold;
-    }
-
-    .map__months {
-        display: flex;
-        justify-content: space-between;
-    }
-
-    @media (max-width: 410px) {
-        .map__months {
-            display: none;
-        }
-    }
-
-    .map__squares {
-        display: grid;
-        grid-template-rows: repeat(7, 1fr);
-        grid-auto-flow: column;
-        margin-bottom: 10px;
-        grid-gap: 2px;
-    }
-
-    .map__box {
-        aspect-ratio: 1 / 1;
-        background: var(--bg-darker);
-    }
-
-    .hasPost {
-        background: var(--primary-subtle);
-    }
 </style>
 
 <span class="post-stats">
@@ -80,6 +43,14 @@ templateEngineOverride: njk,html
 
 <p>Posts have, on average, <strong>{{ collections.postStats.avgWordCount | round }} words</strong> and a gap of <strong>{{ collections.postStats.avgDays | round }} days</strong> between them.</p>
 </span>
+
+<h3>Popular Posts</h3>
+{%- set popular = fathom | popularPosts(5) -%}
+<ul>
+    {%- for p in popular %}
+        <li><a href="{{ p.url }}">{{ p.title }}</a></li>
+    {% endfor %}
+</ul>
 
 <h3>Posts by Year</h3>
 
@@ -96,7 +67,7 @@ templateEngineOverride: njk,html
     {% endfor %}
 </div>
 
-<h4>Post Distribution Graphs</h4>
+<h3>Post Distribution Graphs</h3>
 <p><small>Made with <a href="https://postgraph.rknight.me">Eleventy Post Graph</a></small></p>
 
 {% postGraph collections.posts %}
