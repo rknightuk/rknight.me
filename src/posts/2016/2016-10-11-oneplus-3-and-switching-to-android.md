@@ -32,10 +32,6 @@ I won't be going in depth into the phone but [MKBHD reviewed it here](https://ww
 
 The OnePlus build quality is not quite as nice as an iPhone, which I expected, but it is still a really nice device. The thing I love the most about it is the fingerprint unlock. Not only has it never failed to read my fingerprint but it's also *really* fast, as you can see in [this video](https://www.youtube.com/watch?v=fOIfTNfdZUk).
 
-<div style="text-align:center;">
-    <iframe width="560" height="315" src="https://www.youtube.com/embed/fOIfTNfdZUk" frameborder="0" allowfullscreen></iframe>
-</div>
-
 Dash is OnePlus's quick charging feature that uses their [dash charger and cable](https://oneplus.net/uk/3/dashcharge). I'm able to charge my phone from ~15% to 70% in about 30 minutes, and another 15 to reach the full 100%. Because of this I've started charging my phone in the evening before I go to bed and the battery lasts the entirety of the next day well into the late evening before I need to charge again. It's worth noting that dash charging only works with both the USB plug *and* the dash cable, so it won't work with third-party USB cables.
 
 OnePlus 3, like the previous models, has an alert slider on the side to switch between silent, priority notifications, and all notifications. This is really useful and not something that appears on a lot of Android phones (although the modes exist as a software feature). By default priority includes alarms, music, messages, and phone calls but any app can be treated as priority in the global notification settings. Coming from an iPhone, it's nice to have a physical switch and as someone who had a lot of [old Nokia phones](https://en.wikipedia.org/wiki/Nokia_3310) I love having a modern equivalent of profiles. I use silent for when I'm sleeping, priority for when I'm at work, and all for any other time.
