@@ -5,6 +5,8 @@ layout: base
 permalink: 'subscribe/index.html'
 ---
 
+![Valid Atom](/assets/img/valid-atom.png)
+
 You can subscribe to my posts using RSS with the following feeds:
 
 - Long posts: [RSS](/feed.xml) or [JSON Feed](/feed.json)
