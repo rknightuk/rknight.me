@@ -38,7 +38,7 @@ module.exports = {
             return post.attachments[0].url ? post.attachments[0].url : post.attachments[0]
         }
 
-        return 'https://rknight.me/assets/img/preview.png'
+        return 'https://rknight.me/assets/img/preview_small.png'
     },
     getYouTubeLinks: (post) => {
         if (!post.links || post.links.length === 0)
