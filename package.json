@@ -38,7 +38,8 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/eleventy --serve",
     "tina": "tinacms dev -c \"./node_modules/.bin/eleventy --serve\"",
-    "build": "tinacms build && ./node_modules/.bin/eleventy",
+    "build": "./node_modules/.bin/eleventy",
+    "buildtest": "tinacms build && ./node_modules/.bin/eleventy",
     "clear": "rm -rf .cache",
     "pagefind": "npx pagefind --source public --glob \"**/*.html\""
   },
