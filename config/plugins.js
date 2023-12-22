@@ -24,6 +24,8 @@ module.exports = [
             outputDir: 'src/assets/ogi',
             urlPath: '/assets/ogi/',
             satoriOptions: {
+                width: 920,
+                height: 480,
                 fonts: [
                     {
                         name: 'Cartridge-BoldRough',
