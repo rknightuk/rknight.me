@@ -19,7 +19,7 @@ eleventyExcludeFromCollections: true
     <title>{{ post.data.title }}</title>
     <link href="https://rknight.me{{ post.url }}"/>
     <updated>{{ post.date | rssDate }}</updated>
-    <id>{{ post.url }}</id>
+    <id>https://rknight.me{{ post.url }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
   </entry>
   {%- endfor %}
