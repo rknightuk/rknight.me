@@ -12,11 +12,10 @@ tags:
 I download a lot of TV shows (all legal of course) and have been renaming the files using [TVRenamer](https://github.com/tvrenamer/tvrenamer). After using TVRenamer manually for months I got fed up with having to do it, or the much more likely scenario happened where I would just leave them to build up in my downloads folder. I recently started using [Hazel](http://www.noodlesoft.com/hazel.php) to automatically rename and organise my photos. This works well because Hazel simply changes the filename to the date they were taken. TV shows are a little more complex than that as they have season and episode numbers as well as titles. Enter [TVNamer](https://github.com/dbr/tvnamer).
 
 TVNamer is a command line utility that takes a TV episode with an ugly filename (show.name.3x20.720[HD].avi) and changes it to something much more readable (ShowName S03E20 - Episode Title.avi). To install TVNamer follow the simple instructions in the [readme](https://github.com/dbr/tvnamer/blob/master/readme.md), it only takes a couple of minutes. Once it’s installed to can use it by simple typing:
-    
-    
-    
-    tvnamer <filename>
-    
+
+```
+tvnamer filename
+```
     
 
 TVNamer will then parse the file, look for episode information and, if it finds more than one result, will prompt you to choose the correct one and confirm the rename. When I tested this the correct result was always the first one which makes using Hazel to automate the process much easier. 
