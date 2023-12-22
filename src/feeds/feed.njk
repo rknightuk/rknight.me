@@ -12,7 +12,6 @@ eleventyExcludeFromCollections: true
   <id>rknight.me</id>
   <author>
     <name>Robb Knight</name>
-    <email></email>
   </author>
   {%- for post in collections.posts %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
