@@ -5,7 +5,10 @@ layout: base
 permalink: 'subscribe/index.html'
 ---
 
-![Valid Atom](/assets/img/valid-atom.png)
+<div style="display: flex; align-items: center; justify-content: center;">
+    <img src="/assets/img/valid-atom.png" alt="Valid Atom">
+    <img src="/assets/img/valid-json.png" alt="Valid JSON">
+</div>
 
 You can subscribe to my posts using RSS with the following feeds:
 
