@@ -1,0 +1,18 @@
+fragment LinkParts on Link {
+  __typename
+  title
+  link
+  date
+  comment
+}
+
+fragment PostParts on Post {
+  __typename
+  title
+  permalink
+  excerpt
+  layout
+  date
+  tags
+  body
+}
