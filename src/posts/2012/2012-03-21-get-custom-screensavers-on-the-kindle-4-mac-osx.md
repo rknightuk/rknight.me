@@ -1,6 +1,6 @@
 ---
 title: Get Custom Screensavers on the Kindle 4 on OS X
-permalink: /get-custom-screensavers-on-the-kindle-4-mac-osx/index.html
+permalink: /blog/get-custom-screensavers-on-the-kindle-4-mac-osx/index.html
 excerpt: "Guide to adding custom screensavers on a Kindle because why not?"
 date: 2012-03-21 01:17:56
 layout: post

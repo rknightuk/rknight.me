@@ -1,6 +1,6 @@
 ---
 title: Reminders Alfred Workflow
-permalink: /reminders-alfred-workflow/index.html
+permalink: /blog/reminders-alfred-workflow/index.html
 date: 2021-07-19
 excerpt: "An Alfred workflow to manage Reminders on your Mac"
 layout: post

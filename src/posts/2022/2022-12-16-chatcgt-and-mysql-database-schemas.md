@@ -1,6 +1,6 @@
 ---
 title: ChatGPT and mySQL Database Schemas
-permalink: /chatcgt-and-mysql-database-schemas/index.html
+permalink: /blog/chatcgt-and-mysql-database-schemas/index.html
 date: 2022-12-16T19:38:40.307Z
 excerpt: "I tried ChatGPT for a common task and it worked pretty well"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: The Biology of the Hey Bear Fruits Makes No Sense
-permalink: /biology-of-hey-bear-fruits/index.html
+permalink: /blog/biology-of-hey-bear-fruits/index.html
 date: 2023-06-22T17:44:51.466Z
 excerpt: "I've watched too much Hey Bear and wrote about how weird it is"
 layout: post

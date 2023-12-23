@@ -1,6 +1,6 @@
 ---
 title: Automating My Now Page
-permalink: /automating-my-now-page/index.html
+permalink: /blog/automating-my-now-page/index.html
 date: 2023-01-21
 excerpt: "How I automated my now page updates"
 layout: post

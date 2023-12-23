@@ -1,6 +1,6 @@
 ---
 title: 70Decibels and 5by5
-permalink: /70decibels-and-5by5/index.html
+permalink: /blog/70decibels-and-5by5/index.html
 excerpt: "70Decibels is merging with 5by5"
 layout: post
 date: 2013-03-14T10:11:46.223Z

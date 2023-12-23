@@ -1,6 +1,6 @@
 ---
 title: Getting Closer to the Perfect TV
-permalink: /getting-closer-to-the-perfect-tv/index.html
+permalink: /blog/getting-closer-to-the-perfect-tv/index.html
 excerpt: "I bought what I think is a near-perfect TV"
 date: 2017-05-15
 layout: post

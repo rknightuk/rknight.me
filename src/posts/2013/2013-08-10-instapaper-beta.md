@@ -1,6 +1,6 @@
 ---
 title: Instapaper Beta
-permalink: /instapaper-beta/index.html
+permalink: /blog/instapaper-beta/index.html
 excerpt: "Instapaper has a new beta version of the website"
 featured: true
 date: 2013-08-10

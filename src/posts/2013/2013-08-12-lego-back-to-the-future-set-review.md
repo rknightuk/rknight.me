@@ -1,6 +1,6 @@
 ---
 title: Lego Back to The Future Set Review
-permalink: /lego-back-to-the-future-set-review/index.html
+permalink: /blog/lego-back-to-the-future-set-review/index.html
 featured: true
 date: 2013-08-12 10:00:52
 layout: post

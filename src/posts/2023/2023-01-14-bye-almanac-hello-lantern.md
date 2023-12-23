@@ -1,6 +1,6 @@
 ---
 title: Bye Almanac, Hello Lantern
-permalink: /bye-almanac-hello-lantern/index.html
+permalink: /blog/bye-almanac-hello-lantern/index.html
 date: 2023-01-14
 excerpt: "Retiring my media blogging engine Almanac and launching it's spirtual successor Lantern"
 layout: post

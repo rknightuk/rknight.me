@@ -1,6 +1,6 @@
 ---
 title: Thoughts on Google Chromecast
-permalink: /thoughts-on-chromecast/index.html
+permalink: /blog/thoughts-on-chromecast/index.html
 layout: post
 featured: true
 excerpt: "The Google Chromecast has been released in the UK, so I had to buy one and try it out."

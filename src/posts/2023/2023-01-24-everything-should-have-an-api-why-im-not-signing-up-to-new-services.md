@@ -1,6 +1,6 @@
 ---
 title: "Everything Should Have an API: I'm Done with Closed Services"
-permalink: /im-done-with-closed-services/index.html
+permalink: /blog/im-done-with-closed-services/index.html
 date: 2023-01-24
 excerpt: "I'm no longer willing to use services that don't allow me to access my data via an API or RSS"
 layout: post

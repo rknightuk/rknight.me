@@ -1,6 +1,6 @@
 ---
 title: Navigate Project Folders with Pick
-permalink: /navigate-project-folders-with-pick/index.html
+permalink: /blog/navigate-project-folders-with-pick/index.html
 date: 2023-01-19
 excerpt: "Using pick to jump to a project quickly"
 layout: post

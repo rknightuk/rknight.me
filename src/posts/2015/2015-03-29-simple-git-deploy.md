@@ -1,6 +1,6 @@
 ---
 title: Simple Git Deploy
-permalink: /simple-git-deploy/index.html
+permalink: /blog/simple-git-deploy/index.html
 layout: post
 featured: true
 excerpt: "A simple method to git push to deploy."

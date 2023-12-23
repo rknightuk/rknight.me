@@ -1,7 +1,7 @@
 ---
 title: Notes About Setting up RetroPie
 excerpt: "Some things I learnt (or want to remember) about setting up a RetroPie"
-permalink: /notes-about-setting-up-retropie/index.html
+permalink: /blog/notes-about-setting-up-retropie/index.html
 date: 2017-07-04 10:14:15
 tags:
 layout: post

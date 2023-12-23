@@ -1,6 +1,6 @@
 ---
 title: Changing Your Name by Deed Poll
-permalink: /changing-your-name-by-deed-poll/index.html
+permalink: /blog/changing-your-name-by-deed-poll/index.html
 date: 2019-09-08
 excerpt: "I changed my name and there's some things that would have been good to know before I started"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: "Advent of Code 2023: Day Six"
-permalink: /advent-of-code-2023-day-six/index.html
+permalink: /blog/advent-of-code-2023-day-six/index.html
 date: 2023-12-06T11:07:22.654Z
 excerpt: "My solution for \"Wait For It\""
 layout: post

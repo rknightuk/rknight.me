@@ -1,6 +1,6 @@
 ---
 title: Remove Laravel Homestead Environment Variables
-permalink: /remove-homestead-environment-variables/index.html
+permalink: /blog/remove-homestead-environment-variables/index.html
 layout: post
 excerpt: "How to delete envirionment variables from Laravel Homestead."
 date: 2015-03-27

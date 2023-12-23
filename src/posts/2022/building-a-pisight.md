@@ -1,6 +1,6 @@
 ---
 title: Building a PiSight
-permalink: /building-a-pisight/index.html
+permalink: /blog/building-a-pisight/index.html
 date: 2022-02-10
 excerpt: "My notes on building a PiSight"
 layout: post

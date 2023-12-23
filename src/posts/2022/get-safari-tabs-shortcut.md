@@ -1,6 +1,6 @@
 ---
 title: Get Safari Tabs Shortcut
-permalink: /get-safari-tabs-shortcut/index.html
+permalink: /blog/get-safari-tabs-shortcut/index.html
 date: 2022-05-13
 excerpt: "My MacStories Automation April entry"
 layout: post

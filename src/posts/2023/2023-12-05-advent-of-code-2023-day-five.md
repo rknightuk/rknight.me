@@ -1,6 +1,6 @@
 ---
 title: "Advent of Code 2023: Day Five"
-permalink: /advent-of-code-2023-day-five/index.html
+permalink: /blog/advent-of-code-2023-day-five/index.html
 date: 2023-12-05T11:40:26.302Z
 excerpt: "My solution for \"If You Give A Seed A Fertilizer\""
 layout: post

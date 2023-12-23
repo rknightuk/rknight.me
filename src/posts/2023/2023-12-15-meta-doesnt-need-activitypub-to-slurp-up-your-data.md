@@ -1,6 +1,6 @@
 ---
 title: Meta Doesn't Need ActivityPub to Slurp Up Your Data
-permalink: /meta-doesnt-need-activitypub-to-slurp-up-your-data/index.html
+permalink: /blog/meta-doesnt-need-activitypub-to-slurp-up-your-data/index.html
 date: 2023-12-15T10:30:49.461Z
 excerpt: "Thoughts on Meta adding ActivityPub to Threads"
 layout: post

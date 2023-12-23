@@ -1,6 +1,6 @@
 ---
 title: Twitter Backup and Archiving Options
-permalink: /twitter-backup-and-archiving-options/index.html
+permalink: /blog/twitter-backup-and-archiving-options/index.html
 date: 2023-01-29
 excerpt: "Three different options for managing your Twitter archive"
 layout: post

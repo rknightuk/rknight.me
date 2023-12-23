@@ -1,6 +1,6 @@
 ---
 title: "Parents: Take Some Fucking Responsibility"
-permalink: /parents-take-some-responsibility/index.html
+permalink: /blog/parents-take-some-responsibility/index.html
 layout: post
 excerpt: "The Telegraph reported this morning that two six-year-olds racked up a £1000 bill through in app purchases because they knew their parents iTunes password. And of course the parents are placing the blame entirely on the developers of apps that include in-app purchases."
 date: 2013-10-01

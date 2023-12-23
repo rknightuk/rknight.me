@@ -1,6 +1,6 @@
 ---
 title: Game Controller Double Standards
-permalink: /game-controller-double-standards/index.html
+permalink: /blog/game-controller-double-standards/index.html
 layout: post
 featured: true
 excerpt: "The new Apple TV supports game controllers which is great. What's not so great is the fact that developers can't require them."

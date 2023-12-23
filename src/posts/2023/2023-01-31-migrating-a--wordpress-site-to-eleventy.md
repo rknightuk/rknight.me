@@ -1,6 +1,6 @@
 ---
 title: Notes on Migrating a Wordpress Site to Eleventy
-permalink: /note-on-migrating-wordpress-site-eleventy/index.html
+permalink: /blog/note-on-migrating-wordpress-site-eleventy/index.html
 date: 2023-01-31T22:13:16.196Z
 excerpt: "Some helpful notes and tools for migrating an existing Wordpress site to Eleventy"
 layout: post

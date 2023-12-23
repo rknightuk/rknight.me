@@ -1,6 +1,6 @@
 ---
 title: Using the Johnny Decimal System
-permalink: /using-the-johnny-decimal-system/index.html
+permalink: /blog/using-the-johnny-decimal-system/index.html
 date: 2023-11-15T18:09:17.596Z
 excerpt: "I finally found some time to dig into the Johnny Decimal system and reorganise all my files"
 layout: post

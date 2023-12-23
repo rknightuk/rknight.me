@@ -1,6 +1,6 @@
 ---
 title: Thoughts on Micro.blog
-permalink: /thoughts-on-micro-blog/index.html
+permalink: /blog/thoughts-on-micro-blog/index.html
 date: 2022-05-14
 excerpt: "My thoughts on using Micro.blog for the past two weeks"
 layout: post

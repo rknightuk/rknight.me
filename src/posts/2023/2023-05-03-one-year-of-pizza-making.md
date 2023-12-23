@@ -1,6 +1,6 @@
 ---
 title: One Year of Pizza Making
-permalink: /one-year-of-pizza-making/index.html
+permalink: /blog/one-year-of-pizza-making/index.html
 date: 2023-05-03T12:24:32.372Z
 excerpt: "Things I've learnt in a year or so of making pizza"
 layout: post

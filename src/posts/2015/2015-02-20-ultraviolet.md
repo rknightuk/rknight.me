@@ -1,6 +1,6 @@
 ---
 title: "UltraViolet: Everything is Not Awesome"
-permalink: /ultraviolet/index.html
+permalink: /blog/ultraviolet/index.html
 layout: post
 featured: true
 excerpt: "I tried to redeem an UltraViolet download code. It didn't go well."

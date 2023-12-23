@@ -1,6 +1,6 @@
 ---
 title: Two Social Networks? In This Economy?
-permalink: /two-social-networks-in-this-economy/index.html
+permalink: /blog/two-social-networks-in-this-economy/index.html
 date: 2022-12-22
 excerpt: "Why I'm using Micro.blog and Mastodon"
 layout: post

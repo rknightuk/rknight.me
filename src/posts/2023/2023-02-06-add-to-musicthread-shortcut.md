@@ -1,6 +1,6 @@
 ---
 title: Add to MusicThread Shortcut
-permalink: /add-to-musicthread-shortcut/index.html
+permalink: /blog/add-to-musicthread-shortcut/index.html
 date: 2023-02-06T18:04:43.513Z
 excerpt: "A shortcut to add new tracks or albums to MusicThread"
 layout: post

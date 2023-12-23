@@ -1,6 +1,6 @@
 ---
 title: The "Best" Tweets
-permalink: /the-best-tweets/index.html
+permalink: /blog/the-best-tweets/index.html
 date: 2022-11-15
 excerpt: "My post popular tweets before Twitter dies"
 layout: post

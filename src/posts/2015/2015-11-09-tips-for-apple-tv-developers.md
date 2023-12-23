@@ -1,6 +1,6 @@
 ---
 title: Tips for Apple TV App Developers
-permalink: /tips-for-apple-tv-app-developers/index.html
+permalink: /blog/tips-for-apple-tv-app-developers/index.html
 layout: post
 featured: true
 excerpt: "Some tips for marketing your Apple TV app successfully."

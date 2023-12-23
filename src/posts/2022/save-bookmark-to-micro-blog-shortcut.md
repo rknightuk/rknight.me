@@ -1,6 +1,6 @@
 ---
 title: Save Bookmark to Micro.blog Shortcut
-permalink: /save-bookmark-to-micro-blog-shortcut/index.html
+permalink: /blog/save-bookmark-to-micro-blog-shortcut/index.html
 date: 2022-04-28
 excerpt: "A shortcut to save bookmarks on micro.blog"
 layout: post

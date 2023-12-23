@@ -1,6 +1,6 @@
 ---
 title: "Advent of Code 2023: Day Seven"
-permalink: /advent-of-code-2023-day-seven/index.html
+permalink: /blog/advent-of-code-2023-day-seven/index.html
 date: 2023-12-07T15:45:19.743Z
 excerpt: "My solution for \"Camel Cards\""
 layout: post

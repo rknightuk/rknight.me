@@ -1,6 +1,6 @@
 ---
 title: Thoughts on the iPhone 5S and 5C
-permalink: /thoughts-on-the-iphone-5s-and-5c/index.html
+permalink: /blog/thoughts-on-the-iphone-5s-and-5c/index.html
 layout: post
 featured: true
 excerpt: "Apple announced two new iPhones: The 5C and the 5S will be released on the 20th of September"

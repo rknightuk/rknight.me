@@ -1,6 +1,6 @@
 ---
 title: "Pokédon: Read Mastodon on a Pokédex"
-permalink: /pokedon-read-mastodon-on-a-pokedex/index.html
+permalink: /blog/pokedon-read-mastodon-on-a-pokedex/index.html
 date: 2023-11-18T19:32:15.071Z
 excerpt: "A Mastodon client in a Pokédex I built at a hackathon today"
 layout: post

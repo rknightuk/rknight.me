@@ -1,6 +1,6 @@
 ---
 title: Just Delete Me
-permalink: /just-delete-me/index.html
+permalink: /blog/just-delete-me/index.html
 featured: true
 date: 2013-08-19 08:00:34
 layout: post

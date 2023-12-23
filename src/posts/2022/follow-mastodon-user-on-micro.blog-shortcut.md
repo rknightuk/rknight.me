@@ -1,6 +1,6 @@
 ---
 title: Follow Mastodon User on Micro.blog Shortcut
-permalink: /follow-mastodon-user-on-micro.blog-shortcut/index.html
+permalink: /blog/follow-mastodon-user-on-micro.blog-shortcut/index.html
 date: 2022-11-03
 excerpt: "A shortcut to redirect to the correct follow page to follow a Mastodon user on Micro.blog"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: It’s Better in the App and Other Lies
-permalink: /its-better-in-the-app-and-other-lies/index.html
+permalink: /blog/its-better-in-the-app-and-other-lies/index.html
 date: 2023-08-22T10:00:00.608Z
 excerpt: "Some thoughts on why there are so many apps when when in a lot of cases a good old website will do"
 layout: post

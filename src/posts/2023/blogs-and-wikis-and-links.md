@@ -1,6 +1,6 @@
 ---
 title: Blogs and Wikis and Links
-permalink: /blogs-and-wikis-and-links/index.html
+permalink: /blog/blogs-and-wikis-and-links/index.html
 date: 2023-01-07
 excerpt: "A brain dump of thoughts of how to handle links, wikis, and websites"
 layout: post

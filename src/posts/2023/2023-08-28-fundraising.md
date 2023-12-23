@@ -1,6 +1,6 @@
 ---
 title: Fundraising for St Jude
-permalink: /st-jude-2023/index.html
+permalink: /blog/st-jude-2023/index.html
 date: 2023-08-28T15:28:07.162Z
 excerpt: "I'm fundraising for St Jude this September as part of Relay's campaign"
 layout: post

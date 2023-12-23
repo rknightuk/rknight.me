@@ -1,6 +1,6 @@
 ---
 title: Monzo Pot Image Generator
-permalink: /monzo-pot-image-generator/index.html
+permalink: /blog/monzo-pot-image-generator/index.html
 date: 2020-07-21
 excerpt: "Generate images for your Monzo pots"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Apple Privacy Statement 
-permalink: /apple-privacy-statement/index.html
+permalink: /blog/apple-privacy-statement/index.html
 layout: post
 excerpt: "Apple issued a statement on privacy and government information requests."
 date: 2014-09-18

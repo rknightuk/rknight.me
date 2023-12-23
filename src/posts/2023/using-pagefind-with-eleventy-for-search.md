@@ -1,6 +1,6 @@
 ---
 title: Using PageFind with Eleventy for Search
-permalink: /using-pagefind-with-eleventy-for-search/index.html
+permalink: /blog/using-pagefind-with-eleventy-for-search/index.html
 date: 2023-01-04
 excerpt: "How to use PageFind to implement search for an Eleventy site"
 layout: post

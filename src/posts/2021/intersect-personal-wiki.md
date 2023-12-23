@@ -1,6 +1,6 @@
 ---
 title: "The Intersect: My Personal Wiki"
-permalink: /intersect/index.html
+permalink: /blog/intersect/index.html
 date: 2021-08-23
 excerpt: "Intersect is a personal wiki built with Eleventy"
 layout: post

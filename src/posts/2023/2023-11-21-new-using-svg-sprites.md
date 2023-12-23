@@ -1,6 +1,6 @@
 ---
 title: Using SVG Sprites
-permalink: /using-svg-sprites/index.html
+permalink: /blog/using-svg-sprites/index.html
 date: 2023-11-21T21:41:14.019Z
 excerpt: "How to use SVG sprites on your website"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: "JustDelete.me: One Million Page Views"
-permalink: /just-delete-me-one-million-page-views/index.html
+permalink: /blog/just-delete-me-one-million-page-views/index.html
 featured: true
 date: 2013-08-29 08:04:32
 layout: post

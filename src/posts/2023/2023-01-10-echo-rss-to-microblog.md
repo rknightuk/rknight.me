@@ -1,6 +1,6 @@
 ---
 title: "Import RSS to Micro.blog and Mastodon with Echo"
-permalink: /echo-rss-to-microblog/index.html
+permalink: /blog/echo-rss-to-microblog/index.html
 date: 2023-01-10
 excerpt: "Echo is a node script to post new items from an RSS feed to Micro.blog"
 layout: post

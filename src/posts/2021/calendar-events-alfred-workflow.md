@@ -1,6 +1,6 @@
 ---
 title: Calendar Events Alfred Workflow
-permalink: /calendar-events-alfred-workflow/index.html
+permalink: /blog/calendar-events-alfred-workflow/index.html
 date: 2021-07-22
 excerpt: "An Alfred workflow to manage calendars on your Mac"
 layout: post

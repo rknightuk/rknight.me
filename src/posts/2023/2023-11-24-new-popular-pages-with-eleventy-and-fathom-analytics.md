@@ -1,6 +1,6 @@
 ---
 title: Popular Pages with Eleventy and Fathom Analytics
-permalink: /popular-pages-with-eleventy-and-fathom-analytics/index.html
+permalink: /blog/popular-pages-with-eleventy-and-fathom-analytics/index.html
 date: 2023-11-24T22:42:04.013Z
 excerpt: "How I'm using the Fathom API to show a list of popular blogs posts in my Eleventy site"
 layout: post

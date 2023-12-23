@@ -1,6 +1,6 @@
 ---
 title: App Defaults
-permalink: /app-defaults/index.html
+permalink: /blog/app-defaults/index.html
 date: 2023-11-03T17:31:10.949Z
 excerpt: "All of the apps I use as per the categories defined by Hemispheric Views episode 097 - Duel of the Defaults!"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: What to Do When Your iTunes Account Gets Hacked
-permalink: /what-to-do-when-your-itunes-account-gets-hacked/index.html
+permalink: /blog/what-to-do-when-your-itunes-account-gets-hacked/index.html
 excerpt: "How I quickly solved an unauthorised purchase on my iTunes account at 2am."
 date: 2012-11-26 20:30:49
 layout: post

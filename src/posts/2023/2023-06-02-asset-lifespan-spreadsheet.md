@@ -1,6 +1,6 @@
 ---
 title: Asset Lifespan Spreadsheet
-permalink: /asset-lifespan-spreadsheet/index.html
+permalink: /blog/asset-lifespan-spreadsheet/index.html
 date: 2023-06-02T16:22:40.119Z
 excerpt: "My asset lifespan spreadsheet"
 layout: post

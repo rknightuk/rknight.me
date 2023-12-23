@@ -1,6 +1,6 @@
 ---
 title: Fix Gmail SMTP Offline Error in Yosemite Mail
-permalink: /fix-gmail-offline-os-x-yosemite-mail/index.html
+permalink: /blog/fix-gmail-offline-os-x-yosemite-mail/index.html
 layout: post
 excerpt: "How to fix Gmail SMTP showing as offline in Yosemite mail."
 date: 2014-10-17

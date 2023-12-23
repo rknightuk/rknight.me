@@ -1,5 +1,6 @@
 const marked = require('marked')
 const sanitizeHTML = require('sanitize-html')
+const moment = require('moment')
 
 module.exports = {
     trim: (string, limit) => {
@@ -39,6 +40,14 @@ module.exports = {
         }
 
         return 'https://rknight.me/assets/img/preview_small.png'
+    },
+    getRssId: (post) => {
+        if (moment(post.date).isBefore(moment('2023-12-23')))
+        {
+            return post.url.replace('/blog/', '/')
+        }
+
+        return post.url
     },
     getYouTubeLinks: (post) => {
         if (!post.links || post.links.length === 0)

@@ -1,6 +1,6 @@
 ---
 title: "Advent of Code 2023: Day Nine"
-permalink: /advent-of-code-2023-day-nine/index.html
+permalink: /blog/advent-of-code-2023-day-nine/index.html
 date: 2023-12-09T13:10:04.340Z
 excerpt: "My solution for \"Mirage Maintenance\""
 layout: post

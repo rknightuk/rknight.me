@@ -1,6 +1,6 @@
 ---
 title: No More Ratings
-permalink: /no-more-ratings/index.html
+permalink: /blog/no-more-ratings/index.html
 date: 2023-02-14T09:52:15.619Z
 excerpt: "Why I'm not rating movies (or anything) any more"
 layout: post

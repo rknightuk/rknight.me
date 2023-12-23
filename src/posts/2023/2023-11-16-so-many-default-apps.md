@@ -1,6 +1,6 @@
 ---
 title: So Many Default Apps
-permalink: /so-many-default-apps/index.html
+permalink: /blog/so-many-default-apps/index.html
 date: 2023-11-16T22:16:38.787Z
 excerpt: "A look at just over two weeks of adding submissions and features to the default apps website"
 layout: post

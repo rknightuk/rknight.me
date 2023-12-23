@@ -1,6 +1,6 @@
 ---
 title: 24 Hours of Just Delete Me
-permalink: /24-hours-of-just-delete-me/index.html
+permalink: /blog/24-hours-of-just-delete-me/index.html
 featured: true
 date: 2013-08-20 13:49:57
 layout: post

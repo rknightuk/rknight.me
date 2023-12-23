@@ -1,6 +1,6 @@
 ---
 title: Building a Podcast Site with Eleventy
-permalink: /bulding-podcast-site-eleventy/index.html
+permalink: /blog/bulding-podcast-site-eleventy/index.html
 date: 2022-12-28
 excerpt: "Moving Ruminate's site from Simplecast to Eleventy"
 layout: post

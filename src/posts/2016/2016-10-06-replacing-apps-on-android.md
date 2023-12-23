@@ -1,6 +1,6 @@
 ---
 title: Replacing Apps on Android
-permalink: /replacing-apps-on-android/index.html
+permalink: /blog/replacing-apps-on-android/index.html
 layout: post
 excerpt: "The first step to switching to Android: replacing all my apps"
 date: 2016-10-06

@@ -1,6 +1,6 @@
 ---
 title: Thoughts on OnePlus 3 and Switching to Android
-permalink: /oneplus-3-and-switching-to-android/index.html
+permalink: /blog/oneplus-3-and-switching-to-android/index.html
 layout: post
 excerpt: "My thoughts after just under two weeks with the OnePlus 3"
 date: 2016-10-11

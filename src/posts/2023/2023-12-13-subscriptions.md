@@ -1,6 +1,6 @@
 ---
 title: Subscriptions
-permalink: /subscriptions/index.html
+permalink: /blog/subscriptions/index.html
 date: 2023-12-13T17:35:24.401Z
 excerpt: "The current state of what services I'm subscribed to"
 layout: post

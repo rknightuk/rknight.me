@@ -1,6 +1,6 @@
 ---
 title: Adding Webmentions to Your Site
-permalink: /adding-webmentions-to-your-site/index.html
+permalink: /blog/adding-webmentions-to-your-site/index.html
 date: 2023-01-30
 excerpt: "Some notes on what webmentions are and how I implemented them for this site"
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Get Mastodon Account ID from Username
-permalink: /get-mastodon-account-id-from-username/index.html
+permalink: /blog/get-mastodon-account-id-from-username/index.html
 date: 2023-01-27
 excerpt: "The Mastodon API requires the account ID for making API requests"
 layout: post

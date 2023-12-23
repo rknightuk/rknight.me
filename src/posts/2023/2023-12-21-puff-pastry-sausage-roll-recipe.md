@@ -1,6 +1,6 @@
 ---
 title: Puff Pastry Sausage Roll Recipe
-permalink: /puff-pastry-sausage-roll-recipe/index.html
+permalink: /blog/puff-pastry-sausage-roll-recipe/index.html
 date: 2023-12-21T14:18:43.776Z
 excerpt: "A very simple recipe for making delicious sausage rolls"
 layout: post

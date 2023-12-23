@@ -1,6 +1,6 @@
 ---
 title: Amazon Echo Initial Thoughts
-permalink: /amazon-echo-initial-thoughts/index.html
+permalink: /blog/amazon-echo-initial-thoughts/index.html
 layout: post
 excerpt: "My initial thoughts on the Amazon Echo"
 date: 2016-09-29

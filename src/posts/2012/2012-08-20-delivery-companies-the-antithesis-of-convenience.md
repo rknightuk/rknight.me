@@ -1,6 +1,6 @@
 ---
 title: "Delivery Companies: The Antithesis of Convenience"
-permalink: /delivery-companies-the-antithesis-of-convenience/index.html
+permalink: /blog/delivery-companies-the-antithesis-of-convenience/index.html
 excerpt: "I'm annoyed about delivery companies today"
 date: 2012-08-20 18:26:47
 layout: post

@@ -1,6 +1,6 @@
 ---
 title: Automatically Rename TV Shows with Hazel and TVNamer
-permalink: /automatically-rename-tv-shows-with-hazel-and-tvnamer/index.html
+permalink: /blog/automatically-rename-tv-shows-with-hazel-and-tvnamer/index.html
 excerpt: "How I'm using Hazel and TVNamer to save a ton of time renaming files"
 date: 2013-08-08
 layout: post
