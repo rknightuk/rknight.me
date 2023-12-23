@@ -31,6 +31,7 @@ module.exports = async function() {
             title = title.slice(1,-1)
         }
         titleMap[permalink] = title
+        titleMap[permalink.replace('/blog/', '/')] = title
     })
 
     const date_from = moment().subtract(90, 'days').format('YYYY-MM-DD HH:mm')
