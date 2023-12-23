@@ -16,12 +16,10 @@
     "luxon": "^3.2.1",
     "marked": "^4.2.12",
     "sanitize-html": "^2.8.1",
-    "tinacms": "^1.5.28",
     "writing-stats": "^1.0.6"
   },
   "devDependencies": {
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
-    "@tinacms/cli": "^1.5.39",
     "eleventy-plugin-og-image": "^2.1.1",
     "eleventy-plugin-purgecss": "^0.4.0",
     "glob": "^10.3.10",
@@ -36,9 +34,8 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "start": "npx tinacms dev -c \"./node_modules/.bin/eleventy --serve\"",
+    "start": "./node_modules/.bin/eleventy --serve",
     "build": "./node_modules/.bin/eleventy",
-    "buildtest": "node --max-old-space-size=4076 tinacms build",
     "clear": "rm -rf .cache",
     "pagefind": "npx pagefind --source public --glob \"**/*.html\""
   },
