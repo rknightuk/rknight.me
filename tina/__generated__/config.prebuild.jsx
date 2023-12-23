@@ -1,6 +1,6 @@
 // tina/config.js
 import { defineConfig } from "tinacms";
-var branch = process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || "main";
+var branch = process.env.GITHUB_BRANCH || process.env.VERCEL_GIT_COMMIT_REF || process.env.HEAD || "master";
 var dateTime = (/* @__PURE__ */ new Date()).toISOString().split("T")[0];
 var config_default = defineConfig({
   branch,
