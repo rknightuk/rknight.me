@@ -8,7 +8,7 @@ const postDate = new Date().toISOString()
 
 const meta = `---
 title: ${title}
-permalink: /${slug}/index.html
+permalink: /blog/${slug}/index.html
 date: ${postDate}
 excerpt: ""
 layout: post
