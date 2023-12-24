@@ -11,7 +11,7 @@ tags:
 
 I recently added automatically generated open graph images to my site using [`eleventy-plugin-og-image`](https://github.com/KiwiKilian/eleventy-plugin-og-image). Here is the open graph image for this post:
 
-<img style="border: 1px solid white;" src="/assets/ogi/blog-generating-and-caching-open-graph-images-with-eleventy.png" alt="Generating, and Caching, Open Graph Images with Eleventy">
+<img style="border: 1px solid white;" src="/assets/ogi/bloggenerating-and-caching-open-graph-images-with-eleventy.png" alt="Generating, and Caching, Open Graph Images with Eleventy">
 
 I won't go over how to use the plugin; the docs on the repo and [this blog post](https://lewisdale.dev/post/adding-statically-generated-open-graph-images/) explain that very well. What I didn't like is that these are generated every time the site builds which, aside from being wildly inefficient, added significant time to my builds.
 
