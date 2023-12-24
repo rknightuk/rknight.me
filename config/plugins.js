@@ -1,4 +1,5 @@
 const fs = require('fs')
+const slugify = require('slugify')
 
 module.exports = [
     {
@@ -23,6 +24,9 @@ module.exports = [
         options: {
             outputDir: 'src/assets/ogi',
             urlPath: '/assets/ogi/',
+            getOutputFileSlug: ({ svg, context }) => {
+                return slugify(context.page.url, { lower: true })
+            },
             satoriOptions: {
                 width: 920,
                 height: 480,
