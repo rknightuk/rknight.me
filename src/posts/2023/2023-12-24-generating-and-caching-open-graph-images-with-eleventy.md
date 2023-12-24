@@ -47,7 +47,7 @@ Then I updated my base layout so it only uses the `ogImage` plugin when in devel
 
 ```js
 {% raw %}{% if env.production %}
-    <meta property="og:image" content="https://rknight.me/assets/ogi/{{ page.url | slug }}.png">
+    <meta property="og:image" content="https://rknight.me/assets/ogi/{{ page.url | slugify }}.png">
 {% else %}
     {% ogImage "src/og-image.og.njk", { title: title | safe } %}
 {% endif %}{% endraw %}
