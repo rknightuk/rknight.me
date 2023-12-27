@@ -3,7 +3,7 @@ title: The Best Apple TV Apps
 permalink: /blog/the-best-apple-tv-apps/index.html
 layout: post
 excerpt: "I've started a new blog to highlight some the best and most interesting Apple TV apps available."
-date: 2015-10-28
+date: 2015-10-28T00:00:00.000Z
 tags:
     - TV
 ---

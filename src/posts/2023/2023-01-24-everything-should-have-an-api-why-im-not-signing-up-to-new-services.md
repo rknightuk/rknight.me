@@ -1,7 +1,7 @@
 ---
 title: "Everything Should Have an API: I'm Done with Closed Services"
 permalink: /blog/im-done-with-closed-services/index.html
-date: 2023-01-24
+date: 2023-01-24T00:00:00.000Z
 excerpt: "I'm no longer willing to use services that don't allow me to access my data via an API or RSS"
 layout: post
 tags:

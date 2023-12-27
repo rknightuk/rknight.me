@@ -2,7 +2,7 @@
 title: Notes About Setting up RetroPie
 excerpt: "Some things I learnt (or want to remember) about setting up a RetroPie"
 permalink: /blog/notes-about-setting-up-retropie/index.html
-date: 2017-07-04 10:14:15
+date: 2017-07-04T09:14:00.000Z
 tags:
 layout: post
 ---

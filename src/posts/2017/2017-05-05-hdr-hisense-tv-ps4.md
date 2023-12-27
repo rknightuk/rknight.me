@@ -3,7 +3,7 @@ title: Enable HDR with PS4 on Hisense H43M3000
 permalink: /blog/hdr-hisense-tv-ps4/index.html
 layout: post
 excerpt: "Enabling PS4 HDR on Hisense H43M3000"
-date: 2017-05-05
+date: 2017-05-05T00:00:00.000Z
 ---
 
 My Hisense TV ([H43M3000](https://hisense.co.uk/electronics/tvs/m3000/43)) recently received an update to support HDR, which is something the PS4 supports for some games. After plugging the console in, the PS4 told me my TV doesn't support HDR but after some playing around with settings and ports I managed to get it to work:

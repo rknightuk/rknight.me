@@ -4,7 +4,7 @@ permalink: /blog/thoughts-on-the-iphone-5s-and-5c/index.html
 layout: post
 featured: true
 excerpt: "Apple announced two new iPhones: The 5C and the 5S will be released on the 20th of September"
-date: 2013-09-11
+date: 2013-09-11T00:00:00.000Z
 ---
 
 So Apple had their iPhone event. [iPhone 5S](http://www.apple.com/iphone-5s/). [iPhone 5C](http://www.apple.com/iphone-5c/). Nothing particularly surprising but interesting nonetheless.

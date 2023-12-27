@@ -1,7 +1,7 @@
 ---
 title: Automating My Now Page
 permalink: /blog/automating-my-now-page/index.html
-date: 2023-01-21
+date: 2023-01-21T00:00:00.000Z
 excerpt: "How I automated my now page updates"
 layout: post
 tags:

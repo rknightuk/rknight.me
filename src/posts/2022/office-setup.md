@@ -1,7 +1,7 @@
 ---
 title: My Office Setup
 permalink: /blog/office-setup/index.html
-date: 2022-12-05
+date: 2022-12-05T00:00:00.000Z
 excerpt: "My office setup, originally written for Club Macstories"
 layout: post
 tags:

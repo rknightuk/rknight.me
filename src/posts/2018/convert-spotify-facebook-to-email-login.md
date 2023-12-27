@@ -1,7 +1,7 @@
 ---
 title: Convert a Spotify Account From Facebook to Email Login
 permalink: /blog/convert-spotify-facebook-to-email-login/index.html
-date: 2018-03-21
+date: 2018-03-21T00:00:00.000Z
 excerpt: "Despite what Spotify tell you, you can unlink your account from Facebook"
 layout: post
 tags:

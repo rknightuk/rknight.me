@@ -2,7 +2,7 @@
 title: "Delivery Companies: The Antithesis of Convenience"
 permalink: /blog/delivery-companies-the-antithesis-of-convenience/index.html
 excerpt: "I'm annoyed about delivery companies today"
-date: 2012-08-20 18:26:47
+date: 2012-08-20T17:26:00.000Z
 layout: post
 ---
 

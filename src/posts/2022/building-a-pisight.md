@@ -1,7 +1,7 @@
 ---
 title: Building a PiSight
 permalink: /blog/building-a-pisight/index.html
-date: 2022-02-10
+date: 2022-02-10T00:00:00.000Z
 excerpt: "My notes on building a PiSight"
 layout: post
 tags:

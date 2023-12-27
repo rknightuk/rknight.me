@@ -1,7 +1,7 @@
 ---
 title: My Home Screen (November 2017)
 permalink: /blog/homescreen-november-2017/index.html
-date: 2018-03-15 15:25:45
+date: 2018-03-15T15:25:00.000Z
 excerpt: "My iPhone home screen as of November 2017"
 layout: post
 tags:

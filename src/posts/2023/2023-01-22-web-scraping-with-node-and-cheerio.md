@@ -1,7 +1,7 @@
 ---
 title: Web Scraping with Node and Cheerio
 permalink: /blog/web-scraping-with-node-and-cheerio/index.html
-date: 2023-01-22
+date: 2023-01-22T00:00:00.000Z
 excerpt: "A short tutorial on how to use Node and Cheerio to scrape some data from PSN profiles"
 layout: post
 tags:

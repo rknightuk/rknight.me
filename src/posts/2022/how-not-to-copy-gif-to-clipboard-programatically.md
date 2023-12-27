@@ -1,7 +1,7 @@
 ---
 title: How to Copy Gifs to Clipboard Programatically
 permalink: /blog/how-not-to-copy-gif-to-clipboard-programatically/index.html
-date: 2022-12-01
+date: 2022-12-01T00:00:00.000Z
 excerpt: "My futile attempts at trying to copy a gif to the clipboard programatically"
 layout: post
 tags:

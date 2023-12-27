@@ -1,7 +1,7 @@
 ---
 title: Adding Webmentions to Your Site
 permalink: /blog/adding-webmentions-to-your-site/index.html
-date: 2023-01-30
+date: 2023-01-30T00:00:00.000Z
 excerpt: "Some notes on what webmentions are and how I implemented them for this site"
 layout: post
 tags:

@@ -1,7 +1,7 @@
 ---
 title: Year of Renovation
 permalink: /blog/year-of-renovation/index.html
-date: 2022-11-08
+date: 2022-11-08T00:00:00.000Z
 excerpt: "Before and after photos of our house after renovation"
 layout: post
 tags:

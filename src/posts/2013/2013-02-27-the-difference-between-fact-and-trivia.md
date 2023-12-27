@@ -2,7 +2,7 @@
 title: The Difference Between Fact and Trivia
 permalink: /blog/the-difference-between-fact-and-trivia/index.html
 excerpt: "A weird and annoying conversation I had at university today"
-date: 2013-02-27 13:11:01
+date: 2013-02-27T13:11:00.000Z
 layout: post
 ---
 

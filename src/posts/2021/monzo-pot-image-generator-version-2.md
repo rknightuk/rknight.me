@@ -1,7 +1,7 @@
 ---
 title: Monzo Pot Image Generator Version Two
 permalink: /blog/monzo-pot-image-generator-version-2/index.html
-date: 2021-08-29
+date: 2021-08-29T00:00:00.000Z
 excerpt: "Updated version with more icons and options"
 layout: post
 tags:

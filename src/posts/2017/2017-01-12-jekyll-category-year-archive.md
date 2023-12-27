@@ -3,7 +3,7 @@ title: Jekyll Post Archive Grouped by Year
 permalink: /blog/jekyll-category-year-archive/index.html
 layout: post
 excerpt: "Code Snippet for creating a post archive grouped by year in Jekyll"
-date: 2017-01-12
+date: 2017-01-12T00:00:00.000Z
 tags:
     - Development
 ---

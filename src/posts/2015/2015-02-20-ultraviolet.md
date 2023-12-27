@@ -4,7 +4,7 @@ permalink: /blog/ultraviolet/index.html
 layout: post
 featured: true
 excerpt: "I tried to redeem an UltraViolet download code. It didn't go well."
-date: 2015-02-20
+date: 2015-02-20T00:00:00.000Z
 tags:
     - Movies
 ---

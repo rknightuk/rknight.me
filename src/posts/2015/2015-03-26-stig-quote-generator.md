@@ -3,7 +3,7 @@ title: Stig Quote Generator
 permalink: /blog/stig-quote-generator/index.html
 layout: post
 excerpt: "This morning, I was watching Top Gear and decided it would be fun to create the Stig quote generator."
-date: 2015-03-26
+date: 2015-03-26T00:00:00.000Z
 tags:
     - TV
     - Development

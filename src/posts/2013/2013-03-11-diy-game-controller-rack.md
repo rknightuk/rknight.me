@@ -2,7 +2,7 @@
 title: DIY Game Controller Rack
 permalink: /blog/diy-game-controller-rack/index.html
 excerpt: "A quick and dirty solution to storing all my game controllers"
-date: 2013-03-11 10:00:31
+date: 2013-03-11T10:00:00.000Z
 layout: post
 tags:
     - DIY

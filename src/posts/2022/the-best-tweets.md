@@ -1,7 +1,7 @@
 ---
 title: The "Best" Tweets
 permalink: /blog/the-best-tweets/index.html
-date: 2022-11-15
+date: 2022-11-15T00:00:00.000Z
 excerpt: "My post popular tweets before Twitter dies"
 layout: post
 tags:

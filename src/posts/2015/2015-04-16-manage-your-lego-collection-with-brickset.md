@@ -3,7 +3,7 @@ title: "Manage Your LEGO Collection with Brickset"
 permalink: /blog/manage-your-lego-collection-with-brickset/index.html
 layout: post
 excerpt: "Brickset is a great service for cataloging your LEGO collection. This guide will show you how to use all the main features to keep an up-to-date list of the sets and minifigures you own."
-date: 2015-04-16
+date: 2015-04-16T00:00:00.000Z
 tags:
     - Lego
 ---

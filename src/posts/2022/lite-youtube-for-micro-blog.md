@@ -1,7 +1,7 @@
 ---
 title: Lite YouTube for Micro.blog
 permalink: /blog/lite-youtube-for-micro-blog/index.html
-date: 2022-12-06
+date: 2022-12-06T00:00:00.000Z
 excerpt: "A plugin to automatically append Lite YouTube embeds to posts"
 layout: post
 tags:

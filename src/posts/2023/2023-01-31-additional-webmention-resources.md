@@ -1,7 +1,7 @@
 ---
 title: Additional Webmention Resources
 permalink: /blog/additional-webmention-resources/index.html
-date: 2023-01-31
+date: 2023-01-31T00:00:00.000Z
 excerpt: "Some more links and tools related to webmentions"
 layout: post
 tags:

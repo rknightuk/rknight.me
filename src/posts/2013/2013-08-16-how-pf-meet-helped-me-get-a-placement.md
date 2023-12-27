@@ -2,7 +2,7 @@
 title: How PF Meet Helped Me Get a Placement
 permalink: /blog/how-pf-meet-helped-me-get-a-placement/index.html
 excerpt: "Portsmouth Freelancer's Meet is a monthly meetup and I was able to get a placement through the people I met there"
-date: 2013-08-16 16:03:13
+date: 2013-08-16T15:03:00.000Z
 layout: post
 ---
 

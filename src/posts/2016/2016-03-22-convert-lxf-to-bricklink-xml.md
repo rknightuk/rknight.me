@@ -3,7 +3,7 @@ title: Convert LXF to Bricklink XML
 permalink: /blog/convert-lxf-to-bricklink-xml/index.html
 layout: post
 excerpt: "How to use Rebrickable to convert an LXF file to Bricklink XML format to upload to a wanted list."
-date: 2016-03-22
+date: 2016-03-22T00:00:00.000Z
 tags:
     - Lego
 ---

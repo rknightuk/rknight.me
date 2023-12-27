@@ -2,7 +2,7 @@
 title: Getting Closer to the Perfect TV
 permalink: /blog/getting-closer-to-the-perfect-tv/index.html
 excerpt: "I bought what I think is a near-perfect TV"
-date: 2017-05-15
+date: 2017-05-15T00:00:00.000Z
 layout: post
 ---
 

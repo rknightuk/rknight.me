@@ -1,7 +1,7 @@
 ---
 title: Game FAQs
 permalink: /blog/fifa-street-ps2-game-faqs/index.html
-date: 2020-02-14
+date: 2020-02-14T00:00:00.000Z
 excerpt: "Before YouTube was the go-to place for game tutorials, GameFAQs was the best place for video game guides. I wrote one for Fifa Street on the PS2"
 layout: post
 tags:
