@@ -9,7 +9,7 @@ eleventyExcludeFromCollections: true
     "home_page_url": "https://rknight.me/",
     "feed_url": "https://rknight.me/feed.json",
     "items" : [
-    {%- for post in collections.posts %}
+    {%- for post in collections.postsForFeed %}
     {
         "id" : "{{ post.data.permalink }}",
         "title": "{{ post.data.title }}",

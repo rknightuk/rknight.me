@@ -8,19 +8,19 @@ eleventyExcludeFromCollections: true
   <subtitle>Developer</subtitle>
   <link href="https://rknight.me/feed.xml" rel="self"/>
   <link href="https://rknight.me"/>
-  <updated>{{ collections.posts | rssLastUpdatedDate }}</updated>
+  <updated>{{ collections.postsForFeed | rssLastUpdatedDate }}</updated>
   <id>https://rknight.me/</id>
   <author>
     <name>Robb Knight</name>
   </author>
-  {%- for post in collections.posts %}
+  {%- for post in collections.postsForFeed %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
     <link href="https://rknight.me{{ post.url }}"/>
     <updated>{{ post.date | rssDate }}</updated>
     <id>https://rknight.me{{ post | getRssId }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) }}</content>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</content>
   </entry>
   {%- endfor %}
 </feed>

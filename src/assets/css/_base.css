@@ -226,3 +226,30 @@ td,
 th {
     padding: 3px 10px;
 }
+
+.alert {
+    position: relative;
+    font-size: 0.8em;
+    padding: 15px;
+    margin-bottom: 20px;
+    margin-top: 10px;
+    border: 1px solid var(--secondary);
+}
+
+.alert p:first-child,
+.alert p:last-child {
+    margin: 0;
+}
+
+.alert .rss-club {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    background: var(--nearblack);
+    padding: 5px;
+}
+
+.alert svg {
+    width: 15px;
+    height: 15px;
+}

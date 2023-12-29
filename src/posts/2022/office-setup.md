@@ -2,14 +2,13 @@
 title: My Office Setup
 permalink: /blog/office-setup/index.html
 date: 2022-12-05T00:00:00.000Z
-excerpt: "My office setup, originally written for Club Macstories"
+excerpt: "My office setup"
 layout: post
 tags:
     - Personal
     - Games
+note: This post originally appeared in <a href="https://club.macstories.net/posts/reader-setup-2">MacStories Weekly</a>
 ---
-
-*My office setup as of April 2022. (This post originally appeared in [MacStories Weekly)](https://club.macstories.net/posts/reader-setup-2).*
 
 ![](https://rknightuk.s3.amazonaws.com/site/office-setup-tv.jpg)
 

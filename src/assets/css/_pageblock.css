@@ -45,7 +45,6 @@
 
 .block h2 {
     margin: 0.8em 0;
-    margin-bottom: 10px;
     color: var(--offwhite);
     text-shadow: var(--double-shadow);
 }

@@ -51,10 +51,17 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 
 module.exports = {
     posts: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse()
+        return collectionApi.getFilteredByGlob("src/posts/**/*.md").filter(p => {
+            return !p.data.rssClub
+        }).reverse()
     },
     firstPosts: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().slice(0, 5)
+        return collectionApi.getFilteredByGlob("src/posts/**/*.md").filter(p => {
+            return !p.data.rssClub
+        }).reverse().slice(0, 5)
+    },
+    postsForFeed: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse()
     },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().reduce((tags, p) => {

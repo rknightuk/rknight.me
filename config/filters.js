@@ -7,6 +7,10 @@ module.exports = {
     trim: (string, limit) => {
         return string.length <= limit ? string : `${string.slice(0, limit)}...`
     },
+    rssClubAlert: (content, rssClub) => {
+        if (!rssClub) return content
+        return `<p>Welcome to the Knight club - RSS-only posts. <a href="https://daverupert.com/rss-club/">Read more about RSS club</a>.</p> <hr> ${content}`
+    },
     makeSlugForOgImage: (url) => {
       return slugify(url, { lower: true })  
     },

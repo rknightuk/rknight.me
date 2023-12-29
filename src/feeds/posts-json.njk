@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 
 {"posts" : [
-    {%- for post in collections.posts %}
+    {%- for post in collections.postsForFeed %}
     {
         "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
