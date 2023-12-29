@@ -12,6 +12,17 @@ footer.main .container {
     justify-content: space-between;
 }
 
+footer.main .container p {
+    margin: 0;
+}
+
+@media (max-width: 450px) {
+    footer.main .container {
+        flex-direction: column;
+        grid-gap: 10px;
+    }
+}
+
 .coffee-button {
     border: none;
     font-size: 0.8em;
