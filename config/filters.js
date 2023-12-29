@@ -1,10 +1,14 @@
 const marked = require('marked')
 const sanitizeHTML = require('sanitize-html')
 const moment = require('moment')
+const slugify = require('slugify')
 
 module.exports = {
     trim: (string, limit) => {
         return string.length <= limit ? string : `${string.slice(0, limit)}...`
+    },
+    makeSlugForOgImage: (url) => {
+      return slugify(url, { lower: true })  
     },
     imageLink: (path) => {
         if (path.startsWith('https://rknightuk.s3.amazonaws.com')) return path
