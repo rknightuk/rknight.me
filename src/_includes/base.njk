@@ -181,9 +181,25 @@
         <script>
             (function() {
                 const jasonMode = document.getElementById('jason-thinks-thanos-was-right')
+                
+                if (window.localStorage)
+                {
+                    const jasonModeEnabled = localStorage.getItem('jasonModeEnabled') === 'true'
+                    if (jasonModeEnabled)
+                    {
+                        jasonMode.classList.add('balanced')
+                        Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
+                        Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
+                        Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
+                    }
+                }
                 jasonMode.addEventListener('click', (e) => {
                     e.preventDefault()
                     jasonMode.classList.toggle('balanced')
+                    if (window.localStorage)
+                    {
+                        jasonMode.classList.contains('balanced') ? localStorage.setItem('jasonModeEnabled', true) : localStorage.setItem('jasonModeEnabled', false)
+                    }
                     Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
                     Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
                     Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
