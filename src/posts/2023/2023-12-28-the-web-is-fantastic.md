@@ -50,7 +50,7 @@ Chris McLeod said this about blogging in his post, ["Blogging is where it's at, 
 
 He's right. Blogging _is_ where it's at. Get a blog. Post some stuff.
 
-If you have a website, don't forget to [expose your RSS](https://rknight.me/please-expose-your-rss/). Have a big prominent button. Make sure it's in your `head` for auto-detection. Maybe start an [RSS club](https://daverupert.com/rss-club/). Post some wonderful things, or sad things, or _only-interesting-to-you+ things.[^3]
+If you have a website, don't forget to [expose your RSS](https://rknight.me/please-expose-your-rss/). Have a big prominent button. Make sure it's in your `head` for auto-detection. Maybe start an [RSS club](https://daverupert.com/rss-club/). Post some wonderful things, or sad things, or _only-interesting-to-you_ things.[^3]
 
 ### Extras
 
