@@ -30,10 +30,10 @@
 
 		<meta property="og:title" content="{{ title }}" />
         {% if ('/micro' in page.url) %}
-            <meta property="description" content="{{ post.summary }}" />
+            <meta name="description" content="{{ post.summary }}" />
             <meta property="og:description" content="{{ post.summary }}" />
         {% else %}
-            <meta property="description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}" />
+            <meta name="description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}" />
 		    <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}" />
         {% endif %}
 		<meta property="og:type" content="article" />
