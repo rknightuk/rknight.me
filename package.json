@@ -6,7 +6,6 @@
   "dependencies": {
     "@11ty/eleventy": "^2.0.0",
     "@11ty/eleventy-fetch": "^3.0.0",
-    "@11ty/eleventy-plugin-rss": "^1.0.7",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.1.2",
     "@remy/webmention": "^1.4.5",
     "@rknightuk/eleventy-plugin-post-graph": "^1.0.0",
@@ -20,6 +19,7 @@
     "writing-stats": "^1.0.6"
   },
   "devDependencies": {
+    "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-plugin-og-image": "^2.1.1",
     "eleventy-plugin-purgecss": "^0.4.0",

@@ -16,7 +16,7 @@ eleventyExcludeFromCollections: true
         <title>{{ post.data.title }}</title>
         <link>https://rknight.me{{ post.url }}</link>
         <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</description>
-        <pubDate>{{ post.date | rssDate }}</pubDate>
+        <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
         <dc:creator>Robb Knight</dc:creator>
         <guid>https://rknight.me{{ post | getRssId }}</guid>
       </item>
