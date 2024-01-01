@@ -1,0 +1,25 @@
+---
+permalink: subscribe/posts/rss.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://rknight.me" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robb Knight</title>
+    <link>https://rknight.me</link>
+    <atom:link href="https://rknight.me" rel="self" type="application/rss+xml"/>
+    <description>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</description>
+    <language>en-gb</language>
+    {%- for post in collections.postsForFeed %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+      <item>
+        <title>{{ post.data.title }}</title>
+        <link>https://rknight.me{{ post.url }}</link>
+        <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</description>
+        <pubDate>{{ post.date | rssDate }}</pubDate>
+        <dc:creator>Robb Knight</dc:creator>
+        <guid>https://rknight.me{{ post | getRssId }}</guid>
+      </item>
+    {%- endfor %}
+  </channel>
+</rss>
