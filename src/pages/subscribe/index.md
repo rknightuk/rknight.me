@@ -13,9 +13,8 @@ permalink: 'subscribe/index.html'
 
 You can subscribe to my posts using RSS with the following feeds:
 
-- Long posts: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json)
-- Micro posts: [RSS](https://social.lol/@robb.rss)
-- Project Changelog: [RSS](/changelog.xml)
+- Long posts: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json) 
+- Project Changelog: [Atom](/subscribe/changelog/atom.xml)
 
 To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
 
@@ -23,4 +22,5 @@ I also always toot my new posts on Mastodon:
 
 - Find me on [social.lol/@robb](https://social.lol/@robb)
 - Search for `robb@rknight.me` on Mastodon
+- [RSS](https://social.lol/@robb.rss)
 
