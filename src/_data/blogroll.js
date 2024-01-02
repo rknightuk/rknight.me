@@ -3,7 +3,7 @@ const { AssetCache } = require("@11ty/eleventy-fetch")
 
 const blogs = [
     { name: 'Cory Dransfeldt', url: 'https://coryd.dev', feed: 'https://feedpress.me/coryd' },
-    { name: 'Keenan', url: 'https://gkeenan.co/avgb', feed: 'https://gkeenan.co/avgb?format=rss' },
+    // { name: 'Keenan', url: 'https://gkeenan.co/avgb', feed: 'https://gkeenan.co/avgb?format=rss' },
     { name: 'David Daaaaaarnes', url: 'https://darn.es', feed: 'https://darn.es/rss.xml' },
     { name: 'Jason Burk', url: 'https://grepjason.sh', feed: 'https://grepjason.sh/rss.xml' },
     { name: 'Zoe Aubert', url: 'https://zoeaubert.me', feed: 'https://zoeaubert.me/rss.xml' },

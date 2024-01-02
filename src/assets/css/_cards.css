@@ -60,6 +60,16 @@
     font-size: 0.9em;
 }
 
+.card__posts {
+    padding: 5px 10px;
+    font-size: 0.8em;
+}
+
+.card__posts ul {
+    margin-top: 0;
+    margin-left: -20px;
+}
+
 .card__title {
     display: block;
     font-weight: bold;

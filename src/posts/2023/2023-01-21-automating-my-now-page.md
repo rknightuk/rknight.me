@@ -6,6 +6,7 @@ excerpt: "How I automated my now page updates"
 layout: post
 tags:
   - Development
+project: https://github.com/rknightuk/api
 ---
 
 This post outlines how I automated my now page(s) but I should start with what a now page _is_. From [nownownow.com](https://nownownow.com/about):

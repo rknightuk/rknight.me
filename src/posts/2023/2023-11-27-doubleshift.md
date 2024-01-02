@@ -8,6 +8,7 @@ tags:
     - Eleventy
     - TV
     - Development
+project: https://doubleshift.rknight.me
 ---
 
 I have watched [Scrubs](https://www.themoviedb.org/tv/4556-scrubs) more times than I can count and I am currently re-watching [Grey's Anatomy](https://www.themoviedb.org/tv/1416-grey-s-anatomy) for the third (maybe fourth?) time. I noticed there are a lot of actors who have appeared in both and it _seemed_ like it was every other episode. After some data-wrangling I have an actual answer: 28 actors have appeared in both series.

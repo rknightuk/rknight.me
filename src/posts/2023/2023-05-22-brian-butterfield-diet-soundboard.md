@@ -7,6 +7,7 @@ layout: post
 tags:
   - Development
   - TV
+project: https://treatday.rknight.me/
 ---
 
 Over the weekend I spent some time splitting the audio from [the Brian Butterfield Diet sketch](https://www.youtube.com/watch?v=1NjTWvl8x-U) and then subsequently the [Christmas version](https://www.youtube.com/watch?v=Nyk6sXHY9Vg). Both of these sketches are from [The Peter Serafinowicz Show](https://en.wikipedia.org/wiki/The_Peter_Serafinowicz_Show) from 2007.

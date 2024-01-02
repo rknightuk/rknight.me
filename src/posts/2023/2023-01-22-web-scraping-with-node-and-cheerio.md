@@ -6,6 +6,7 @@ excerpt: "A short tutorial on how to use Node and Cheerio to scrape some data fr
 layout: post
 tags:
   - Development
+project: https://github.com/rknightuk/api
 ---
 
 _This post is a spin-off from [Automating My Now Page](/automating-my-now-page/)._

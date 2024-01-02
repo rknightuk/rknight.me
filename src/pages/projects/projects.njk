@@ -4,42 +4,42 @@ subtitle: "All of the projects I've worked on. Most of the source for them can b
 layout: base
 permalink: 'projects/index.html'
 wide: true
-templateEngineOverride: njk,html,md
+templateEngineOverride: njk,html
 ---
 
 {% set imagePrefix = '/assets/projects/' %}
 
-### Podcasts
+<h3>Podcasts</h3>
 
 <div class="cards">
 {%- for project in projects.podcasts %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
-### Current
+<h3>Current</h3>
 
 <div class="cards">
 {%- for project in projects.current %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
-### omg.lol/Embed Tools
+<h3>omg.lol/Embed Tools</h3>
 
 <div class="cards">
 {%- for project in projects.profile %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
-### Relay FM for St Jude Fundraising
+<h3>Relay FM for St Jude Fundraising</h3>
 
 <div class="cards">
 {%- for project in projects.stjude %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
-### Design
+<h3>Design</h3>
 
 <div class="cards">
 {%- for project in projects.design %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
-### Mastodon Bots
+<h3>Mastodon Bots</h3>
 
 <div class="cards">
 {%- for project in projects.bots %}{% include 'project-card.njk' %}{% endfor%}
@@ -47,7 +47,7 @@ templateEngineOverride: njk,html,md
 
 </div><div class="container container-sm">
 
-### Shortcuts
+<h3>Shortcuts</h3>
 
 <ul>
 {%- for post in collections['Shortcuts'] %}
@@ -55,7 +55,7 @@ templateEngineOverride: njk,html,md
 {% endfor %}
 </ul>
 
-### Misc
+<h3>Misc</h3>
 
 <ul>
 {%- for project in projects.other %}
@@ -63,60 +63,40 @@ templateEngineOverride: njk,html,md
 {% endfor %}
 </ul>
 
-### [#DevsDoDesign](http://devsdodesign.com)
+<h3><a href="http://devsdodesign.com">#DevsDoDesign</a></h3>
 
-- [Has It Blown Over Yet?](http://blownover.devsdodesign.com/): Winner, [Pub Hack #1](http://www.pubhack.co.uk/pubhack-1-results-report): Most Likely to Commercially Succeed.
-- [Third World Problems](http://thirdworldproblems.devsdodesign.com/): [Pub Hack #2](http://www.pubhack.co.uk/pubhack-2-the-winners-and-report/)
-- [CrapChat](https://github.com/PubHack/CrapChat): Winner, [Pub Hack #3](http://www.pubhack.co.uk/pubhack-3-results): Most Original Concept.
-- [Knockoffia](http://knockoffia.devsdodesign.com/): Winner, [Pub Hack #4](http://www.pubhack.co.uk/pubhack-4-the-results/): Most Likely to Receive a Lawsuit.
-- [T.R.U.M.P](http://devsdodesign.com/T.R.U.M.P./): Winner, [Pub Hack #5](http://www.pubhack.co.uk/pubhack-5-results/): Audience Choice Award.
+<ul>
+    <li>
+        <a href="http://blownover.devsdodesign.com/">Has It Blown Over Yet?</a>: Winner, 
+        <a href="http://www.pubhack.co.uk/pubhack-1-results-report">Pub Hack #1</a>: Most Likely to Commercially Succeed.
+    </li>
+    <li>
+        <a href="http://thirdworldproblems.devsdodesign.com/">Third World Problems</a>: 
+        <a href="http://www.pubhack.co.uk/pubhack-2-the-winners-and-report/">Pub Hack #2</a>
+    </li>
+    <li>
+        <a href="https://github.com/PubHack/CrapChat">CrapChat</a>: Winner, 
+        <a href="http://www.pubhack.co.uk/pubhack-3-results">Pub Hack #3</a>: Most Original Concept.
+    </li>
+    <li>
+        <a href="http://knockoffia.devsdodesign.com/">Knockoffia</a>: Winner, 
+        <a href="http://www.pubhack.co.uk/pubhack-4-the-results/">Pub Hack #4</a>: Most Likely to Receive a Lawsuit.
+    </li>
+    <li>
+        <a href="http://devsdodesign.com/T.R.U.M.P./">T.R.U.M.P</a>: Winner, 
+        <a href="http://www.pubhack.co.uk/pubhack-5-results/">Pub Hack #5</a>: Audience Choice Award.
+    </li>
+</ul>
 
-### Oddly-Specific Playlists
+<h3>Oddly-Specific Playlists</h3>
 
-- [Songs where the song is about how long the song is](https://music.apple.com/gb/playlist/songs-where-the-song-is-about-how-long-the-song-is/pl.u-GXVZCZJ7ad8)
-- [Songs that use "fit" in the lyrics in the British sense](https://music.apple.com/gb/playlist/songs-that-use-fit-in-the-lyrics-in-the-british-sense/pl.u-NqqkTm2Yjap)
+<ul>
+    <li>
+        <a href="https://music.apple.com/gb/playlist/songs-where-the-song-is-about-how-long-the-song-is/pl.u-GXVZCZJ7ad8">Songs where the song is about how long the song is</a>
+    </li>
+    <li>
+        <a href="https://music.apple.com/gb/playlist/songs-that-use-fit-in-the-lyrics-in-the-british-sense/pl.u-NqqkTm2Yjap">Songs that use &quot;fit&quot; in the lyrics in the British sense</a>
+    </li>
+</ul>
 
-[Site Version History](/log/versions)
-
-<details>
-  <summary>Domains</summary>
-  <ul>
-    <li><code><a href="https://rknight.me">rknight.me</a></code></li>
-    <ul>  
-      <li><code>old name domain 1, redirects here</code></li>
-      <li><code>old name domain 2, redirects here</code></li>
-      <li><a href="https://septembed.rknight.me"><code>septembed.rknight.me</code></a></li>
-      <li><a href="https://donationtreats.rknight.me"><code>donationtreats.rknight.me</code></a></li>
-      <li><a href="https://donationdaddy.rknight.me"><code>donationdaddy.rknight.me</code></a></li>
-      <li><a href="https://treatday.rknight.me"><code>treatday.rknight.me</code></a></li>
-      <li><a href="https://recentfm.rknight.me"><code>recentfm.rknight.me</code></a></li>
-      <li><a href="https://api.rknight.me"><code>api.rknight.me</code></a></li>
-      <li><a href="https://omgnow.rknight.me"><code>omgnow.rknight.me</code></a></li>
-      <li><a href="https://lantern.rknight.me"><code>lantern.rknight.me</code></a></li>
-      <li><a href="https://echo.rknight.me"><code>echo.rknight.me</code></a></li>
-      <li><a href="https://status.rknight.me"><code>status.rknight.me</code></a></li>
-      <li><a href="https://hellsite.rknight.me"><code>hellsite.rknight.me</code></a></li>
-      <li><a href="https://intersect.rknight.me"><code>intersect.rknight.me</code></a></li>
-      <li><a href="https://potimages.rknight.me"><code>potimages.rknight.me</code></a></li>
-      <li><a href="https://micromarks.rknight.me"><code>micromarks.rknight.me</code></a></li>
-      <li><a href="https://toot.rknight.me"><code>toot.rknight.me</code></a></li>
-      <li><a href="https://lantern.rknight.me"><code>lantern.rknight.me</code></a></li>
-      <li><a href="https://podduration.rknight.me"><code>podduration.rknight.me</code></a></li>
-      <li><a href="https://knightbot.rknight.me"><code>knightbot.rknight.me</code></a></li>
-      <li><a href="https://vlcnr.rknight.me"><code>vlcnr.rknight.me</code></a></li>
-      <li><a href="https://defaults.rknight.me"><code>defaults.rknight.me</code></a></li>
-      <li><code>secret project 1</code></li> 
-      <li><code>secret project 2</code></li>
-    </ul>
-    <li><code><a href="https://wegot.family">wegot.family</a></code></li>
-    <li><code><a href="https://ruminatepodcast.com">ruminatepodcast.com</a></code></li>
-    <li><code><a href="https://coinme.dad/dy">coinme.dad/dy</a></code></li>
-    <li><code><a href="https://deskmat.help">deskmat.help</a></code></li>
-    <li><code>secret relay.fm project</code></li>
-    <li><code><a href="https://bugle.lol">bugle.lol</a></code></li>
-    <li><code><a href="https://alm.lol">alm.lol</a></code></li>
-    <li><code><a href="https://chaosweb.space">chaosweb.space</a></code></li>
-  </ul>
-    
-</details>
-</div>
+<p><a href="/log/versions">Site Version History</a></p>

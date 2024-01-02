@@ -7,6 +7,7 @@ layout: post
 tags:
     - Alfred
     - MacOS
+project: /alfred-workflows
 ---
 
 NB: This workflow has been deprecated and replaced with the [Agenda Workflow](https://github.com/rknightuk/alfred-workflows/raw/main/workflows/agenda)

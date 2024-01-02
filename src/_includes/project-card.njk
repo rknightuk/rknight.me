@@ -11,4 +11,9 @@
           <span class="card__title"><a href="{{ project.link }}">{{ project.title }}</a></span>
           <span class="card__description">{{ project.desc | safe }}</span>
       </div>
+      {% if collections.postsByProject[project.link] %}
+      <div class="card__posts">
+          <ul>{%- for post in collections.postsByProject[project.link] %}<li><a href="{{ post.url }}">{{ post.data.title }}</a></li>{% endfor %}</ul>
+      </div>
+      {% endif %}
   </div>

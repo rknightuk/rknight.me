@@ -8,6 +8,7 @@ tags:
     - Development
     - MacOS
     - Alfred
+project: /alfred-workflows
 ---
 
 **Update 1**

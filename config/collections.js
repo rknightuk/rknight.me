@@ -75,6 +75,23 @@ module.exports = {
 
         return [...new Set(allTags)]
     },
+    postsByProject: (collectionApi) => {
+        const posts = collectionApi.getFilteredByGlob("src/posts/**/*.md")
+
+        const postsByProject = posts.reduce((projects, post) => {
+            if (!post.data.project) return projects
+            if (!projects[post.data.project])
+            {
+                projects[post.data.project] = []
+            }
+
+            projects[post.data.project].push(post)
+
+            return projects
+        }, {})
+
+        return postsByProject
+    },
     postStats: (collectionApi) => {
         const oneDayMilliseconds = 1000 * 60 * 60 * 24
         const statsObject = {

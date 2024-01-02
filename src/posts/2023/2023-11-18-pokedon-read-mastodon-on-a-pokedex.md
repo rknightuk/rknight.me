@@ -10,6 +10,7 @@ tags:
   - SocialMedia
   - Development
   - Hackathon
+project: https://pokedon.rknight.me
 ---
 
 Today, I attended a casual no-official-name hackathon. Just a bunch of people working on silly projects. It _did_ have a theme though: silly interfaces. I spent the first hour before I arrived thinking of a few ideas until I thought of the perfect thing: a Mastodon client but it's in a Pokédex.

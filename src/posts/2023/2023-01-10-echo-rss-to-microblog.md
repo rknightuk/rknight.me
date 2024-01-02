@@ -9,6 +9,7 @@ tags:
   - Development
   - SocialMedia
   - Mastodon
+project: https://echo.rknight.me
 ---
 
 ![Screenshot of Echo running in a terminal](https://rknightuk.s3.amazonaws.com/site/echo-screenshot.png)

@@ -7,6 +7,7 @@ layout: post
 tags:
   - Development
   - MacOS
+project: https://github.com/rknightuk/custom-finder-sidebar-icons
 ---
 
 ![Custom icons in the Finder](https://rknightuk.s3.amazonaws.com/site/custom-icons.png)

@@ -6,6 +6,7 @@ excerpt: "Updated version with more icons and options"
 layout: post
 tags:
     - Development
+project: https://potimages.rknight.me
 ---
 
 It's been a while since I [released the first version](https://rknight.me/monzo-pot-image-generator/) of the [Monzo pot image generator](https://potimages.rknight.me/) and there's been a [lot of requests](https://community.monzo.com/t/monzo-pot-image-generator/102120) on the Monzo forum for various new features.

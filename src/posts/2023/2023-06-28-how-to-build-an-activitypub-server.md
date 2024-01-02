@@ -8,6 +8,7 @@ tags:
   - ActivityPub
   - Development
   - OpenWeb
+project: https://bugle.lol
 ---
 
 To start with, I'm not convinced everything I've done here is exactly to the ActivityPub specification or if there will be problems interacting with Bugle on various ActivityPub servers outside the main ones (Mastodon, Calckey, etc). I'm also unclear on which parts of this are Mastodon-specific and which parts are pure ActivityPub. I will use Mastodon as the example external server throughout.
