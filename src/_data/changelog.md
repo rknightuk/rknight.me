@@ -1,3 +1,4 @@
+[2024-01-02] [rknight.me](https://rknight.me) [feature] Added RSS to go with Atom and JSON feed
 [2023-12-19] [Eleventy Post Graph](https://postgraph.rknight.me) [project] 
 [2023-12-15] [rknight.me](https://rknight.me) [feature] Added blog stats page
 [2023-12-07] [rknight.me](https://rknight.me) [feature] Date now shows on blog post lists
