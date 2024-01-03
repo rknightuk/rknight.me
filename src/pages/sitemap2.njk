@@ -1,0 +1,10 @@
+---
+title: sitemap2
+permalink: /sitemap2/
+layout: base
+---
+
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}
+
+{% set navPages = collections.all | eleventyNavigation %}
+{{ navPages | dump | safe }}

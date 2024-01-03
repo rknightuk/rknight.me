@@ -1,0 +1,6 @@
+{
+    "eleventyNavigation": {
+        "parent": "Blog",
+        "title": "{{ title }}"
+    }
+}

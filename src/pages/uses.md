@@ -3,6 +3,9 @@ title: /uses
 subtitle: "All the things I use on a day-to-day basis. [Also on uses.tech](https://uses.tech/)."
 layout: base
 permalink: 'uses/index.html'
+eleventyNavigation:
+  key: Uses
+  parent: Home
 ---
 
 <style>
