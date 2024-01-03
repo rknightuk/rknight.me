@@ -61,7 +61,9 @@ module.exports = {
         }).reverse().slice(0, 5)
     },
     postsForFeed: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse()
+        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().filter(p => {
+            return moment(p.date).isAfter(moment('2012-12-01'))
+        })
     },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().reduce((tags, p) => {
