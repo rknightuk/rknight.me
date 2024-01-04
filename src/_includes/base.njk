@@ -14,9 +14,9 @@
         <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title">
 
         <!-- 👋 hello! If you subscribe via RSS there might be some super secret posts just for you, don't tell anyone 🤫 -->
-        <link rel="alternate" type="application/atom+xml" title="Robb Knight RSS Feed" href="https://rknight.me/feed.xml" />
-        <link rel="alternate" type="application/rss+xml" title="Robb Knight RSS Feed" href="https://rknight.me/subscribe/posts/rss" />
-        <link rel="alternate" type="application/json" title="Robb Knight JSON Feed" href="https://rknight.me/feed.json" />
+        <link rel="alternate" type="application/atom+xml" title="Robb Knight RSS Feed" href="https://rknight.me/feed.xml">
+        <link rel="alternate" type="application/rss+xml" title="Robb Knight RSS Feed" href="https://rknight.me/subscribe/posts/rss">
+        <link rel="alternate" type="application/json" title="Robb Knight JSON Feed" href="https://rknight.me/feed.json">
 
         <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
         <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
@@ -29,16 +29,16 @@
         
         <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
 
-		<meta property="og:title" content="{{ title }}" />
+		<meta property="og:title" content="{{ title }}">
         {% if ('/micro' in page.url) %}
-            <meta name="description" content="{{ post.summary }}" />
-            <meta property="og:description" content="{{ post.summary }}" />
+            <meta name="description" content="{{ post.summary }}">
+            <meta property="og:description" content="{{ post.summary }}">
         {% else %}
-            <meta name="description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}" />
-		    <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}" />
+            <meta name="description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}">
+		    <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.{% endif %}">
         {% endif %}
-		<meta property="og:type" content="article" />
-		<meta property="og:url" content="https://rknight.me{{ page.url }}" />
+		<meta property="og:type" content="article">
+		<meta property="og:url" content="https://rknight.me{{ page.url }}">
         {% if ('/micro' in page.url) or homepage %}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
         {% else %}
@@ -49,8 +49,8 @@
             {% endif %}
         {% endif %}
 
-        <link rel="webmention" href="https://webmention.io/rknight.me/webmention" />
-        <link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc" />
+        <link rel="webmention" href="https://webmention.io/rknight.me/webmention">
+        <link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc">
 	</head>
 	<body>
 
