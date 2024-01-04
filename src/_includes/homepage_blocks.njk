@@ -1,7 +1,7 @@
 <div class="block-header first" style="background-color: #e33d94;">
     <h2>👋 Ahoy there, I'm Robb</h2>
 </div>
-<section class="block home">
+<div class="block home">
     <div class="container container-sm" style="text-align: center">
         <p>I'm lead developer at <a href="http://radweb.co.uk">Radweb</a> working on <a href="http://inventorybase.com">InventoryBase</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a podcaster with <a href="https://ruminatepodcast.com">two</a> <a href="https://wegot.family">shows</a>. I also <a href="/projects">make a bunch of stuff</a>.</p>
 
@@ -19,37 +19,37 @@
             {% endfor %}
         </div>
     </div>
-</section>
+</div>
 
 {# <div class="block-header" style="background-color: #d76150;">
     <h2>Latest from the 'don</h2>
 </div>
-<section class="block home">
+<div class="block home">
     <div class="container container-sm">
         {%- for post in micro.posts.slice(0, 1) %}
             {% include 'micropost.njk' %}
         {% endfor %}
     </div>
-</section> #}
+</div> #}
     
 <div class="block-header" style="background-color: #4db5ad;">
     <h2>Latest Blog Posts</h2>
 </div>
     
-<section class="block home">
+<div class="block home">
     <div class="container container-sm">
         {%- for post in collections.firstPosts %}
             {% include 'post_list_item.njk' %}
         {% endfor %}
         <p><a href="/blog">View All Posts</a></p>
     </div>
-</section>
+</div>
 
 <div class="block-header" style="background-color: #efaa32;">
     <h2>Latest Podcasts</h2>
 </div>
 
-<section class="block home">
+<div class="block home">
     <div class="container container-sm">
 
         <div class="blogroll blogroll--podcasts">
@@ -67,13 +67,13 @@
         </div>
 
     </div>
-</section>
+</div>
 
 <div class="block-header" style="background-color: #44a25e;">
     <h2>Recent Projects</h2>
 </div>
 
-<section class="block home">
+<div class="block home">
     <div class="container">        
         <div class="home-projects">
             {%- for project in projects.featured %}
@@ -85,4 +85,4 @@
 
         <p><a href="/projects">View All Projects</a></p>
     </div>
-</section>
+</div>
