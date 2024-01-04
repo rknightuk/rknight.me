@@ -6,9 +6,9 @@ permalink: 'subscribe/index.html'
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-around;">
-    <a href="/subscribe/posts/atom.xml"><img src="/assets/img/valid-atom.png" alt="Valid Atom"></a>
-    <a href="/subscribe/posts/rss.xml"><img src="/assets/img/valid-rss.png" alt="Valid RSS"></a>
-    <a href="/subscribe/posts/feed.json"><img src="/assets/img/valid-json.png" alt="Valid JSON"></a>
+    <a href="/subscribe/posts/atom.xml"><img src="/assets/img/buttons/valid-atom.png" alt="Valid Atom"></a>
+    <a href="/subscribe/posts/rss.xml"><img src="/assets/img/buttons/valid-rss.png" alt="Valid RSS"></a>
+    <a href="/subscribe/posts/feed.json"><img src="/assets/img/buttons/valid-json.png" alt="Valid JSON"></a>
 </div>
 
 You can subscribe to my posts using RSS with the following feeds:

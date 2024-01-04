@@ -16,7 +16,7 @@ footer.main .container p {
     margin: 0;
 }
 
-@media (max-width: 450px) {
+@media (max-width: 500px) {
     footer.main .container {
         flex-direction: column;
         grid-gap: 10px;
