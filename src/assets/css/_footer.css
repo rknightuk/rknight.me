@@ -6,16 +6,6 @@ footer.main {
     font-size: 0.8em;
 }
 
-footer.main .container {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-}
-
-footer.main .container p {
-    margin: 0;
-}
-
 @media (max-width: 500px) {
     footer.main .container {
         flex-direction: column;
@@ -28,4 +18,22 @@ footer.main .container p {
     font-size: 0.8em;
     padding: 5px 10px;
     border-radius: 10px;
+}
+
+.footer-buttons {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    grid-gap: 10px;
+    margin-bottom: 20px;
+}
+
+@media (max-width: 400px) {
+    .footer-buttons {
+        grid-template-columns: repeat(2, 1fr);
+    }
+}
+
+.footer-buttons div {
+    display: flex;
+    justify-content: center;
 }
