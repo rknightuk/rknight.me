@@ -241,7 +241,7 @@ th {
     margin: 0;
 }
 
-.alert .rss-club {
+.alert .alert-icon {
     position: absolute;
     top: -15px;
     left: 10px;
@@ -252,4 +252,12 @@ th {
 .alert svg {
     width: 15px;
     height: 15px;
+}
+
+.alert .alert-calendar {
+    color: var(--color-warning);
+}
+
+.alert .alert-repost {
+    color: var(--secondary);
 }

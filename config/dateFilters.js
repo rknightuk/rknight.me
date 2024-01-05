@@ -1,8 +1,21 @@
 const { DateTime } = require('luxon')
+const moment = require('moment')
 
 module.exports = {
     dateForFeed: (date) => {
         return new Date(date).toISOString()
+    },
+    isOldPost: (date) => {
+        console.log(date)
+        console.log(moment(date))
+
+        return moment(date).isBefore(moment().subtract(4, 'years'))
+      return [
+        moment(date).isBefore(moment().subtract(4, 'years')),
+        date,
+        moment(date),
+        moment().subtract(4, 'years')
+      ]
     },
     toDateTime: (date) => {
         const formatted = DateTime.fromISO(date)

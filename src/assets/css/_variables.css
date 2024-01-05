@@ -17,4 +17,5 @@
     --monospace: ui-monospace, 'Cascadia Code', 'Source Code Pro', Menlo, Consolas, 'DejaVu Sans Mono', monospace;
     --color-mastodon: #8373e7;
     --color-rss: #f36b2b;
+    --color-warning: #ffd43b;
 }
