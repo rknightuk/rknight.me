@@ -4,6 +4,16 @@
     margin-bottom: 0;
 }
 
+.post-title-subtle {
+    font-weight: bold;
+    margin-bottom: 0;
+}
+
+.post-excerpt {
+    font-size: 0.9em;
+    color: var(--offwhite-subtle);
+}
+
 .post-meta {
     margin-bottom: 30px;
     display: flex;
