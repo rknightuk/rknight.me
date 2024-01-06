@@ -5,7 +5,7 @@ date: 2010-04-07T00:00:00.000Z
 permalink: /blog/appadvice-review-ego/index.html
 tags:
     - "AppAdvice"
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/ccc5ae8dc3.jpg)

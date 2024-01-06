@@ -5,7 +5,7 @@ date: 2010-06-04T00:00:00.000Z
 permalink: /blog/appadvice-review-read-more/index.html
 tags:
     - "AppAdvice"
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/d56ace02aa.jpg)

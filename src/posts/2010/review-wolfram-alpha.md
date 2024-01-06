@@ -6,7 +6,7 @@ type: post
 tags:
     - "AppAdvice"
 permalink: /blog/review-wolfram-alpha/index.html
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/672f11b0da.jpg)

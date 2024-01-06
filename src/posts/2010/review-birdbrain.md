@@ -5,7 +5,7 @@ date: 2010-04-19T00:00:00.000Z
 tags:
     - "AppAdvice"
 permalink: /blog/appadvice-review-birdbrain/index.html
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/048c6de748.jpg)

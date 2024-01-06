@@ -6,6 +6,7 @@ excerpt: "Despite what Spotify tell you, you can unlink your account from Facebo
 layout: post
 tags:
     - Music
+note: This article <a href="/blog/netcraft-facebook-and-digital-ocean/">was reported as phishing by Facebook</a>. It's obviously not but this note will serve to show a human hasn't looked at it if it's ever reported as such again.
 ---
 
 This morning [I tweeted](https://hellsite.rknight.me/976392265374535680) that there's no way to convert a Spotify account from Facebook login to email and password login. I even spoke to Spotify support who said:

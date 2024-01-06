@@ -5,7 +5,7 @@ date: 2010-04-20T00:00:00.000Z
 tags:
     - "AppAdvice"
 permalink: /blog/appadvice-review-analytics-app/index.html
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/5d8d449988.jpg)

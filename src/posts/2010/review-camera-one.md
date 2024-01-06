@@ -5,7 +5,7 @@ date: 2010-04-08T00:00:00.000Z
 permalink: /blog/appadvice-review-camera-one/index.html
 tags:
     - "AppAdvice"
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/72589b0cb2.jpg)

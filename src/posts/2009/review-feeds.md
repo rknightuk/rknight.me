@@ -5,7 +5,7 @@ permalink: /blog/iphoneworldca-review-feeds/index.html
 type: post
 tags:
   - iPhoneWorldCA
-note: This article originally appeared on iphoneworld.ca
+repost: This article originally appeared on iphoneworld.ca
 layout: post
 ---
 

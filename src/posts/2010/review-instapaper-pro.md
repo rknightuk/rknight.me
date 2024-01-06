@@ -5,7 +5,7 @@ date: 2010-05-15T00:00:00.000Z
 permalink: /blog/appadvice-review-instapaper-pro/index.html
 tags:
     - "AppAdvice"
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/bc7e2a12b5.jpg)

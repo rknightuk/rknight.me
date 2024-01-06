@@ -5,7 +5,7 @@ date: 2010-05-28T00:00:00.000Z
 tags:
     - "AppAdvice"
 permalink: /blog/appadvice-review-wifi-sync/index.html
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/40f7d222a1.jpg "wifisync")

@@ -5,7 +5,7 @@ date: 2010-05-13T00:00:00.000Z
 permalink: /blog/appadvice-review-qik-video/index.html
 tags:
     - "AppAdvice"
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/9f173c661f.jpg)

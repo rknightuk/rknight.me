@@ -262,3 +262,7 @@ th {
 .alert .alert-repost {
     color: var(--secondary);
 }
+
+.alert .alert-note {
+    color: var(--tertiary);
+}

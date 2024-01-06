@@ -5,7 +5,7 @@ date: 2010-07-27T00:00:00.000Z
 permalink: /blog/appadvice-review-qstatus/index.html
 tags:
     - "AppAdvice"
-note: This article originally appeared on AppAdvice
+repost: This article originally appeared on AppAdvice
 ---
 
 ![](https://rknightuk.s3.amazonaws.com/site/appadvice/9e5cdb75c3.jpg)
