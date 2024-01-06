@@ -99,7 +99,7 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 - [omg.lol](https://home.omg.lol/referred-by/robb) for Mastodon and some other stuff
 - [Fathom](https://usefathom.com/ref/IXCLSF) for analytics
 - [Backblaze](https://secure.backblaze.com/r/01gkf3) for off-site backup
-- [DigitalOcean](https://www.digitalocean.com/?refcode=8e1d8283bd20) for site hosting
+- [Hetzner](https://www.hetzner.com) for site hosting
 - [Laravel Forge](http://forge.laravel.com) for deployments
 
 #### Fonts
