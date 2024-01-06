@@ -7,6 +7,8 @@ layout: base
 <img style="display:none" class="u-photo" src="/assets/indieweb/avatar.jpg" alt="Robb Knight's avatar">
 
 <span class="post e-content" data-pagefind-body>
+    <span style="display: none;" data-pagefind-filter="type">posts</span>
+    <span style="display: none" data-pagefind-sort="date">{{ post.data.date | isoDateOnly }}</span>
     {%- set isOldPost -%}{{ page.date | isOldPost }}{%- endset -%}
     {% if isOldPost == "true" %}
         <aside class="alert">

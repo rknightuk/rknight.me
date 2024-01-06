@@ -11,4 +11,8 @@ eleventyComputed:
 
 <p><a href="/micro">All Micro Posts</a></p>
 
+<span data-pagefind-body>
+<span style="display: none;" data-pagefind-filter="type">microposts</span>
+<span style="display: none" data-pagefind-sort="date">{{ post.date | isoDateOnly }}</span>
 {% include 'micropost.njk' %}
+</span>

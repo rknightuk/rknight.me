@@ -23,6 +23,9 @@ permalink: 'search/index.html'
     window.addEventListener('DOMContentLoaded', (event) => {
         new PagefindUI({
             element: "#search",
+            showImages: false,
+            showEmptyFilters: false,
+            sort: { date: "desc" },
             processResult: function (result) {
                 if (!result.meta.title) {
                     result.meta.title = `${result.content.split('•')[0]}`
