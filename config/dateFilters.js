@@ -6,16 +6,10 @@ module.exports = {
         return new Date(date).toISOString()
     },
     isOldPost: (date) => {
-        console.log(date)
-        console.log(moment(date))
-
         return moment(date).isBefore(moment().subtract(4, 'years'))
-      return [
-        moment(date).isBefore(moment().subtract(4, 'years')),
-        date,
-        moment(date),
-        moment().subtract(4, 'years')
-      ]
+    },
+    diffInYears: (date) => {
+        return moment().diff(moment(date), 'years')
     },
     toDateTime: (date) => {
         const formatted = DateTime.fromISO(date)
