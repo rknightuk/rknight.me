@@ -16,7 +16,7 @@ const blogs = [
     { name: 'fLaMEd', url: 'https://flamedfury.com', feed: 'https://flamedfury.com/feed.xml/' },
     { name: 'Matt Birchler', url: 'https://birchtree.me', feed: 'https://birchtree.me/rss/' },
     { name: 'Andrew Canion', url: 'https://canion.blog', feed: 'https://canion.blog/categories/article/feed.xml' },
-    { name: 'Apple Annie', url: 'https://weblog.anniegreens.lol/', feed: 'https://weblog.anniegreens.lol/rss.xml' },
+    // { name: 'Apple Annie', url: 'https://weblog.anniegreens.lol/', feed: 'https://weblog.anniegreens.lol/rss.xml' },
     { name: 'Zach Leatherman', url: 'https://www.zachleat.com', feed: 'https://www.zachleat.com/web/feed' },
     { name: 'Marty Day', url: 'https://www.blast-o-rama.com', 'feed': 'https://www.blast-o-rama.com/feed/' },
 ]
