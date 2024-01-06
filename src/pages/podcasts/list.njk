@@ -17,13 +17,13 @@ I currently have two podcasts: <a href='https://ruminatepodcast.com'>Ruminate</a
         <h3>{{ podYear }}</h3>
     {% endif %}
 
-    <p>
-        <h4><a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a></h4>
-        <em>{{ pod.desc }}</em><br>
-        <small>
-        {{ pod.date }}
-        </small>
-    </p>
+    <div>
+        <p class="post-title"><a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a></p>
+        <em class="post-excerpt">{{ pod.desc }}</em><br>
+        <p style="margin-top: 0;font-size:0.8em;">
+            {{ pod.date }}
+        </p>
+    </div>
 
     {% set currentYear = podYear %}
 {% endfor %}

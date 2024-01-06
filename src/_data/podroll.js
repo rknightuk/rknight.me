@@ -11,7 +11,7 @@ const pods = [
     { name: 'Random Pursuit', url: 'https://www.theincomparable.com/gameshow/trivia/', feed: 'https://feeds.theincomparable.com/gameshow/trivia' },
     { name: 'AppStories', url: 'https://appstories.net', feed: 'https://appstories.net/episodes/feed' },
     { name: 'Defocused', url: 'https://www.theincomparable.com/defocused/', feed: 'https://feeds.theincomparable.com/defocused' },
-    { name: 'Do By Friday', url: 'https://dobyfriday.com', feed: 'https://feeds.simplecast.com/5nKJV82u' },
+    { name: 'A Very Good (Audio) Blog', url: 'https://gkeenan.co/avgb/i-did-it-i-made-an-audio-blog-so-you-can-listen-in-your-car-without-driving-into-a-ditch', feed: 'https://gkeenan.co/avgab?format=rss' },
 ]
 
 module.exports = async () => {
