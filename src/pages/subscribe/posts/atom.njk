@@ -22,6 +22,7 @@ eleventyExcludeFromCollections: true
     <updated>{{ post.date | rssDate }}</updated>
     <id>https://rknight.me{{ post | getRssId }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</content>
+    <summary>{{ post.data.excerpt | safe }}</summary>
   </entry>
   {%- endfor %}
 </feed>

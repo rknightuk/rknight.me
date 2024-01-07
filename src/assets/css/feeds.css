@@ -2,7 +2,7 @@
 @import "_variables.css";
 
 p {
-    margin: 1em 0;
+    margin: 0.5em 0;
 }
 
 h2, h3 {
@@ -31,4 +31,8 @@ a {
 
 a:hover {
     color: var(--offwhite);
+}
+
+.summary {
+    font-style: italic;
 }

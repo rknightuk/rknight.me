@@ -65,8 +65,9 @@ eleventyExcludeFromCollections: true
               </a>
             </h3>
             <small>
-                Published: <xsl:value-of select="substring(atom:updated, 0, 11)" />
-              </small>
+              Published: <xsl:value-of select="substring(atom:updated, 0, 11)" />
+            </small>
+            <p class="summary"><xsl:value-of select="atom:summary"/></p>
           </xsl:for-each>
 
           <xsl:for-each select="/rss/channel/item[position() &lt; 6]">
@@ -82,6 +83,7 @@ eleventyExcludeFromCollections: true
               <small>
                 Published: <xsl:value-of select="pubDate" />
               </small>
+              <p class="summary"><xsl:value-of select="excerpt"/></p>
             </div>
           </xsl:for-each>
         </div>

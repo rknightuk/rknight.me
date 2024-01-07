@@ -20,6 +20,7 @@ eleventyExcludeFromCollections: true
         <link href="{{ cl.link }}"/>
         <updated>{{ cl.date | dateForFeed }}</updated>
         <id>https://{{ cl.link }}/#{{ cl.date }}</id>
+        <summary>{{ cl.description | mdToHtmlInline | safe }} </summary>
         <content type="html">
             <![CDATA[
                 {{ cl.encoded | safe }}
