@@ -1,0 +1,33 @@
+@import "_reset.css"; /* https: //andy-bell.co.uk/a-modern-css-reset/ */
+@import "_variables.css";
+
+p {
+    margin: 1em 0;
+}
+
+h2, h3 {
+    margin: 1em 0 0 0;
+}
+
+.rss-feed {
+    background-color: var(--nearblack);
+    color: var(--offwhite);
+    margin: 20px auto;
+    max-width: 800px;
+    font-family: system-ui, sans-serif;
+    font-weight: normal;
+}
+
+.nav__notice {
+    background-color: var(--primary);
+    color: white;
+    padding: 20px;
+}
+
+a {
+    color: var(--primary-links);
+}
+
+a:hover {
+    color: var(--offwhite);
+}

@@ -3,9 +3,10 @@ permalink: subscribe/posts/atom.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/subscribe/styles/rss.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Robb Knight</title>
-  <subtitle>Developer</subtitle>
+  <subtitle>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</subtitle>
   <link href="https://rknight.me/feed.xml" rel="self"/>
   <link href="https://rknight.me"/>
   <updated>{{ collections.postsForFeed | rssLastUpdatedDate }}</updated>
