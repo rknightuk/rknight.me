@@ -10,6 +10,7 @@ h2, h3 {
 }
 
 .rss-feed {
+    padding: 10px 20px;
     background-color: var(--nearblack);
     color: var(--offwhite);
     margin: 20px auto;
