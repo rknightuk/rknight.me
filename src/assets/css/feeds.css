@@ -13,7 +13,7 @@ h2, h3 {
     padding: 10px 20px;
     background-color: var(--nearblack);
     color: var(--offwhite);
-    margin: 20px auto;
+    margin: 0 auto;
     max-width: 800px;
     font-family: system-ui, sans-serif;
     font-weight: normal;
