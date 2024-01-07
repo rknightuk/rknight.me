@@ -90,7 +90,9 @@ module.exports = {
         }
 
         const filtered = webmentions
-            .filter(entry => entry['wm-target'] === `https://rknight.me${url}`)
+            .filter(entry => {
+                return entry['wm-target'] === `https://rknight.me${url}` || entry['wm-target'] === `https://rknight.me${url.replace('/blog', '')}`
+            })
             .filter(entry => allowedTypes.includes(entry['wm-property']))
 
         filtered.forEach(m => {
