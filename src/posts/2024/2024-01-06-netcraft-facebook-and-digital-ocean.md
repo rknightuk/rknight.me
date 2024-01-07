@@ -7,6 +7,10 @@ layout: post
 tags:
     - SocialMedia
     - OpenWeb
+discuss:
+- type: HackerNews
+  link: https://news.ycombinator.com/item?id=38880713
+  date: 2024-01-05T16:17:13
 ---
 
 Now I’ve calmed down after [my tootstorm](https://social.lol/@robb/111704215593992932), here’s what happened yesterday with Netcraft, Facebook, Digital Ocean, and [this blog post](https://rknight.me/blog/convert-spotify-facebook-to-email-login/).[^1]

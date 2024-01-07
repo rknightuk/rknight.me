@@ -1,5 +1,24 @@
 <div class="webmentions">
 
+{% if micro.discussion[webmentionUrl] or discuss %}
+    <h4>POSSE copies</h4>
+    <p><small><a href="https://indieweb.org/POSSE">What is POSSE?</a></small></p>
+
+    <ul>
+        {% if micro.discussion[webmentionUrl] %}
+            {%- for mention in micro.discussion[webmentionUrl] %}
+                <li><a href="{{ mention.source }}" target="_blank" rel="noopener">{{ mention.type }}</a> <small>{{ mention.date | isoDateOnly }}</small></li>
+            {% endfor%}
+        {% endif %}
+        {% if discuss %}
+            {%- for mention in discuss %}
+                <li><a href="{{ mention.link }}" target="_blank" rel="noopener">{{ mention.type }}</a> <small>{{ mention.date | isoDateOnly }}</small></li>
+            {% endfor%}
+        {% endif %}
+    </ul>
+
+{% endif %}
+
 {%- set mentions = webmentions.mentions | webmentionsByUrl(webmentionUrl) -%}
 
 {% if mentions['like-of']|length %}

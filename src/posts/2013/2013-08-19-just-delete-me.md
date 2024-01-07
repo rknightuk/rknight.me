@@ -7,6 +7,19 @@ layout: post
 excerpt: "After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out won’t delete your details I decided to build JustDelete.me."
 tags:
     - Development
+discuss:
+- type: Reddit - /r/minimalism
+  link: https://www.reddit.com/r/minimalism/comments/4e75xd/just_delete_me_a_directory_of_direct_links_to/
+  date: 2016-04-10T19:23:36.909Z
+- type: Reddit - /r/InternetIsBeautiful
+  link: https://www.reddit.com/r/InternetIsBeautiful/comments/35trcc/just_delete_me_a_directory_of_direct_links_to/
+  date: 2015-05-13T13:10:53
+- type: Reddit - /r/InternetIsBeautiful
+  link: https://www.reddit.com/r/InternetIsBeautiful/comments/2ec5l1/a_directory_of_direct_links_to_delete_your/just_delete_me_a_directory_of_direct_links_to/
+  date: 2014-08-23T03:14:14.688Z
+- type: HackerNews
+  link: https://news.ycombinator.com/item?id=6265613
+  date: 2013-08-23T19:00:14
 ---
 
 After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out _won’t_ delete your details I decided to build [JustDelete.me](http://justdelete.me). 
