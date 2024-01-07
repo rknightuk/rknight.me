@@ -23,4 +23,5 @@ I also always toot my new posts on Mastodon:
 - Find me on [social.lol/@robb](https://social.lol/@robb)
 - Search for `robb@rknight.me` on Mastodon
 - [RSS](https://social.lol/@robb.rss)
+- My RSS feed is also auto-posted to [@rknight.me@rss-parrot.net](https://rss-parrot.net/web/feeds/rknight.me)
 
