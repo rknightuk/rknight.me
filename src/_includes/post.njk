@@ -49,6 +49,14 @@ layout: base
         </aside>
     {% endif %}
 	{{ content | safe }}
+    {% if link %}
+        <aside class="alert">
+            <div class="alert-icon">
+                <svg class="icon"><use xlink:href="#link"></use></svg>
+            </div>
+            <a href="{{ link }}">{{ title }} &#x2192;</a>
+        </aside>
+    {% endif %}
 </span>
 
 <footer class="callout">
@@ -60,7 +68,7 @@ layout: base
 
     <hr>
 
-    <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💙</p>
+    <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
 </footer>
 
 {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
