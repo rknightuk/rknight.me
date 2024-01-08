@@ -39,7 +39,7 @@
         {% endif %}
 		<meta property="og:type" content="article">
 		<meta property="og:url" content="https://rknight.me{{ page.url }}">
-        {% if ('/micro' in page.url) or homepage %}
+        {% if ('/micro' in page.url) or homepage or layout == 'link' %}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
         {% else %}
             {% if env.production %}

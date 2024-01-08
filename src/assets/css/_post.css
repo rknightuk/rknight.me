@@ -30,6 +30,11 @@
     margin-right: 5px;
 }
 
+.post-date {
+    margin-top: 0;
+    font-size: 0.8em;
+}
+
 .pagination {
     display: flex;
     justify-content: space-between;
