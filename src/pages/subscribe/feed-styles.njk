@@ -1,5 +1,5 @@
 ---
-permalink: subscribe/styles/rss.xsl
+permalink: subscribe/styles.xsl
 eleventyExcludeFromCollections: true
 ---
 
@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
           <div class="nav__notice">
             <p><strong>This is a web feed,</strong> also known as an RSS or Atom feed. <strong>Subscribe</strong> by copying the URL from here or the address bar into your newsreader.</p>
 
-            <code><xsl:value-of select="/rss/channel/feedurl"/><xsl:value-of select="/atom:feed/atom:link@href"/></code>
+            <code><xsl:value-of select="/rss/channel/link"/><xsl:value-of select="/atom:feed/atom:link"/></code>
           </div>
 
           <p>

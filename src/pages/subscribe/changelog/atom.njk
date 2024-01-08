@@ -3,11 +3,11 @@ permalink: subscribe/changelog/atom.xml
 eleventyExcludeFromCollections: true
 ---
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/subscribe/styles/rss.xsl" type="text/xsl"?>
+<?xml-stylesheet href="/subscribe/styles.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Robb Knight • Changelog • Atom Feed</title>
   <subtitle>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</subtitle>
-  <link rel="self">https://rknight.me{{permalink}}</link>
+  <link rel="self">https://rknight.me/{{permalink}}</link>
   <updated>{{ changelog[0].date | dateForFeed }}</updated>
   <id>rknight.me/log</id>
   <author>
