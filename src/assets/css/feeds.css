@@ -36,3 +36,7 @@ a:hover {
 .summary {
     font-style: italic;
 }
+
+code {
+    font-size: 1.2em;
+}

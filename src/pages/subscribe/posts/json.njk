@@ -5,9 +5,10 @@ eleventyExcludeFromCollections: true
 
 {
     "version": "https://jsonfeed.org/version/1.1",
-    "title": "Robb Knight",
+    "title": "Robb Knight • Posts • JSON Feed",
+    "description": "Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.",
     "home_page_url": "https://rknight.me/",
-    "feed_url": "https://rknight.me/feed.json",
+    "feed_url": "https://rknight.me/subscribe/posts/feed.json",
     "items" : [
     {%- for post in collections.postsForFeed %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}

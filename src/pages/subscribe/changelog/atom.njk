@@ -5,10 +5,10 @@ eleventyExcludeFromCollections: true
 <?xml version="1.0" encoding="utf-8"?>
 <?xml-stylesheet href="/subscribe/styles/rss.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-  <title>Robb Knight Project Changelog</title>
+  <title>Robb Knight • Changelog • Atom Feed</title>
   <subtitle>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</subtitle>
-  <link href="https://rknight.me/changelog.xml" rel="self"/>
   <link href="https://rknight.me/log"/>
+  <feedurl>https://rknight.me/{{ permalink }}</feedurl>
   <updated>{{ changelog[0].date | dateForFeed }}</updated>
   <id>rknight.me/log</id>
   <author>
@@ -20,7 +20,7 @@ eleventyExcludeFromCollections: true
         <link href="{{ cl.link }}"/>
         <updated>{{ cl.date | dateForFeed }}</updated>
         <id>https://{{ cl.link }}/#{{ cl.date }}</id>
-        <summary>{{ cl.description | mdToHtmlInline | safe }} </summary>
+        <summary>{{ cl.description | mdToHtmlInline | safe }}</summary>
         <content type="html">
             <![CDATA[
                 {{ cl.encoded | safe }}

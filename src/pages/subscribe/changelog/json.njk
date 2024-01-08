@@ -1,0 +1,22 @@
+---
+permalink: subscribe/changelog/feed.json
+eleventyExcludeFromCollections: true
+---
+
+{
+    "version": "https://jsonfeed.org/version/1.1",
+    "title": "Robb Knight • Changelog • JSON Feed",
+    "description": "Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.",
+    "home_page_url": "https://rknight.me/",
+    "feed_url": "https://rknight.me/subscribe/changelog/feed.json",
+    "items" : [
+    {%- for cl in changelog %}
+    {
+        "id" : "https://{{ cl.link }}/#{{ cl.date }}",
+        "title": "{{ cl.title }}",
+        "url": "{{ cl.link }}",
+        "content_html": {{ cl.description | mdToHtmlInline | dump | safe }},
+        "date_published": "{{ cl.date | dateForFeed }}"
+    }{% if not loop.last %},{% else %}{%- endif -%}
+    {% endfor %}
+]}

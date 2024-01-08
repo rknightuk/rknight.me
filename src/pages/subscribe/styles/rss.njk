@@ -15,9 +15,12 @@ eleventyExcludeFromCollections: true
       </head>
       <body class="rss-feed">
         <nav class="nav">
-          <p class="nav__notice">
-            <strong>This is a web feed,</strong> also known as an RSS or Atom feed. <strong>Subscribe</strong> by copying the URL from the address bar into your newsreader.
-          </p>
+          <div class="nav__notice">
+            <p><strong>This is a web feed,</strong> also known as an RSS or Atom feed. <strong>Subscribe</strong> by copying the URL from here or the address bar into your newsreader.</p>
+
+            <code><xsl:value-of select="/rss/channel/feedurl"/><xsl:value-of select="/atom:feed/atom:feedurl"/></code>
+          </div>
+
           <p>
             Visit <a href="https://aboutfeeds.com">About Feeds</a> to get started with newsreaders and subscribing. It’s free.
           </p>
@@ -45,12 +48,11 @@ eleventyExcludeFromCollections: true
 
               Web Feed Preview
             </h1>
+
             <h2><xsl:value-of select="/rss/channel/title"/><xsl:value-of select="/atom:feed/atom:title"/></h2>
             <p><xsl:value-of select="/rss/channel/description"/><xsl:value-of select="/atom:feed/atom:subtitle"/></p>
-            <a target="_blank">
-              <xsl:attribute name="href">
-                <xsl:value-of select="/rss/channel/link"/><xsl:value-of select="/atom:feed/atom:link"/>
-              </xsl:attribute>
+
+            <a target="_blank" href="https://rknight.me">
               Visit Website &#x2192;
             </a>
           </header>

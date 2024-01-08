@@ -14,7 +14,7 @@ permalink: 'subscribe/index.html'
 You can subscribe to my posts using RSS with the following feeds:
 
 - Long posts: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json) 
-- Project Changelog: [Atom](/subscribe/changelog/atom.xml)
+- Project Changelog: [Atom](/subscribe/changelog/atom.xml) or [JSON Feed](/subscribe/changelog/feed.json)
 
 To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
 
