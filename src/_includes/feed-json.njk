@@ -4,18 +4,18 @@
     "description": "Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.",
     "home_page_url": "https://rknight.me/",
     "feed_url": "https://rknight.me/{{ permalink }}",
+    "authors": [
+        {
+            "name": "Robb Knight",
+            "url": "https://rknight.me/",
+            "avatar": "https://rknight.me/assets/indieweb/avatar.jpg"
+        }
+    ],
     "items" : [
     {%- for post in collections[collectionName] %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
     {
         "id" : "{{ post.data.permalink }}",
-        "authors": [
-            {
-                "name": "Robb Knight",
-                "url": "https://rknight.me/",
-                "avatar": "https://rknight.me/assets/indieweb/avatar.jpg"
-            }
-        ],
         "title": "{{ post.data.title }}{% if externalLink %} →{% endif %}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         {% if externalLink %}"external_url": "{{ post.data.link }}",{% endif %}
