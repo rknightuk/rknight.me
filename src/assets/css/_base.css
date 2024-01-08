@@ -75,7 +75,7 @@ a:hover {
 }
 
 hr {
-    border: 1px solid var(--offwhite);
+    border: 1px solid var(--offwhite-subtle);
     width: 50%;
     margin: 20px auto;
 }

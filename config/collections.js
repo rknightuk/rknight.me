@@ -65,6 +65,9 @@ module.exports = {
             return moment(p.date).isAfter(moment('2012-12-12'))
         })
     },
+    links: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/links/**/*.md").reverse()
+    },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().reduce((tags, p) => {
             if (p.data.tags && Array.isArray(p.data.tags))
