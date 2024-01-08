@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<?xml-stylesheet href="/subscribe/styles.xsl" type="text/xsl"?>
+<rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://rknight.me" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Robb Knight • Posts • RSS Feed</title>
+    <link>https://rknight.me</link>
+    <feedurl>https://rknight.me/{{ permalink }}</feedurl>
+    <description>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</description>
+    <language>en-gb</language>
+    {%- for post in collections[collectionName] %}
+    {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
+      <item>
+        <title>{{ post.data.title }}{% if externalLink %} →{% endif %}</title>
+        <link>{% if externalLink %}{{ post.data.link }}{% else %}https://rknight.me{{ post.url }}{% endif %}</link>
+        <excerpt>{{ post.data.excerpt }}</excerpt>
+        <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</description>
+        <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
+        <dc:creator>Robb Knight</dc:creator>
+        <guid>https://rknight.me{{ post | getRssId }}</guid>
+      </item>
+    {%- endfor %}
+  </channel>
+</rss>
