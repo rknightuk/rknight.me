@@ -19,6 +19,9 @@
     <id>https://rknight.me{{ post | getRssId }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</content>
     <summary>{{ post.data.excerpt | safe }}</summary>
+    <author>
+      <name>Robb Knight</name>
+    </author>
   </entry>
   {%- endfor %}
 </feed>
