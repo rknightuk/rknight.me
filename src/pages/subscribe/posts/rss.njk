@@ -7,8 +7,7 @@ eleventyExcludeFromCollections: true
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xml:base="https://rknight.me" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Robb Knight • Posts • RSS Feed</title>
-    <link>https://rknight.me</link>
-    <feedurl>https://rknight.me/{{ permalink }}</feedurl>
+    <link rel="self">https://rknight.me{{permalink}}</link>
     <description>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</description>
     <language>en-gb</language>
     {%- for post in collections.postsForFeed %}

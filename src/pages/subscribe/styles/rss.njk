@@ -18,7 +18,7 @@ eleventyExcludeFromCollections: true
           <div class="nav__notice">
             <p><strong>This is a web feed,</strong> also known as an RSS or Atom feed. <strong>Subscribe</strong> by copying the URL from here or the address bar into your newsreader.</p>
 
-            <code><xsl:value-of select="/rss/channel/feedurl"/><xsl:value-of select="/atom:feed/atom:feedurl"/></code>
+            <code><xsl:value-of select="/rss/channel/feedurl"/><xsl:value-of select="/atom:feed/atom:link@href"/></code>
           </div>
 
           <p>
