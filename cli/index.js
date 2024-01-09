@@ -60,7 +60,7 @@ const runWizard = async () => {
             createLink()
             break
         case 'changelog':
-            console.log('n/a')
+            createChangelog()
             break
     }
 }
@@ -117,6 +117,68 @@ date: ${postDate}
     fs.writeFileSync(`${__siteroot}/src/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
 }
 
+const createChangelog = async () => {
+    let changelog = fs.readFileSync(`${__siteroot}/src/_data/changelog.md`, 'utf8')
+    let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/projects.json`, 'utf8'))
+    existingProjects = [
+        {
+            title: 'rknight.me',
+            link: 'https://rknight.me',
+        },
+        ...existingProjects.current, 
+        ...existingProjects.podcasts, 
+        ...existingProjects.profile, 
+        ...existingProjects.stjude
+    ]
+
+    const date = new Date().toISOString().split('T')[0]
+    const project = await select({
+        message: 'Select Project',
+        choices: existingProjects.map((project, i) => {
+            return {
+                name: project.title,
+                value: i,
+                description: project.description,
+            }
+        }),
+        pageSize: 15,
+    })
+    const type = await select({
+        message: 'Select Type',
+        choices: [
+            {
+                name: 'Feature',
+                value: 'feature',
+                description: 'A new feature',
+            },
+            {
+                name: 'Fix',
+                value: 'fix',
+                description: 'A bug fix',
+            },
+            {
+                name: 'Project',
+                value: 'project',
+                description: 'A new project',
+            },
+            {
+                name: 'Retired',
+                value: 'retired',
+                description: 'Retire a project',
+            },
+        ],
+    })
+    const message = await input({ message: 'Changelog Message' })
+
+    const title = existingProjects[project].title
+    const link = existingProjects[project].link
+
+
+    changelog = `[${date}] [${title}](${link}) [${type}] ${message || ''}\n${changelog}`
+
+    fs.writeFileSync(`${__siteroot}/src/_data/changelog.md`, changelog, { flag: "w" })
+}
+
 program
     .command('run')
     .description('🧙‍♂️ run the site wizard')
@@ -135,66 +197,6 @@ program
 program
     .command('changelog')
     .description('🛠️ Create a new changelog entry')
-    .action(async () => {
-        let changelog = fs.readFileSync(`${__siteroot}/src/_data/changelog.md`, 'utf8')
-        let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/projects.json`, 'utf8'))
-        existingProjects = [
-            {
-                title: 'rknight.me',
-                link: 'https://rknight.me',
-            },
-            ...existingProjects.current, 
-            ...existingProjects.podcasts, 
-            ...existingProjects.profile, 
-            ...existingProjects.stjude
-        ]
-
-        const date = new Date().toISOString().split('T')[0]
-        const project = await select({
-            message: 'Select Project',
-            choices: existingProjects.map((project, i) => {
-                return {
-                    name: project.title,
-                    value: i,
-                    description: project.description,
-                }
-            }),
-            pageSize: 15,
-        })
-        const type = await select({
-            message: 'Select Type',
-            choices: [
-                {
-                    name: 'Feature',
-                    value: 'feature',
-                    description: 'A new feature',
-                },
-                {
-                    name: 'Fix',
-                    value: 'fix',
-                    description: 'A bug fix',
-                },
-                {
-                    name: 'Project',
-                    value: 'project',
-                    description: 'A new project',
-                },
-                {
-                    name: 'Retired',
-                    value: 'retired',
-                    description: 'Retire a project',
-                },
-            ],
-        })
-        const message = await input({ message: 'Changelog Message' })
-
-        const title = existingProjects[project].title
-        const link = existingProjects[project].link
-
-
-        changelog = `[${date}] [${title}](${link}) [${type}] ${message || ''}\n${changelog}`
-
-        fs.writeFileSync(`${__siteroot}/src/_data/changelog.md`, changelog, { flag: "w" })
-    })
+    .action(() => createChangelog())
 
 program.parse()
