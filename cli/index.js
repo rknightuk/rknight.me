@@ -117,6 +117,9 @@ date: ${postDate}
     fs.writeFileSync(`${__siteroot}/src/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
 }
 
+/////////////////////////////////
+///// Create Changelog //////////
+/////////////////////////////////
 const createChangelog = async () => {
     let changelog = fs.readFileSync(`${__siteroot}/src/_data/changelog.md`, 'utf8')
     let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/projects.json`, 'utf8'))
