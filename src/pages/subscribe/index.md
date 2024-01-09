@@ -6,14 +6,15 @@ permalink: 'subscribe/index.html'
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-around;">
-    <a href="/subscribe/posts/atom.xml"><img src="/assets/img/buttons/valid-atom.png" alt="Valid Atom"></a>
-    <a href="/subscribe/posts/rss.xml"><img src="/assets/img/buttons/valid-rss.png" alt="Valid RSS"></a>
-    <a href="/subscribe/posts/feed.json"><img src="/assets/img/buttons/valid-json.png" alt="Valid JSON"></a>
+    <img src="/assets/img/buttons/valid-atom.png" alt="Valid Atom">
+    <img src="/assets/img/buttons/valid-rss.png" alt="Valid RSS">
+    <img src="/assets/img/buttons/valid-json.png" alt="Valid JSON">
 </div>
 
-You can subscribe to my posts using RSS with the following feeds:
+You can subscribe to my posts with the following feeds:
 
-- Long posts: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json) 
+- **Blog Posts**: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json)
+- **Links**: [Atom](/subscribe/links/atom.xml), [RSS](/subscribe/links/rss.xml) or [JSON Feed](/subscribe/links/feed.json)
 
 To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
 
@@ -22,5 +23,5 @@ I also always toot my new posts on Mastodon:
 - Find me on [social.lol/@robb](https://social.lol/@robb)
 - Search for `robb@rknight.me` on Mastodon
 - [RSS](https://social.lol/@robb.rss)
-- My RSS feed is also auto-posted to [@rknight.me@rss-parrot.net](https://rss-parrot.net/web/feeds/rknight.me)
+- My posts feed is also auto-posted to [@rknight.me@rss-parrot.net](https://rss-parrot.net/web/feeds/rknight.me)
 
