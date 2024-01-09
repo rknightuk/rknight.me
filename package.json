@@ -36,14 +36,14 @@
     "xml2json": "^0.12.0"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "./node_modules/.bin/eleventy --serve",
     "build": "./node_modules/.bin/eleventy",
     "bookmarklets:link": "bookmarklet --demo src/assets/bookmarklets/new-link.js src/meta/bookmarklets/new-link.html",
     "bookmarklets:post": "bookmarklet --demo src/assets/bookmarklets/new-post.js src/meta/bookmarklets/new-post.html",
     "bookmarklets": "npm-run-all --parallel bookmarklets:*",
     "clear": "rm -rf .cache",
-    "pagefind": "npx pagefind --source public --glob \"**/*.html\""
+    "pagefind": "npx pagefind --source public --glob \"**/*.html\"",
+    "cli": "node cli/index.js run"
   },
   "author": "Robb Knight",
   "license": "ISC"

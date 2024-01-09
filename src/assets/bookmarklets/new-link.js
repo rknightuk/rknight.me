@@ -71,7 +71,7 @@ date: ${dateString}
     /* Build the URL
     /* *********************************************************************************/
     const pathDate = dateString.slice(0, 10);
-    const filename = `src/links/${pathDate}-${slug}.md`;
+    const filename = `src/links/${year}/${pathDate}-${slug}.md`;
 
     let newFileUrl = `https://github.com/rknightuk/rknight.me/new/master/?filename=${filename}&value=${encodeURIComponent(
       value

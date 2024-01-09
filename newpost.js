@@ -12,6 +12,7 @@ permalink: /blog/${slug}/index.html
 date: ${postDate}
 excerpt: ""
 layout: post
+tags:
 ---`
 
 fs.writeFileSync(`./src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })

@@ -3,9 +3,19 @@ import select from '@inquirer/select'
 import { input } from '@inquirer/prompts'
 import chalk from 'chalk'
 import fs from 'fs'
+import path from 'path'
+import { fileURLToPath } from 'url'
 
-if (process.argv.slice(2).length === 0) {
-console.log(chalk.hex('#e33d94')`............................................................
+const __filename = fileURLToPath(import.meta.url);
+const __dirname = path.dirname(__filename)
+const __siteroot = __dirname.replace('/cli', '');
+
+const slugify = (string) => {
+    return string.toLowerCase().replace(/[^\w\s]/gi, '').split(' ').join('-')
+}
+
+const runWizard = async () => {
+        console.log(chalk.hex('#e33d94')`............................................................
 ............................................................
 ..................@@@@@@@@@@@@@@,..&@@@@@,..................
 ..................@@@@@@@@@@@@@...@@@@@@....................
@@ -20,36 +30,114 @@ console.log(chalk.hex('#e33d94')`...............................................
 .......................rknight.me...........................
 ............................................................
 `)
+
+    const type = await select({
+        message: 'What do you want to do?',
+        choices: [
+            {
+                name: 'Create a new post',
+                value: 'post',
+                description: 'Create a new post',
+            },
+            {
+                name: 'Create a new link post',
+                value: 'link',
+                description: 'Create a new link post',
+            },
+            {
+                name: 'Create a new changelog entry',
+                value: 'changelog',
+                description: 'Create a new changelog entry',
+            },
+        ],
+    })
+
+    switch (type) {
+        case 'post':
+            createPost()
+            break
+        case 'link':
+            createLink()
+            break
+        case 'changelog':
+            console.log('n/a')
+            break
+    }
 }
 
-program
-    .command('new <title>')
-    .description('Create a new post')
-    .action((_title) => {
-        const title = program.args.join(' ')
-        const slug = title.toLowerCase().replace(/[^\w\s]/gi, '').split(' ').join('-')
-        const slugDate = new Date().toISOString().split('T')[0]
-        const year = new Date().getFullYear()
-        const postDate = new Date().toISOString()
+/////////////////////////////////
+//////// Create Post ////////////
+/////////////////////////////////
+const createPost = async () => {
+    const title = await input({ message: 'Post title' })
+    const slug = await input({ message: 'Post slug', default: slugify(title) })
 
-        const meta = `---
-title: ${title}
-permalink: /${slug}/index.html
+    const slugDate = new Date().toISOString().split('T')[0]
+    const year = new Date().getFullYear()
+    const postDate = new Date().toISOString()
+
+    const meta = `---
+title: "${title}"
+permalink: /blog/${slug}/index.html
 date: ${postDate}
 excerpt: ""
 layout: post
+tags:
 ---`
 
-    fs.writeFileSync(`../src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
+    fs.writeFileSync(`${__siteroot}/src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
+}
 
-    })
+/////////////////////////////////
+//////// Create Link ////////////
+/////////////////////////////////
+const createLink = async () => {
+    const link = await input({ message: 'Link' })
+
+    console.log('Fetching link title...')
+
+    let page = await fetch(link)
+    page = await page.text()
+
+    let title = page.match(/<title[^>]*>([^<]+)<\/title>/)[1]
+    title = await input({ message: 'Link title', default: title })
+
+    const slug = await input({ message: 'Post slug', default: slugify(title) })
+    const slugDate = new Date().toISOString().split('T')[0]
+    const year = new Date().getFullYear()
+    const postDate = new Date().toISOString()
+
+    const meta = `---
+title: "${title}"
+permalink: /links/${slug}/index.html
+link: ${link}
+date: ${postDate}
+---`
+
+    fs.writeFileSync(`${__siteroot}/src/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
+}
+
+program
+    .command('run')
+    .description('🧙‍♂️ run the site wizard')
+    .action(() => runWizard())
+
+program
+    .command('post')
+    .description('📝 Create a new post')
+    .action(() => createPost())
+
+program
+    .command('post')
+    .description('🔗 Create a new link')
+    .action(() => createLink())
 
 program
     .command('changelog')
-    .description('Create a new changelog entry')
+    .description('🛠️ Create a new changelog entry')
     .action(async () => {
-        let changelog = fs.readFileSync('../src/_data/changelog.md', 'utf8')
-        let existingProjects = JSON.parse(fs.readFileSync('../src/_data/projects.json', 'utf8'))
+        let changelog = fs.readFileSync(`${__siteroot}/src/_data/changelog.md`, 'utf8')
+        let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/projects.json`, 'utf8'))
         existingProjects = [
             {
                 title: 'rknight.me',
@@ -106,8 +194,7 @@ program
 
         changelog = `[${date}] [${title}](${link}) [${type}] ${message || ''}\n${changelog}`
 
-        fs.writeFileSync('../src/_data/changelog.md', changelog, { flag: "w" })
+        fs.writeFileSync(`${__siteroot}/src/_data/changelog.md`, changelog, { flag: "w" })
     })
-
 
 program.parse()
