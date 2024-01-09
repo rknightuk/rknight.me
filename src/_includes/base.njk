@@ -123,7 +123,7 @@
                     <h2 class="p-name" data-pagefind-meta="title">{{ title }}</h2>
                     {% if subtitle %}<p class="post-subtitle">{{ subtitle | mdToHtml | safe }}</p>{% endif %}
 
-                    {% if layout == 'post' %}
+                    {% if layout == 'post' or layout == 'link' %}
                         <div class="post-meta">
                             <div>
                                 <svg class="icon">

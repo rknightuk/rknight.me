@@ -48,7 +48,6 @@ layout: base
             {% endif %}
         </aside>
     {% endif %}
-	{{ content | safe }}
     {% if link %}
         <aside class="alert">
             <div class="alert-icon">
@@ -57,6 +56,7 @@ layout: base
             <a href="{{ link }}">{{ title }} &#x2192;</a>
         </aside>
     {% endif %}
+	{{ content | safe }}
 </span>
 
 <footer class="callout">

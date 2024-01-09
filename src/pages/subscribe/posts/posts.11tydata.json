@@ -1,0 +1,5 @@
+{
+    "eleventyExcludeFromCollections": "true",
+    "collectionName": "postsForFeed",
+    "name": "Posts"
+}

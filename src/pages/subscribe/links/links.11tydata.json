@@ -1,0 +1,6 @@
+{
+    "eleventyExcludeFromCollections": "true",
+    "collectionName": "links",
+    "externalLink": "true",
+    "name": "Links"
+}
