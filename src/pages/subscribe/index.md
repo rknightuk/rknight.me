@@ -11,7 +11,7 @@ permalink: 'subscribe/index.html'
     <img src="/assets/img/buttons/valid-json.png" alt="Valid JSON">
 </div>
 
-You can subscribe to my posts with the following feeds:
+You can subscribe with the following feeds:
 
 - **Blog Posts**: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json)
 - **Links**: [Atom](/subscribe/links/atom.xml), [RSS](/subscribe/links/rss.xml) or [JSON Feed](/subscribe/links/feed.json)
