@@ -1,3 +1,4 @@
+[2024-01-10] [Echo](https://echo.rknight.me) [fix] Fixed JSON feeds not working. Fixed error when feeds are empty
 [2024-01-09] [rknight.me](https://rknight.me) [feature] Added link blog with RSS/Atom/JSON feeds
 [2024-01-07] [rknight.me](https://rknight.me) [feature] Styled RSS/Atom feeds
 [2024-01-07] [rknight.me](https://rknight.me) [feature] Added POSSE copies to posts
