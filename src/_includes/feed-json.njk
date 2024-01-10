@@ -16,7 +16,7 @@
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
     {
         "id" : "{{ post.data.permalink }}",
-        "title": "{{ post.data.title }}{% if externalLink %} →{% endif %}",
+        "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         {% if externalLink %}"external_url": "{{ post.data.link }}",{% endif %}
         "content_html": {{ post.templateContent | rssClubAlert(post.data.rssClub) | dump | safe }},

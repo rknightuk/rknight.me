@@ -69,7 +69,8 @@
 }
 
 @media (max-width: 550px) {
-    .block h2 {
+    .block h2,
+    .block-header h2 {
         font-size: 1.4em;
     }
 }

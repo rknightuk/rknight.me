@@ -10,7 +10,7 @@
     {%- for post in collections[collectionName] %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
       <item>
-        <title>{{ post.data.title }}{% if externalLink %} →{% endif %}</title>
+        <title>{{ post.data.title }}</title>
         <link>{% if externalLink %}{{ post.data.link }}{% else %}https://rknight.me{{ post.url }}{% endif %}</link>
         <excerpt>{{ post.data.excerpt }}</excerpt>
         <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</description>

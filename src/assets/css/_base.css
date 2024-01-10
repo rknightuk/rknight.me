@@ -266,3 +266,11 @@ th {
 .alert .alert-note {
     color: var(--tertiary);
 }
+
+.subscribe-icon {
+    color: var(--color-rss);
+}
+
+.mastodon-icon {
+    color: var(--color-mastodon);
+}

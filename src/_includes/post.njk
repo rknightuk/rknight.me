@@ -53,7 +53,12 @@ layout: base
             <div class="alert-icon">
                 <svg class="icon"><use xlink:href="#link"></use></svg>
             </div>
-            <a href="{{ link }}">{{ title }} &#x2192;</a>
+            <a style="font-weight: bold;" href="{{ link }}">{{ title }} &#x2192;</a>
+            <p>
+                {{ people[author].name }}
+                {% if people[author].mastodon %} • <a target="_blank" rel="noopener" href="{{ people[author].mastodon }}">Mastodon</a>{% endif %}
+                {% if people[author].feed %} • <a target="_blank" rel="noopener" href="{{ people[author].feed }}">RSS</a>{% endif %}
+            </p>
         </aside>
     {% endif %}
 	{{ content | safe }}

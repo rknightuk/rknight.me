@@ -3,6 +3,7 @@ title: Minimum Wage Clock
 permalink: /links/minimum-wage-clock/index.html
 link: https://moonbase.lgbt/blog/minimum-wage-clock/
 date: 2024-01-08T21:45:00.000Z
+author: moonbase.lgbt
 ---
 
 > The vast disparity is nothing new to me, but seeing it like this...It’s fucking sobering.

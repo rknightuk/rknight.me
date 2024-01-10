@@ -1,3 +1,14 @@
-<p class="post-title"><a href="{{ link.data.link }}">{{ link.data.title }} &#x2192;</a></p>
-<p class="post-date">&infin; <a href="{{ link.data.permalink }}">{{ link.data.date | postDate }}</a></p>
+<p class="post-title post-title--link"><a href="{{ link.data.link }}">{{ link.data.title }} &#x2192;</a></p>
+<p class="post-author">
+    {{ people[link.data.author].name }}
+    {% if people[link.data.author].mastodon %}<a target="_blank" rel="noopener" href="{{ people[link.data.author].mastodon }}">
+        <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg>
+    </a>{% endif %}
+    {% if people[link.data.author].feed %}<a target="_blank" rel="noopener" href="{{ people[link.data.author].feed }}">
+        <svg class="icon subscribe-icon"><use xlink:href="#rss"></use></svg>
+    </a>{% endif %}
+</p>
+
 {{ link.content | safe }}
+
+<p class="post-date">&infin; <a href="{{ link.data.permalink }}">{{ link.data.date | postDate }}</a></p>

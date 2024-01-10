@@ -45,6 +45,19 @@
     </div>
 </div>
 
+<div class="block-header" style="background-color: #d76150;">
+    <h2>Latest Links</h2>
+</div>
+<div class="block home">
+    <div class="container container-sm">
+        {%- for link in collections.links.slice(0, 3) %}
+            {% include 'link_list_item.njk' %}
+        {% endfor %}
+
+        <p><a href="/links">View All Links</a></p>
+    </div>
+</div>
+
 <div class="block-header" style="background-color: #efaa32;">
     <h2>Latest Podcasts</h2>
 </div>

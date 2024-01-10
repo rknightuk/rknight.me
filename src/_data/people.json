@@ -1,0 +1,22 @@
+{
+    "gkeenan.co": {
+        "name": "Keenan",
+        "mastodon": "https://social.lol/@keenan",
+        "feed": "https://gkeenan.co/avgab?format=rss"
+    },
+    "joe-steel.com": {
+        "name": "Joe Steel",
+        "mastodon": "https://duck.haus/@joesteel",
+        "feed": "https://joe-steel.com/feed"
+    },
+    "moonbase.lgbt": {
+        "name": "Luna",
+        "mastodon": "https://pony.social/@luna",
+        "feed": "https://moonbase.lgbt/blog/atom.xml"
+    },
+    "www.fromjason.xyz": {
+        "name": "Jason Velazquez",
+        "mastodon": "https://mastodon.social/@fromjason",
+        "feed": "https://www.fromjason.xyz/notebook/feed/feed.xml"
+    }
+}
