@@ -1,22 +1,32 @@
 {
     "gkeenan.co": {
         "name": "Keenan",
+        "web": "https://gkeenan.co",
         "mastodon": "https://social.lol/@keenan",
         "feed": "https://gkeenan.co/avgab?format=rss"
     },
     "joe-steel.com": {
         "name": "Joe Steel",
+        "web": "https://joe-steel.com",
         "mastodon": "https://duck.haus/@joesteel",
         "feed": "https://joe-steel.com/feed"
     },
     "moonbase.lgbt": {
         "name": "Luna",
+        "web": "https://moonbase.lgbt",
         "mastodon": "https://pony.social/@luna",
         "feed": "https://moonbase.lgbt/blog/atom.xml"
     },
     "www.fromjason.xyz": {
         "name": "Jason Velazquez",
+        "web": "https://www.fromjason.xyz",
         "mastodon": "https://mastodon.social/@fromjason",
         "feed": "https://www.fromjason.xyz/notebook/feed/feed.xml"
+    },
+    "macstories/nileane": {
+        "name": "Niléane @ MacStories",
+        "web": "https://www.macstories.net/author/nileane/",
+        "mastodon": "https://nileane.fr/@nileane",
+        "feed": "https://www.macstories.net/author/nileane/feed/"
     }
 }

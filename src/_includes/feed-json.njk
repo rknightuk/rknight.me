@@ -1,6 +1,7 @@
 {
     "version": "https://jsonfeed.org/version/1.1",
     "title": "Robb Knight • {{ name }} • JSON Feed",
+    "user_comment": "This is a JSON feed. Subscribe by copying the URL from the address bar into your newsreader.",
     "description": "Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.",
     "home_page_url": "https://rknight.me/",
     "feed_url": "https://rknight.me/{{ permalink }}",
@@ -18,7 +19,19 @@
         "id" : "{{ post.data.permalink }}",
         "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
-        {% if externalLink %}"external_url": "{{ post.data.link }}",{% endif %}
+        {% if externalLink %}
+        "external_url": "{{ post.data.link }}",
+        "authors": [
+            {
+                "name": "{{ people[post.data.author].name }}",
+                "url": "{{ people[post.data.author].web }}",
+                "_knightlinks": {
+                    "about": "https://rknight.me/links",
+                    "author_mastodon": {% if people[post.data.author].mastodon %}"{{ people[post.data.author].mastodon }}"{% else %}null{% endif %}
+                }
+            }
+        ],
+        {% endif %}
         "content_html": {{ post.templateContent | rssClubAlert(post.data.rssClub) | dump | safe }},
         "date_published": "{{ post.data.date | dateForFeed }}"
     }{% if not loop.last %},{% else %}{%- endif -%}

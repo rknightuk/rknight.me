@@ -45,6 +45,7 @@ let linkContent =
 let linkUrl = window.location.href;
 
 const domain = window.location.host
+const web = window.location.origin
 const authorName = document.querySelector('.p-name')?.innerText
 const mastodonAccounts = Array.from(document.querySelectorAll('[rel="me"]')).filter(e => e.href.includes('@')).map(e => e.href).join(', ')
 const FEED_SELECTORS = [
@@ -90,6 +91,7 @@ author: ${domain}
     window.prompt('New author needed', JSON.stringify({
       [domain]: {
         name: authorName,
+        web: web,
         mastodon: mastodonAccounts,
         feed: feedUrl,
       }
