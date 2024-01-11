@@ -23,6 +23,7 @@ h2, h3 {
     background-color: var(--primary);
     color: white;
     padding: 20px;
+    margin-bottom: 20px;
 }
 
 a {
@@ -31,6 +32,11 @@ a {
 
 a:hover {
     color: var(--offwhite);
+}
+
+.nav__notice a {
+    color: white;
+    font-weight: bold;
 }
 
 .summary {

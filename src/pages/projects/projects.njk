@@ -12,37 +12,37 @@ templateEngineOverride: njk,html
 <h3>Podcasts</h3>
 
 <div class="cards">
-{%- for project in projects.podcasts %}{% include 'project-card.njk' %}{% endfor%}
+{%- for project in site.projects.podcasts %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
 <h3>Current</h3>
 
 <div class="cards">
-{%- for project in projects.current %}{% include 'project-card.njk' %}{% endfor%}
+{%- for project in site.projects.current %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
 <h3>omg.lol/Embed Tools</h3>
 
 <div class="cards">
-{%- for project in projects.profile %}{% include 'project-card.njk' %}{% endfor%}
+{%- for project in site.projects.profile %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
 <h3>Relay FM for St Jude Fundraising</h3>
 
 <div class="cards">
-{%- for project in projects.stjude %}{% include 'project-card.njk' %}{% endfor%}
+{%- for project in site.projects.stjude %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
 <h3>Design</h3>
 
 <div class="cards">
-{%- for project in projects.design %}{% include 'project-card.njk' %}{% endfor%}
+{%- for project in site.projects.design %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
 <h3>Mastodon Bots</h3>
 
 <div class="cards">
-{%- for project in projects.bots %}{% include 'project-card.njk' %}{% endfor%}
+{%- for project in site.projects.bots %}{% include 'project-card.njk' %}{% endfor%}
 </div>
 
 </div><div class="container container-sm">
@@ -58,7 +58,7 @@ templateEngineOverride: njk,html
 <h3>Misc</h3>
 
 <ul>
-{%- for project in projects.other %}
+{%- for project in site.projects.other %}
   <li><a href="{{ project.link }}">{{ project.title }}</a>{% if project.desc %}: {{ project.desc }}{% endif %}</li>
 {% endfor %}
 </ul>

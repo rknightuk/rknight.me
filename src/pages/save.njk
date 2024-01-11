@@ -5,7 +5,7 @@ layout: base
 permalink: 'save/index.html'
 ---
 
-{%- for s in save %}
+{%- for s in site.save %}
     <p>
         <strong>{{ s.name }}</strong> <a href="{{ s.link }}">{{ s.link }}</a><br>
         {{ s.desc }}

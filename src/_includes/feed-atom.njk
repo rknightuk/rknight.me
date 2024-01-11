@@ -1,14 +1,14 @@
 <?xml version="1.0" encoding="utf-8"?>
-<?xml-stylesheet href="/subscribe/styles/rss.xsl" type="text/xsl"?>
+<?xml-stylesheet href="/subscribe/styles.xsl" type="text/xsl"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
   <title>Robb Knight • {{ name }} • Atom Feed</title>
-  <subtitle>Maker of web things, Lego builder, sometimes blogger, sporadic pizzaiolo, fortnightly podcaster. Cat dad and human dad.</subtitle>
-  <link href="https://rknight.me"/>
-  <feedurl>https://rknight.me/{{ permalink }}</feedurl>
+  <subtitle>{{ site.config.description }}</subtitle>
+  <link href="https://rknight.me/subscribe/{{ name | toLowerCase }}/atom.xml" rel="self" />
   <updated>{{ collections.postsForFeed | rssLastUpdatedDate }}</updated>
-  <id>https://rknight.me/</id>
+  <id>https://rknight.me/subscribe/{{ name | toLowerCase }}/atom.xml</id>
   <author>
     <name>Robb Knight</name>
+    <uri>http://rknight.me</uri>
   </author>
   {%- for post in collections[collectionName] %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
@@ -18,7 +18,7 @@
     <updated>{{ post.date | rssDate }}</updated>
     <id>https://rknight.me{{ post | getRssId }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</content>
-    <summary>{{ post.data.excerpt | safe }}</summary>
+    <summary>{% if post.data.excerpt %}{{ post.data.excerpt | safe }}{% else %}{{ post.data.title }} by {{ people[post.data.author].name }}{% endif %}</summary>
     <author>
       <name>Robb Knight</name>
     </author>

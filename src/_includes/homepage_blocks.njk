@@ -8,7 +8,7 @@
         <p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> or <a href="https://psnprofiles.com/rknightuk">PSN</a>, <a href="https://letterboxd.com/rknightuk/">Letterboxd</a>, and more things as <code>rknightuk</code>.</p>
 
         <div class="home-links">
-            {% for link in links %}
+            {% for link in site.links %}
                 <div>
                     <a href="{{ link.link }}" target="_blank" rel="noopener" aria-label="Link to {{ link.icon }}">
                         <svg class="icon icon-{{ link.icon }}">
@@ -89,7 +89,7 @@
 <div class="block home">
     <div class="container">        
         <div class="home-projects">
-            {%- for project in projects.featured %}
+            {%- for project in site.projects.featured %}
             <div class="home-project" style="background-image: url('/assets/projects/{{ project.image }}');">
                 <a href="{{ project.link }}">{{ project.title }}</a>
             </div>

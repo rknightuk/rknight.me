@@ -2,6 +2,9 @@ const marked = require('marked')
 const sanitizeHTML = require('sanitize-html')
 const moment = require('moment')
 const slugify = require('slugify')
+const cheerio = require('cheerio')
+const { encode, decode } = require('html-entities')
+const mastodonCount = require('./mastodonCounter.js')
 
 module.exports = {
     trim: (string, limit) => {
@@ -133,5 +136,39 @@ module.exports = {
     },
     popularPosts: (pageviews, limit, url) => {
         return pageviews.filter(pv => pv.url !== url).slice(0, limit)
+    },
+    makeTootText: (post) => {
+        const permalink = `https://rknight.me${post.permalink}`
+        let mastoUsername = null
+        if (post.author.mastodon)
+        {
+            const url = new URL(post.author.mastodon)
+            mastoUsername = `${url.pathname.replace('/', '')}@${url.host}`
+        }
+
+        let content = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
+
+        const $ = cheerio.load(`<div id="content">${decode(post.content)}</div>`)
+        let allText = $('#content').text().trim()
+
+        $('blockquote').get().forEach(element => {
+            allText = allText.replace($(element).text().trim(), `"${$(element).text().trim()}"`)
+        })
+
+        const contentWithAllText = `${content}\n\n${allText}\n\n📌 ${permalink}`
+        const firstQuote = `"${$('blockquote').first().text().trim()}"`
+        const contentWithFirstQuote = `${content}\n\n${firstQuote}\n\n📌 ${permalink}`
+
+        if (mastodonCount.getMastodonLength(contentWithAllText).length <= 500)
+        {
+            content = contentWithAllText
+        } else if (mastodonCount.getMastodonLength(contentWithFirstQuote).length <= 500)
+        {
+            content = contentWithFirstQuote
+        } else {
+            content = `${content}\n\n📌 ${permalink}`
+        }
+
+        return content
     }
 }

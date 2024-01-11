@@ -1,7 +1,3 @@
-// x.split(' ').slice(0, 2) // date and tag
-// x.split(' ').slice(2) // content
-// extract links with markdown link extractor for filters/tags
-
 const fs = require('fs')
 const marked = require('marked')
 

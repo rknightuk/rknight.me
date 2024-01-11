@@ -10,7 +10,7 @@ I currently have two podcasts: <a href='https://ruminatepodcast.com'>Ruminate</a
 {% set imagePrefix = '/assets/projects/' %}
 
 <div class="cards" style="grid-template-columns: repeat(2,1fr);margin-top: 20px;">
-{%- for project in projects.podcasts %}<a href="{{ project.link }}"><img style="border-radius: 10px;" src="{{ imagePrefix }}{{ project.image }}"></a>{% endfor%}
+{%- for project in site.projects.podcasts %}<a href="{{ project.link }}"><img style="border-radius: 10px;" src="{{ imagePrefix }}{{ project.image }}"></a>{% endfor%}
 </div>
 
 {% set datePrinted = false %}
