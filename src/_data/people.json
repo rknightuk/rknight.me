@@ -28,5 +28,11 @@
         "web": "https://www.macstories.net/author/nileane/",
         "mastodon": "https://nileane.fr/@nileane",
         "feed": "https://www.macstories.net/author/nileane/feed/"
+    },
+    "gilest.org": {
+        "name": "Giles Turnbull",
+        "web": "https://gilest.org",
+        "mastodon": "https://mastodon.me.uk/@gilest",
+        "feed": "https://gilest.org/feed/index.xml"
     }
 }
