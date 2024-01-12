@@ -13,8 +13,9 @@ permalink: 'subscribe/index.html'
 
 You can subscribe with the following feeds:
 
-- **Blog Posts**: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json)
+- **Posts**: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json)
 - **Links**: [Atom](/subscribe/links/atom.xml), [RSS](/subscribe/links/rss.xml) or [JSON Feed](/subscribe/links/feed.json)
+- **Changelog**: [Atom](/subscribe/changelog/atom.xml), [RSS](/subscribe/changelog/rss.xml) or [JSON Feed](/subscribe/changelog/feed.json)
 
 To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
 
