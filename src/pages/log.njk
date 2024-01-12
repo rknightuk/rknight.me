@@ -1,57 +1,15 @@
 ---
 layout: base
 title: Log
+subtitle: "[Site Version History](/log/versions)"
 permalink: 'log/index.html'
 templateEngineOverride: njk,html,md
 ---
 
-- [Site Version History](/log/versions)
-
 ### Projects Changelog
 
-<style>
-    .cl-date {
-        font-size: 0.8em;
-    }
-
-    .cl-tag {
-        border: 1px solid var(--offwhite);
-        font-size: 0.8em;
-        border-radius: 3px;
-        display: inline-block;
-        width: 70px;
-        text-align: center;
-        margin-right: 5px;
-    }
-</style>
-
-<select id="cl-filter">
-    <option value="all">All</option>
-    <option value="project">Project</option>
-    <option value="feature">Feature</option>
-    <option value="fix">Fix</option>
-    <option value="retired">Retired</option>
-</select>
-
-<div class="cl">
-{%- for cl in changelog %}<p data-type="{{ cl.type }}">
-    <span class="cl-tag cl-{{ cl.type }}">{{ cl.type }}</span> <a href="{{ cl.link }}">{{ cl.title }}</a>{% if cl.description %}: {{ cl.description | mdToHtmlInline | safe }}{% endif %} {{ cl.date }}
-</p>{% endfor%}
-</div>
-
-<script>
-    (function() {
-        document.getElementById('cl-filter').addEventListener('change', (e) => {
-            const type = e.currentTarget.value
-            Array.from(document.querySelectorAll('[data-type]')).forEach(t => {
-                if (type === 'all') {
-                    t.style.display = 'block'
-                } else if (t.dataset.type === type) {
-                    t.style.display = 'block'
-                } else {
-                    t.style.display = 'none'
-                }
-            })
-        })     
-    })()
-</script>
+<span class="changelog">
+    {%- for cl in collections.changelog %}
+        {% include 'changelog_list_item.njk' %}
+    {% endfor %}
+</span>

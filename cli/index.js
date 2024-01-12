@@ -122,7 +122,6 @@ date: ${postDate}
 ///// Create Changelog //////////
 /////////////////////////////////
 const createChangelog = async () => {
-    let changelog = fs.readFileSync(`${__siteroot}/src/_data/changelog.md`, 'utf8')
     let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/site/projects.json`, 'utf8'))
     existingProjects = [
         {
@@ -184,7 +183,7 @@ const createChangelog = async () => {
     let content = null
     if (!fs.existsSync(clFile))
     {
-        const title = `Project Changelog ${date}`
+        const title = `Changelog ${date}`
         const permalink = `/log/${date}/index.html`
         const entryDate = moment(date).toISOString()
 

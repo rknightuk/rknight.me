@@ -68,6 +68,14 @@ module.exports = {
     links: (collectionApi) => {
         return collectionApi.getFilteredByGlob("src/links/**/*.md").reverse()
     },
+    changelog: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/changelog/**/*.md").reverse()
+    },
+    changelogForFeed: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/changelog/**/*.md").reverse().filter(p => {
+            return moment(p.date).isBefore(moment().startOf('day'))
+        })
+    },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().reduce((tags, p) => {
             if (p.data.tags && Array.isArray(p.data.tags))

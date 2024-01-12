@@ -19,6 +19,7 @@
 @import "_design.css";
 @import "_blogrollcard.css";
 @import "_highlight.css";
+@import "_changelog.css";
 
 .scale-left {
     display: none;
