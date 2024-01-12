@@ -5,6 +5,7 @@ import chalk from 'chalk'
 import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
+import moment from 'moment'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename)
@@ -122,7 +123,7 @@ date: ${postDate}
 /////////////////////////////////
 const createChangelog = async () => {
     let changelog = fs.readFileSync(`${__siteroot}/src/_data/changelog.md`, 'utf8')
-    let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/projects.json`, 'utf8'))
+    let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/site/projects.json`, 'utf8'))
     existingProjects = [
         {
             title: 'rknight.me',
@@ -176,10 +177,30 @@ const createChangelog = async () => {
     const title = existingProjects[project].title
     const link = existingProjects[project].link
 
+    const output = `- [${title}](${link}) [${type}] ${message || ''}`
+    const year = new Date().getFullYear()
+    const clFile = `${__siteroot}/src/changelog/${year}/${date}.md`
 
-    changelog = `[${date}] [${title}](${link}) [${type}] ${message || ''}\n${changelog}`
+    let content = null
+    if (!fs.existsSync(clFile))
+    {
+        const title = `Project Changelog ${date}`
+        const permalink = `/log/${date}/index.html`
+        const entryDate = moment(date).toISOString()
 
-    fs.writeFileSync(`${__siteroot}/src/_data/changelog.md`, changelog, { flag: "w" })
+        content = `---
+title: ${title}
+permalink: ${permalink}
+date: ${entryDate}
+---
+
+${output}`
+    } else {
+        content = fs.readFileSync(clFile, 'utf8')
+        content = `${content}\n${output}`
+    }
+
+    fs.writeFileSync(clFile, content, { flag: "w" })
 }
 
 program

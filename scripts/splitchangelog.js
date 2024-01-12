@@ -14,21 +14,12 @@ const run = async () => {
 
         if (!data[date])
         {
-            data[date] = {}
+            data[date] = []
         }
 
-        if (!data[date][title])
-        {
-            data[date][title] = {
-                title: title,
-                link: link,
-                changes: [],
-            }
-        }
-
-        let value = description ? description : ''
-        value = value ? `[${type}] ${value}` : `[${type}] ${title}`
-        data[date][title].changes.push(value)
+        data[date].push(
+            `[${title}](${link}) [${type}] ${description || ''}`
+        )
     })
 
     Object.keys(data).forEach(date => {
@@ -41,11 +32,10 @@ title: ${title}
 permalink: ${permalink}
 date: ${entryDate}
 ---
+
 `
-        Object.keys(data[date]).forEach(project => {
-            content += `\n- [${project}](${data[date][project].link}) ${data[date][project].changes.length === 0 ? '(new project)\n' : '\n'}`
-            content += data[date][project].changes.filter(c => c).map(c => `    - ${c}`).join('\n')
-        })
+
+        content += data[date].map(c => `- ${c}`).join('\n')
 
         fs.writeFileSync(`./demochangelog/${moment(date).format('YYYY')}/${date}.md`, content)
     })

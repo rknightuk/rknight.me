@@ -10,7 +10,7 @@ tags:
 project: https://defaults.rknight.me
 ---
 
-Inspired by [Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemisphericviews.com/097) and this [post by Gabz](https://gabz.blog/2023/11/03/my-defaults.html) herein lies all the apps I use in the various categories as written by Andrew:
+Inspired by [Hemispheric Views 097 - Duel of the Defaults!](https://listen.hemisphericviews.com/097) and this [post by Gabz](https://gabz.blog/2023/11/my-defaults) herein lies all the apps I use in the various categories as written by Andrew:
 
 - **📨 Mail Client**
     - Mail.app 
