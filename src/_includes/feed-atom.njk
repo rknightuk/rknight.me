@@ -18,7 +18,7 @@
     <updated>{{ post.date | rssDate }}</updated>
     <id>https://rknight.me{{ post | getRssId }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</content>
-    <summary>{% if post.data.excerpt %}{{ post.data.excerpt | safe }}{% else %}{{ post.data.title }} by {{ people[post.data.author].name }}{% endif %}</summary>
+    <summary>{% if post.data.excerpt %}{{ post.data.excerpt | safe }}{% elif externalLink %}{{ post.data.title }} by {{ people[post.data.author].name }}{% else %}{{ post.data.title }}{% endif %}</summary>
     <author>
       <name>Robb Knight</name>
     </author>
