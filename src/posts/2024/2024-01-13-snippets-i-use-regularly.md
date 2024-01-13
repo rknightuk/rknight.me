@@ -19,6 +19,9 @@ Someone recently asked me how I was able to respond to a message so quickly to a
 
 These all run through [Alfred](https://www.alfredapp.com) which is my favourite Mac app by a longshot but there are other options that do similar things like [TextExpander](https://textexpander.com/), [Espanso](https://espanso.org/), and [Typinator](https://ergonis.com/typinator). I always prefix my snippets with `;` so I don't accidentally trigger them during normal typing[^1].
 
+Exported snippets from Alfred are in an `.alfredsnippets` file which is a wrapper around a sqlite database. Instead of copy and pasting these I used the [Snippet Transformer](https://alfred.app/workflows/alfredapp/snippet-transformer/) workflow to convert them to CSV for easier copying.
+
+
 #### General Snippets
 
 These are mostly used when write code, or git commits. The date ones I probably used 20 times a day.
