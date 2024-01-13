@@ -133,7 +133,7 @@ These are ones that I really don't _need_ but it's nice to use the trademark or 
         </tr>
         <tr>
             <td><code>;kall</code></td>
-            <td>⌘⇧⌥⌃</td>
+            <td>⌃⌥⇧⌘</td>
             <td></td>
         </tr>
         <tr>
