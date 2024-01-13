@@ -160,7 +160,7 @@ These are ones that I really don't _need_ but it's nice to use the trademark or 
 </table>
 </div>
 
-\* `kbd` is the rarely-seen [keyboard input element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd). Example which I defintiely didn't just add to my css for this blog post: <kbd>⌘</kbd>
+\* `kbd` is the rarely-seen [keyboard input element](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/kbd). Example which I definitely didn't just add to my css for this blog post: <kbd>⌘</kbd>
 
 
 [^1]: It still happens on occasion
