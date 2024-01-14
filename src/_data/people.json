@@ -35,4 +35,9 @@
         "mastodon": "https://mastodon.me.uk/@gilest",
         "feed": "https://gilest.org/feed/index.xml"
     }
+    "aftermath/gita-jackson": {
+        "name": "Gita Jackson @ Aftermath",
+        "web": "https://aftermath.site",
+        "feed": "https://aftermath.site/rss"
+  }
 }
