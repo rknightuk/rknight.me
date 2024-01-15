@@ -11,4 +11,4 @@
 
 {{ link.content | safe }}
 
-<p class="post-date">&infin; <a href="{{ link.data.permalink }}">{{ link.data.date | postDate }}</a></p>
+<p class="post-date">&infin; <a href="{{ link.data.permalink | stripIndex }}">{{ link.data.date | postDate }}</a></p>
