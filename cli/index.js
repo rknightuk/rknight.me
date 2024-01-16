@@ -1,6 +1,7 @@
 import { program } from 'commander'
 import select from '@inquirer/select'
 import { input } from '@inquirer/prompts'
+import checkbox from '@inquirer/checkbox'
 import chalk from 'chalk'
 import fs from 'fs'
 import path from 'path'
@@ -78,6 +79,65 @@ const createPost = async () => {
     const year = new Date().getFullYear()
     const postDate = new Date().toISOString()
 
+    const tags = await checkbox({
+        message: 'Select a package manager',
+        choices: [
+            { name: 'ActivityPub', value: 'ActivityPub' },
+            { name: 'AdventOfCode', value: 'AdventOfCode' },
+            { name: 'AI', value: 'AI' },
+            { name: 'Alfred', value: 'Alfred' },
+            { name: 'Apps', value: 'Apps' },
+            { name: 'BabyKnight', value: 'BabyKnight' },
+            { name: 'Development', value: 'Development' },
+            { name: 'DIY', value: 'DIY' },
+            { name: 'Eleventy', value: 'Eleventy' },
+            { name: 'Food', value: 'Food' },
+            { name: 'Games', value: 'Games' },
+            { name: 'Hackathon', value: 'Hackathon' },
+            { name: 'Homescreen', value: 'Homescreen' },
+            { name: 'Lego', value: 'Lego' },
+            { name: 'Letters', value: 'Letters' },
+            { name: 'MacOS', value: 'MacOS' },
+            { name: 'Mastodon', value: 'Mastodon' },
+            { name: 'Movies', value: 'Movies' },
+            { name: 'Music', value: 'Music' },
+            { name: 'OpenWeb', value: 'OpenWeb' },
+            { name: 'Personal', value: 'Personal' },
+            { name: 'Podcasting', value: 'Podcasting' },
+            { name: 'Recipes', value: 'Recipes' },
+            { name: 'Shortcuts', value: 'Shortcuts' },
+            { name: 'SocialMedia', value: 'SocialMedia' },
+            { name: 'StJude', value: 'StJude' },
+            { name: 'TV', value: 'TV' },
+            { name: 'YearInReview', value: 'YearInReview' },
+        ],
+    })
+
+    let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/site/projects.json`, 'utf8'))
+    existingProjects = [
+        {
+                title: 'none',
+                value: 'none',
+                description: 'dsjbf',
+        },
+        ...existingProjects.current, 
+        ...existingProjects.podcasts, 
+        ...existingProjects.profile, 
+        ...existingProjects.stjude
+    ]
+
+    const project = await select({
+        message: 'Link to Project?',
+        choices: existingProjects.map((project, i) => {
+            return {
+                name: project.title,
+                value: i,
+                description: project.description,
+            }
+        }),
+        pageSize: 15,
+    })
+
     const meta = `---
 title: "${title}"
 permalink: /blog/${slug}/index.html
@@ -85,6 +145,7 @@ date: ${postDate}
 excerpt: ""
 layout: post
 tags:
+${tags.map(tag => `    - ${tag}`).join('\n')}${project != 0 ? `\nproject: ${existingProjects[project].link}` : ''}
 ---`
 
     fs.writeFileSync(`${__siteroot}/src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
