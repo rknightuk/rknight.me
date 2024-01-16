@@ -44,10 +44,15 @@ let linkContent =
   window.document.querySelector('p')?.textContent.trim();
 let linkUrl = window.location.href;
 
-const domain = window.location.host
 const web = window.location.origin
-const authorName = document.querySelector('.p-name')?.innerText
-const mastodonAccounts = Array.from(document.querySelectorAll('[rel="me"]')).filter(e => e.href.includes('@')).map(e => e.href).join(', ')
+const link = window.location.href
+
+let authorName = document.querySelector('.p-name')?.textContent
+if (!authorName) authorName = document.querySelector('[rel="author"]')?.textContent
+
+const mastodonAccounts = Array.from(document.querySelectorAll('[rel="me"]')).filter(e => {
+        return e.href.includes('@') && !e.href.includes('twitter.com') && !e.href.includes('threads.net') && !e.href.includes('tiktok.com')
+    }).map(e => e.href).join(', ')
 const FEED_SELECTORS = [
   'link[type="application/rss+xml"]',
   'link[type="application/atom+xml"]',
@@ -59,8 +64,7 @@ const FEED_SELECTORS = [
 /* *********************************************************************************/
 let title = window.prompt('Title of the link?', pageTitle);
 
-const run = (authors) => {
-  const needsNewAuthor = !authors[domain]
+const run = () => {
   let feedUrl = null
   FEED_SELECTORS.forEach((selector) => {
     if (feedUrl) return
@@ -74,51 +78,36 @@ if (title !== null) {
   let slug = window.prompt('Slug of the link?', slugify(title));
 
   if (slug !== null) {
-    const dateString = new Date().toISOString()
+    const postDate = new Date().toISOString()
     const year = new Date().getFullYear()
 
     let value = `---
 title: "${title}"
 permalink: /links/${slug}/index.html
-link: ${linkUrl}
-date: ${dateString}
-author: ${domain}
+link: ${link}
+date: ${postDate}
+author: 
+  name: ${authorName ? authorName : ''}
+  web: ${web}
+  feed: ${feedUrl}
+  mastodon: ${mastodonAccounts}
 ---
 \n${linkContent ? `> ${linkContent.replaceAll('\n', '\n> ')}` : ''}
 `;
 
-  if (needsNewAuthor) {
-    window.prompt('New author needed', JSON.stringify({
-      [domain]: {
-        name: authorName,
-        web: web,
-        mastodon: mastodonAccounts,
-        feed: feedUrl,
-      }
-    }, null, 2))
-  }
-
     /* **********************************************************************************
     /* Build the URL
     /* *********************************************************************************/
-    const pathDate = dateString.slice(0, 10);
+    const pathDate = postDate.slice(0, 10);
     const filename = `src/links/${year}/${pathDate}-${slug}.md`;
 
     let newFileUrl = `https://github.com/rknightuk/rknight.me/new/master/?filename=${filename}&value=${encodeURIComponent(
       value
     )}&message=${encodeURIComponent(`New link: ${title}`)}`;
 
-    if (needsNewAuthor) {
-      window.open('https://github.com/rknightuk/rknight.me/edit/master/src/_data/people.json');
-    }
-
     window.open(newFileUrl);
   }
   }
 }
 
-fetch('https://raw.githubusercontent.com/rknightuk/rknight.me/master/src/_data/people.json')
-  .then(res => res.json())
-  .then(data => {
-    run(data)
-  })
+run()
