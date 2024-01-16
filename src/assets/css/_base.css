@@ -85,8 +85,11 @@ code {
     margin: 0;
     color: var(--primary-subtle);
     background: var(--code-black);
-    padding: 0.2em;
     border-radius: 3px;
+}
+
+p code {
+    padding: 0.2em;
 }
 
 kbd {
