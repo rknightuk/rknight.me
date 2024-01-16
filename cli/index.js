@@ -6,6 +6,7 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import moment from 'moment'
+import { parseHTML } from 'linkedom'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename)
@@ -95,12 +96,37 @@ tags:
 const createLink = async () => {
     const link = await input({ message: 'Link' })
 
-    console.log('Fetching link title...')
+    console.log('Fetching link data...')
 
-    let page = await fetch(link)
-    page = await page.text()
+    const domain = new URL('https://www.fromjason.xyz/p/notebook/where-have-all-the-websites-gone/').origin
+    const page = await fetch(link)
+    const html = await page.text()
 
-    let title = page.match(/<title[^>]*>([^<]+)<\/title>/)[1]
+    const { document } = parseHTML(html)
+    let title = document.querySelector('title').textContent
+
+    let authorName = document.querySelector('.p-name')?.textContent
+    if (!authorName) authorName = document.querySelector('[rel="author"]')?.textContent
+    
+    const mastodonAccounts = Array.from(document.querySelectorAll('[rel="me"]')).filter(e => {
+        return e.href.includes('@') && !e.href.includes('twitter.com') && !e.href.includes('threads.net') && !e.href.includes('tiktok.com')
+    }).map(e => e.href).join(', ')
+
+    const FEED_SELECTORS = [
+        'link[type="application/rss+xml"]',
+        'link[type="application/atom+xml"]',
+        'link[type="application/json"]',
+    ]
+
+    let feedUrl = null
+    FEED_SELECTORS.forEach((selector) => {
+    if (feedUrl) return
+        const feedLink = document.querySelector(selector)
+        if (feedLink) feedUrl = feedLink.href
+    })
+
+    if (!feedUrl.startsWith('http')) feedUrl = `${domain}${feedUrl}`
+
     title = await input({ message: 'Link title', default: title })
 
     const slug = await input({ message: 'Post slug', default: slugify(title) })
@@ -113,6 +139,11 @@ title: "${title}"
 permalink: /links/${slug}/index.html
 link: ${link}
 date: ${postDate}
+author: 
+  name: ${authorName ? authorName : ''}
+  web: ${domain}
+  feed: ${feedUrl}
+  mastodon: ${mastodonAccounts}
 ---`
 
     fs.writeFileSync(`${__siteroot}/src/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })

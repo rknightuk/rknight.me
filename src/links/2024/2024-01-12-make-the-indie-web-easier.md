@@ -3,7 +3,11 @@ title: "Make the indie web easier"
 permalink: /links/make-the-indie-web-easier/index.html
 link: https://gilest.org/indie-easy.html
 date: 2024-01-12T21:34:55.632Z
-author: gilest.org
+author:
+  name: Giles Turnbull
+  web: https://gilest.org
+  feed: https://gilest.org/feed/index.xml
+  mastodon: https://mastodon.me.uk/@gilest
 ---
 
 > ...we need more tools for it. We need simpler tools for it. And we need to make installing and using them trivially simple.

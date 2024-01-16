@@ -24,13 +24,13 @@
         "external_url": "{{ post.data.link }}",
         "authors": [
             {
-                "name": "{{ people[post.data.author].name }}",
-                "url": "{{ people[post.data.author].web }}"
+                "name": "{{ post.data.author.name }}",
+                "url": "{{ post.data.author.web }}"
             }
         ],
         "_knightlinks": {
             "about": "https://rknight.me/links",
-            "posse_text": {{ { "title": post.data.title, "author": people[post.data.author], "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }}
+            "posse_text": {{ { "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }}
         },{% endif %}
         "date_published": "{{ post.data.date | dateForFeed }}"
     }{% if not loop.last %},{% else %}{%- endif -%}
