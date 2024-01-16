@@ -9,5 +9,4 @@ author:
   feed: https://blog.webb.page/feed/atom
 ---
 
-> If you're technical, write guides for normies [...] If you're entrepreneurial, build platforms that make it super easy for anyone to
-> jump into the next stage of the internet.
+> If you're technical, write guides for normies [...] If you're entrepreneurial, build platforms that make it super easy for anyone to jump into the next stage of the internet.
