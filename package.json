@@ -40,7 +40,7 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/eleventy --serve --quiet",
-    "build": "./node_modules/.bin/eleventy",
+    "build": "./node_modules/.bin/eleventy --quiet",
     "bookmarklets:link": "bookmarklet --demo src/assets/bookmarklets/new-link.js tmp/new-link.html",
     "bookmarklets:post": "bookmarklet --demo src/assets/bookmarklets/new-post.js tmp/new-post.html",
     "bookmarklets": "npm-run-all --parallel bookmarklets:*; node scripts/bookmarklets.js",
