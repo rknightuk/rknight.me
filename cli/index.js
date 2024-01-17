@@ -80,7 +80,7 @@ const createPost = async () => {
     const postDate = new Date().toISOString()
 
     const tags = await checkbox({
-        message: 'Select a package manager',
+        message: 'Tags',
         choices: [
             { name: 'ActivityPub', value: 'ActivityPub' },
             { name: 'AdventOfCode', value: 'AdventOfCode' },
@@ -138,15 +138,23 @@ const createPost = async () => {
         pageSize: 15,
     })
 
-    const meta = `---
+    let meta = `---
 title: "${title}"
 permalink: /blog/${slug}/index.html
 date: ${postDate}
 excerpt: ""
-layout: post
-tags:
-${tags.map(tag => `    - ${tag}`).join('\n')}${project != 0 ? `\nproject: ${existingProjects[project].link}` : ''}
----`
+layout: post`
+
+    if (tags.length > 0)
+    {
+        meta = `${meta}\ntags:\n${tags.map(tag => `    - ${tag}`).join('\n')}`
+    }
+
+    if (project !== 0) {
+        meta = `${meta}\nproject: ${existingProjects[project].link}`
+    }
+
+    meta = `${meta}\n---`
 
     fs.writeFileSync(`${__siteroot}/src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
 }
