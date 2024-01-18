@@ -12,4 +12,6 @@ author:
 
 This is ridiculouosly cool and now all I can think about is getting my hands on that quote data.
 
-Update: Literary Clock is a web version https://www.literaryclock.com (thanks [Ben](https://bendaubney.com)).
+Update: Literary Clock is a web version https://www.literaryclock.com 
+
+Update 2: There is another [web version here](https://literature-clock.jenevoldsen.com/) along with [the source code](https://github.com/JohannesNE/literature-clock) and [there are instructions to make one from an old Kindle](https://www.instructables.com/Literary-Clock-Made-From-E-reader/) which I really want to do now. Thanks to [Fran](https://iamfran.com) and [Ben](https://bendaubney.com) for those links.
