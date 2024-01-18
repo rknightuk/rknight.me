@@ -7,7 +7,9 @@ import fs from 'fs'
 import path from 'path'
 import { fileURLToPath } from 'url'
 import moment from 'moment'
-import { parseHTML } from 'linkedom'
+import utils from './utils.js'
+import https from 'https'
+import sharp from 'sharp'
 
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename)
@@ -52,6 +54,11 @@ const runWizard = async () => {
                 value: 'changelog',
                 description: 'Create a new changelog entry',
             },
+            {
+                name: 'Add a new project',
+                value: 'project',
+                description: 'Add a new project',
+            },
         ],
     })
 
@@ -64,6 +71,9 @@ const runWizard = async () => {
             break
         case 'changelog':
             createChangelog()
+            break
+        case 'project':
+            addProject()
             break
     }
 }
@@ -113,29 +123,10 @@ const createPost = async () => {
         ],
     })
 
-    let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/site/projects.json`, 'utf8'))
-    existingProjects = [
-        {
-                title: 'none',
-                value: 'none',
-                description: 'dsjbf',
-        },
-        ...existingProjects.current, 
-        ...existingProjects.podcasts, 
-        ...existingProjects.profile, 
-        ...existingProjects.stjude
-    ]
-
-    const project = await select({
-        message: 'Link to Project?',
-        choices: existingProjects.map((project, i) => {
-            return {
-                name: project.title,
-                value: i,
-                description: project.description,
-            }
-        }),
-        pageSize: 15,
+    const project = await utils.selectProject(__siteroot, {
+        title: 'none',
+        value: 'none',
+        description: 'none',
     })
 
     let meta = `---
@@ -150,8 +141,8 @@ layout: post`
         meta = `${meta}\ntags:\n${tags.map(tag => `    - ${tag}`).join('\n')}`
     }
 
-    if (project !== 0) {
-        meta = `${meta}\nproject: ${existingProjects[project].link}`
+    if (project.value !== 'none') {
+        meta = `${meta}\nproject: ${project.link}`
     }
 
     meta = `${meta}\n---`
@@ -167,36 +158,13 @@ const createLink = async () => {
 
     console.log('Fetching link data...')
 
-    const domain = new URL('https://www.fromjason.xyz/p/notebook/where-have-all-the-websites-gone/').origin
-    const page = await fetch(link)
-    const html = await page.text()
+    const domain = new URL(link).origin
 
-    const { document } = parseHTML(html)
-    let title = document.querySelector('title').textContent
+    const {
+        title: foundTitle, author, feed, mastodon
+    } = await utils.fetchPageData(link, ['title', 'author', 'feed', 'mastodon'])
 
-    let authorName = document.querySelector('.p-name')?.textContent
-    if (!authorName) authorName = document.querySelector('[rel="author"]')?.textContent
-    
-    const mastodonAccounts = Array.from(document.querySelectorAll('[rel="me"]')).filter(e => {
-        return e.href.includes('@') && !e.href.includes('twitter.com') && !e.href.includes('threads.net') && !e.href.includes('tiktok.com')
-    }).map(e => e.href).join(', ')
-
-    const FEED_SELECTORS = [
-        'link[type="application/rss+xml"]',
-        'link[type="application/atom+xml"]',
-        'link[type="application/json"]',
-    ]
-
-    let feedUrl = null
-    FEED_SELECTORS.forEach((selector) => {
-    if (feedUrl) return
-        const feedLink = document.querySelector(selector)
-        if (feedLink) feedUrl = feedLink.href
-    })
-
-    if (!feedUrl.startsWith('http')) feedUrl = `${domain}${feedUrl}`
-
-    title = await input({ message: 'Link title', default: title })
+    const title = await input({ message: 'Link title', default: foundTitle })
 
     const slug = await input({ message: 'Post slug', default: slugify(title) })
     const slugDate = new Date().toISOString().split('T')[0]
@@ -209,10 +177,10 @@ permalink: /links/${slug}/index.html
 link: ${link}
 date: ${postDate}
 author: 
-  name: ${authorName ? authorName : ''}
+  name: ${author ? author : ''}
   web: ${domain}
-  feed: ${feedUrl}
-  mastodon: ${mastodonAccounts}
+  feed: ${feed}
+  mastodon: ${mastodon.join(', ')}
 ---`
 
     fs.writeFileSync(`${__siteroot}/src/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
@@ -222,30 +190,12 @@ author:
 ///// Create Changelog //////////
 /////////////////////////////////
 const createChangelog = async () => {
-    let existingProjects = JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/site/projects.json`, 'utf8'))
-    existingProjects = [
-        {
-            title: 'rknight.me',
-            link: 'https://rknight.me',
-        },
-        ...existingProjects.current, 
-        ...existingProjects.podcasts, 
-        ...existingProjects.profile, 
-        ...existingProjects.stjude
-    ]
+    const project = await utils.selectProject(__siteroot, {
+        title: 'rknight.me',
+        link: 'https://rknight.me',
+    })
 
     const date = new Date().toISOString().split('T')[0]
-    const project = await select({
-        message: 'Select Project',
-        choices: existingProjects.map((project, i) => {
-            return {
-                name: project.title,
-                value: i,
-                description: project.description,
-            }
-        }),
-        pageSize: 15,
-    })
     const type = await select({
         message: 'Select Type',
         choices: [
@@ -273,8 +223,7 @@ const createChangelog = async () => {
     })
     const message = await input({ message: 'Changelog Message' })
 
-    const title = existingProjects[project].title
-    const link = existingProjects[project].link
+    const { title, link } = project
 
     const output = `- [${title}](${link}) [${type}] ${message || ''}`
     const year = new Date().getFullYear()
@@ -302,6 +251,43 @@ ${output}`
     fs.writeFileSync(clFile, content, { flag: "w" })
 }
 
+/////////////////////////////////
+////////// Add project //////////
+/////////////////////////////////
+const addProject = async () => {
+    const projectUrl = await input({ message: 'Link' })
+    const imageName = await input({ message: 'Image Name' })
+    let projects = utils.getProjectsData(__siteroot)
+
+    let newProject = await utils.fetchPageData(projectUrl, ['title', 'image', 'description'])
+    const imageUrl = newProject.image
+    
+    newProject.link = projectUrl
+    newProject.image = imageName
+
+    https.get(imageUrl, (res) => {
+        const path = `${__siteroot}/src/assets/projects/${imageName}.jpg`
+        const tempPath = `${__siteroot}/src/assets/projects/${imageName}-tmp.jpg`
+        const filePath = fs.createWriteStream(tempPath)
+        res.pipe(filePath)
+        filePath.on('finish',() => {
+            filePath.close()
+            sharp(tempPath)
+                .rotate()
+                .resize(600)
+                .toFile(path)
+                .then(() => {
+                    fs.unlinkSync(tempPath)
+                    projects.featured.unshift(newProject)
+                    projects.featured.pop()
+                    projects.current.splice(1, 0, newProject)
+
+                    fs.writeFileSync(`${__siteroot}/src/_data/site/projects.json`, JSON.stringify(projects, null, 2), { flag: "w" })
+                })
+        })
+    })
+}
+
 program
     .command('run')
     .description('🧙‍♂️ run the site wizard')
@@ -321,5 +307,10 @@ program
     .command('changelog')
     .description('🛠️ Create a new changelog entry')
     .action(() => createChangelog())
+
+program
+    .command('project')
+    .description('🛠️ Add a new project')
+    .action(() => addProject())
 
 program.parse()
