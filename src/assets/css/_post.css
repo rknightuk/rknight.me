@@ -69,3 +69,35 @@
     font-size: 0.9em;
     margin: 0;
 }
+
+.footer-social {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    grid-gap: 10px;
+    margin-bottom: 20px;
+    font-family: var(--cr);
+}
+
+@media (max-width: 500px) {
+    .footer-social {
+        flex-direction: column;
+    }
+}
+
+.footer-social a {
+    text-decoration: none;
+    color: var(--offwhite);
+    display: flex;
+    align-items: center;
+}
+
+.footer-social a:hover {
+    color: var(--primary);
+}
+
+.footer-social svg {
+    width: 20px;
+    height: 20px;
+    margin-right: 5px;
+}

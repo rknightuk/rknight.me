@@ -6,10 +6,6 @@
     margin: 10px 0;
 }
 
-.webmentions h4:first-child {
-    margin: 10px 0 0 0;
-}
-
 .webmentions--likeboost {
     display: flex;
     flex-wrap: wrap;

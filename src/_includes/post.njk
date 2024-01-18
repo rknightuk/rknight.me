@@ -64,16 +64,16 @@ layout: base
 	{{ content | safe }}
 </span>
 
-<footer class="callout">
-    <p><a href="https://social.lol/@robb"><svg class="icon">
+<footer>
+    <div class="callout">
+        <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
+    </div>
+
+    <p class="footer-social"><a href="https://social.lol/@robb"><svg class="icon mastodon-icon">
         <use xlink:href="#mastodon"></use>
-    </svg>Follow me on Mastodon</a> or <a href="/subscribe"><svg class="icon">
+    </svg>Follow me on Mastodon</a> <a href="/subscribe"><svg class="icon subscribe-icon">
         <use xlink:href="#rss"></use>
     </svg>Subscribe with RSS</a></p>
-
-    <hr>
-
-    <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
 </footer>
 
 {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
