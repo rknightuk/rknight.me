@@ -12,14 +12,24 @@ const _getProjectData = (__siteroot) => {
     return JSON.parse(fs.readFileSync(`${__siteroot}/src/_data/site/projects.json`, 'utf8'))        
 }
 
+const _fetchPageHtml = async (link) => {
+    const domain = new URL(link).origin
+    const page = await fetch(link)
+    const html = await page.text()
+
+    const { document } = parseHTML(html)
+
+    return document
+}
+
 export default {
+    fetchPageHtml: async (link) => {
+        return await _fetchPageHtml(link)
+    },
     fetchPageData: async (link, options) => {
         const data = {}
-        const domain = new URL(link).origin
-        const page = await fetch(link)
-        const html = await page.text()
-
-        const { document } = parseHTML(html)
+        const document = await _fetchPageHtml(link)
+        
         if (options.includes('title')) data.title = document.querySelector('title').textContent
         if (options.includes('description')) {
             let description = document.querySelector('meta[name="description"]')?.getAttribute('content')
