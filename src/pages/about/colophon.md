@@ -1,5 +1,6 @@
 ---
 title: Colophon
+subtitle: "_a statement at the end of a book, typically with a printer's emblem, giving information about its authorship and printing_"
 permalink: /about/colophon/index.html
 layout: base
 ---
