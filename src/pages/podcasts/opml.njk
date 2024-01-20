@@ -1,0 +1,16 @@
+---
+permalink: /podcasts/roll/opml.xml
+eleventyExcludeFromCollections: true
+---
+<?xml version="1.0" encoding="UTF-8"?>
+<opml version="1.0">
+    <head>
+        <title>RSS Feeds for all Robb Knight's Podroll</title>
+        <dateCreated>Tue, 7 Nov 2023 16:55:40 +0000</dateCreated>
+    </head>
+    <body>
+        {%- for pod in podroll -%}
+            <outline text="{{ pod.name }}" title="{{ pod.name }}" type="rss" xmlUrl="{{ pod.feed }}" htmlUrl="{{ pod.url }}"/>
+        {% endfor %}
+    </body>
+</opml>
