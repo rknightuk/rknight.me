@@ -10,9 +10,9 @@ wide: true
     {%- for blog in blogroll -%}
         <div class="blogroll--blog">
             <div class="blogroll--data">
-                <h3><a href="{{ blog.url }}">{{ blog.name }}</a></h3>
-                <p class="blog--subtitle"><em>{{ blog.url }}</em></p>
-                <p>Latest post: <a href="{{ blog.post.link }}">{{ blog.post.title }}</a></p>
+                <h3>{{ blog.name }}</a></h3>
+                <p class="blog--subtitle"><a href="{{ blog.url }}">Website</a> • <a href="{{ blog.feed }}">RSS</a></p>
+                <p>{{ blog.description }}</p>
             </div>
         </div>
     {%- endfor -%}
