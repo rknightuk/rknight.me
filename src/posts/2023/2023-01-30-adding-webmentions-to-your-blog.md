@@ -29,7 +29,7 @@ Sounds simple enough. It's a link (or a comment, or reply, or like) to an articl
 
 This bit has confused me for months (I had a note about this dated November last year). Admittedly I didn't look too far into it but pretty much every article about webmentions will link to two sites: [webmention.io](https://webmention.io/) and [Bridgy](https://brid.gy/).
 
-#### Webmention.io and IndieLogin
+#### Webmention dot io and IndieLogin
 
 Webmention.io is:
 
