@@ -68,10 +68,10 @@ a:hover { color: var(--offwhite); }
 Another change I wanted to make was to only show the most recent five posts, rather than all of them. A bit of digging around and I found the answer to limit `xsl:for-each` to the first five:
 
 ```xml
-// atom
+<!-- atom -->
 <xsl:for-each select="/atom:feed/atom:entry[position() &lt; 6]">
 
-// rss
+<!-- rss -->
 <xsl:for-each select="/rss/channel/item[position() &lt; 6]">
 ```
 
