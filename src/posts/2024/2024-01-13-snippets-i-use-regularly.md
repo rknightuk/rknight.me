@@ -22,7 +22,7 @@ These all run through [Alfred](https://www.alfredapp.com) which is my favourite 
 Exported snippets from Alfred are in an `.alfredsnippets` file which is a wrapper around a sqlite database. Instead of copy and pasting these I used the [Snippet Transformer](https://alfred.app/workflows/alfredapp/snippet-transformer/) workflow to convert them to CSV for easier copying.
 
 
-#### General Snippets
+### General Snippets
 
 These are mostly used when write code, or git commits. The date ones I probably used 20 times a day.
 
@@ -75,7 +75,7 @@ These are mostly used when write code, or git commits. The date ones I probably 
 </table>
 </div>
 
-#### Symbols
+### Symbols
 
 These are ones that I really don't _need_ but it's nice to use the trademark or multiplication symbols when ~~shitposting on Mastodon~~ having very serious conversations with my friends. Quality Jokes™: a robb × mastodon collab.
 
