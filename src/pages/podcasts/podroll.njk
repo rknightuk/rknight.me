@@ -8,10 +8,11 @@ wide: true
 
 <div class="blogroll blogroll--podcasts">
     {%- for pod in podroll -%}
-        <div class="blogroll--blog" style="background-image: url('{{ pod.show.image }}')">
+        <div class="blogroll--blog" style="background-image: url('/assets/pod/{{ pod.cover }}')">
             <div class="blogroll--data">
-                <h3><a href="{{ pod.show.link }}">{{ pod.show.title }}</a></h3>
-                <p>Latest episode: <a href="{{ pod.link }}">{{ pod.title }}</a></p>
+                <h3>{{ pod.name }}</a></h3>
+                <p class="blog--subtitle"><a href="{{ pod.url }}">Website</a> • <a href="{{ pod.feed }}">RSS</a></p>
+                <p>{{ pod.description }}</p>
             </div>
         </div>
     {%- endfor -%}
