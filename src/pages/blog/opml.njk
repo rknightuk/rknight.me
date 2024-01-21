@@ -6,7 +6,7 @@ eleventyExcludeFromCollections: true
 <opml version="1.0">
     <head>
         <title>RSS Feeds for all Robb Knight's Blogroll</title>
-        <dateCreated>Tue, 7 Nov 2023 16:55:40 +0000</dateCreated>
+        <dateCreated>{{ page.date | dateToRfc822 }}</dateCreated>
     </head>
     <body>
         {%- for site in blogroll -%}
