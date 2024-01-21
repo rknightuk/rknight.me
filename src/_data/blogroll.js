@@ -58,7 +58,7 @@ module.exports = () => {
             name: 'Jarrod Blundy',
             url: 'https://heydingus.net',
             feed: 'https://heydingus.net/feed.rss',
-            description: 'Jarrod posts primarily about Apple-related topics, has an perfect domain name, and a wonderful website.',
+            description: 'Jarrod posts primarily about Apple-related topics, has a perfect domain name, and a wonderful website.',
         },
         {
             name: 'Wade Urry',
