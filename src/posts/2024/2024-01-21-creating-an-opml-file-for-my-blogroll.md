@@ -76,7 +76,7 @@ eleventyExcludeFromCollections: true
 
 The `dateToRfc822` filter used in `dateCreated` is a filter provided by the [Eleventy RSS plugin](https://www.11ty.dev/docs/plugins/rss/). Then I loop through all of the sites in my blogroll and output an `outline` element for each one.
 
-Finally I added a link to the file on each of the roll pages. Note I include a `download` attribute so browsers will (hopefull) download the file rather than show the XML file directly:
+Finally I added a link to the file on each of the roll pages. Note I include a `download` attribute so browsers will (hopefully) download the file rather than show the XML file directly:
 
 ```html
 <a href="opml.xml" download="download">Download the OPML file</a>
