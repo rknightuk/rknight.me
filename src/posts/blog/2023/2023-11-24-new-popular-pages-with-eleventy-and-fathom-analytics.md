@@ -82,7 +82,7 @@ const fs = require('fs')
 
 // ...fetching fathom goes here
 
-const files = await glob('./src/posts/**/*.md')
+const files = await glob('./src/posts/blog/**/*.md')
 const titleMap = {}
 
 files.forEach(page => {

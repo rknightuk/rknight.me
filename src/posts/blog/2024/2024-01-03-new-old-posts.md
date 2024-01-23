@@ -33,7 +33,7 @@ I updated my `postsForFeed` collection in Eleventy so that posts older than 2013
 
 ```js
 postsForFeed: (collectionApi) => {
-    return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().filter(p => {
+    return collectionApi.getFilteredByGlob("src/posts/blog/**/*.md").reverse().filter(p => {
         return moment(p.date).isAfter(moment('2012-12-12'))
     })
 }

@@ -99,7 +99,7 @@ author:
     /* Build the URL
     /* *********************************************************************************/
     const pathDate = postDate.slice(0, 10);
-    const filename = `src/links/${year}/${pathDate}-${slug}.md`;
+    const filename = `src/posts/links/${year}/${pathDate}-${slug}.md`;
 
     let newFileUrl = `https://github.com/rknightuk/rknight.me/new/master/?filename=${filename}&value=${encodeURIComponent(
       value

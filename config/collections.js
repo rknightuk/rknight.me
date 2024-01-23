@@ -51,33 +51,33 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 
 module.exports = {
     posts: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").filter(p => {
+        return collectionApi.getFilteredByGlob("src/posts/blog/**/*.md").filter(p => {
             return !p.data.rssClub
         }).reverse()
     },
     firstPosts: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").filter(p => {
+        return collectionApi.getFilteredByGlob("src/posts/blog/**/*.md").filter(p => {
             return !p.data.rssClub
         }).reverse().slice(0, 5)
     },
     postsForFeed: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().filter(p => {
+        return collectionApi.getFilteredByGlob("src/posts/blog/**/*.md").reverse().filter(p => {
             return moment(p.date).isAfter(moment('2012-12-12'))
         })
     },
     links: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/links/**/*.md").reverse()
+        return collectionApi.getFilteredByGlob("src/posts/links/**/*.md").reverse()
     },
     changelog: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/changelog/**/*.md").reverse()
+        return collectionApi.getFilteredByGlob("src/posts/changelog/**/*.md").reverse()
     },
     changelogForFeed: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/changelog/**/*.md").reverse().filter(p => {
+        return collectionApi.getFilteredByGlob("src/posts/changelog/**/*.md").reverse().filter(p => {
             return moment(p.date).isBefore(moment().startOf('day'))
         })
     },
     blogTags: (collectionApi) => {
-        const allTags = collectionApi.getFilteredByGlob("src/posts/**/*.md").reverse().reduce((tags, p) => {
+        const allTags = collectionApi.getFilteredByGlob("src/posts/blog/**/*.md").reverse().reduce((tags, p) => {
             if (p.data.tags && Array.isArray(p.data.tags))
             {
                 return [...tags, ...p.data.tags]
@@ -89,7 +89,7 @@ module.exports = {
         return [...new Set(allTags)]
     },
     postsByProject: (collectionApi) => {
-        const posts = collectionApi.getFilteredByGlob("src/posts/**/*.md")
+        const posts = collectionApi.getFilteredByGlob("src/posts/blog/**/*.md")
 
         const postsByProject = posts.reduce((projects, post) => {
             if (!post.data.project) return projects
@@ -138,7 +138,7 @@ module.exports = {
         let yearPostDays = 0;
         let highPostCount = 0;
 
-        const posts = collectionApi.getFilteredByGlob("src/posts/**/*.md").sort((a, b) => {
+        const posts = collectionApi.getFilteredByGlob("src/posts/blog/**/*.md").sort((a, b) => {
             return a.date - b.date
         })
 

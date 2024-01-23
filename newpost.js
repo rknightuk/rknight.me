@@ -15,4 +15,4 @@ layout: post
 tags:
 ---`
 
-fs.writeFileSync(`./src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
+fs.writeFileSync(`./src/posts/blog/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })

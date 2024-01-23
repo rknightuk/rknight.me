@@ -156,7 +156,7 @@ layout: post`
 
     meta = `${meta}\n---`
 
-    fs.writeFileSync(`${__siteroot}/src/posts/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
+    fs.writeFileSync(`${__siteroot}/src/posts/blog/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
 }
 
 /////////////////////////////////
@@ -192,7 +192,7 @@ author:
   mastodon: ${mastodon.join(', ')}
 ---`
 
-    fs.writeFileSync(`${__siteroot}/src/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
+    fs.writeFileSync(`${__siteroot}/src/posts/links/${year}/${slugDate}-${slug}.md`, meta, { flag: "wx" })
 }
 
 /////////////////////////////////
@@ -236,7 +236,7 @@ const createChangelog = async () => {
 
     const output = `- [${title}](${link}) [${type}] ${message || ''}`
     const year = new Date().getFullYear()
-    const clFile = `${__siteroot}/src/changelog/${year}/${date}.md`
+    const clFile = `${__siteroot}/src/posts/changelog/${year}/${date}.md`
 
     let content = null
     if (!fs.existsSync(clFile))

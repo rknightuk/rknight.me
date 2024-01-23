@@ -17,7 +17,7 @@ module.exports = async function() {
         return await asset.getCachedValue()
     }
 
-    const files = await glob('./src/posts/**/*.md')
+    const files = await glob('./src/posts/blog/**/*.md')
 
     const titleMap = {}
 

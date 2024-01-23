@@ -3,7 +3,7 @@ const fs = require('fs')
 const moment = require('moment')
 
 const run = async () => {
-    const files = await glob('../src/posts/**/*.md')
+    const files = await glob('../src/posts/blog/**/*.md')
 
     files.forEach(page => {
         const path = page
