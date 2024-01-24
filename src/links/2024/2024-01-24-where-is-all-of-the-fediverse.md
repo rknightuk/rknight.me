@@ -9,4 +9,4 @@ author:
   feed: https://blog.benjojo.co.uk/rss.xml
 ---
 
-An interesting look at where all the instamces are being hosted as well as some insight into how to even work that out. 
+An interesting look at where all the instances are being hosted as well as some insight into how to even work that out. 
