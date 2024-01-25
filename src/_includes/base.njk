@@ -27,7 +27,9 @@
         <meta name="theme-color" content="#272523">
         <link rel='icon' type='image/x-icon' href='/assets/icons/favicon.ico'>
         
-        <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
+        {% if site.production %}
+            <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
+        {% endif %}
 
 		<meta property="og:title" content="{{ title }}">
         {% if ('/micro' in page.url) %}
@@ -42,7 +44,7 @@
         {% if ('/micro' in page.url) or homepage or layout == 'link' or layout == 'changelog' %}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
         {% else %}
-            {% if site.env.production %}
+            {% if site.production %}
                 <meta property="og:image" content="https://rknight.me/assets/ogi/{{ page.url | makeSlugForOgImage }}.png">
             {% else %}
                 {% ogImage "src/og-image.og.njk", { title: title | safe } %}
