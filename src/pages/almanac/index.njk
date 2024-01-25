@@ -1,0 +1,14 @@
+---
+title: Almanac
+subtitle: "Everything I've watched, read, and played<br>🍿 <a href='/almanac/movies'>Movies</a> • 📺 <a href='/almanac/tv'>TV</a> • 🎮 <a href='/almanac/games'>Games</a> • 📚 <a href='/almanac/books'>Books</a>"
+permalink: '/almanac/index.html'
+layout: base
+customOgImage: false
+---
+
+<div class="almanac-list">
+    {%- for post in collections.almanac %}
+        <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
+    {% endfor -%}
+</div>
+

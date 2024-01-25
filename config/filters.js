@@ -52,6 +52,16 @@ module.exports = {
 
         return 'https://rknight.me/assets/img/preview_small.png'
     },
+    getTypeEmoji: (type) => {
+        const emoji = {
+            book: '📚',
+            movie: '🍿',
+            tv: '📺',
+            game: '🎮',
+        }
+
+        return emoji[type]
+    },
     getRssId: (post) => {
         if (moment(post.date).isBefore(moment('2023-12-23')))
         {
@@ -77,6 +87,14 @@ module.exports = {
         })
 
         return youtubeIds
+    },
+    attachmentOrCustomOg: (post) => {
+        if (post && post.attachments && post.attachments.length > 0)
+        {
+            return post.attachments[0].url ? post.attachments[0].url : post.attachments[0]
+        }
+    
+        return `https://rknight.me/assets/img/almanac/${post.fallback}.png`
     },
     webmentionsByUrl: (webmentions, url) => {
         const allowedTypes = ['mention-of', 'in-reply-to', 'like-of', 'repost-of']

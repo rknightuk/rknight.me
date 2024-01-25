@@ -1,0 +1,8 @@
+.almanac-list {
+    font-size: .9em;
+    line-height: 1;
+}
+
+.almanac-list--date {
+    font-family: var(--monospace);
+}

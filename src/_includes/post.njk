@@ -10,7 +10,7 @@ layout: base
     <span style="display: none;" data-pagefind-filter="type">posts</span>
     <span style="display: none" data-pagefind-sort="date">{{ page.date | isoDateOnly }}</span>
     {%- set isOldPost -%}{{ page.date | isOldPost }}{%- endset -%}
-    {% if isOldPost == "true" %}
+    {% if isOldPost == "true" and '/blog' in page.url %}
         <aside class="alert">
             <div class="alert-icon">
                 <svg class="icon alert-calendar">

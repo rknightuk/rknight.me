@@ -52,7 +52,7 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 
 const makePath = (type) => {
     const year = new Date().getFullYear()
-    return `src/posts/${production ? type : `${type}/${year}`}/**/*.md`
+    return `src/posts/${true ? type : `${type}/${year}`}/**/*.md`
 }
 
 module.exports = {
@@ -81,6 +81,21 @@ module.exports = {
         return collectionApi.getFilteredByGlob(makePath('changelog')).reverse().filter(p => {
             return moment(p.date).isBefore(moment().startOf('day'))
         })
+    },
+    almanac: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
+    },
+    almanacMovies: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse()
+    },
+    almanacTV: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/tv')).reverse()
+    },
+    almanacBooks: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/books')).reverse()
+    },
+    almanacGames: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/games')).reverse()
     },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob(makePath('blog')).reverse().reduce((tags, p) => {

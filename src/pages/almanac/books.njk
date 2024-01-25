@@ -1,0 +1,14 @@
+---
+title: Books
+subtitle: Everything I've read
+permalink: 'almanac/books/index.html'
+layout: base
+customOgImage: true
+type: book
+---
+
+<div class="almanac-list">
+    {%- for post in collections.almanacBooks %}
+        <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
+    {% endfor -%}
+</div>

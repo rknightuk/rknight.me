@@ -1,0 +1,14 @@
+---
+title: Movies
+subtitle: Every movie I've watched
+permalink: 'almanac/movies/index.html'
+layout: base
+customOgImage: true
+type: movie
+---
+
+<div class="almanac-list">
+    {%- for post in collections.almanacMovies %}
+        <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
+    {% endfor -%}
+</div>
