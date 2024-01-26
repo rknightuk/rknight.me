@@ -5,14 +5,11 @@ permalink: 'almanac/tv/index.html'
 layout: base
 customOgImage: true
 type: tv
+almanacCollection: almanacTV
 eleventyNavigation:
   key: TV
   title: 📺 TV
   parent: Almanac
 ---
 
-<div class="almanac-list">
-    {%- for post in collections.almanacTV %}
-        <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
-    {% endfor -%}
-</div>
+{% include 'almanac_list.njk' %}

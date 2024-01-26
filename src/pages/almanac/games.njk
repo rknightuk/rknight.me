@@ -5,14 +5,11 @@ permalink: 'almanac/games/index.html'
 layout: base
 customOgImage: true
 type: game
+almanacCollection: almanacGames
 eleventyNavigation:
   key: Games
   title: 🎮 Games
   parent: Almanac
 ---
 
-<div class="almanac-list">
-    {%- for post in collections.almanacGames %}
-        <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
-    {% endfor -%}
-</div>
+{% include 'almanac_list.njk' %}

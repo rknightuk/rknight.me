@@ -83,7 +83,9 @@ module.exports = {
         })
     },
     almanac: (collectionApi) => {
-        return collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
+        const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
+
+        return production ? collection : collection.slice(0, 10)
     },
     almanacMovies: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse()

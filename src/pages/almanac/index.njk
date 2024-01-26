@@ -4,14 +4,10 @@ subtitle: "Everything I've watched, read, and played"
 permalink: '/almanac/index.html'
 layout: base
 customOgImage: false
+almanacCollection: almanac
 eleventyNavigation:
   key: Almanac
   parent: Home
 ---
 
-<div class="almanac-list">
-    {%- for post in collections.almanac %}
-        <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
-    {% endfor -%}
-</div>
-
+{% include 'almanac_list.njk' %}
