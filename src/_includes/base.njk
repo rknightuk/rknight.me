@@ -111,12 +111,12 @@
             <div class="container">
                 <a href="/blog" {% if ('/blog' in page.url) %}class="active"{% endif %}>Blog</a>
                 <a href="/links" {% if ('/links' in page.url) %}class="active"{% endif %}>Links</a>
-                <a href="/podcasts" {% if ('/podcasts' in page.url) %}class="active"{% endif %}>Podcasts</a>
-                <a href="/log" {% if ('/log' in page.url) %}class="active"{% endif %}>Log</a>
+                <a href="/almanac" {% if ('/almanac' in page.url) %}class="active"{% endif %}>Almanac</a>
                 <a href="/projects" {% if ('/projects' in page.url) %}class="active"{% endif %}>Projects</a>
                 <a href="/collections" {% if ('/collections' in page.url) %}class="active"{% endif %}>Collections</a>
                 <a href="/now" {% if ('/now' in page.url) %}class="active"{% endif %}>/now</a>
                 <a href="/uses" {% if ('/uses' in page.url) %}class="active"{% endif %}>/uses</a>
+                <a href="/sitemap" {% if ('/sitemap' in page.url) %}class="active"{% endif %}>Everything Else</a>
             </div>
         </nav>
 
@@ -143,13 +143,18 @@
                             </div>
                         </div>
                     {% endif %}
+                    <nav class="header-nav">
+                        {% if eleventyNavigation %}
+                            {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
+                        {% endif %}
+                        {% if layout === 'almanac' %}
+                            {%- set navKey -%}Almanac{%- endset -%}
+                        {% endif %}
+                        {% if navKey %}
+                            {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
+                        {% endif %}
+                    </nav>
                 </div>
-                <nav class="header-nav">
-                    {% if eleventyNavigation %}
-                        {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
-                        {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
-                    {% endif %}
-                </nav>
             </div>
         {% endif %}
 
