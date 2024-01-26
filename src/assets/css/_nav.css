@@ -11,7 +11,8 @@ nav.main .container {
     margin-bottom: 5px;
 }
 
-nav.main a:hover {
+nav.main a:hover,
+nav.main a.active {
     background-color: var(--primary);
     color: var(--nav-text);
 }

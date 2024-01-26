@@ -109,14 +109,14 @@
 
         <nav class="main">
             <div class="container">
-                <a href="/blog">Blog</a>
-                <a href="/links">Links</a>
-                <a href="/podcasts">Podcasts</a>
-                <a href="/log">Log</a>
-                <a href="/projects">Projects</a>
-                <a href="/collections">Collections</a>
-                <a href="/now">/now</a>
-                <a href="/uses">/uses</a>
+                <a href="/blog" {% if ('/blog' in page.url) %}class="active"{% endif %}>Blog</a>
+                <a href="/links" {% if ('/links' in page.url) %}class="active"{% endif %}>Links</a>
+                <a href="/podcasts" {% if ('/podcasts' in page.url) %}class="active"{% endif %}>Podcasts</a>
+                <a href="/log" {% if ('/log' in page.url) %}class="active"{% endif %}>Log</a>
+                <a href="/projects" {% if ('/projects' in page.url) %}class="active"{% endif %}>Projects</a>
+                <a href="/collections" {% if ('/collections' in page.url) %}class="active"{% endif %}>Collections</a>
+                <a href="/now" {% if ('/now' in page.url) %}class="active"{% endif %}>/now</a>
+                <a href="/uses" {% if ('/uses' in page.url) %}class="active"{% endif %}>/uses</a>
             </div>
         </nav>
 
@@ -144,6 +144,12 @@
                         </div>
                     {% endif %}
                 </div>
+                <nav class="header-nav">
+                    {% if eleventyNavigation %}
+                        {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
+                        {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
+                    {% endif %}
+                </nav>
             </div>
         {% endif %}
 
@@ -202,7 +208,7 @@
                     {
                         jasonMode.classList.add('balanced')
                         Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
-                        Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
+                        Array.from(document.getElementsByClassName('rkblock')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
                         Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
                     }
                 }
@@ -214,7 +220,7 @@
                         jasonMode.classList.contains('balanced') ? localStorage.setItem('jasonModeEnabled', true) : localStorage.setItem('jasonModeEnabled', false)
                     }
                     Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
-                    Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
+                    Array.from(document.getElementsByClassName('rkblock')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
                     Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
                 })
             })()

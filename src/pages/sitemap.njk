@@ -1,0 +1,10 @@
+---
+title: Sitemap
+layout: base
+permalink: 'sitemap/index.html'
+eleventyNavigation:
+  key: Sitemap
+  parent: Home
+---
+
+{{ collections.all | eleventyNavigation | eleventyNavigationToHtml | safe }}

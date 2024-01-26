@@ -3,6 +3,9 @@ title: Subscribe
 subtitle: "Don't forget to <s>smash that bell fam</s> use open web protocols to get the latest updates"
 layout: base
 permalink: 'subscribe/index.html'
+eleventyNavigation:
+  key: Subscribe
+  parent: Home
 ---
 
 <div style="display: flex; align-items: center; justify-content: space-around;">

@@ -2,6 +2,9 @@
 title: About
 permalink: /about/index.html
 layout: base
+eleventyNavigation:
+  key: About
+  parent: Home
 ---
 
 Want to know about this site? Check out [the colophon](/about/colophon).
