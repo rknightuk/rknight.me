@@ -125,3 +125,46 @@ header.main a:hover {
     color: var(--primary);
     border-color: var(--primary);
 }
+
+.header-nav {
+    width: 100%;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+    grid-gap: 10px;
+    align-items: center;
+    justify-content: center;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    flex-wrap: wrap;
+}
+
+.header-nav li {
+    
+}
+
+.header-nav li a {
+    text-decoration: none;
+    background-color: var(--offwhite);
+    color: var(--nav-text);
+    text-transform: lowercase;
+    font-size: .9em;
+    font-family: var(--cbr);
+    text-align: center;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 5px 20px;
+    text-decoration: none;
+    box-shadow: var(--double-shadow);
+    transition: box-shadow .5s ease-in-out;
+}
+
+.header-nav li a:hover {
+    box-shadow: none;
+}
+
+.header-nav li ul {
+    display: none;
+}

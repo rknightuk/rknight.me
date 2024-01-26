@@ -1,7 +1,11 @@
 ---
 title: Version History
+subtitle: Every version of my site I have been able to find.
 layout: base
 permalink: 'log/versions/index.html'
+eleventyNavigation:
+  key: Versions
+  parent: Log
 ---
 
 - [2023](https://2023.rknight.me)

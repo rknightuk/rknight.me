@@ -2,6 +2,11 @@
 title: Lego Collection
 permalink: 'collections/lego/index.html'
 layout: collections
+eleventyNavigation:
+  key: Lego Collection
+  parent: Collections
+eleventyComputed:
+    subtitle: "{{ lego.count.sets }} sets with {{ lego.count.pieces }} pieces across {{ lego.count.themes }} themes"
 ---
 
 <style>
@@ -9,8 +14,6 @@ layout: collections
         box-shadow: none;
     }
 </style>
-
-<h3>{{ lego.count.sets }} sets with {{ lego.count.pieces }} pieces across {{ lego.count.themes }} themes</h3>
 
 <details class="collection-grid-container">
     <summary>

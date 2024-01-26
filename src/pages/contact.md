@@ -2,6 +2,9 @@
 title: Contact
 layout: base
 permalink: 'contact/index.html'
+eleventyNavigation:
+  key: Contact
+  parent: Home
 ---
 
 - For small things [Mastodon](https://social.lol/@robb) is nice and easy and you'll probably get a response quickly

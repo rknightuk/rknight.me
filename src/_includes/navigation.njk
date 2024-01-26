@@ -1,0 +1,7 @@
+{% if nav.length > 0 %}
+    <ul>
+        {%- for nav in nav %}
+            <li><a href="{{ nav.url }}">{{ nav.title }}</a></li>
+        {%- endfor %}
+    <ul>
+{% endif %}

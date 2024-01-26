@@ -2,6 +2,9 @@
 title: Micro.blog Projects
 layout: base
 permalink: /projects/microblog/index.html
+eleventyNavigation:
+  key: Micro.blog
+  parent: Projects
 ---
 
 ### Web

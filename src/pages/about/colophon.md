@@ -3,6 +3,9 @@ title: Colophon
 subtitle: "\"_a statement at the end of a book, typically with a printer's emblem, giving information about its authorship and printing_\""
 permalink: /about/colophon/index.html
 layout: base
+eleventyNavigation:
+  key: Colophon
+  parent: About
 ---
 
 This website is built with [Eleventy](https://www.11ty.dev/), a static site generator, and hosted on [Hetzner](https://www.hetzner.com/). The source code is available on [GitHub](https://github.com/rknightuk/rknightuk.me). I deploy this, and most of my [projects](/projects), with [Laravel Forge](https://forge.laravel.com/) to the Hetzner server. Some static sites I host with [Netlify](https://www.netlify.com/). Images for blog posts are stored on [Amazon S3](https://aws.amazon.com/s3/).
