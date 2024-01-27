@@ -5,6 +5,9 @@ pagination:
   alias: link
 permalink: 'links/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
+eleventyNavigation:
+  key: Links
+  parent: Home
 eleventyComputed:
     title: Links
     subtitle: A collection of interesting links

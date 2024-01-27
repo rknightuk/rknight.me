@@ -19,7 +19,16 @@ module.exports = async function() {
             return json
         })
 
-    await asset.save(data, "json")
+    const newData = {
+        images: [],
+        posts: [],
+        tags: [],
+        tagMap: {},
+        postMap: {},
+        discussion: {},
+    }
+
+    await asset.save(newData, "json")
 
     return data
 }

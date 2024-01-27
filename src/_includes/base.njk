@@ -41,7 +41,9 @@
         {% endif %}
 		<meta property="og:type" content="article">
 		<meta property="og:url" content="https://rknight.me{{ page.url }}">
-        {% if ('/micro' in page.url) or homepage or layout == 'link' or layout == 'changelog' %}
+        {% if customOgImage %}
+            <meta property="og:image" content="{{ { "fallback": type, "attachments": attachments } | attachmentOrCustomOg }}">
+        {% elif ('/micro' in page.url) or homepage or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
         {% else %}
             {% if site.production %}
@@ -107,14 +109,14 @@
 
         <nav class="main">
             <div class="container">
-                <a href="/blog">Blog</a>
-                <a href="/links">Links</a>
-                <a href="/podcasts">Podcasts</a>
-                <a href="/log">Log</a>
-                <a href="/projects">Projects</a>
-                <a href="/collections">Collections</a>
-                <a href="/now">/now</a>
-                <a href="/uses">/uses</a>
+                <a href="/blog" {% if ('/blog' in page.url) %}class="active"{% endif %}>Blog</a>
+                <a href="/links" {% if ('/links' in page.url) %}class="active"{% endif %}>Links</a>
+                <a href="/almanac" {% if ('/almanac' in page.url) %}class="active"{% endif %}>Almanac</a>
+                <a href="/projects" {% if ('/projects' in page.url) %}class="active"{% endif %}>Projects</a>
+                <a href="/collections" {% if ('/collections' in page.url) %}class="active"{% endif %}>Collections</a>
+                <a href="/now" {% if ('/now' in page.url) %}class="active"{% endif %}>/now</a>
+                <a href="/uses" {% if ('/uses' in page.url) %}class="active"{% endif %}>/uses</a>
+                <a href="/sitemap" {% if ('/sitemap' in page.url) %}class="active"{% endif %}>Everything Else</a>
             </div>
         </nav>
 
@@ -124,14 +126,15 @@
                 <div class="container">
                     <h2 class="p-name" data-pagefind-meta="title">{{ title }}</h2>
                     {% if subtitle %}<p class="post-subtitle">{{ subtitle | mdToHtml | safe }}</p>{% endif %}
-
-                    {% if layout == 'post' or layout == 'link' or layout == 'changelog' %}
+                    
+                    {% if layout == 'post' or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
                         <div class="post-meta">
                             <div>
                                 <svg class="icon">
                                     <use xlink:href="#calendar"></use>
                                 </svg>
                                 <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
+                                {% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
                             </div>
                             <div>
                                 {% for tag in tags | sort %}
@@ -140,6 +143,17 @@
                             </div>
                         </div>
                     {% endif %}
+                    <nav class="header-nav">
+                        {% if eleventyNavigation %}
+                            {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
+                        {% endif %}
+                        {% if layout === 'almanac' %}
+                            {%- set navKey -%}Almanac{%- endset -%}
+                        {% endif %}
+                        {% if navKey %}
+                            {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
+                        {% endif %}
+                    </nav>
                 </div>
             </div>
         {% endif %}
@@ -199,7 +213,7 @@
                     {
                         jasonMode.classList.add('balanced')
                         Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
-                        Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
+                        Array.from(document.getElementsByClassName('rkblock')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
                         Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
                     }
                 }
@@ -211,7 +225,7 @@
                         jasonMode.classList.contains('balanced') ? localStorage.setItem('jasonModeEnabled', true) : localStorage.setItem('jasonModeEnabled', false)
                     }
                     Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
-                    Array.from(document.getElementsByClassName('block')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
+                    Array.from(document.getElementsByClassName('rkblock')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
                     Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
                 })
             })()

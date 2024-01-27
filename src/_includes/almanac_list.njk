@@ -1,0 +1,18 @@
+{% set datePrinted = false %}
+{% set currentYear = 1000 %}
+
+<div class="almanac-list">
+    
+{%- for post in collections[almanacCollection] %}
+    {% set postYear = post.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        <h3>{{ postYear }}</h3>
+    {% endif %}
+
+    <p>{{ post.data.type | getTypeEmoji }} <span class="almanac-list--date">{{ post.date | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
+
+    {% set currentYear = postYear %}
+{% endfor %}
+
+</div>

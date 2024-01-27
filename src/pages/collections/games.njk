@@ -2,6 +2,11 @@
 title: Games Collection
 permalink: 'collections/games/index.html'
 layout: collections
+eleventyNavigation:
+  key: Games Collection
+  parent: Collections
+eleventyComputed:
+    subtitle: "{{ games.count.games }} games across {{ games.count.platforms }} platforms"
 ---
 
 <style>
@@ -16,8 +21,6 @@ layout: collections
         max-width: 100px;
     }
 </style>
-
-<h3>{{ games.count.games }} games across {{ games.count.platforms }} platforms</h3>
 
 {%- for platform in games.platforms %}
     <details class="collection-grid-container">

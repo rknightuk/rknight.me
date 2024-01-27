@@ -20,6 +20,7 @@
 @import "_blogrollcard.css";
 @import "_highlight.css";
 @import "_changelog.css";
+@import "_almanac.css";
 
 .scale-left {
     display: none;

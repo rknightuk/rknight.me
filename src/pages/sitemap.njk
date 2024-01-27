@@ -1,0 +1,13 @@
+---
+title: Everything Else
+subtitle: "_slaps roof of website_ this website can fit so many pages in it"
+layout: base
+permalink: 'sitemap/index.html'
+eleventyNavigation:
+  key: Everything Else
+  parent: Home
+---
+
+I couldn't fit everything in the top nav bar, so here's a sitemap.
+
+{{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml | safe }}

@@ -82,6 +82,23 @@ module.exports = {
             return moment(p.date).isBefore(moment().startOf('day'))
         })
     },
+    almanac: (collectionApi) => {
+        const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
+
+        return production ? collection : collection.slice(0, 10)
+    },
+    almanacMovies: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse()
+    },
+    almanacTV: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/tv')).reverse()
+    },
+    almanacBooks: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/books')).reverse()
+    },
+    almanacGames: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/games')).reverse()
+    },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob(makePath('blog')).reverse().reduce((tags, p) => {
             if (p.data.tags && Array.isArray(p.data.tags))

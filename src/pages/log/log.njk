@@ -1,0 +1,18 @@
+---
+layout: base
+title: Log
+subtitle: "Projects Changelog"
+permalink: 'log/index.html'
+templateEngineOverride: njk,html,md
+eleventyNavigation:
+  key: Log
+  parent: Home
+---
+
+### Projects Changelog
+
+<span class="changelog">
+    {%- for cl in collections.changelog %}
+        {% include 'changelog_list_item.njk' %}
+    {% endfor %}
+</span>

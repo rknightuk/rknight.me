@@ -1,0 +1,7 @@
+---
+title: "Harry Potter and the Prisoner of Azkaban"
+year: 2004
+date: 2016-08-09T23:00:00.000Z
+permalink: /almanac/movies/2016-08-10-harry-potter-and-the-prisoner-of-azkaban/index.html
+rating: 3
+---

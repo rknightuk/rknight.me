@@ -25,6 +25,7 @@
     "writing-stats": "^1.0.6"
   },
   "devDependencies": {
+    "@11ty/eleventy-navigation": "^0.3.5",
     "@11ty/eleventy-plugin-rss": "^1.2.0",
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-plugin-og-image": "^2.1.1",
@@ -41,7 +42,7 @@
   },
   "scripts": {
     "start": "./node_modules/.bin/eleventy --serve --quiet",
-    "build": "./node_modules/.bin/eleventy --quiet",
+    "build": "./node_modules/.bin/eleventy",
     "bookmarklets:link": "bookmarklet --demo src/assets/bookmarklets/new-link.js tmp/new-link.html",
     "bookmarklets:post": "bookmarklet --demo src/assets/bookmarklets/new-post.js tmp/new-post.html",
     "bookmarklets": "npm-run-all --parallel bookmarklets:*; node scripts/bookmarklets.js",

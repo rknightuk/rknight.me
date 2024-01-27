@@ -1,0 +1,7 @@
+---
+title: "Baby Driver"
+year: 2017
+date: 2017-12-25T00:00:00.000Z
+permalink: /almanac/movies/2017-12-25-baby-driver/index.html
+rating: 3
+---
