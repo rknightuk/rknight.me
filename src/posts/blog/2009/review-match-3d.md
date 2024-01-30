@@ -1,5 +1,5 @@
 ---
-title: "Review: RunPee"
+title: "Review: Match 3D Flick Puzzle"
 date: 2009-07-13T00:00:00.000Z
 permalink: /blog/iphoneworldca-review-match-3d/index.html
 type: post
