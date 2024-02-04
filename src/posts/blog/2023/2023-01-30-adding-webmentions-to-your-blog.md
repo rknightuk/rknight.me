@@ -45,7 +45,7 @@ Once I logged in I was presented with tags to add to my site to accept webmentio
 
 ```html
 <link rel="webmention" href="https://webmention.io/rknight.me/webmention" />
-<link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc" /
+<link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc" />
 ```
 
 At this point, this system will work for "proper" webmentions (although not added to my site yet) but what about conversations on Mastodon? That's where Bridgy comes in.
