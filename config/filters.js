@@ -183,7 +183,7 @@ module.exports = {
         {
             let title = [
                 _getTypeEmoji(post.type),
-                _getVerb(post.type),
+                `${_getVerb(post.type)}:`,
                 decode(post.title),
                 post.season ? `Season ${post.season}` : null,
                 post.platform ? `(${post.platform})` : null,
