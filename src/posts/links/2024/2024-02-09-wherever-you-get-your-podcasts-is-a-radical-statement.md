@@ -10,6 +10,4 @@ author:
   mastodon: https://me.dm/@anildash
 ---
 
-> being able to say, "wherever you get your podcasts" is a radical statement.
-
 Startups come time and time again for podcasting and it can't (and shouldn't) be done. It's not podcasting without RSS feeds. Everything else is just sparkling audio shows.
