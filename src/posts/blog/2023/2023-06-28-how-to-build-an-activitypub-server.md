@@ -601,3 +601,4 @@ Thanks to [Lewis](https://lewisdale.dev) for his help with verify requests. Arti
 - [dariusk/express-activitypub: A very simple reference implementation of an ActivityPub server using Express.js](https://github.com/dariusk/express-activitypub)
 - [ActivityPub – WordPress plugin | WordPress.org](https://wordpress.org/plugins/activitypub/)
 - [LewisDaleUK/slap: Super Lightweight Activity Pub](https://github.com/LewisDaleUK/slap)
+- [A (tiny, incomplete, single user, write-only) ActivityPub server in PHP – Terence Eden’s Blog](https://shkspr.mobi/blog/2024/02/a-tiny-incomplete-single-user-write-only-activitypub-server-in-php/)
