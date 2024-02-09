@@ -6,6 +6,28 @@ const cheerio = require('cheerio')
 const { encode, decode } = require('html-entities')
 const mastodonCount = require('./mastodonCounter.js')
 
+const _getTypeEmoji = (type) => {
+    const emoji = {
+        book: '📚',
+        movie: '🍿',
+        tv: '📺',
+        game: '🎮',
+    }
+
+    return emoji[type]
+}
+
+const _getVerb = (type) => {
+    const verb = {
+        book: 'Read',
+        movie: 'Watched',
+        tv: 'Watched',
+        game: 'Finished',
+    }
+
+    return verb[type]
+}
+
 module.exports = {
     trim: (string, limit) => {
         return string.length <= limit ? string : `${string.slice(0, limit)}...`
@@ -52,16 +74,7 @@ module.exports = {
 
         return 'https://rknight.me/assets/img/preview_small.png'
     },
-    getTypeEmoji: (type) => {
-        const emoji = {
-            book: '📚',
-            movie: '🍿',
-            tv: '📺',
-            game: '🎮',
-        }
-
-        return emoji[type]
-    },
+    getTypeEmoji: (type) => _getTypeEmoji(type),
     getRssId: (post) => {
         if (moment(post.date).isBefore(moment('2023-12-23')))
         {
@@ -156,7 +169,31 @@ module.exports = {
         return pageviews.filter(pv => pv.url !== url).slice(0, limit)
     },
     makeTootText: (post) => {
+        let content = ''
         const permalink = `https://rknight.me${post.permalink}`
+
+        if (!['link', 'almanac'].includes(post.layout))
+        {
+            content = `${decode(post.title)} ${permalink}`
+
+            return content
+        }
+
+        if (post.layout === 'almanac')
+        {
+            let title = [
+                _getTypeEmoji(post.type),
+                _getVerb(post.type),
+                decode(post.title),
+                post.season ? `Season ${post.season}` : null,
+                post.platform ? `(${post.platform})` : null,
+            ].filter(t => t).join(' ')
+
+            content = `${title} ${permalink}`
+
+            return content
+        }
+
         let mastoUsername = null
         if (post.author.mastodon)
         {
@@ -164,7 +201,7 @@ module.exports = {
             mastoUsername = `${url.pathname.replace('/', '')}@${url.host}`
         }
 
-        let content = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
+        content = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
 
         const $ = cheerio.load(`<div id="content">${decode(post.content)}</div>`)
         let allText = $('#content').text().trim()

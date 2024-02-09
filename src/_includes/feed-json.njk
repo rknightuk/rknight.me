@@ -27,11 +27,11 @@
                 "name": "{{ post.data.author.name }}",
                 "url": "{{ post.data.author.web }}"
             }
-        ],
-        "_knightlinks": {
-            "about": "https://rknight.me/links",
-            "posse_text": {{ { "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }}
-        },{% endif %}
+        ],{% endif %}
+        "_knightposse": {
+            "about": "https://rknight.me/about/colophon/",
+            "text": {{ { "externalLink": externalLink, "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }}
+        },
         "date_published": "{{ post.data.date | dateForFeed }}"
     }{% if not loop.last %},{% else %}{%- endif -%}
     {%- endfor -%}
