@@ -4,6 +4,10 @@
     grid-gap: 10px;
 }
 
+.blogroll--podcasts {
+    grid-template-columns: repeat(2, 1fr);
+}
+
 .blogroll--data {
     padding: 5px 15px;
     width: 100%;

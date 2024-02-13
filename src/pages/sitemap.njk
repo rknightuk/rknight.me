@@ -1,6 +1,6 @@
 ---
 title: Everything Else
-subtitle: "_slaps roof of website_ this website can fit so many pages in it"
+subtitle: "_slaps roof_ this website can fit so many pages in it"
 layout: base
 permalink: 'sitemap/index.html'
 eleventyNavigation:
@@ -8,6 +8,17 @@ eleventyNavigation:
   parent: Home
 ---
 
-I couldn't fit everything in the top nav bar, so here's a sitemap.
+<p>The nav bar was getting pretty crowded so everything else lives here. Here's the highlights or <a href="#sitemap">jump to the sitemap</a>.</p>
 
-{{ collections.all | eleventyNavigation("Home") | eleventyNavigationToHtml | safe }}
+{%- for page in site.explore -%}
+  <div>
+      <p class="post-title" style="margin-top: 5px"><a href="{{ page.link }}">{{ page.title }}</a></p>
+      <em class="post-excerpt">{{ page.description }}</em>
+  </div>
+{%- endfor -%}
+
+<hr>
+
+<h3 id="sitemap">Sitemap</h3>
+
+{{ collections.all | eleventyNavigation("Home") | sortByName | eleventyNavigationToHtml | safe }}

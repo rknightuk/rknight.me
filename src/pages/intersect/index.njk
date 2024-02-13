@@ -1,0 +1,11 @@
+---
+title: Intersect
+subtitle: Everything I Know, Mostly
+permalink: /intersect/index.html
+layout: intersect
+eleventyNavigation:
+  key: Intersect
+  parent: Home
+---
+
+{{ collections.all | eleventyNavigation("Intersect") | sortByName | eleventyNavigationToHtml | safe }}

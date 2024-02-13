@@ -168,6 +168,23 @@ module.exports = {
     popularPosts: (pageviews, limit, url) => {
         return pageviews.filter(pv => pv.url !== url).slice(0, limit)
     },
+    sortByName: (arr) => {
+        return arr.slice().sort((a, b) => {
+            if (a.children.length > 0) {
+                a.children = a.children.slice().sort((c, d) => {
+                    return c.title.toLowerCase().localeCompare(d.title.toLowerCase())
+                })
+            }
+
+            if (b.children.length > 0) {
+                b.children = b.children.slice().sort((c, d) => {
+                    return c.title.toLowerCase().localeCompare(d.title.toLowerCase())
+                })
+            }
+
+            return a.title.toLowerCase().localeCompare(b.title.toLowerCase())
+        });
+    },
     makeTootText: (post) => {
         let content = ''
         const permalink = `https://rknight.me${post.permalink}`

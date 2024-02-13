@@ -43,7 +43,7 @@
 		<meta property="og:url" content="https://rknight.me{{ page.url }}">
         {% if customOgImage %}
             <meta property="og:image" content="{{ { "fallback": type, "attachments": attachments } | attachmentOrCustomOg }}">
-        {% elif ('/micro' in page.url) or homepage or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
+        {% elif ('/micro' in page.url) or homepage or layout == 'link' or layout == 'changelog' or layout == 'almanac' or layout == 'intersect'%}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
         {% else %}
             {% if site.production %}
@@ -109,14 +109,12 @@
 
         <nav class="main">
             <div class="container">
+                <a href="/about" {% if ('/about' in page.url) %}class="active"{% endif %}>About</a>
                 <a href="/blog" {% if ('/blog' in page.url) %}class="active"{% endif %}>Blog</a>
                 <a href="/links" {% if ('/links' in page.url) %}class="active"{% endif %}>Links</a>
-                <a href="/almanac" {% if ('/almanac' in page.url) %}class="active"{% endif %}>Almanac</a>
                 <a href="/projects" {% if ('/projects' in page.url) %}class="active"{% endif %}>Projects</a>
-                <a href="/collections" {% if ('/collections' in page.url) %}class="active"{% endif %}>Collections</a>
-                <a href="/now" {% if ('/now' in page.url) %}class="active"{% endif %}>/now</a>
                 <a href="/uses" {% if ('/uses' in page.url) %}class="active"{% endif %}>/uses</a>
-                <a href="/sitemap" {% if ('/sitemap' in page.url) %}class="active"{% endif %}>Everything Else</a>
+                <a href="/sitemap" {% if ('/sitemap' in page.url) %}class="active"{% endif %}>Explore</a>
             </div>
         </nav>
 
@@ -144,14 +142,20 @@
                         </div>
                     {% endif %}
                     <nav class="header-nav">
-                        {% if eleventyNavigation %}
-                            {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
-                        {% endif %}
-                        {% if layout === 'almanac' %}
-                            {%- set navKey -%}Almanac{%- endset -%}
-                        {% endif %}
-                        {% if navKey %}
-                            {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
+                        {% if layout !== 'intersect' %}
+                            {% if eleventyNavigation %}
+                                {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
+                            {% endif %}
+                            {% if layout === 'almanac' %}
+                                {%- set navKey -%}Almanac{%- endset -%}
+                            {% endif %}
+                            {% if navKey %}
+                                {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
+                            {% endif %}
+                        {% else %}
+                            {% if title !== 'Intersect' %}
+                                {{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | eleventyNavigationToHtml | safe }}
+                            {% endif %}
                         {% endif %}
                     </nav>
                 </div>
