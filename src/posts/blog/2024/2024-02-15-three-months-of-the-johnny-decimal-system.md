@@ -14,6 +14,6 @@ I had assumed, like a lot of things I try, that given a month or so I'd be back 
 
 I still have a fairly substantial downloads folder filled with random things but every now and again I can go through, delete what I don't need, and file everything else in the right place. I've also stuck with keeping [my index](https://johnnydecimal.com/10-19-concepts/11-core/11.05-the-index/) in Obsidian where I've been keeping it up-to-date with related notes about my files.
 
-This might be the first time a new system, of any kind, has actually clicked for me. [The workbook](https://johnnydecimal.com/10-19-concepts/14-build-your-system/14.02-the-decimal-workbook/), which I highly recommend, is only $19 now if you think this is something you want to try. And as if we planned this (we definitely didn't), just as I was about to publish this post Johnny announced the [the workshop](https://jdcm.al/10-19-concepts/14-build-your-system/14.03-the-decimal-workshop/) which has a pre-launch price of $49.
+This might be the first time a new system, of any kind, has actually clicked for me. [The workbook](https://johnnydecimal.com/10-19-concepts/14-build-your-system/14.02-the-decimal-workbook/), which I highly recommend, is only $19 now if you think this is something you want to try. And as if we planned this (we definitely didn't), just as I was about to publish this post Johnny announced [the workshop](https://jdcm.al/10-19-concepts/14-build-your-system/14.03-the-decimal-workshop/) which has a pre-launch price of $49.
 
 [^1]: Don't at me, I live for validation
