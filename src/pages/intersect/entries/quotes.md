@@ -43,3 +43,9 @@ eleventyNavigation:
 ---
 
 > [love reading about men in history like "unfortunately, he never found a wife :( his elaborate scarf collection sold for $1.2M in 2011. he and his closest male friend, Chauncey, with whom he shared a bed, died within weeks of one another. they were known for their dinner parties."](https://twitter.com/calebsaysthings/status/1211747052079722503?lang=en)
+
+---
+
+On Mastodon drama:
+
+> Mastodon is its own worst enemy. Users will kill it before Meta ever has a chance
