@@ -1,65 +1,31 @@
-<div class="webmentions">
+<div class="syndication">
 
-{% if micro.discussion[webmentionUrl] or discuss %}
-    <h4 style="margin: 10px 0 0;">Syndicated to</h4>
-    <ul>
-        {% if micro.discussion[webmentionUrl] %}
-            {%- for mention in micro.discussion[webmentionUrl] %}
-                <li><a href="{{ mention.source }}" target="_blank" rel="noopener">{{ mention.type }}</a> <small>{{ mention.date | isoDateOnly }}</small></li>
-            {% endfor%}
-        {% endif %}
-        {% if discuss %}
-            {%- for mention in discuss %}
-                <li><a href="{{ mention.link }}" target="_blank" rel="noopener">{{ mention.type }}</a> <small>{{ mention.date | isoDateOnly }}</small></li>
-            {% endfor%}
-        {% endif %}
-    </ul>
-
-{% endif %}
-
-{%- set mentions = webmentions.mentions | webmentionsByUrl(webmentionUrl) -%}
-
-{% if mentions['like-of']|length %}
-    <h4>Likes</h4>
-    <div class="webmentions--likeboost">
-        {%- for like in mentions['like-of'] %}
-            <a target="_blank" rel="noopener" href="{{like.author.url}}"><img src="{{like.author.photo}}" title="{{like.author.name}}"></a>
-        {% endfor%}
-    </div>
-{% endif %}
-
-{% if mentions['repost-of']|length %}
-    <h4>Boosts</h4>
-    <div class="webmentions--likeboost">
-        {%- for repost in mentions['repost-of'] %}
-            <a target="_blank" rel="noopener" href="{{repost.author.url}}"><img src="{{repost.author.photo}}" title="{{repost.author.name}}"></a>
-        {% endfor%}
-    </div>
-{% endif %}
-
-{% if mentions['in-reply-to']|length %}
-    <details class="details">
-        <summary>{{ mentions['in-reply-to'].length }} {% if mentions['in-reply-to'].length > 1 %}Comments{% else %}Comment{% endif %}</summary>
-        <div class="webmentions--comments">
-            {%- for mention in mentions['in-reply-to'] %}
-                <div class="webmentions--comment">
-                    <div class="webmentions--comment--header">
-                        <div class="webmentions--comment--header--name">
-                            <a target="_blank" rel="noopener" href="{{mention.author.url}}"><img src="{{mention.author.photo}}" title="{{mention.author.name}}"></a> {{mention.author.name}}
-                        </div>
-                        <div class="webmentions--comment--header--time">
-                            <a target="_blank" rel="noopener" href="{{mention.url}}">{{ mention.published | toDateTime }}</a>
-                        </div>
-                    </div>
-                    <div class="webmentions--comment--content">
-                        {{ mention.sanitized | safe }}
-                    </div>
+{% if discussion[webmentionUrl] or discuss %}
+    {% if discussion[webmentionUrl] %}
+        {%- set discussionData = discussion[webmentionUrl] | oValues -%}
+        {%- for m in discussionData %}
+            <div class="toot">
+                <div class="toot__header">
+                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">Discuss on Mastodon</a>
                 </div>
-            {% endfor%}
-        </div>
-    </details>
-{% else %}
-    
+                <div class="toot__content">{{ m.content | safe }}</div>
+                <div class="toot__data">
+                    <div><a target="_blank" href="{{ m.url }}"><svg class="icon"><use xlink:href="#socialreply"></use></svg> {{ m.replies_count }}</a></div>
+                    <div><a target="_blank" href="{{ m.url }}/reblogs"><svg class="icon"><use xlink:href="#socialboost"></use></svg> {{ m.reblogs_count }}</a></div>
+                    <div><a target="_blank" href="{{ m.url }}/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> {{ m.favourites_count }}</a></div>
+                </div>
+            </div>
+        {% endfor %}
+    {% endif %}
+    {% if discuss %}
+        {%- for mention in discuss %}
+            <div class="toot">
+                <div class="toot__linkonly">
+                    <svg class="icon"><use xlink:href="#external"></use></svg> <a href="{{ mention.link }}" target="_blank" rel="noopener">Discuss on {{ mention.type }}</a>
+                </div>
+            </div>
+        {% endfor%}
+    {% endif %}
 {% endif %}
 
 </div>

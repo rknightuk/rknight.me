@@ -24,8 +24,10 @@
         "external_url": "{{ post.data.link }}",
         "authors": [
             {
-                "name": "{{ post.data.author.name }}",
-                "url": "{{ post.data.author.web }}"
+                "name": {% if post.data.author.name %}"{{ post.data.author.name }}",{% else %}null,{% endif %}
+                "url": {% if post.data.author.web %}"{{ post.data.author.web }}",{% else %}null,{% endif %}
+                "mastodon": {% if post.data.author.mastodon %}"{{ post.data.author.mastodon }}",{% else %}null,{% endif %}
+                "rss": {% if post.data.author.feed %}"{{ post.data.author.feed }}"{% else %}null{% endif %}
             }
         ],{% endif %}
         "_knightposse": {

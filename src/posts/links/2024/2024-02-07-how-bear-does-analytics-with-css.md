@@ -4,7 +4,7 @@ permalink: /links/how-bear-does-analytics-with-css/index.html
 link: https://herman.bearblog.dev/how-bear-does-analytics-with-css/
 date: 2024-02-07T12:48:38.443Z
 author: 
-  name: Bear
+  name: Herman Martinus
   web: https://herman.bearblog.dev
 ---
 

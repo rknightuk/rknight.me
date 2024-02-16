@@ -4,7 +4,6 @@ permalink: /links/on-the-effect-of-noise-on-software-engineers-performance/index
 link: https://ieeexplore.ieee.org/document/9226332
 date: 2024-02-13T13:42:39.184Z
 author: 
-  name: IEEE
   web: https://ieeexplore.ieee.org
 ---
 

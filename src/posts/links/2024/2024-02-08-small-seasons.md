@@ -4,7 +4,6 @@ permalink: /links/small-seasons/index.html
 link: https://smallseasons.guide/
 date: 2024-02-08T14:05:15.468Z
 author: 
-  name: Small Seasons
   web: https://smallseasons.guide
   mastodon: https://botsin.space/@smallseasons
 ---

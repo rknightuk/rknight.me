@@ -13,7 +13,6 @@
 /* pages */
 @import "_home.css";
 @import "_post.css";
-@import "_webmentions.css";
 @import "_cards.css";
 @import "_micropost.css";
 @import "_design.css";
@@ -21,6 +20,7 @@
 @import "_highlight.css";
 @import "_changelog.css";
 @import "_almanac.css";
+@import "_toot.css";
 
 .scale-left {
     display: none;

@@ -4,7 +4,6 @@ permalink: /links/author-clock-a-novel-way-to-tell-time/index.html
 link: https://www.authorclock.com/
 date: 2024-01-18T17:22:28.545Z
 author: 
-  name: Author Clock
   web: https://www.authorclock.com
 ---
 

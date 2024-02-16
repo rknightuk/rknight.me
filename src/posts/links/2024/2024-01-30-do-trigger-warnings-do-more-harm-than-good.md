@@ -4,7 +4,6 @@ permalink: /links/do-trigger-warnings-do-more-harm-than-good/index.html
 link: https://www.psychologytoday.com/us/blog/parenting-translator/202307/do-trigger-warnings-do-more-harm-than-good
 date: 2024-01-30T09:46:08.046Z
 author: 
-  name: Psychology Today
   web: https://www.psychologytoday.com
 ---
 

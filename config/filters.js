@@ -109,55 +109,6 @@ module.exports = {
     
         return `https://rknight.me/assets/img/almanac/${post.fallback}.png`
     },
-    webmentionsByUrl: (webmentions, url) => {
-        const allowedTypes = ['mention-of', 'in-reply-to', 'like-of', 'repost-of']
-
-        const data = {
-            'like-of': [],
-            'repost-of': [],
-            'in-reply-to': [],
-        }
-
-        const hasRequiredFields = entry => {
-            const { author, published, content } = entry
-            return author.name && published && content
-        }
-
-        const filtered = webmentions
-            .filter(entry => {
-                return entry['wm-target'] === `https://rknight.me${url}` || entry['wm-target'] === `https://rknight.me${url.replace('/blog', '')}`
-            })
-            .filter(entry => allowedTypes.includes(entry['wm-property']))
-
-        filtered.forEach(m => {
-            if (data[m['wm-property']])
-            {
-                const exists = data[m['wm-property']].find(wm => {
-                    return wm['wm-id'] === m['wm-id']
-                })
-                if (exists) return
-
-                const isReply = m['wm-property'] === 'in-reply-to'
-                const isValidReply = isReply && hasRequiredFields(m)
-                if (isReply)
-                {
-                    if (isValidReply)
-                    {
-                        m.sanitized = sanitizeHTML(m.content.html).replace(/\?\?\?\?/g, '') // fix for https://github.com/aaronpk/webmention.io/issues/203
-                        data[m['wm-property']].unshift(m)
-                    }
-
-                    return
-                }
-
-                data[m['wm-property']].unshift(m)
-            }
-        })
-
-        data['in-reply-to'].sort((a,b) => (a.published > b.published) ? 1 : ((b.published > a.published) ? -1 : 0))
-
-        return data
-    },
     getAllTags: (collection) => {
         let tagSet = new Set()
         for (let item of collection) {
@@ -167,6 +118,9 @@ module.exports = {
     },
     popularPosts: (pageviews, limit, url) => {
         return pageviews.filter(pv => pv.url !== url).slice(0, limit)
+    },
+    oValues: (data) => {
+        return Object.values(data)
     },
     sortByName: (arr) => {
         return arr.slice().sort((a, b) => {
