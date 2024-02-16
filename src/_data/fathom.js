@@ -34,7 +34,7 @@ module.exports = async function() {
         titleMap[permalink.replace('/blog/', '/')] = title
     })
 
-    const date_from = moment().subtract(90, 'days').format('YYYY-MM-DD HH:mm')
+    const date_from = moment().subtract(30, 'days').format('YYYY-MM-DD HH:mm')
     const date_to = moment().format('YYYY-MM-DD HH:mm')
 
     const query = qs.stringify({
