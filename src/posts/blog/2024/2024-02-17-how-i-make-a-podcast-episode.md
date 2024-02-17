@@ -11,7 +11,7 @@ project: https://ruminatepodcast.com
 
 This post was originally in [my wiki](/intersect) but I decided it made more sense to have it as a post.
 
-I have recorded and edited over 175 episodes of [my](https://www.ruminatepodcast.com/) [podcasts](https://wegot.family/) so I know _some_ things about podcasts but this is a basically a list of things I use. If you want to hear from actual professionals I recommend [episode 200 of Upgrade](https://www.relay.fm/upgrade/200).
+I have recorded and edited over 175 episodes of [my](https://www.ruminatepodcast.com/) [podcasts](https://wegot.family/) so I know _some_ things about podcasts but this is basically a list of things I use. If you want to hear from actual professionals I recommend [episode 200 of Upgrade](https://www.relay.fm/upgrade/200).
 
 I record using a [Razer Seiren Mini](https://www.razer.com/streaming-microphones/razer-seiren-mini/RZ19-03450100-R3M1). I previously used a [Blue Yeti](https://www.bluemic.com/en-gb/products/yeti/). There are much better microphones available but for what I do, the Razer is fine.
 
