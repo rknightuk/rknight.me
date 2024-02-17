@@ -7,9 +7,8 @@ layout: post
 tags:
     - Podcasting
 project: https://ruminatepodcast.com
+note: This post was originally an article in <a href="/intersect">my wiki</a> but I decided it made more sense to have it as a post.
 ---
-
-This post was originally in [my wiki](/intersect) but I decided it made more sense to have it as a post.
 
 I have recorded and edited over 175 episodes of [my](https://www.ruminatepodcast.com/) [podcasts](https://wegot.family/) so I know _some_ things about podcasts but this is basically a list of things I use. If you want to hear from actual professionals I recommend [episode 200 of Upgrade](https://www.relay.fm/upgrade/200).
 
