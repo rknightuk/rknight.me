@@ -150,6 +150,9 @@ module.exports = {
             return content
         }
 
+        const $ = cheerio.load(`<div id="content">${decode(post.content)}</div>`)
+        let allText = $('#content').text().trim()
+
         if (post.layout === 'almanac')
         {
             let title = [
@@ -162,6 +165,12 @@ module.exports = {
 
             content = `${title} ${permalink}`
 
+            const contentWithReview = `${content}\n\n${allText}`
+            if (mastodonCount.getMastodonLength(contentWithReview).length <= 500)
+            {
+                content = contentWithReview
+            }
+
             return content
         }
 
@@ -173,9 +182,6 @@ module.exports = {
         }
 
         content = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
-
-        const $ = cheerio.load(`<div id="content">${decode(post.content)}</div>`)
-        let allText = $('#content').text().trim()
 
         $('blockquote').get().forEach(element => {
             allText = allText.replace($(element).text().trim(), `"${$(element).text().trim()}"`)
