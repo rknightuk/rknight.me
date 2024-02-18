@@ -46,6 +46,8 @@
     align-items: center;
     font-size: 0.9em;
     font-family: var(--cr);
+    flex-wrap: wrap;
+    justify-content: center;
 }
 
 .post-meta div svg {
