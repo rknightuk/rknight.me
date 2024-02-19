@@ -49,3 +49,21 @@ eleventyNavigation:
 On Mastodon drama:
 
 > Mastodon is its own worst enemy. Users will kill it before Meta ever has a chance
+
+---
+
+[How to solve Mastodon spam](https://growers.social/@jpaskaruk/111953150154243985):
+
+> Back in BBS days, most Sysops required a phone call before we enabled access to more than the "Introductions" board.
+> 
+> This created a human connection between user and Sysop that created a fairly congenial environment, even when very strong disagreements were the order of the day.
+>
+> The VC need to hoover up accounts which they can monetize is what incentivizes open registration. > Nobody else needs "all the accounts" so turning on approval is just a good idea for everyone.
+
+---
+
+Alex Cox on Twitter:
+
+> I checked it out on Vision Pro launch day because that’s where most of the mainstream VR community still is, and it was like stepping into a dorm room filled with 45-year-old libertarians who are either arguing with one another or jacking off to a picture of Elon Musk or attempting both at the same time
+>
+> you have to step gingerly around the cum filled floor just to find the people you actually follow only to see that older posts are just buried in ads for Draft Kings and mobile apps that make AI anime porn
