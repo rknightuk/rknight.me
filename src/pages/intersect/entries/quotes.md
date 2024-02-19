@@ -67,3 +67,12 @@ Alex Cox on Twitter:
 > I checked it out on Vision Pro launch day because that’s where most of the mainstream VR community still is, and it was like stepping into a dorm room filled with 45-year-old libertarians who are either arguing with one another or jacking off to a picture of Elon Musk or attempting both at the same time
 >
 > you have to step gingerly around the cum filled floor just to find the people you actually follow only to see that older posts are just buried in ads for Draft Kings and mobile apps that make AI anime porn
+
+---
+
+
+[Trying for a baby](https://twitter.com/ninaoyama/status/1084357877253300227?lang=en):
+
+> You say: we’re trying for a child 
+>
+> I hear: my husbands been doing big huge cums in my pussy
