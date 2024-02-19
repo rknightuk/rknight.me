@@ -114,3 +114,5 @@ I haven't turned off webmention collection yet. I may still come back to data to
 There is one other reason to remove the old webmentions implementation: it is, quite frankly, a pain in the arse to maintain. Once it's working in theory it shouldn't break but it does on occasion. There's an ongoing bug with emojis showing as `????` which I needed to handle, along with a bunch of other edge cases.
 
 I will miss the little grid of avatars for likes and boosts because I'm quite fond of the design, but I won't miss the complication webmentions adds to my site. Assuming everything has worked, this post should have the toot embedded below.
+
+Update 2024-02-19: If you want an even easier way to do this, David Darnes has made [a nice web component to do it](https://darn.es/mastodon-post-web-component/) for you.
