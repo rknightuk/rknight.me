@@ -25,3 +25,5 @@ I use the workflow, and now the shortcut, fairly regularly for making [shownotes
 The shortcut is MacOS only because it uses [JXA](https://developer.apple.com/library/archive/releasenotes/InterapplicationCommunication/RN-JavaScriptForAutomation/Articles/Introduction.html#//apple_r) to get the current tabs and formatting them. I'm sure this could be done with shortcut actions but I already had the existing logic from the workflow and I couldn't see any advantage in converting the logic to actions.
 
 [Download Get Safari Links Shortcut for MacOS](https://www.icloud.com/shortcuts/bfe5827f709a47909e6e81d098d5e507)
+
+Update 2024-02-20: Chris has made something similar [for iOS](https://chrismcleod.dev/blog/generate-a-markdown-list-of-open-safari-tabs-with-an-ios-shortcut/)
