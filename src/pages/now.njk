@@ -15,36 +15,6 @@ eleventyNavigation:
     <p>"A very strange use of time" - <a href="https://youtu.be/2ZUqa-lTbnU?t=2199">Sophie Koonin</a><p>
 </blockquote>
 
-### {{ status.emoji }} Status
-
-<style>
-    .statuslol {
-    display: flex;
-}
-
-.statuslol_content {
-    display: flex;
-    font-style: italic;
-    align-items: center;
-}
-
-.statuslol_time {
-    margin-left: 5px;
-    font-style: normal;
-    font-size: 0.8em;
-    padding-top: 4px;
-}
-</style>
-
-<div class="statuslol" style="">
-    <div class="statuslol_content">
-    <p>{{ status.content | mdToHtml | safe }}</p>
-        <div class="statuslol_time">
-            <a href="https://robb.status.lol/{{ status.id }}">{{ status.created | toDateTimeFromUnix }}</a>
-        </div>
-    </div>
-</div>
-
 <style>
     .now_game_text {
         position: absolute;
