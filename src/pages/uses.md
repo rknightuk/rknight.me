@@ -112,7 +112,7 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 - [Atkinson Hyperlegible](https://brailleinstitute.org/freefont) for body text (thanks [Zoe](https://zoeaubert.me))
 - [Source Code Pro](https://github.com/adobe-fonts/source-code-pro) for code
 
-#### Fonts and Icons
+#### Icons
 
 - [Softies Icons](https://www.robbiepearce.com/softies) by Robbie Pearce
 - [Feather](https://feathericons.com/)
