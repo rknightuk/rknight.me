@@ -14,14 +14,13 @@
     ],
     "items" : [
     {%- for post in collections[collectionName] %}
-    {% set externalLink %}{{ post.data.layout === 'link' }}{% endset %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
     {
         "id" : "{{ post.data.permalink }}",
         "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         "content_html": {{ post.templateContent | rssClubAlert(post.data.rssClub) | dump | safe }},
-        {% if externalLink %}
+        {% if post.data.layout === 'link' %}
         "external_url": "{{ post.data.link }}",
         "authors": [
             {
@@ -33,7 +32,7 @@
         ],{% endif %}
         "_knightposse": {
             "about": "https://rknight.me/about/colophon/",
-            "text": {{ { "externalLink": externalLink, "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
+            "text": {{ { "externalLink": post.data.layout === 'link', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
             "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %}
         },
         "date_published": "{{ post.data.date | dateForFeed }}"
