@@ -75,6 +75,24 @@ module.exports = {
         return 'https://rknight.me/assets/img/preview_small.png'
     },
     getTypeEmoji: (type) => _getTypeEmoji(type),
+    getPostEmoji: (data) => {
+        if (data.layout === 'link')
+        {
+            return '🔗'
+        }
+
+        if (data.layout === 'changelog') 
+        {
+            return '⚙️'
+        }
+
+        if (data.layout === 'almanac')
+        {
+            return _getTypeEmoji(data.type)
+        }
+
+        return '🖊️'
+    },
     getRssId: (post) => {
         if (moment(post.date).isBefore(moment('2023-12-23')))
         {

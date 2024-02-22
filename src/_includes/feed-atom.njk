@@ -11,6 +11,7 @@
     <uri>http://rknight.me</uri>
   </author>
   {%- for post in collections[collectionName] %}
+  {% set externalLink %}{{ post.data.layout === 'link' }}{% endset %}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>

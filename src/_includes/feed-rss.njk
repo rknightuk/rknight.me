@@ -8,6 +8,7 @@
     <description>{{ site.config.description }}</description>
     <language>en-gb</language>
     {%- for post in collections[collectionName] %}
+    {% set externalLink %}{{ post.data.layout === 'link' }}{% endset %}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
       <item>
         <title>{{ post.data.title }}</title>

@@ -1,0 +1,21 @@
+---
+title: Everything
+subtitle: Every post, link, changelog, and media log all in one place. <br>Available [via RSS](/subscribe) if you really want it all direct in your feed reader.
+permalink: 'explore/everything/index.html'
+layout: base
+---
+
+{% set datePrinted = false %}
+{% set currentYear = 1000 %}
+
+{%- for post in collections.everything -%}
+    {% set postYear = post.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        <h3>{{ postYear }}</h3>
+    {% endif %}
+
+    <p style="margin: 5px 0;">{{ post.data | getPostEmoji }} <a href="{{ post.url }}">{{ post.data.title }}</a></p>
+
+    {% set currentYear = postYear %}
+{% endfor %}

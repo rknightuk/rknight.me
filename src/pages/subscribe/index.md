@@ -21,6 +21,8 @@ You can subscribe with the following feeds:
 - **Almanac**: [Atom](/subscribe/almanac/atom.xml), [RSS](/subscribe/almanac/rss.xml) or [JSON Feed](/subscribe/almanac/feed.json)
 - **Changelog**: [Atom](/subscribe/changelog/atom.xml), [RSS](/subscribe/changelog/rss.xml) or [JSON Feed](/subscribe/changelog/feed.json)
 
+For those of you who want _everything_ in one feed that is also available: [Atom](/subscribe/everything/atom.xml), [RSS](/subscribe/everything/rss.xml) or [JSON Feed](/subscribe/everything/feed.json).
+
 To get started with RSS, check out [About Feeds](https://aboutfeeds.com) which explains what RSS is and how you can use it. I recommend and use [NetNewsWire](https://netnewswire.com/) to follow feeds. Check out my [/uses page](/uses) to see my latest setup.
 
 I also always toot my new posts on Mastodon:
