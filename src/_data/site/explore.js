@@ -26,6 +26,11 @@ module.exports = function() {
             description: 'My podcasts, my listening history, and a podroll',
 		},
 		{
+			title: 'Log',
+			link: '/log',
+            description: 'Changelog and previous versions of this site',
+		},
+		{
 			title: 'Everything',
 			link: '/explore/everything',
             description: 'Every post from my blog, links, Almanac, and changelogs',
