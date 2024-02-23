@@ -1,9 +1,9 @@
 <p class="post-title post-title--link"><a href="{{ link.data.link }}">{{ link.data.title }} &#x2192;</a></p>
 <p class="post-author">
-    {% if link.data.author.mastodon %}<a target="_blank" rel="noopener" href="{{ link.data.author.mastodon }}">
+    {% if link.data.author.mastodon %}<a target="_blank" rel="noopener" href="{{ link.data.author.mastodon }}" aria-label="Mastodon account">
         <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg>
     </a>{% endif %}
-    {% if link.data.author.feed %}<a target="_blank" rel="noopener" href="{{ link.data.author.feed }}">
+    {% if link.data.author.feed %}<a target="_blank" rel="noopener" href="{{ link.data.author.feed }}" aria-label="RSS Feed">
         <svg class="icon subscribe-icon"><use xlink:href="#rss"></use></svg>
     </a>{% endif %}
     {% if link.data.author.name %}{{ link.data.author.name }}{% endif %}
