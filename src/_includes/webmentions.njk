@@ -6,7 +6,7 @@
         {%- for m in discussionData %}
             <div class="toot">
                 <div class="toot__header">
-                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">Discuss on Mastodon</a>
+                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">{{ m.created_at | isoDateOnly }}</a>
                 </div>
                 <div class="toot__content">{{ m.content | safe }}</div>
                 <div class="toot__data">
