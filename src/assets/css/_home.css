@@ -101,3 +101,17 @@
     border-top: 1px solid var(--purewhite);
     border-bottom: 1px solid var(--purewhite);
 }
+
+.photos_grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.photos_grid img {
+    border: 5px solid white;
+}
+
+.photos_grid img:hover {
+    border-color: var(--primary);
+}

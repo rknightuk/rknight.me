@@ -16,6 +16,11 @@ module.exports = function() {
             icon: 'github'
         },
         {
+            title: 'Pixelfed',
+            link: 'https://pixelfed.social/rknightuk',
+            icon: 'pixelfed'
+        },
+        {
             title: 'Apple Music',
             link: 'https://music.apple.com/profile/rknightuk',
             icon: 'applemusic'
@@ -34,11 +39,6 @@ module.exports = function() {
             title: 'Buy Me a Coffee',
             link: 'https://www.buymeacoffee.com/rknightuk',
             icon: 'buymeacoffee'
-        },
-        {
-            title: 'Subscribe',
-            link: '/subscribe',
-            icon: 'rss'
         }
     ]
 }
