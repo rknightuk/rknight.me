@@ -33,5 +33,5 @@ module.exports = async function() {
 
     await asset.save(data, "json")
 
-    return json
+    return data
 }
