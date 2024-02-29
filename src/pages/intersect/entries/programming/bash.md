@@ -29,7 +29,7 @@ mv old_name.txt new_name.txt
 cat myfile.txt
 ```
 
-### Write or Append to File
+### Write to File
 
 ```bash
 # Overwrite existing contents
@@ -37,6 +37,9 @@ echo "Some content" > myfile.txt
 
 # Append to content
 echo "Some content" >> myfile.txt
+
+# prepend to content
+echo -e "Some Content\n$(cat myfile.txt)" > myfile.txt 
 ```
 
 ### Diff Two Files
