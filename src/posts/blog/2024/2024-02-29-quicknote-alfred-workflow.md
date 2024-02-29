@@ -8,6 +8,7 @@ tags:
     - Alfred
     - Development
     - MacOS
+project: /alfred-workflows
 ---
 
 A conversation yesterday in the [Hemispheric Views Discord](https://hemisphericviews.com/) pushed me towards an idea I'd had for a workflow for a while: type some text, append that text to a note. 
