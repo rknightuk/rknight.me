@@ -1,0 +1,187 @@
+---
+title: Comics Collection
+permalink: 'collections/comics/index.html'
+layout: collections
+eleventyNavigation:
+  key: Comics Collection
+  parent: Collections
+eleventyComputed:
+    wide: true
+    subtitle: "{{ catalog.comics.counts.issues }} issues and {{ catalog.comics.counts.trades }} trades across {{ catalog.comics.data.length }} series"
+---
+
+<style>
+    details .collection-grid {
+        background: var(--bg-darker);
+    }
+
+    .collection-grid {
+        grid-template-columns: repeat(5, 1fr);
+        padding: 10px;
+    }
+
+    .collection-image-wrapper a {
+        height: 250px;
+    }
+
+    .collection-image-wrapper {
+        height: 250px;
+        justify-content: flex-start;
+    }
+
+    .collection-image-wrapper img {
+        margin-left: 0;
+    }
+
+    @media (max-width: 650px)
+    {
+        .collection-grid {
+            grid-template-columns: repeat(2, 1fr);
+        }
+    }
+
+    .collection-label {
+        text-align: left;
+    }
+
+    .collection-label p {
+        margin: 0;
+    }
+
+    .collection-title {
+        font-weight: bold;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .collection-pub {
+        font-size: 0.8em;
+        margin-top: 0;
+        margin-bottom: 0;
+    }
+
+    .collection-comic-wrapper {
+        display: flex;
+        align-items: center;
+        position: relative;
+    }
+
+    summary {
+        list-style-type: none;
+        background: var(--bg-darker);
+        padding: 10px;
+    }
+
+    summary:hover {
+        cursor: pointer;
+    }
+
+    details {
+        margin-bottom: 10px;
+    }
+
+    .collection-data {
+        margin-left: 10px;
+    }
+
+    .indicator {
+        position: absolute;
+        right: 0;
+    }
+
+    details .indicator::before {
+        content: '▶'
+    }
+
+    details[open] .indicator::before {
+        content: '▼'
+    }
+
+    .collection-comic-image {
+        max-height: 150px;
+    }
+        
+</style>
+
+<h3>Series with multiple issues or trades</h3>
+
+{%- for series in catalog.comics.data %}
+    <details>
+        <summary>
+            <div class="collection-comic-wrapper">
+                <div>
+                    <img class="collection-comic-image" src="{{ series.cover_medium }}">
+                </div>
+                <div class="collection-data">
+                    <p class="collection-title">{{ series.name }}</p>
+                    <p class="collection-pub">{{ series.publisher }}</p>
+                    <p class="collection-pub">{{ series.date_start }}{% if series.date_start !== series.date_end %} - {{ series.date_end }}{% endif %}</p>
+                    <p class="collection-pub">
+                        {% if series.issues.length %}
+                            {{ series.issues.length }} issue{% if series.issues.length > 1 %}s{% endif %} {% if series.trades.length %}• {% endif %}
+                        {% endif %}
+                        {% if series.trades.length %}
+                            {{ series.trades.length }} trade{% if series.trades.length > 1 %}s{% endif %}
+                        {% endif %}
+                    </p>
+                    <p class="collection-pub"><a target="_blank" rel="noopener" href="{{ series.url }}">View Issues</a></p>
+                </div>
+                <div class="indicator"></div>
+            </div>
+        </summary>
+        <div class="collection-grid">
+        {%- for trade in series.trades %}
+            <div class="collection-item-wrapper">
+                <div class="collection-image-wrapper">
+                    <a target="_blank" rel="noopener" href="{{ trade.url }}">
+                        <img src="{{ trade.cover_medium }}">
+                    </a>
+                </div>
+                <div class="collection-label">
+                    <p class="collection-title">{{ trade.name }}</p>
+                    <p class="collection-pub">{{ trade.publisher }} • {{ trade.date_string }}</p>
+                </div>
+            </div>
+        {% endfor%}
+        {%- for issue in series.issues %}
+            <div class="collection-item-wrapper">
+                <div class="collection-image-wrapper">
+                    <a target="_blank" rel="noopener" href="{{ issue.url }}">
+                        <img src="{{ issue.cover_medium }}">
+                    </a>
+                </div>
+                <div class="collection-label">
+                    <p class="collection-title">{{ issue.name }}</p>
+                    <p class="collection-pub">{{ issue.publisher }} • {{ issue.date_string }}</p>
+                </div>
+            </div>
+        {% endfor%}
+        </div>
+    </details>
+{% endfor %}
+
+<h3>Series with a single issue or trade</h3>
+
+<div class="collection-grid">
+    {%- for series in catalog.comics.single %}
+        <div class="collection-item-wrapper">
+            <div class="collection-image-wrapper">
+                <a target="_blank" rel="noopener" href="{{ series.url }}">
+                    <img src="{{ series.cover_medium }}">
+                  </a>
+            </div>
+            <div class="collection-label">
+                <p class="collection-title">{{ series.name }}</p>
+                <p class="collection-pub">{{ series.publisher }} • {{ series.date_start }}</p>
+                <p class="collection-pub">
+                    {% if series.issues.length %}
+                        {{ series.issues.length }} issue{% if series.issues.length > 1 %}s{% endif %} {% if series.trades.length %}• {% endif %}
+                    {% endif %}
+                    {% if series.trades.length %}
+                        {{ series.trades.length }} trade{% if series.trades.length > 1 %}s{% endif %}
+                    {% endif %}
+                </p>
+            </div>
+        </div>
+    {% endfor%}
+</div>

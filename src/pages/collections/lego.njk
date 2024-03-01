@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Lego Collection
   parent: Collections
 eleventyComputed:
-    subtitle: "{{ lego.count.sets }} sets with {{ lego.count.pieces }} pieces across {{ lego.count.themes }} themes"
+    subtitle: "{{ catalog.lego.count.sets }} sets with {{ catalog.lego.count.pieces }} pieces across {{ catalog.lego.count.themes }} themes"
 ---
 
 <style>
@@ -19,12 +19,12 @@ eleventyComputed:
     <summary>
         <span>
             <span class="summary-wrap">
-                Loose Minifigures ({{ lego.minifigures.loose.length }})
+                Loose Minifigures ({{ catalog.lego.minifigures.loose.length }})
             </span>
         </span>
     </summary>
     <div class="collection-grid">
-        {%- for minifig in lego.minifigures.loose %}
+        {%- for minifig in catalog.lego.minifigures.loose %}
             <div class="collection-item-wrapper">
                 <div class="collection-image-wrapper">
                     <a target="_blank" rel="noopener" href="https://brickset.com/minifigs/{{ minifig.id }}">
@@ -41,12 +41,12 @@ eleventyComputed:
     <summary>
         <span>
             <span class="summary-wrap">
-                Minifigures from sets ({{ lego.minifigures.sets.length }})
+                Minifigures from sets ({{ catalog.lego.minifigures.sets.length }})
             </span>
         </span>
     </summary>
     <div class="collection-grid">
-        {%- for minifig in lego.minifigures.sets %}
+        {%- for minifig in catalog.lego.minifigures.sets %}
             <div class="collection-item-wrapper">
                 <div class="collection-image-wrapper">
                     <a target="_blank" rel="noopener" href="https://brickset.com/minifigs/{{ minifig.id }}">
@@ -59,17 +59,17 @@ eleventyComputed:
     </div>
 </details>
 
-{%- for theme in lego.themes %}
+{%- for theme in catalog.lego.themes %}
     <details class="collection-grid-container">
         <summary>
             <span>
                 <span class="summary-wrap">
-                    {{ theme }} ({{ lego.sets[theme].length }})
+                    {{ theme }} ({{ catalog.lego.sets[theme].length }})
                 </span>
             </span>
         </summary>
         <div class="collection-grid">
-            {%- for set in lego.sets[theme] %}
+            {%- for set in catalog.lego.sets[theme] %}
                 <div class="collection-item-wrapper">
                     <div class="collection-image-wrapper">
                         <a target="_blank" rel="noopener" href="{{ set.url }}">

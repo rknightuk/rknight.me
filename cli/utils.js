@@ -23,6 +23,9 @@ const _fetchPageHtml = async (link) => {
 }
 
 export default {
+    slugify: (string) => {
+        return string.toLowerCase().replace(/[^\w\s]/gi, '').split(' ').join('-')
+    },
     fetchPageHtml: async (link) => {
         return await _fetchPageHtml(link)
     },
