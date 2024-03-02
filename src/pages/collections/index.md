@@ -10,3 +10,4 @@ eleventyNavigation:
 
 - [Games](/collections/games)
 - [Lego](/collections/lego)
+- [Comics](/collections/comics)
