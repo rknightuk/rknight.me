@@ -30,7 +30,15 @@ export default async (__siteroot) => {
       actionFigure: {
         name: 'Action Figure Variants',
         issues: [],
-      }
+      },
+      whatIf: {
+        name: 'What If?',
+        issues: [],
+      },
+      trueBelievers: {
+        name: 'True Believers Reprints',
+        issues: [],
+      },
     }
 
     const keyedSeries = {
@@ -98,6 +106,10 @@ export default async (__siteroot) => {
         lists.xmenblack.issues.push(issue)
       } else if (issue.name.includes('Action Figure')) {
         lists.actionFigure.issues.push(issue)
+      } else if (issue.name.includes('What If')) {
+        lists.whatIf.issues.push(issue)
+      } else if (issue.name.includes('True Believers')) {
+        lists.trueBelievers.issues.push(issue)
       }
     })
 
