@@ -134,6 +134,19 @@ eleventyComputed:
             </div>
         </summary>
         <div class="collection-grid">
+        {%- for omni in series.omnis %}
+            <div class="collection-item-wrapper">
+                <div class="collection-image-wrapper">
+                    <a target="_blank" rel="noopener" href="{{ omni.url }}">
+                        <img src="{{ omni.cover_medium }}">
+                    </a>
+                </div>
+                <div class="collection-label">
+                    <p class="collection-title">{{ omni.name }}</p>
+                    <p class="collection-pub">{{ omni.publisher }} • {{ omni.date_string }}</p>
+                </div>
+            </div>
+        {% endfor%}
         {%- for trade in series.trades %}
             <div class="collection-item-wrapper">
                 <div class="collection-image-wrapper">
@@ -175,17 +188,39 @@ eleventyComputed:
                   </a>
             </div>
             <div class="collection-label">
-                <p class="collection-title">{{ series.name }}</p>
+                <p class="collection-title">{{ series.entry.name }}</p>
                 <p class="collection-pub">{{ series.publisher }} • {{ series.date_start }}</p>
-                <p class="collection-pub">
-                    {% if series.issues.length %}
-                        {{ series.issues.length }} issue{% if series.issues.length > 1 %}s{% endif %} {% if series.trades.length %}• {% endif %}
-                    {% endif %}
-                    {% if series.trades.length %}
-                        {{ series.trades.length }} trade{% if series.trades.length > 1 %}s{% endif %}
-                    {% endif %}
-                </p>
             </div>
         </div>
     {% endfor%}
 </div>
+
+<h3>Variant Lists</h3>
+
+{%- for list in catalog.comics.lists %}
+    <details>
+        <summary>
+            <div class="collection-comic-wrapper">
+                <div class="collection-data">
+                    <p class="collection-title">{{ list.name }}</p>
+                </div>
+                <div class="indicator"></div>
+            </div>
+        </summary>
+        <div class="collection-grid">
+        {%- for issue in list.issues %}
+            <div class="collection-item-wrapper">
+                <div class="collection-image-wrapper">
+                    <a target="_blank" rel="noopener" href="{{ issue.url }}">
+                        <img src="{{ issue.cover_medium }}">
+                    </a>
+                </div>
+                <div class="collection-label">
+                    <p class="collection-title">{{ issue.name }}</p>
+                    <p class="collection-pub">{{ issue.publisher }} • {{ issue.date_string }}</p>
+                </div>
+            </div>
+        {% endfor%}
+        </div>
+    </details>
+{% endfor%}

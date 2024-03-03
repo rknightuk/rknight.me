@@ -10,10 +10,41 @@ dotenv.config()
 export default async (__siteroot) => {
     const USER_ID = 390396
 
-    const keyedSeries = {}
+    const lists = {
+      battleLines: {
+        name: 'Battle Lines Variants',
+        issues: [],
+      },
+      hipHop: {
+        name: 'Hip-Hop Variants',
+        issues: [],
+      },
+      nakayama: {
+        name: 'David Nakayama Variants',
+        issues: [],
+      },
+      xmenblack: {
+        name: 'X-Men Black Mugshot Variants',
+        issues: [],
+      },
+      actionFigure: {
+        name: 'Action Figure Variants',
+        issues: [],
+      }
+    }
+
+    const keyedSeries = {
+      'orphaned': {
+        name: 'Ominbuses, One-Shots, and Annuals',
+        trades: [],
+        issues: [],
+        omnis: [],
+      }
+    }
     const counts = {
         trades: 0,
         issues: 0,
+        omnis: 0,
     }
     const seriesCollection = await fetchCollection(USER_ID, CollectionTypes.Series, {
         sort: SortTypes.AlphaAsc
@@ -23,6 +54,7 @@ export default async (__siteroot) => {
         ...series,
         trades: [],
         issues: [],
+        omnis: [],
       }
     });
 
@@ -39,9 +71,12 @@ export default async (__siteroot) => {
         name = 'Horizon: Zero Dawn'
       }
 
-      const collectionKey = issue.name.endsWith(' TP') ? 'trades' : 'issues'
+      let collectionKey = issue.name.endsWith(' TP') ? 'trades' : 'issues'
+      if (issue.name.includes('Omnibus')) {
+        collectionKey = 'omnis'
+      }
       counts[collectionKey]++
-      let nameKey = null
+      let nameKey = 'orphaned'
 
       if (keyedSeries[name]) {
         nameKey = name
@@ -51,17 +86,34 @@ export default async (__siteroot) => {
         nameKey = name3
       }
 
-      if (nameKey) {
-        keyedSeries[nameKey][collectionKey].push(issue)
-      } else {
-        console.log(`No series found for ${issue.name}`)
+      keyedSeries[nameKey][collectionKey].push(issue)
+
+      if (issue.name.includes('Battle Lines')) {
+        lists.battleLines.issues.push(issue)
+      } else if (issue.name.includes('Hip-Hop')) {
+        lists.hipHop.issues.push(issue)
+      } else if (issue.name.includes('Nakayama')) {
+        lists.nakayama.issues.push(issue)
+      } else if (issue.name.includes(' Mugshot')) {
+        lists.xmenblack.issues.push(issue)
+      } else if (issue.name.includes('Action Figure')) {
+        lists.actionFigure.issues.push(issue)
       }
-      
     })
 
     fs.writeFileSync(`${__siteroot}/src/_data/catalog/comics.json`, JSON.stringify({
       data: Object.values(keyedSeries).filter(series => series.issues.length + series.trades.length > 1),
-      single: Object.values(keyedSeries).filter(series => series.issues.length + series.trades.length === 1),
+      single: Object.values(keyedSeries).filter(series => series.issues.length + series.trades.length === 1).map(s => {
+        return {
+          ...s,
+          entry: {
+            ...s.issues[0],
+            ...s.trades[0],
+            ...s.omnis[0],
+          }
+        }
+      }),
+      lists: Object.values(lists),
       counts,
     }, null, 2), { flag: "w" })
 }
