@@ -47,7 +47,7 @@ export default async (__siteroot) => {
 
     const keyedSeries = {
       'orphaned': {
-        name: 'Ominbuses, One-Shots, and Annuals',
+        name: 'Omnibuses, One-Shots, and Annuals',
         trades: [],
         issues: [],
         omnis: [],
