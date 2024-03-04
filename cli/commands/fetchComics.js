@@ -39,6 +39,10 @@ export default async (__siteroot) => {
         name: 'True Believers Reprints',
         issues: [],
       },
+      womensHistory: {
+        name: 'Jen Bartel Women\'s History Month Variants',
+        issues: [],
+      }
     }
 
     const keyedSeries = {
@@ -103,6 +107,7 @@ export default async (__siteroot) => {
       if (issue.name.includes('Action Figure')) lists.actionFigure.issues.push(issue)
       if (issue.name.includes('What If')) lists.whatIf.issues.push(issue)
       if (issue.name.includes('True Believers')) lists.trueBelievers.issues.push(issue)
+      if (issue.name.includes('Women\'s History')) lists.womensHistory.issues.push(issue)
     })
 
     fs.writeFileSync(`${__siteroot}/src/_data/catalog/comics.json`, JSON.stringify({
