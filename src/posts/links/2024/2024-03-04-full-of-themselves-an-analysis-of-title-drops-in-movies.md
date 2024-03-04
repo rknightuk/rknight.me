@@ -9,4 +9,4 @@ author:
   mastodon: https://vis.social/@dominikus
 ---
 
-This is trulty incredible, I love a good title drop and seeing data presented like this. It even has a fun little explorer to make your own lists so I made one for Back to the Future https://www.titledrops.net/explorer?movies=tt0088763+tt0096874+tt0099088&title=Back%20to%20the%20Future
+This is truly incredible, I love a good title drop and seeing data presented like this. It even has a fun little explorer to make your own lists so I made one for Back to the Future https://www.titledrops.net/explorer?movies=tt0088763+tt0096874+tt0099088&title=Back%20to%20the%20Future
