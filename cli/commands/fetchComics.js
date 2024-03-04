@@ -96,21 +96,13 @@ export default async (__siteroot) => {
 
       keyedSeries[nameKey][collectionKey].push(issue)
 
-      if (issue.name.includes('Battle Lines')) {
-        lists.battleLines.issues.push(issue)
-      } else if (issue.name.includes('Hip-Hop')) {
-        lists.hipHop.issues.push(issue)
-      } else if (issue.name.includes('Nakayama')) {
-        lists.nakayama.issues.push(issue)
-      } else if (issue.name.includes(' Mugshot')) {
-        lists.xmenblack.issues.push(issue)
-      } else if (issue.name.includes('Action Figure')) {
-        lists.actionFigure.issues.push(issue)
-      } else if (issue.name.includes('What If')) {
-        lists.whatIf.issues.push(issue)
-      } else if (issue.name.includes('True Believers')) {
-        lists.trueBelievers.issues.push(issue)
-      }
+      if (issue.name.includes('Battle Lines')) lists.battleLines.issues.push(issue)
+      if (issue.name.includes('Hip-Hop')) lists.hipHop.issues.push(issue)
+      if (issue.name.includes('Nakayama')) lists.nakayama.issues.push(issue)
+      if (issue.name.includes(' Mugshot')) lists.xmenblack.issues.push(issue)
+      if (issue.name.includes('Action Figure')) lists.actionFigure.issues.push(issue)
+      if (issue.name.includes('What If')) lists.whatIf.issues.push(issue)
+      if (issue.name.includes('True Believers')) lists.trueBelievers.issues.push(issue)
     })
 
     fs.writeFileSync(`${__siteroot}/src/_data/catalog/comics.json`, JSON.stringify({
