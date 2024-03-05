@@ -82,7 +82,7 @@ Because the SVGs have `fill="currentColor` set instead of a specific color, we c
 
 Which will output the icon:
 
-![](https://rknightuk.s3.amazonaws.com/site/svg-icon-coffee.png)
+![](https://cdn.rknight.me/site/svg-icon-coffee.png)
 
 You _can_ just paste in your SVGs to make a sprite or you can do what I do and use [https://svgsprit.es](https://svgsprit.es/). You can drop in a bunch of SVGs and it will give you back your sprite for putting on your site. A lot of static site generators also have plugins to do this, for example [this one for Eleventy](https://github.com/patrickxchong/eleventy-plugin-svg-sprite).
 

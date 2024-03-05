@@ -8,7 +8,7 @@ tags:
     - Personal
 ---
 
-![Happy Birthday card from Jason](https://rknightuk.s3.amazonaws.com/site/happy-birthday-robb-from-jason.jpg)
+![Happy Birthday card from Jason](https://cdn.rknight.me/site/happy-birthday-robb-from-jason.jpg)
 
 It's my birthday today and [Jason](https://grepjason.sh) has been more enthusiastic than anyone about it, including me. He sent me this e-card and email which I'm sure he definitely hand-crafted himself. It's a response to [this toot about my home insurance company emailing me](https://social.lol/@robb/111727140488170177) which totally wasn't a "_thinly-veiled “please wish me a happy birthday, people of Mastodon” post_"[^1].
 

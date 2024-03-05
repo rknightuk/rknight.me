@@ -127,7 +127,7 @@ Fatal error: Allowed memory size of 536870912 bytes exhausted
 
 I hadn't actually looked at the real input at this point. The real input has _huge_ numbers compared to the sample input so the range generation was causing PHP to run out of memory. Which means I had to rethink my solution _or_ throw a bunch of memory at it and hope for the best.
 
-![Button meme showing "Make my code better" on one side and "give it ALL the memory I can"](https://rknightuk.s3.amazonaws.com/site/advent-button-meme.png)
+![Button meme showing "Make my code better" on one side and "give it ALL the memory I can"](https://cdn.rknight.me/site/advent-button-meme.png)
 
 So I ran it with 64GB of memory: `php -d memory_limit=64000M 1.php` and it worked! Or at least, it ran. It gave me an answer that was wrong. I had a better look at the numbers in the real input and called it a day. 
 

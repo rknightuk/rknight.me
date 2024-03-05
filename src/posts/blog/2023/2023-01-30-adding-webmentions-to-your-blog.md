@@ -166,6 +166,6 @@ eleventyConfig.addFilter('webmentionsByUrl', function(webmentions, url) {
 
 A little bit of CSS later and we have lift off:
 
-![Webmentions example](https://rknightuk.s3.amazonaws.com/site/webmentions.png)
+![Webmentions example](https://cdn.rknight.me/site/webmentions.png)
 
 You might even see some webmentions below this post if I'm lucky.

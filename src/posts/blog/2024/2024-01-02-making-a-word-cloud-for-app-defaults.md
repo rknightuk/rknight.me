@@ -134,6 +134,6 @@ Once I had my data I added it to the window object on [the Word Cloud page](http
 
 The final result as of this writing ([view the live version here](https://defaults.rknight.me/wordcloud/)):
 
-![App Defaults word cloud](https://rknightuk.s3.amazonaws.com/site/app-defaults-word-cloud.jpg)
+![App Defaults word cloud](https://cdn.rknight.me/site/app-defaults-word-cloud.jpg)
 
 [^1]: What a strange format choice

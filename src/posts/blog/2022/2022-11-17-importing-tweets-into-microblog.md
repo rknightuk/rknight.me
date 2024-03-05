@@ -15,7 +15,7 @@ One thing that had annoyed me for a while is I didn't keep a diary/note of thing
 
 Once I had the IDs it was a case of getting the format correctly (for example, Micro.blog will fail an import with empty categories in the YAML). I was able to take ~450 tweets, convert them to markdown and [import them into Micro.blog](https://toot.rknight.me/categories/imported-tweets/). For example, this tweet:
 
-![](https://rknightuk.s3.amazonaws.com/site/boristweet.png)
+![](https://cdn.rknight.me/site/boristweet.png)
 
 becomes:
 

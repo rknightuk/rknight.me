@@ -5,7 +5,7 @@ date: 2011-08-15 12:00:09
 layout: post
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/ab-wedding-website.png)
+![](https://cdn.rknight.me/site/ab-wedding-website.png)
 
 A few months ago, one of my best friends told me he was getting married in March. Being the geek that I am, my first thought wasn't about getting a new suit, buying them a present or even where I would stay after the reception (it's out of town); my first thought was "_Oooh wedding website_". I'd seen a few articles on the subject so I offered to create one for them, which also negated the need to buy them a gift.[^1]
 

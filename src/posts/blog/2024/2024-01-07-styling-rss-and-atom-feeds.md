@@ -11,7 +11,7 @@ tags:
 
 Styled XML? Well, I never. Look at my RSS feeds all styled and fancy:
 
-![My RSS feed preview](https://rknightuk.s3.amazonaws.com/site/rss-feed-styled.png)
+![My RSS feed preview](https://cdn.rknight.me/site/rss-feed-styled.png)
 
 This is done with [XSLT stylesheets](https://developer.mozilla.org/en-US/docs/Web/XSLT/Element/stylesheet). A truly exciting phrase. I would recommend reading [Darek Kay's post](https://darekkay.com/blog/rss-styling/) on how to do this as well as mine. I won't be repeating everything Darek wrote in his post but I do have some additional details I wanted to note down.
 

@@ -10,7 +10,7 @@ tags:
 project: https://github.com/rknightuk/custom-finder-sidebar-icons
 ---
 
-![Custom icons in the Finder](https://rknightuk.s3.amazonaws.com/site/custom-icons.png)
+![Custom icons in the Finder](https://cdn.rknight.me/site/custom-icons.png)
 
 MacOS customisation is basically dead. Plenty of apps that used to work, no longer do. You can still have custom folder icons which is nice but I wanted custom sidebar icons for those folders, like [the developer one](https://rknight.me/micro/110615734381939778/). 
 

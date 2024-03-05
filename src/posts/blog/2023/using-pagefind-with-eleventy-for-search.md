@@ -83,5 +83,5 @@ PageFind requires an element with an ID which can then be passed to the script.
 
 Run your Eleventy serve script and if everything has worked, you should have a functioning search that searches all your posts:
 
-![Search box with McFly as the search term and three results](https://rknightuk.s3.amazonaws.com/site/pagefind-eleventy.png)
+![Search box with McFly as the search term and three results](https://cdn.rknight.me/site/pagefind-eleventy.png)
 The code for this is [on GitHub](https://github.com/rknightuk/eleventy-pagefind-demo) and there is a [live demo here](https://rknightuk.github.io/eleventy-pagefind-demo).

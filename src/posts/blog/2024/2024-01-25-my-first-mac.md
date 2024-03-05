@@ -17,11 +17,11 @@ My first Mac was a 2009 27” iMac. It was a Christmas present from my parents. 
 
 Having been on hand-me-down crappy Windows laptops prior to the iMac I was blown away. The screen, the OS in general, and the third party apps. In particular, Panic’s Coda is the one I remember the most - I even used their font for my HTML and CSS tattoos. 
 
-![css tattoo](https://rknightuk.s3.amazonaws.com/site/css-tattoo.jpg)
+![css tattoo](https://cdn.rknight.me/site/css-tattoo.jpg)
 
 That iMac lasted me a long time as both my general computer and my “TV”. Then a few years in the hard drive failed which meant I had to take it apart and replace the drive. If you don’t know, to get to anything in one of these iMacs, you need to get the glass off the front, ideally with specialised tools that I didn’t have, so I used a toilet plunger instead[^1]. 
 
-![iMac maintenence](https://rknightuk.s3.amazonaws.com/site/imac-maintenance.jpg)
+![iMac maintenence](https://cdn.rknight.me/site/imac-maintenance.jpg)
 
 Another fun thing about this; the hard drives in these iMac also include temperature sensors. At the time, I couldn’t afford one with the sensor so I installed a normal drive and then used a third party app called something like “fan control pro”. When it booted up and the app wasn’t running, the fans would run on full until the app launched. Good times. 
 

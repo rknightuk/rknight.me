@@ -7,7 +7,7 @@ permalink: /almanac/games/2019-10-06-the-last-of-us/index.html
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/lastofus.jpg
+    - url: https://cdn.rknight.me/almanac/lastofus.jpg
 ---
 
 I'm about 6 years late but it was so worth it.

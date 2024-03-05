@@ -8,7 +8,7 @@ tags:
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/740ce08963.jpg)
+![](https://cdn.rknight.me/site/appadvice/740ce08963.jpg)
 
 ### Overview
 
@@ -16,7 +16,7 @@ When you sit at you computer and you need to send something to your iPhone, what
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/10297fc739.jpg) 
+![](https://cdn.rknight.me/site/appadvice/10297fc739.jpg) 
 
 - Works with Mac, Windows and Linux 
 - Works from any web browser 
@@ -29,11 +29,11 @@ When you sit at you computer and you need to send something to your iPhone, what
 
 To start sending data your iPhone with myPhoneDesktop (MPD), you need to create an account within the app and choose which method of sending you want to use. The best method, in my opinion, is the desktop client. [Go over to the app's website](http://myphonedesktop.com/), download the client for your operating system (versions are available for Mac, Windows and Linux) and then install it. The two other methods are web-based; the first is simply a pop-up window on the MPD website. Click 'run in browser', login, and start inputting your content. The second method is a bookmarklet. Again, this can be accessed and added to your favourites from the MPD website. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/18b6de801b.jpg)
+![](https://cdn.rknight.me/site/appadvice/18b6de801b.jpg)
 
 The desktop and web-based clients work in an almost identical way. Choose phone number, text message, photo or URL and start typing or pasting content. Type a phone number and select either phone, sms, show or copy. Selecting 'phone' will send the number to your iPhone, open the MPD app and then start the phone call. The sms option adds the phone number to the recipient field in a new sms chat and the text you have written will be added to the clipboard for you to paste in. Show and copy, as you can guess, simply sends the text to your iPhone, with the latter option adding the text to your clipboard. MPD also allows you to complete the same tasks with a URL. If you want to send a photo to the app, you can either choose a file on your computer, or paste in a URL. You can choose for the app to automatically save it to your camera roll, simply show the photo or copy it to your clipboard. Whenever you send something to your device, you will receive a push notification pop-up window informing you that something has been sent. Simply press 'view' and myPhoneDesktop will open. The app will then process what you have sent and complete any tasks it needs to (save, copy to clipboard, phone a number). 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/ddc222f77d.jpg)
+![](https://cdn.rknight.me/site/appadvice/ddc222f77d.jpg)
 
 In the settings of the desktop app, you can set a keyboard shortcut to instantly send whatever is in the clipboard. You can also import contacts (although I couldn't get this to work, I kept getting an error), set the order of contacts, toggle the keyboard shortcut and a few other things. In the settings of the iPhone app you can choose from a variety of sounds for when you receive data, choose to get data manually and set actions depending on the type of data being received.
 

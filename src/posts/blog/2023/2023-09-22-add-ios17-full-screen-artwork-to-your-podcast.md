@@ -12,7 +12,7 @@ tl;dr: You can't set full screen artwork without being featured by Apple.
 
 In iOS17, the Apple Podcasts app has (for some shows) fancy new full screen artwork but I noticed that [my](https://ruminatepodcast.com) [shows](https://wegot.family) don't.
 
-![We Got Family artwork vs Connected in Apple Podcasts app](https://rknightuk.s3.amazonaws.com/site/full-screen-artwork.png)
+![We Got Family artwork vs Connected in Apple Podcasts app](https://cdn.rknight.me/site/full-screen-artwork.png)
 
 After some hunting around, some [tooting](https://social.lol/@robb/111105291859489382), and messaging [John](https://mastodon.macstories.net/@johnvoorhees), I came across [this page](https://podcasters.apple.com/support/866-promotional-artwork) that outlines the full screen artwork. It explains the sizes for hero images, channel covers, and full page show art. It even has photoshop templates. My podcasts are unlikely to be featured but I figured it was worth a shot.
 

@@ -16,7 +16,7 @@ In total I listened to just over 58 hours of main show and over ten hours of the
 
 ### Main Show
 
-- [Roast my desk please](https://rknightuk.s3.amazonaws.com/site/desk-2023.jpg)
+- [Roast my desk please](https://cdn.rknight.me/site/desk-2023.jpg)
 - 001 Jason tried Vegemite, has he tried marmite? 
 - 002 Martins “Game Boy micro USB” joke wasn’t acknowledged as it should have been 
 - 003 Did Jason ever develop the 1926 camera film? 
@@ -107,15 +107,15 @@ In total I listened to just over 58 hours of main show and over ten hours of the
 - 072 Martin will hate this sign from a UK chain where [“everyday” should be two words](https://www.alamy.com/stock-photo-a-poundland-store-sign-71740740.html?imageid=1F597E32-BEC1-46FC-9C74-1CCCBC895D64&p=179593&pn=1&searchId=8798bbaa288a340a187eb179f2e6aaea&searchtype=0)
 - 074 My favourite photos from 2022:
 
-![A phonebox with the words criminal damage graffitied on it](https://rknightuk.s3.amazonaws.com/site/2022-criminal-damage.jpg)
+![A phonebox with the words criminal damage graffitied on it](https://cdn.rknight.me/site/2022-criminal-damage.jpg)
 
 A phone box in Edinburgh
 
-![The Edinburgh skyline at night](https://rknightuk.s3.amazonaws.com/site/2022-edinburgh.jpg)
+![The Edinburgh skyline at night](https://cdn.rknight.me/site/2022-edinburgh.jpg)
 
 The Edinburgh skyline at night
 
-![Two wine glasses with the Pantheon in the background](https://rknightuk.s3.amazonaws.com/site/2022-pantheon.jpg)
+![Two wine glasses with the Pantheon in the background](https://cdn.rknight.me/site/2022-pantheon.jpg)
 
 Having a drink in front of the Pantheon
 
@@ -135,7 +135,7 @@ Having a drink in front of the Pantheon
 - 013 I have it on good authority that a lot of universities use group work so the students who are doing worse still pass because they get paired up with one or two people who will do the work
 - 016 My pre-teen photo, 5 years old on my last day of a holiday in Cyprus:
 
-![Me at 4 in Cyprus](https://rknightuk.s3.amazonaws.com/site/me-young.jpg)
+![Me at 4 in Cyprus](https://cdn.rknight.me/site/me-young.jpg)
 
 - 016 wtf is ham sauce for beans 
 - 019 The kebab story 👏 

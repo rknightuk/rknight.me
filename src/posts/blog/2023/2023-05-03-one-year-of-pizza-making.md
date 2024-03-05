@@ -19,7 +19,7 @@ When I bought the oven I also picked up two peels: a [wooden one](https://uk.oon
 
 ### Dough
 
-![My first attempt](https://rknightuk.s3.amazonaws.com/site/pizza-first.jpg)
+![My first attempt](https://cdn.rknight.me/site/pizza-first.jpg)
 
 My first batch was reasonably tasty but completely misshapen and definitely not thin enough. I figured using a rolling pin would be fine for rolling out the dough but that doesn't really get it thin enough and also removes a lot of the gas that makes a nice fluffy but crunchy crust. Rolling also made the dough stick to the peel and was really difficult to slide it off into the oven, even with a lot of flour underneath. 
 
@@ -29,7 +29,7 @@ I used bread flour I had lying around for the first attempt which I've since fou
 
 I mix everything by hand (if someone wants to buy me a stand mixer I won't say no) in a metal mixing bowl, and use that for the first 2 hour proofing, then transfer the individual balls of dough into [these pots](https://www.amazon.co.uk/dp/B07D7MNHVP), with a bit of oil to stop them from sticking, and leave them to proof for another 2 hours. If I'm making more than I need I freeze after the first proof and get them out 12-24 hours before I need them and defrost in the fridge.
 
-![Dough in a pot](https://rknightuk.s3.amazonaws.com/site/pizza-pot.jpg)
+![Dough in a pot](https://cdn.rknight.me/site/pizza-pot.jpg)
 
 ### Sauce
 
@@ -57,4 +57,4 @@ Finally some other ingredients I've been enjoying:
 - Candied Jalapenos. I've been using [these ones from Haynes](https://www.amazon.co.uk/Haynes-Gourmet-Candied-Jalapenos-%C2%AE/dp/B07JDSP47S/) but I have some fresh jalapenos on the way to attempt to make my own.
 - A liberal sprinkle of parmesan (or whatever hard italian cheese I can get my hands on).
 
-![My latest pizza](https://rknightuk.s3.amazonaws.com/site/pizza-latest.jpg)
+![My latest pizza](https://cdn.rknight.me/site/pizza-latest.jpg)

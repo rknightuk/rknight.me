@@ -7,7 +7,7 @@ permalink: /almanac/games/2020-09-10-tony-hawks-pro-skater-12/index.html
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/thps12.jpg
+    - url: https://cdn.rknight.me/almanac/thps12.jpg
 ---
 
 This is the perfect remaster. It's exactly like I remember it (it's not, the originals look terrible now) and adds a lot of modern touches that make sense and make this properly complete game. I'm going to be doing the challenges for a long time. The new soundtrack is incredible as well.

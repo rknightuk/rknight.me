@@ -8,7 +8,7 @@ tags:
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/9e5cdb75c3.jpg)
+![](https://cdn.rknight.me/site/appadvice/9e5cdb75c3.jpg)
 
 ### Overview
 
@@ -16,7 +16,7 @@ If you use the internet, chances are you have at least one social networking acc
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/9dcf8ea4d6.jpg)
+![](https://cdn.rknight.me/site/appadvice/9dcf8ea4d6.jpg)
 
 - Support for Facebook and Twitter 
 - Multiple account support 
@@ -29,7 +29,7 @@ If you use the internet, chances are you have at least one social networking acc
 
 To get started, add your Facebook and Twitter account. Jump into settings, input your credentials and your ready to start updating. qStatus allows you to add more than one of each type of account as well. To update your status, start typing in the text box. If you want to add photos or video to your update you can either use the camera, or select something from the camera roll. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/44346f8d69.jpg)
+![](https://cdn.rknight.me/site/appadvice/44346f8d69.jpg)
 
 If you want to add what music you are listening to, simply press the music note icon and the artist, song title and URL will be added. The location icon can be used to either geotag your status, add a map URL or update your profile location. qStatus also includes a Twitter trends browser, URL shortening and saving of drafts. Once you've added all this extra information to your status, hit the update status button and you're done. 
 

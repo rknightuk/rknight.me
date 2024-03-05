@@ -11,9 +11,9 @@ tags:
 
 I've published a new [Micro.blog](https://micro.blog) plugin called [Lite YouTube](https://github.com/rknightuk/micro-blog-lite-youtube) which does one thing: finds YouTube links in posts and appends a [lite-youtube-embed](https://github.com/paulirish/lite-youtube-embed) to the post. Example before and after below:
 
-![](https://rknightuk.s3.amazonaws.com/site/lite-youtube-before.png)
+![](https://cdn.rknight.me/site/lite-youtube-before.png)
 
-![](https://rknightuk.s3.amazonaws.com/site/lite-youtube-after.png)
+![](https://cdn.rknight.me/site/lite-youtube-after.png)
 
 You can see it working on [this post about The Last of Us](https://toot.rknight.me/2022/12/04/last-of-us.html) or on [this post with two videos](https://toot.rknight.me/2022/11/22/i-just-realised.html).
 

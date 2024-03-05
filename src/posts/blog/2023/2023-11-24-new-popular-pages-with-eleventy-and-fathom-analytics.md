@@ -189,4 +189,4 @@ Then the `popular_posts.njk` include looks like this:
 
 And the final result (or you can look just below this post and they _should_ be there unless I broke something, or got bored and removed them 🙃). If you don't have analytics yet and want to use Fathom [my referral link](https://usefathom.com/ref/IXCLSF) will give you $10 credit - I've been using them for a quite a while and use them on all of my sites.
 
-![Popular Posts screenshot](https://rknightuk.s3.amazonaws.com/site/fathom-popular-posts.jpg)
+![Popular Posts screenshot](https://cdn.rknight.me/site/fathom-popular-posts.jpg)

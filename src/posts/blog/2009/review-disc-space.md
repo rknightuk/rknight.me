@@ -15,6 +15,6 @@ Have you ever wanted to know how much space is left on your iPhone without conne
 
 Disc Space is simple utility that will tell you the total, free and used space on your iPhone, as well as showing you the data in a handy pie chart.
 
-![](https://rknightuk.s3.amazonaws.com/site/iphoneworldca/discspace.png)
+![](https://cdn.rknight.me/site/iphoneworldca/discspace.png)
 
 Clicking on the Disc Space icon brings up all the information about the storage on your iPhone. This app is nothing spectacular but is useful nevertheless. Drive Space is available free from the iTunes app store.

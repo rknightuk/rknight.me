@@ -8,7 +8,7 @@ tags:
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/9f173c661f.jpg)
+![](https://cdn.rknight.me/site/appadvice/9f173c661f.jpg)
 
 ### Overview
 
@@ -16,7 +16,7 @@ The iPhone camera is severly lacking in features and this applies to the video f
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/24fad57bda.jpg)
+![](https://cdn.rknight.me/site/appadvice/24fad57bda.jpg)
 
 - Works with 2G, 3G and 3GS 
 - Upload to Twitter, Facebook, YouTube and Qik 
@@ -30,7 +30,7 @@ The iPhone camera is severly lacking in features and this applies to the video f
 
 The interface for Qik gives you access to all the functions so you can get straight on with recording as soon as the app opens. There's a button to record, access settings, library, zoom and a wheel to select the different available effects. You can also increase or decrease the brightness and zoom in, using the corresponding button on the main record screen. To start recording simple press the red record button and away you go. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/fb05babe35.jpg)
+![](https://cdn.rknight.me/site/appadvice/fb05babe35.jpg)
 
 If you want to add an effect to your video, simply spin the effects wheel above the main navigation bar at the bottom. Effects available include mirror, sepia, black and white and photo overlay. Each effect shows a real-time preview in a small box on the effects wheel for you to see what your video will look like. Effects can be picked before shotting video, or switched during the recording process. Photo overlay is the only exception as this requires you to pick a photo from your camera roll before you start recording. Once you have chosen one, you can erase parts of it so the video shows through simply by running your finger over the image. Once you have recorded your masterpiece you upload it to four different services; Facebook, Twitter, YouTube or Qik. Simply hit the library button, choose the video your want to upload and away you go. From here you can also add a title, add the video to your camera roll, delete it or send a link to the video (which will be uploaded to Qik) via email or SMS. When uploading to Qik, you can choose to use an existing account, sign up for a new one or 'auto', which creates a 'tempuser972346' username for you. If social networks aren't your thing, and you just want to save videos to your computer, Qik has wifi sharing. Go into the video details page, turn on wifi access and enter the ip address it gives you into your computer's web browser. Remember, this will only work if your iPhone and your computer are connected to the same wireless network. Qik also gives you the option to automatically upload videos to Qik once they have finished recording, which is great if you're like me and don't want to spend time uploading every time.
 
@@ -38,7 +38,7 @@ If you want to add an effect to your video, simply spin the effects wheel above 
 
 #### The Good
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/d51193c15f.jpg)
+![](https://cdn.rknight.me/site/appadvice/d51193c15f.jpg)
 
 Qik Video Camera Pro offers a varied amount of options to create the perfect video of your mate looking stupid playing Wii boxing, or whatever you might be recording. The interface is easy to use, if a little cluttered, and there are uploading options aplenty. Qik also allows you to import existing videos and upload to the services offered, so this elminates the need to have a seperate uploading app. The quality of the video produced isn't quite up to the standard the built-in app is, but it is high enough that no one would ever notice (I only know it's lower because the app store description says so). 
 

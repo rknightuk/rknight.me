@@ -13,7 +13,7 @@ Hey Bear is [a YouTube channel](https://www.youtube.com/channel/UCtf9cFBJkHVAf2q
 
 Last night my partner asked if I was okay because I looked distant and downtrodden. I wasn't sad or tired, I was pondering the biology of the fruits that dance in these videos.
 
-![Hey Bear Fruits](https://rknightuk.s3.amazonaws.com/site/hey-bear-fruit-banner.jpg)
+![Hey Bear Fruits](https://cdn.rknight.me/site/hey-bear-fruit-banner.jpg)
 
 The pineapple, Baby Knight's favourite, is a classic fruit-with-a-face; eyes and a mouth on the outside rind of the pineapple. Same with the strawberry, blueberry, and a bunch of others. Pretty standard fare for a children's cartoon, they seem to love it. Beyond those it gets a bit weird.
 

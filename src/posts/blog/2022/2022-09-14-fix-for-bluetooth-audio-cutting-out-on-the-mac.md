@@ -14,6 +14,6 @@ Had a google around and found [this thread](https://www.reddit.com/r/MacOSBeta/c
 
 I wish I'd looked for a solution sooner.
 
-![](https://rknightuk.s3.amazonaws.com/site/settings_airplay.png)
+![](https://cdn.rknight.me/site/settings_airplay.png)
 
 Update for Ventura: System Settings > General > AirDrop & Handoff. Thanks [Trevor](https://www.trevorkay.me).

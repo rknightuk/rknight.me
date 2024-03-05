@@ -6,7 +6,7 @@ permalink: /almanac/games/2018-07-15-mario-rabbids-dk/index.html
 platform: Switch
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/mario-rabbids-dk.jpg
+    - url: https://cdn.rknight.me/almanac/mario-rabbids-dk.jpg
 ---
 
 Not as good as the main game but still pretty enjoyable.

@@ -8,7 +8,7 @@ tags:
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/053da82adc.jpg)
+![](https://cdn.rknight.me/site/appadvice/053da82adc.jpg)
 
 ### Overview
 
@@ -16,7 +16,7 @@ You know how it is when you hear a song, like it, but don't know who the artist 
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/954ad27c50.jpg) 
+![](https://cdn.rknight.me/site/appadvice/954ad27c50.jpg) 
 
 - Simple one-click music tagging 
 - Links to YouTube and iTunes 
@@ -31,7 +31,7 @@ You know how it is when you hear a song, like it, but don't know who the artist 
 
 When you first open MusicID, as you'd expect, there is a big button to tag a song you're listening to. Tap this, hold it to the speaker and the song is automagically displayed on the screen for you. No surprises there. The song info screen shows the title, artist and which album the song is from as well as the album art for the single/album. From here you have a few options; you can buy the song on iTunes, find YouTube videos, look at the lyrics, see the location of where you tagged the song, view similar songs or email the song to a friend (a link to the song, not an mp3 file in case any of you were wondering). When you tag a song, it is automatically added to 'my songs', accessible from the button on the navigation bar. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/c183524cf0.jpg)
+![](https://cdn.rknight.me/site/appadvice/c183524cf0.jpg)
 
 The navigation bar also houses buttons for 'now playing', 'popular' and 'search'. Now playing accesses your iPod to see what song you are currently listening to (if any) and gives you information about that specific song. You can also skip to the next song in your library by tapping the status bar and using the controls that appear. The same applies to your own songs as with tagged songs; lyrics, videos, email and similar songs are all available. There is also an option to add the song to 'my songs'. If you go into my songs, you can see everything you have tagged and manually added, see only tagged songs or only manually added songs. Pressing the plus button in the right hand corner allows you to add any song from your library to your 'my songs' section of the app. The popular tab shows you the most popular songs that are being tagged at the moment. You can then see information such as lyrics and YouTube videos for each song. The final tab to talk about is search. The search function allows you to search the entire MusicID database based on artist, song or lyrics. Simply type in what you need and MusicID will come back with a list of matching results. This is great for when you can only remember a few lines of a song you heard.
 
@@ -39,7 +39,7 @@ The navigation bar also houses buttons for 'now playing', 'popular' and 'search'
 
 #### The Good
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/a2099a0848.jpg) 
+![](https://cdn.rknight.me/site/appadvice/a2099a0848.jpg) 
 
 MusicID offers everything you expect from a music tagging app and in my tests, it managed to find every song I could throw at it, including some lesser known songs. The search functionality is excellent and the similar songs option gives really good results unlike some other services. The interface is clean and easy to use and every feature is easy to find. 
 

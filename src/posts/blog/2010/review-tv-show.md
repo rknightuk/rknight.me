@@ -8,7 +8,7 @@ permalink: /blog/appadvice-review-tv-show/index.html
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/1fda0e26ef.jpg)
+![](https://cdn.rknight.me/site/appadvice/1fda0e26ef.jpg)
 
 ### Overview
 
@@ -16,7 +16,7 @@ If you watch a lot of TV shows, you know how difficult it can be to remember exa
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/bf2b6ef7d4.jpg) 
+![](https://cdn.rknight.me/site/appadvice/bf2b6ef7d4.jpg) 
 - See all past and future episodes 
 - Genius suggestions 
 - Viewing schedule 
@@ -25,7 +25,7 @@ If you watch a lot of TV shows, you know how difficult it can be to remember exa
 
 To start using TV Show tracker, you need to add some of your favourite shows. Simply search for the title of the show, select it from the list and it is added to your favourites. Once you have done this for all the shows you want to track, simply hit 'done'. Each show you added has it's own page so you can swipe between them to see when the past and next episodes are. You can view information about the episode if you're interested or if you need to work out if you have already seen it or not. Flip you iPhone on it's side and you will be shown a thumbnail view of all the shows you have added. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/b5aac21a7b.jpg)
+![](https://cdn.rknight.me/site/appadvice/b5aac21a7b.jpg)
 
 If you want to find something new to watch, simply shake your iPhone and TV Show tracker's 'genius' feature will kick in. You will then be shown a suggested show and can choose to either disregard it, or add it to your collection. You can do this as many times as you like and keep adding or removing shows depending on your tastes. Obviously, the more show you have added, the more accurate your genius suggestions will be. Once you have finished shaking, adding and ignoring shows, press the calendar icon in the bottom left. This brings up the viewing schedule showing the most recent episodes of all your shows, and all the upcoming ones. Clicking any of them will take you to that show's page in your library.
 

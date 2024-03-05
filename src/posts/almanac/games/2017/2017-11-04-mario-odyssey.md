@@ -6,7 +6,7 @@ permalink: /almanac/games/2017-11-04-mario-odyssey/index.html
 platform: Switch
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/mario-suit.jpg
+    - url: https://cdn.rknight.me/almanac/mario-suit.jpg
 ---
 
 This is going head-on against Jak and Daxter as my favourite platformer ever. Everything about this game oozes quality.

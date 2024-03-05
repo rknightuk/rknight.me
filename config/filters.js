@@ -40,8 +40,8 @@ module.exports = {
       return slugify(url, { lower: true })  
     },
     imageLink: (path) => {
-        if (path.startsWith('https://rknightuk.s3.amazonaws.com')) return path
-        return `https://rknightuk.s3.amazonaws.com/${path}`
+        if (path.startsWith('https://cdn.rknight.me')) return path
+        return `https://cdn.rknight.me/${path}`
     },
     toLowerCase: (string) => {
         return string.toLowerCase()

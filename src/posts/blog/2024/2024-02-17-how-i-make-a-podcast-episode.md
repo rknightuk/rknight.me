@@ -16,7 +16,7 @@ I record using a [Razer Seiren Mini](https://www.razer.com/streaming-microphones
 
 I record my microphone and the call itself, as a backup, with [Audio Hijack Pro](https://rogueamoeba.com/audiohijackpro/). My setup looks likes this:
 
-![Audio Hijack Setup](https://rknightuk.s3.amazonaws.com/site/audio-hijack.jpg)
+![Audio Hijack Setup](https://cdn.rknight.me/site/audio-hijack.jpg)
 
 The Skype (or Facetime or Zoom) audio is recorded to a file and output to my headphones. My microphone input is then recorded to it's own file.
 

@@ -17,7 +17,7 @@ Today, I attended a casual no-official-name hackathon. Just a bunch of people wo
 
 [Try it out here](https://pokedon.rknight.me).
 
-![Pokédon interface](https://rknightuk.s3.amazonaws.com/site/pokedon.png)
+![Pokédon interface](https://cdn.rknight.me/site/pokedon.png)
 
 It's fairly limited but you can:
 

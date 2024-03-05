@@ -105,7 +105,7 @@ oValues: (data) => {
 
 I also include other relevant discussion links where appropriate (like HackerNews) so those are also styled to match the toot card style. The final result looks like this:
 
-![Post Syndication](https://rknightuk.s3.amazonaws.com/site/post-syndication.png)
+![Post Syndication](https://cdn.rknight.me/site/post-syndication.png)
 
 This new version isn't webmentions. It doesn't check for replies or likes or boosts. This is just showing where I've posted links to my posts, or [syndication](https://indieweb.org/Category:syndication) as it's called in the indieweb world. This solves all of the privacy issues outlined in [my post](https://rknight.me/blog/mastodon-webmentions-and-privacy/) as well as ones [Wouter](https://brainbaking.com/post/2023/05/why-i-retired-my-webmention-server/), [Chris](https://chrismcleod.dev/blog/some-words-on-webmentions/), [Cam](https://campegg.com/2024/02/11/over-the-last.html), and others have mentioned.
 

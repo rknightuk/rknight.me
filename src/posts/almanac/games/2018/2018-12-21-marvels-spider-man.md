@@ -7,7 +7,7 @@ permalink: /almanac/games/2018-12-21-marvels-spider-man/index.html
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/spider-man-rami-subway.jpg
+    - url: https://cdn.rknight.me/almanac/spider-man-rami-subway.jpg
 ---
 
 This is _much_ harder than the main game and Screwball's stealth missions are really annoying.

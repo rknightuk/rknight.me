@@ -9,7 +9,7 @@ permalink: /blog/review-wolfram-alpha/index.html
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/672f11b0da.jpg)
+![](https://cdn.rknight.me/site/appadvice/672f11b0da.jpg)
 
 ### Overview
 
@@ -17,11 +17,11 @@ Ever since WolframAlpha realized their $50 mistake and [dropped the price of the
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/4c78b022ba.jpg) 
+![](https://cdn.rknight.me/site/appadvice/4c78b022ba.jpg) 
 
 Listing features for WolframAlpha is difficult for one reason: it does everything. And I mean everything. It's a calculator. It's a music database. Encyclopaedia. Stock tracker. Dictionary. Currency converter. You get the idea. You name it, WolframAlpha does it. I honestly couldn't go through everything WolframAlpha does, so rather, I'll go through how to use it. First off, WolframAlpha isn't search engine. 'How do I change the background color of my website?' as a search term just isn't going to cut it. But, 'HTML Pink' will show you the hex code, RGB code, complementary colors for pink and other shades of pink. Make sense? WolframAlpha gives information and data rather than links to web pages. WolframAlpha has a custom keyboard for searching which includes the standard qwerty keyboard as well as numbers and symbols above that. This gives you quick access to symbols that you would normally have to press the '123' button to get to. Once you have got the data you were looking for, your results are shown and they will likely include (depending on the data required) charts, graphs, tables, maps and images. You can expand most sections of the data to see more information and access similar data.
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/7e515b28c9.jpg)
+![](https://cdn.rknight.me/site/appadvice/7e515b28c9.jpg)
 
 Everything on the page is rendered as an image which can be saved to the camera roll, copied, shared on Twitter or emailed. You can also copy text from within an image for easy attaching to an email or sms. You can use data from a result as your next search, or 'input'. Similar to clicking on links to Wikipedia, you'll end up looking at data nothing to do with what you starting with (Six Degrees of WolframAlpha, anyone?). WolframAlpha also allows you to open results in Safari, add a specific search to favorites for easy access later as well as use an in-app browser to find out more about a specific subject.
 
@@ -29,7 +29,7 @@ Everything on the page is rendered as an image which can be saved to the camera 
 
 #### The Good
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/4b83bb26f0.jpg) 
+![](https://cdn.rknight.me/site/appadvice/4b83bb26f0.jpg) 
 
 WolframAlpha's interface is simply beautiful and it seems every little detail has been thought out carefully. Having a custom keyboard is a great idea that I think more apps should use. Loading times are fasts, there are plenty of examples to get you started and data can be shared quickly and easily. The in-app browser makes it easy to find out more information about a subject and favorites is organize in the same way as Safari for quick access to a subject. 
 

@@ -10,13 +10,13 @@ tags:
 project: https://crossover.rknight.me
 ---
 
-![Crossover logo](https://rknightuk.s3.amazonaws.com/site/crossover-logo.png)
+![Crossover logo](https://cdn.rknight.me/site/crossover-logo.png)
 
 Sometimes one idea begets another. In the case of [Crossover](https://crossover.rknight.me) I had the idea while building [DoubleShift](/doubleshift) but I was too far in to change it. DoubleShift also now has some fun additional features like leaderboards which only make sense for that site.
 
 Crossover, unlike DoubleShift, isn't limited to a handful of TV shows: if a show is in [The Movie Database](https://www.themoviedb.org/) you can compare it with Crossover.
 
-![Crossover screenshot](https://rknightuk.s3.amazonaws.com/site/crossover-screenshot.png)
+![Crossover screenshot](https://cdn.rknight.me/site/crossover-screenshot.png)
 
 There are a few pre-loaded shows on the site but you can search for any show - once you've found one, it gets added to the options so you can mix and match in any way you want.
 

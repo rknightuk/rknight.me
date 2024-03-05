@@ -20,11 +20,11 @@ After looking around for quite a while I finally decided to purchase Feeds by Pr
 
 When I first opened Feeds I was prompted for my Google email and password, and after inputting these, my feeds were imported. So that was number 1 ticked off.
 
-![](https://rknightuk.s3.amazonaws.com/site/iphoneworldca/feedsgooglelogin.png)
-![](https://rknightuk.s3.amazonaws.com/site/iphoneworldca/feedsmainscreen.png)
+![](https://cdn.rknight.me/site/iphoneworldca/feedsgooglelogin.png)
+![](https://cdn.rknight.me/site/iphoneworldca/feedsmainscreen.png)
 
 To find the ReadItLater options, I had to go to the iPhone settings, which is where the Feeds settings are changed, as opposed to in-app preferences. Plenty of options here, including a choice of 4 colour themes, which is nice. After finding the ReadItLater settings, I went back into Feeds to check this function out. Once you’re reading an item, clicking ‘feed actions’ bring up a few actions including share the article, adding tags, Instapaper article, email article, and ReadItLater. This worked flawlessly, and I went straight into RIL to check if it had been added, and it had.
 
-![](https://rknightuk.s3.amazonaws.com/site/iphoneworldca/feedsfeedoptions.png)
+![](https://cdn.rknight.me/site/iphoneworldca/feedsfeedoptions.png)
 
 Feeds completely fulfilled my objectives, and was well worth the money. Overall I give Feeds 9.5 out of 10.

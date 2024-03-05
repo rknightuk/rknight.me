@@ -15,7 +15,7 @@ Yesterday [Chris imported 470 old posts of his](https://chrismcleod.dev/blog/new
 
 The earliest posts I could think of were when I was writing reviews of various iPhone apps for iPhoneWorld.ca in 2009. Sadly the site has been offline a long time so I fired up [the internet archive](https://archive.org) and managed to find 14 of those reviews. It's a goldmine of glorious pre-iOS7 design, check out all the posts with the [#iPhoneWorldCA](https://rknight.me/blog/tags/iphoneworldca/) tag.
 
-![iPhone 3GS homescreen](https://rknightuk.s3.amazonaws.com/site/iphone-3gs.png)
+![iPhone 3GS homescreen](https://cdn.rknight.me/site/iphone-3gs.png)
 
 After that I wrote for a while for [AppAdvice](https://appadvice.com) which _does_ still exist but all my reviews are gone. Thankfully I had archived the 15 reviews previously which you can view on the [#AppAdvice](https://rknight.me/blog/tags/appadvice/) tag.
 

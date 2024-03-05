@@ -6,7 +6,7 @@ link: https://www.marvel.com/comics/series/25575/west_coast_avengers_2018_-_pres
 author: Kelly Thompson
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/kate-hawk.png
+    - url: https://cdn.rknight.me/almanac/kate-hawk.png
 ---
 
 Kelly Thompson is such a great writer. This series is a lot of fun; it's a shame it was cancelled.

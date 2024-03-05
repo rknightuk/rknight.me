@@ -8,7 +8,7 @@ tags:
 repost: This article originally appeared on AppAdvice
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/558d04ea6f.jpg)
+![](https://cdn.rknight.me/site/appadvice/558d04ea6f.jpg)
 
 ### Overview
 
@@ -16,7 +16,7 @@ How to Cook Everything is the iPhone app version of Mark Bittman's award winning
 
 ### Features
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/9598b1082a.jpg)
+![](https://cdn.rknight.me/site/appadvice/9598b1082a.jpg)
 
 - Over 2,000 recipes 
 - 400 how-to illustrations 
@@ -29,17 +29,17 @@ How to Cook Everything is the iPhone app version of Mark Bittman's award winning
 
 The first time you open the app, it will take a few more seconds than usual as it needs to index all the recipes. Once this is done you can get on with finding great recipes. The home page has five tabs, starting with the home tab. The home tab offers a 'kitchen basics' button which offers ingredients, equipment and techniques for you to be able to get your kitchen, and your cooking skills, ready for creating amazing meals. The next prominent button is the browse button, which allows you to browse through all the recipes by category. The categories are also split into subcategories (e.g. Soups>cold soups). Each recipe has four icons next to it to indicate the cooking time and type of dish; fast, make ahead, vegetarian and essential. If you find a recipe you really like, you can add it as a favorite as well as vote for it. Favorites are available from the tab at the bottom and voting increases a recipes ranking in the most popular section. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/fc6246db54.jpg)
+![](https://cdn.rknight.me/site/appadvice/fc6246db54.jpg)
 
 How to Cook Everything also offers collections of recipes to try out. Some of these recipes include, 'Bittman's Picks,' which includes a top 100 from each of the sections (fast, essential, make ahead and vegetarian). Most Popular offers a list of the highest rated recipes, and featured recipes offers a different recipe each day for you to try out. The quick dinners section offers a collection of recipes that fall into the 'fast' category. There is a quick search bar on the home screen as well as an advanced search tab so you can find the exact recipe you want. Searches can be filtered by type, key ingredient, cooking technique and flavor. If a recipe you want to cook (in the 4000 recipes, there must be something you like) you can add it to the grocery list. This will add every ingredient needed for the recipe to the grocery tab, and will split the items into sections of the supermarket. Items can be added and deleted depending on what you might already have at home and the lists can be emailed for easy sharing or printing. Items can be ticked off from within the app so this can be used while you are shopping. 
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/d76f2932b4.jpg)
+![](https://cdn.rknight.me/site/appadvice/d76f2932b4.jpg)
 
 Found the recipe you want? Got all your ingredients? Time for a bit of cooking. Each recipe has four tabs; overview, ingredients, steps and variations. The overview tells you a little bit about the dish and offers related content such as '14 ideas for roast chicken.' Each step of a recipe is on a separate page, accessible from the numbered buttons at the top, to stop you from getting ahead of yourself. The 'variations tab' offers, as you can probably guess, variations of a recipe so instead of olive oil, you might use black beans as a coating. When reading instructions for many recipes, you will see that times are shown in red. Pressing on these brings up a timer preset to the exact time you need. The timer can be minimised and you are free to browse the app or continue cooking until the timer sounds. You can also close the app whilst the time is running, and as long as you reopen before the timer is up, the app will use the last exit time to readjust the timer. Another feature available from the settings is the ability to change the size of the font for recipes.
 
 ### The Breakdown
 
-![](https://rknightuk.s3.amazonaws.com/site/appadvice/4bd3061f38.jpg)
+![](https://cdn.rknight.me/site/appadvice/4bd3061f38.jpg)
 
 #### The Good
 

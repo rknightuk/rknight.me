@@ -7,4 +7,4 @@ tags:
     - Homescreen
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/homescreen-jan-2010.jpg)
+![](https://cdn.rknight.me/site/homescreen-jan-2010.jpg)

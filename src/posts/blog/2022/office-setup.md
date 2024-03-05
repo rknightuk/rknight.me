@@ -10,7 +10,7 @@ tags:
 note: This post originally appeared in <a href="https://club.macstories.net/posts/reader-setup-2">MacStories Weekly</a>
 ---
 
-![](https://rknightuk.s3.amazonaws.com/site/office-setup-tv.jpg)
+![](https://cdn.rknight.me/site/office-setup-tv.jpg)
 
 A couple of weeks ago I posted a photo in the MacStories Discord and Federico <s>demanded</s> asked very nicely if I would write about it, so here we are. I have a lot of consoles which means I have a lot of games and controllers. I’ve never been one to sell games after I’ve finished them so I always had a collection of some sort. I worked at a second hand game shop while I was at university so my collection grew rapidly in the 11 months I was there and I have continued to pick up games here and there over the years. As of right now I have 315 games across 12 systems, a third of which are for the PlayStation 2. A lot of my all-time favourite games are for the PS2 including:
 
@@ -21,7 +21,7 @@ A couple of weeks ago I posted a photo in the MacStories Discord and Federico <s
 
 I’m a big fan of single-player story-driven games so the majority of my collection are those types of games. I’m currently playing through Horizon Forbidden West which I am loving.
 
-![](https://rknightuk.s3.amazonaws.com/site/office-setup-cupboard.jpg)
+![](https://cdn.rknight.me/site/office-setup-cupboard.jpg)
 
 My setup consists of a PS5, a PS3, a pink PS2 which I adore, an Xbox 360, and an Xbox One all hooked up to a HiSense 4K 43" TV that I bought a few years ago. I’m not sure in 2022 if I would even be able to buy a TV with this many inputs. The modern consoles use HDMI and the PS2 and 360 use [SCART cables](https://en.wikipedia.org/wiki/SCART) which was widely used on TVs in the UK and Europe and is somewhat better than using component input.
 

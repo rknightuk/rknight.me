@@ -9,7 +9,7 @@ tags:
 note: This post originally appeared in <a href="https://club.macstories.net/posts/home-screen-robb-lewis">issue 104 of MacStories Weekly</a>
 ---
 
-<a target="_blank" href="https://rknightuk.s3.amazonaws.com/site/homescreen-november-2017.jpg"><img style="float:left;padding:10px;" src="https://rknightuk.s3.amazonaws.com/site/homescreen-november-2017.jpg" width="250" height="auto"></a>
+<a target="_blank" href="https://cdn.rknight.me/site/homescreen-november-2017.jpg"><img style="float:left;padding:10px;" src="https://cdn.rknight.me/site/homescreen-november-2017.jpg" width="250" height="auto"></a>
 
 A lot of things have changed for me since I last [shared my Home screen in 2015](https://robblewis.me/homescreen-september-2015/). Last year I switched to Android, using a Pixel XL as my phone because I had become frustrated with some of the interface changes to iOS. Just under a year later I was as irked with Android as I previously was with iOS, but for different reasons (Seriously Android? No way to choose audio output is ridiculous). I also missed my Apple Watch and I wanted to try out AirPods which, surprising no one, I love.
 

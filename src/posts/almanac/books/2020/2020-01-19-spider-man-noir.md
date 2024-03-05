@@ -6,7 +6,7 @@ permalink: /almanac/books/2020-01-19-spider-man-noir/index.html
 link: https://comicbook.com/marvel/2019/02/21/spider-man-noir-complete-collection-comicspro-2019/
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/spider-man%20noir.jpg
+    - url: https://cdn.rknight.me/almanac/spider-man%20noir.jpg
 ---
 
 Fantastic.

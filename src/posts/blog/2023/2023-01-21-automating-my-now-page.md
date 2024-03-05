@@ -49,7 +49,7 @@ const getIcon = (key, index) => {
 }
 ```
 
-![Example of icons on omg.lol](https://rknightuk.s3.amazonaws.com/site/now-podcasts.png)
+![Example of icons on omg.lol](https://cdn.rknight.me/site/now-podcasts.png)
 
 ### Getting the data
 
@@ -75,7 +75,7 @@ await textToImage.generate(`${album.name} by ${album.artist.name}`, {
 })
 ```
 
-![Example of top album output](https://rknightuk.s3.amazonaws.com/site/now-albums.png)
+![Example of top album output](https://cdn.rknight.me/site/now-albums.png)
 
 #### Github, Books, and Statuses
 

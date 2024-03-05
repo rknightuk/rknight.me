@@ -7,10 +7,10 @@ spoilers: true
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/spider-man-blast.jpg
-    - url: https://rknightuk.s3.amazonaws.com/almanac/spider-man-burned.jpg
-    - url: https://rknightuk.s3.amazonaws.com/almanac/spider-man-selfie.jpg
-    - url: https://rknightuk.s3.amazonaws.com/almanac/spider-man-flag-screenshot.jpg
+    - url: https://cdn.rknight.me/almanac/spider-man-blast.jpg
+    - url: https://cdn.rknight.me/almanac/spider-man-burned.jpg
+    - url: https://cdn.rknight.me/almanac/spider-man-selfie.jpg
+    - url: https://cdn.rknight.me/almanac/spider-man-flag-screenshot.jpg
 ---
 
 This is an incredibly fun game right from the start. The combat is fun and swinging through the city is amazing. The story is legitimately good and leaves it open nicely for a sequel.

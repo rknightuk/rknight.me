@@ -17,7 +17,7 @@ I have watched [Scrubs](https://www.themoviedb.org/tv/4556-scrubs) more times th
 
 I thought it would be fun to show this on a site along with highlighting what I'm calling "double doctors": that is, actors who have played a doctor in both shows. The site is called [DoubleShift](https://doubleshift.rknight.me) and it has this nifty logo I whipped up:
 
-[![DoubleShift logo](https://rknightuk.s3.amazonaws.com/site/double-shift-logo.png)](https://doubleshift.rknight.me)
+[![DoubleShift logo](https://cdn.rknight.me/site/double-shift-logo.png)](https://doubleshift.rknight.me)
 
 
 I mentioned this idea to [David](https://mas.to/@_dreaves) and he asked what the numbers were like against [House](https://www.themoviedb.org/tv/1408-house). So I added House to my dataset: 78 actors have appeared in Grey's and House, and 48 have appeared in Scrubs and House. I also added [ER](https://www.themoviedb.org/tv/4588-er?language=en-GB) because that had a lot of crossover too.

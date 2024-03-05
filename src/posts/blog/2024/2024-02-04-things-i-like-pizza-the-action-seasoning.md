@@ -11,7 +11,7 @@ tags:
 
 I'm going to try doing some quick posts like this going forward about things I like. Being the naming genius I am, I'm calling this series "Things I Like". 
 
-![Pizza the Action seasoning](https://rknightuk.s3.amazonaws.com/site/pizza-the-action.jpg)
+![Pizza the Action seasoning](https://cdn.rknight.me/site/pizza-the-action.jpg)
 
 [Pizza the Action](https://condimaniac.com/products/condimaniac-pizza-the-action-pizza-seasoning) is a seasoning from the UK-based company Condimaniac. It’s a seasoning mix designed to, as the name might suggest, go on pizza. There’s nothing particularly surprising or unusual in the ingredients list:
 

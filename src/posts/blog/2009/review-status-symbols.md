@@ -13,7 +13,7 @@ Price: $0.99
 
 Status Symbols, according to the developer, is ‘Sign language for what’s on your mind’. Basically, Status Symbols is a set of flash cards for getting a message to people when you shouldn’t be speaking (cinema, library, etc) or can’t be heard (in a noisy club or at a concert). That’s the idea anyway.
 
-![](https://rknightuk.s3.amazonaws.com/site/iphoneworldca/statussymbolsmenu.png)
+![](https://cdn.rknight.me/site/iphoneworldca/statussymbolsmenu.png)
 
 The app has 17 different ’status symbols’ to use, from ‘Bathroom break’ (below) to more obscure ones such as ‘check the ring finger’ and ‘eye contact’. These are presented in a scrollable list of thumbnails and accompanying text (although it doesn’t take long to scroll through only 17 of them). Selecting a symbol brings the symbol up in full screen for you to wave at your mates across the club, pressing the screen returns to the list of symbols.
 

@@ -7,7 +7,7 @@ link: https://www.marvel.com/comics/series/23868/rogue_gambit_2018
 author: Kelly Thompson
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/rogue-and-gambit.jpg
+    - url: https://cdn.rknight.me/almanac/rogue-and-gambit.jpg
 ---
 
 Kelly Thompson can do no wrong.

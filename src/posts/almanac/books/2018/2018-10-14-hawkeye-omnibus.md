@@ -6,7 +6,7 @@ permalink: /almanac/books/2018-10-14-hawkeye-omnibus/index.html
 author: Matt Fraction
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/hawkeye-kate.jpg
+    - url: https://cdn.rknight.me/almanac/hawkeye-kate.jpg
 ---
 
 This really is as good as everyone says it is. But Kate is clearly the superior Hawkeye.

@@ -5,7 +5,7 @@ permalink: /almanac/games/2018-04-19-game-struck-4/index.html
 link: https://www.pedestrian.tv/gaming/choosing-four-games-that-define-you-is-really-fucking-tough/
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/game-struck-4.jpg
+    - url: https://cdn.rknight.me/almanac/game-struck-4.jpg
 ---
 
 - [Mario Kart 64](https://en.wikipedia.org/wiki/Mario_Kart_64)

@@ -12,7 +12,7 @@ project: https://postgraph.rknight.me
 
 Last week I [tooted about my Github-style post graph](https://social.lol/@robb/111586346073402453) on [my stats page](/blog/stats) and people seemed to like it. [James](https://jamesdoc.com/blog/) added one to his blog pages. [Pete swore at me](https://social.lol/@pimoore/111586392676224177). I knew I had to make it into an Eleventy plugin so other people could us it easily.
 
-![Screenshot of eleventy-plugin-post-graph](https://rknightuk.s3.amazonaws.com/site/eleventy-plugin-post-graph-screenshot.png)
+![Screenshot of eleventy-plugin-post-graph](https://cdn.rknight.me/site/eleventy-plugin-post-graph-screenshot.png)
 
 If you just want to jump straight into using it, [check out the docs here](https://postgraph.rknight.me). 
 

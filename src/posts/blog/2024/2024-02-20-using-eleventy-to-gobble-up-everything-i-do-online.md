@@ -13,7 +13,7 @@ This post is adapted from the talk I did at [the Eleventy Meetup](https://11tyme
 
 This is what I look like when I try to explain how my website works:
 
-![Me explaining how my website works](https://rknightuk.s3.amazonaws.com/site/pepesilvia-11ty.jpg)
+![Me explaining how my website works](https://cdn.rknight.me/site/pepesilvia-11ty.jpg)
 
 There are three main parts that make up this website: [Echo](https://echo.rknight.me), [my API server](https://github.com/rknightuk/api) (and Eleventy data files), and standard Markdown files.
 
@@ -21,7 +21,7 @@ There are three main parts that make up this website: [Echo](https://echo.rknigh
 
 Echo started life as a cross-posting tool to post from an RSS feed to Micro.blog. Since then I've added support for webhooks, Mastodon, [LinkAce](https://www.linkace.org), [Omnivore](https://omnivore.app/home), and GitHub. If we take Letterboxd as an example. I [post a review](https://letterboxd.com/rknightuk/film/the-super-mario-bros-movie/) on there that gets added to [the RSS feed](http://letterboxd.com/rknightuk/rss). Echo will fetch that new review and create a new post in the git repository on GitHub, the site rebuilds, and the review now [exists as a post](/almanac/movies/2024-02-16-the-super-mario-bros-movie/). I then use Echo _again_ to read the RSS feed of my movie reviews and post that [to Mastodon](https://social.lol/@robb/111943358114444166).
 
-![The file commited on GitHub and the post that went to Mastodon](https://rknightuk.s3.amazonaws.com/site/git-commit-and-mastodon.jpg)
+![The file commited on GitHub and the post that went to Mastodon](https://cdn.rknight.me/site/git-commit-and-mastodon.jpg)
 
 Rather than just send the title and link to Mastodon, I prefer to include some (or all) of the post content with the toot as well. To do this, I added a `makeTootText` filter and a `mastodonCounter` function which I got [from the Mastodon project](https://github.com/mastodon/mastodon/blob/5d5c0f4f4358f4349d9e2db59cf90b1f5de24e81/app/javascript/mastodon/features/compose/util/url_regex.js). This filter check the type of post it is, checks if it will fit on Mastodon's limit of 500 characters, then adds it to the `_knightposse` object in the JSON feed.
 
@@ -180,7 +180,7 @@ const rawData = await setResponse.json()
 
 This data is then written out to `api/brickset.json` and pulled into my site when it's built. 
 
-![A sample of my Lego collection](https://rknightuk.s3.amazonaws.com/site/lego-collection-example.jpg)
+![A sample of my Lego collection](https://cdn.rknight.me/site/lego-collection-example.jpg)
 
 
 Each service on the API works in a similar way: fetch the data, format it, then write it to a file. I won't go through all of them here but you can [view the source code here](https://github.com/rknightuk/api).
@@ -241,7 +241,7 @@ Then in `projects.njk` I can loop through that data and output the HTML as neede
 </div>
 ```
 
-![Sample of the projects output](https://rknightuk.s3.amazonaws.com/site/example-projects.jpg)
+![Sample of the projects output](https://cdn.rknight.me/site/example-projects.jpg)
 
 ### Markdown files and the Command Line Tool
 

@@ -6,8 +6,8 @@ permalink: /almanac/games/2020-12-23-unravel-two/index.html
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/unravel-two-1.jpg
-    - url: https://rknightuk.s3.amazonaws.com/almanac/unravel-two-2.jpg
+    - url: https://cdn.rknight.me/almanac/unravel-two-1.jpg
+    - url: https://cdn.rknight.me/almanac/unravel-two-2.jpg
 ---
 
 This game is gorgeous. 

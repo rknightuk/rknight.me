@@ -13,13 +13,13 @@ project: /alfred-workflows
 
 A conversation yesterday in the [Hemispheric Views Discord](https://hemisphericviews.com/) pushed me towards an idea I'd had for a workflow for a while: type some text, append that text to a note. 
 
-![QuickNote window](https://rknightuk.s3.amazonaws.com/site/quicknote-window.jpg)
+![QuickNote window](https://cdn.rknight.me/site/quicknote-window.jpg)
 
 Don't care about the how? [Download QuickNote here](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/quicknote).
 
 As Alfred workflows go it's pretty simple: just three objects. 
 
-![QuickNote objects in Alfred](https://rknightuk.s3.amazonaws.com/site/quicknote-objects.jpg)
+![QuickNote objects in Alfred](https://cdn.rknight.me/site/quicknote-objects.jpg)
 
 The first is the keyword and getting the input. Typing `quicknote This is a note` will add `This is a note` to whatever file I've set in the configuration. The second script takes the input and formats it based on the settings the workflow has:
 

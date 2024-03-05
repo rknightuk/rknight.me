@@ -21,7 +21,7 @@ eleventyNavigation:
     }
 </style>
 
-![My Desk](https://rknightuk.s3.amazonaws.com/site/desk-2023.jpg)
+![My Desk](https://cdn.rknight.me/site/desk-2023.jpg)
 
 <h3><svg class="icon"><use xlink:href="#maccy"></use></svg>MacBook Pro</h3>
 

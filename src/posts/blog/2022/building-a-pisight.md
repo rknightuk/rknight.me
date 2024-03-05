@@ -8,7 +8,7 @@ tags:
     - MacOS
 ---
 
-![My finished PiSight](https://rknightuk.s3.amazonaws.com/site/pisight.jpg)
+![My finished PiSight](https://cdn.rknight.me/site/pisight.jpg)
 
 During the pandemic Max Braun managed to squeeze a Pi Zero with camera module [into an Apple iSight camera](https://debugger.medium.com/todays-webcams-are-boring-so-i-brought-back-a-classic-291cc7c94c76). I came across the post a few weeks ago and decided to have a go myself.
 
@@ -18,9 +18,9 @@ I followed these [iFixIt teardowns](https://www.ifixit.com/Device/Apple_iSight_W
 
 Once I'd wrangled it all together I used [Hand Mirror](https://handmirror.app) to check everything was working (the lighting is terrible in this temporary office hence why it's looks so bad):
 
-<center><img src="https://rknightuk.s3.amazonaws.com/site/pisight-hand-mirror.png"></center>
+<center><img src="https://cdn.rknight.me/site/pisight-hand-mirror.png"></center>
 
-![The chassis](https://rknightuk.s3.amazonaws.com/site/pisight-chassis.jpg)
+![The chassis](https://cdn.rknight.me/site/pisight-chassis.jpg)
 
 It may not be the best webcam in the world, but it's easily as good as the one I have in my MacBook, and I can move it around wherever I want. 
 

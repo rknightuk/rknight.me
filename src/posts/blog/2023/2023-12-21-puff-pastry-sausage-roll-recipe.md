@@ -9,7 +9,7 @@ tags:
     - Recipes
 ---
 
-![Sausage Rolls](https://rknightuk.s3.amazonaws.com/site/sausage-rolls.jpg)
+![Sausage Rolls](https://cdn.rknight.me/site/sausage-rolls.jpg)
 
 Here is the recipe for very easy to make sausage rolls. You'll need:
 

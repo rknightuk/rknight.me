@@ -9,7 +9,7 @@ tags:
     - Food
 ---
 
-![Roast Potatoes](https://rknightuk.s3.amazonaws.com/site/roast-potatoes.jpg)
+![Roast Potatoes](https://cdn.rknight.me/site/roast-potatoes.jpg)
 
 I tried this recipe on boxing day this year and it was fantastic so we made some more tonight which were, unsurprisingly, also fantastic. 
 

@@ -12,7 +12,7 @@ tags:
 project: https://echo.rknight.me
 ---
 
-![Screenshot of Echo running in a terminal](https://rknightuk.s3.amazonaws.com/site/echo-screenshot.png)
+![Screenshot of Echo running in a terminal](https://cdn.rknight.me/site/echo-screenshot.png)
 
 **Update 13/01/23**: Echo now supports Mastodon and webhooks as well as Micro.blog. [Check out the website for more details](https://echo.rknight.me).
 

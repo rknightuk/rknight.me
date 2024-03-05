@@ -7,12 +7,12 @@ spoilers: true
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/last-of-us-ii-1.png
-    - url: https://rknightuk.s3.amazonaws.com/almanac/last-of-us-ii-2.png
-    - url: https://rknightuk.s3.amazonaws.com/almanac/last-of-us-ii-3.png
-    - url: https://rknightuk.s3.amazonaws.com/almanac/last-of-us-ii-4.png
-    - url: https://rknightuk.s3.amazonaws.com/almanac/last-of-us-ii-5.png
-    - url: https://rknightuk.s3.amazonaws.com/almanac/last-of-us-ii-6.png
+    - url: https://cdn.rknight.me/almanac/last-of-us-ii-1.png
+    - url: https://cdn.rknight.me/almanac/last-of-us-ii-2.png
+    - url: https://cdn.rknight.me/almanac/last-of-us-ii-3.png
+    - url: https://cdn.rknight.me/almanac/last-of-us-ii-4.png
+    - url: https://cdn.rknight.me/almanac/last-of-us-ii-5.png
+    - url: https://cdn.rknight.me/almanac/last-of-us-ii-6.png
 ---
 
 Update: After speaking with [Keenan](https://twitter.com/_gkeenan) I changed my mind about the order of the chapters. 

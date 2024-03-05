@@ -8,7 +8,7 @@ tags:
     - Homescreen
 ---
 
-![Homescreen](https://rknightuk.s3.amazonaws.com/site/homescreen-jan-2024.png)
+![Homescreen](https://cdn.rknight.me/site/homescreen-jan-2024.png)
 
 Since the last time I [posted my homescreen](/blog/homescreen-november-2017/) in 2017 the main change is widgets. I still kind of dislike them and wish I could customise them more but it's better than not having them.
 

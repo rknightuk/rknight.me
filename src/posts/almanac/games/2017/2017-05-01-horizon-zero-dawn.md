@@ -5,7 +5,7 @@ permalink: /almanac/games/2017-05-01-horizon-zero-dawn/index.html
 platform: PS4
 rating: 3
 attachments: 
-    - url: https://rknightuk.s3.amazonaws.com/almanac/Horizon-Zero-Dawn-_20170311162519.png
+    - url: https://cdn.rknight.me/almanac/Horizon-Zero-Dawn-_20170311162519.png
 ---
 
 One of the best games I have ever played. Amazing characters, beautiful world, great story. If you have a PS4, you must play this.

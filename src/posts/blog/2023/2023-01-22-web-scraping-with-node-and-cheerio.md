@@ -91,7 +91,7 @@ If we call `node index.js` a large amount of HTML will be output to the terminal
 
 The first thing we need to do is find a class name or ID on the list of games so we can correctly target it. If we inspect the first game in the list of games on my profile, we can see that the link itself which contains the title and url has a class of `title`:
 
-![Web inspector showing the link with class names](https://rknightuk.s3.amazonaws.com/site/psn-profile-inspector.png)
+![Web inspector showing the link with class names](https://cdn.rknight.me/site/psn-profile-inspector.png)
 
 On some websites this might be enough to get what we need, but a quick check in the console with `document.getElementsByClassName('title').length` shows there are 91 elements on the profile page with that class but the games list only has 75 games in it so we need to be more specific. The list of games is inside a `table` element with an ID of `gamesTable` so we can use that in combination with the `title` class name. If you've used jQuery before the syntax will be familiar to you:
 

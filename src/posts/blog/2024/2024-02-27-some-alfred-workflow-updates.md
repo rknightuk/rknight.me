@@ -32,6 +32,6 @@ Andy filed an issue on [this last year](https://github.com/rknightuk/alfred-work
 
 [Gif search](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/gifsearch) is up there in my most-used workflows so when I saw the new [Alfred 5.5 grid view](https://www.alfredapp.com/help/workflows/user-interface/grid/) I knew I had to update it to support this. Doing so was fairly easy with one caveat - the workflow now requires pressing enter instead of a space after typing the keyword to search. Not a massive issue, but notable. This version requires the 5.5 beta of Alfred to use.
 
-![Gif search with grid view](https://rknightuk.s3.amazonaws.com/site/gif-search-grid-view.jpg)
+![Gif search with grid view](https://cdn.rknight.me/site/gif-search-grid-view.jpg)
 
 You can view all [my Alfred workflows here](/alfred-workflows).
