@@ -18,7 +18,7 @@ This was a message I got from [Jason](https://grepjason.sh) seven weeks ago. Jas
 
 Jason [wrote a post](https://grepjason.sh/2024/officespace-gif) about how he converted the movies to gifs and the adventure he went on trying to find an instance to host it. He also [set up a page](https://grepjason.sh/office) to show a gif on each load if you're into that sort of thing.
 
-![Office Space bot toot](https://rknightuk.s3.amazonaws.com/site/office-space-bot.jpg)
+![Office Space bot toot](https://cdn.rknight.me/site/office-space-bot.jpg)
 
 I started by modifying the code I wrote for [KnightBot](https://knightbot.rknight.me) which runs my bots on [Bugle](https://bugle.lol/timeline). A bot for posting gifs has three parts to it:
 
@@ -137,6 +137,6 @@ I handed the code over to Jason, he ran it, and hey presto we had the [first too
 
 Since then, Jason kindly ran his script on Back to the Future, my favourite movie of all time, so I could set up [@greatscott](https://beep.town/@greatscott) to do the same thing. Since last night, he also has a [Matrix one too](https://beep.town/@zion). He cannot be stopped.
 
-![Back to the Future bot toot](https://rknightuk.s3.amazonaws.com/site/bttf-bot.jpg)
+![Back to the Future bot toot](https://cdn.rknight.me/site/bttf-bot.jpg)
 
 You can follow [@initech](https://beep.town/@initech), [@greatscott](https://beep.town/@greatscott), and [@zion](https://beep.town/@zion) on Mastodon and the code for [GifBot is on Github](https://github.com/rknightuk/gifbot).
