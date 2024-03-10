@@ -40,6 +40,7 @@ export default async (__siteroot) => {
             { name: 'Shortcuts', value: 'Shortcuts' },
             { name: 'SocialMedia', value: 'SocialMedia' },
             { name: 'StJude', value: 'StJude' },
+            { name: 'ThingsILike', value: 'ThingsILike' },
             { name: 'TV', value: 'TV' },
             { name: 'YearInReview', value: 'YearInReview' },
         ],
