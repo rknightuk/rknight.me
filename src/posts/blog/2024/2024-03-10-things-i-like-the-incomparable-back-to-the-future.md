@@ -10,7 +10,7 @@ tags:
     - ThingsILike
 ---
 
-It’s well know how much I love Back to the Future so I was excited to see The Incomparable cover Back to the Future the past three episodes. Back in 2011 they did [a single episode for all three movies](https://www.theincomparable.com/theincomparable/41/) which, as Jason noted, is not nearly enough time to _really_ discuss these movies.
+It’s well known how much I love Back to the Future so I was excited to see The Incomparable cover Back to the Future the past three episodes. Back in 2011 they did [a single episode for all three movies](https://www.theincomparable.com/theincomparable/41/) which, as Jason noted, is not nearly enough time to _really_ discuss these movies.
 
 - [Part I - Kramer Before Kramer](https://www.theincomparable.com/theincomparable/704/)
 - [Part II - A Legacy of Biffs](https://www.theincomparable.com/theincomparable/705/)
