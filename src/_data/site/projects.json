@@ -1,10 +1,11 @@
 {
 	"featured": [
+		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg", "tags": ["Coming Soon"] },
 		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" },
-		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.jpg", "tags": ["JS"] },
-		{ "title": "Crossover", "link": "https://crossover.rknight.me", "desc": "Compare actors who have appeared in any two TV shows", "image": "crossover.jpg", "tags": ["JS"] }
+		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.jpg", "tags": ["JS"] }
 	],
 	"current": [
+		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg", "tags": ["Coming Soon"] },
 		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.jpg", "tags": ["JS", "AppleScript", "Python"] },
 		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" },
 		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.jpg", "tags": ["JS"] },
