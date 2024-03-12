@@ -29,6 +29,7 @@ export default async (__siteroot) => {
             { name: 'Homescreen', value: 'Homescreen' },
             { name: 'Lego', value: 'Lego' },
             { name: 'Letters', value: 'Letters' },
+            { name: 'LinkDump', value: 'LinkDump' },
             { name: 'MacOS', value: 'MacOS' },
             { name: 'Mastodon', value: 'Mastodon' },
             { name: 'Movies', value: 'Movies' },
