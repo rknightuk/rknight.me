@@ -8,6 +8,8 @@ tags:
     - Development
 ---
 
+![Welcome to the Knight Club](http://cdn.rknight.me/site/knightclub.jpg)
+
 Jarrod [set up a site](https://jb.heydingus.net/2024/03/11/too-tired-to.html) a few days ago, [One a Month Club](https://oneamonth.club), which is a collection of people offering memberships at $1 a month. This was inspired by [Manu's post](https://manuelmoreale.com/one-a-month) about the same thing:
 
 > I recently realized that tiers are the wrong approach [...] I also realized that 1$+/month is the best price possible when it comes to supporting online creators
