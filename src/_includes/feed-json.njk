@@ -35,7 +35,8 @@
             "text": {{ { "externalLink": post.data.layout === 'link', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.data.content, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
             "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %}
         },
-        "date_published": "{{ post.data.date | dateForFeed }}"
+        "date_published": "{{ post.data.date | dateForFeed }}",
+        "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %}
     }{% if not loop.last %},{% else %}{%- endif -%}
     {%- endfor -%}
 ]}
