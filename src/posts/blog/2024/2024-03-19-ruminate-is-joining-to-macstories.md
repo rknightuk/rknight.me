@@ -1,5 +1,5 @@
 ---
-title: "Ruminate is Joining to MacStories"
+title: "Ruminate is Joining MacStories"
 permalink: /blog/ruminate-is-joining-to-macstories/index.html
 date: 2024-03-19T14:00:00.000Z
 excerpt: "As of episode 180, Ruminate is part of MacStories"
