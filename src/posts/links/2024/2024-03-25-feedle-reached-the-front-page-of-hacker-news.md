@@ -7,7 +7,7 @@ author:
   name: Preslav Rachev
   web: https://preslav.me
   feed: https://preslav.me/posts/index.xml
-  mastodon: https://mastodon.social/@preslavrache
+  mastodon: https://mastodon.social/@preslavrachev
 ---
 
 I really like using Feedle so I'm glad it got some more attention from the front page of Hacker News
