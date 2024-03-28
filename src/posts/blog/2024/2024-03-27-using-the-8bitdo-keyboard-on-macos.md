@@ -24,7 +24,7 @@ Because this is designed as a Windows keyboard I needed to swap what the <kbd>Co
 
 However, the two buttons on the right (between <kbd>B</kbd> and <kbd>control</kbd>) are programmable so don’t trigger anything on press by default. To set these, you need to press the star button on the top of the keyboard, then hold down the key(s) you want it to use, then press the key you want to assign. The same method is used for assigning presses to [the super buttons](https://shop.8bitdo.com/products/8bitdo-dual-super-buttons).
 
-The keyboard comes with one set of super buttons but it supports up to four sets. I have set one of them to trigger <kbd>⌃ ⇧ C</kbd> to bring up Alfred's clipboard search and the other is set to F12 which triggers a Honk sound via my [Honk Alfred workflow]. I am tempted to buy some more buttons but I'm going to see if I actually use them for much first.
+The keyboard comes with one set of super buttons but it supports up to four sets. I have set one of them to trigger <kbd>⌃ ⇧ C</kbd> to bring up Alfred's clipboard search and the other is set to <kbd>F12</kbd> which triggers a Honk sound via my [Honk Alfred workflow](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/honk). I am tempted to buy some more buttons but I'm going to see if I actually use them for much first.
 
 It has a volume knob on the top left that works perfectly on MacOS. It also supports wired connection, bluetooth connection, as well as it's own dongle. I haven't tried the dongle but both wired and Bluetooth work very well.
 
