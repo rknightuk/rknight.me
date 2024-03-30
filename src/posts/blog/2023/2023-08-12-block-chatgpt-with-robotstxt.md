@@ -8,6 +8,8 @@ tags:
   - AI
 ---
 
+Update 2024-03-30: Cory is maintaining a much better list [on this repo](https://github.com/ai-robots-txt/ai.robots.txt/) which I will be using going forward.
+
 A `robots.txt` file "tells search engine crawlers which URLs the crawler can access on your site". Generally one would use this to tell a search engine which directories should be crawled, which ones shouldn't, or to completely block from crawling your site. The file lives at the root of your site. You can [see mine here](https://rknight.me/robots.txt). 
 
 [ChatGPT](https://chat.openai.com) has two user agents that might attempt to crawl your site: [`GPTBot`](https://platform.openai.com/docs/gptbot) and [`ChatGPT-User`](https://platform.openai.com/docs/plugins/bot/chatgpt-user). To disallow crawling from both of these, we can set our `robots.txt` file like so:
