@@ -20,6 +20,7 @@
         "title": "{{ post.data.title }}",
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         "content_html": {{ post.templateContent | rssClubAlert(post.data.rssClub) | dump | safe }},
+        "summary": "{{ post.data.excerpt }}",
         {% if post.data.layout === 'link' %}
         "external_url": "{{ post.data.link }}",
         "authors": [
