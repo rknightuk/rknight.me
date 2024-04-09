@@ -4,12 +4,12 @@ const constants_1 = require("./constants");
 exports.default = {
     Issue: $ => (_, el) => {
         const element = $(el);
-        const cover = element.find('.comic-cover-art img').attr('data-src').replace('medium', 'large');
-        const cover_medium = element.find('.comic-cover-art img').attr('data-src');
-        const cover_small = element.find('.comic-cover-art img').attr('data-src').replace('medium', 'small');
-        const [publisher] = element.find('.comic-details').text().split('·');
+        const cover = element.find('.cover img').attr('data-src').replace('medium', 'large');
+        const cover_medium = element.find('.cover img').attr('data-src');
+        const cover_small = element.find('.cover img').attr('data-src').replace('medium', 'small');
+        const [publisher] = element.find('.copy-really-small span').text().split('\r');
         const description = element.find('.comic-description.col-feed-max');
-        const url = `${constants_1.BASE_URL}${description.find('a').attr('href')}`;
+        const url = `${constants_1.BASE_URL}${element.find('.link-collection-series').attr('href')}`;
         const pulls = element.attr('data-pulls');
         const potw = element.attr('data-potw');
         const rating = element.attr('data-community');
