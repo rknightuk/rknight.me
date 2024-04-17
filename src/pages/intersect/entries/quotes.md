@@ -76,3 +76,9 @@ Alex Cox on Twitter:
 > You say: we’re trying for a child 
 >
 > I hear: my husbands been doing big huge cums in my pussy
+
+---
+
+[on Twitter](https://twitter.com/MikeDrucker/status/1137068315229208578?lang=en):
+
+> Twitter is fun because you get to be like, “Ducks are good” and someone in your mentions will go, “Um, I’m sorry but my brother is married to a duck scientist and this is a harmful view” and then someone else pops up going, “Your silence about horses is extremely telling”
