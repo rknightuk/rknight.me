@@ -13,11 +13,11 @@ module.exports = async function() {
         return await asset.getCachedValue()
     }
 
-    let data = await fetch('https://api.rknight.me/api/micro.json')
-        .then(res => res.json())
-        .then(json => {
-            return json
-        })
+    // let data = await fetch('https://api.rknight.me/api/micro.json')
+    //     .then(res => res.json())
+    //     .then(json => {
+    //         return json
+    //     })
 
     const newData = {
         images: [],
@@ -30,5 +30,5 @@ module.exports = async function() {
 
     await asset.save(newData, "json")
 
-    return data
+    return newData
 }
