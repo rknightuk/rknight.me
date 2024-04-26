@@ -23,6 +23,7 @@ export default async (__siteroot) => {
             { name: 'Development', value: 'Development' },
             { name: 'DIY', value: 'DIY' },
             { name: 'Eleventy', value: 'Eleventy' },
+            { name: 'EchoFeed', value: 'EchoFeed' },
             { name: 'Food', value: 'Food' },
             { name: 'Games', value: 'Games' },
             { name: 'Hackathon', value: 'Hackathon' },
