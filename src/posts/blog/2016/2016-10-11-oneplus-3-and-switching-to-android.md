@@ -11,7 +11,7 @@ date: 2016-10-11T00:00:00.000Z
 
 ---
 
-I wrote about [replacing all my apps on Android](http://robblewis.me/replacing-apps-on-android) just under a week ago, but I wanted to lay out some of my thoughts about the [OnePlus 3](https://oneplus.net/uk/3) and Android in general.
+I wrote about [replacing all my apps on Android](http://rknight.me/replacing-apps-on-android) just under a week ago, but I wanted to lay out some of my thoughts about the [OnePlus 3](https://oneplus.net/uk/3) and Android in general.
 
 Firstly, I've had a few people ask *why* I switched to Android. There wasn't a single reason but a plethora of little things that started to bug me about iOS. First off, as I [discussed here](http://www.ruminatepodcast.com/30), I'm no longer using iTunes because of how buggy it is when downloading music, as well as it constantly messing up my album artwork. Without iTunes, the only thing locking me into iOS was iMessage and I realised I could live without it. After the "upgrade" to iOS10 a lot of things bugged me about it. In no particular order:
 

@@ -14,4 +14,4 @@ This morning, I was watching Top Gear and decided it would be fun to create the 
 > Some say that his heart is in upside down, and that if he felt like it he could fire Alan Sugar.
 
 
-The [code is on GitHub](https://github.com/rmlewisuk/stig-quotes) if that's your thing.
+The [code is on GitHub](https://github.com/rknightuk/stig-quotes) if that's your thing.
