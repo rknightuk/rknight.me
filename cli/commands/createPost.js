@@ -44,6 +44,7 @@ export default async (__siteroot) => {
             { name: 'StJude', value: 'StJude' },
             { name: 'ThingsILike', value: 'ThingsILike' },
             { name: 'TV', value: 'TV' },
+            { name: 'WeblogPoMo', value: 'WeblogPoMo' },
             { name: 'YearInReview', value: 'YearInReview' },
         ],
     })
