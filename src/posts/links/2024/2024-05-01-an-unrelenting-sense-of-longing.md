@@ -10,4 +10,4 @@ author:
   mastodon: https://social.lol/@keenan
 ---
 
-I'm over here writing about Raycast for #WeblogPoMo2024 then Keenan swoops in and writes the best fucking thing I've read in ages.
+I'm over here writing about Raycast for [#WeblogPoMo2024](https://rknight.me/blog/tags/weblogpomo/) then Keenan swoops in and writes the best fucking thing I've read in ages.
