@@ -38,6 +38,7 @@ export default async (__siteroot) => {
             { name: 'OpenWeb', value: 'OpenWeb' },
             { name: 'Personal', value: 'Personal' },
             { name: 'Podcasting', value: 'Podcasting' },
+            { name: 'Raycast', value: 'Raycast' },
             { name: 'Recipes', value: 'Recipes' },
             { name: 'Shortcuts', value: 'Shortcuts' },
             { name: 'SocialMedia', value: 'SocialMedia' },
