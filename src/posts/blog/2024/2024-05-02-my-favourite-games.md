@@ -10,6 +10,7 @@ tags:
 ---
 
 Inspired by [Chris' post](https://chriskirknielsen.com/games/), herein lies my favourite games across the genres I play. Also like Chris, a ★ indicates what I think is a greatest of all time game. I have a fairly large collection of physical games which you can see on [my games collection page](https://rknight.me/collections/games/).
+
 ### 3D Platformers
 
 **★ [Jak and Daxter](https://en.wikipedia.org/wiki/Jak_and_Daxter:_The_Precursor_Legacy) (2001, PS2)**
