@@ -35,6 +35,7 @@ I don't even remember why I bought this but I'm so glad I did. Some of the music
 Honorable mentions:
 
 - [Ratchet and Clank 2/Going Commando](https://en.wikipedia.org/wiki/Ratchet_%26_Clank:_Going_Commando) (2003, PS2)
+- [Crackdown](https://en.wikipedia.org/wiki/Crackdown_(video_game)) (2007, 360)
 
 ### Third-Person Story-Driven
 
@@ -62,7 +63,6 @@ This game has no right to be as good as it is. If you dislike the style of joke 
 
 Honorable mentions:
 
-- [Crackdown](https://en.wikipedia.org/wiki/Crackdown_(video_game)) (2007, 360)
 - [Life Is Strange](https://en.wikipedia.org/wiki/Life_Is_Strange_(video_game)) (2015, PS4)
 - [Horizon Zero Dawn](https://en.wikipedia.org/wiki/Horizon_Zero_Dawn) (2017, PS4)
 - [Horizon Forbidden West](https://en.wikipedia.org/wiki/Horizon_Forbidden_West) (2022, PS5)
