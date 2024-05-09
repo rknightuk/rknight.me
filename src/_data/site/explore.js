@@ -5,6 +5,11 @@ module.exports = function() {
 			link: '/now',
             description: 'What I\'m up to now',
 		},
+		{
+			title: '/interests',
+			link: '/interests',
+            description: 'Things I\'m interested in, passionate about, or otherwise enjoy',
+		},
         {
 			title: 'Almanac',
 			link: '/almanac',
