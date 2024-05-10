@@ -49,6 +49,10 @@ I can't play FPS games - I end up feeling sick.
 
 I love all kinds of pizza but especially fresh pizza made in my Ooni oven. Each year [my recipes](https://rknight.me/blog/one-year-of-pizza-making/) taste better and better. 
 
+### Lego
+
+I have a [sizeable collection of Lego](https://rknight.me/collections/lego/) mostly Marvel sets, some older sets from when I was a kid, and the larger Creator-series cars.
+
 ### Other Interests
 
 These are things I enjoy but not enough to put substantial time, or money, into.
