@@ -13,7 +13,7 @@ module.exports = function() {
         { 
             name: 'Hover',
             link: 'https://hover.com/scHIv4WR',
-            desc: 'All my domains names are with Hover. $2 discount',
+            desc: 'Most of my domains names are with Hover. $2 discount',
         },
         { 
             name: 'Fathom Analytics',
@@ -29,6 +29,11 @@ module.exports = function() {
             name: 'Bunny CDN',
             link: 'https://bunny.net?ref=b2i4y24apu',
             desc: 'Fast, cheap CDN. $5 credit',
+        },
+        {
+            name: 'Hetzner',
+            link: 'https://hetzner.cloud/?ref=Lt9D9KzKP6UQ',
+            desc: 'Hosting. $20 credit',
         }
     ]
 }

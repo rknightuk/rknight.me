@@ -1,6 +1,6 @@
 ---
 title: /interests
-subtitle: "Things I'm interested in, passionate about, or otherwise enjoy. <br>See more interest pages in the [/interests directory](https://chrisburnell.github.io/interests-directory/)."
+subtitle: "Things I'm interested in, passionate about, or otherwise enjoy. <br>See more in the [/interests directory](https://chrisburnell.github.io/interests-directory/)."
 layout: base
 permalink: 'interests/index.html'
 eleventyNavigation:
@@ -16,19 +16,19 @@ I love small websites. Single purpose sites that do one thing really well.
 
 I love reading people's personal websites. I'm always interested in seeing how people structure their notes, blog posts, and other _stuff_ they want to have on their website.
 
-I generally build [my projects](/projects) with PHP and Laravel if I need a backend[^1] or Eleventy for everything else. See my [/uses page](/uses) for more on this.
+I generally build [my projects](/projects) with PHP and Laravel if I need a backend[^1] or Eleventy for everything else. See the [colophon](/about/colophon) for more on how this site is built.
 
 ### Music
 
-The genre I listen to most is pop punk, mostly from 20 years ago. Basically a Tony Hawk game soundtrack that never ends. I also enjoy a lot of west coast rap, rock, and pop - the pop has to be banging though. You can see my listening history [on Last.fm](https://www.last.fm/user/rknightuk).
+The genre I listen to most is pop punk, mostly from 20 years ago. Basically a Tony Hawk game soundtrack that never ends. I also enjoy a lot of rap, rock, and pop - the pop has to be banging though. You can see my listening history [on Last.fm](https://www.last.fm/user/rknightuk).
 
 ### Movies
 
-I don't have as much time to watch movies like I did before Baby Knight was born but when I do I want something fun. The genre doesn't matter and honesly quality doesn't matter, I just want to be entertained. I have [a podcast about the Fast and Furious saga](https://wegot.family) to give you some indication of my tastes.
+I don't have as much time to watch movies as I did before Baby Knight was born but when I do I want something fun. The genre doesn't matter and quite frankly quality doesn't matter, I just want to be entertained. I have [a podcast about the Fast and Furious saga](https://wegot.family) to give you some indication of my tastes.
 
 ### TV
 
-I am more selective with TV and aside from rewatching Scrubs, Friends, and Grey's Anatomy every now and again, I tend to go for shorter series from streaming services like The Last of Us, Jack Reacher, and Severance.
+I am more selective with TV so aside from rewatching Scrubs, Friends, and Grey's Anatomy every now and again, I tend to go for shorter series like The Last of Us and Severance. "Prestige TV" they call this, which is a silly name for it.
 
 ### Games
 
