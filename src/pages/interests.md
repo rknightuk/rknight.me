@@ -12,6 +12,8 @@ eleventyNavigation:
 
 I love the web. [It's fantastic](https://rknight.me/blog/the-web-is-fantastic/). I want everyone to have a website, or a way to post things, away from the corporate bullshit of Facebook, Twitter, and the rest. I try to [POSSE](https://indieweb.org/POSSE) my stuff as much as possible.
 
+I'm fascinated by decentralised services like Mastodon and open protocols like ActivityPub and the way they're opening up interesting use cases for social media, podcasting, and other things that previously have been locked into one closed service.
+
 I love small websites. Single purpose sites that do one thing really well. 
 
 I love reading people's personal websites. I'm always interested in seeing how people structure their notes, blog posts, and other _stuff_ they want to have on their website.
