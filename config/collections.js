@@ -104,6 +104,9 @@ module.exports = {
     almanacGames: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('almanac/games')).reverse()
     },
+    notes: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('notes')).reverse()
+    },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob(makePath('blog')).reverse().reduce((tags, p) => {
             if (p.data.tags && Array.isArray(p.data.tags))

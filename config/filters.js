@@ -161,7 +161,7 @@ module.exports = {
         let content = ''
         const permalink = `https://rknight.me${post.permalink}`
 
-        if (!['link', 'almanac'].includes(post.layout))
+        if (!['link', 'almanac', 'note'].includes(post.layout))
         {
             content = `${decode(post.title)} ${permalink}`
 
@@ -190,6 +190,20 @@ module.exports = {
             }
 
             return content
+        }
+
+        if (post.layout === 'note') 
+        {
+            content = decode(post.content)
+
+            content = `${content} ${permalink}`
+
+            if (mastodonCount.getMastodonLength(content).length <= 476) 
+            {
+                return content
+            }
+        
+            return `${content.slice(0, 476)}... ${permalink}`
         }
 
         let mastoUsername = null

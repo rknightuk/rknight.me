@@ -1,0 +1,29 @@
+---
+pagination:
+  data: collections.notes
+  size: 50
+  alias: note
+permalink: 'notes/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
+layout: base
+eleventyNavigation:
+  key: Notes
+  parent: Home
+eleventyComputed:
+    title: Notes
+    subtitle: notes, toots, and shitposts
+---
+
+{%- for note in pagination.items %}
+    {{ note.content | safe }}
+
+    <p class="post-date">&infin; <a href="{{ note.data.permalink | stripIndex }}">{{ note.data.date | postDate }}</a></p>
+    {% if loop.last %}
+    {% else %}
+        <hr>
+    {% endif %}
+{% endfor -%}
+
+<div class="pagination box">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Notes</a>{% else %}{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Notes</a>{% else %}{% endif %}</div>
+</div>

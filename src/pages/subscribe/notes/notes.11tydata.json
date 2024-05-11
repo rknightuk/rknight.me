@@ -1,0 +1,5 @@
+{
+    "eleventyExcludeFromCollections": "true",
+    "collectionName": "notes",
+    "name": "Notes"
+}
