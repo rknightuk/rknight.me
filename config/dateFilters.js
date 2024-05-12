@@ -58,6 +58,16 @@ module.exports = {
 
         return `${month} ${day}${nominal} ${year}`
     },
+    postTime: (date) => {
+        let d = new Date(date)
+        let hour = d.getHours()
+        let minute = d.getMinutes()
+
+        if (hour < 10) hour = `0${hour}`
+        if (minute < 10) minute = `0${minute}`
+
+        return `${hour}:${minute}`
+    },
     postDateNoYear: (date) => {
         const nth = (d) => {
             if (d > 3 && d < 21) return 'th';

@@ -122,8 +122,16 @@
         {% else %}
             <div class="rkblock block-main">
                 <div class="container">
-                    <h2 class="p-name" data-pagefind-meta="title">{{ title }}</h2>
+                    <h2 class="p-name" data-pagefind-meta="title">
+                        {% if layout == 'note' %}
+                            {{ page.date | postDate }} at {{ page.date | postTime }}
+                        {% endif %}
+                        {{ title }}
+                    </h2>
                     {% if subtitle %}<p class="post-subtitle">{{ subtitle | mdToHtml | safe }}</p>{% endif %}
+                    {% if layout == 'note' %}
+                        <em>From the desk of Robb Knight</em>
+                    {% endif %}
                     
                     {% if layout == 'post' or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
                         <div class="post-meta">
