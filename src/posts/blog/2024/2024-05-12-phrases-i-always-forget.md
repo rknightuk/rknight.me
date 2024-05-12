@@ -43,3 +43,6 @@ So pulling _away_ punches to do less damage. Hmm, okay.
 
 I will never remember this one. I am reminded of [this poll](https://www.thecut.com/2019/07/poll-1-in-8-men-think-they-can-beat-serena-williams.html) where one in eight men think they could score a point in a tennis match against Serena Williams. Idiots.
 
+Update 2024-05-12: Florian pointed me to [this article](https://theconversation.com/debunking-the-dunning-kruger-effect-the-least-skilled-people-know-how-much-they-dont-know-but-everyone-thinks-they-are-better-than-average-195527) which seems to suggest the Dunning-Kruger effect is very likely BS:
+
+> To establish the Dunning-Kruger effect is an artifact of research design, not human thinking, my colleagues and I showed it can be produced using randomly generated data
