@@ -171,6 +171,10 @@ module.exports = {
         const $ = cheerio.load(`<div id="content">${decode(post.content)}</div>`)
         let allText = $('#content').text().trim()
 
+        $('blockquote').get().forEach(element => {
+            allText = allText.replace($(element).text().trim(), `"${$(element).text().trim()}"`)
+        })
+
         if (post.layout === 'almanac')
         {
             let title = [
@@ -194,9 +198,7 @@ module.exports = {
 
         if (post.layout === 'note') 
         {
-            content = decode(post.content)
-
-            content = `${content} ${permalink}`
+            content = `${allText} ${permalink}`
 
             if (mastodonCount.getMastodonLength(content).length <= 476) 
             {
@@ -214,10 +216,6 @@ module.exports = {
         }
 
         content = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
-
-        $('blockquote').get().forEach(element => {
-            allText = allText.replace($(element).text().trim(), `"${$(element).text().trim()}"`)
-        })
 
         const contentWithAllText = `${content}\n\n${allText}\n\n📌 ${permalink}`
         const firstQuote = `"${$('blockquote').first().text().trim()}"`
