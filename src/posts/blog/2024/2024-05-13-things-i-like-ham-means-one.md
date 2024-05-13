@@ -16,4 +16,4 @@ I cannot stop thinking about [this Waffle House video](https://www.youtube.com/w
 
 John and Merlin spoke about it for almost the entirety of [episode 232 of Reconcilable Differences](https://www.relay.fm/rd/232) and it's also come up in follow up in the next two episodes.
 
-I'm still not 100% convinced that this isn't come kind of elaborate hoax.
+I'm still not 100% convinced that this isn't some kind of elaborate hoax.
