@@ -58,7 +58,7 @@ const makePath = (type) => {
 module.exports = {
     everything: (collectionApi) => {
         return collectionApi.getAll()
-            .filter(p => ['post', 'link', 'almanac', 'changelog'].includes(p.data.layout))
+            .filter(p => ['post', 'link', 'almanac', 'changelog', 'note'].includes(p.data.layout))
             .sort((a,b) => (a.data.date < b.data.date) ? 1 : ((b.data.date < a.data.date) ? -1 : 0))
     },
     posts: (collectionApi) => {
