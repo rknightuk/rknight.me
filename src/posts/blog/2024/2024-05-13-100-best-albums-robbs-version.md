@@ -37,6 +37,7 @@ Here are my top 100 albums. Note, I _do_ listen to Hamilton a lot but this is sk
 - Tickets To My Downfall (SOLD OUT Deluxe) - Machine Gun Kelly (440 plays)
 - Recharged - Linkin Park (423 plays)
 - 2001 - Dr. Dre (418 plays)
+- Single And Famous - MC Lars & K.Flay (412 plays)
 - MFZB - Zebrahead (357 plays)
 - A Whole New Wurst 2 - Punk Rock Factory (337 plays)
 - Best of... 20 Years and Counting - Allister (334 plays)
@@ -53,13 +54,11 @@ Here are my top 100 albums. Note, I _do_ listen to Hamilton a lot but this is sk
 - Around the World and Back (Deluxe) - State Champs (214 plays)
 - It's Just a Stage We're Going Through - Punk Rock Factory (208 plays)
 - Sittin' In A Tree - Jaret and Kelly (195 plays)
-- Single and Famous - MC Lars & K.Flay (193 plays)
 - Still Not Gettin' Any - Simple Plan (189 plays)
 - The Eminem Show - Eminem (188 plays)
 - Riot! (Deluxe) - Paramore (180 plays)
 - Brighter - Patent Pending (180 plays)
 - Palm Trees and Power Lines - Sugarcult (171 plays)
-- Single And Famous - MC Lars & K.Flay (169 plays)
 - See Through It All - dont panic (161 plays)
 - Tell Me I'm Alive - All Time Low (159 plays)
 - Enema of the State - blink-182 (152 plays)
@@ -120,6 +119,7 @@ Here are my top 100 albums. Note, I _do_ listen to Hamilton a lot but this is sk
 - From Under the Cork Tree - Fall Out Boy (70 plays)
 - Lace Up - Machine Gun Kelly (70 plays)
 - Saviors - Green Day (68 plays)
+- The Wack Album - The Lonely Island (67 plays)
 
 Here's my top 50 artists for the same period. I went for 50 because beyond that the plays were quite low and not as relevant as they are in albums.
 
