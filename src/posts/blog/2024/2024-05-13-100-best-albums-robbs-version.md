@@ -23,16 +23,15 @@ Here are my top 100 albums. Note, I _do_ listen to Hamilton a lot but this is sk
 - Hamilton: An American Musical - Original Broadway Cast (1937 plays)
 - Never Look Back (Deluxe) - Goldfinger (1274 plays)
 - Meteora - Linkin Park (1063 plays)
+- Love Sux - Avril Lavigne (1054 plays)
 - Kings of the New Age - State Champs (800 plays)
 - Harder Than It Looks - Simple Plan (783 plays)
 - Masters Of The Uniwurst - Punk Rock Factory (761 plays)
 - ONE MORE TIME... - blink-182 (656 plays)
 - A Whole New Wurst - Punk Rock Factory (592 plays)
 - Punk Tactics - Joey Valence & Brae (590 plays)
-- Love Sux (Deluxe) - Avril Lavigne (575 plays)
 - Tear Me to Pieces - Story of the Year (564 plays)
 - Just Woke Up - Jaret Ray Reddick (537 plays)
-- Love Sux - Avril Lavigne (479 plays)
 - Scene This? - Punk Rock Factory (472 plays)
 - Tickets To My Downfall (SOLD OUT Deluxe) - Machine Gun Kelly (440 plays)
 - Recharged - Linkin Park (423 plays)
@@ -120,6 +119,7 @@ Here are my top 100 albums. Note, I _do_ listen to Hamilton a lot but this is sk
 - Lace Up - Machine Gun Kelly (70 plays)
 - Saviors - Green Day (68 plays)
 - The Wack Album - The Lonely Island (67 plays)
+- Brain Invaders (Deluxe Edition) - Zebrahead (65 plays)
 
 Here's my top 50 artists for the same period. I went for 50 because beyond that the plays were quite low and not as relevant as they are in albums.
 
