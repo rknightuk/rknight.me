@@ -5,9 +5,8 @@
 		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" }
 	],
 	"current": [
-    	{ "title": "Hemispheric Views - Perfect Albums", "description": "Hemispheric Views - Perfect Albums", "image": "albums.jpg", "link": "https://albums.rknight.me/", "tags": ["11ty"] },
-		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" },
-		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.jpg", "tags": ["JS", "AppleScript", "Python"] },
+    	{ "title": "Hemispheric Views - Perfect Albums", "desc": "An iTunes UI for perfect albums", "image": "albums.jpg", "link": "https://albums.rknight.me/", "tags": ["11ty"] },
+		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" , "tags": ["PHP", "Laravel"] },
 		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" },
 		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.jpg", "tags": ["JS"] },
 		{ "title": "Crossover", "link": "https://crossover.rknight.me", "desc": "Compare actors who have appeared in any two TV shows", "image": "crossover.jpg", "tags": ["JS"] },
@@ -27,7 +26,8 @@
 		{ "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "image": "trackerzapper.jpg", "tags": ["Swift"] },
 		{ "title": "Mac 30th Anniversary Icons", "link": "https://rknightuk.github.io/mac-30-font-svg/", "desc": "SVG icons extracted from the 30th Anniversary Mac Font", "image": "mac-30.jpg", "tags": ["11ty"] },
 		{ "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Chief noise maker for a game during HackPompey", "image": "blahbarian.jpg", "tags": ["Audio"] },
-		{ "title": "Corpora", "link": "https://github.com/rknightuk/corpora", "desc": "A collection of small corpuses of interesting data for the creation of bots and similar stuff.", "image": "corpora.jpg" }
+		{ "title": "Corpora", "link": "https://github.com/rknightuk/corpora", "desc": "A collection of small corpuses of interesting data for the creation of bots and similar stuff.", "image": "corpora.jpg" },
+		{ "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.jpg", "tags": ["JS", "AppleScript", "Python"] }
 	],
 	"podcasts": [
 		{ "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.jpg", "tags": ["11ty", "Audio"] },

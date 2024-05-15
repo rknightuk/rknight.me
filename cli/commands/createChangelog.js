@@ -1,4 +1,4 @@
-import { input } from '@inquirer/prompts'
+import { input, select } from '@inquirer/prompts'
 import fs from 'fs'
 import moment from 'moment'
 import utils from '../utils.js'
