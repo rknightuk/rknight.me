@@ -29,6 +29,9 @@ const _getVerb = (type) => {
 }
 
 module.exports = {
+    encodeUrl: (url) => {
+        return encodeURIComponent(`https://rknight.me/opengraph${url}`)
+    },
     trim: (string, limit) => {
         return string.length <= limit ? string : `${string.slice(0, limit)}...`
     },
