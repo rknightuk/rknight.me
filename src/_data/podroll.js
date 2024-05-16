@@ -54,7 +54,7 @@ module.exports = () => {
         url: 'https://www.theincomparable.com/gameshow/trivia/',
         feed: 'https://feeds.theincomparable.com/gameshow/trivia' ,
         description: 'Imagine Trivial Pursuit but with loads of different editions, no board, and ghost points.',
-        cover: 'randpursuit.jpg'
+        cover: 'randompursuit.jpg'
     },
     {
         name: 'UK Triv',
@@ -68,7 +68,7 @@ module.exports = () => {
         url: 'https://appstories.net',
         feed: 'https://appstories.net/episodes/feed' ,
         description: 'A podcast about apps. Bet you couldn\'t have guessed from the title.',
-        cover: 'appstores.jpg'
+        cover: 'appstories.jpg'
     },
 ]
 }
