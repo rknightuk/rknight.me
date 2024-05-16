@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.pagesForOg
+  size: 1
+  alias: post
+permalink: opengraph/{{ post.url }}
+layout: opengraph
+eleventyComputed:
+  title: "{{ post.title }}"
+  icon: "{{ post.icon }}"
+---

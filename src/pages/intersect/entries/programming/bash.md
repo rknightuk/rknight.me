@@ -1,5 +1,6 @@
 ---
 title: Bash/Terminal
+permalink: intersect/programming/bash/index.html
 eleventyNavigation:
   key: Bash
   parent: Programming

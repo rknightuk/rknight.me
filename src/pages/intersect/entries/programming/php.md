@@ -1,5 +1,6 @@
 ---
 title: PHP
+permalink: intersect/programming/php/index.html
 eleventyNavigation:
   key: PHP
   parent: Programming

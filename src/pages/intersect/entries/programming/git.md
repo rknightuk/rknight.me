@@ -1,5 +1,6 @@
 ---
 title: Git
+permalink: intersect/programming/git/index.html
 eleventyNavigation:
   key: Git
   parent: Programming

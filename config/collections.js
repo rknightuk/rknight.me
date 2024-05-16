@@ -2,6 +2,7 @@ const fs = require('fs')
 const writingStats = require('writing-stats')
 const moment = require('moment')
 const production = require('../src/_data/site/production')
+const { url } = require('inspector')
 
 function processPostFile(filePath) {
     try {
@@ -56,6 +57,34 @@ const makePath = (type) => {
 }
 
 module.exports = {
+    pagesForOg: (collectionApi) => {
+        const pages = collectionApi.getAll()
+            .filter(p => {
+                const notAPost = !['post', 'link', 'almanac', 'changelog', 'note'].includes(p.data.layout)
+                const hasNavigation = p.data.eleventyNavigation
+
+                return notAPost && hasNavigation
+            }).map(p => {
+                return {
+                    title: p.data.title.toLowerCase(),
+                    url: p.url,
+                    icon: p.url.startsWith('/notes/') ? 'signature' : 'logo'
+                }
+            })
+
+        return [
+            ...pages,
+            {
+                title: 'from the desk of robb knight',
+                url: '/notes/single/',
+                icon: 'signature',
+            }
+        ]
+    },
+    postsForOg: (collectionApi) => {
+        return collectionApi.getAll()
+            .filter(p => ['post', 'link', 'almanac', 'changelog'].includes(p.data.layout))
+    },
     everything: (collectionApi) => {
         return collectionApi.getAll()
             .filter(p => ['post', 'link', 'almanac', 'changelog', 'note'].includes(p.data.layout))

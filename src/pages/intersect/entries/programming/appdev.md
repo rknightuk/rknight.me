@@ -1,5 +1,6 @@
 ---
 title: App Development
+permalink: intersect/programming/appdev/index.html
 eleventyNavigation:
   key: AppDev
   title: App Development

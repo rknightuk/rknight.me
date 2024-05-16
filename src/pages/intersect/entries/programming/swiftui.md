@@ -1,5 +1,6 @@
 ---
 title: SwiftUI
+permalink: intersect/programming/swiftui/index.html
 eleventyNavigation:
   key: SwiftUI
   parent: Programming

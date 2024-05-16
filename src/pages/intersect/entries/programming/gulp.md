@@ -1,5 +1,6 @@
 ---
 title: Gulp
+permalink: intersect/programming/gulp/index.html
 eleventyNavigation:
   key: Gulp
   parent: Programming

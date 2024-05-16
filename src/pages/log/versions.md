@@ -1,5 +1,5 @@
 ---
-title: Version History
+title: Site Version History
 subtitle: Every version of my site I have been able to find.
 layout: base
 permalink: 'log/versions/index.html'

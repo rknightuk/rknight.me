@@ -1,5 +1,6 @@
 ---
 title: Swift
+permalink: intersect/programming/swift/index.html
 eleventyNavigation:
   key: Swift
   parent: Programming

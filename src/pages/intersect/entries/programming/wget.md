@@ -1,5 +1,6 @@
 ---
 title: Wget
+permalink: intersect/programming/wget/index.html
 eleventyNavigation:
   key: Wget
   parent: Programming

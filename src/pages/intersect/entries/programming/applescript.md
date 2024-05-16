@@ -1,5 +1,6 @@
 ---
 title: AppleScript
+permalink: intersect/programming/applescript/index.html
 eleventyNavigation:
   key: AppleScript
   parent: Programming

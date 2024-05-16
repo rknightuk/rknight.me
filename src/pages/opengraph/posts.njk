@@ -1,0 +1,10 @@
+---
+pagination:
+  data: collections.postsForOg
+  size: 1
+  alias: post
+permalink: opengraph/{{ post.data.permalink }}
+layout: opengraph
+eleventyComputed:
+  title: "{{ post | getTitleForOg }}"
+---

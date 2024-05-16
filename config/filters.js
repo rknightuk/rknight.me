@@ -69,14 +69,6 @@ module.exports = {
         if (!content) return ''
         return marked.parseInline(content)
     },
-    getFirstAttachment: (post) => {
-        if (post && post.attachments && post.attachments.length > 0)
-        {
-            return post.attachments[0].url ? post.attachments[0].url : post.attachments[0]
-        }
-
-        return 'https://rknight.me/assets/img/preview_small.png'
-    },
     getTypeEmoji: (type) => _getTypeEmoji(type),
     getPostEmoji: (data) => {
         if (data.layout === 'link')
@@ -235,5 +227,26 @@ module.exports = {
         }
 
         return content
+    },
+    getTitleForOg: (post) => {
+        if (post.data.layout === 'almanac')
+        {
+            return `${_getTypeEmoji(post.data.type)} ${decode(post.data.title)}`
+        }
+
+        return decode(post.data.title)
+    },
+    getOgImageUrl: (page) => {
+        if (page.attachments && page.attachments.length > 0)
+        {
+            return page.attachments[0].url ? page.attachments[0].url : page.attachments[0]
+        }
+
+        let path = page.url
+        if (path.startsWith('/notes/') && path !== '/notes/') {
+            path = '/notes/single/'
+        }
+        const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
+        return `https://v1.screenshot.11ty.dev/${url}/opengraph`
     }
 }

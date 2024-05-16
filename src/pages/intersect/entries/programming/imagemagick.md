@@ -1,5 +1,6 @@
 ---
 title: Imagemagick
+permalink: intersect/programming/imagemagick/index.html
 eleventyNavigation:
   key: Imagemagick
   parent: Programming

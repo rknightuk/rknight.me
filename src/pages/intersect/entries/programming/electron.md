@@ -1,5 +1,6 @@
 ---
 title: Electron
+permalink: intersect/programming/electron/index.html
 eleventyNavigation:
   key: Electron
   parent: Programming

@@ -1,5 +1,6 @@
 ---
 title: Javascript
+permalink: intersect/programming/js/index.html
 eleventyNavigation:
   key: Javascript
   parent: Programming

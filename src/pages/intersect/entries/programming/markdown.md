@@ -1,5 +1,6 @@
 ---
 title: Markdown
+permalink: intersect/programming/markdown/index.html
 eleventyNavigation:
   key: Markdown
   parent: Programming

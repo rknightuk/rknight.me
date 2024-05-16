@@ -1,5 +1,6 @@
 ---
 title: JXA
+permalink: intersect/programming/jxa/index.html
 eleventyNavigation:
   key: JXA
   parent: Programming
