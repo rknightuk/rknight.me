@@ -45,9 +45,7 @@
 		<meta property="og:url" content="https://rknight.me{{ page.url }}">
 
         
-        {% if layout === 'post' %}
-            <meta property="og:image" content="https://v1.screenshot.11ty.dev/{{ page.url | encodeUrl }}">
-        {% elif customOgImage %}
+        {% if customOgImage %}
             <meta property="og:image" content="{{ { "fallback": type, "attachments": attachments } | attachmentOrCustomOg }}">
         {% elif ('/micro' in page.url) or homepage or layout == 'link' or layout == 'changelog' or layout == 'almanac' or layout == 'intersect' or layout == 'note' %}
             <meta property="og:image" content="{{ post | getFirstAttachment }}">
