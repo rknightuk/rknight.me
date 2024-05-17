@@ -17,6 +17,7 @@ eleventyNavigation:
 You can subscribe with the following feeds:
 
 - **Posts**: [Atom](/subscribe/posts/atom.xml), [RSS](/subscribe/posts/rss.xml) or [JSON Feed](/subscribe/posts/feed.json)
+- **Notes**: [Atom](/subscribe/notes/atom.xml), [RSS](/subscribe/notes/rss.xml) or [JSON Feed](/subscribe/notes/feed.json)
 - **Links**: [Atom](/subscribe/links/atom.xml), [RSS](/subscribe/links/rss.xml) or [JSON Feed](/subscribe/links/feed.json)
 - **Almanac**: [Atom](/subscribe/almanac/atom.xml), [RSS](/subscribe/almanac/rss.xml) or [JSON Feed](/subscribe/almanac/feed.json)
 - **Changelog**: [Atom](/subscribe/changelog/atom.xml), [RSS](/subscribe/changelog/rss.xml) or [JSON Feed](/subscribe/changelog/feed.json)
