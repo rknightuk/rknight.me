@@ -248,5 +248,14 @@ module.exports = {
         }
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
         return `https://v1.screenshot.11ty.dev/${url}/opengraph`
+    },
+    getOpengraphUrl: (inputPath) => {
+        let path = inputPath
+        if (path.startsWith('/notes/') && path !== '/notes/') {
+            path = '/notes/single/'
+        }
+
+        const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
+        return `https://v1.screenshot.11ty.dev/${url}/opengraph`
     }
 }
