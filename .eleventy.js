@@ -3,10 +3,6 @@ const shortcodes = require('./config/shortcodes.js')
 const filters = require('./config/filters.js')
 const dateFilters = require('./config/dateFilters.js')
 const plugins = require('./config/plugins.js')
-const postGraph = require('@rknightuk/eleventy-plugin-post-graph')
-const EleventyPluginOgImage = require('./config/eleventy-plugin-og-image')
-const fs = require('fs')
-const { execSync } = require('child_process')
 
 module.exports = function(eleventyConfig) {
 
@@ -66,10 +62,6 @@ module.exports = function(eleventyConfig) {
     })
 
     eleventyConfig.watchIgnores.add('src/assets/ogi/**/*')
-
-    // eleventyConfig.on('eleventy.after', () => {
-    //     execSync(`npx pagefind --source public --glob \"**/*.html\"`, { encoding: 'utf-8' })
-    // })
 
     return {
         passthroughFileCopy: true,

@@ -5,47 +5,22 @@
 		<meta charset="UTF-8" >
 
 		<meta name="viewport" content="width=device-width" >
-		<meta name="Description" content="{{ title }}">
 
 		<meta name="generator" content="{{ eleventy.generator }}">
 
-		<title>{{ title | safe }}{% if title !== 'Robb Knight' %} • Robb Knight{% endif %}</title>
+		<title>{{ title or metaTitle | safe }}{% if title !== 'Robb Knight' %} • Robb Knight{% endif %}</title>
 
         <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title">
 
-        <!-- 👋 hello! If you subscribe via RSS there might be some super secret posts just for you, don't tell anyone 🤫 -->
-        <link rel="alternate" type="application/atom+xml" title="Robb Knight RSS Feed" href="https://rknight.me/subscribe/posts/atom.xml">
-        <link rel="alternate" type="application/rss+xml" title="Robb Knight RSS Feed" href="https://rknight.me/subscribe/posts/rss.xml">
-        <link rel="alternate" type="application/json" title="Robb Knight JSON Feed" href="https://rknight.me/subscribe/posts/feed.json">
+        {% include 'head/rss.njk' %}
 
-        <link rel="blogroll" type="text/xml" href="/blog/roll/opml.xml" title="Robb Knight's blogroll">
+        {% include 'head/icons.njk' %}
 
-        <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-        <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-        <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-        <link rel="manifest" href="/assets/icons/site.webmanifest">
-        <link rel="mask-icon" href="/assets/icons/safari-pinned-tab.svg" color="#272523">
-        <meta name="msapplication-TileColor" content="#272523">
-        <meta name="theme-color" content="#272523">
-        <link rel='icon' type='image/x-icon' href='/assets/icons/favicon.ico'>
+        {% include 'head/opengraph.njk' %}
         
         {% if site.production %}
             <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
         {% endif %}
-
-		<meta property="og:title" content="{{ title }}">
-        {% if ('/micro' in page.url) %}
-            <meta name="description" content="{{ post.summary }}">
-            <meta property="og:description" content="{{ post.summary }}">
-        {% else %}
-            <meta name="description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ site.config.description }}{% endif %}">
-		    <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ site.config.description }}{% endif %}">
-        {% endif %}
-		<meta property="og:type" content="article">
-		<meta property="og:url" content="https://rknight.me{{ page.url }}">
-
-        
-        <meta property="og:image" content="{{ { url: page.url, type: layout, attachments: attachments } | getOgImageUrl }}">
 
         <link rel="webmention" href="https://webmention.io/rknight.me/webmention">
         <link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc">
@@ -117,15 +92,9 @@
             <div class="rkblock block-main">
                 <div class="container">
                     <h2 class="p-name" data-pagefind-meta="title">
-                        {% if layout == 'note' %}
-                            {{ page.date | postDate }} at {{ page.date | postTime }}
-                        {% endif %}
                         {{ title }}
                     </h2>
                     {% if subtitle %}<p class="post-subtitle">{{ subtitle | mdToHtml | safe }}</p>{% endif %}
-                    {% if layout == 'note' %}
-                        <em>From the desk of Robb Knight</em>
-                    {% endif %}
                     
                     {% if layout == 'post' or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
                         <div class="post-meta">

@@ -1,0 +1,6 @@
+<meta property="og:title" content="{{ title or metaTitle }}">
+<meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.config.description }}{% endif %}">
+<meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ site.config.description }}{% endif %}">
+<meta property="og:type" content="article">
+<meta property="og:url" content="https://rknight.me{{ page.url }}">
+<meta property="og:image" content="{{ { url: page.url, type: layout, attachments: attachments } | getOgImageUrl }}">

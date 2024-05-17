@@ -1,3 +1,9 @@
 {
-    "layout": "note"
+    "layout": "note",
+    "eleventyComputed": {
+        "title": "{{ date | postDate }} at {{ date | postTime }}",
+        "metaTitle": "A note from the desk of Robb Knight",
+        "excerpt": "{{ date | postDate }} at {{ date | postTime }}",
+        "subtitle": "A note from the desk of Robb Knight"
+    }
 }
