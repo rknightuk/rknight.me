@@ -1,6 +1,3 @@
-const fs = require('fs')
-const slugify = require('slugify')
-
 module.exports = [
     {
         name: '@11ty/eleventy-plugin-rss',

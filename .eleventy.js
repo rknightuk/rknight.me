@@ -1,7 +1,10 @@
 const collections = require('./config/collections.js')
 const shortcodes = require('./config/shortcodes.js')
-const filters = require('./config/filters.js')
-const dateFilters = require('./config/dateFilters.js')
+
+const filters = require('./config/filters/filters.js')
+const dateFilters = require('./config/filters/date.js')
+const indiewebFilters = require('./config/filters/indieweb.js')
+
 const plugins = require('./config/plugins.js')
 
 module.exports = function(eleventyConfig) {
@@ -59,6 +62,11 @@ module.exports = function(eleventyConfig) {
     // date filters
     Object.keys(dateFilters).forEach(filterName => {
         eleventyConfig.addFilter(filterName, dateFilters[filterName])
+    })
+
+    // indieweb/posse filters
+    Object.keys(indiewebFilters).forEach(filterName => {
+        eleventyConfig.addFilter(filterName, indiewebFilters[filterName])
     })
 
     eleventyConfig.watchIgnores.add('src/assets/ogi/**/*')
