@@ -9,7 +9,7 @@ export default async (__siteroot) => {
     const postDate = new Date().toISOString()
 
     let meta = `---
-permalink: /note/${slug}/index.html
+permalink: /notes/${slug}/index.html
 date: ${postDate}
 ---
 
