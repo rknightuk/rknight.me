@@ -172,3 +172,22 @@ module.exports = {
         }
     },
 ```
+
+### Using filters inside data files
+
+[Source](https://illtron.net/2023/01/11ty-directory-data-filters/). They are not accessible if you're using arrow functions.
+
+```js
+module.exports = {
+	eleventyComputed: {
+        // this works
+        customData: function (data) {
+            return this.myCoolFunction(data)
+        },
+        // arrow functions won't work
+        customData = (data) => {
+            return this.myCoolFunction(data)
+        },
+	},
+}
+```
