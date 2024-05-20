@@ -9,7 +9,7 @@ tags:
     - WeblogPoMo
 ---
 
-I don’t have a driving licence. I’ve lived most of my adult life in Portsmouth which is one of the most densely populated cities in the UK[^1]. We have a pretty decent bus system, taxis used to be cheap (not so much the past few years), we have rental scooters, and we have _five_ train stations. So public transport isn’t an issue. 
+I don’t have a driving licence. I’ve lived most of my adult life in Portsmouth which is the most densely populated city in the UK. We have a pretty decent bus system, taxis used to be cheap (not so much the past few years), we have rental scooters, and we have _five_ train stations. So public transport isn’t an issue. 
 
 But I have Baby Knight now and my wife has to do all the errands that require driving which is less than ideal so I’m starting lessons this week. 
 
@@ -22,5 +22,3 @@ We drove around in circles on an industrial estate for a bit then I pulled over 
 _Do you not fear death, sir?_.
 
 It was fine, no one died, we made it back in one piece. Still. The man clearly has no fear.
-
-[^1]: It used to be number one but looking around it seems like maybe London overtook it in 2022
