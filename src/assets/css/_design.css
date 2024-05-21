@@ -11,7 +11,6 @@
 .logo-dot {
     fill: var(--primary);
     color: var(--primary);
-    margin-left: -3px;
 }
 
 .design--logo {

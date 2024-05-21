@@ -9,7 +9,7 @@ eleventyNavigation:
 [Eleventy](https://www.11ty.dev) is my [static site generator](/webdev/static-site-generators) of choice for my personal sites and projects.
 
 
-## Ignore `.gitignore`
+### Ignore `.gitignore`
 
 By default, Eleventy [won't watch files](https://www.11ty.dev/docs/ignores/) listed in your `.gitignore`. You can tell it to not do that:
 
@@ -17,7 +17,7 @@ By default, Eleventy [won't watch files](https://www.11ty.dev/docs/ignores/) lis
 eleventyConfig.setUseGitIgnore(false)
 ```
 
-## Changing Directory Locations
+### Changing Directory Locations
 
 I tend to do this so I can have the source of my project inside a directory instead of all of it in the root. In `.eleventy.js`:
 
@@ -30,7 +30,7 @@ return {
 }
 ```
 
-## Copy Assets and Files to the Output
+### Copy Assets and Files to the Output
 
 If you want non-template files copied through to your final build (like css files or images), you can use a passthrough in `.eleventy.js`:
 
@@ -38,7 +38,7 @@ If you want non-template files copied through to your final build (like css file
 eleventyConfig.addPassthroughCopy({ "src/pages/_eleventy/assets": "assets" })
 ```
 
-## Filters
+### Filters
 
 [Filters](https://www.11ty.dev/docs/filters/) allow you to extend the template engines to modify content. I'm probably misusing these in some places. Below is an example of a filter to strip `/index.html` from some paths I had on my [personal site](https://rknight.me).
 
@@ -48,7 +48,7 @@ eleventyConfig.addFilter('stripIndex', function(path) {
 })
 ```
 
-## Using Local plugins
+### Using Local plugins
 
 `.eleventy.js`
 ```js
@@ -63,7 +63,7 @@ module.exports = function() {
 }
 ```
 
-## Object Debug
+### Object Debug
 
 ```js
 // .eleventy.js
@@ -75,7 +75,7 @@ eleventyConfig.addFilter('objectDebug', function(value) {
 {% raw %}{{ myObject | objectDebug | safe }}{% endraw %}
 ```
 
-## Highlight Lines in Code Blocks
+### Highlight Lines in Code Blocks
 
 Lines are zero-indexed.
 
@@ -95,7 +95,7 @@ const myFunction = () => {
 }
 ```
 
-## Post Archive by Year
+### Post Archive by Year
 
 ```liquid{% raw %}
 {% set datePrinted = false %}
@@ -124,7 +124,7 @@ const myFunction = () => {
 ```
 
 
-## Automatic Ordering for Eleventy Navigation
+### Automatic Ordering for Eleventy Navigation
 
 [Eleventy Navigation](https://www.11ty.dev/docs/plugins/navigation/) is a great plugin for generating navigation and breadcrumbs. One of the properties is `order` to indicate the order of the pages. This is great if you have a few pages but if you have hundreds (like this site does) you can get some unexpected results like random ordering, especially if you have _some_ ordered but not others.
 
@@ -173,7 +173,7 @@ module.exports = {
     },
 ```
 
-### Using filters inside data files
+### Using filters inside computed data files
 
 [Source](https://illtron.net/2023/01/11ty-directory-data-filters/). They are not accessible if you're using arrow functions.
 
