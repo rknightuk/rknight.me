@@ -1,0 +1,13 @@
+---
+title: Raycast Extensions
+permalink: /projects/raycast-extensions/index.html
+subtitle: My custom extensions, source code [on GitHub](https://github.com/stars/rknightuk/lists/raycast-extensions)
+layout: base
+eleventyNavigation:
+  key: Raycast Extensions
+  parent: Projects
+---
+
+{%- for project in raycast %}
+  <p><strong><a href="{{ project.link }}">{{ project.title }}</a></strong><br><em>{{ project.desc }}</em></p>
+{% endfor%}

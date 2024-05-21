@@ -9,6 +9,7 @@ tags:
     - Raycast
     - MacOS
     - WeblogPoMo
+project: /projects/raycast-extensions
 ---
 
 If you prefer listening to reading, I spoke to John about this on [Ruminate 183](https://ruminatepodcast.com/183).

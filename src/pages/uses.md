@@ -43,7 +43,7 @@ eleventyNavigation:
 - [1Password](https://1password.com)
 - [iTerm2](https://iterm2.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- [Alfred](https://www.alfredapp.com/) with many [workflows](/alfred-workflows)
+- ~~[Alfred](https://www.alfredapp.com/) with many [workflows](/alfred-workflows)~~ I'm on Raycast now.
 - [TablePlus](https://tableplus.com/) for database management
 - [Obsidian](https://obsidian.md)
 - [Fantastical](https://flexibits.com/fantastical) for calendars. I used [Dato](https://sindresorhus.com/dato) for a while but it just wasn't as good for what I need

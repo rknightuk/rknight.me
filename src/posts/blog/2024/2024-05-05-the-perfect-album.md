@@ -8,6 +8,7 @@ tags:
     - Music
     - Podcasting
     - WeblogPoMo
+project: https://albums.rknight.me
 ---
 
 ![](https://cdn.rknight.me/site/cover-flow-albums-x.jpg)
