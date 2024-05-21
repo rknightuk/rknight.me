@@ -83,7 +83,7 @@ module.exports = {
     getTitleForOg: (post) => {
         if (post.data.layout === 'almanac')
         {
-            return `${utils.getAlmanacEmoji(post.data.type)} ${decode(post.data.title)}`
+            return `${utils.getAlmanacVerb(post.data.type)} ${decode(post.data.title)}`
         }
 
         return decode(post.data.title)
