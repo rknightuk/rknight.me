@@ -35,6 +35,6 @@ I was able to use some new CSS I've not used before including `wavy` text decora
 </p>
 ```
 
-The source code of the site is [on GitHub](https://github.com/rknightuk/slashpages) and you can see it in all it's glory at [slashpages.net](slashpages.net).
+The source code of the site is [on GitHub](https://github.com/rknightuk/slashpages) and you can see it in all it's glory at [slashpages.net](https://slashpages.net).
 
 [^1]: I wanted slash.page but that was sadly already taken
