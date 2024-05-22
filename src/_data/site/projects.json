@@ -1,12 +1,13 @@
 {
 	"featured": [
-    	{ "title": "Hemispheric Views - Perfect Albums", "description": "Hemispheric Views - Perfect Albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
-		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" },
-		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" }
+    { "title": "slash pages", "description": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
+    { "title": "Hemispheric Views - Perfect Albums", "description": "Hemispheric Views - Perfect Albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
+		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" }
 	],
 	"current": [
 		{ "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },
-    	{ "title": "Hemispheric Views - Perfect Albums", "desc": "An iTunes UI for perfect albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
+    { "title": "slash pages", "description": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
+    { "title": "Hemispheric Views - Perfect Albums", "desc": "An iTunes UI for perfect albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
 		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" , "tags": ["PHP", "Laravel"] },
 		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" },
 		{ "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.jpg", "tags": ["JS"] },
