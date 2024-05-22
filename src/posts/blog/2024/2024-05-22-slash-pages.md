@@ -8,6 +8,7 @@ tags:
     - Development
     - OpenWeb
     - WeblogPoMo
+project: https://slashpages.net
 ---
 
 ![Slash pages](https://cdn.rknight.me/site/slashpages.jpg)
