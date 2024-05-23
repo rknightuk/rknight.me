@@ -16,7 +16,7 @@ module.exports = {
         }
 
         const $ = cheerio.load(`<div id="content">${decode(post.content)}</div>`)
-        let allText = $('#content').text().trim()
+        let allText = $('#content').text().trim().replace('\n', '\n\n')
 
         $('blockquote').get().forEach(element => {
             allText = allText.replace($(element).text().trim(), `"${$(element).text().trim()}"`)
