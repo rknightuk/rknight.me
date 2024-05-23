@@ -1,10 +1,16 @@
 ---
-title: Page not found
+title: please, my website, she's very sick
 layout: base
 permalink: '404.html'
 ---
 
-So sorry but this page has disappeared to god knows where. Here are some popular blog posts or you can <a href="/">go back to the home page</a>.
+<div style="text-align: center;">
+    <svg class="icon" style="width: 200px; height: 200px;">
+        <use xlink:href="#rklogo404"></use>
+    </svg>
+</div>
+
+<p>So sorry but this page has disappeared to god knows where. Here are some popular blog posts or you can <a href="/">go back to the home page</a>.</p>
 
 {%- set popular = fathom | popularPosts(10) -%}
 {% include 'popular_posts.njk' %}

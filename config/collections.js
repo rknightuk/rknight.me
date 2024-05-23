@@ -78,6 +78,11 @@ module.exports = {
                 title: 'from the desk of robb knight',
                 url: '/notes/single/',
                 icon: 'signature',
+            },
+            {
+                title: 'please, my website, she\'s very sick',
+                url: '/404.html',
+                icon: '404',
             }
         ]
     },

@@ -10,6 +10,7 @@
 
 .logo-dot {
     fill: var(--primary);
+    stroke: var(--primary);
     color: var(--primary);
 }
 
