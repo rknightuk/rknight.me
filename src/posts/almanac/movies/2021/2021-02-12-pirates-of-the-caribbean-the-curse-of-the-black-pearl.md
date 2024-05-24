@@ -5,4 +5,5 @@ date: 2021-02-12T00:00:04.000Z
 permalink: /almanac/movies/2021-02-12-pirates-of-the-caribbean-the-curse-of-the-black-pearl/index.html
 link: https://letterboxd.com/rknightuk/film/pirates-of-the-caribbean-the-curse-of-the-black-pearl/4/
 rating: 3
+tmdbid: 22
 ---

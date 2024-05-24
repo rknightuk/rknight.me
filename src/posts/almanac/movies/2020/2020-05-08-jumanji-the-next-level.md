@@ -5,6 +5,7 @@ date: 2020-05-08T22:14:38.000Z
 permalink: /almanac/movies/2020-05-08-jumanji-the-next-level/index.html
 link: https://letterboxd.com/rknightuk/film/jumanji-the-next-level/
 rating: 3
+tmdbid: 512200
 ---
 
 Hell yeah this was fantastic. Kevin Hart is hilarious especially in

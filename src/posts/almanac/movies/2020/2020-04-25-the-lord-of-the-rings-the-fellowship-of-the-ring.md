@@ -5,6 +5,7 @@ date: 2020-04-25T08:05:23.000Z
 permalink: /almanac/movies/2020-04-25-the-lord-of-the-rings-the-fellowship-of-the-ring/index.html
 link: https://letterboxd.com/rknightuk/film/the-lord-of-the-rings-the-fellowship-of-the-ring/
 rating: 2
+tmdbid: 120
 ---
 
 The story felt rushed and very slow at the same time. I liked it, but

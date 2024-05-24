@@ -4,6 +4,7 @@ year: 2016
 date: 2017-12-25T00:00:00.000Z
 permalink: /almanac/movies/2017-12-25-fantastic-beasts/index.html
 rating: 3
+tmdbid: 259316
 ---
 
 Third time's the charm.

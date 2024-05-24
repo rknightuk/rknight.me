@@ -5,6 +5,7 @@ date: 2022-11-16T08:10:22.000Z
 permalink: /almanac/movies/2022-11-16-harry-potter-and-the-philosophers-stone/index.html
 link: https://letterboxd.com/rknightuk/film/harry-potter-and-the-philosophers-stone/8/
 rating: 3
+tmdbid: 671
 ---
 
 Time for our annual rewatch.

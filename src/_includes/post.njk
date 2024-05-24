@@ -48,7 +48,7 @@ layout: base
             {% endif %}
         </aside>
     {% endif %}
-    {% if link %}
+    {% if link and 'letterboxd' not in link %}
         <aside class="alert">
             <div class="alert-icon">
                 <svg class="icon"><use xlink:href="#link"></use></svg>
@@ -64,9 +64,11 @@ layout: base
 </span>
 
 <footer>
-    <div class="callout">
-        <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
-    </div>
+    {% if layout !== 'almanac' %}
+        <div class="callout">
+            <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
+        </div>
+    {% endif %}
 
     <p class="footer-social"><a href="https://social.lol/@robb"><svg class="icon mastodon-icon">
         <use xlink:href="#mastodon"></use>

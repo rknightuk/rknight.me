@@ -5,6 +5,7 @@ date: 2022-11-20T20:49:43.000Z
 permalink: /almanac/movies/2022-11-20-disenchanted/index.html
 link: https://letterboxd.com/rknightuk/film/disenchanted/
 rating: 2
+tmdbid: 338958
 ---
 
 This was a proper clumsy sequel.

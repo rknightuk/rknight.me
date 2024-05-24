@@ -5,6 +5,7 @@ date: 2020-04-26T22:00:03.000Z
 permalink: /almanac/movies/2020-04-26-the-lord-of-the-rings-the-return-of-the-king/index.html
 link: https://letterboxd.com/rknightuk/film/the-lord-of-the-rings-the-return-of-the-king/
 rating: 2
+tmdbid: 122
 ---
 
 Every part of this movie goes on slightly longer than it needs to.
