@@ -111,7 +111,7 @@ module.exports = {
         }
 
         if (path.startsWith('404')) {
-            path = '/404.html'
+            path = '/404/'
         }
 
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)

@@ -81,7 +81,7 @@ module.exports = {
             },
             {
                 title: 'please, my website, she\'s very sick',
-                url: '/404.html',
+                url: '/404/',
                 icon: '404',
             }
         ]
