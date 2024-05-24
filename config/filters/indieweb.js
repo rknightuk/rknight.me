@@ -98,6 +98,10 @@ module.exports = {
         }
 
         let path = page.url
+        if (page.permalink === '404.html') {
+            path = '/404/'
+        }
+
         if (path.startsWith('/notes/') && path !== '/notes/') {
             path = '/notes/single/'
         }
@@ -108,10 +112,6 @@ module.exports = {
         let path = inputPath
         if (path.startsWith('/notes/') && path !== '/notes/') {
             path = '/notes/single/'
-        }
-
-        if (path.startsWith('404')) {
-            path = '/404/'
         }
 
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)

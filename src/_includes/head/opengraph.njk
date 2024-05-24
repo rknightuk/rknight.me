@@ -3,4 +3,4 @@
 <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ site.config.description }}{% endif %}">
 <meta property="og:type" content="article">
 <meta property="og:url" content="https://rknight.me{{ page.url }}">
-<meta property="og:image" content="{{ { url: page.url, type: layout, attachments: attachments } | getOgImageUrl }}">
+<meta property="og:image" content="{{ { url: page.url, type: layout, attachments: attachments, permalink: permalink } | getOgImageUrl }}">
