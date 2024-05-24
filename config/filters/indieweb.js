@@ -110,6 +110,10 @@ module.exports = {
             path = '/notes/single/'
         }
 
+        if (path.startsWith('404')) {
+            path = '/404.html'
+        }
+
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
         return `https://v1.screenshot.11ty.dev/${url}/opengraph`
     }
