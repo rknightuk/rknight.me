@@ -1,14 +1,41 @@
 ---
-title: Movies
-subtitle: Every movie I've watched
-permalink: 'almanac/movies/index.html'
+pagination:
+  data: collections.almanacMovies
+  size: 50
+  alias: movie
+permalink: 'almanac/movies/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
-type: movie
-almanacCollection: almanacMovies
+wide: true
 eleventyNavigation:
   key: Movies
   title: 🍿 Movies
   parent: Almanac
+eleventyComputed:
+    title: Movies
+    subtitle: Every movie I've watched
 ---
 
-{% include 'almanac_list.njk' %}
+{% set currentYear = postYear %}
+
+<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem;margin-bottom:10px;">
+  {%- for movie in pagination.items %}
+    {% set postYear = movie.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        <div style="display: flex; align-items: center; justify-content:center;font-family:var(--cbr);font-size:1.2em;background:var(--bg-darker)">{{ postYear }}</div>
+    {% endif %}
+
+    <hyper-card>
+      <a href="{{ movie.data.permalink | stripIndex }}">
+        <img style="width: 100%; height: 100%;" src="/assets/catalog/almanac/movie/{{ movie.data.tmdbid or movie.data.customImage }}.jpg">
+      </a>
+    </hyper-card>
+
+    {% set currentYear = postYear %}
+  {% endfor -%}
+</div>
+
+<div class="pagination box">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Movies</a>{% else %}{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Movies</a>{% else %}{% endif %}</div>
+</div>

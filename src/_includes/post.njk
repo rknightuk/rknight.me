@@ -56,6 +56,11 @@ layout: base
             <a style="font-weight: bold;" href="{{ link }}">{{ title }} &#x2192;</a>
         </aside>
     {% endif %}
+
+    {% if tmdbid or customImage %}
+        <img class="u-photo" src="/assets/catalog/almanac/movie/{{ tmdbid or customImage }}.jpg" alt="{{ title }}">
+    {% endif %}
+
 	{{ content | safe }}
 
     {% if via %}
