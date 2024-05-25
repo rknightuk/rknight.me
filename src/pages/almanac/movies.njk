@@ -17,17 +17,17 @@ eleventyComputed:
 
 {% set currentYear = postYear %}
 
-<div style="display: grid; grid-template-columns: repeat(5, 1fr); gap: 1rem;margin-bottom:10px;">
+<div class="almanac-grid">
   {%- for movie in pagination.items %}
     {% set postYear = movie.data.date.getFullYear() %}
 
     {% if postYear != currentYear %}
-        <div style="display: flex; align-items: center; justify-content:center;font-family:var(--cbr);font-size:1.2em;background:var(--bg-darker)">{{ postYear }}</div>
+        <div class="almanac-empty-box">{{ postYear }}</div>
     {% endif %}
 
     <hyper-card>
       <a href="{{ movie.data.permalink | stripIndex }}">
-        <img style="width: 100%; height: 100%;" src="/assets/catalog/almanac/movie/{{ movie.data.tmdbid or movie.data.customImage }}.jpg">
+        <img class="almanac-poster" src="/assets/catalog/almanac/movie/{{ movie.data.tmdbid or movie.data.customImage }}.jpg">
       </a>
     </hyper-card>
 
