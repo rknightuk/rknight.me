@@ -44,7 +44,7 @@
 }
 
 .rkblock h2 {
-    margin: 0.8em 0 0 0;
+    margin: 10px 0 0;
     color: var(--offwhite);
     text-shadow: var(--double-shadow);
 }
@@ -96,4 +96,9 @@
 
 .rkblock.home a:hover {
     color: var(--offwhite);
+}
+
+.rkblock.divider {
+    background-color: var(--offwhite);
+    padding: 15px;
 }

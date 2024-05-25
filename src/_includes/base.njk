@@ -98,24 +98,7 @@
                     <h2 class="p-name" data-pagefind-meta="title">
                         {{ title }}
                     </h2>
-                    {% if subtitle %}<p class="post-subtitle">{{ subtitle | mdToHtml | safe }}</p>{% endif %}
-                    
-                    {% if layout == 'post' or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
-                        <div class="post-meta">
-                            <div>
-                                <svg class="icon">
-                                    <use xlink:href="#calendar"></use>
-                                </svg>
-                                <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
-                                {% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
-                            </div>
-                            <div>
-                                {% for tag in tags | sort %}
-                                    <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
-                                {% endfor %}
-                            </div>
-                        </div>
-                    {% endif %}
+                    {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
                     <nav class="header-nav">
                         {% if layout !== 'intersect' %}
                             {% if eleventyNavigation %}
@@ -147,6 +130,23 @@
                 {% if wide %}{% else %}container-sm{% endif %}
                 h-entry
             ">
+                {% if layout == 'post' or layout == 'link' or layout == 'changelog' or layout == 'almanac' %}
+                    <div class="post-meta">
+                        <div>
+                            <svg class="icon">
+                                <use xlink:href="#calendar"></use>
+                            </svg>
+                            <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
+                            {% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
+                        </div>
+                        <div>
+                            {% for tag in tags | sort %}
+                                <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
+                            {% endfor %}
+                        </div>
+                    </div>
+                {% endif %}
+
                 {{ content | safe }}
             </div>
         </main>
