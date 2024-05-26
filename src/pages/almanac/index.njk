@@ -1,12 +1,17 @@
 ---
-title: Almanac
-subtitle: "Everything I've watched, read, and played"
-permalink: '/almanac/index.html'
+pagination:
+  data: collections.almanac
+  size: 50
+permalink: 'almanac/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
-almanacCollection: almanac
+wide: true
 eleventyNavigation:
   key: Almanac
   parent: Home
+eleventyComputed:
+    title: Almanac
+    subtitle: "Everything I've watched, read, and played<br>[View as list](/almanac/list)"
+    plural: Entries
 ---
 
-{% include 'almanac_list.njk' %}
+{% include 'almanac_grid.njk' %}
