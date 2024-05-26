@@ -11,4 +11,6 @@ attachments:
     - url: https://cdn.rknight.me/almanac/miles-morales-ngp-1.jpg
     - url: https://cdn.rknight.me/almanac/miles-morales-ngp-4.jpg
     - url: https://cdn.rknight.me/almanac/miles-morales-ngp-3.jpg
+giantbombid: 78950
+giantbomburl: https://www.giantbomb.com/marvels-spider-man-miles-morales/3030-78950/
 ---

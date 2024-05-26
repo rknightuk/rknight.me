@@ -10,6 +10,8 @@ attachments:
     - url: https://cdn.rknight.me/almanac/immortals-fenyx-rising-1.jpg
     - url: https://cdn.rknight.me/almanac/immortals-fenyx-rising-4.jpg
     - url: https://cdn.rknight.me/almanac/immortals-fenyx-rising-3.jpg
+giantbombid: 73789
+giantbomburl: https://www.giantbomb.com/immortals-fenyx-rising/3030-73789/
 ---
 
 Despite the similarities between this and Breath of the Wild, I really enjoy this (where I disliked BotW).

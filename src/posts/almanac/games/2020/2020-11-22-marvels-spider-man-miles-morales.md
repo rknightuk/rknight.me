@@ -13,6 +13,8 @@ attachments:
     - url: https://cdn.rknight.me/almanac/miles-morales-2.jpg
     - url: https://cdn.rknight.me/almanac/miles-morales-3.jpg
     - url: https://cdn.rknight.me/almanac/miles-morales-1.jpg
+giantbombid: 78950
+giantbomburl: https://www.giantbomb.com/marvels-spider-man-miles-morales/3030-78950/
 ---
 
 This is a lot shorter than the first game but that works in it's favour: no more sneaking as MJ or doing dumb circuit board puzzles.

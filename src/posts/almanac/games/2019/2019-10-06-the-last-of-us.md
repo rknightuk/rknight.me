@@ -8,6 +8,8 @@ platform: PS4
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/lastofus.jpg
+giantbombid: 36989
+giantbomburl: https://www.giantbomb.com/the-last-of-us/3030-36989/
 ---
 
 I'm about 6 years late but it was so worth it.

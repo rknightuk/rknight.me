@@ -6,4 +6,6 @@ date: 2020-11-01T16:43:00.000Z
 permalink: /almanac/games/2020-11-01-tony-hawks-pro-skater-12/index.html
 platform: PS4
 rating: 3
+giantbombid: 78420
+giantbomburl: https://www.giantbomb.com/tony-hawks-pro-skater-12/3030-78420/
 ---

@@ -7,6 +7,8 @@ platform: PS2
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/thps3-darth-maul.jpg
+giantbombid: 5688
+giantbomburl: https://www.giantbomb.com/tony-hawks-pro-skater-3/3030-5688/
 ---
 
 I really hope after the 1+2 remake we get a remake of this one (and 4).

@@ -13,6 +13,8 @@ attachments:
     - url: https://cdn.rknight.me/almanac/last-of-us-ii-4.png
     - url: https://cdn.rknight.me/almanac/last-of-us-ii-5.png
     - url: https://cdn.rknight.me/almanac/last-of-us-ii-6.png
+giantbombid: 57216
+giantbomburl: https://www.giantbomb.com/the-last-of-us-part-ii/3030-57216/
 ---
 
 Update: After speaking with [Keenan](https://twitter.com/_gkeenan) I changed my mind about the order of the chapters. 

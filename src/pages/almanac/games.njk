@@ -1,14 +1,41 @@
 ---
-title: Games
-subtitle: Everything I've played
-permalink: 'almanac/games/index.html'
+pagination:
+  data: collections.almanacGames
+  size: 50
+  alias: game
+permalink: 'almanac/games/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
-type: game
-almanacCollection: almanacGames
+wide: true
 eleventyNavigation:
-  key: Games
-  title: 🎮 Games
+  key: games
+  title: 🍿 Games
   parent: Almanac
+eleventyComputed:
+    title: games
+    subtitle: Every game I've played
 ---
 
-{% include 'almanac_list.njk' %}
+{% set currentYear = postYear %}
+
+<div class="almanac-grid">
+  {%- for game in pagination.items %}
+    {% set postYear = game.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        <div class="almanac-empty-box">{{ postYear }}</div>
+    {% endif %}
+
+    <hyper-card>
+      <a href="{{ game.data.permalink | stripIndex }}">
+        <img class="almanac-poster" src="/assets/catalog/almanac/game/{{ game.data.customImage or game.data.giantbombid }}.jpg">
+      </a>
+    </hyper-card>
+
+    {% set currentYear = postYear %}
+  {% endfor -%}
+</div>
+
+<div class="pagination box">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer games</a>{% else %}{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older games</a>{% else %}{% endif %}</div>
+</div>

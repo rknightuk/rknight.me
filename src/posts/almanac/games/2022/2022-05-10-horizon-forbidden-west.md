@@ -6,6 +6,8 @@ platform: PS5
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/hfw2.jpg
+giantbombid: 78969
+giantbomburl: https://www.giantbomb.com/horizon-forbidden-west/3030-78969/
 ---
 
 Better than the first one in every way. The ability to climb basically anywhere is great and I spent way more time changing the color of outfits than I should have done. 

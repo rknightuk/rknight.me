@@ -8,6 +8,8 @@ platform: PS4
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/thps12.jpg
+giantbombid: 78420
+giantbomburl: https://www.giantbomb.com/tony-hawks-pro-skater-12/3030-78420/
 ---
 
 This is the perfect remaster. It's exactly like I remember it (it's not, the originals look terrible now) and adds a lot of modern touches that make sense and make this properly complete game. I'm going to be doing the challenges for a long time. The new soundtrack is incredible as well.

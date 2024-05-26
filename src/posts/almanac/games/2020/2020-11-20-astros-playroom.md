@@ -14,6 +14,8 @@ attachments:
     - url: https://cdn.rknight.me/almanac/astros-playroom-1.jpg
     - url: https://cdn.rknight.me/almanac/astros-playroom-8.jpg
     - url: https://cdn.rknight.me/almanac/astros-playroom-7.jpg
+giantbombid: 78963
+giantbomburl: https://www.giantbomb.com/astros-playroom/3030-78963/
 ---
 
 This is a hell of a lot of run to play and is an excellent way to demonstrating what the DualSense can do.

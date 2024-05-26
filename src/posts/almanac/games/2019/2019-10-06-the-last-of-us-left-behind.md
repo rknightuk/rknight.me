@@ -9,4 +9,6 @@ attachments:
     - url: https://cdn.rknight.me/almanac/left-behind.jpg
     - url: https://cdn.rknight.me/almanac/lou-look-for-the-light.jpg
     - url: https://cdn.rknight.me/almanac/lou-car-game.jpg
+giantbombid: 50432
+giantbomburl: https://www.giantbomb.com/the-last-of-us-left-behind/3030-50432/
 ---

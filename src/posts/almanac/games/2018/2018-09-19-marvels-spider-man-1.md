@@ -11,6 +11,8 @@ attachments:
     - url: https://cdn.rknight.me/almanac/spider-man-burned.jpg
     - url: https://cdn.rknight.me/almanac/spider-man-selfie.jpg
     - url: https://cdn.rknight.me/almanac/spider-man-flag-screenshot.jpg
+giantbombid: 54233
+giantbomburl: https://www.giantbomb.com/marvels-spider-man/3030-54233/
 ---
 
 This is an incredibly fun game right from the start. The combat is fun and swinging through the city is amazing. The story is legitimately good and leaves it open nicely for a sequel.

@@ -10,6 +10,8 @@ attachments:
     - url: https://cdn.rknight.me/almanac/rift-apart-2.jpg
     - url: https://cdn.rknight.me/almanac/rift-apart-3.jpg
     - url: https://cdn.rknight.me/almanac/rift-apart-4.jpg
+giantbombid: 78952
+giantbomburl: https://www.giantbomb.com/ratchet-and-clank-rift-apart/3030-78952/
 ---
 
 This game looks incredible but I think the biggest part of it is the resistance on the triggers; every weapon legitimately feels different.
