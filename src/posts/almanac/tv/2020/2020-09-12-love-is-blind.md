@@ -5,6 +5,7 @@ date: 2020-09-12T06:48:00.000Z
 permalink: /almanac/tv/2020-09-12-love-is-blind/index.html
 season: 1
 rating: 3
+tmdbid: 99353
 ---
 
 This is the pinnacle of garbage reality TV and I couldn't stop watching.

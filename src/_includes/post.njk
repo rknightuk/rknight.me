@@ -58,7 +58,11 @@ layout: base
     {% endif %}
 
     {% if tmdbid or customImage %}
-        <img class="u-photo" src="/assets/catalog/almanac/movie/{{ tmdbid or customImage }}.jpg" alt="{{ title }}">
+        <div class="almanac-poster-wrap">
+            <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
+                <img class="u-photo" src="/assets/catalog/almanac/{{ type }}/{{ tmdbid or customImage }}.jpg" alt="{{ title }}">
+            </hyper-card>
+        </div>
     {% endif %}
 
 	{{ content | safe }}

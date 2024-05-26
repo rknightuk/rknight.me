@@ -4,6 +4,7 @@ year: 2019
 date: 2024-02-04T12:42:00.000Z
 season: 4
 permalink: /almanac/tv/2024-02-04-for-all-mankind/index.html
+tmdbid: 87917
 ---
 
 Excellent as always.

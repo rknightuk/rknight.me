@@ -33,3 +33,13 @@
     width: 100%;
     height: 100%;
 }
+
+.almanac-single-poster {
+    display: inline-block;
+}
+
+.almanac-poster-wrap {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}

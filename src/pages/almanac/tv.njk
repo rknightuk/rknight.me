@@ -1,14 +1,41 @@
 ---
-title: TV
-subtitle: Every show I've watched
-permalink: 'almanac/tv/index.html'
+pagination:
+  data: collections.almanacTV
+  size: 50
+  alias: tv
+permalink: 'almanac/tv/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
-type: tv
-almanacCollection: almanacTV
+wide: true
 eleventyNavigation:
-  key: TV
-  title: 📺 TV
+  key: tv
+  title: 🍿 TV
   parent: Almanac
+eleventyComputed:
+    title: TV
+    subtitle: Every TV show I've watched
 ---
 
-{% include 'almanac_list.njk' %}
+{% set currentYear = postYear %}
+
+<div class="almanac-grid">
+  {%- for tv in pagination.items %}
+    {% set postYear = tv.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        <div class="almanac-empty-box">{{ postYear }}</div>
+    {% endif %}
+
+    <hyper-card>
+      <a href="{{ tv.data.permalink | stripIndex }}">
+        <img class="almanac-poster" src="/assets/catalog/almanac/tv/{{ tv.data.tmdbid or tv.data.customImage }}.jpg">
+      </a>
+    </hyper-card>
+
+    {% set currentYear = postYear %}
+  {% endfor -%}
+</div>
+
+<div class="pagination box">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer TV</a>{% else %}{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older TV</a>{% else %}{% endif %}</div>
+</div>

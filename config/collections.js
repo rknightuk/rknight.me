@@ -53,6 +53,7 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 
 const makePath = (type) => {
     const year = new Date().getFullYear()
+    return `src/posts/${type}/**/*.md`
     return `src/posts/${production ? type : `${type}/${year}`}/**/*.md`
 }
 
