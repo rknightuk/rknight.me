@@ -5,7 +5,7 @@ permalink: /almanac/books/2020-01-10-killeroo-the-stones-of-karantjiirinja/index
 rating: 2
 attachments: 
     - url: https://cdn.rknight.me/almanac/killeroo.jpg
-customImage: custom/1001
+customImage: 1001
 ---
 
 The art is beautiful but the story is lacking.

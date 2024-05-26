@@ -7,7 +7,7 @@ author: Kelly Thompson
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/kate-hawk.png
-customImage: custom/1009
+customImage: 1009
 ---
 
 Kelly Thompson is such a great writer. This series is a lot of fun; it's a shame it was cancelled.

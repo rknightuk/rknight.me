@@ -6,7 +6,7 @@ link: https://marvel.fandom.com/wiki/Spider-Man:_Life_Story_Vol_1_1
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/lifes-story-1.png
-customImage: custom/1004
+customImage: 1004
 ---
 
 Will definitely be picking up the TPB of this.

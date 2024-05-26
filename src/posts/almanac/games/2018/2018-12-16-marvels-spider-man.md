@@ -7,7 +7,7 @@ platform: PS4
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/spider-man-the-heist.jpg
-customImage: custom/1001
+customImage: 1001
 giantbombid: 54233
 giantbomburl: https://www.giantbomb.com/marvels-spider-man/3030-54233/
 ---

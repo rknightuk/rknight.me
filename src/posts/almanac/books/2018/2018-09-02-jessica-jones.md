@@ -7,7 +7,7 @@ series: 2016-2018
 author: Brian Michael Bendis
 attachments: 
     - url: https://cdn.rknight.me/almanac/jessica-jones.jpg
-customImage: custom/1029
+customImage: 1029
 ---
 
 Lots of great cameos in this and Killgrave returning, even for a little bit, was great.

@@ -95,7 +95,7 @@ module.exports = {
         let filePath = null
 
         if (customImage) {
-            filePath = customImage
+            filePath = `custom/${customImage}`
         } else if (tmdbid) {
             filePath = tmdbid
         } else if (giantbombid) {
