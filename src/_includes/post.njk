@@ -58,11 +58,13 @@ layout: base
     {% endif %}
 
     {% if tmdbid or customImage %}
-        <div class="almanac-poster-wrap">
-            <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
-                <img class="u-photo" src="/assets/catalog/almanac/{{ type }}/{{ tmdbid or customImage }}.jpg" alt="{{ title }}">
-            </hyper-card>
-        </div>
+        {% if type === 'movie' or type === 'tv' %}
+            <div class="almanac-poster-wrap">
+                <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
+                    <img class="u-photo" src="/assets/catalog/almanac/{{ type }}/{{ tmdbid or customImage }}.jpg" alt="{{ title }}">
+                </hyper-card>
+            </div>
+        {% endif %}
     {% endif %}
 
 	{{ content | safe }}
