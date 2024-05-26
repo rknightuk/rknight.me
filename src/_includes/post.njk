@@ -61,7 +61,7 @@ layout: base
         {% if type === 'movie' or type === 'tv' %}
             <div class="almanac-poster-wrap">
                 <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
-                    <img class="u-photo" src="/assets/catalog/almanac/{{ type }}/{{ tmdbid or customImage }}.jpg" alt="{{ title }}">
+                    <img class="u-photo" src="/assets/catalog/almanac/{{ type }}/{{ customImage or tmdbid }}.jpg" alt="{{ title }}">
                 </hyper-card>
             </div>
         {% endif %}

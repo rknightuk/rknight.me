@@ -27,7 +27,7 @@ eleventyComputed:
 
     <hyper-card>
       <a href="{{ tv.data.permalink | stripIndex }}">
-        <img class="almanac-poster" src="/assets/catalog/almanac/tv/{{ tv.data.tmdbid or tv.data.customImage }}.jpg">
+        <img class="almanac-poster" src="/assets/catalog/almanac/tv/{{ tv.data.customImage or tv.data.tmdbid }}.jpg">
       </a>
     </hyper-card>
 
