@@ -1,14 +1,19 @@
 ---
-title: Books
-subtitle: Everything I've read
-permalink: 'almanac/books/index.html'
+pagination:
+  data: collections.almanacBooks
+  size: 50
+  alias: book
+permalink: 'almanac/books/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
 layout: base
-type: book
-almanacCollection: almanacBooks
+wide: true
 eleventyNavigation:
   key: Books
-  title: 📚 Books
+  title: 🍿 Books
   parent: Almanac
+eleventyComputed:
+    title: Books
+    subtitle: Every book I've read
+    plural: Books
 ---
 
-{% include 'almanac_list.njk' %}
+{% include 'almanac_grid.njk' %}

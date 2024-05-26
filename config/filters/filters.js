@@ -91,7 +91,7 @@ module.exports = {
     getAlmanacDescription: (data) => {
         return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
     },
-    getAlmanacImage: ({ type, tmdbid, giantbombid, customImage }) => {
+    getAlmanacImage: ({ type, tmdbid, giantbombid, customImage, isbn13 }) => {
         let filePath = null
 
         if (customImage) {
@@ -100,6 +100,8 @@ module.exports = {
             filePath = tmdbid
         } else if (giantbombid) {
             filePath = giantbombid
+        } else if (isbn13) {
+            filePath = isbn13
         }
 
         return filePath ? utils.getAlmanacImagePath(type, filePath) : null

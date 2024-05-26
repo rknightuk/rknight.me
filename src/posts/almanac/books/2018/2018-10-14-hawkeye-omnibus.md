@@ -7,6 +7,7 @@ author: Matt Fraction
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/hawkeye-kate.jpg
+isbn13: 978-1846532979
 ---
 
 This really is as good as everyone says it is. But Kate is clearly the superior Hawkeye.

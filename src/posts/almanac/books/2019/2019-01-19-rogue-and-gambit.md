@@ -8,6 +8,7 @@ author: Kelly Thompson
 rating: 3
 attachments: 
     - url: https://cdn.rknight.me/almanac/rogue-and-gambit.jpg
+isbn13: 978-1302911607
 ---
 
 Kelly Thompson can do no wrong.

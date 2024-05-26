@@ -3,6 +3,7 @@ title: "The Anthropocene Reviewed"
 date: 2021-12-23T23:04:12.000Z
 permalink: /almanac/books/2021-12-23-the-anthropocene-reviewed/index.html
 rating: 3
+isbn13: 978-1529109870
 ---
 
 Quotes:

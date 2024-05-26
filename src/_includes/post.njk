@@ -57,7 +57,7 @@ layout: base
         </aside>
     {% endif %}
 
-    {% set almanacImage %}{{ { type: type, tmdbid: tmdbid, giantbombid: giantbombid, customImage: customImage } | getAlmanacImage }}{% endset %}
+    {% set almanacImage %}{{ { type: type, tmdbid: tmdbid, giantbombid: giantbombid, customImage: customImage, isbn13: isbn13 } | getAlmanacImage }}{% endset %}
 
     {% if almanacImage %}
         <div class="almanac-poster-wrap">

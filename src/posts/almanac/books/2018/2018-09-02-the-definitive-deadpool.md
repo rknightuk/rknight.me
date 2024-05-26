@@ -3,7 +3,7 @@ title: "The Definitive Deadpool"
 subtitle: Marvel Platinum
 date: 2018-09-02T11:04:12.000Z
 permalink: /almanac/books/2018-09-02-the-definitive-deadpool/index.html
-rating: 3
+isbn13: 978-1846536991
 ---
 
 - New Mutants #98
