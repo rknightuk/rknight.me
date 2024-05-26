@@ -86,6 +86,19 @@ layout: base
     </svg>Follow me on Mastodon</a> <a href="/subscribe"><svg class="icon subscribe-icon">
         <use xlink:href="#rss"></use>
     </svg>Subscribe with RSS</a></p>
+
+    {% if nextPost.url %}
+		<p class="ctr">
+			<strong>Next</strong>:
+			<a class="next" href="{{ nextPost.url }}">{{ nextPost.data.title }}</a>
+		</p>
+	{% endif %}
+	{% if prevPost.url %}
+		<p class="ctr">
+			<strong>Previously</strong>:
+			<a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
+		</p>
+	{% endif %}
 </footer>
 
 {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}

@@ -97,9 +97,19 @@ module.exports = {
             .sort((a,b) => (a.data.date < b.data.date) ? 1 : ((b.data.date < a.data.date) ? -1 : 0))
     },
     posts: (collectionApi) => {
-        return collectionApi.getFilteredByGlob(makePath('blog')).filter(p => {
+        let posts = collectionApi.getFilteredByGlob(makePath('blog')).filter(p => {
             return !p.data.rssClub
         }).reverse()
+
+        for(let i = 0; i < posts.length ; i++) {
+            const nextPost = posts[i-1];
+            const prevPost = posts[i + 1];
+    
+            posts[i].data["nextPost"] = nextPost;
+            posts[i].data["prevPost"] = prevPost;
+        }
+    
+        return posts
     },
     firstPosts: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('blog')).filter(p => {
