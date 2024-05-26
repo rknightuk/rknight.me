@@ -27,7 +27,7 @@ eleventyComputed:
 
     <hyper-card>
       <a href="{{ movie.data.permalink | stripIndex }}">
-        <img class="almanac-poster" src="/assets/catalog/almanac/movie/{{ movie.data.tmdbid or movie.data.customImage }}.jpg">
+        <img class="almanac-poster" src="{{ { type: movie.data.type, tmdbid: movie.data.tmdbid, giantbombid: movie.data.giantbombid, customImage: movie.data.customImage } | getAlmanacImage }}">
       </a>
     </hyper-card>
 

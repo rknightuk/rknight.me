@@ -1,3 +1,5 @@
+const almanacImagePath = 
+
 module.exports = {
     getAlmanacEmoji: (type) => {
         const emoji = {
@@ -18,5 +20,8 @@ module.exports = {
         }
     
         return verb[type]
+    },
+    getAlmanacImagePath: (type, file) => {
+        return `/assets/catalog/almanac/${type}/${file}.jpg`
     }
 }
