@@ -1,0 +1,24 @@
+{% set currentYear = postYear %}
+
+<div class="almanac-grid">
+  {%- for entry in pagination.items %}
+    {% set postYear = entry.data.date.getFullYear() %}
+
+    {% if postYear != currentYear %}
+        <div class="almanac-empty-box">{{ postYear }}</div>
+    {% endif %}
+
+    <hyper-card>
+      <a href="{{ entry.data.permalink | stripIndex }}">
+        <img class="almanac-poster" src="{{ { type: entry.data.type, tmdbid: entry.data.tmdbid, giantbombid: entry.data.giantbombid, customImage: entry.data.customImage } | getAlmanacImage }}">
+      </a>
+    </hyper-card>
+
+    {% set currentYear = postYear %}
+  {% endfor -%}
+</div>
+
+<div class="pagination box">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer {{ plural }}</a>{% else %}{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older {{ plural }}</a>{% else %}{% endif %}</div>
+</div>

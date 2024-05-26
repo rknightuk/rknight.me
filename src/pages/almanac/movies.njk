@@ -13,29 +13,7 @@ eleventyNavigation:
 eleventyComputed:
     title: Movies
     subtitle: Every movie I've watched
+    plural: Movies
 ---
 
-{% set currentYear = postYear %}
-
-<div class="almanac-grid">
-  {%- for movie in pagination.items %}
-    {% set postYear = movie.data.date.getFullYear() %}
-
-    {% if postYear != currentYear %}
-        <div class="almanac-empty-box">{{ postYear }}</div>
-    {% endif %}
-
-    <hyper-card>
-      <a href="{{ movie.data.permalink | stripIndex }}">
-        <img class="almanac-poster" src="{{ { type: movie.data.type, tmdbid: movie.data.tmdbid, giantbombid: movie.data.giantbombid, customImage: movie.data.customImage } | getAlmanacImage }}">
-      </a>
-    </hyper-card>
-
-    {% set currentYear = postYear %}
-  {% endfor -%}
-</div>
-
-<div class="pagination box">
-    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Movies</a>{% else %}{% endif %}</div>
-    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Movies</a>{% else %}{% endif %}</div>
-</div>
+{% include 'almanac_grid.njk' %}

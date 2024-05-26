@@ -13,29 +13,7 @@ eleventyNavigation:
 eleventyComputed:
     title: TV
     subtitle: Every TV show I've watched
+    plural: TV
 ---
 
-{% set currentYear = postYear %}
-
-<div class="almanac-grid">
-  {%- for tv in pagination.items %}
-    {% set postYear = tv.data.date.getFullYear() %}
-
-    {% if postYear != currentYear %}
-        <div class="almanac-empty-box">{{ postYear }}</div>
-    {% endif %}
-
-    <hyper-card>
-      <a href="{{ tv.data.permalink | stripIndex }}">
-        <img class="almanac-poster" src="{{ { type: tv.data.type, tmdbid: tv.data.tmdbid, giantbombid: tv.data.giantbombid, customImage: tv.data.customImage } | getAlmanacImage }}">
-      </a>
-    </hyper-card>
-
-    {% set currentYear = postYear %}
-  {% endfor -%}
-</div>
-
-<div class="pagination box">
-    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer TV</a>{% else %}{% endif %}</div>
-    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older TV</a>{% else %}{% endif %}</div>
-</div>
+{% include 'almanac_grid.njk' %}

@@ -13,29 +13,7 @@ eleventyNavigation:
 eleventyComputed:
     title: Games
     subtitle: Every game I've played
+    plural: Games
 ---
 
-{% set currentYear = postYear %}
-
-<div class="almanac-grid">
-  {%- for game in pagination.items %}
-    {% set postYear = game.data.date.getFullYear() %}
-
-    {% if postYear != currentYear %}
-        <div class="almanac-empty-box">{{ postYear }}</div>
-    {% endif %}
-
-    <hyper-card>
-      <a href="{{ game.data.permalink | stripIndex }}">
-        <img class="almanac-poster" src="{{ { type: game.data.type, tmdbid: game.data.tmdbid, giantbombid: game.data.giantbombid, customImage: game.data.customImage } | getAlmanacImage }}">
-      </a>
-    </hyper-card>
-
-    {% set currentYear = postYear %}
-  {% endfor -%}
-</div>
-
-<div class="pagination box">
-    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer games</a>{% else %}{% endif %}</div>
-    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older games</a>{% else %}{% endif %}</div>
-</div>
+{% include 'almanac_grid.njk' %}
