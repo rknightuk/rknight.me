@@ -1,0 +1,17 @@
+{%- set relatedEntries = { entries: collections.almanacGrouped, type: type, tmdbid: tmdbid, giantbombid: giantbombid } | getRelatedEntries -%}
+
+{% if relatedEntries.length %}
+    <hr>
+
+    <h3>Previously {{ type | getAlmanacVerb | lower }}:</h3>
+
+    <div class="related-entries">
+        <ul>
+            {%- for entry in relatedEntries -%}
+                <li>
+                    <a {% if permalink === entry.permalink %}class="related-entry-current"{% endif %} href="{{ entry.permalink | stripIndex }}">{{ entry.date | postDate }}</a>
+                </li>
+            {%- endfor -%}
+        </ul>
+    </div>
+{% endif %}

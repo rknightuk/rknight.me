@@ -53,6 +53,7 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 
 const makePath = (type) => {
     const year = new Date().getFullYear()
+    // return `src/posts/${type}/**/*.md`
     return `src/posts/${production ? type : `${type}/${year}`}/**/*.md`
 }
 
@@ -133,7 +134,37 @@ module.exports = {
     },
     almanac: (collectionApi) => {
         const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
+        // return collection
         return production ? collection : collection.slice(0, 10)
+    },
+    almanacGrouped: (collectionApi) => {
+        const data = {}
+        const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
+
+        collection.forEach(entry => {
+            let key = null
+            if (entry.data.tmdbid) {
+                key = `${entry.data.type}-${entry.data.tmdbid}`
+            }
+
+            if (entry.data.giantbombid) {
+                key = `${entry.data.type}-${entry.data.giantbombid}`
+            }
+
+            if (!key) return
+
+            if (!data[key]) {
+                data[key] = []
+            }
+
+            data[key].push({
+                title: entry.data.title,
+                permalink: entry.data.permalink,
+                date: entry.data.date,
+            })
+        });
+
+        return data
     },
     almanacMovies: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse()

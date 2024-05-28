@@ -139,6 +139,21 @@
                             <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
                             {% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
                         </div>
+                        {% if tmdbid %}
+                            <div>
+                                <a href="https://www.themoviedb.org/{{ type }}/{{ tmdbid }}" target="_blank">{{ title }} on TMDB</a>
+                            </div>
+                        {% endif %}
+                        {% if giantbomburl %}
+                            <div>
+                                <a href="{{ giantbomburl }}" target="_blank">{{ title }} on GiantBomb</a>
+                            </div>
+                        {% endif %}
+                        {% if isbn13 %}
+                            <div>
+                                <a href="https://openlibrary.org/isbn/{{ isbn13 }}" target="_blank">{{ title }} on OpenLibrary</a>
+                            </div>
+                        {% endif %}
                         <div>
                             {% for tag in tags | sort %}
                                 <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}

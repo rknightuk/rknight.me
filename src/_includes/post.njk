@@ -69,6 +69,8 @@ layout: base
 
 	{{ content | safe }}
 
+    {% include 'almanac_previous.njk' %}
+
     {% if via %}
         <p class="via">via <a href="{{ via.link }}">{{ via.name }}</a></p>
     {% endif %}

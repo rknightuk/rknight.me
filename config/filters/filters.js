@@ -42,6 +42,7 @@ module.exports = {
                 return '✨'
         }
     },
+    getAlmanacVerb: (type) => utils.getAlmanacVerb(type),
     getRssId: (post) => {
         if (moment(post.date).isBefore(moment('2023-12-23')))
         {
@@ -105,5 +106,16 @@ module.exports = {
         }
 
         return filePath ? utils.getAlmanacImagePath(type, filePath) : null
+    },
+    getRelatedEntries: ({ entries, type, tmdbid, giantbombid }) => {
+        let related = []
+
+        if (entries[`${type}-${tmdbid}`]) {
+            related = entries[`${type}-${tmdbid}`] ?? []
+        } else if (entries[`${type}-${giantbombid}`]) {
+            related = entries[`${type}-${giantbombid}`] ?? []
+        }
+
+        return related.length < 2 ? [] : related
     }
 }

@@ -16,7 +16,7 @@ module.exports = {
             book: 'Read',
             movie: 'Watched',
             tv: 'Watched',
-            game: 'Finished',
+            game: 'Played',
         }
     
         return verb[type]

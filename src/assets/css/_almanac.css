@@ -46,3 +46,12 @@
     align-items: center;
     justify-content: center;
 }
+
+.related-entries {
+    font-size: 0.8em;
+}
+
+.related-entry-current {
+    font-weight: bold;
+    text-decoration: none;
+}
