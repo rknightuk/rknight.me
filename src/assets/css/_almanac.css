@@ -39,6 +39,7 @@
     display: inline-block;
     border: 3px solid var(--offwhite-subtle);
     max-width: 300px;
+    margin-bottom: 10px;
 }
 
 .almanac-poster-wrap {

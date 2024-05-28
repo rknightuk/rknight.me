@@ -53,7 +53,7 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 
 const makePath = (type) => {
     const year = new Date().getFullYear()
-    // return `src/posts/${type}/**/*.md`
+    return `src/posts/${type}/**/*.md`
     return `src/posts/${production ? type : `${type}/${year}`}/**/*.md`
 }
 
@@ -134,7 +134,7 @@ module.exports = {
     },
     almanac: (collectionApi) => {
         const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
-        // return collection
+        return collection
         return production ? collection : collection.slice(0, 10)
     },
     almanacGrouped: (collectionApi) => {
