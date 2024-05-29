@@ -22,6 +22,7 @@
                 align-items: center;
                 justify-content: center;
                 padding: 30px;
+                position: relative;
             }
 
             .logo {
@@ -58,9 +59,27 @@
                     font-feature-settings: 'ss01';
                 }
             {% endif %}
+
+            body {
+                background: url('https://media.themoviedb.org/t/p/w1066_and_h600_bestv2/omL2Nq0ctxd2lxmGFKzKA0AqWmT.jpg');
+                background-size: cover;
+                background-position: center;
+                background-repeat: no-repeat;
+            }
+
+            .foo {
+                position: absolute;
+                top: 0;
+                right: 0;
+                left: 0;
+                bottom: 0;
+                background: #272523;
+                opacity: 0.8;
+            }
         </style>
     </head>
     <body>
+        <div class="foo"></div>
         <div class="root">
             {% if icon === 'signature' %}
                 <div class="logo" style="margin-bottom: 0;">
