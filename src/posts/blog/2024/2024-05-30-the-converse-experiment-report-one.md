@@ -16,4 +16,6 @@ All was well until the 23rd of March, 196 days after the wedding, and the outer 
 
 Then this month on the 20th, 254 days after, I noticed the insoles are starting to wear a bit thin which is fine for now, but I may need to retire them soon.
 
+Just for [Andrew](https://canion.blog/), this works out at a cost of 19p per day.
+
 Yes, I took notes on when things started to break because I've never had the opportunity to measure this before. I will report back when they are no more.
