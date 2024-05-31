@@ -10,7 +10,7 @@ tags:
 
 WeblogPoMo is over. You can [read all my posts here](https://rknight.me/blog/tags/weblogpomo/). I followed [the hashtag](https://social.lol/tags/weblogpomo) all month and also followed the [@pomo](https://beep.town/@pomo) account. I was flooded with excellent posts daily including people who just started blogging which fills my small web heart with joy.
 
-There's nothing I love more than reading about things people are _really_ into and WeblogPoMo has delivered on that. Here's some of the stuff I enjoyed. Anne organised all this and you can see [all her excellent posts here](https://weblog.anniegreens.lol/tag/weblogpomo2024)/.
+There's nothing I love more than reading about things people are _really_ into and WeblogPoMo has delivered on that. Here's some of the stuff I enjoyed. Anne organised all this and you can see [all her excellent posts here](https://weblog.anniegreens.lol/tag/weblogpomo2024).
 
 ### Stats
 
