@@ -60,22 +60,26 @@
                 }
             {% endif %}
 
-            body {
-                background: url('https://media.themoviedb.org/t/p/w1066_and_h600_bestv2/omL2Nq0ctxd2lxmGFKzKA0AqWmT.jpg');
-                background-size: cover;
-                background-position: center;
-                background-repeat: no-repeat;
-            }
+            {% set backdropImage %}{{ { type: type, tmdbid: tmdbid, customBackdrop: customBackdrop, imageIndex: collections.almanacBackdrops } | getBackdropImage }}{% endset %}
 
-            .foo {
-                position: absolute;
-                top: 0;
-                right: 0;
-                left: 0;
-                bottom: 0;
-                background: #272523;
-                opacity: 0.8;
-            }
+            {% if backdropImage %}
+                body {
+                    background: url('{{ backdropImage }}');
+                    background-size: cover;
+                    background-position: center;
+                    background-repeat: no-repeat;
+                }
+
+                .foo {
+                    position: absolute;
+                    top: 0;
+                    right: 0;
+                    left: 0;
+                    bottom: 0;
+                    background: #272523;
+                    opacity: 0.8;
+                }
+            {% endif %}
         </style>
     </head>
     <body>

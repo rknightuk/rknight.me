@@ -107,6 +107,19 @@ module.exports = {
 
         return filePath ? utils.getAlmanacImagePath(type, filePath) : null
     },
+    getBackdropImage: ({ type, tmdbid, customBackdrop, imageIndex }) => {
+        let filePath = null
+
+        if (!['movie', 'tv'].includes(type)) return null
+
+        if (customBackdrop) {
+            filePath = `custom/${customBackdrop}`
+        } else if (tmdbid && imageIndex[type].includes(tmdbid.toString())) {
+            filePath = `bd/${tmdbid}`
+        }
+
+        return filePath ? utils.getAlmanacImagePath(type, filePath) : null
+    },
     getRelatedEntries: ({ entries, type, tmdbid, giantbombid }) => {
         let related = []
 

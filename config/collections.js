@@ -137,6 +137,17 @@ module.exports = {
         return collection
         return production ? collection : collection.slice(0, 10)
     },
+    almanacBackdrops: (collectionApi) => {
+        const movies = fs.readdirSync('src/assets/catalog/almanac/movie/bd')
+        const tv = fs.readdirSync('src/assets/catalog/almanac/tv/bd')
+        
+        const backdrops = {
+            movie: movies.map(m => m.replace('.jpg', '')),
+            tv: tv.map(m => m.replace('.jpg', '')),
+        }
+
+        return backdrops
+    },
     almanacGrouped: (collectionApi) => {
         const data = {}
         const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
