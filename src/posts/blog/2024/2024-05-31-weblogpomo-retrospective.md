@@ -33,7 +33,7 @@ This wasn't technically part of WeblogPoMo but it's glorious so I'm putting it h
 #### Individual Posts
 
 - [Johnny loves pencils](https://johnnydecimal.com/20-29-communication/22-blog/22.00.0033-i-love-pencils/)
-- [Nic changed my life by revealing to me you can shuffle by album in Apple Music](https://niclake.me/one-software-feature/)
+- [Nic changed my life by revealing to me you can shuffle by album in Apple Music](https://niclake.me/one-software-feature)
 - [Chris came up with the idea of an /interests page](https://chrisburnell.com/note/slash-interests/)
 - [DJs that wear things over their head](https://rachsmith.com/djs-that-wear-things/)
 - [Language bad!](https://javorszky.co.uk/2024/05/05/language-bad/)
