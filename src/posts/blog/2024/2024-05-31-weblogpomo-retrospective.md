@@ -14,7 +14,7 @@ There's nothing I love more than reading about things people are _really_ into a
 
 ### Stats
 
-I now have no post draft or ideas left in Obsidian so don't expect another post for a while but I did it. Every single day in May, including one double posting day.
+I now have no post drafts or ideas left in Obsidian so don't expect another post for a while but I did it. Every single day in May, including one double posting day.
 
 I wrote **32 posts** containing **~14000 words** and **21 code samples**. As of this writing, the [@pomo bot](https://beep.town/@pomo) has posted **1131 times** so even ignoring some duplicates becuase of a bug in [EchoFeed](https://echofeed.app), that's a hell of lot of posts.
 
