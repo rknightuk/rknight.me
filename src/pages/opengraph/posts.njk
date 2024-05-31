@@ -7,4 +7,8 @@ permalink: opengraph/{{ post.data.permalink }}
 layout: opengraph
 eleventyComputed:
   title: "{{ post | getTitleForOg }}"
+  type: "{{ post.data.type }}"
+  tmdbid: "{{ post.data.tmdbid }}"
+  customBackdrop: "{{ post.data.customBackdrop }}"
+  imageIndex: collections.almanacBackdrops
 ---
