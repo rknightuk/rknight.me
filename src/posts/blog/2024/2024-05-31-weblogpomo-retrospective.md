@@ -41,7 +41,7 @@ This wasn't technically part of WeblogPoMo but it's glorious so I'm putting it h
 - [How I feel about AI - Johnny.Decimal](https://johnnydecimal.com/20-29-communication/22-blog/22.00.0041-how-i-feel-about-ai/)
 - [Barry Sampson - Be Prolific](https://barrysampson.net/be-prolific)
 - [15 Example #Obsidian Vaults from Around the Internet | Lou Plummer](https://amerpie.lol/2024/05/13/example-obsidian-vaults.html)
-- [35 · Nic Lake](https://niclake.me/35/)
+- [35 · Nic Lake](https://niclake.me/35)
 - [Generative AI is for the idea guys](https://rachsmith.com/ai-is-for-the-idea-guys/)
 - [Using Obsidian as a Life Record | Lou Plummer](https://amerpie.lol/2024/05/21/using-obsidian-as.html)
 - [Blogging Is Back - Robert Birming](https://birming.com/posts/blogging-is-back)
