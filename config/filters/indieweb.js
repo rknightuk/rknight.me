@@ -106,7 +106,7 @@ module.exports = {
             path = '/notes/single/'
         }
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
-        return `https://v1.screenshot.11ty.dev/${url}/opengraph`
+        return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`
     },
     getOpengraphUrl: (inputPath) => {
         let path = inputPath
@@ -115,6 +115,6 @@ module.exports = {
         }
 
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
-        return `https://v1.screenshot.11ty.dev/${url}/opengraph`
+        return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`
     }
 }
