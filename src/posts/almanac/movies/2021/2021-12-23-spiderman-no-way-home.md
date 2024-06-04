@@ -6,6 +6,7 @@ permalink: /almanac/movies/2021-12-23-spiderman-no-way-home/index.html
 link: https://letterboxd.com/rknightuk/film/spider-man-no-way-home/
 rating: 3
 tmdbid: 634649
+cinema: true
 ---
 
 Amazing. Perfect. Yes.

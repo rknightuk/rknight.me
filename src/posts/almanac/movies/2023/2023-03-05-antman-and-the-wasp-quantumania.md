@@ -5,6 +5,7 @@ date: 2023-03-05T00:00:00.000Z
 permalink: /almanac/movies/2023-03-05-antman-and-the-wasp-quantumania/index.html
 link: https://boxd.it/3WvTNl
 tmdbid: 640146
+cinema: true
 ---
 
 This was like watching a Christmas tree explode on screen.

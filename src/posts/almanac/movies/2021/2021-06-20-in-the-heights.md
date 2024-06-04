@@ -6,4 +6,5 @@ permalink: /almanac/movies/2021-06-20-in-the-heights/index.html
 link: https://letterboxd.com/rknightuk/film/in-the-heights/
 rating: 2
 tmdbid: 467909
+cinema: true
 ---

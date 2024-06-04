@@ -5,6 +5,7 @@ date: 2018-06-23T10:00:00.000Z
 permalink: /almanac/movies/2018-06-23-jurassic-world-fallen-kingdom/index.html
 rating: 3
 tmdbid: 351286
+cinema: true
 ---
 
 The story is ridiculous and unbelievable and I loved every second.

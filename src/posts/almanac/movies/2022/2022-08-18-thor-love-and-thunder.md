@@ -6,4 +6,5 @@ permalink: /almanac/movies/2022-08-18-thor-love-and-thunder/index.html
 link: https://letterboxd.com/rknightuk/film/thor-love-and-thunder/
 rating: 3
 tmdbid: 616037
+cinema: true
 ---
