@@ -7,7 +7,6 @@ author:
   name: James Baker
   web: https://www.james-baker.com
   feed: https://www.james-baker.com/feed/
-  via: https://social.lol/@tylersticka
 ---
 
 > Many freelance artists & Colossal staffers had a crack at design proposals, and I had a go too
