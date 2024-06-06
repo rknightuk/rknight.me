@@ -4,8 +4,7 @@ permalink: /blog/weblogpomo-retrospective/index.html
 date: 2024-05-31T10:48:03.138Z
 excerpt: "A look at Weblog posting month now we're at the end"
 layout: post
-tags:
-    - WeblogPoMo
+tags: [WeblogPoMo]
 ---
 
 WeblogPoMo is over. You can [read all my posts here](https://rknight.me/blog/tags/weblogpomo/). I followed [the hashtag](https://social.lol/tags/weblogpomo) all month and also followed the [@pomo](https://beep.town/@pomo) account. I was flooded with excellent posts daily including people who just started blogging which fills my small web heart with joy.
