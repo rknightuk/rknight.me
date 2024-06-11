@@ -15,14 +15,24 @@
     margin-top: 10px;
 }
 
-.almanac-grid.almanac-grid-large {
+.almanac-grid.almanac-grid-now {
     grid-template-columns: repeat(4, 1fr);
+    padding: 0 25px;
+}
+
+.now-grid {
+    padding: 0 25px;
 }
 
 @media (max-width: 700px) {
     .almanac-grid,
-    .almanac-grid.almanac-grid-large {
+    .almanac-grid.almanac-grid-now {
         grid-template-columns: repeat(3, 1fr);
+        padding: 0;
+    }
+
+    .now-grid {
+        padding: 0;
     }
 }
 
