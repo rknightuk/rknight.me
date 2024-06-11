@@ -3,7 +3,6 @@ title: /now
 subtitle: "This is [a now page](https://nownownow.com/about), and if you have your own site, you should make one, too. <br>[View my profile on nownownow](https://nownownow.com/p/cEgQ)."
 permalink: 'now/index.html'
 layout: base
-templateEngineOverride: njk,html,md
 eleventyNavigation:
   key: /now
   parent: Home
@@ -15,7 +14,112 @@ eleventyNavigation:
     <p>"A very strange use of time" - <a href="https://youtu.be/2ZUqa-lTbnU?t=2199">Sophie Koonin</a><p>
 </blockquote>
 
-<style>
+<h3>Currently</h3>
+
+{%- set currently -%}{% include 'currently.md' %}{%- endset -%}
+{{ currently | mdToHtml | safe }}
+
+<h3>Saving</h3>
+
+<ul>
+    {%- for link in temp_now_data.links %}
+        <li>
+            <a href="{{ link.url }}">
+                {{ link.title }}
+            </a>
+        </li>
+    {% endfor %}
+</ul>
+
+<h3>Watching</h3>
+
+<div class="almanac-grid almanac-grid-large">
+    {%- for watching in temp_now.watching %}
+        <hyper-card>
+            <a href="{{ watching.link }}">
+                <img class="almanac-poster" src="{{ watching.image }}">
+            </a>
+        </hyper-card>
+    {% endfor %}
+</div>
+
+<div style="font-size: 0.9em;">
+    <p style="margin-bottom: 0;"><em>Recently watched:</em></p>
+
+    <ul style="margin-top: 10px;">
+
+        <li><a href="{{ collections.almanacTV[0].data.permalink | stripIndex }}">{{ collections.almanacTV[0].data.title }}</a></li>
+        <li><a href="{{ collections.almanacMovies[0].data.permalink | stripIndex }}">{{ collections.almanacMovies[0].data.title }}</a></li>
+    </ul>
+</div>
+
+<h3>Playing</h3>
+
+<div class="almanac-grid almanac-grid-large">
+    {%- for playing in temp_now.playing %}
+        <hyper-card>
+            <a href="{{ playing.link }}">
+                <img class="almanac-poster" src="{{ playing.image }}">
+            </a>
+        </hyper-card>
+    {% endfor %}
+</div>
+
+<div style="font-size: 0.9em;">
+    <p style="margin-bottom: 0;"><em>Recently played:</em></p>
+
+    <ul style="margin-top: 10px;">
+        <li><a href="{{ collections.almanacGames[0].data.permalink | stripIndex }}">{{ collections.almanacGames[0].data.title }}</a></li>
+    </ul>
+</div>
+
+<h3>Reading</h3>
+
+<div class="almanac-grid almanac-grid-large">
+    {%- for reading in temp_now.reading %}
+        <hyper-card>
+            <a href="{{ reading.link }}">
+                <img class="almanac-poster" src="{{ reading.image }}">
+            </a>
+        </hyper-card>
+    {% endfor %}
+</div>
+
+<div style="font-size: 0.9em;">
+    <p style="margin-bottom: 0;"><em>Recently read:</em></p>
+
+    <ul style="margin-top: 10px;">
+        <li><a href="{{ collections.almanacBooks[0].data.permalink | stripIndex }}">{{ collections.almanacBooks[0].data.title }}</a></li>
+    </ul>
+</div>
+
+<h3>Listening</h3>
+
+<div class="almanac-grid">
+    {%- for music in temp_now_data.music.albums %}
+        <hyper-card>
+            <a href="{{ music.link }}">
+                <img class="almanac-poster" src="{{ music.art }}">
+            </a>
+        </hyper-card>
+    {% endfor %}
+</div>
+
+<div style="margin: 25px 0;">
+
+<div class="almanac-grid">
+    {%- for pod in temp_now_data.podcasts %}
+        {% if loop.index0 < 5 %}
+            <hyper-card>
+                <a href="{{ pod.url }}">
+                    <img class="almanac-poster" src="{{ pod.image }}">
+                </a>
+            </hyper-card>
+        {% endif %}
+    {% endfor %}
+</div>
+
+{# <style>
     .now_game_text {
         position: absolute;
         right: 0;
@@ -108,4 +212,4 @@ eleventyNavigation:
     }
 </style>
 
-{{ now.content | safe }}
+{{ now.content | safe }} #}

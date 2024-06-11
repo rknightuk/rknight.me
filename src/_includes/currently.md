@@ -1,0 +1,4 @@
+- Living in Portsmouth with my wife, daughter, and cat
+- Learning to drive
+- Recording [Ruminate](https://macstories.net/ruminate) fortnightly
+- Working on [EchoFeed](https://echofeed.app) and [Slashpages](https://slashpages.net)

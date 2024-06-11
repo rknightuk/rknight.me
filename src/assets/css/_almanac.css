@@ -9,13 +9,19 @@
 
 .almanac-grid {
     display: grid;
-     grid-template-columns: repeat(5, 1fr);
-     gap: 1rem;
-     margin-bottom:10px;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 1rem;
+    margin-bottom:10px;
+    margin-top: 10px;
+}
+
+.almanac-grid.almanac-grid-large {
+    grid-template-columns: repeat(4, 1fr);
 }
 
 @media (max-width: 700px) {
-    .almanac-grid {
+    .almanac-grid,
+    .almanac-grid.almanac-grid-large {
         grid-template-columns: repeat(3, 1fr);
     }
 }
