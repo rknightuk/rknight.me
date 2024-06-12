@@ -1,0 +1,58 @@
+---
+title: /next
+subtitle: "What am I doing _next_?"
+permalink: 'next/index.html'
+layout: base
+eleventyNavigation:
+  key: /next
+  parent: Home
+---
+
+<ul>
+    <li><a href="/now">See what I'm doing now on my /now page</a></li>
+</ul>
+
+<h3>💡 Potential Projects</h3>
+
+{%- set next -%}{% include 'next.md' %}{%- endset -%}
+{{ next | mdToHtml | safe }}
+
+<h3>🍿 Watchlist</h3>
+
+<div class="almanac-grid almanac-grid-now">
+    {%- for watching in nownext.next.watching %}
+        <hyper-card>
+            <a href="{{ watching.link }}">
+                <img class="almanac-poster" src="{{ watching.image }}">
+            </a>
+        </hyper-card>
+    {% endfor %}
+</div>
+
+{% if nownext.next.reading.length > 0 %}
+    <h3>📚 Reading List</h3>
+
+    <div class="almanac-grid almanac-grid-now">
+        {%- for reading in nownext.next.reading %}
+            <hyper-card>
+                <a href="{{ reading.link }}">
+                    <img class="almanac-poster" src="{{ reading.image }}">
+                </a>
+            </hyper-card>
+        {% endfor %}
+    </div>
+{% endif %}
+
+{% if nownext.next.playing.length > 0 %}
+    <h3>🎮 Playlist</h3>
+
+    <div class="almanac-grid almanac-grid-now">
+        {%- for playing in nownext.next.playing %}
+            <hyper-card>
+                <a href="{{ playing.link }}">
+                    <img class="almanac-poster" src="{{ playing.image }}">
+                </a>
+            </hyper-card>
+        {% endfor %}
+    </div>
+{% endif %}

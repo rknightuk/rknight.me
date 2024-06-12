@@ -1,0 +1,3 @@
+- Self hosted Mastodon archive
+- Podcast host
+- Blogging platform

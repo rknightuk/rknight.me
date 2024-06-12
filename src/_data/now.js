@@ -17,19 +17,6 @@ module.exports = async function() {
             return text
         })
 
-    console.log(content)
-
-    // const nowStyles = await fetch('https://api.rknight.me/assets/now.css')
-    //     .then(res => res.text())
-    //     .then(text => {
-    //         return text
-    //     })
-
-    // const data = {
-    //     content,
-    //     nowStyles,
-    // }
-
     await asset.save(content, "json")
 
     return content

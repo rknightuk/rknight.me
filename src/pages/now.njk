@@ -1,6 +1,6 @@
 ---
 title: /now
-subtitle: "This is [a now page](https://nownownow.com/about), and if you have your own site, you should make one, too. <br>[View my profile on nownownow](https://nownownow.com/p/cEgQ)."
+subtitle: "What am I doing _now_?"
 permalink: 'now/index.html'
 layout: base
 eleventyNavigation:
@@ -8,11 +8,13 @@ eleventyNavigation:
   parent: Home
 ---
 
-<p><a href="https://rknight.me/automating-my-now-page/">Read how I automated my /now page</a></p>
-
-<blockquote>
-    <p>"A very strange use of time" - <a href="https://youtu.be/2ZUqa-lTbnU?t=2199">Sophie Koonin</a><p>
-</blockquote>
+<ul>
+    <li><a href="https://nownownow.com/p/cEgQ">My profile on nownownow</a></li>
+    <li><a href="https://rknight.me/automating-my-now-page/">How I automated my /now page</a></li>
+        <ul>
+            <li>"<em>A very strange use of time</em>" - <a href="https://youtu.be/2ZUqa-lTbnU?t=2199">Sophie Koonin</a></li>
+        </ul>
+</ul>
 
 <h3>📌 Currently</h3>
 
@@ -22,7 +24,7 @@ eleventyNavigation:
 <h3>📓 Saving</h3>
 
 <ul>
-    {%- for link in temp_now_data.links %}
+    {%- for link in now.links %}
         <li>
             <a href="{{ link.url }}">
                 {{ link.title }}
@@ -34,7 +36,7 @@ eleventyNavigation:
 <h3>📺 Watching</h3>
 
 <div class="almanac-grid almanac-grid-now">
-    {%- for watching in temp_now.watching %}
+    {%- for watching in nownext.now.watching %}
         <hyper-card>
             <a href="{{ watching.link }}">
                 <img class="almanac-poster" src="{{ watching.image }}">
@@ -48,15 +50,14 @@ eleventyNavigation:
 
     <ul style="margin-top: 10px;">
 
-        <li><a href="{{ collections.almanacTV[0].data.permalink | stripIndex }}">{{ collections.almanacTV[0].data.title }}</a></li>
-        <li><a href="{{ collections.almanacMovies[0].data.permalink | stripIndex }}">{{ collections.almanacMovies[0].data.title }}</a></li>
+        <li><a href="{{ collections.almanacTV[0].data.permalink | stripIndex }}">{{ collections.almanacTV[0].data.title }} Season {{ collections.almanacTV[0].data.season }}</a></li>
     </ul>
 </div>
 
 <h3>🎮 Playing</h3>
 
 <div class="almanac-grid almanac-grid-now">
-    {%- for playing in temp_now.playing %}
+    {%- for playing in nownext.now.playing %}
         <hyper-card>
             <a href="{{ playing.link }}">
                 <img class="almanac-poster" src="{{ playing.image }}">
@@ -76,7 +77,7 @@ eleventyNavigation:
 <h3>📚 Reading</h3>
 
 <div class="almanac-grid almanac-grid-now">
-    {%- for reading in temp_now.reading %}
+    {%- for reading in nownext.now.reading %}
         <hyper-card>
             <a href="{{ reading.link }}">
                 <img class="almanac-poster" src="{{ reading.image }}">
@@ -96,7 +97,7 @@ eleventyNavigation:
 <h3>🎧 Listening</h3>
 
 <div class="almanac-grid now-grid">
-    {%- for music in temp_now_data.music.albums %}
+    {%- for music in now.music.albums %}
         <hyper-card>
             <a href="{{ music.link }}">
                 <img class="almanac-poster" src="{{ music.art }}">
@@ -108,7 +109,7 @@ eleventyNavigation:
 <div style="margin: 25px 0;">
 
 <div class="almanac-grid now-grid">
-    {%- for pod in temp_now_data.podcasts %}
+    {%- for pod in now.podcasts %}
         {% if loop.index0 < 5 %}
             <hyper-card>
                 <a href="{{ pod.url }}">

@@ -6,6 +6,7 @@ excerpt: "I've decided my new CMS won't be something anyone can just use out the
 layout: post
 tags:
     - Development
+    - KnightCMS
     - WeblogPoMo
 ---
 
