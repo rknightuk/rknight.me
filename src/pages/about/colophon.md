@@ -8,7 +8,7 @@ eleventyNavigation:
   parent: About
 ---
 
-This website is built with [Eleventy](https://www.11ty.dev/), a static site generator, and hosted on [Hetzner](https://hetzner.cloud/?ref=Lt9D9KzKP6UQ). The source code is available on [GitHub](https://github.com/rknightuk/rknightuk.me). I deploy this, and most of my [projects](/projects), with [Laravel Forge](https://forge.laravel.com/) to the Hetzner server. Some static sites I host with [Netlify](https://www.netlify.com/). Images for blog posts are stored on [BunnyCDN](https://bunny.net?ref=b2i4y24apu).
+This website is built with [Eleventy](https://www.11ty.dev/), a static site generator, and hosted on [Hetzner](https://hetzner.cloud/?ref=Lt9D9KzKP6UQ). The source code is available on [GitHub](https://github.com/rknightuk/rknight.me). I deploy this, and most of my [projects](/projects), with [Laravel Forge](https://forge.laravel.com/) to the Hetzner server. Some static sites I host with [Netlify](https://www.netlify.com/). Images for blog posts are stored on [BunnyCDN](https://bunny.net?ref=b2i4y24apu).
 
 I have used [Hexo](https://hexo.io/index.html) and [Jekyll](https://jekyllrb.com/) for [previous versions](/log/versions) of this site.
 
