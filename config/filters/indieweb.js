@@ -81,11 +81,6 @@ module.exports = {
         return content
     },
     getTitleForOg: (post) => {
-        if (post.data.layout === 'almanac')
-        {
-            return `${utils.getAlmanacVerb(post.data.type)} ${decode(post.data.title)}`
-        }
-
         return decode(post.data.title)
     },
     getAlmanacDescription: (data) => {
