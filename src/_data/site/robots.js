@@ -13,9 +13,17 @@ module.exports = async function() {
     }
 
     const res = await fetch("https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt")
-    const txt = await res.text()
+    let txt = await res.text()
 
-    const bots = txt.split("\n").filter(line => line.startsWith("User-agent:")).map(line => line.split(":")[1].trim())
+    txt = txt.split("\n")
+        .filter(line => line !== "User-agent: Applebot")
+        .join("\n")
+
+    const bots = txt.split("\n")
+        .filter(line => {
+            return line.startsWith("User-agent:") && line !== "User-agent: Applebot"
+        })
+        .map(line => line.split(":")[1].trim())
 
     const data = {
         txt: txt,
