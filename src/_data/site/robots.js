@@ -13,9 +13,16 @@ module.exports = async function() {
     }
 
     const res = await fetch("https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt")
-    const data = await res.text()
+    const txt = await res.text()
 
-    await asset.save(data, "text")
+    const bots = txt.split("\n").filter(line => line.startsWith("User-agent:")).map(line => line.split(":")[1].trim())
+
+    const data = {
+        txt: txt,
+        nginx: bots.join('|'),
+    }
+
+    await asset.save(data, "json")
 
     return data
 }
