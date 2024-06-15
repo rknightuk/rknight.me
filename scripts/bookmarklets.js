@@ -4,6 +4,7 @@ const { parseHTML } = require('linkedom')
 const BOOKMARKLETS = [
     'new-link',
     'new-post',
+    'cms-link',
 ]
 
 const run = async () => {
