@@ -21,24 +21,61 @@ eleventyComputed:
         max-height: 35px;
         max-width: 100px;
     }
+
+    .trophies {
+      display: flex;
+      justify-content: space-between;
+      position: absolute;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      background: rgba(0, 0, 0, 0.76);
+      font-size: 0.8em;
+      padding: 3px 10px;
+    }
+
+    .trophy {
+        display: flex;
+        align-items: center;
+    }
+
+    .trophy svg {
+      width: 0.8em;
+      height: 0.8em;
+      margin-right: 0.3em;
+    }
+
+    .trophy-bronze {
+        color: #cd7e32;
+    }
+
+    .trophy-silver {
+        color: silver;
+    }
+    .trophy-gold {
+        color: gold;
+    }
+    .trophy-platinum {
+        color: #a1bbf8;
+    }
 </style>
 
 {%- for platform in catalog.games.platforms %}
-    <details class="collection-grid-container">
+    <details class="collection-grid-container" {% if loop.index0 === 0 %}open{% endif %}>
         <summary>
             <span class="summary-wrap">
                 <svg class="icon {{ platform.key }}" style="color: {{ platform.color }}"><use xlink:href="#{{ platform.key }}"></use></svg> {{ platform.name }} ({{ catalog.games.games[platform.name].length }})
             </span>
         </summary>
-        <div class="almanac-grid">
+        <div class="almanac-grid game-type-{{ platform.name }}">
             {%- for game in catalog.games.games[platform.name] %}
               <div class="almanac-grid-item">
                 <hyper-card>
                   <a href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
                     <img class="almanac-poster" src="/assets/catalog/games/{{ game.gameID }}.jpg">
                   </a>
+                  {{ { "title": game.title, "platform": platform.name, "trophies": catalog.trophies } | getTrophies | safe }}
                 </hyper-card>
-                <p>{{ { "title": game.title, "platform": platform.name, "trophies": catalog.trophies } | getTrophies }}</p>
               </div>
             {% endfor%}
         </div>
@@ -103,4 +140,14 @@ eleventyComputed:
   <symbol role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" id="xbox">
     <path fill="currentColor" d="M4.102 21.033C6.211 22.881 8.977 24 12 24c3.026 0 5.789-1.119 7.902-2.967 1.877-1.912-4.316-8.709-7.902-11.417-3.582 2.708-9.779 9.505-7.898 11.417zm11.16-14.406c2.5 2.961 7.484 10.313 6.076 12.912C23.002 17.48 24 14.861 24 12.004c0-3.34-1.365-6.362-3.57-8.536 0 0-.027-.022-.082-.042-.063-.022-.152-.045-.281-.045-.592 0-1.985.434-4.805 3.246zM3.654 3.426c-.057.02-.082.041-.086.042C1.365 5.642 0 8.664 0 12.004c0 2.854.998 5.473 2.661 7.533-1.401-2.605 3.579-9.951 6.08-12.91-2.82-2.813-4.216-3.245-4.806-3.245-.131 0-.223.021-.281.046v-.002zM12 3.551S9.055 1.828 6.755 1.746c-.903-.033-1.454.295-1.521.339C7.379.646 9.659 0 11.984 0H12c2.334 0 4.605.646 6.766 2.085-.068-.046-.615-.372-1.52-.339C14.946 1.828 12 3.545 12 3.545v.006z"></path>
   </symbol>
+  <symbol
+    xmlns="http://www.w3.org/2000/svg" viewBox="0 0 576 512"
+    id="trophy"
+>
+    <defs>
+        <style>.fa-secondary{opacity:.4}</style>
+    </defs>
+    <path fill="currentColor" d="M192 432c-35.3 0-64 20.7-64 56v12a12 12 0 0 0 12 12h296a12 12 0 0 0 12-12v-12c0-35.3-28.7-56-64-56z" class="fa-secondary"/>
+    <path fill="currentColor" d="M552 64H448V24a23.94 23.94 0 0 0-23.88-24H152a23.94 23.94 0 0 0-24 23.88V64H24A23.94 23.94 0 0 0 0 87.88V144c0 35.7 22.5 72.4 61.9 100.7 31.5 22.7 69.8 37.1 110 41.7C203.3 338.5 240 360 240 360v72h96v-72s36.7-21.5 68.1-73.6c40.3-4.6 78.6-19 110-41.7 39.3-28.3 61.9-65 61.9-100.7V88a23.94 23.94 0 0 0-23.88-24H552zM99.3 192.8C74.9 175.2 64 155.6 64 144v-16h64.2a359 359 0 0 0 12.8 86.2 160.91 160.91 0 0 1-41.7-21.4zM512 144c0 16.1-17.7 36.1-35.3 48.8a161.68 161.68 0 0 1-41.8 21.4 359 359 0 0 0 12.8-86.2H512z" class="fa-primary"/>
+</symbol>
 </svg>

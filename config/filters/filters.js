@@ -133,7 +133,23 @@ module.exports = {
     },
     getTrophies: ({ title, platform, trophies }) => {
         const titleMatch = title.replace(/[^0-9A-Z]+/gi,"").toLowerCase()
-        if (!trophies[platform]) return 'no platform'
-        return trophies[platform][titleMatch] ? JSON.stringify(trophies[platform][titleMatch]) : 'no match'
+        if (!trophies[platform]) return ''
+        const data = trophies[platform][titleMatch]
+
+        if (!data) return ''
+
+        if (data.progress <= 0) return ''
+
+        let content = `<div class="trophies">`
+
+        Object.keys(data.earned).forEach((trophy) => {
+            if (data.earned[trophy] > 0) {
+                content += `<div class="trophy" title="${trophy}"><svg class="icon trophy-${trophy}"><use xlink:href="#trophy"></use></svg> <span>${data.earned[trophy]}</span></div>`
+            }
+        })
+
+        content += `</div>`
+
+        return content
     }
 }
