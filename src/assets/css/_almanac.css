@@ -15,6 +15,11 @@
     margin-top: 10px;
 }
 
+.almanac-grid-item {
+    display: flex;
+    flex-direction: column;
+}
+
 .almanac-grid.almanac-grid-now {
     grid-template-columns: repeat(4, 1fr);
     padding: 0 25px;
@@ -47,7 +52,7 @@
 
 .almanac-poster {
     width: 100%;
-    height: 100%;
+    height: auto;
 }
 
 .almanac-single-poster {

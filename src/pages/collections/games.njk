@@ -32,11 +32,14 @@ eleventyComputed:
         </summary>
         <div class="almanac-grid">
             {%- for game in catalog.games.games[platform.name] %}
-              <hyper-card>
-                <a href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
-                  <img class="almanac-poster" src="/assets/catalog/games/{{ game.gameID }}.jpg">
-                </a>
-              </hyper-card>
+              <div class="almanac-grid-item">
+                <hyper-card>
+                  <a href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
+                    <img class="almanac-poster" src="/assets/catalog/games/{{ game.gameID }}.jpg">
+                  </a>
+                </hyper-card>
+                <p>{{ { "title": game.title, "platform": platform.name, "trophies": catalog.trophies } | getTrophies }}</p>
+              </div>
             {% endfor%}
         </div>
     </details>

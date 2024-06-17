@@ -130,5 +130,10 @@ module.exports = {
         }
 
         return related.length < 2 ? [] : related
+    },
+    getTrophies: ({ title, platform, trophies }) => {
+        const titleMatch = title.replace(/[^0-9A-Z]+/gi,"").toLowerCase()
+        if (!trophies[platform]) return 'no platform'
+        return trophies[platform][titleMatch] ? JSON.stringify(trophies[platform][titleMatch]) : 'no match'
     }
 }

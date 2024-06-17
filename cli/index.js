@@ -14,6 +14,8 @@ import addGame from './commands/addGame.js'
 import fetchLego from './commands/fetchLego.js'
 import fetchComics from './commands/fetchComics.js'
 
+import fetchPsn from './commands/fetchPsn.js'
+
 const __filename = fileURLToPath(import.meta.url);
 const __dirname = path.dirname(__filename)
 const __siteroot = __dirname.replace('/cli', '');
@@ -78,6 +80,11 @@ const runWizard = async () => {
                 value: 'comic',
                 description: 'Fetch comic collection',
             },
+            {
+                name: 'Fetch PSN data',
+                value: 'psn',
+                description: 'Fetch PSN data',
+            },
         ],
     })
 
@@ -105,6 +112,9 @@ const runWizard = async () => {
             break
         case 'note':
             createNote(__siteroot)
+            break
+        case 'psn':
+            fetchPsn(__siteroot)
             break
     }
 }
