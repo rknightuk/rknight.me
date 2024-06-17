@@ -2,6 +2,7 @@
 title: Games Collection
 permalink: 'collections/games/index.html'
 layout: collections
+wide: true
 eleventyNavigation:
   key: Games Collection
   parent: Collections
@@ -29,16 +30,13 @@ eleventyComputed:
                 <svg class="icon {{ platform.key }}" style="color: {{ platform.color }}"><use xlink:href="#{{ platform.key }}"></use></svg> {{ platform.name }} ({{ catalog.games.games[platform.name].length }})
             </span>
         </summary>
-        <div class="collection-grid">
+        <div class="almanac-grid">
             {%- for game in catalog.games.games[platform.name] %}
-                <div class="collection-item-wrapper">
-                    <div class="collection-image-wrapper">
-                        <a target="_blank" rel="noopener" href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
-                            <img src="/assets/catalog/games/{{ game.gameID }}.jpg">
-                         </a>
-                    </div>
-                    <div class="collection-label">{{ game.title }}</div>
-                </div>
+              <hyper-card>
+                <a href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
+                  <img class="almanac-poster" src="/assets/catalog/games/{{ game.gameID }}.jpg">
+                </a>
+              </hyper-card>
             {% endfor%}
         </div>
     </details>
