@@ -151,5 +151,30 @@ module.exports = {
         content += `</div>`
 
         return content
+    },
+    getAchievements: ({ title, platform, achievements }) => {
+        const titleMatch = title.replace(/[^0-9A-Z]+/gi,"").toLowerCase()
+        if (!platform.toLowerCase().includes('xbox')) return ''
+        
+        const data = achievements[titleMatch]
+
+        if (!data) return ''
+
+        if (data.progress === '0%') return ''
+
+        let ach = data.achievements.includes('/') ? data.achievements.split('/')[0] : data.achievements
+
+        let content = `<div class="trophies achievements">
+            <div class="trophy">
+                <svg class="icon trophy-xbox"><use xlink:href="#trophy"></use></svg>
+                <span>${ach}</span>
+            </div>
+            <div class="trophy">
+                <svg class="icon trophy-xbox"><use xlink:href="#gamerscore"></use></svg>
+                <span>${data.score}</span>
+            </div>
+        </div>`
+
+        return content
     }
 }
