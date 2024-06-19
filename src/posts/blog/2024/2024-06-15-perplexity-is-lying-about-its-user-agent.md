@@ -12,6 +12,8 @@ discuss:
   date: 2024-06-15T20:00:00
 ---
 
+Update 2024-06-19: [WIRED confirmed my findings based on their testing](https://www.wired.com/story/perplexity-is-a-bullshit-machine/).
+
 I wrote yesterday about [blocking AI bots on the server](https://rknight.me/blog/blocking-bots-with-nginx/) and today I have been [doing the same for MacStories](https://mastodon.macstories.net/@viticci/112621000120261399). Once it was setup Federico noticed that he was still able to get a quote from a specific MacStories post from [Perplexity](https://www.perplexity.ai/). I figured that this might be because they index pages (they are a search engine, of sorts) then I realised I had a perfect blog post I could test this on. Here's the changes I've done related to this on my site:
 
 - **March 30th**: Started disallowing `PerplexityBot`, and others, in [my robots.txt](/robots.txt)
