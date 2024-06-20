@@ -21,7 +21,7 @@
         {%- for mention in discuss %}
             <div class="toot">
                 <div class="toot__linkonly">
-                    <svg class="icon"><use xlink:href="#external"></use></svg> <a href="{{ mention.link }}" target="_blank" rel="noopener">Discuss on {{ mention.type }}</a>
+                    <svg class="icon"><use xlink:href="#external"></use></svg> <a href="{{ mention.link }}" target="_blank" rel="noopener">Discuss on {{ mention.type }}</a>&nbsp;{{ mention.date | isoDateOnly }}
                 </div>
             </div>
         {% endfor%}

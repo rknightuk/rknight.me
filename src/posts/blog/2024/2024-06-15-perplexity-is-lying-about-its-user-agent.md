@@ -10,6 +10,9 @@ discuss:
 - type: HackerNews
   link: https://news.ycombinator.com/item?id=40690898
   date: 2024-06-15T20:00:00
+- type: HackerNews
+  link: https://news.ycombinator.com/item?id=40728732
+  date: 2024-06-19T20:00:00
 ---
 
 Update 2024-06-19: [WIRED confirmed my findings based on their testing](https://www.wired.com/story/perplexity-is-a-bullshit-machine/).
