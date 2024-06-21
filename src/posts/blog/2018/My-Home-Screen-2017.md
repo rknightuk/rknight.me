@@ -6,7 +6,7 @@ excerpt: "My iPhone home screen as of November 2017"
 layout: post
 tags:
     - Homescreen
-note: This post originally appeared in <a href="https://club.macstories.net/posts/home-screen-robb-lewis">issue 104 of MacStories Weekly</a>
+repost: This post originally appeared in <a href="https://club.macstories.net/posts/home-screen-robb-lewis">issue 104 of MacStories Weekly</a>
 ---
 
 <a target="_blank" href="https://cdn.rknight.me/site/homescreen-november-2017.jpg"><img style="float:left;padding:10px;" src="https://cdn.rknight.me/site/homescreen-november-2017.jpg" width="250" height="auto"></a>

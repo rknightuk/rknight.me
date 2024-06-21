@@ -21,32 +21,7 @@ layout: base
         </aside>
     {% endif %}
     {% if rssClub or repost or note %}
-        <aside class="alert">
-            {% if rssClub %}
-                <div class="alert-icon">
-                    <svg class="icon subscribe-icon">
-                        <use xlink:href="#rss"></use>
-                    </svg>
-                </div>
-                <p>Welcome to the Knight club - RSS-only posts. These only show for RSS subscribers but feel free to share them. <a href="https://daverupert.com/rss-club/">Read more about RSS club</a>.</p>
-            {% endif %}
-            {% if repost %}
-                <div class="alert-icon">
-                    <svg class="icon alert-repost">
-                        <use xlink:href="#repost"></use>
-                    </svg>
-                </div>
-                <p>{{ repost | safe }}</p>
-            {% endif %}
-            {% if note %}
-                <div class="alert-icon">
-                    <svg class="icon alert-note">
-                        <use xlink:href="#bell"></use>
-                    </svg>
-                </div>
-                <p>{{ note | safe }}</p>
-            {% endif %}
-        </aside>
+        {% include 'post_notes.njk' %}
     {% endif %}
     {% if link and 'boxd' not in link %}
         <aside class="alert">

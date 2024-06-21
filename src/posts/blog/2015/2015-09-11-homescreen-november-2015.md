@@ -6,7 +6,7 @@ excerpt: "My iPhone home screen as of September 2015"
 date: 2015-09-11T00:00:00.000Z
 tags:
     - Homescreen
-note: This post originally appeared in the <a href="https://www.macstories.net/club/">MacStories newsletter (now Club MacStories)</a>
+repost: This post originally appeared in the <a href="https://www.macstories.net/club/">MacStories newsletter (now Club MacStories)</a>
 ---
 
 <a target="_blank" href="http://rmlewisuk.s3.amazonaws.com/homescreen-september-2015.jpg"><img style="float:left;padding:10px;" src="http://rmlewisuk.s3.amazonaws.com/homescreen-september-2015.jpg" width="250" height="auto"></a>

@@ -1,0 +1,31 @@
+
+{% if rssClub %}
+    <aside class="alert">
+        <div class="alert-icon">
+            <svg class="icon subscribe-icon">
+                <use xlink:href="#rss"></use>
+            </svg>
+        </div>
+        <p>Welcome to the Knight club - RSS-only posts. These only show for RSS subscribers but feel free to share them. <a href="https://daverupert.com/rss-club/">Read more about RSS club</a>.</p>
+    </aside>
+{% endif %}
+{% if repost %}
+    <aside class="alert">
+        <div class="alert-icon">
+            <svg class="icon alert-repost">
+                <use xlink:href="#repost"></use>
+            </svg>
+        </div>
+        <p>{{ repost | safe }}</p>
+    </aside>
+{% endif %}
+{% if note %}
+    <aside class="alert">
+        <div class="alert-icon">
+            <svg class="icon alert-note">
+                <use xlink:href="#bell"></use>
+            </svg>
+        </div>
+        <p>{{ note | safe }}</p>
+    </aside>
+{% endif %}

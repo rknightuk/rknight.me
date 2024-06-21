@@ -7,7 +7,7 @@ layout: post
 tags:
     - Personal
     - Games
-note: This post originally appeared in <a href="https://club.macstories.net/posts/reader-setup-2">MacStories Weekly</a>
+repost: This post originally appeared in <a href="https://club.macstories.net/posts/reader-setup-2">MacStories Weekly</a>
 ---
 
 ![](https://cdn.rknight.me/site/office-setup-tv.jpg)
