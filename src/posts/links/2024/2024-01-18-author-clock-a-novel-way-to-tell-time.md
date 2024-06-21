@@ -9,7 +9,7 @@ author:
 
 > There are 1440 minutes of the day, and we have quotes for every single minute—no exceptions
 
-This is ridiculouosly cool and now all I can think about is getting my hands on that quote data.
+This is ridiculously cool and now all I can think about is getting my hands on that quote data.
 
 Update: Literary Clock is a web version https://www.literaryclock.com 
 

@@ -30,4 +30,5 @@ A lot of inspiration for the site came from Steve Streza’s [DevCenter.me](http
 
 At present there are 16 services listed. If you want to add a new service, [drop me an email](/contact) and let me know. Alternatively, [fork the repo](https://github.com/rmlewisuk/justdelete.me) on GitHub, add the site to the json file and submit a pull request.
 
-Update: [24 Hours of Just Delete Me](/24-hours-of-just-delete-me/)
+> [!NOTE] Update
+> [24 Hours of Just Delete Me](/24-hours-of-just-delete-me/)

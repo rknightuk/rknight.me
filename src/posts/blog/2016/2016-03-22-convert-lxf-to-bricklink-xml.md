@@ -22,7 +22,8 @@ Once you're happy with your part list, click "Add to your Bricklink Wanted List"
 
 ***
 
-**Update: When this post was written, I didn't realise Rebrickable had a feature to automatically add parts to a Bricklink wanted list.**
+> [!NOTE] Update
+> When this post was written, I didn't realise Rebrickable had a feature to automatically add parts to a Bricklink wanted list
 
 <s>Once you're happy with your part list, click "Export to Bricklink (XML)" and your parts list will be downloaded in the correct format to import into Bricklink.
 

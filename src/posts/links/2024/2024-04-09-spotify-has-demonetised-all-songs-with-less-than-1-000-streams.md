@@ -10,4 +10,5 @@ author:
 
 Welcome to music streaming. You can use the one with the crap app from the biggest tech company in the world who pay artists basically nothing or the one where they pay artists even less that that.
 
-Update: As pointed out by [Gregory](https://social.lol/@gdp/112240482108565820) Apple's payouts are the highest in the streaming industry by a big margin.
+> ![NOTE]
+> As pointed out by [Gregory](https://social.lol/@gdp/112240482108565820) Apple's payouts are the highest in the streaming industry by a big margin.

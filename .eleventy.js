@@ -11,6 +11,7 @@ module.exports = function(eleventyConfig) {
 
     const markdownIt = require("markdown-it")
     const markdownItFootnote = require("markdown-it-footnote")
+    const markdownItGithubAlerts = require('markdown-it-github-alerts')
 
     const options = {
         html: true, // Enable HTML tags in source
@@ -18,7 +19,10 @@ module.exports = function(eleventyConfig) {
         linkify: true // Autoconvert URL-like text to links
     };
 
-    let markdownLib =  markdownIt(options).use(markdownItFootnote)
+    let markdownLib =  markdownIt(options)
+        .use(markdownItFootnote)
+        .use(markdownItGithubAlerts)
+        
     // replace the stupid emoji
     markdownLib.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
         var id = slf.rules.footnote_anchor_name(tokens, idx, options, env, slf)

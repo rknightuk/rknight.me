@@ -38,4 +38,5 @@ My first thoughts after doing this first part is that Raycast feels much nicer: 
 
 The second part of this is workflows, mostly ones I've made. Can I make something like my [toggle workflow](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/toggle-utils) as easily as I can in Alfred? What about [QuickNote](https://github.com/rknightuk/alfred-workflows/tree/main/workflows/quicknote)? Making workflows for little things I want is a big part of why I use Alfred. I'll be back with part 2 once I've dug into this some more.
 
-Update: [Read part two](https://rknight.me/blog/trying-raycast-part-two/)
+> ![!NOTE] Update
+> [Read part two](https://rknight.me/blog/trying-raycast-part-two/)

@@ -16,4 +16,5 @@ Once I restarted the PS4 and TV, HDR was supported (and looked beautiful in [Hor
 
 ~~_nb: I have an [original PS4](https://hellsite.rknight.me/736500604705591297) so I can't confirm if this TV works with 4K on the PS4 Pro._~~ 
 
-**24/01/2018 Update: I now have a PS4 Pro and can confirm it works with 4K as well.**
+> [!NOTE] Update 2018-01-24
+> I now have a PS4 Pro and can confirm it works with 4K as well.

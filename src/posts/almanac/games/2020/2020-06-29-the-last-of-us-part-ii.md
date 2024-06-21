@@ -17,7 +17,8 @@ giantbombid: 57216
 giantbomburl: https://www.giantbomb.com/the-last-of-us-part-ii/3030-57216/
 ---
 
-Update: After speaking with [Keenan](https://twitter.com/_gkeenan) I changed my mind about the order of the chapters. 
+> [!NOTE] Update 
+> After speaking with [Keenan](https://twitter.com/_gkeenan) I changed my mind about the order of the chapters
 
 After I finished this I looked up what the controversy was about this game because I honestly didn't know what I was supposed to be angry about. Turns out it's just straight dudes being straight dudes on the internet.
 
