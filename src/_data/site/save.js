@@ -10,6 +10,11 @@ module.exports = function() {
             link: 'https://secure.backblaze.com/r/01gkf3',
             desc: 'Unlimited computer backup',
         },
+        {
+            name: 'City Fibre',
+            link: 'https://refer.cityfibre.com/robbk-13',
+            desc: 'Fibre broadband - Get £25',
+        },
         { 
             name: 'Hover',
             link: 'https://hover.com/scHIv4WR',
