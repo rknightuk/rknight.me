@@ -4,7 +4,7 @@ eleventyExcludeFromCollections: true
 ---
 # Block AI bots
 if ($http_user_agent ~* "({{ site.robots.nginx }})"){
-    return 307 https://ash-speed.hetzner.com/100MB.bin;
+    return 307 https://ash-speed.hetzner.com/10GB.bin;
 }
 
 # Allow .xml files to be served as XML in Safari
