@@ -120,4 +120,11 @@ To check this was working as expected, I set a custom user agent in Chrome - Hit
 
 Anyway, [Fuck AI crawlers](https://coryd.dev/posts/2024/go-ahead-and-block-ai-web-crawlers/).
 
+>  [!NOTE] Update
+> It would be a real shame if I did [Melanie's suggestion of redirecting to a 10GB file instead](https://melkat.blog/p/unsafe-pricing)
+
+```bash
+return 307 https://ash-speed.hetzner.com/10GB.bin;
+```
+
 [^1]: [Stefan also sent me the solution](https://phpc.social/@stefanzweifel/112608837688404741)
