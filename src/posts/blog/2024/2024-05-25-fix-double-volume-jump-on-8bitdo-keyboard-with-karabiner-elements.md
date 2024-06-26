@@ -25,6 +25,9 @@ osascript -e "set volume output volume (output volume of (get volume settings) +
 
 This takes the current volume level and adds 6.25% to it. Why that number? Because there are 16 segments on the usual volume overlay and the standard is to increment just one of those segmenets so 100 / 16 = 6.25.
 
+> [!NOTE] Update 2024-06-25
+> Josh emailed to suggest changing the step from 6.25 to 2. This seems to have fixed the issues I was having so the script below has been updated.
+
 I then used the event viewer in Karabiner to identify the key code of the volume knob changes: `volume_increment` and `volume_decrement`.
 
 Finally, I wanted to limit this change to only volume changes coming from the 8BitDo keyboard. The event viewer also shows the vendor ID of the keyboard so I was able to use [device logic in KE](https://karabiner-elements.pqrs.org/docs/json/complex-modifications-manipulator-definition/conditions/device/) to limit it. The final configuration looks like this:
@@ -50,7 +53,7 @@ Finally, I wanted to limit this change to only volume changes coming from the 8B
       "to": [
         {
           "modifiers": [],
-          "shell_command": "osascript -e \"set volume output volume (output volume of (get volume settings) + 6.25)\""
+          "shell_command": "osascript -e \"set volume output volume (output volume of (get volume settings) + 2)\""
         }
       ],
       "type": "basic"
@@ -72,7 +75,7 @@ Finally, I wanted to limit this change to only volume changes coming from the 8B
       "to": [
         {
           "modifiers": [],
-          "shell_command": "osascript -e \"set volume output volume (output volume of (get volume settings) - 6.25)\""
+          "shell_command": "osascript -e \"set volume output volume (output volume of (get volume settings) - 2)\""
         }
       ],
       "type": "basic"

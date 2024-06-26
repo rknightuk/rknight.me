@@ -24,6 +24,11 @@ module.exports = function() {
 		],
 		'everything': [
 			{
+				title: '/ai',
+				link: '/ai',
+				description: 'What I do and don\'t use AI for',
+			},
+			{
 				title: '/now',
 				link: '/now',
 				description: 'What I\'m up to now',
