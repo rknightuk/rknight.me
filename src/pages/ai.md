@@ -14,7 +14,7 @@ I will sometimes use AI tools to generate regular expressions (if [Zoe](https://
 
 I use [GitHub Copilot](https://github.com/features/copilot) when writing code, usually for autofilling things like lists of numbers and other asinine tasks that occur when programming. Occassionally it will understand what I'm trying to do so I will use that code if I'm sure it's correct.
 
-I've used AI images for two things: a handful of times when DALL·E first released just try it out and for a couple of months with the [bad movie remakes bot](https://bugle.lol/@movieremakes). None of those images were good, a couple maybe got a little chuckle, but on the whole it wasn't worth it.
+I've used AI images for two things: a handful of times when DALL·E first released just try it out and for a couple of months with the [bad movie remakes bot](https://bugle.lol/@movieremakes). None of those images were good, a couple maybe got a little chuckle, but on the whole it wasn't worth it. Even if generated images get better, the resource usage to generate one single image is awful for the environment. Pay an artist.
 
 I [actively block bots](https://rknight.me/blog/blocking-bots-with-nginx/) used for training LLMs and will continue to do so as best I can. I consider it unethical at best to do what the AI companies are doing: scraping the open web first _then_ asking if we want to opt out.
 
