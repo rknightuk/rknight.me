@@ -43,7 +43,7 @@ If you don't wanna get hit round the head with a cricket bat don't go outside wi
 
 Not a question, more of a comment but okay. Robots.txt, despite never being a law, has worked pretty well up until now. Now the silicon valley tech bros are here doing whatever the fuck they want.
 
-Finally, I recently gave a comment to a reporter from [Nikkei](nikkei.com) which I think sums up my thoughts well now I've had a couple of weeks of thinking about this:
+Finally, I recently gave a comment to a reporter from [Nikkei](https://nikkei.com) which I think sums up my thoughts well now I've had a couple of weeks of thinking about this:
 
 > I find the behavior of Perplexity and others in this space problematic because we have, until very recently, had a web where search engines and other bots have respected robots.txt. It's the de facto standard for saying who can and cannot access your content. Although it's not a legal standard it has, for the most part, worked well since its invention in the 90s. But now AI companies funded by huge amounts of money think that because it would be hard to ask for permission they just take whatever they want with complete disregard for the content owners wishes and legal rights.
 >
