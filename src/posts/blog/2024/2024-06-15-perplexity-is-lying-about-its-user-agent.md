@@ -5,6 +5,7 @@ date: 2024-06-15T14:16:28.189Z
 excerpt: "Perplexity AI claims it sends a user agent and respects robots.txt but it absolutely does not"
 layout: post
 tags:
+    - AI
     - Development
 discuss:
 - type: HackerNews
