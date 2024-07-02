@@ -140,7 +140,7 @@
                             <svg class="icon">
                                 <use xlink:href="#calendar"></use>
                             </svg>
-                            <time class="dt-published" datetime="{{ page.date | toDateTimeForHCard }}">{{ page.date | postDate }}</time>
+                            <time class="dt-published" datetime="{{ page.date | toDateTime }}">{{ page.date | postDate }}</time>
                             {% if cinema %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
                         </div>
                         {% if tmdbid %}
