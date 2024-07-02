@@ -32,5 +32,9 @@ I don't host many images directly on this domain but rather put them on [Bunny C
 
 ![Blocking Perplixity in Bunny CDN](https://cdn.rknight.me/site/bunny-referrer-block.jpg)
 
-
 I know I said my [last post](https://rknight.me/blog/perplexity-ai-robotstxt-and-other-questions/) would be my final word but this really pissed me off. So once again, fuck you Perplexity.
+
+> [!NOTE] Update
+> [Lewis](https://lewisdale.dev) pointed out you can use Bunny's edge rules to achieve a redirect based on the header:
+
+![Redirecting to another image in Bunny](https://cdn.rknight.me/site/perplexity-blog-redirect.jpg)
