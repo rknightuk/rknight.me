@@ -221,6 +221,9 @@ module.exports = {
 
         return postsByProject
     },
+    quotes: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/pages/intersect/entries/quotes/**/*.md").reverse()
+    },
     postStats: (collectionApi) => {
         const oneDayMilliseconds = 1000 * 60 * 60 * 24
         const statsObject = {
