@@ -8,7 +8,7 @@ layout: base
 
 <span class="post e-content" data-pagefind-body>
     <span style="display: none;" data-pagefind-filter="type">posts</span>
-    <span style="display: none" data-pagefind-sort="date">{{ page.date | isoDateOnly }}</span>
+    <span style="display: none" data-pagefind-sort="date">{{ page.date.toISOString() | isoDateOnly }}</span>
     {%- set isOldPost -%}{{ page.date | isOldPost }}{%- endset -%}
     {% if isOldPost == "true" and '/blog' in page.url %}
         <aside class="alert">
