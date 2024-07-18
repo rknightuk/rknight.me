@@ -12,6 +12,7 @@
     "bookmarklet": "^3.0.0",
     "csv-parser": "^3.0.0",
     "dotenv": "^16.3.1",
+    "eleventy-plugin-youtube-embed": "^1.10.2",
     "html-entities": "^2.4.0",
     "js-yaml": "^4.1.0",
     "linkedom": "^0.16.6",

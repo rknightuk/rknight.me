@@ -299,3 +299,7 @@ th {
 .mastodon-icon {
     color: var(--color-mastodon);
 }
+
+.youtube-embed {
+    /* center this? */
+}

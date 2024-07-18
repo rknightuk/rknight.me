@@ -12,6 +12,13 @@ module.exports = [
         name: '@11ty/eleventy-navigation',
     },
     {
+        name: 'eleventy-plugin-youtube-embed',
+        options: {
+            lite: true,
+            embedClass: 'youtube-embed',
+        },
+    },
+    {
         name: '@rknightuk/eleventy-plugin-post-graph',
         options: {
             textColor: 'white',
