@@ -129,7 +129,7 @@ Putting all that together, I had my seating chart with taken seats highlighted i
 
 ![Relay 10 Seating Plan](https://cdn.rknight.me/site/seating-plan.jpg)
 
-A few days before the show, Kate pointed out that there was an issue with one of the floor's seating layout which I tried to fix but the convoluted system I'd used really didn't make this easy. If I was going to do this again, I'd just do the boring work of hard-coding every row of seats to get a more accurate layout. And just for fun, here's a photo from my seat of the show:
+A few days before the show, Kate pointed out that there was an issue with one of the floor's seating layout which I tried to fix but the convoluted system I'd used really didn't make this easy. If I was going to do this again, I'd just do the boring work of hard-coding every row of seats to get a more accurate layout. And just for fun, here's a photo from my seat atm the show:
 
 ![Myke and Stephen on stage](https://cdn.rknight.me/site/relay-10-stage.jpg)
 
