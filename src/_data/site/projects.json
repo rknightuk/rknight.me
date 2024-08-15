@@ -6,6 +6,7 @@
 	],
 	"current": [
 		{ "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },
+		{ "title": "lodon", "desc": "Tag Yourself at Relay's 10th Anniversary Extravaganza", "image": "lodonlol.jpg", "link": "https://github.com/rknightuk/lodon.lol", "tags": ["11ty"] },
     	{ "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
     	{ "title": "Hemispheric Views - Perfect Albums", "desc": "An iTunes UI for perfect albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
 		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" , "tags": ["PHP", "Laravel"] },
