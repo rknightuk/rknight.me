@@ -10,7 +10,7 @@ Last week I asked if anyone had suggestions for a MagSafe car mount and I got a 
 
 I ended up with [this one by a company called Lisen](https://www.amazon.co.uk/dp/B0CHVV5WKJ). It sticks directly to the dashboard, doesn't wobble around, and it supports 15W charging (once I bought a [cigarette lighter adaptor](https://www.amazon.co.uk/dp/B0BVZK3MHF)).
 
-Because Apple's silicon cases kept falling apart on me over the past few years I've been on the whatevers-cheapest-on-ali-express case train for a few years but none of the ones I own are MagSafe compatible. This meant trudging through endless pages of various shades of grey cases along with some that looked like they were just waved past a color in the factory. I just wanted something _fun_. Orange! Neon green! Hot pink! 
+Because Apple's silicone cases kept falling apart on me over the past few years I've been on the whatevers-cheapest-on-ali-express case train for a few years but none of the ones I own are MagSafe compatible. This meant trudging through endless pages of various shades of grey cases along with some that looked like they were just waved past a color in the factory. I just wanted something _fun_. Orange! Neon green! Hot pink! 
 
 These are few and far between if you want MagSafe but I stumbled upon the very well named [_GaoBao Strong Magnetic for iPhone 14 Pro Case, Slim Fit 14 Pro Phone Case Compatible with MagSafe Classic Shockproof Translucent Matte Protective Phone Cover for iPhone 14 Pro 6.1" 2022, Hot Pink_](https://www.amazon.co.uk/dp/B0D1BZXKN8). How pink is it? None more pink:
 
