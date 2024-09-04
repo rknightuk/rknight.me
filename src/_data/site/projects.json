@@ -43,8 +43,9 @@
 	],
 	"stjude": [
 		{ "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "image": "septembed.jpg", "tags": ["JS", "PHP"] },
-		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay FM for St Jude desk mat", "image": "deskmathelp.jpg", "tags": ["JS", "PHP"] },
-		{ "title": "Coin Me, Daddy", "link": "https://coinme.dad/", "desc": "Help someone out who needs just one dollar to get a Relay FM for St Jude challenge coin", "image": "coinmedad.jpg", "tags": ["JS", "PHP"] },
+		{ "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay for St Jude desk mat", "image": "deskmathelp.jpg", "tags": ["JS", "PHP"] },
+		{ "title": "Desk Mat Help", "link": "https://hathelp.rknight.me", "desc": "Help someone out who is close to getting a Relay for St Jude hat and tumbler", "image": "hathelp.jpg", "tags": ["JS", "PHP"] },
+		{ "title": "Coin Me, Daddy", "link": "https://coinme.dad/", "desc": "Help someone out who needs just one dollar to get a Relay for St Jude challenge coin", "image": "coinmedad.jpg", "tags": ["JS", "PHP"] },
 		{ "title": "Donation Treats", "link": "https://donationtreats.rknight.me/", "desc": "Donate some money, get a treat", "image": "donationtreats.jpg", "tags": ["JS", "PHP"] }
 	],
 	"design": [
