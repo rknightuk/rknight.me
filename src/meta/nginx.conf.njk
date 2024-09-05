@@ -13,6 +13,7 @@ location ^.xml {
 }
 
 # Redirect old blog posts to /blog
+rewrite ^/stjude https://tiltify.com/@rknightuk/stjude2024 redirect;
 rewrite ^/sitemap /explore permanent;
 rewrite ^/feed.xml /subscribe/posts/atom.xml permanent;
 rewrite ^/feed.json /subscribe/posts/feed.json permanent;
