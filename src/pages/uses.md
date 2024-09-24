@@ -31,11 +31,12 @@ eleventyNavigation:
 - [PiSight web cam](https://rknight.me/building-a-pisight/)
 - [MX Master 3S mouse](https://www.logitech.com/en-gb/products/mice/mx-master-3s.910-006559.html)
 - [8BitDo Retro Mechanical Keyboard](https://www.8bitdo.com/retro-mechanical-keyboard/)
-- Apple Magic Keyboard in black (non-touchID version) - only for podcasting
+- Apple Magic Keyboard in black (non-touchID version) - only for podcasting 
 - [Razer Seiren Mini microphone](https://www.razer.com/gb-en/streaming-microphones/razer-seiren-mini) for podcasting
 - [Logitech Z200 Speakers](https://www.logitech.com/en-gb/products/speakers/z200-multimedia-stereo-speakers.980-000812.html)
 - [Audio Technica ATH-M50x](https://www.audio-technica.com/en-gb/ath-m50x) (home/podcasting)
-- [Anker Soundcore Life Q30](https://uk.soundcore.com/products/a3028311) (office)
+- [AirPods Max Gen 1](https://en.wikipedia.org/wiki/AirPods_Max) (office/gaming)
+- [Anker Soundcore Life Q30](https://uk.soundcore.com/products/a3028311) (backup)
 - [Twelve South StayGo USB-C hub](https://www.twelvesouth.com/products/staygo-usb-c-hub)
 
 #### Software
