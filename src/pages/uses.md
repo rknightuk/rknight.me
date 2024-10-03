@@ -23,6 +23,8 @@ eleventyNavigation:
 
 ![My Desk](https://cdn.rknight.me/site/desk-2023.jpg)
 
+> "A chaotic tribute to the art of procrastination" - [JD](https://jdburch.com)
+
 <h3><svg class="icon"><use xlink:href="#maccy"></use></svg>MacBook Pro</h3>
 
 #### Hardware
