@@ -1,5 +1,5 @@
 ---
-title: I've Missed Sam for a Long Time (Or: Pick Your Battles)
+title: "I've Missed Sam for a Long Time (Or: Pick Your Battles)"
 permalink: /links/ive-missed-sam-for-a-long-time-or-pick-your-battles/index.html
 date: 2024-10-03T07:55:00.000Z
 link: https://gkeenan.co/avgb/ive-missed-sam-for-a-very-long-time-or-pick-your-battles/
