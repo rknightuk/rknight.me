@@ -74,7 +74,6 @@ module.exports = function(eleventyConfig) {
     })
 
     eleventyConfig.watchIgnores.add('src/assets/ogi/**/*')
-    eleventyConfig.configureErrorReporting({ allowMissingExtensions: true })
 
     return {
         passthroughFileCopy: true,
