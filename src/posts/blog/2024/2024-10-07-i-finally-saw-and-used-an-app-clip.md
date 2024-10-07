@@ -6,6 +6,9 @@ excerpt: "My first experience with an App Clip"
 layout: post
 ---
 
+> [!NOTE] Update
+> A previous version of this post said app clips were introduced seven years ago because AI summaries are dumb and Google is all the more stupid for using it.
+
 I was at a wedding on Friday and when we sat down for the wedding breakfast there was a QR code on the table to prompt us to take photos. I scanned it and to my surprise it was an [App Clip](https://apple.fandom.com/wiki/App_Clips) for [POV camera](https://pov.camera)[^1]. This is the first time the four years since they were introduced that I've seen one - I assumed they didn't exist any more.
 
 POV camera is basically a "disposable" camera. You get 28 photos and you can't see or edit them after you take them. They get sent to the event organiser (in this case the bride and groom) and they can "develop" them at a time they choose for everyone to browse. You can browse all the photos, just yours, or choose a specific person's. As an aside, the metaphor to physical film development and disposable cameras is surely lost on anyone under 25.
