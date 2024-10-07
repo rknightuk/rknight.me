@@ -15,3 +15,6 @@ Look at this fucking notification:
 ![The TikTok notification tab on my friend's app](https://cdn.rknight.me/site/tiktok-notification.jpg)
 
 I'm sure none of this is new information but I don't use TikTok so haven't been paying attention but I swear to god I'm never opening a TikTok link ever again.
+
+> [!NOTE] Update
+> You can turn off some of this tracking in Settings > Privacy > Suggest your account to others. Apparently this will stop the notification as above but I haven't confirmed this. [via zmknox](https://snailedit.social/@zmk/113266357360267152)
