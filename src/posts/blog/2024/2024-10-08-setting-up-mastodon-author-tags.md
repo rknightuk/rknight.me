@@ -7,6 +7,7 @@ layout: post
 tags:
     - ActivityPub
     - Development
+    - OpenWeb
 ---
 
 ![The new author tags on Mastodon 4.3](https://cdn.rknight.me/site/author-tag-preview.jpg)
