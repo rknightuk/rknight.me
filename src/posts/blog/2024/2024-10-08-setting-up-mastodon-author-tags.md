@@ -2,7 +2,7 @@
 title: "Setting Up Mastodon Author Tags"
 permalink: /blog/setting-up-mastodon-author-tags/index.html
 date: 2024-10-08T19:45:42.172Z
-excerpt: ""
+excerpt: "How to setup your website so you too can have a fancy author tag when your posts are shared"
 layout: post
 tags:
     - ActivityPub
