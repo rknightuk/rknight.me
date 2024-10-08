@@ -13,7 +13,7 @@ tags:
 Mastodon 4.3 adds support for [a newly proposed OpenGraph tag](https://blog.joinmastodon.org/2024/07/highlighting-journalism-on-mastodon/) to identify the creator of the link, which looks like this:
 
 ```html
-<meta property="fediverse:creator" content="@robb@social.lol" />
+<meta name="fediverse:creator" content="@robb@social.lol" />
 ```
 
 Mastodon (and hopefully other places in the future) will use this tag to display the author's profile [below a shared link](https://mastodon.social/@johnvoorhees@macstories.net/112718351017060922) like so:
