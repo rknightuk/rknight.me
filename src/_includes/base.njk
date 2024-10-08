@@ -159,9 +159,9 @@
                             </div>
                         {% endif %}
                         <div>
-                            {% for tag in tags | sort %}
+                            {%- for tag in tags | sort -%}
                                 <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
-                            {% endfor %}
+                            {%- endfor -%}
                         </div>
                     </div>
                 {% endif %}
@@ -177,9 +177,9 @@
         <footer class="main">
             <div>
                 <p class="footer-links">
-                    {% for p in site.footerpages %}
+                    {%- for p in site.footerpages -%}
                         {% if loop.index > 1 %}&bull;{% endif %} <a href="{{ p.link }}">{{ p.label }}</a>
-                    {% endfor %}
+                    {%- endfor -%}
                 </p>
             </div>
             <div class="container container-sm footer-buttons">
