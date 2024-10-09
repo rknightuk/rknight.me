@@ -13,7 +13,7 @@
         }
     ],
     "items" : [
-    {%- for post in collections[collectionName] %}
+    {%- for post in collections[collectionName].slice(0, 50) -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
     {
         "id" : "{{ post.data.permalink }}",

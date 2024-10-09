@@ -37,10 +37,8 @@ module.exports = function(eleventyConfig) {
     eleventyConfig.setLibrary('md', markdownLib);
 
     // passthrough
-    ['src/assets', 'src/files'].forEach(path => {
-        eleventyConfig.addPassthroughCopy(path, {
-            filter: path => !path.endsWith('.css') && !path.startsWith('_')
-        })
+    ['src/assets'].forEach(path => {
+        eleventyConfig.addPassthroughCopy(path)
     })
 
     // plugins
@@ -73,7 +71,6 @@ module.exports = function(eleventyConfig) {
         eleventyConfig.addFilter(filterName, indiewebFilters[filterName])
     })
 
-    eleventyConfig.watchIgnores.add('src/assets/ogi/**/*')
     eleventyConfig.configureErrorReporting({ allowMissingExtensions: true })
 
     return {

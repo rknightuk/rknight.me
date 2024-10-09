@@ -2,6 +2,7 @@ const utils = require('./utils')
 const cheerio = require('cheerio')
 const { decode } = require('html-entities')
 const mastodonCount = require('../mastodonCounter.js')
+const { DateTime } = require('luxon')
 
 module.exports = {
     makeTootText: (post) => {
@@ -99,6 +100,15 @@ module.exports = {
 
         if (path.startsWith('/notes/') && path !== '/notes/') {
             path = '/notes/single/'
+        }
+
+        if (path.startsWith('/almanac/') && path !== '/almanac/') {
+            const d = DateTime.fromISO(page.date.toISOString())
+                .setZone('Europe/London')
+
+            if (DateTime.now().diff(d, 'days').days > 90) {
+                path = '/almanac/single/'
+            }
         }
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
         return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`

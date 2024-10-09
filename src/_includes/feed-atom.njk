@@ -10,7 +10,7 @@
     <name>Robb Knight</name>
     <uri>http://rknight.me</uri>
   </author>
-  {%- for post in collections[collectionName] %}
+  {%- for post in collections[collectionName].slice(0, 50) -%}
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
@@ -23,5 +23,5 @@
       <name>Robb Knight</name>
     </author>
   </entry>
-  {%- endfor %}
+  {%- endfor -%}
 </feed>

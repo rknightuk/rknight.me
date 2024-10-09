@@ -5,7 +5,7 @@ module.exports = async function() {
     console.log("Fetching nownext data")
     let asset = new AssetCache("nownext_data")
 
-    if (asset.isCacheValid('1h'))
+    if (asset.isCacheValid('1d'))
     {
         console.log("Returning nownext data from cache" )
         return await asset.getCachedValue()
