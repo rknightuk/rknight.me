@@ -5,7 +5,7 @@ module.exports = async function() {
     console.log("Fetching podcast data")
     let asset = new AssetCache("podcast_data")
 
-    if (asset.isCacheValid('1h'))
+    if (asset.isCacheValid('1d'))
     {
         console.log("Returning podcast data from cache" )
         return await asset.getCachedValue()

@@ -3,8 +3,8 @@
     {% if post.data.excerpt %}<em class="post-excerpt">{{ post.data.excerpt }}</em><br>{% endif %}
     <p class="post-date">
         {{ post.data.date | postDateNoYear }}
-    {% for tag in post.data.tags | sort %}
+    {%- for tag in post.data.tags | sort -%}
         <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < post.data.tags.length %}&nbsp;{% endif %}
-    {% endfor %}
+    {%- endfor -%}
     </p>
 </div>

@@ -6,7 +6,7 @@ eleventyNavigation:
   parent: Intersect
 ---
 
-{% for q in collections.quotes %}
+{%- for q in collections.quotes -%}
   {% if q.data.link %}
     <p><a href="{{ q.data.link }}" target="_blank">{{ q.data.title }}</a>:</p>
   {% else %}
@@ -18,4 +18,4 @@ eleventyNavigation:
   <p>{{ q.data.date.toISOString() | isoDateOnly }}</p>
 
   <hr>
-{% endfor %}
+{%- endfor -%}

@@ -1,8 +1,8 @@
 const fs = require('fs')
 const writingStats = require('writing-stats')
 const moment = require('moment')
-const production = require('../src/_data/site/production')
 const { url } = require('inspector')
+const { DateTime } = require('luxon')
 
 function processPostFile(filePath) {
     try {
@@ -54,7 +54,6 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 const makePath = (type) => {
     const year = new Date().getFullYear()
     return `src/posts/${type}/**/*.md`
-    return `src/posts/${production ? type : `${type}/${year}`}/**/*.md`
 }
 
 module.exports = {
@@ -84,12 +83,28 @@ module.exports = {
                 title: 'please, my website, she\'s very sick',
                 url: '/404/',
                 icon: '404',
-            }
+            },
+            {
+                title: 'an entry in the almanac',
+                url: '/almanac/single/',
+                icon: 'logo',
+            },
         ]
     },
     postsForOg: (collectionApi) => {
         return collectionApi.getAll()
-            .filter(p => ['post', 'link', 'almanac', 'changelog'].includes(p.data.layout))
+            .filter(p => {
+                if (['post', 'link', 'changelog'].includes(p.data.layout)) return true
+
+                if (p.data.layout === 'almanac') {
+                    const d = DateTime.fromISO(p.data.date.toISOString())
+                        .setZone('Europe/London')
+
+                    return DateTime.now().diff(d, 'days').days <= 90
+                }
+
+                return false
+            })
     },
     everything: (collectionApi) => {
         return collectionApi.getAll()
@@ -117,9 +132,7 @@ module.exports = {
         }).reverse().slice(0, 5)
     },
     postsForFeed: (collectionApi) => {
-        return collectionApi.getFilteredByGlob(makePath('blog')).reverse().filter(p => {
-            return moment(p.date).isAfter(moment('2012-12-12'))
-        })
+        return collectionApi.getFilteredByGlob(makePath('blog')).reverse().slice(0, 50)
     },
     links: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('links')).reverse()
@@ -133,20 +146,13 @@ module.exports = {
         })
     },
     almanac: (collectionApi) => {
-        const collection = collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
-        return collection
-        return production ? collection : collection.slice(0, 10)
+        return collectionApi.getFilteredByGlob("src/posts/almanac/**/*.md").reverse()
     },
     almanacBackdrops: (collectionApi) => {
-        const movies = fs.readdirSync('src/assets/catalog/almanac/movie/bd')
-        const tv = fs.readdirSync('src/assets/catalog/almanac/tv/bd')
-        
-        const backdrops = {
-            movie: movies.map(m => m.replace('.jpg', '')),
-            tv: tv.map(m => m.replace('.jpg', '')),
+        return {
+            movie: fs.readdirSync('src/assets/catalog/almanac/movie/bd'),
+            tv: fs.readdirSync('src/assets/catalog/almanac/tv/bd'),
         }
-
-        return backdrops
     },
     almanacGrouped: (collectionApi) => {
         const data = {}

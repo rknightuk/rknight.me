@@ -11,7 +11,7 @@ module.exports = async function() {
     console.log("Fetching Fathom popular pages")
     let asset = new AssetCache("fathom")
 
-    if (asset.isCacheValid('1h'))
+    if (asset.isCacheValid('1d'))
     {
         console.log("Returning Fathom popular pages from cache" )
         return await asset.getCachedValue()

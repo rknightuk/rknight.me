@@ -114,7 +114,7 @@ module.exports = {
 
         if (customBackdrop) {
             filePath = `custom/${customBackdrop}`
-        } else if (tmdbid && imageIndex[type].includes(tmdbid.toString())) {
+        } else if (tmdbid && imageIndex[type].includes(`${tmdbid.toString()}.jpg`)) {
             filePath = `bd/${tmdbid}`
         }
 

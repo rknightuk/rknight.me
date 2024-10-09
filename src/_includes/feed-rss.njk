@@ -7,7 +7,7 @@
     <link>https://rknight.me</link>
     <description>{{ site.config.description }}</description>
     <language>en-gb</language>
-    {%- for post in collections[collectionName] %}
+    {%- for post in collections[collectionName].slice(0, 50) -%}
     {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
       <item>
         <title>{{ post.data.title }}</title>
@@ -17,6 +17,6 @@
         <dc:creator>Robb Knight</dc:creator>
         <guid>https://rknight.me{{ post | getRssId }}</guid>
       </item>
-    {%- endfor %}
+    {%- endfor -%}
   </channel>
 </rss>

@@ -10,9 +10,9 @@ eleventyNavigation:
 <h3 id="current">Current Subscriptions</h3>
 
 <ul>
-    {% for pod in podcasts.subscriptions %}
+    {%- for pod in podcasts.subscriptions -%}
         <li><a href="{{ pod.url }}">{{ pod.title }}</a></li>
-    {% endfor %}
+    {%- endfor -%}
 </ul>
 
 
@@ -74,18 +74,18 @@ eleventyNavigation:
 }
 </style>
 <div class="now_albums">
-    {% for pod in podcasts.stats.slice(0, 10) %}
+    {%- for pod in podcasts.stats.slice(0, 10) -%}
         <div class="now_album">
             <a href="{{ pod.url }}"><img src="{{ pod.image }}"></a>
         </div>
-    {% endfor %}
+    {%- endfor -%}
 </div>
 
 <details class="details">
     <summary>{{ podcasts.log.length }} {% if podcasts.log.length > 1 %}Episodes{% else %}Episode{% endif %}</summary>
-    {% for post in podcasts.log %}
+    {%- for post in podcasts.log -%}
         <div>
             <p><a class="list-post-date" href="{{ post._podcast_metadata.episodeUrl }}">{{ post.date_published | isoDateOnly }}</a> <strong>{{ post._podcast_metadata.podcastTitle }}</strong> {{ post._podcast_metadata.episodeTitle }}</p>
         </div>
-    {% endfor %}
+    {%- endfor -%}
 </details>
