@@ -20,7 +20,7 @@ body {
     margin: 0;
     font-family: system-ui, sans-serif;
     font-weight: normal;
-    font-size: 1.3em;
+    font-size: 1.2em;
     background-color: var(--nearblack);
     color: var(--offwhite);
 }
@@ -40,7 +40,7 @@ h4 {
 }
 
 h2 {
-    font-size: 2em;
+    font-size: 1.6em;
 }
 
 h3 {

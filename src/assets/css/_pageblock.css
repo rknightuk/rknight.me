@@ -28,8 +28,8 @@
         0 100% /* left bottom */
     );
     margin-top: 20px;
-    padding-top: 20px;
-    padding-bottom: 30px;
+    padding-top: 10px;
+    padding-bottom: 20px;
     text-align: center;
     margin-top: -20px;
     transition: clip-path 1s;
