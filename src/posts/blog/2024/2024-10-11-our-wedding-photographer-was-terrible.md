@@ -8,7 +8,7 @@ tags:
     - Personal
 ---
 
-This was going to be a scathing review of our wedding photographer I planned on posting becuase I was furious having waited 6 months to get the photos but he's basically gone bust anyway and I've calmed down since then. I'm posting it anyway because it's been in my post drafts for months and I want it for reference. Name of the photographer is redacted becuase quite frankly life's too short.
+This was going to be a scathing review of our wedding photographer I planned on posting because I was furious having waited 6 months to get the photos but he's basically gone bust anyway and I've calmed down since then. I'm posting it anyway because it's been in my post drafts for months and I want it for reference. Name of the photographer is redacted because quite frankly life's too short.
 
 ---
 
@@ -31,7 +31,7 @@ Now for actually getting our photos:
 - **January 18th, 131 days**: Messaged. Seen, no response.
 - **January 27th, 140 days**: Messaged. Seen, no response.
 - **February 2nd, 147 days**: Messaged, more firm. Finally got a response and told me to calm down. Told he will get to us "first thing in the morning"
-- **February 3rd, 148 days**: Got the missing roof photos but still no pin to download them. "Give me 2 secs I'll send you an email". No email or pin.
+- **February 3rd, 148 days**: Got the missing group photos but still no pin to download them. "Give me 2 secs I'll send you an email". No email or pin.
 - **February 17th, 162 days**: Messaged to ask for a pin and the pre-wedding shoot photos. Seen, no response.
 - **February 25th, 170 days**: Messaged again. Seen, no response.
 - **2nd March, 177 days**: Messaged again, responded the next day.
