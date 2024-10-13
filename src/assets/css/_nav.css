@@ -21,7 +21,7 @@ nav.main a.active {
 nav.main a {
     background-color: var(--secondary);
     border-bottom: none;
-    padding: 5px 10px;
+    padding: 2px 0;
     text-decoration: none;
     color: var(--nav-text);
     border-radius: 5px;
@@ -29,18 +29,19 @@ nav.main a {
     font-size: 0.8em;
     font-family: var(--cbr);
     text-align: center;
+    transition: text-shadow 0.5s ease;
 }
 
 @media (max-width: 550px) {
     nav.main .container {
         display: grid;
-        grid-template-columns: repeat(2, 1fr);
+        grid-template-columns: repeat(3, 1fr);
     }
 }
 
 @media (max-width: 260px) {
     nav.main .container {
         display: grid;
-        grid-template-columns: repeat(1, 1fr);
+        grid-template-columns: repeat(2, 1fr);
     }
 }
