@@ -134,7 +134,7 @@ module.exports = {
     firstPosts: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('blog')).filter(p => {
             return !p.data.rssClub
-        }).reverse().slice(0, 5)
+        }).reverse().slice(0, 3)
     },
     postsForFeed: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('blog')).reverse().slice(0, 50)

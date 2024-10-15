@@ -2,7 +2,8 @@
 	"featured": [
 		{ "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
 		{ "title": "Hemispheric Views - Perfect Albums", "desc": "Hemispheric Views - Perfect Albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
-		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" }
+		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" },
+		{ "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" }
 	],
 	"current": [
 		{ "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },

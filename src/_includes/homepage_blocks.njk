@@ -23,11 +23,11 @@
     </div>
 </div>
 
-<div class="block-header" style="background-color: #44a25e;">
-    <h2>Latest Photos</h2>
-</div>
 <div class="rkblock home">
     <div class="container container-sm">
+        <div class="block-header" style="background-color: #44a25e;margin-bottom: 20px;">
+            <h2>Latest Photos</h2>
+        </div>
         <div class="photos_grid">
         {%- for photo in pixelfed %}
             <a href="{{ photo.url }}">
@@ -39,12 +39,11 @@
     </div>
 </div>
     
-<div class="block-header" style="background-color: #4db5ad;">
-    <h2>Latest Blog Posts</h2>
-</div>
-    
 <div class="rkblock home">
     <div class="container container-sm">
+        <div class="block-header" style="background-color: #4db5ad;margin-bottom: 20px;">
+            <h2>Latest Blog Posts</h2>
+        </div>
         {%- for post in collections.firstPosts %}
             {% include 'post_list_item.njk' %}
         {% endfor %}
@@ -52,11 +51,11 @@
     </div>
 </div>
 
-<div class="block-header" style="background-color: #d76150;">
-    <h2>Latest Links</h2>
-</div>
 <div class="rkblock home">
     <div class="container container-sm">
+        <div class="block-header" style="background-color: #d76150;margin-bottom: 20px;">
+            <h2>Latest Links</h2>
+        </div>
         {%- for link in collections.links.slice(0, 3) %}
             {% include 'link_list_item.njk' %}
         {% endfor %}
@@ -65,12 +64,12 @@
     </div>
 </div>
 
-<div class="block-header" style="background-color: #efaa32;">
-    <h2>Latest Podcasts</h2>
-</div>
 
 <div class="rkblock home">
     <div class="container container-sm">
+        <div class="block-header" style="background-color: #efaa32;margin-bottom: 20px;">
+            <h2>Latest Podcasts</h2>
+        </div>
 
         <div class="blogroll blogroll--podcasts">
             {%- for pod in mypodcasts.latest %}
@@ -89,12 +88,11 @@
     </div>
 </div>
 
-<div class="block-header" style="background-color: #44a25e;">
-    <h2>Recent Projects</h2>
-</div>
-
 <div class="rkblock home">
-    <div class="container">        
+    <div class="container container-sm">        
+        <div class="block-header" style="background-color: #44a25e;margin-bottom: 20px;">
+            <h2>Recent Projects</h2>
+        </div>
         <div class="home-projects">
             {%- for project in site.projects.featured %}
             <div class="home-project" style="background-image: url('/assets/projects/{{ project.image }}');">
