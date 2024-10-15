@@ -11,6 +11,7 @@ discuss:
 - type: HackerNews
   link: https://news.ycombinator.com/item?id=38801221
   date: 2023-12-29T02:33:58
+featured: true
 ---
 
 Reading the title you might be thinking "_Yeah no shit Robb of course the web[^1] is fantastic it's literally the cornerstone of all commerce and communications in the modern world_". Or maybe you're not thinking that. But I'm not talking about the web as a whole, I'm talking about the open web. The _come-do-cool-things-with-our-api_ web. The open standards web. The [indie web](https://indieweb.org/).

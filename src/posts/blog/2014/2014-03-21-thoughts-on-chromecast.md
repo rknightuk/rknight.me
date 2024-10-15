@@ -2,7 +2,6 @@
 title: Thoughts on Google Chromecast
 permalink: /blog/thoughts-on-chromecast/index.html
 layout: post
-featured: true
 excerpt: "The Google Chromecast has been released in the UK, so I had to buy one and try it out."
 date: 2014-03-21T00:00:00.000Z
 tags:

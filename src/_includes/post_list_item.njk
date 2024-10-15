@@ -1,5 +1,5 @@
 <div>
-    <p class="post-title"><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
+    <p class="post-title">{% if post.data.featured %}⭐{% endif %} <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
     {% if post.data.excerpt %}<em class="post-excerpt">{{ post.data.excerpt }}</em><br>{% endif %}
     <p class="post-date">
         {{ post.data.date | postDateNoYear }}

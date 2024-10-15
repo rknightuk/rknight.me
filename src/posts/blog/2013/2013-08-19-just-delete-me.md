@@ -1,7 +1,6 @@
 ---
 title: Just Delete Me
 permalink: /blog/just-delete-me/index.html
-featured: true
 date: 2013-08-19T07:00:00.000Z
 layout: post
 excerpt: "After seeing a few tweets about how difficult it can be to delete your Skype account and then hearing that Netflix flat-out won’t delete your details I decided to build JustDelete.me."

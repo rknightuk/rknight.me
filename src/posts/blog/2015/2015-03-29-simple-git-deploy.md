@@ -2,7 +2,6 @@
 title: Simple Git Deploy
 permalink: /blog/simple-git-deploy/index.html
 layout: post
-featured: true
 excerpt: "A simple method to git push to deploy."
 date: 2015-03-29T00:00:00.000Z
 tags:

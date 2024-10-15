@@ -1,0 +1,11 @@
+---
+pagination:
+  data: collections.blogTags
+  size: 1
+  alias: tag
+permalink: opengraph/blog/tags/{{ tag | toLowerCase }}/index.html
+layout: opengraph
+eleventyComputed:
+  title: "#{{ tag }}"
+  icon: logo
+---

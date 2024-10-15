@@ -1,7 +1,6 @@
 ---
 title: "JustDelete.me: One Million Page Views"
 permalink: /blog/just-delete-me-one-million-page-views/index.html
-featured: true
 date: 2013-08-29T07:04:00.000Z
 layout: post
 excerpt: "Just Delete Me was launched just 10 days ago and has already had over one million page views."

@@ -2,7 +2,6 @@
 title: "New Podcast: Ruminate"
 permalink: /blog/ruminate-podcast/index.html
 layout: post
-featured: true
 excerpt: "A new podcast by John Voorhees and myself"
 date: 2015-08-24T00:00:00.000Z
 tags:

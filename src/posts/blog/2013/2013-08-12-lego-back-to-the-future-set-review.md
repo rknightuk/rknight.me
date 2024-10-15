@@ -1,7 +1,6 @@
 ---
 title: Lego Back to The Future Set Review
 permalink: /blog/lego-back-to-the-future-set-review/index.html
-featured: true
 date: 2013-08-12T09:00:00.000Z
 layout: post
 excerpt: My review of the fourth Lego Cuusoo set, Back to The Future.

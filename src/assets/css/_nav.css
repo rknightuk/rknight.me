@@ -26,20 +26,13 @@ nav.main a {
     color: var(--nav-text);
     border-radius: 5px;
     text-transform: lowercase;
-    font-size: 0.8em;
+    font-size: 0.9em;
     font-family: var(--cbr);
     text-align: center;
     transition: text-shadow 0.5s ease;
 }
 
 @media (max-width: 550px) {
-    nav.main .container {
-        display: grid;
-        grid-template-columns: repeat(3, 1fr);
-    }
-}
-
-@media (max-width: 260px) {
     nav.main .container {
         display: grid;
         grid-template-columns: repeat(2, 1fr);

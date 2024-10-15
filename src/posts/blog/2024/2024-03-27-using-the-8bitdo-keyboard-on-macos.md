@@ -6,6 +6,7 @@ excerpt: "How I setup the 8BitDo Keyboard to work as I'd like on MacOS"
 layout: post
 tags:
     - MacOS
+featured: true
 ---
 
 This week I bought the [8BitDo Retro Mechanical Keyboard](https://www.8bitdo.com/retro-mechanical-keyboard/) which is not supported by MacOS, at least according to their website. I came across [this Reddit post](https://www.reddit.com/r/8bitdo/comments/17aszl4/8bitdo_mechanical_keyboard_on_mac/) that said it _does work_ so I decided to go for it. I think when they say it isn't supported they mean their [software for accessories](https://app.8bitdo.com/Ultimate-Software-V2/) doesn't work on MacOS but I knew I didn't need that.

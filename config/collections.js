@@ -126,6 +126,11 @@ module.exports = {
     
         return posts
     },
+    featuredPosts: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('blog')).filter(p => {
+            return !p.data.rssClub && p.data.featured
+        }).reverse()
+    },
     firstPosts: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('blog')).filter(p => {
             return !p.data.rssClub

@@ -67,6 +67,8 @@
 .post-date {
     margin-top: 0;
     font-size: 0.8em;
+    color: var(--offwhite-subtle);
+    font-family: var(--cr);
 }
 
 .pagination {

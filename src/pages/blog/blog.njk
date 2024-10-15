@@ -8,7 +8,15 @@ eleventyNavigation:
   parent: Home
 ---
 
-Highlighted post series:
+<h3>Post Highlights</h3>
+
+<ul>
+{%- for post in collections.featuredPosts %}
+    <li><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></li>
+{% endfor %}
+</ul>
+
+<h3>Featured Series</h3>
 
 <ul>
   <li><a href="/blog/tags/thingsilike">#ThingsILike</a> - A series where I recommened various things I'm enjoying.</li>
@@ -17,6 +25,8 @@ Highlighted post series:
   <li><a href="/blog/tags/weblogpomo">#WeblogPoMo</a> - Weblog Posting Month started by Anne. <a href="https://weblog.anniegreens.lol/weblog-posting-month-2024">Read more about it here</a>.</li>
 </ul>
 
+<h3>All Posts</h3>
+
 {% set datePrinted = false %}
 {% set currentYear = 1000 %}
 
@@ -24,7 +34,7 @@ Highlighted post series:
     {% set postYear = post.data.date.getFullYear() %}
 
     {% if postYear != currentYear %}
-        <h3>{{ postYear }}</h3>
+        <h4>{{ postYear }}</h4>
     {% endif %}
 
     {% include 'post_list_item.njk' %}
