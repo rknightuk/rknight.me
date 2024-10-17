@@ -22,6 +22,7 @@
 @import "_changelog.css";
 @import "_almanac.css";
 @import "_toot.css";
+@import "_explore.css";
 
 .scale-left {
     display: none;

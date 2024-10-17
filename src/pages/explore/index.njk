@@ -8,28 +8,39 @@ eleventyNavigation:
   parent: Home
 ---
 
-<p>The nav bar was getting pretty crowded so everything else lives here. Here's the highlights or <a href="#sitemap">jump to the sitemap</a>.</p>
-
-<h3>Things I write</h3>
-
-{%- for page in site.explore.writing -%}
-  <div>
-      <p class="post-title" style="margin-top: 5px"><a href="{{ page.link }}">{{ page.title }}</a></p>
-      <em class="post-excerpt">{{ page.description }}</em>
+{%- for page in site.explore.stuff -%}
+<div class="exp-block">
+  <div class="exp-block-icon">
+    <svg class="icon"><use xlink:href="#icon-{{ page.icon }}"></use></svg>
   </div>
+  <div>
+    <a href="{{ page.link }}">{{ page.title }}</a>
+    <p>{{ page.description }}</p>
+  </div>
+</div>
+{% if page.more %}
+  {%- for more in page.more -%}
+    <div class="exp-block exp-indent">
+      <div class="exp-block-icon">
+        <svg class="icon"><use xlink:href="#icon-{{ more.icon }}"></use></svg>
+      </div>
+      <div>
+        <a href="{{ more.link }}">{{ more.title }}</a>
+        <p>{{ more.description }}</p>
+      </div>
+    </div>
+  {% endfor %}
+{% endif %}
 {%- endfor -%}
 
-<h3>The other pages</h3>
-
-{%- for page in site.explore.everything -%}
-  <div>
-      <p class="post-title" style="margin-top: 5px"><a href="{{ page.link }}">{{ page.title }}</a></p>
-      <em class="post-excerpt">{{ page.description }}</em>
+{%- for page in site.explore.slash -%}
+<div class="exp-block">
+  <div class="exp-block-icon">
+    <svg class="icon"><use xlink:href="#icon-slash"></use></svg>
   </div>
+  <div>
+    <a href="{{ page.link }}">{{ page.title }}</a>
+    <p>{{ page.description }}</p>
+  </div>
+</div>
 {%- endfor -%}
-
-<hr>
-
-<h3 id="sitemap">Sitemap</h3>
-
-{{ collections.all | eleventyNavigation("Home") | sortByName | eleventyNavigationToHtml | safe }}

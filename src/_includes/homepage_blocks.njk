@@ -20,87 +20,119 @@
         </div>
 
         <a href="/about">More about me</a>
+
+        <hr>
     </div>
 </div>
 
-<div class="rkblock home">
-    <div class="container container-sm">
-        <div class="block-header" style="background-color: #44a25e;margin-bottom: 20px;">
-            <h2>Latest Photos</h2>
-        </div>
-        <div class="photos_grid">
+
+<style>
+    .x-lat h1 {
+        text-transform: uppercase;
+        font-family: var(--cbr);
+        color: var(--primary);
+        font-size: 1em;
+        display: flex;
+        align-items: center;
+    }
+
+    .x-lat h1 svg {
+        width: 1em;
+        height: 1em;
+        color: var(--offwhite);
+        margin-right: 0.5em;
+    }
+
+    .x-lat li {
+        font-family: var(--cr);
+    }
+
+    .x-lat span {
+        font-family: var(--monospace);
+        color: var(--offwhite-subtle);
+    }
+</style>
+<div class="x-lat container container-sm">
+    <h1><svg class="icon"><use xlink:href="#icon-blog"></use></svg> Latest Posts</h1>
+
+    <ul>
+    {%- for post in collections.firstPosts %}
+        <li>
+            <span>{{ post.data.date.toISOString() | isoDateOnly }}</span> <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <p><a href="/blog">View All Posts</a></p>
+
+    <h1><svg class="icon"><use xlink:href="#icon-links"></use></svg> Latest Links</h1>
+
+    <ul>
+    {%- for post in collections.links.slice(0, 3) %}
+        <li>
+            <span>{{ post.data.date.toISOString() | isoDateOnly }}</span> <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <p><a href="/links">View All Links</a></p>
+
+    <h1><svg class="icon"><use xlink:href="#icon-notes"></use></svg> Latest Note</h1>
+
+    {%- for note in collections.notes.slice(0, 1) %}
+        {{ note.content | safe }}
+        <span style="font-size: 0.9em"><a href="{{ note.data.permalink | stripIndex }}">{{ note.data.date.toISOString() | isoDateOnly }}</a></span> 
+    {% endfor %}
+
+    <p><a href="/notes">View All Notes</a></p>
+
+    <h1><svg class="icon"><use xlink:href="#icon-almanac"></use></svg> Latest Almanac Entries</h1>
+
+    <ul>
+    {%- for post in collections.almanac.slice(0, 3) %}
+        <li>
+            <span>{{ post.data.date.toISOString() | isoDateOnly }}</span> <a href="{{ post.url }}">{{ post.data.title }}</a>
+        </li>
+    {% endfor %}
+    </ul>
+
+    <p><a href="/almanac">View All Almanac Entries</a></p>
+
+    <h1><svg class="icon"><use xlink:href="#icon-podcasts"></use></svg> Latest Podcast Episodes</h1>
+
+    <ul>
+    {%- for pod in mypodcasts.latest %}
+        <li>
+            <span>{{ pod.date }}</span>
+            <a href="{{ pod.show.link }}">{{ pod.show.title }}: {{ pod.title | safe }}</a>
+        </li>
+    {%- endfor -%}
+    </ul>
+
+    <p><a href="/podcasts">View All Episodes</a></p>
+
+    <h1><svg class="icon"><use xlink:href="#icon-photos"></use></svg> Latest Photos</h1>
+
+    <div class="photos_grid" style="margin-top: 25px;">
         {%- for photo in pixelfed %}
             <a href="{{ photo.url }}">
                 <img src="{{ photo.image }}" alt="{{ photo.image_desc }}" />
             </a>
         {% endfor %}
-        </div>
-        <p><a href="https://pixelfed.social/rknightuk">View on Pixelfed</a></p>
     </div>
-</div>
-    
-<div class="rkblock home">
-    <div class="container container-sm">
-        <div class="block-header" style="background-color: #4db5ad;margin-bottom: 20px;">
-            <h2>Latest Blog Posts</h2>
+
+    <p><a href="https://pixelfed.social/rknightuk">View on Pixelfed</a></p>
+
+    <h1><svg class="icon"><use xlink:href="#icon-projects"></use></svg> Recent Projects</h1>
+
+    <div class="home-projects" style="margin-top: 25px;">
+        {%- for project in site.projects.featured %}
+        <div class="home-project" style="background-image: url('/assets/projects/{{ project.image }}');">
+            <a href="{{ project.link }}">{{ project.title }}</a>
         </div>
-        {%- for post in collections.firstPosts %}
-            {% include 'post_list_item.njk' %}
-        {% endfor %}
-        <p><a href="/blog">View All Posts</a></p>
+        {% endfor%}
     </div>
-</div>
 
-<div class="rkblock home">
-    <div class="container container-sm">
-        <div class="block-header" style="background-color: #d76150;margin-bottom: 20px;">
-            <h2>Latest Links</h2>
-        </div>
-        {%- for link in collections.links.slice(0, 3) %}
-            {% include 'link_list_item.njk' %}
-        {% endfor %}
+    <p><a href="/projects">View All Projects</a></p>
 
-        <p><a href="/links">View All Links</a></p>
-    </div>
-</div>
-
-
-<div class="rkblock home">
-    <div class="container container-sm">
-        <div class="block-header" style="background-color: #efaa32;margin-bottom: 20px;">
-            <h2>Latest Podcasts</h2>
-        </div>
-
-        <div class="blogroll blogroll--podcasts">
-            {%- for pod in mypodcasts.latest %}
-                <div class="blogroll--blog" style="background-image: url('{{ pod.show.art }}')">
-                    <div class="blogroll--data">
-                        <h3><a href="{{ pod.show.link }}">{{ pod.show.title }}</a></h3>
-                        <p class="blog--subtitle"><em><a href="{{ pod.link }}">{{ pod.title | safe }}</a></em></p>
-                        <p>{{ pod.desc }}</p>
-                    </div>
-                </div>
-            {%- endfor -%}
-
-            <p><a href="/podcasts">View All Episodes</a></p>
-        </div>
-
-    </div>
-</div>
-
-<div class="rkblock home">
-    <div class="container container-sm">        
-        <div class="block-header" style="background-color: #44a25e;margin-bottom: 20px;">
-            <h2>Recent Projects</h2>
-        </div>
-        <div class="home-projects">
-            {%- for project in site.projects.featured %}
-            <div class="home-project" style="background-image: url('/assets/projects/{{ project.image }}');">
-                <a href="{{ project.link }}">{{ project.title }}</a>
-            </div>
-            {% endfor%}
-        </div>
-
-        <p><a href="/projects">View All Projects</a></p>
-    </div>
 </div>
