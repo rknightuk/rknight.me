@@ -8,7 +8,7 @@ tags:
     - ThingsILike
 ---
 
-When 8BitDo announced they were selling a new keycap set that matched [my keyboard I got from them](https://rknight.me/blog/using-the-8bitdo-keyboard-on-macos/) I ordered immediately. I didn't need new keycaps for it but I _really_ wanted to get rid of that pesky windows key. 
+When 8BitDo announced they were selling [a new keycap set](https://shop.8bitdo.com/products/8bitdo-retro-keycaps) that matched [my keyboard I got from them](https://rknight.me/blog/using-the-8bitdo-keyboard-on-macos/) I ordered immediately. I didn't need new keycaps for it but I _really_ wanted to get rid of that pesky windows key. 
 
 They arrived this morning in nice little trays:
 
