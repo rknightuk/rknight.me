@@ -11,6 +11,11 @@ module.exports = function() {
             desc: 'Unlimited computer backup',
         },
         {
+            name: 'Setapp',
+            link: 'https://go.setapp.com/invite/0jsvfx75',
+            desc: 'Subscription service for Mac and iOS apps',
+        },
+        {
             name: 'City Fibre',
             link: 'https://refer.cityfibre.com/robbk-13',
             desc: 'Fibre broadband - Get £25',
