@@ -1,7 +1,7 @@
 ---
 title: "Mark One Enigma Edition Pen Review"
 permalink: /blog/mark-one-enigma-edition-pen-review/index.html
-date: 2024-10-24T07:50:39.717Z
+date: 2024-10-24T12:31:03.000Z
 excerpt: "A \"review\" of the Mark One Enigma Edition pen I won in September"
 layout: post
 ---
