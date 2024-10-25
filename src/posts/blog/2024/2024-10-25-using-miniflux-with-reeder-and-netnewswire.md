@@ -20,3 +20,6 @@ Once that's set, in Reeder choose "Reader" in the add account screen, set the do
 ![Reeder settings for Miniflux](https://cdn.rknight.me/site/reeder-reader-settings.png)
 
 To use Miniflux in NetNewsWire follow step one then choose FreshRSS in the add account screen. Make sure to _not_ have a trailing slash after your domain in NetNewsWire otherwise it will error.
+
+> [!NOTE] Update
+> As [Trevor noted](https://mastodon.social/@manternach/113368039462474185) you must have HTTPS enabled on FreshRSS for this to work.
