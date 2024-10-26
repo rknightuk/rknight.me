@@ -67,7 +67,7 @@ module.exports = {
 
         const contentWithAllText = `${content}\n\n${allText}\n\n📌 ${permalink}`
         const firstQuote = $('blockquote').first().text().trim() ? `"${$('blockquote').first().text().trim()}"` : null
-        const firstSentence = $('p').first().text().trim() ? `"${$('p').first().text().trim()}"` : null
+        const firstSentence = $('p').first().text().trim() ? `${$('p').first().text().trim()}` : null
         const contentWithFirstQuote = `${content}\n\n${firstQuote}\n\n📌 ${permalink}`
         const contentWithFirstSentence = `${content}\n\n${firstSentence}\n\n📌 ${permalink}`
 
