@@ -23,6 +23,10 @@ module.exports = {
             allText = allText.replace($(element).text().trim(), `"${$(element).text().trim()}"`)
         })
 
+        if (allText === '""') {
+            allText = null
+        }
+
         if (post.layout === 'almanac')
         {
             let title = [
@@ -35,7 +39,7 @@ module.exports = {
 
             content = `${title} ${permalink}`
 
-            const contentWithReview = `${content}\n\n${allText}`
+            const contentWithReview = allText ? `${content}\n\n${allText}` : content
             if (mastodonCount.getMastodonLength(contentWithReview).length <= 500)
             {
                 content = contentWithReview
@@ -65,7 +69,7 @@ module.exports = {
 
         content = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
 
-        const contentWithAllText = `${content}\n\n${allText}\n\n📌 ${permalink}`
+        const contentWithAllText = allText ? `${content}\n\n${allText}\n\n📌 ${permalink}` : `${content}\n\n📌 ${permalink}`
         const firstQuote = $('blockquote').first().text().trim() ? `"${$('blockquote').first().text().trim()}"` : null
         const firstSentence = $('p').first().text().trim() ? `${$('p').first().text().trim()}` : null
         const contentWithFirstQuote = `${content}\n\n${firstQuote}\n\n📌 ${permalink}`
