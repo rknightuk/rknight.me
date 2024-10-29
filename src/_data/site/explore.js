@@ -130,6 +130,11 @@ module.exports = function() {
 				link: '/contact',
 				description: 'How to contact me',
 			},
+			{
+				title: 'verify',
+				link: '/verify',
+				description: 'Verify my identities',
+			},
 		],
 		'writing': [
 			{
