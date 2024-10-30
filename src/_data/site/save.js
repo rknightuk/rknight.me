@@ -13,12 +13,12 @@ module.exports = function() {
         {
             name: 'Setapp',
             link: 'https://go.setapp.com/invite/0jsvfx75',
-            desc: 'Subscription service for Mac and iOS apps',
+            desc: 'One month free',
         },
         {
-            name: 'City Fibre',
-            link: 'https://refer.cityfibre.com/robbk-13',
-            desc: 'Fibre broadband - Get £25',
+            name: 'Godspeed',
+            link: 'https://godspeedapp.com/a/RKNIGHT25',
+            desc: 'Get 25% off your first 12 months',
         },
         { 
             name: 'Hover',
@@ -31,19 +31,24 @@ module.exports = function() {
             desc: 'Privacy-focused web analytics. $10 credit',
         },
         { 
-            name: 'Ooni',
-            link: 'http://rwrd.io/4orgua6?c',
-            desc: 'I love my Ooni pizza oven. 10% off',
-        },
-        { 
             name: 'Bunny CDN',
             link: 'https://bunny.net?ref=b2i4y24apu',
-            desc: 'Fast, cheap CDN. $5 credit',
+            desc: 'Fast, cheap CDN. $20 credit',
         },
         {
             name: 'Hetzner',
             link: 'https://hetzner.cloud/?ref=Lt9D9KzKP6UQ',
-            desc: 'Hosting. $20 credit',
-        }
+            desc: 'Hosting. $5 credit',
+        },
+        { 
+            name: 'Ooni',
+            link: 'http://rwrd.io/4orgua6?c',
+            desc: 'I love my Ooni pizza oven. 10% off',
+        },
+        {
+            name: 'City Fibre',
+            link: 'https://refer.cityfibre.com/robbk-13',
+            desc: 'Fibre broadband - Get £25',
+        },
     ]
 }

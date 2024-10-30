@@ -9,11 +9,11 @@ tags:
     - MacOS
 ---
 
-I've had my eye on [Setapp](https://go.setapp.com/invite/0jsvfx75) since it launched in 2017 but it's never been the right time for me to jump in...until this week. I _really_ wanted to use [Godspeed](https://godspeedapp.com/) which is on Setapp (as well as having a standalone subscription) so I did some calculations to see if it was worth it.
+I've had my eye on [Setapp](https://go.setapp.com/invite/0jsvfx75) since it launched in 2017 but it's never been the right time for me to jump in...until this week. I _really_ wanted to use [Godspeed](https://godspeedapp.com/a/RKNIGHT25) which is on Setapp (as well as having a standalone subscription) so I did some calculations to see if it was worth it.
 
 I started with things I knew I would definitely use:
 
-- [Godspeed](https://godspeedapp.com/pricing) - $48 a year
+- [Godspeed](https://godspeedapp.com/a/RKNIGHT25) - $48 a year
 - [Dropshare](https://dropshare.app) - $39 one-off for the life of version 5. For the sake of this, I'm assuming a new version every couple of years so $20 a year
 - [Cleanshot X](https://cleanshot.com) - $29 for a year of updates
 - [TablePlus](https://tableplus.com) - $89 for a year of updates
