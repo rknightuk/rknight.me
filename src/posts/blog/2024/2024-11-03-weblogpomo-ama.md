@@ -59,7 +59,7 @@ via [Keenan](https://social.lol/@keenan/113405225890832855)
 
 **_What's your worst and fav childhood memories?_**
 
-I've say on this question since it was asked and I have...nothing (except the Beetlejuice one above). I don't think I have any memories before about 10 years old. Not that my childhood was bad but I can't think of anything that stands out in either direction. Sorry Alexandra, what a rubbish answer.
+I've sat on this question since it was asked and I have...nothing (except the Beetlejuice one above). I don't think I have any memories before about 10 years old. Not that my childhood was bad but I can't think of anything that stands out in either direction. Sorry Alexandra, what a rubbish answer.
 
 via [Alexandra](https://social.lol/@alexandra/113403973751963152)
 
