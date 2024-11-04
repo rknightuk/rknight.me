@@ -52,7 +52,6 @@ function makeYearStats(currentYear, yearPostCount, yearWordCount, yearCodeBlockC
 }
 
 const makePath = (type) => {
-    const year = new Date().getFullYear()
     return `src/posts/${type}/**/*.md`
 }
 
@@ -234,6 +233,10 @@ module.exports = {
     },
     quotes: (collectionApi) => {
         return collectionApi.getFilteredByGlob("src/pages/intersect/entries/quotes/**/*.md").reverse()
+    },
+    recipes: (collectionApi) => {
+        return collectionApi.getFilteredByGlob("src/pages/recipes/**/*.cook")
+            .sort((a,b) => (a.data.title > b.data.title) ? 1 : ((b.data.title > a.data.title) ? -1 : 0))
     },
     postStats: (collectionApi) => {
         const oneDayMilliseconds = 1000 * 60 * 60 * 24

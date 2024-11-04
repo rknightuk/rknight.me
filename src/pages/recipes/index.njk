@@ -1,0 +1,14 @@
+---
+title: Recipes
+layout: base
+permalink: 'recipes/index.html'
+eleventyNavigation:
+  key: Recipes
+  parent: Home
+---
+
+<ul>
+    {%- for recipe in collections.recipes %}
+        <li><a href="{{ recipe.data.permalink | stripIndex }}">{{ recipe.data.title }}</a></li>
+    {% endfor %}
+</ul>

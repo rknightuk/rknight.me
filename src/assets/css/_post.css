@@ -47,12 +47,12 @@
     border-left: 2px solid var(--primary);
     background-color: var(--bg-darker);
     padding: 15px 0;
+    font-size: 0.8em;
 }
 
 .post-meta div {
     display: flex;
     align-items: center;
-    font-size: 0.8em;
     font-family: var(--cr);
     flex-wrap: wrap;
     justify-content: center;

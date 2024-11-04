@@ -211,8 +211,17 @@ fieldset {
     margin: 10px 0;
 }
 
-.details:hover {
+.details:hover,
+details:hover {
     cursor: pointer;
+}
+
+details pre {
+    background-color: var(--code-black);
+    white-space: pre-wrap;
+    word-break: break-all;
+    padding: 0 10px;
+    margin: 5px;
 }
 
 .details summary {

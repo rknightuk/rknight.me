@@ -6,8 +6,40 @@ const dateFilters = require('./config/filters/date.js')
 const indiewebFilters = require('./config/filters/indieweb.js')
 
 const plugins = require('./config/plugins.js')
+const fs = require('fs')
+
+const { Recipe, Parser, getImageURL } = require('@cooklang/cooklang-ts')
 
 module.exports = function(eleventyConfig) {
+
+    eleventyConfig.addTemplateFormats("cook")
+
+    eleventyConfig.addExtension('cook', {
+        getData: async function(inputPath) {
+            const content = fs.readFileSync(inputPath, 'utf-8').split('---')[2]
+            const recipe = new Recipe(content)
+            return {
+                ingredients: recipe.ingredients,
+                metadata: recipe.metadata,
+                steps: recipe.steps.map(step => {
+                    return step.map(s => {
+                        if (s.type === 'text') {
+                            return s.value
+                        } else if (s.type == 'ingredient') {
+                            return `<span class="cl-ingredient">${s.name.toLowerCase()}</span>`
+                        } else if (s.type == 'timer') {
+                            return `<span class="cl-timer">${s.quantity} ${s.units}</span>`
+                        }
+                    }).join('')
+                }),
+            }
+		},
+		compile: async (inputContent) => {
+			return async () => {
+				return inputContent
+			};
+		},
+	})
 
     const markdownIt = require("markdown-it")
     const markdownItFootnote = require("markdown-it-footnote")

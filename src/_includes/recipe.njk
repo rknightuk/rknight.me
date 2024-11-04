@@ -1,0 +1,53 @@
+---
+layout: base
+---
+
+<style>
+    .cl-ingredient,
+    .cl-timer {
+        font-weight: bold;
+    }
+</style>
+{# <pre>
+{{ metadata | dump | safe }}
+</pre> #}
+
+<article class="h-recipe">
+
+{% if metadata.note %}
+    <p><em>{{ metadata.note }}</em></p>
+{% endif %}
+
+{% if metadata.servings %}
+    <p><em>{{ metadata.servings }} Servings</em></p>
+{% endif %}
+
+<ul>
+    {%- for ingredient in ingredients -%}
+        <li><span class="p-ingredient">{{ ingredient.name }}</span> {% if ingredient.quantity != 'some' %}({{ ingredient.quantity }}{{ ingredient.units }}){% endif %}</li>
+    {%- endfor -%}
+</ul>
+
+<div class="e-instructions">
+    {%- for step in steps -%}
+        <p>{{ step | safe }}</p>
+    {%- endfor -%}
+</div>
+
+{% if metadata.source %}
+    {% if "http" in metadata.source %}
+        <p><a href="{{ metadata.source }}">Source</a></p>
+    {% else %}
+        <p>Source: {{ metadata.source }}</p>
+    {% endif %}
+{% endif %}
+
+<details>
+    <summary><code>{{ page.fileSlug }}.cook</code></summary>
+    <pre style="text-wrap: wrap">
+    {{ content | safe }}
+    </pre>
+    <a href="https://github.com/rknightuk/rknight.me/tree/master/src/pages/recipes/{{ page.fileSlug }}.cook">View on GitHub</a>
+</details>
+
+</article>
