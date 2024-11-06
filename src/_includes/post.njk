@@ -44,6 +44,10 @@ layout: base
 
 	{{ content | safe }}
 
+    {% if recipe %}
+        {% include 'recipe.njk' %}
+    {% endif %}
+
     {% include 'almanac_previous.njk' %}
 </span>
 

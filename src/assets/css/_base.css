@@ -262,9 +262,21 @@ th {
     border: 1px solid var(--secondary);
 }
 
+.recipe .alert {
+    font-size: 0.9em;
+}
+
+.alert h1 {
+    font-family: var(--cr);
+}
+
 .alert p:first-child,
 .alert p:last-child {
     margin: 0;
+}
+
+.alert p {
+    margin: 5px 0;
 }
 
 .alert .alert-icon {
@@ -302,4 +314,8 @@ th {
 
 .youtube-embed {
     /* center this? */
+}
+
+.alert .alert-recipe {
+    color: var(--primary);
 }
