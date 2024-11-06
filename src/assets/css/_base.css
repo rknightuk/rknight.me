@@ -262,6 +262,14 @@ th {
     border: 1px solid var(--secondary);
 }
 
+.recipe .alert {
+    font-size: 0.9em;
+}
+
+.alert h1 {
+    font-family: var(--cr);
+}
+
 .alert p:first-child,
 .alert p:last-child {
     margin: 0;

@@ -7,6 +7,12 @@ layout: post
 tags:
   - Recipes
   - Food
+recipe: >
+  >> name: Pizza Sauce
+
+  >> notes: I want my sauce to be as easy as possible to make and after some messing around with different recipes, this is what I've come up with for a tasty but easy-to-make sauce. This is usually enough for 6-10 pizzas.
+
+  Put @Chopped Tomatoes or Passata{400%g}, @Tomato Puree{100%g}, @Garlic Powder{5%g},  @Salt{5%g},  and @Pepper{5%g} in a container and use a blender to get it all mixed up nicely.
 ---
 
 In November 2021 I bought an [Ooni Frya 12](https://uk.ooni.com/products/ooni-fyra) (thanks Black Friday discounts!) and since then I've used it somewhere between 10 and 15 times. Each time I've managed to make _something_ about the pizza better; the sauce, the dough, the topping ratio. Herein lies my notes about making better pizzas.
@@ -31,20 +37,6 @@ I mix everything by hand (if someone wants to buy me a stand mixer I won't say n
 
 ![Dough in a pot](https://cdn.rknight.me/site/pizza-pot.jpg)
 
-### Sauce
-
-I want my sauce to be as easy as possible to make and after some messing around with different recipes, this is what I've come up with for a tasty but easy-to-make sauce:
-
-
-- 400g chopped tomatoes or passata
-- 100g tomato puree
-- 5g garlic powder
-- 5g salt
-- 5g pepper
-- 5g chilli flakes (optional)
-
-This is usually enough for 6-10 pizzas.
-
 ### Toppings
 
 My partner is a bit fussier than I am so we've mostly stuck to chicken and ham for toppings but if I have friends round I'll grab some pepperoni or similar from the supermarket. We've used cheap ham if we have it in the fridge and even that tastes great when combined with the sauce and cheese.
@@ -58,3 +50,5 @@ Finally some other ingredients I've been enjoying:
 - A liberal sprinkle of parmesan (or whatever hard italian cheese I can get my hands on).
 
 ![My latest pizza](https://cdn.rknight.me/site/pizza-latest.jpg)
+
+### Sauce

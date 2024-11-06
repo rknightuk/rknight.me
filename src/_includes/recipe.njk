@@ -7,19 +7,20 @@
     }
 </style>
 
-<article class="h-recipe">
+<article class="h-recipe recipe">
 
     {% if recipeData.image %}
         <img src="{{ recipeData.image }}" class="u-photo" style="margin-bottom: 20px;">
     {% endif %}
     
-    {% if recipeData.notes.length > 1 or recipeData.metadata.length > 1 %}
+    {# {% if recipeData.notes.length > 1 or recipeData.metadata.length > 1 %} #}
         <aside class="alert">
             <div class="alert-icon">
                 <svg class="icon alert-recipe">
-                    <use xlink:href="#notebook"></use>
+                    <use xlink:href="#kitchen"></use>
                 </svg>
             </div>
+            <h1>{{ recipeData.name }}</h1>
             {%- for note in recipeData.notes -%}
                 {{ note | safe }}
             {%- endfor -%}
@@ -31,7 +32,7 @@
                 {% endif %}
             {%- endfor -%}
         </aside>
-    {% endif %}
+    {# {% endif %} #}
 
     <ul>
         {%- for ingredient in recipeData.ingredients -%}
