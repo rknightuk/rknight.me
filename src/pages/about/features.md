@@ -63,7 +63,7 @@ note: This is something worth noting about the post, like I was wrong
 <aside class="alert">
     <div class="alert-icon">
         <svg class="icon alert-recipe">
-            <use xlink:href="#notebook"></use>
+            <use xlink:href="#kitchen"></use>
         </svg>
     </div>
     <p>Notes about a recipe</p>
