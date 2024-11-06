@@ -267,6 +267,10 @@ th {
     margin: 0;
 }
 
+.alert p {
+    margin: 5px 0;
+}
+
 .alert .alert-icon {
     position: absolute;
     top: -15px;
@@ -302,4 +306,8 @@ th {
 
 .youtube-embed {
     /* center this? */
+}
+
+.alert .alert-recipe {
+    color: var(--primary);
 }

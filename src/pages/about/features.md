@@ -58,6 +58,17 @@ note: This is something worth noting about the post, like I was wrong
     <p>This post is over X years old and may contain outdated opinions or incorrect information. The takes are still hot as hell though ❤️‍🔥</p>
 </aside>
 
+**Recipes**
+
+<aside class="alert">
+    <div class="alert-icon">
+        <svg class="icon alert-recipe">
+            <use xlink:href="#notebook"></use>
+        </svg>
+    </div>
+    <p>Notes about a recipe</p>
+</aside>
+
 **Code Blocks**
 
 ```js
