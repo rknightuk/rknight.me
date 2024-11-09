@@ -1,0 +1,19 @@
+---
+pagination:
+  data: collections.almanacEvents
+  size: 50
+  alias: event
+permalink: 'almanac/events/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
+layout: base
+wide: true
+eleventyNavigation:
+  key: Events
+  title: 🤘 Events
+  parent: Almanac
+eleventyComputed:
+    title: Events
+    subtitle: "[Almanac](/almanac): Live performances and concerts I've attended"
+    plural: Events
+---
+
+{% include 'almanac_grid.njk' %}

@@ -108,7 +108,7 @@
                             {% if eleventyNavigation %}
                                 {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
                             {% endif %}
-                            {% if layout === 'almanac' %}
+                            {% if title === 'Almanac' %}
                                 {%- set navKey -%}Almanac{%- endset -%}
                             {% endif %}
                             {% if navKey %}
@@ -141,7 +141,7 @@
                                 <use xlink:href="#calendar"></use>
                             </svg>
                             <time class="dt-published" datetime="{{ page.date | toDateTime }}">{{ page.date | postDate }}</time>
-                            {% if cinema %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
+                            {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or type === "live" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
                         </div>
                         {% if tmdbid %}
                             <div>
@@ -156,6 +156,11 @@
                         {% if isbn13 %}
                             <div>
                                 <a href="https://openlibrary.org/isbn/{{ isbn13 }}" target="_blank">{{ title }} on OpenLibrary</a>
+                            </div>
+                        {% endif %}
+                        {% if support %}
+                            <div>
+                                Support:&nbsp;{%- for s in support -%}{{ s }}{% if loop.index < support.length %}, {% endif %}{%- endfor -%}
                             </div>
                         {% endif %}
                         <div>

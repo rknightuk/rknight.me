@@ -42,6 +42,14 @@ layout: base
         </div>
     {% endif %}
 
+    {% if poster %}
+        <div class="almanac-poster-wrap">
+            <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
+                <img class="u-photo" src="{{ poster }}" alt="{{ title }}">
+            </hyper-card>   
+        </div>
+    {% endif %}
+
 	{{ content | safe }}
 
     {% if recipe %}

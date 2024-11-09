@@ -8,5 +8,4 @@ rating: 2
 tmdbid: 593910
 ---
 
-Half of this felt like a decent movie, the other half felt like a
-school play.
+Half of this felt like a decent movie, the other half felt like a school play.

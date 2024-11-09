@@ -7,9 +7,10 @@ module.exports = {
             movie: '🍿',
             tv: '📺',
             game: '🎮',
+            event: '🤘'
         }
     
-        return emoji[type]
+        return emoji[type] ?? '✨'
     },
     getAlmanacVerb: (type) => {
         const verb = {
@@ -17,6 +18,7 @@ module.exports = {
             movie: 'Watched',
             tv: 'Watched',
             game: 'Played',
+            event: 'Attended',
         }
     
         return verb[type]
