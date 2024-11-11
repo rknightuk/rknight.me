@@ -5,6 +5,10 @@
     .cl-timer {
         font-weight: bold;
     }
+
+    .p-quantity {
+        font-family: var(--monospace);
+    }
 </style>
 
 <article class="h-recipe recipe">
@@ -36,7 +40,7 @@
 
     <ul>
         {%- for ingredient in recipeData.ingredients -%}
-            <li>{% if ingredient.quantity != 'some' %}{{ ingredient.quantity }}{{ ingredient.units }} {% endif %}<span class="p-ingredient">{{ ingredient.name }}</span></li>
+            <li><span class="p-quantity">{% if ingredient.quantity != 'some' %}{{ ingredient.quantity }}{{ ingredient.units }} </span>{% endif %}<span class="p-ingredient">{{ ingredient.name }}</span></li>
         {%- endfor -%}
         {%- for cookware in recipeData.cookware -%}
             <li>{{ cookware.name }}</span></li>
