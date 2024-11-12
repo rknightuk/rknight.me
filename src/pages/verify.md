@@ -16,7 +16,7 @@ If you see an account that looks like it might be me but isn't listed here, plea
     - [@robb@social.lol](https://social.lol/@robb)
     - [@rknightuk@pixelfed.social](https://pixelfed.social/rknightuk)
     - [@echofeedamplify@beep.town](https://beep.town/@echofeedamplify)
-    - [@greatscoot@beep.town](https://beep.town/@greatscott)
+    - [@greatscott@beep.town](https://beep.town/@greatscott)
     - All accounts on [bugle.lol](https://bugle.lol) are run by me
 - Bluesky: [@rknight.me](https://bsky.app/profile/rknight.me) - blog posts and links auto-posted with [EchoFeed](https://echofeed.app)
 - Discord: `rknightuk`
