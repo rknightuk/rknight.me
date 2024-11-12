@@ -2,10 +2,12 @@ const utils = require('./utils')
 const cheerio = require('cheerio')
 const { decode } = require('html-entities')
 const mastodonCount = require('../mastodonCounter.js')
+const { tootText } = require('../mastodonFormatter.js')
 const { DateTime } = require('luxon')
 
 module.exports = {
     makeTootText: (post) => {
+        return tootText(post)
         let content = ''
         const permalink = `https://rknight.me${post.permalink}`
 

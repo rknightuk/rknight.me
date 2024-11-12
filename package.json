@@ -52,7 +52,8 @@
     "bookmarklets": "npm-run-all --parallel bookmarklets:*; node scripts/bookmarklets.js",
     "clear": "rm -rf .cache",
     "pagefind": "npx pagefind --source public --glob \"**/*.html\"",
-    "cli": "node cli/index.js run"
+    "cli": "node cli/index.js run",
+    "test": "node --test"
   },
   "author": "Robb Knight",
   "license": "ISC"
