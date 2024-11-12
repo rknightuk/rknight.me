@@ -25,6 +25,7 @@
     "sanitize-html": "^2.8.1",
     "sharp": "^0.33.2",
     "slugify": "^1.6.6",
+    "turndown": "^7.2.0",
     "url-regex": "^5.0.0",
     "writing-stats": "^1.0.6"
   },
