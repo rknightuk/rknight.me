@@ -7,6 +7,10 @@ layout: post
 tags:
     - OpenWeb
     - Recipes
+discuss:
+- type: HackerNews
+  link: https://news.ycombinator.com/item?id=42066358
+  date: 2024-11-13T12:07:00
 ---
 
 I've had a note in my todo list for quite a while to get my (admittedly small) collection of recipes on my website. The note mentioned to look into [Cooklang](https://cooklang.org) which is a "_recipe markup language_" but I also wanted to see if anyone knew of any other standards I should be looking at before I went ahead. I got a few responses:
