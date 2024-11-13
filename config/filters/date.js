@@ -30,6 +30,11 @@ module.exports = {
         return DateTime.fromISO(date)
             .toFormat('yyyy-MM-dd HH:mm:ss')
     },
+    isoDateOnlyForDiscussion: (date) => {
+        return DateTime.fromISO(date.toISOString())
+            .setZone('Europe/London')
+            .toFormat('yyyy-MM-dd')
+    },
     isoDateOnly: (date) => {
         return DateTime.fromISO(date)
             .setZone('Europe/London')
