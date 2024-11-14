@@ -8,6 +8,9 @@ tags:
     - OpenWeb
     - Recipes
 discuss:
+- type: Lobsters
+  link: https://lobste.rs/s/m9s9hw/thinking_about_recipe_formats_more_than
+  date: 2024-11-05T08:43:00
 - type: HackerNews
   link: https://news.ycombinator.com/item?id=42066358
   date: 2024-11-13T12:07:00

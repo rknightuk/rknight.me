@@ -11,6 +11,9 @@ discuss:
 - type: HackerNews
   link: https://news.ycombinator.com/item?id=40690898
   date: 2024-06-15T20:00:00
+- type: Reddit
+  link: https://www.reddit.com/r/perplexity_ai/comments/1dig2ib/perplexity_ai_is_lying_about_their_user_agent/
+  date: 2024-06-18T03:36:00
 - type: HackerNews
   link: https://news.ycombinator.com/item?id=40728732
   date: 2024-06-19T20:00:00

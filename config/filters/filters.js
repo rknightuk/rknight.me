@@ -69,8 +69,20 @@ module.exports = {
     popularPosts: (pageviews, limit, url) => {
         return pageviews.filter(pv => pv.url !== url).slice(0, limit)
     },
-    oValues: (data) => {
-        return Object.values(data)
+    sortDiscussion: (data) => {
+        return Object.values(Object.keys(data).sort().reduce(
+            (obj, key) => { 
+                obj[key] = data[key]; 
+                return obj;
+            }, 
+            {}
+        ))
+    },
+    getDiscussionIcon: (url) => {
+        if (url.includes('news.ycombinator.com')) return 'hackernews'
+        if (url.includes('lobste.rs')) return 'lobsters'
+        if (url.includes('reddit.com')) return 'reddit'
+        return 'external'
     },
     sortByName: (arr) => {
         return arr.slice().sort((a, b) => {

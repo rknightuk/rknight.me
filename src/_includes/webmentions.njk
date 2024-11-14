@@ -2,11 +2,12 @@
 
 {% if discussion[webmentionUrl] or discuss %}
     {% if discussion[webmentionUrl] %}
-        {%- set discussionData = discussion[webmentionUrl] | oValues -%}
+        {%- set discussionData = discussion[webmentionUrl] | sortDiscussion -%}
         {%- for m in discussionData %}
+            {% if loop.index === 1 %}
             <div class="toot">
                 <div class="toot__header">
-                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">{{ m.created_at | isoDateOnly }}</a>
+                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">Discuss on the 'don</a>%nbsp;{{ m.created_at | isoDateOnly }}
                 </div>
                 <div class="toot__content">{{ m.content | safe }}</div>
                 <div class="toot__data">
@@ -15,13 +16,20 @@
                     <div><a target="_blank" href="{{ m.url }}/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> {{ m.favourites_count }}</a></div>
                 </div>
             </div>
+            {% else %}
+                <div class="toot">
+                    <div class="toot__linkonly">
+                        <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a href="{{ m.url }}" target="_blank" rel="noopener">Discuss on the 'don</a>&nbsp;{{ m.created_at | isoDateOnly }}
+                    </div>
+                </div>
+            {% endif %}
         {% endfor %}
     {% endif %}
     {% if discuss %}
         {%- for mention in discuss %}
             <div class="toot">
                 <div class="toot__linkonly">
-                    <svg class="icon"><use xlink:href="#external"></use></svg> <a href="{{ mention.link }}" target="_blank" rel="noopener">Discuss on {{ mention.type }}</a>&nbsp;{{ mention.date | isoDateOnlyForDiscussion }}
+                    <svg class="icon"><use xlink:href="#{{ mention.link | getDiscussionIcon }}"></use></svg> <a href="{{ mention.link }}" target="_blank" rel="noopener">Discuss on {{ mention.type }}</a>&nbsp;{{ mention.date | isoDateOnlyForDiscussion }}
                 </div>
             </div>
         {% endfor%}
