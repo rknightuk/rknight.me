@@ -15,7 +15,7 @@ Unlike Alex, I don't choose a new name when it gets replaced - my iPhone is alwa
 - iPhone: [Starlord](https://en.wikipedia.org/wiki/Star-Lord)
 - Apple Watch: [Rocket](https://en.wikipedia.org/wiki/Rocket_Raccoon)
 - AirPods Pro: [Maximoff](https://uncannyxmen.net/family-tree/magneto-maximoff-family-tree). Because there's two of them? A clever one.
-- AirPods Max: [Magento](https://en.wikipedia.org/wiki/Magneto_(Marvel_Comics)) because metal
+- AirPods Max: [Magneto](https://en.wikipedia.org/wiki/Magneto_(Marvel_Comics)) because metal
 - My black Apple Magic keyboard: [Black Widow](https://en.wikipedia.org/wiki/Black_Widow_(Natasha_Romanova))
 
 My Beats Studio buds are the one exception to this naming rule because I thought of a name[^1] so good I couldn't _not_ use it: **Fantastic Beats and Where to Find Them**. My iPad is called **Robb's iPad** because I don't use it enough to name it.
