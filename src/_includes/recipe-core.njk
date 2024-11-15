@@ -1,0 +1,40 @@
+<article class="h-recipe recipe">
+
+    {% if recipeData.image %}
+        <img src="{{ recipeData.image }}" class="u-photo">
+    {% endif %}
+    
+    <aside class="alert">
+        <div class="alert-icon">
+            <svg class="icon alert-recipe">
+                <use xlink:href="#kitchen"></use>
+            </svg>
+        </div>
+        <h1>{{ recipeData.name }}</h1>
+        {%- for note in recipeData.notes -%}
+            {{ note | safe }}
+        {%- endfor -%}
+        {%- for meta in recipeData.metadata -%}
+            {% if meta.key === 'Source' and "http" in meta.value %}
+                <p><a href="{{ recipeData.metadata.source }}">Source</a></p>
+            {% else %}
+                <p>{{ meta.key }}: {{ meta.value | safe }}</p>
+            {% endif %}
+        {%- endfor -%}
+    </aside>
+
+    <ul>
+        {%- for ingredient in recipeData.ingredients -%}
+            <li><span class="p-quantity">{% if ingredient.quantity != 'some' %}{{ ingredient.quantity }}{{ ingredient.units }} </span>{% endif %}<span class="p-ingredient">{{ ingredient.name }}</span></li>
+        {%- endfor -%}
+        {%- for cookware in recipeData.cookware -%}
+            <li>{{ cookware.name }}</span></li>
+        {%- endfor -%}
+    </ul>
+
+    <div class="e-instructions">
+        {%- for step in recipeData.steps -%}
+            <p>{{ step | safe }}</p>
+        {%- endfor -%}
+    </div>
+</article>

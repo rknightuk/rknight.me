@@ -9,50 +9,13 @@
     .p-quantity {
         font-family: var(--monospace);
     }
+
+    .recipe .u-photo {
+        margin-bottom: 20px;
+    }
 </style>
 
-<article class="h-recipe recipe">
-
-    {% if recipeData.image %}
-        <img src="{{ recipeData.image }}" class="u-photo" style="margin-bottom: 20px;">
-    {% endif %}
-    
-    {# {% if recipeData.notes.length > 1 or recipeData.metadata.length > 1 %} #}
-        <aside class="alert">
-            <div class="alert-icon">
-                <svg class="icon alert-recipe">
-                    <use xlink:href="#kitchen"></use>
-                </svg>
-            </div>
-            <h1>{{ recipeData.name }}</h1>
-            {%- for note in recipeData.notes -%}
-                {{ note | safe }}
-            {%- endfor -%}
-            {%- for meta in recipeData.metadata -%}
-                {% if meta.key === 'Source' and "http" in meta.value %}
-                    <p><a href="{{ recipeData.metadata.source }}">Source</a></p>
-                {% else %}
-                    <p>{{ meta.key }}: {{ meta.value | safe }}</p>
-                {% endif %}
-            {%- endfor -%}
-        </aside>
-    {# {% endif %} #}
-
-    <ul>
-        {%- for ingredient in recipeData.ingredients -%}
-            <li><span class="p-quantity">{% if ingredient.quantity != 'some' %}{{ ingredient.quantity }}{{ ingredient.units }} </span>{% endif %}<span class="p-ingredient">{{ ingredient.name }}</span></li>
-        {%- endfor -%}
-        {%- for cookware in recipeData.cookware -%}
-            <li>{{ cookware.name }}</span></li>
-        {%- endfor -%}
-    </ul>
-
-    <div class="e-instructions">
-        {%- for step in recipeData.steps -%}
-            <p>{{ step | safe }}</p>
-        {%- endfor -%}
-    </div>
-</article>
+{% include 'recipe-core.njk' %}
 
 <details>
     <summary><code>{{ recipeData.name }}.cook</code></summary>

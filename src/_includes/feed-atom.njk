@@ -17,7 +17,7 @@
     <link href="{% if post.data.layout === 'link' %}{{ post.data.link }}{% else %}https://rknight.me{{ post.url }}{% endif %}"/>
     <updated>{{ post.date | rssDate }}</updated>
     <id>https://rknight.me{{ post | getRssId }}</id>
-    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) }}</content>
+    <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub)| recipeForFeed(post.data.recipe) }}</content>
     <summary>{% if post.data.excerpt %}{{ post.data.excerpt | safe }}{% elif post.data.layout === 'link' %}{{ post.data.title }} by {{ post.data.author.name }}{% else %}{{ post.data.title }}{% endif %}</summary>
     <author>
       <name>Robb Knight</name>
