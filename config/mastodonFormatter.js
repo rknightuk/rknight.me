@@ -28,11 +28,10 @@ const tootText = (post) => {
             return `"${content.trim()}"`
         }
     })
-    content = turndownService.turndown(decode(post.content))
 
-    if (post.layout === 'note') return formatNote(content, permalink)
-    if (post.layout === 'almanac') return formatAlmanac(post, content, permalink)
-    if (post.layout === 'link') return formatLink(post, content, permalink)
+    if (post.layout === 'note') return formatNote(post.content, permalink)
+    if (post.layout === 'almanac') return formatAlmanac(post, turndownService.turndown(decode(post.content)), permalink)
+    if (post.layout === 'link') return formatLink(post, turndownService.turndown(decode(post.content)), permalink)
 }
 
 const formatNote = (content, permalink) => {
