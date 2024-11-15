@@ -6,6 +6,7 @@ excerpt: "Day two of recipe week is candied jalapenos"
 layout: post
 tags:
     - Recipes
+    - RecipeWeek
 recipe: >
     >> name: Candied Jalapenos
 

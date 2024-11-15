@@ -7,6 +7,7 @@ layout: post
 tags:
     - OpenWeb
     - Recipes
+    - RecipeFormatSaga
 discuss:
 - type: Lobsters
   link: https://lobste.rs/s/m9s9hw/thinking_about_recipe_formats_more_than

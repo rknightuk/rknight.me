@@ -6,6 +6,7 @@ excerpt: "Day three of recipe week is this new-to-me recipe I tried last week"
 layout: post
 tags:
     - Recipes
+    - RecipeWeek
 recipe: >
     >> name: Cheesy Chicken and Bacon Pasta
 

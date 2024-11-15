@@ -6,6 +6,7 @@ excerpt: "This is barely a recipe but whatever, it's my site I can do what I wan
 layout: post
 tags:
     - Recipes
+    - RecipeWeek
 recipe: >
     >> name: Toad in the Hole
 

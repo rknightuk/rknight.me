@@ -6,6 +6,7 @@ excerpt: "A mango chicken curry recipe that Baby Knight loves"
 layout: post
 tags:
     - Recipes
+    - RecipeWeek
 recipe: >
     >> name: Mango Chicken Curry
 

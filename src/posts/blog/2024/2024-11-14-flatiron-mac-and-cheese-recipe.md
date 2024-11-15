@@ -6,6 +6,7 @@ excerpt: "A Mac and Cheese recipe from a New York restaurant that my friend got 
 layout: post
 tags:
     - Recipes
+    - RecipeWeek
 recipe: >
     >> name: Flatiron Mac and Cheese
 

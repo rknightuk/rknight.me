@@ -8,6 +8,7 @@ tags:
     - Development
     - OpenWeb
     - Recipes
+    - RecipeFormatSaga
 ---
 
 While working on my recipe handling for this site as outlined in [my previous post](https://rknight.me/blog/thinking-about-recipe-formats-more-than-anyone-should/) I realised that there are many recipe-related browser extensions available so I should be able to test my schema.org markup and my microformat class locally so I downloaded a handful of the most popular ones.
