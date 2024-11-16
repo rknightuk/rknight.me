@@ -28,21 +28,29 @@ const tootText = (post) => {
             return `"${content.trim()}"`
         }
     })
+    turndownService.addRule('remove', {
+        filter: ['img'],
+        replacement: function (content, node) {
+          return ''
+        }
+    })
 
-    if (post.layout === 'note') return formatNote(post.content, permalink)
-    if (post.layout === 'almanac') return formatAlmanac(post, turndownService.turndown(decode(post.content)), permalink)
-    if (post.layout === 'link') return formatLink(post, turndownService.turndown(decode(post.content)), permalink)
+    const turnedDown = turndownService.turndown(decode(post.content))
+
+    if (post.layout === 'note') return formatNote(turnedDown, permalink)
+    if (post.layout === 'almanac') return formatAlmanac(post, turnedDown, permalink)
+    if (post.layout === 'link') return formatLink(post, turnedDown, permalink)
 }
 
 const formatNote = (content, permalink) => {
-    const combined = `${content} ${permalink}`
+    const combined = `${content}\n\n📌 ${permalink}`
 
     if (mastodonCount.getMastodonLength(content).length <= 476)
     {
         return combined
     }
 
-    return `${content.slice(0, 475)}… ${permalink}`
+    return `${content.slice(0, 473)}… 📌 ${permalink}`
 }
 
 const formatAlmanac = (post, content, permalink) => {

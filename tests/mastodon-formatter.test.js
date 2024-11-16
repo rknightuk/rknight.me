@@ -22,7 +22,7 @@ describe('tootText', () => {
                 ...fakePost,
                 layout: 'note',
             }),
-            'This is the content\n\nthis is some more content https://rknight.me/blog/example'
+            'This is the content\n\nthis is some more content\n\n📌 https://rknight.me/blog/example'
         );
     })
 
@@ -33,7 +33,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>Esse aliqua aliquip incididunt deserunt exercitation nostrud incididunt dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehenderit adipisicing exercitation irure nisi veniam elit. Id elit culpa minim et Lorem officia dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehenderit adipisicing exercitation irure nisi veniam elit. Id elit culpa minim et Lorem officia.</p>',
             }),
-            'Esse aliqua aliquip incididunt deserunt exercitation nostrud incididunt dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehenderi… https://rknight.me/blog/example'
+            'Esse aliqua aliquip incididunt deserunt exercitation nostrud incididunt dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehende… 📌 https://rknight.me/blog/example'
         );
     })
 
@@ -44,7 +44,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>This is the content</p>\n</p>this is <a href="https://rknight.me">a link</a></p>',
             }),
-            'This is the content\n\nthis is a link (https://rknight.me) https://rknight.me/blog/example'
+            'This is the content\n\nthis is a link (https://rknight.me)\n\n📌 https://rknight.me/blog/example'
         );
     })
 
@@ -55,7 +55,18 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p>',
             }),
-            '"This is a quote from some person"\n\nSome commentary from me https://rknight.me/blog/example'
+            '"This is a quote from some person"\n\nSome commentary from me\n\n📌 https://rknight.me/blog/example'
+        );
+    })
+
+    it('should not include images', () => {
+        assert.strictEqual(
+            tootText({
+                ...fakePost,
+                layout: 'note',
+                content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p><img src="https://rknight.me/imaxxge.jpg">',
+            }),
+            '"This is a quote from some person"\n\nSome commentary from me\n\n📌 https://rknight.me/blog/example'
         );
     })
 
