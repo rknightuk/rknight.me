@@ -43,14 +43,14 @@ const tootText = (post) => {
 }
 
 const formatNote = (content, permalink) => {
-    const combined = `${content}\n\n📌 ${permalink}`
+    const combined = `${content}\n\n${permalink}`
 
     if (mastodonCount.getMastodonLength(content).length <= 476)
     {
         return combined
     }
 
-    return `${content.slice(0, 473)}… 📌 ${permalink}`
+    return `${content.slice(0, 475)}… ${permalink}`
 }
 
 const formatAlmanac = (post, content, permalink) => {
