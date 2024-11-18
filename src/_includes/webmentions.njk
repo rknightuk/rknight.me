@@ -7,7 +7,7 @@
             {% if loop.index === 1 %}
             <div class="toot">
                 <div class="toot__header">
-                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">Discuss on the 'don</a>%nbsp;{{ m.created_at | isoDateOnly }}
+                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}">Discuss on the 'don</a>&nbsp;{{ m.created_at | isoDateOnly }}
                 </div>
                 <div class="toot__content">{{ m.content | safe }}</div>
                 <div class="toot__data">
