@@ -12,6 +12,15 @@ location ^.xml {
     add_header "Content-Type" "application/xml; charset=utf-8";
 }
 
+location /notes {
+    if ($http_user_agent ~* "Mastodon") {
+        add_header Content-Type text/html;
+        return 200 '<html><body></body></html>';
+    }
+
+    try_files $uri $uri/ /404.html?$query_string;
+}
+
 # Redirect old blog posts to /blog
 rewrite ^/stjude https://tiltify.com/@rknightuk/stjude2024 redirect;
 rewrite ^/sitemap /explore permanent;
