@@ -13,7 +13,7 @@ location ^.xml {
 }
 
 location /notes {
-    if ($http_user_agent ~* "Mastodon") {
+    if ($http_user_agent ~* "(Mastodon|Pleroma|Akkoma|Misskey|Firefish|gotosocial|Bridgy|Friendica)") {
         add_header Content-Type text/html;
         return 200 '<html><body></body></html>';
     }

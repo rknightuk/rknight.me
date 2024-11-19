@@ -71,5 +71,18 @@ With this all deployed to my server[^2], a syndicated note like [this one](https
 
 ![A toot with a link to my site with no image or card](https://cdn.rknight.me/site/posse-note-with-no-image.jpg)
 
+>  [!NOTE] Update
+> Adam [sent me his code](https://social.lol/@adam/113510660868389993) to do it for a bunch of different fediverse servers
+
+```diff
+location /notes {
+-	if ($http_user_agent ~* "Mastodon") {
++	if ($http_user_agent ~* "(Mastodon|Pleroma|Akkoma|Misskey|Firefish|gotosocial|Bridgy|Friendica)") {
+		add_header Content-Type text/html;
+		return 200 '<html><body></body></html>';
+	}
+}
+```
+
 [^1]: [Adam](https://neatnik.net/) would argue they're always superfluous
 [^2]: You can see how I'm keeping nginx changes in version control in [this post](https://rknight.me/blog/blocking-bots-with-nginx/)
