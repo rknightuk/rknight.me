@@ -43,7 +43,7 @@ const tootText = (post) => {
 }
 
 const formatNote = (content, permalink) => {
-    const combined = `${content}\n\n${permalink}`
+    const combined = `${content}\n\n📌 ${permalink}`
 
     if (mastodonCount.getMastodonLength(content).length <= 476)
     {

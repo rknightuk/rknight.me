@@ -22,7 +22,7 @@ describe('tootText', () => {
                 ...fakePost,
                 layout: 'note',
             }),
-            'This is the content\n\nthis is some more content\n\nhttps://rknight.me/blog/example'
+            'This is the content\n\nthis is some more content\n\n📌 https://rknight.me/blog/example'
         );
     })
 
@@ -44,7 +44,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>This is the content</p>\n</p>this is <a href="https://rknight.me">a link</a></p>',
             }),
-            'This is the content\n\nthis is a link (https://rknight.me)\n\nhttps://rknight.me/blog/example'
+            'This is the content\n\nthis is a link (https://rknight.me)\n\n📌 https://rknight.me/blog/example'
         );
     })
 
@@ -55,7 +55,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p>',
             }),
-            '"This is a quote from some person"\n\nSome commentary from me\n\nhttps://rknight.me/blog/example'
+            '"This is a quote from some person"\n\nSome commentary from me\n\n📌 https://rknight.me/blog/example'
         );
     })
 
@@ -66,7 +66,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p><img src="https://rknight.me/imaxxge.jpg">',
             }),
-            '"This is a quote from some person"\n\nSome commentary from me\n\nhttps://rknight.me/blog/example'
+            '"This is a quote from some person"\n\nSome commentary from me\n\n📌 https://rknight.me/blog/example'
         );
     })
 
