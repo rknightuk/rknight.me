@@ -77,7 +77,7 @@ With this all deployed to my server[^2], a syndicated note like [this one](https
 ```diff
 location /notes {
 -	if ($http_user_agent ~* "Mastodon") {
-+	if ($http_user_agent ~* "(Mastodon|Pleroma|Akkoma|Misskey|Firefish|gotosocial|Bridgy|Friendica)") {
++	if ($http_user_agent ~* (Mastodon|Pleroma|Akkoma|Misskey|Firefish|gotosocial|Bridgy|Friendica)) {
 		add_header Content-Type text/html;
 		return 200 '<html><body></body></html>';
 	}
