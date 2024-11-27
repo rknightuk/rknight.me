@@ -18,7 +18,12 @@ If you see an account that looks like it might be me but isn't listed here, plea
     - [@echofeedamplify@beep.town](https://beep.town/@echofeedamplify)
     - [@greatscott@beep.town](https://beep.town/@greatscott)
     - All accounts on [bugle.lol](https://bugle.lol) are run by me
-- Bluesky: [@rknight.me](https://bsky.app/profile/rknight.me) - blog posts and links auto-posted with [EchoFeed](https://echofeed.app)
+    - Accounts on [hub.7622.me](https://hub.7622.me):
+      - [@echofeed](https://hub.7622.me/@echofeed)
+      - [@wegotfamily](https://hub.7622.me/@wegotfamily)
+- Bluesky: 
+  - [@rknight.me](https://bsky.app/profile/rknight.me) - blog posts auto-posted with [EchoFeed](https://echofeed.app)
+  - [@echofeed.app](https://bsky.app/profile/echofeed.app)
 - Discord: `rknightuk`
 - PSN: [rknightuk](https://psnprofiles.com/rknightuk)
 - Signal: `rknightuk.01`
