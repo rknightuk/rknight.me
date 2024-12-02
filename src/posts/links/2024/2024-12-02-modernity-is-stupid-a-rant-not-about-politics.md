@@ -1,5 +1,5 @@
 ---
-title: Modernity Is Stupid: A Rant Not About Politics
+title: "Modernity Is Stupid: A Rant Not About Politics"
 permalink: /links/modernity-is-stupid-a-rant-not-about-politics/index.html
 date: 2024-12-02T09:59:00.000Z
 link: https://phirephoenix.com/blog/2024-11-05/modernity
