@@ -22,7 +22,7 @@ This is by far the easiest option. Don't care about your tweets. Let them wither
 
 ### Option 2: TwitVault
 
-[TwitVault/](https://terhechte.github.io/twitvault/) is a desktop App for Mac, Windows, and Linux that has the biggest feature set. Download it, login with your Twitter credentials, and let it do it's thing. This initial setup will pull everything is can from the Twitter API but that has limits: 3200 tweets and 800 mentions. Once that part of the setup is done (this can take a while), you can then pull in your full archive in the terminal.
+[TwitVault](https://terhechte.github.io/twitvault/) is a desktop App for Mac, Windows, and Linux that has the biggest feature set. Download it, login with your Twitter credentials, and let it do it's thing. This initial setup will pull everything is can from the Twitter API but that has limits: 3200 tweets and 800 mentions. Once that part of the setup is done (this can take a while), you can then pull in your full archive in the terminal.
 
 ![TwitVault screenshot](https://cdn.rknight.me/site/twitter-twitvault.png)
 
