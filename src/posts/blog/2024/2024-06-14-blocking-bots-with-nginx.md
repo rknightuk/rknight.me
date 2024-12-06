@@ -9,6 +9,9 @@ tags:
     - Eleventy
 ---
 
+>  [!NOTE] Update 2024-12-06
+> Some parts of this have been updated to handle user agents with spaces in them
+
 In April [Ethan wrote this post](https://ethanmarcotte.com/wrote/blockin-bots/) about blocking AI bots with Apache and `.htaccess`. I've already done this for [my robots.txt file](/robots.txt) but quite frankly I don't trust any of the AI companies to respect that. [Jason Santa Maria](https://jasonsantamaria.com/) (via Ethan):
 
 > `robots.txt` is a bit like asking bots to not visit my site; with `.htaccess`, you’re not asking
@@ -85,7 +88,7 @@ const bots = txt.split("\n")
     .filter(line => {
         return line.startsWith("User-agent:") && line !== "User-agent: Applebot"
     })
-    .map(line => line.split(":")[1].trim())
+    .map(line => line.split(": ")[1].trim().replaceAll(' ', '\\ '))
 
 const data = {
     txt: txt,
@@ -101,7 +104,7 @@ permalink: ../nginx.conf
 eleventyExcludeFromCollections: true
 ---
 # Block AI bots
-if ($http_user_agent ~* "({{ site.robots.nginx }})"){
+if ($http_user_agent ~* "({{ site.robots.nginx | safe }})"){
     return 403;
 }
 ```
