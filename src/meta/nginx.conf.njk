@@ -3,7 +3,7 @@ permalink: ../nginx.conf
 eleventyExcludeFromCollections: true
 ---
 # Block AI bots
-if ($http_user_agent ~* ({{ site.robots.nginx }})){
+if ($http_user_agent ~* ({{ site.robots.nginx | safe }})){
     return 307 https://ash-speed.hetzner.com/10GB.bin;
 }
 
