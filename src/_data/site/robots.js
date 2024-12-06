@@ -6,11 +6,11 @@ module.exports = async function() {
     
     let asset = new AssetCache("robots.txt")
 
-    // if (asset.isCacheValid('1d'))
-    // {
-    //     console.log("Returning robots.txt from cache" )
-    //     return await asset.getCachedValue()
-    // }
+    if (asset.isCacheValid('1d'))
+    {
+        console.log("Returning robots.txt from cache" )
+        return await asset.getCachedValue()
+    }
 
     const res = await fetch("https://raw.githubusercontent.com/ai-robots-txt/ai.robots.txt/main/robots.txt")
     let txt = await res.text()
