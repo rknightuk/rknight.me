@@ -104,7 +104,7 @@ permalink: ../nginx.conf
 eleventyExcludeFromCollections: true
 ---
 # Block AI bots
-if ($http_user_agent ~* "({{ site.robots.nginx | safe }})"){
+if ($http_user_agent ~* "({% raw %}{{ site.robots.nginx | safe }}{% endraw %})"){
     return 403;
 }
 ```
