@@ -170,4 +170,15 @@ describe('tootText', () => {
         );
     })
 
+    it('shouldnt duplicate link text', () => {
+        assert.strictEqual(
+            tootText({
+                ...fakePost,
+                layout: 'note',
+                content: '<p>The Mac mini <em>things</em> @jerrod@mastodon.social has designed are so fucking good <a href="https://makerworld.com/en/collections/3215167">https://makerworld.com/en/collections/3215167</a></p>',
+            }),
+            'The Mac mini _things_ @jerrod@mastodon.social has designed are so fucking good https://makerworld.com/en/collections/3215167\n\n📌 https://rknight.me/blog/example'
+        );
+    })
+
 });

@@ -18,6 +18,7 @@ const tootText = (post) => {
     turndownService.addRule('link', {
         filter: 'a',
         replacement: function (content, node) {
+            if (content === node.href) return content
             // <a href="/url">text</a> => text (/url)
             return `${content} (${node.href})`
         }
