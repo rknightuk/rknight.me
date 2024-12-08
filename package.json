@@ -8,6 +8,7 @@
     "@11ty/eleventy-fetch": "^3.0.0",
     "@11tyrocks/eleventy-plugin-lightningcss": "^1.1.2",
     "@cooklang/cooklang-ts": "github:cooklang/cooklang-ts",
+    "@fedify/markdown-it-mention": "^0.1.1",
     "@remy/webmention": "^1.4.5",
     "@rknightuk/eleventy-plugin-post-graph": "^1.0.0",
     "bookmarklet": "^3.0.0",

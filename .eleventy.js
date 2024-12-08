@@ -13,6 +13,7 @@ module.exports = function(eleventyConfig) {
     const markdownIt = require("markdown-it")
     const markdownItFootnote = require("markdown-it-footnote")
     const markdownItGithubAlerts = require('markdown-it-github-alerts')
+    const { mention } = require('@fedify/markdown-it-mention')
 
     const options = {
         html: true, // Enable HTML tags in source
@@ -23,6 +24,12 @@ module.exports = function(eleventyConfig) {
     let markdownLib =  markdownIt(options)
         .use(markdownItFootnote)
         .use(markdownItGithubAlerts)
+        .use(mention, {
+            link: (handle) => {
+                const [username, domain] = handle.split('@').filter(f => f)
+                return `https://${domain}/@${username}`
+            },
+        })
         
     // replace the stupid emoji
     markdownLib.renderer.rules.footnote_anchor = (tokens, idx, options, env, slf) => {
