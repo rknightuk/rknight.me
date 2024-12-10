@@ -20,7 +20,7 @@ recipe: >
 
     Grab your baking tray, lay down some greaseproof paper on it, then brush the tray with the eggwash. 
 
-    Cut up your long sausage roll into inch-wide smaller sausage rolls and pop them on the baking tray, seam down. Brush them with egg and pop them in the oven for ~{20-25 %minutes} until they're golden brown all over.
+    Cut up your long sausage roll into inch-wide smaller sausage rolls and pop them on the baking tray, seam down. Brush them with egg and pop them in the oven for ~{20-25%minutes} until they're golden brown all over.
 
     Boom. Sausage rolls for days.
 ---
