@@ -7,6 +7,8 @@ layout: post
 tags:
     - Recipes
 recipe: >
+    >> name: Chicken Tinga
+    
     >> source: https://www.brianlagerstrom.com/recipes/chicken-tinga
 
     >> image: https://cdn.rknight.me/site/chicken-tinga.jpg
