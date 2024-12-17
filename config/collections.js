@@ -188,6 +188,11 @@ module.exports = {
 
         return data
     },
+    almanacMeanGirls: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse().filter(p => {          
+            return p.data.title === 'Mean Girls'
+        });
+    },
     almanacMovies: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse()
     },
