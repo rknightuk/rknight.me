@@ -181,4 +181,15 @@ describe('tootText', () => {
         );
     })
 
+    it('shouldnt make mentions links', () => {
+        assert.strictEqual(
+            tootText({
+                ...fakePost,
+                layout: 'note',
+                content: '<p>A test of mentioning a person like <a href="https://mastodon.social/@crashthearcade">@crashthearcade</a>.</p>',
+            }),
+            'A test of mentioning a person like @crashthearcade.\n\n📌 https://rknight.me/blog/example'
+        );
+    })
+
 });

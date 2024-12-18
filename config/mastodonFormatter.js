@@ -18,7 +18,12 @@ const tootText = (post) => {
     turndownService.addRule('link', {
         filter: 'a',
         replacement: function (content, node) {
+            // don't double link @mentions
+            if (content.startsWith('@') && node.href.includes('/@')) return content
+
+            // don't double link URLs
             if (content === node.href) return content
+            
             // <a href="/url">text</a> => text (/url)
             return `${content} (${node.href})`
         }
