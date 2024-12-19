@@ -18,7 +18,7 @@ eleventyNavigation:
 <meta property="og:image" content="https://example.com/path/to/image">
 ```
 
-I don't include Twitter's meta tags.
+I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twitter's meta tags.
 
 ### APIs and Data
 

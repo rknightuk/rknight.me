@@ -188,7 +188,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>A test of mentioning a person like <a href="https://mastodon.social/@crashthearcade">@crashthearcade</a>.</p>',
             }),
-            'A test of mentioning a person like @crashthearcade.\n\n📌 https://rknight.me/blog/example'
+            'A test of mentioning a person like @crashthearcade@mastodon.social.\n\n📌 https://rknight.me/blog/example'
         );
     })
 

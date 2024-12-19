@@ -19,7 +19,13 @@ const tootText = (post) => {
         filter: 'a',
         replacement: function (content, node) {
             // don't double link @mentions
-            if (content.startsWith('@') && node.href.includes('/@')) return content
+            if (content.startsWith('@') && node.href.includes('/@'))
+            {
+                const url = new URL(node.href)
+                const username = url.pathname.replace('/', '')
+                const domain = url.host
+                return `${username}@${domain}`
+            }
 
             // don't double link URLs
             if (content === node.href) return content
