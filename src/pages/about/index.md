@@ -9,6 +9,10 @@ eleventyNavigation:
 
 Want to know about this site? Check out [the colophon](/about/colophon).
 
+### Bio
+
+{{ site.config.description }}
+
 ### Professional
 
 I am a developer at my day job. I also work part-time as a developer for [MacStories](https://www.macstories.net).
