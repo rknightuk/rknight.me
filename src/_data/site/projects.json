@@ -1,13 +1,13 @@
 {
 	"featured": [
-    { "title": "EmojiStorm", "desc": "So many emoji please make it stop", "image": "emojistorm.jpg", "link": "https://emojistorm.rknight.me/", "tags": ["11ty"] },
+    { "title": "EmojiStorm", "desc": "So many emoji please make it stop", "image": "emojistorm.jpg", "link": "https://emojistorm.rknight.me", "tags": ["11ty"] },
 		{ "title": "Lens", "desc": "Check your meta tags, icons, and rss feeds", "image": "lens.jpg", "link": "https://lens.rknight.me", "tags": ["PHP", "Alpine"] },
 		{ "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
 		{ "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" }
 	],
 	"current": [
 		{ "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },
-    { "title": "EmojiStorm", "desc": "So many emoji please make it stop", "image": "emojistorm.jpg", "link": "http://emojistorm.rknight.me/", "tags": ["11ty"] },
+    { "title": "EmojiStorm", "desc": "So many emoji please make it stop", "image": "emojistorm.jpg", "link": "http://emojistorm.rknight.me", "tags": ["11ty"] },
 		{ "title": "Lens", "desc": "Check your meta tags, icons, and rss feeds", "image": "lens.jpg", "link": "https://lens.rknight.me", "tags": ["PHP", "Alpine"] },
 		{ "title": "lodon", "desc": "Tag Yourself at Relay's 10th Anniversary Extravaganza", "image": "lodonlol.jpg", "link": "https://github.com/rknightuk/lodon.lol", "tags": ["11ty"] },
     { "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
