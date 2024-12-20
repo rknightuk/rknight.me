@@ -7,6 +7,7 @@ layout: post
 tags:
     - Development
     - Eleventy
+project: https://emojistorm.rknight.me
 ---
 
 You know how sometimes you do one thing then you think "oh I'll do this other thing" then another thing related to that and the next thing you know you're making a weird website from a web component someone made because you can? No? Anyway.
