@@ -84,4 +84,4 @@ For the front end I wanted to give Alpine a try after reading [Blake's post abou
 
 It checks _exactly_ the things I care about and nothing more. I don't check Twitter's meta stuff because I've never used it and I suspect it's less relevant than ever now. It does check for the `fediverse:creator` tag but it doesn't verify if you've set it correctly in the Mastodon backend. It uses [Grandsans](https://simplebits.shop/products/grandsans) for the headings because it's a lovely font.
 
-[See Lens here](https://lens.rknight.me/) and you can [View the source on GitHub](https://github.com/rknightuk/lens).
+[See Lens here](https://lens.rknight.me/) and you can [view the source on GitHub](https://github.com/rknightuk/lens).
