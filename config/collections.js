@@ -190,7 +190,7 @@ module.exports = {
     },
     almanacMeanGirls: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('almanac/movies')).reverse().filter(p => {          
-            return p.data.title === 'Mean Girls'
+            return p.data.tmdbid === 10625
         });
     },
     almanacMovies: (collectionApi) => {
