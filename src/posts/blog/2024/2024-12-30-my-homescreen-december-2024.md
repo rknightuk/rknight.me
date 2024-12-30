@@ -4,6 +4,8 @@ permalink: /blog/my-homescreen-december-2024/index.html
 date: 2024-12-30T21:37:53.202Z
 excerpt: "My iPhone homescreen as of December 2024"
 layout: post
+tags:
+    - Homescreen
 ---
 
 ![My homescreen](https://cdn.rknight.me/site/homescreen-dec-2024.png)
