@@ -7,6 +7,7 @@ layout: post
 tags:
     - ActivityPub
     - Development
+    - SelfHosted
 ---
 
 For various reasons I had occasion this evening to give [GoToSocial](https://gotosocial.org) a try so I installed it on my server that's running [Coolify](https://coolify.io) but hit a couple of issues which I was able to work around with the help of [Lewis](https://lewisdale.dev) and [Brandon](https://wand3r.net).

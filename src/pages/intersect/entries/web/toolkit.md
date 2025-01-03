@@ -47,11 +47,13 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 
 - [Modern Font Stacks](https://modernfontstacks.com/)
 - [Bunny Fonts](https://bunny.net/fonts/)
+- [UNCUT.wtf](https://uncut.wtf/)
+- [Fontshare: Quality Fonts. Free.](https://www.fontshare.com/)
+
 - [SimpleBits®](https://simplebits.shop/collections/fonts)
 - [Tom Chalky](https://tomchalky.com/product-category/fonts/)
 - [Future Fonts](https://www.futurefonts.xyz/)
 - [Very Cool Studio](https://verycoolstudio.com/)
-- [UNCUT.wtf](https://uncut.wtf/)
 
 ### CSS
 
@@ -84,6 +86,8 @@ html {
 - [Softies](https://www.robbiepearce.com/softies)
 - [Feather](https://feathericons.com/)
 - [Font Awesome](https://fontawesome.com/)
+- [Tabler Icons](https://tabler.io/icons)
+- [Handcrafts | unDraw](https://handcrafts.undraw.co/app)
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/)
 - [SVG Sprite generator](https://svgsprit.es/)
 - [Image to  SVG image converter](https://image.online-convert.com/convert-to-svg)
@@ -95,3 +99,4 @@ html {
 - [Buttons.cool - The coolest buttons in town](https://www.buttons.cool/buttons)
 - [Shape Divider App](https://www.shapedivider.app/)
 - [Squoosh](https://squoosh.app/)
+- [ProgressBar.js - Progress bars with JavaScript](https://kimmobrunfeldt.github.io/progressbar.js/)
