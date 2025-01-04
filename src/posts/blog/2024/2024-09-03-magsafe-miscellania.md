@@ -16,6 +16,9 @@ These are few and far between if you want MagSafe but I stumbled upon the very w
 
 ![Hot pink iPhone case](https://cdn.rknight.me/site/hot-pink-iphone-case.jpg)
 
+> [!NOTE] Update 2025-01-04
+> This case fell apart so probably don't buy this
+
 It's far from the best quality case but it does the job. Also note the seemingly-random "100% focus pixels" around the camera. What the fuck does that even mean?
 
 I installed the mount in the car and left it 24 hours as per the instructions and it's been great. I can get my phone off without worrying about ripping the mount off, it rotates and extends so I can put it exactly where I need it, and the pink cases does what it should.
