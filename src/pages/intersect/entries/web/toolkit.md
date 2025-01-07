@@ -37,6 +37,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 ### Colors and Gradients
 
 - [Open Color](https://yeun.github.io/open-color/)
+- [Flexoki](https://stephango.com/flexoki)
 - [Customizing Colors - Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 - [Flat UI Colors](https://flatuicolors.com/)
 - [BrandColors - official brand color hex codes](https://brandcolors.net/)
