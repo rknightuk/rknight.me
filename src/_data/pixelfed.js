@@ -7,21 +7,19 @@ module.exports = async function() {
     console.log("Fetching pixelfed")
     let asset = new AssetCache("pixelfed")
 
-    // if (asset.isCacheValid('1h'))
-    // {
-    //     console.log("Returning pixelfed from cache" )
-    //     return await asset.getCachedValue()
-    // }
+    if (asset.isCacheValid('1h'))
+    {
+        console.log("Returning pixelfed from cache" )
+        return await asset.getCachedValue()
+    }
 
-    const res = await fetch(`https://pixelfed.social/api/v1/accounts/666823685959544876/statuses?limit=100`, {
+    const res = await fetch(`https://pixelfed.social/api/v1/accounts/666823685959544876/statuses`, {
         headers: {
             'Authorization': `Bearer ${process.env.PIXELFED}`,
         },
     })
 
     const json = await res.json()
-
-    console.log(json.length)
 
     const data = json.slice(0, 3).map(p => {
         return {
