@@ -10,7 +10,7 @@ eleventyNavigation:
 
 {%- for s in site.save %}
     <p>
-        <strong>{{ s.name }}</strong> <a href="{{ s.link }}">{{ s.link }}</a><br>
+        <strong>{{ s.name }}</strong> <a href="https://rknight.me/save/{{ s.slug }}">/save/{{ s.slug }}</a><br>
         {{ s.desc | safe }}
     </p>
 {% endfor %}
