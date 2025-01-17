@@ -48,6 +48,6 @@ Obviously based on the above I save money but I was curious what kind of deal th
 
 There's also something about an additional 20% "_to the Partner who has brought this particular user_". I don't know what that means but this seems like a decent deal for developers. My money isn't going into a pot only to be paid to the most popular apps, it's based on _my real usage_. I feel pretty good about this setup.
 
-Finally, they also have a very generous referral scheme[^1] that gives me and the person who signs up a free month. So if you want to sign up, use [my referral link](https://go.setapp.com/invite/0jsvfx75) to get a free month.
+Finally, they also have a referral scheme[^1] so you can get a 30 day trial with my code `RKNIGHT` or go to [/save/setapp](https://rknight.me/save/setapp).
 
 [^1]: I love a [good referral scheme](/save)
