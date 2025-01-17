@@ -21,8 +21,14 @@ location /notes {
     try_files $uri $uri/ /404.html?$query_string;
 }
 
-# Redirect old blog posts to /blog
+# slash save
+{%- for s in site.save %}
+rewrite ^/save/{{ s.slug }} {{ s.link }} redirect;{% endfor %}
+
+# st jude
 rewrite ^/stjude https://tiltify.com/@rknightuk/stjude2024 redirect;
+
+# Redirect old blog posts to /blog
 rewrite ^/sitemap /explore permanent;
 rewrite ^/feed.xml /subscribe/posts/atom.xml permanent;
 rewrite ^/feed.json /subscribe/posts/feed.json permanent;

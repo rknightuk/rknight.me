@@ -11,6 +11,6 @@ eleventyNavigation:
 {%- for s in site.save %}
     <p>
         <strong>{{ s.name }}</strong> <a href="{{ s.link }}">{{ s.link }}</a><br>
-        {{ s.desc }}
+        {{ s.desc | safe }}
     </p>
 {% endfor %}
