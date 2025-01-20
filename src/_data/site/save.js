@@ -10,7 +10,7 @@ module.exports = function() {
             name: 'Backblaze',
             slug: 'backblaze',
             link: 'https://secure.backblaze.com/r/01gkf3',
-            desc: 'Unlimited computer backup',
+            desc: 'Unlimited computer backup - one month free',
         },
         {
             name: 'Setapp',
