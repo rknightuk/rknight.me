@@ -34,8 +34,6 @@ module.exports = {
                 return '📝'
             case 'link':
                 return '🔗'
-            case 'changelog':
-                return '🪛'
             case 'almanac':
                 return utils.getAlmanacEmoji(data.type)
             default:

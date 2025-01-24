@@ -20,7 +20,6 @@ You can subscribe with the following feeds:
 - **Notes**: [Atom](/subscribe/notes/atom.xml), [RSS](/subscribe/notes/rss.xml) or [JSON Feed](/subscribe/notes/feed.json)
 - **Links**: [Atom](/subscribe/links/atom.xml), [RSS](/subscribe/links/rss.xml) or [JSON Feed](/subscribe/links/feed.json)
 - **Almanac**: [Atom](/subscribe/almanac/atom.xml), [RSS](/subscribe/almanac/rss.xml) or [JSON Feed](/subscribe/almanac/feed.json)
-- **Changelog**: [Atom](/subscribe/changelog/atom.xml), [RSS](/subscribe/changelog/rss.xml) or [JSON Feed](/subscribe/changelog/feed.json)
 
 For those of you who want _everything_ in one feed that is also available: [Atom](/subscribe/everything/atom.xml), [RSS](/subscribe/everything/rss.xml) or [JSON Feed](/subscribe/everything/feed.json).
 

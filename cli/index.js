@@ -6,7 +6,6 @@ import { fileURLToPath } from 'url'
 
 import createPost from './commands/createPost.js'
 import createLink from './commands/createLink.js'
-import createChangelog from './commands/createChangelog.js'
 import createNote from './commands/createNote.js'
 
 import addProject from './commands/addProject.js'
@@ -51,11 +50,6 @@ const runWizard = async () => {
                 description: 'Create a new link post',
             },
             {
-                name: 'Create a new changelog entry',
-                value: 'changelog',
-                description: 'Create a new changelog entry',
-            },
-            {
                 name: 'Create a new note',
                 value: 'note',
                 description: 'Create a new note',
@@ -95,9 +89,6 @@ const runWizard = async () => {
         case 'link':
             createLink(__siteroot)
             break
-        case 'changelog':
-            createChangelog(__siteroot)
-            break
         case 'project':
             addProject(__siteroot)
             break
@@ -133,11 +124,6 @@ program
     .command('post')
     .description('🔗 Create a new link')
     .action(() => createLink(__siteroot))
-
-program
-    .command('changelog')
-    .description('🛠️ Create a new changelog entry')
-    .action(() => createChangelog(__siteroot))
 
 program
     .command('project')

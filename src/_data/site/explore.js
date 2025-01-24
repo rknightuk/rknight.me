@@ -34,7 +34,7 @@ module.exports = function() {
 			{
 				title: 'Everything',
 				link: '/explore/everything',
-				description: 'Every post from my blog, notes, links, Almanac, and changelogs',
+				description: 'Every post from my blog, notes, links, and Almanac',
 				icon: 'everything',
 			},
 			{
@@ -207,7 +207,7 @@ module.exports = function() {
 			{
 				title: 'Everything',
 				link: '/explore/everything',
-				description: 'Every post from my blog, notes, links, Almanac, and changelogs',
+				description: 'Every post from my blog, notes, links, and Almanac',
 			},
 		]
 	}
