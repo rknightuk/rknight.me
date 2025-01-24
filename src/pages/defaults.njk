@@ -1,0 +1,22 @@
+---
+title: App Defaults
+subtitle: "[What is this?](https://defaults.rknight.me)"
+permalink: 'defaults/index.html'
+layout: base
+eleventyNavigation:
+  key: /defaults
+  parent: Home
+---
+
+{% set defaultsList = collections.Defaults | reverse %}
+{%- for post in [defaultsList[0]] -%}
+    <aside class="alert">
+        <div class="alert-icon">
+            <svg class="icon alert-note">
+                <use xlink:href="#bell"></use>
+            </svg>
+        </div>
+        <p>Last updated <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }}</a> &bull; <a href="/blog/tags/defaults">Previous Entries</a></p>
+    </aside>
+    {{ post.content | safe }}
+{%- endfor -%}

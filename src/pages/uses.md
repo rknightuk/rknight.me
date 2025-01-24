@@ -38,19 +38,30 @@ eleventyNavigation:
 - [Logitech Z200 Speakers](https://www.logitech.com/en-gb/products/speakers/z200-multimedia-stereo-speakers.980-000812.html)
 - [Audio Technica ATH-M50x](https://www.audio-technica.com/en-gb/ath-m50x) (home/podcasting)
 - [AirPods Max Gen 1](https://en.wikipedia.org/wiki/AirPods_Max) (office/gaming)
-- [Anker Soundcore Life Q30](https://uk.soundcore.com/products/a3028311) (backup)
 - [Twelve South StayGo USB-C hub](https://www.twelvesouth.com/products/staygo-usb-c-hub)
+
+```diff
++ [2024-09-19] AirPods Max Gen 1
+- [2024-09-19] Anker Soundcore Life Q30
++ [2024-05-04] MX Master 3S
+- [2024-05-04] MX Master
++ [2024-03-26] 8BitDo Retro Mechanical Keyboard
++ [2022-01-05] Razer Seiren Mini
++ [2021-09-06] Twelve South StayGo USB-C hub
++ [2021-06-25] Logitech Z200 Speakers
+```
 
 #### Software
 
 - [1Password](https://1password.com)
 - [iTerm2](https://iterm2.com/)
 - [Visual Studio Code](https://code.visualstudio.com/)
-- ~~[Alfred](https://www.alfredapp.com/) with many [workflows](/alfred-workflows)~~ I'm on Raycast now.
+- [Raycast](https://www.raycast.com)
 - [TablePlus](https://tableplus.com/) for database management
 - [Obsidian](https://obsidian.md)
-- [Fantastical](https://flexibits.com/fantastical) for calendars. I used [Dato](https://sindresorhus.com/dato) for a while but it just wasn't as good for what I need
+- [Fantastical](https://flexibits.com/fantastical) for calendars.
 - [Batteries for Mac](https://www.fadel.io/batteries)
+- [Godspeed](https://godspeedapp.com/a/RKNIGHT25)
 - [SoundSource](https://rogueamoeba.com/soundsource/)
 - [Gitify](https://www.gitify.io/) for GitHub notifications in the menu bar
 - [CleanShot X](https://cleanshot.com) for screenshots, screen recording, and annotation
@@ -61,16 +72,28 @@ eleventyNavigation:
 - [Color Slurp](https://colorslurp.com/)
 - [Boop](https://boop.okat.best/) for formatting HTML, JSON, XML, and loads of other stuff
 
+```diff
++ [2024-05-01] Raycast
+- [2024-05-01] Alfred
+- [2023-08-01] Dato
+```
 
 <h3><svg class="icon"><use xlink:href="#iphone"></use></svg>iPhone</h3>
 
 #### Hardware
 
 - Purple iPhone 14 Pro
-- Apple Watch Series 4 44mm
+- Apple Watch Series 10
 - Headphones
     - [Beats Studio Buds](https://www.beatsbydre.com/uk/earbuds/studio-buds)
     - [AirPods Pro 1st Generation](https://support.apple.com/kb/SP811?locale=en_US) (backup)
+
+```diff
++ [2024-06-14] Apple Watch Series 10
+- [2024-06-14] Apple Watch Series 4 44mm
++ [2022-09-16] iPhone 14 Pro
+- [2022-09-16] iPhone 12
+```
 
 #### Software
 
@@ -101,14 +124,6 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 
 <h3><svg class="icon"><use xlink:href="#heart"></use></svg>Other things I like</h3>
 
-#### Services
-
-- [omg.lol](https://home.omg.lol/referred-by/robb) for Mastodon and some other stuff
-- [Fathom](https://usefathom.com/ref/IXCLSF) for analytics
-- [Backblaze](https://secure.backblaze.com/r/01gkf3) for off-site backup
-- [Hetzner](https://www.hetzner.com) for site hosting
-- [Laravel Forge](http://forge.laravel.com) for deployments
-
 #### Fonts
 
 - [Bayshore Font](https://www.myfonts.com/collections/bayshore-font-set-sail-studios)
@@ -121,7 +136,7 @@ I have a single "smart" home item which is a smart plug for turning an electric 
 - [Softies Icons](https://www.robbiepearce.com/softies) by Robbie Pearce
 - [Feather](https://feathericons.com/)
 
-I keep a list of icon sets I find [on The Intersect](https://intersect.rknight.me/webdev/resources/icons/)
+I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersect/web/toolkit/)
 
 <h3><svg class="icon"><use xlink:href="#kitchen"></use></svg>Kitchen</h3>
 

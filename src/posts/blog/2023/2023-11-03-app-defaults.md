@@ -7,6 +7,7 @@ layout: post
 tags:
   - Podcasting
   - Apps
+  - Defaults
 project: https://defaults.rknight.me
 ---
 

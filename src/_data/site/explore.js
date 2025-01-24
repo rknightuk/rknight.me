@@ -116,6 +116,11 @@ module.exports = function() {
 				description: 'All the things I use on a day-to-day basis',
 			},
 			{
+				title: 'defaults',
+				link: '/defaults',
+				description: 'My app defaults',
+			},
+			{
 				title: 'interests',
 				link: '/interests',
 				description: 'Things I\'m interested in, passionate about, or otherwise enjoy',
@@ -178,6 +183,11 @@ module.exports = function() {
 				title: '/uses',
 				link: '/uses',
 				description: 'All the things I use on a day-to-day basis',
+			},
+			{
+				title: '/defaults',
+				link: '/defaults',
+				description: 'My app defaults',
 			},
 			{
 				title: '/interests',
