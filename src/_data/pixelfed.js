@@ -7,8 +7,6 @@ module.exports = async function() {
     console.log("Fetching pixelfed")
     let asset = new AssetCache("pixelfed")
 
-    return []
-
     if (asset.isCacheValid('1h'))
     {
         console.log("Returning pixelfed from cache" )
