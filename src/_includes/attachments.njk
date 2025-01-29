@@ -1,0 +1,16 @@
+{% if attachments.length > 0 %}
+    <div class="photogrid">
+        {%- for image in attachments -%}
+            <a class="photogrid__photo" href="{{ image.url }}" target="_blank">
+                {%- if image.url.includes('mp4') -%}
+                    <video controls>
+                        <source src="{{ image.url }}" type="video/mp4">
+                        Your browser does not support the video tag.
+                    </video>
+                {%- else -%}
+                    <img src="{{ image.url }}" alt="{{ image.alt }}">
+                {%- endif -%}
+            </a>
+        {%- endfor -%}
+    </div>
+{% endif %}

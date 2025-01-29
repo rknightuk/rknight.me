@@ -3,6 +3,8 @@ title: "Mechanical Pencils"
 permalink: /blog/mechanical-pencils/index.html
 date: 2025-01-21T13:12:00.000Z
 excerpt: "Some recommendations for mechanical pencils I was given"
+tags:
+    - Analogue
 ---
 
 I asked for recommendations for mechanical pencils in the Relay and omg.lol Discords and here’s what was recommended:

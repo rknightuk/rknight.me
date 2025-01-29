@@ -4,6 +4,8 @@ permalink: /blog/mark-one-enigma-edition-pen-review/index.html
 date: 2024-10-24T12:31:03.000Z
 excerpt: "A \"review\" of the Mark One Enigma Edition pen I won in September"
 layout: post
+tags:
+    - Analogue
 ---
 
 During September I donated to Enigma Stationery's campaign and was entered into a raffle to win the [Mark One Enigma Edition](https://enigmastationery.com/shop/p/mark-one-enigma-edition) and...I actually won! I've never owned a fancy pen[^1], especially not one this pretty. I don't even write with pen and paper all that much. None of my notebooks have good paper, or quality covers, or fold out flat but I'm gunna review it anyway. 

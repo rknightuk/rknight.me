@@ -3,11 +3,3 @@ layout: post
 ---
 
 {{ content | safe }}
-
-{% if attachments.length > 0 %}
-    <div class="photogrid">
-        {%- for image in attachments -%}
-            <img src="{{ image.url | imageLink }}" alt="{{ image.alt }}">
-        {%- endfor -%}
-    </div>
-{% endif %}

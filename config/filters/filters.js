@@ -1,16 +1,37 @@
 const marked = require('marked')
 const moment = require('moment')
+const nunjucks = require('nunjucks')
 
 const utils = require('./utils.js')
+const recipeHandler = require('../recipeHandler')
 
 module.exports = {
-    rssClubAlert: (content, rssClub) => {
-        if (!rssClub) return content
-        return `<p>Welcome to the Knight club - RSS-only posts. These only show for RSS subscribers but feel free to share them. <a href="https://daverupert.com/rss-club/">Read more about RSS club</a>.</p> <hr> ${content}`
+    recipeOutput: (raw) => {
+        return recipeHandler.getRecipeData(raw)
     },
-    imageLink: (path) => {
-        if (path.startsWith('https://cdn.rknight.me')) return path
-        return `https://cdn.rknight.me/${path}`
+    renderContentForFeed: (content, post) => {
+        let formatted = content
+    
+        if (post.data.rssClub) {
+            formatted = `<p>Welcome to the Knight club - RSS-only posts. These only show for RSS subscribers but feel free to share them. <a href="https://daverupert.com/rss-club/">Read more about RSS club</a>.</p> <hr> ${formatted}`
+        }
+
+        if (post.data.attachments) {
+            const attachments = post.data.attachments.map(attachment => {
+                return `<p><img src="${attachment.url}" alt="${attachment.alt}"></p>`
+            }).join(' ')
+
+            formatted = `${formatted} ${attachments}`
+        }
+
+        if (post.data.recipe) {
+            const recipeHtml = nunjucks.render('src/_includes/recipe-core.njk', { 
+                recipeData: recipeHandler.getRecipeData(post.data.recipe) 
+            })
+            formatted = `${formatted} ${recipeHtml}`
+        }
+
+        return formatted
     },
     toLowerCase: (string) => {
         return string.toLowerCase()

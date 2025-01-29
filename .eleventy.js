@@ -4,7 +4,6 @@ const shortcodes = require('./config/shortcodes.js')
 const filters = require('./config/filters/filters.js')
 const dateFilters = require('./config/filters/date.js')
 const indiewebFilters = require('./config/filters/indieweb.js')
-const recipeFilters = require('./config/filters/recipe.js')
 
 const plugins = require('./config/plugins.js')
 
@@ -77,10 +76,6 @@ module.exports = function(eleventyConfig) {
     // indieweb/posse filters
     Object.keys(indiewebFilters).forEach(filterName => {
         eleventyConfig.addFilter(filterName, indiewebFilters[filterName])
-    })
-
-    Object.keys(recipeFilters).forEach(filterName => {
-        eleventyConfig.addFilter(filterName, recipeFilters[filterName])
     })
 
     eleventyConfig.configureErrorReporting({ allowMissingExtensions: true })

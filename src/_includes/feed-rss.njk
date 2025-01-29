@@ -12,7 +12,7 @@
       <item>
         <title>{{ post.data.title }}</title>
         <link>{% if post.data.layout === 'link' %}{{ post.data.link }}{% else %}https://rknight.me{{ post.url }}{% endif %}</link>
-        <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | rssClubAlert(post.data.rssClub) | recipeForFeed(post.data.recipe) }}</description>
+        <description>{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | renderContentForFeed(post) }}</description>
         <pubDate>{{ post.date | dateToRfc822 }}</pubDate>
         <dc:creator>Robb Knight</dc:creator>
         <guid>https://rknight.me{{ post | getRssId }}</guid>

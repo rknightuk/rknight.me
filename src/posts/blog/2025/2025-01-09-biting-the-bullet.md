@@ -3,7 +3,9 @@ title: "Biting the Bullet"
 permalink: /blog/biting-the-bullet/index.html
 date: 2025-01-09T22:55:00.000Z
 excerpt: "I’m going to try bullet journaling to save my sanity"
-tags: [Personal]
+tags: 
+    - Personal
+    - Analogue
 ---
 
 I’ve been todo hoarding. I have Reminders, Obsidian, and Godspeed all with different types of todos in them. Plus GitHub issues, Mastodon mentions, and Raindrop. I’m not getting to any of them. I’m missing things I should be doing. I’m forgetting important things. Also at least once a week I want to throw my computer into the sea because something that should work just doesn’t. I need to spend less wasted time on computers. 

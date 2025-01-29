@@ -1,94 +1,16 @@
-.microblog_text img {
-    display: none;
-}
-
-.microblog-post {
-    border-left: 2px solid var(--primary);
-    padding-left: 15px;
-}
-
-.microblog-post .post-date {
-    margin-top: 15px;
-    font-size: 0.8em;
-}
-
-.microblog-photos {
-    display: flex;
-    box-sizing: border-box;
-    justify-content: center;
-    align-items: center;
-    padding: 15px;
-}
-
-.microblog-photo {
-    display: flex;
-    box-sizing: border-box;
-    filter: grayscale(100%);
-}
-
-.microblog-photo:hover {
-    filter: grayscale(0);
-}
-
-.microblog-photo:nth-child(odd) {
-    transform: rotate(-6deg);
-}
-
-.microblog-photo:nth-child(even) {
-    transform: rotate(3deg);
-}
-
-@media (max-width: 650px) {
-    .microblog-photo:nth-last-child(-n+2) {
-        display: none;
-    }
-}
-
-.microblog-photo img {
-    box-sizing: border-box;
-    max-height: 400px;
-    background-color: white;
-    box-shadow: 2px 2px 2px var(--body-text);
-}
-
 .photogrid {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-gap: 10px;
 }
 
-.photogrid img:first-child {
+.photogrid .photogrid__photo:first-child {
     grid-column: span 3;
     margin: 0 auto;
     max-width: 100%;
 }
 
-.photogrid img:not(:first-child) {
+.photogrid .photogrid__photo:not(:first-child) img {
     aspect-ratio: 1;
-    object-fit: cover;
-}
-
-.photogrid img:not(:first-child):hover {
-    cursor: pointer;
-}
-
-.photos-grid-container {
-    margin: 0 auto;
-    margin-top: 50px;
-    display: grid;
-    grid-column-gap: 15px;
-    grid-row-gap: 15px;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
-}
-
-.photos-grid-container a {
-    aspect-ratio: 1;
-    overflow: hidden;
-    border-bottom: none;
-}
-
-.photos-grid-container img {
-    height: 100% !important;
-    width: 100%;
     object-fit: cover;
 }
