@@ -22,7 +22,7 @@ describe('tootText', () => {
                 ...fakePost,
                 layout: 'note',
             }),
-            'This is the content\n\nthis is some more content\n\n📌 https://rknight.me/blog/example'
+            'This is the content\n\nthis is some more content\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -44,7 +44,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>This is the content</p>\n</p>this is <a href="https://rknight.me">a link</a></p>',
             }),
-            'This is the content\n\nthis is a link (https://rknight.me)\n\n📌 https://rknight.me/blog/example'
+            'This is the content\n\nthis is a link (https://rknight.me)\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -55,7 +55,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p>',
             }),
-            '"This is a quote from some person"\n\nSome commentary from me\n\n📌 https://rknight.me/blog/example'
+            '"This is a quote from some person"\n\nSome commentary from me\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -66,7 +66,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p><img src="https://rknight.me/imaxxge.jpg">',
             }),
-            '"This is a quote from some person"\n\nSome commentary from me\n\n📌 https://rknight.me/blog/example'
+            '"This is a quote from some person"\n\nSome commentary from me\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -128,7 +128,7 @@ describe('tootText', () => {
                 },
                 content: '',
             }),
-            '⭐ A cool link by @joesteel@duck.haus https://example.com\n\n📌 https://rknight.me/blog/example'
+            '⭐ A cool link by @joesteel@duck.haus https://example.com\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -147,7 +147,7 @@ describe('tootText', () => {
                 },
                 content: `<blockquote><p>This is a quote from the post</p></blockquote><p>${'this is a long thing'.repeat(100)}</p>`,
             }),
-            '⭐ A cool link by @joesteel@duck.haus https://example.com\n\n"This is a quote from the post"\n\n📌 Read more: https://rknight.me/blog/example'
+            '⭐ A cool link by @joesteel@duck.haus https://example.com\n\n"This is a quote from the post"\n\n∞ Read more: https://rknight.me/blog/example'
         );
     })
 
@@ -166,7 +166,7 @@ describe('tootText', () => {
                 },
                 content: `<blockquote><p>This is a quote from the post</p></blockquote><p>this is a short comment</p>`,
             }),
-            '⭐ A cool link by @joesteel@duck.haus https://example.com\n\n"This is a quote from the post"\n\nthis is a short comment\n\n📌 https://rknight.me/blog/example'
+            '⭐ A cool link by @joesteel@duck.haus https://example.com\n\n"This is a quote from the post"\n\nthis is a short comment\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -177,7 +177,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>The Mac mini <em>things</em> @jerrod@mastodon.social has designed are so fucking good <a href="https://makerworld.com/en/collections/3215167">https://makerworld.com/en/collections/3215167</a></p>',
             }),
-            'The Mac mini _things_ @jerrod@mastodon.social has designed are so fucking good https://makerworld.com/en/collections/3215167\n\n📌 https://rknight.me/blog/example'
+            'The Mac mini _things_ @jerrod@mastodon.social has designed are so fucking good https://makerworld.com/en/collections/3215167\n\n∞ https://rknight.me/blog/example'
         );
     })
 
@@ -188,7 +188,7 @@ describe('tootText', () => {
                 layout: 'note',
                 content: '<p>A test of mentioning a person like <a href="https://mastodon.social/@crashthearcade">@crashthearcade</a>.</p>',
             }),
-            'A test of mentioning a person like @crashthearcade@mastodon.social.\n\n📌 https://rknight.me/blog/example'
+            'A test of mentioning a person like @crashthearcade@mastodon.social.\n\n∞ https://rknight.me/blog/example'
         );
     })
 

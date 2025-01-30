@@ -3,6 +3,8 @@ const mastodonCount = require('./mastodonCounter.js')
 const TurndownService = require('turndown')
 const utils = require('./filters/utils')
 
+const permalinkSymbol = '∞'
+
 const tootText = (post) => {
     let content = ''
     const permalink = `https://rknight.me${post.permalink}`
@@ -55,7 +57,7 @@ const tootText = (post) => {
 }
 
 const formatNote = (content, permalink) => {
-    const combined = `${content}\n\n📌 ${permalink}`
+    const combined = `${content}\n\n${permalinkSymbol} ${permalink}`
 
     if (mastodonCount.getMastodonLength(content).length <= 476)
     {
@@ -97,8 +99,8 @@ const formatLink = (post, content, permalink) => {
     formatted = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
 
     const firstLine = content.split('\n')[0]
-    const formattedWithFirstLine = `${formatted}\n\n${firstLine}\n\n📌 Read more: ${permalink}`
-    const formattedWithAll = content ? `${formatted}\n\n${content}\n\n📌 ${permalink}` : `${formatted}\n\n📌 ${permalink}`
+    const formattedWithFirstLine = `${formatted}\n\n${firstLine}\n\n${permalinkSymbol} Read more: ${permalink}`
+    const formattedWithAll = content ? `${formatted}\n\n${content}\n\n${permalinkSymbol} ${permalink}` : `${formatted}\n\n${permalinkSymbol} ${permalink}`
 
     if (mastodonCount.getMastodonLength(formattedWithAll).length <= 500)
     {
@@ -108,7 +110,7 @@ const formatLink = (post, content, permalink) => {
         return formattedWithFirstLine
     }
 
-    formatted = `${formatted}\n\n📌 ${permalink}`
+    formatted = `${formatted}\n\n${permalinkSymbol} ${permalink}`
 
     return formatted
 }
