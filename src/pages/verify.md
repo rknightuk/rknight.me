@@ -14,7 +14,6 @@ If you see an account that looks like it might be me but isn't listed here, plea
 
 - Fediverse: 
     - [@robb@social.lol](https://social.lol/@robb)
-    - [@rknightuk@pixelfed.social](https://pixelfed.social/rknightuk)
     - [@echofeedamplify@beep.town](https://beep.town/@echofeedamplify)
     - [@greatscott@beep.town](https://beep.town/@greatscott)
     - All accounts on [bugle.lol](https://bugle.lol) are run by me
@@ -64,6 +63,7 @@ If an account with my name is on these networks, it is not me.
 - Twitter/X
 - TikTok
 - Snapchat
+- Pixelfed [(why?)](https://rknight.me/blog/doubts-about-pixelfed/)
 
 ### Domains
 
@@ -77,3 +77,4 @@ If an account with my name is on these networks, it is not me.
 - [bugle.lol](https://bugle.lol)
 - [deskmat.help](https://deskmat.help)
 - [slashpages.net](https://slashpages.net)
+- [toot.rodeo](https://toot.rodeo)
