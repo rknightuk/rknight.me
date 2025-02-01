@@ -20,3 +20,6 @@ Some more recommendations came in after I [tooted this post](https://social.lol/
 - Myke pointed me to [this episode of The Pen Addict](https://www.relay.fm/penaddict/635)
 - Tyler has a [great post](https://www.tylersticka.com/journal/a-pencil-named-excalibur/) about Excalibur, a [Pentel Twist Erase](https://www.pentel.co.uk/product/pentel-twist-erase-automatic-pencil-qe51/)
 - Finally, [Tim likes the Rotring rapid pro](https://social.lol/@ezwal/113868481408421705)
+
+> [!NOTE] Update 2025-02-01
+> Adding the [Zebra Delguard](https://www.zebrapen.com/products/delguard-mechanical-pencil) as recommended by [Arun](https://www.arunwadhwa.com)
