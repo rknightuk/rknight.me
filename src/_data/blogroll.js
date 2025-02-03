@@ -85,12 +85,6 @@ module.exports = () => {
             description: 'One third of Hemispheric Views, Andrew posts about spreadsheets. And probably other things too.',
         },
         {
-            name: 'Apple Annie',
-            url: 'https://weblog.anniegreens.lol/',
-            feed: 'https://weblog.anniegreens.lol/rss.xml',
-            description: 'Annie went incredibly in-depth with microformats but also has great posts about other web-related things. Her site is the pinnacle of what can be done weblog.lol.',
-        },
-        {
             name: 'Zach Leatherman',
             url: 'https://www.zachleat.com',
             feed: 'https://www.zachleat.com/web/feed',
