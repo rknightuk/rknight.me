@@ -3,7 +3,6 @@ title: "Advent of Code 2023: Day Six"
 permalink: /blog/advent-of-code-2023-day-six/index.html
 date: 2023-12-06T11:07:22.654Z
 excerpt: "My solution for \"Wait For It\""
-layout: post
 tags:
     - Development
     - AdventOfCode

@@ -3,7 +3,6 @@ title: "Things I Like: 8BitDo Keycaps"
 permalink: /blog/things-i-like-8bitdo-keycaps/index.html
 date: 2024-10-17T19:32:59.000Z
 excerpt: "My 8BitDo keycaps arrived so I can get rid of that pesky windows button"
-layout: post
 tags:
     - ThingsILike
 ---

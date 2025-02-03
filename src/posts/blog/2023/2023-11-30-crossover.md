@@ -3,7 +3,6 @@ title: Crossover
 permalink: /blog/crossover/index.html
 date: 2023-11-30T21:17:34.256Z
 excerpt: "A spin-off project from DoubleShift: compare actor appearances from any two TV shows"
-layout: post
 tags:
     - TV
     - Development

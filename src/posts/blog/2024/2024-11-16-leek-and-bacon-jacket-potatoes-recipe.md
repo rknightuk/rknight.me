@@ -3,7 +3,6 @@ title: "Leek and Bacon Jacket Potatoes Recipe"
 permalink: /blog/leek-and-bacon-jacket-potatoes-recipe/index.html
 date: 2024-11-16T11:33:13.824Z
 excerpt: "Day six is an easy jacket potato topping. It has bacon so is obviously very good."
-layout: post
 tags:
     - Recipes
     - RecipeWeek

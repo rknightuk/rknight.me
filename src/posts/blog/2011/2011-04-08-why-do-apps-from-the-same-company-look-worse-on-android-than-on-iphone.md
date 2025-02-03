@@ -2,7 +2,6 @@
 title: Why do apps from the same company look worse on Android than on iPhone?
 permalink: /blog/why-do-apps-from-the-same-company-look-worse-on-android-than-on-iphone/
 date: 2011-04-08 11:21:17
-layout: post
 ---
 
 I always wanted to do a post like this but never had the time. Spot on. 

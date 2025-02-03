@@ -3,7 +3,6 @@ title: "Adding Github-Style Markdown Alerts to Eleventy"
 permalink: /blog/adding-githubstyle-markdown-alerts-to-eleventy/index.html
 date: 2024-06-21T11:26:37.312Z
 excerpt: "How I added support for callouts/alerts to this site"
-layout: post
 tags:
     - Development
     - Eleventy

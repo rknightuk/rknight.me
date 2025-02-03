@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Read More"
 date: 2010-06-04T00:00:00.000Z
 permalink: /blog/appadvice-review-read-more/index.html

@@ -2,7 +2,6 @@
 title: Why You Should Build Your Own Landing Page
 permalink: /blog/build-your-own-landing-page/
 date: 2011-04-04 08:30:53
-layout: post
 ---
 
 Those of you who follow me on Twitter, or are friends with me on Facebook, know that I have a personal site, as well as a custom URL shortener. But many people choose third-party services such as [about.me](http://about.me) or [flavors.me](http://flavors.me), which are far easier to setup as well as maintain. So why do I go custom rather than choosing a third-party option?  

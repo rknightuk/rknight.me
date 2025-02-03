@@ -3,7 +3,6 @@ title: "QuickNote Alfred Workflow"
 permalink: /blog/quicknote-alfred-workflow/index.html
 date: 2024-02-29T13:08:57.986Z
 excerpt: "An Alfred workflow to quickly append text to a note"
-layout: post
 tags:
     - Alfred
     - Development

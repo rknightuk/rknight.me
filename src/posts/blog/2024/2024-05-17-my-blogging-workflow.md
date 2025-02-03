@@ -3,7 +3,6 @@ title: "My Blogging Workflow"
 permalink: /blog/my-blogging-workflow/index.html
 date: 2024-05-17T07:54:40.317Z
 excerpt: "How I use Obsidian, VSCode, and Eleventy to write for my website...for now."
-layout: post
 tags:
     - Eleventy
     - WeblogPoMo

@@ -3,7 +3,6 @@ title: "Doubts about Pixelfed"
 permalink: /blog/doubts-about-pixelfed/index.html
 date: 2025-01-27T19:49:31.000Z
 excerpt: "A collection of concerns about Pixelfed and it's longevity"
-layout: post
 tags:
     - ActivityPub
 ---

@@ -6,7 +6,6 @@ type: post
 tags:
   - iPhoneWorldCA
 repost: This article originally appeared on iphoneworld.ca
-layout: post
 ---
 
 Price: 1.79GBP

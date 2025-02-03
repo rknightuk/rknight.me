@@ -3,7 +3,6 @@ title: My Home Screen (January 2024)
 permalink: /blog/my-home-screen-january-2024/index.html
 date: 2024-01-03T14:22:04.131Z
 excerpt: "My iPhone home screen as of January 2024"
-layout: post
 tags:
     - Homescreen
 ---

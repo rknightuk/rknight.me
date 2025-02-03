@@ -3,7 +3,6 @@ title: "Deleting S3 Files with Spaces in the Name"
 permalink: /blog/deleting-s3-files-with-spaces-in-the-name/index.html
 date: 2024-01-17T15:26:31.637Z
 excerpt: "An issue I came across at work deleting files that had spaces in the filename"
-layout: post
 tags:
     - Development
 ---

@@ -3,7 +3,6 @@ title: "What Even is a Webmention?"
 permalink: /blog/what-even-is-a-webmention/index.html
 date: 2024-01-20T16:11:08.976Z
 excerpt: "In which I try to explain what a \"real\" webmention is compared to a Mastodon \"webmention\""
-layout: post
 tags:
     - Development
     - OpenWeb

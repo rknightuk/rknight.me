@@ -2,7 +2,6 @@
 title: Why I Left O2 aka How Not to Treat Your Customers
 permalink: /blog/why-i-left-o2-aka-how-not-to-treat-your-customers/
 date: 2011-10-08 09:41:42
-layout: post
 ---
 
 So on Tuesday the iPhone 4S was announced and everyone waited for preorder day to see the tariffs for the various UK carriers. First up was [Vodafone](http://www.vodafone.co.uk/brands/iphone/pay-monthly-iphone/index.htm) with their crazy up-front prices. Then [Orange](http://shop.orange.co.uk/newiphone?WT.mc_id=ON_OUK_P_NEWiPhonePR_&WT.tsrc=Portal) and [T-mobile](http://www.t-mobile.co.uk/shop/pay-monthly/iphone-4s-32gb-white/mobile-tariffs/) jumped in with similar pricing schemes. [Three](http://www.three.co.uk/Phones/Preorder), on the other hand, manage to merge decent tariffs with reasonable up-front costs. Then there's O2.  I'm an O2 customer and have been for over 2 years and I had every intention of staying with O2 when renewing my contract for an iPhone 4S. That is, until they released [their FAQ.](http://www.o2.co.uk/iphone/topfaqs) First question I had was obviously, how can I preorder. _This_ was O2's answer: 

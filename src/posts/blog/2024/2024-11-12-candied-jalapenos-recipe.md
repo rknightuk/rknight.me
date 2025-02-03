@@ -3,7 +3,6 @@ title: "Candied Jalapenos Recipe"
 permalink: /blog/candied-jalapenos-recipe/index.html
 date: 2024-11-12T09:00:00.000Z
 excerpt: "Day two of recipe week is candied jalapenos"
-layout: post
 tags:
     - Recipes
     - RecipeWeek

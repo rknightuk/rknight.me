@@ -3,7 +3,6 @@ title: "MagSafe Miscellania"
 permalink: /blog/magsafe-miscellania/index.html
 date: 2024-09-03T12:08:05.352Z
 excerpt: "Turns out MagSafe is pretty cool"
-layout: post
 ---
 
 Last week I asked if anyone had suggestions for a MagSafe car mount and I got a ton of recommendations. Loads of love for [Peak Design](https://uk.peakdesign.com/pages/mobile) but I'm not paying that much just to hold my phone. Lots of people also suggested various no-name brand ones from Amazon which were much more palatable to me.

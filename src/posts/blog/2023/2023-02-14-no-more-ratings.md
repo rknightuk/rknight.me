@@ -3,7 +3,6 @@ title: No More Ratings
 permalink: /blog/no-more-ratings/index.html
 date: 2023-02-14T09:52:15.619Z
 excerpt: "Why I'm not rating movies (or anything) any more"
-layout: post
 tags:
   - Movies
 ---

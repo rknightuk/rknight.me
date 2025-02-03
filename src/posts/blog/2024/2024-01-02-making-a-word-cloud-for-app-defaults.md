@@ -3,7 +3,6 @@ title: Making a Word Cloud for App Defaults
 permalink: /blog/making-a-word-cloud-for-app-defaults/index.html
 date: 2024-01-02T12:32:59.067Z
 excerpt: "How I extracted all the words used in over 300 blog posts to make a word cloud"
-layout: post
 tags:
   - Development
 project: https://defaults.rknight.me

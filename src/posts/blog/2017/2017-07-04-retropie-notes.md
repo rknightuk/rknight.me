@@ -4,7 +4,6 @@ excerpt: "Some things I learnt (or want to remember) about setting up a RetroPie
 permalink: /blog/notes-about-setting-up-retropie/index.html
 date: 2017-07-04T09:14:00.000Z
 tags:
-layout: post
 ---
 
 Setting up [RetroPie](https://retropie.org.uk/) on a Raspberry Pi is fairly easy but I did come up against a couple of issues that I needed to fix. This post is just a collection of quick fixes for those issues.

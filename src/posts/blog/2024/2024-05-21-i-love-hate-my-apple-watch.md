@@ -3,7 +3,6 @@ title: "I Love Hate My Apple Watch"
 permalink: /blog/i-love-hate-my-apple-watch/index.html
 date: 2024-05-21T07:16:06.158Z
 excerpt: "Some proper first-world moaning about my Apple watch"
-layout: post
 tags:
     - WeblogPoMo
 ---

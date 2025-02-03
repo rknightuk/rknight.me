@@ -3,7 +3,6 @@ title: DoubleShift
 permalink: /blog/doubleshift/index.html
 date: 2023-11-27T22:30:06.509Z
 excerpt: "A small idea to check how many actors have been in both Scrubs and Grey's Anatomy turned into a much bigger thing"
-layout: post
 tags:
     - Eleventy
     - TV

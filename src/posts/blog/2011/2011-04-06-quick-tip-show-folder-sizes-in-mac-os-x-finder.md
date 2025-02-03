@@ -2,7 +2,6 @@
 title: "Quick Tip: Show Folder Sizes in Mac OS X Finder"
 permalink: /blog/quick-tip-show-folder-sizes-in-mac-os-x-finder/
 date: 2011-04-06 13:40:07
-layout: post
 ---
 
 Helpful little tip from OS X Daily:

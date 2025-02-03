@@ -3,7 +3,6 @@ title: Bye Almanac, Hello Lantern
 permalink: /blog/bye-almanac-hello-lantern/index.html
 date: 2023-01-14T00:00:00.000Z
 excerpt: "Retiring my media blogging engine Almanac and launching it's spirtual successor Lantern"
-layout: post
 tags:
   - Development
   - Games

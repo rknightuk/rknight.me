@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Instapaper Pro"
 date: 2010-05-15T00:00:00.000Z
 permalink: /blog/appadvice-review-instapaper-pro/index.html

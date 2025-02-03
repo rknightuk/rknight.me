@@ -3,7 +3,6 @@ title: "Raycast Follow Up"
 permalink: /blog/raycast-follow-up/index.html
 date: 2024-05-24T07:31:08.610Z
 excerpt: "Some follow up on Raycast based on some replies I got on Mastodon"
-layout: post
 tags:
     - MacOS
     - Raycast

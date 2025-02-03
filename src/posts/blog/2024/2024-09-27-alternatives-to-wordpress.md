@@ -3,7 +3,6 @@ title: "Alternatives to Wordpress"
 permalink: /blog/alternatives-to-wordpress/index.html
 date: 2024-09-27T12:42:48.557Z
 excerpt: "Some alternatives to Wordpress built with PHP"
-layout: post
 tags:
     - Development
 ---

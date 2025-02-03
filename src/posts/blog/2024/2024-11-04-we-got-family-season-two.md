@@ -3,7 +3,6 @@ title: "We Got Family Season Two"
 permalink: /blog/we-got-family-season-two/index.html
 date: 2024-11-04T10:00:00.000Z
 excerpt: "Our Fast and Furious podcast is back for season two"
-layout: post
 tags:
     - Podcasting
 project: https://wegot.family

@@ -2,7 +2,6 @@
 title: Misunderstanding Why Apple Is Successful
 permalink: /blog/misunderstanding-why-apple-is-successful/
 date: 2011-08-17 10:00:46
-layout: post
 ---
 
 Kyle Baxter, on Apple's success: 

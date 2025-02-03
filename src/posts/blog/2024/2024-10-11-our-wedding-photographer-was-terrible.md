@@ -3,7 +3,6 @@ title: "Our Wedding Photographer Was Terrible"
 permalink: /blog/our-wedding-photographer-was-terrible/index.html
 date: 2024-10-11T11:52:32.700Z
 excerpt: "A review of our wedding photographer I was going to post then calmed down but here it is anyway with his name redacted"
-layout: post
 tags:
     - Personal
 ---

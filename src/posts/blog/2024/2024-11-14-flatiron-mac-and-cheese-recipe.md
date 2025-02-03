@@ -3,7 +3,6 @@ title: "Flatiron Mac and Cheese Recipe"
 permalink: /blog/flatiron-mac-and-cheese-recipe/index.html
 date: 2024-11-14T10:00:00.000Z
 excerpt: "A Mac and Cheese recipe from a New York restaurant that my friend got and gave to me and now I'm giving it to you"
-layout: post
 tags:
     - Recipes
     - RecipeWeek

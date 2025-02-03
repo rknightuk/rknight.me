@@ -3,7 +3,6 @@ title: Eleventy Post Graph Plugin
 permalink: /blog/eleventy-post-graph-plugin/index.html
 date: 2023-12-19T15:10:02.341Z
 excerpt: "Generate Github-style post distribution graph for your blog posts in Eleventy"
-layout: post
 tags:
     - Development
     - Eleventy

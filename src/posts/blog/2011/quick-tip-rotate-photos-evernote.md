@@ -1,7 +1,6 @@
 ---
 title: "Quick Tip: Rotate Photos in Evernote"
 permalink: /blog/quick-tip-rotate-photos-in-evernote/index.html
-layout: post
 date: 2011-03-20T00:00:00.000Z
 ---
                     

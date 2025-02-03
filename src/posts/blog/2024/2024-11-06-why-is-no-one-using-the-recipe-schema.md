@@ -3,7 +3,6 @@ title: "Why Is No One Using the Recipe Schema?"
 permalink: /blog/why-is-no-one-using-the-recipe-schema/index.html
 date: 2024-11-06T08:47:24.771Z
 excerpt: "I am very confused why recipe extensions aren't using open standards that everyone supports"
-layout: post
 tags:
     - Development
     - OpenWeb

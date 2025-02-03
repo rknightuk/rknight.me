@@ -3,7 +3,6 @@ title: "Trying Raycast: Part One"
 permalink: /blog/trying-raycast-part-one/index.html
 date: 2024-05-01T07:01:33.000Z
 excerpt: "I'm trying out Raycast after using Alfred for nine years"
-layout: post
 tags:
     - Alfred
     - Raycast

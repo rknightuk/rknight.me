@@ -2,7 +2,6 @@
 title: Organise Tasks by Duration
 permalink: /blog/organise-tasks-by-duration/
 date: 2012-03-22 20:19:26
-layout: post
 ---
 
 Every since I've had my iPhone, I have tried all manner of different todo apps and none of them really worked for me until [Clear](http://www.realmacsoftware.com/clear/) was released. Because of the simple interface and speedy input of tasks, this app is perfect for how I like to manage tasks. The problem I cam across was how I had sorted my tasks into different lists. I had things like _uni work, personal, development work_ and so on. And this just didn't work because I would go into the app, look at one list and only do things from there. There was no real way for me to see what I would be able to accomplish in the time I had. So for the past week I've been using a new listing system I thought of: duration of tasks. 

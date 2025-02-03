@@ -1,7 +1,6 @@
 ---
 title: Replacing Apps on Android
 permalink: /blog/replacing-apps-on-android/index.html
-layout: post
 excerpt: "The first step to switching to Android: replacing all my apps"
 date: 2016-10-06T00:00:00.000Z
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Wi-Fi Sync (Jailbreak)"
 date: 2010-05-28T00:00:00.000Z
 tags:

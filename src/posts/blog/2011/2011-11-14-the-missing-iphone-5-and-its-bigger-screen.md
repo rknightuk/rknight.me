@@ -2,7 +2,6 @@
 title: The Missing iPhone 5 and It's Bigger Screen
 permalink: /blog/the-missing-iphone-5-and-its-bigger-screen/
 date: 2011-11-14 15:39:08
-layout: post
 ---
 
 According to [Business Insider](http://www.businessinsider.com/the-iphone-5-was-real-says-a-source-who-played-with-the-prototype-2011-11), there _was_ an iPhone 5 prototype being tested at Apple, with a larger screen. This would match up with reports throughout this year saying that's what was coming. But for one reason or another, they didn't release it. 

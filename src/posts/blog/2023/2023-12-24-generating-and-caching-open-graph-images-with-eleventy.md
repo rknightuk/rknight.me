@@ -3,7 +3,6 @@ title: Generating and Caching Open Graph Images with Eleventy
 permalink: /blog/generating-and-caching-open-graph-images-with-eleventy/index.html
 date: 2023-12-24T10:09:42.501Z
 excerpt: "How I'm caching my open graph images with eleventy-plugin-og-image instead of generating them on every build"
-layout: post
 tags:
     - Eleventy
     - Development

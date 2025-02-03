@@ -3,7 +3,6 @@ title: "Mango Chicken Curry Recipe"
 permalink: /blog/mango-chicken-curry-recipe/index.html
 date: 2024-11-11T08:54:29.000Z
 excerpt: "A mango chicken curry recipe that Baby Knight loves"
-layout: post
 tags:
     - Recipes
     - RecipeWeek

@@ -3,7 +3,6 @@ title: Three Years of Hemispheric Views Feedback
 permalink: /blog/three-years-of-hemispheric-views-feedback/index.html
 date: 2023-08-01T12:00:01.145Z
 excerpt: "I listened to ~70 hours of Hemispheric Views and wrote down all my feedback"
-layout: post
 tags:
   - Podcasting
 ---

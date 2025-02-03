@@ -2,7 +2,6 @@
 title: Fixing Overflow with Inline Lists
 permalink: /blog/fixing-overflow-with-inline-lists/
 date: 2012-10-02 16:35:59
-layout: post
 ---
 
 Whilst creating a new site yesterday and working with inline lists, this code resulted in the menu items overlapping. 

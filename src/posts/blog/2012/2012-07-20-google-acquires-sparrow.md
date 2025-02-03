@@ -2,7 +2,6 @@
 title: Google Acquires Sparrow
 permalink: /blog/google-acquires-sparrow/
 date: 2012-07-20 17:31:39
-layout: post
 ---
 
 In an [email to customers](http://www.theverge.com/2012/7/20/3172222/google-buys-sparrow-mail): 

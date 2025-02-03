@@ -3,7 +3,6 @@ title: "My Wedding Website"
 permalink: /blog/my-wedding-website/index.html
 date: 2024-05-18T12:15:41.639Z
 excerpt: "I've open sourced my wedding website"
-layout: post
 tags:
     - Development
     - Personal

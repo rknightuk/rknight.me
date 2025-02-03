@@ -2,7 +2,6 @@
 title: "University Macbook Setup: 2012 Edition"
 permalink: /blog/university-macbook-setup-2012-edition/
 date: 2012-10-31 19:09:09
-layout: post
 ---
 
 If you’ve been reading my blog for a while, you may have seen my [MacBook Pro Setup post](/blog/my-macbook-pro-setup-for-university/) from last year. Within that article, I listed the applications I was using for university on my MacBook Pro. Not a huge amount has changed in the last year, but I’m now running an 11” Air and have removed a lot of the apps from last year and added a few. 

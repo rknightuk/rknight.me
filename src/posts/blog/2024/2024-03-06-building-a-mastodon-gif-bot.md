@@ -3,7 +3,6 @@ title: "Building a Mastodon Gif Bot"
 permalink: /blog/building-a-mastodon-gif-bot/index.html
 date: 2024-03-04T14:51:15.852Z
 excerpt: "Writing a script to run the @greatscott and @initech bots on beep.town"
-layout: post
 tags:
     - ActivityPub
     - Development

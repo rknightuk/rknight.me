@@ -3,7 +3,6 @@ title: "Interests: A New Sitelet"
 permalink: /blog/interests-a-new-sitelet/index.html
 date: 2024-05-10T05:04:42.574Z
 excerpt: "I've added an /interests page"
-layout: post
 tags:
     - WeblogPoMo
 ---

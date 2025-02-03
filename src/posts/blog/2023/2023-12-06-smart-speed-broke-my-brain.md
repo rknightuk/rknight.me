@@ -3,7 +3,6 @@ title: Smart Speed Broke My Brain
 permalink: /blog/smart-speed-broke-my-brain/index.html
 date: 2023-12-06T22:30:39.098Z
 excerpt: "I turned off smart speed for the first time in a decade"
-layout: post
 tags:
     - Podcasting
 ---

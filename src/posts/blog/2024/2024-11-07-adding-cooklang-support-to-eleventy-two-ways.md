@@ -3,7 +3,6 @@ title: "Adding Cooklang Support to Eleventy Three Ways"
 permalink: /blog/adding-cooklang-support-to-eleventy-two-ways/index.html
 date: 2024-11-07T08:37:23.672Z
 excerpt: "How I added my recipes to my blog posts with cooklang and the recipe schema"
-layout: post
 tags:
     - Development
     - Eleventy

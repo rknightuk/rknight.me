@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Camera One"
 date: 2010-04-08T00:00:00.000Z
 permalink: /blog/appadvice-review-camera-one/index.html

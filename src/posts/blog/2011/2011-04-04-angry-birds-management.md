@@ -2,7 +2,6 @@
 title: The Angry Birds Management Technique
 permalink: /blog/angry-birds-management-thingymajib/
 date: 2011-04-04 12:00:01
-layout: post
 ---
 
 This post on MacWorld about what managers can learn from Angry Birds is excellent. Point two on employee talents: 

@@ -2,7 +2,6 @@
 title: Instacast Pro
 permalink: /blog/instacast-pro/
 date: 2012-05-07 12:23:50
-layout: post
 link: http://itunes.apple.com/gb/app/instacast/id420368235?mt=8
 link-title: Instacast for iPhone
 ---

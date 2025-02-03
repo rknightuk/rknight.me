@@ -3,7 +3,6 @@ title: "Blog Question Challenge"
 permalink: /blog/blog-question-challenge/index.html
 date: 2025-01-15T14:18:04.197Z
 excerpt: "Nine questions about blogging"
-layout: post
 tags:
     - Personal
 ---

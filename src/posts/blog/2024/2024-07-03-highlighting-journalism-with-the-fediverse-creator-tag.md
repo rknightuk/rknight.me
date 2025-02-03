@@ -3,7 +3,6 @@ title: "Highlighting Journalism with the Fediverse Creator Tag"
 permalink: /blog/highlighting-journalism-with-the-fediverse-creator-tag/index.html
 date: 2024-07-03T12:56:44.000Z
 excerpt: "A look at the new fediverse:creator tag"
-layout: post
 tags:
     - ActivityPub
     - Development

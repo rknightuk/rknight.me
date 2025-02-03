@@ -3,7 +3,6 @@ title: "Perplexity AI, Robots.txt, and Other Questions"
 permalink: /blog/perplexity-ai-robotstxt-and-other-questions/index.html
 date: 2024-06-28T11:12:11.506Z
 excerpt: "Follow up on the past week or so of Perplexity nonsense"
-layout: post
 tags:
     - AI
     - OpenWeb

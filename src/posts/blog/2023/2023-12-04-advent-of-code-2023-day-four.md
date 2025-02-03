@@ -3,7 +3,6 @@ title: "Advent of Code 2023: Day Four"
 permalink: /blog/advent-of-code-2023-day-four/index.html
 date: 2023-12-04T13:07:52.766Z
 excerpt: "My solution for \"Scratchcards\""
-layout: post
 tags:
     - Development
     - AdventOfCode

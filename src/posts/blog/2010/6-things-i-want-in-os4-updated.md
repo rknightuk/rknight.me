@@ -1,7 +1,6 @@
 ---
 title: 6 Things I want in OS 4.0 [Updated]
 permalink: /blog/6-things-i-want-in-os4-updated/index.html
-layout: post
 date: 2010-04-05T00:00:00.000Z
 ---
 

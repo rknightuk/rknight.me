@@ -3,7 +3,6 @@ title: "Phrases I Always Forget"
 permalink: /blog/phrases-i-always-forget/index.html
 date: 2024-05-12T05:57:51.273Z
 excerpt: "Some phrases I always have to look up the meaning of"
-layout: post
 tags:
     - WeblogPoMo
 ---

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Qik Video Camera Pro"
 date: 2010-05-13T00:00:00.000Z
 permalink: /blog/appadvice-review-qik-video/index.html

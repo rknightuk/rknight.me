@@ -3,7 +3,6 @@ title: "Initial Thoughts on Red Dead Redemption 2"
 permalink: /blog/initial-thoughts-on-red-dead-redemption-2/index.html
 date: 2018-10-29T08:24:56.000Z
 excerpt: "Some quick thoughts an hour or so into RDR2"
-layout: post
 tags:
     - Games
 ---

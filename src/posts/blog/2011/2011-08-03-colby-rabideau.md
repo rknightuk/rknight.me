@@ -2,7 +2,6 @@
 title: Colby Rabideau on IE6
 permalink: /blog/colby-rabideau/
 date: 2011-08-03 13:05:51
-layout: post
 ---
 
 Colby Rabideau, on building for IE6 as a young developer:

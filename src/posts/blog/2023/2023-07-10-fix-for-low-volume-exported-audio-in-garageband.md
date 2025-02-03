@@ -3,7 +3,6 @@ title: Fix for Low Volume Exported Audio in GarageBand
 permalink: /blog/fix-for-low-volume-exported-audio-in-garageband/index.html
 date: 2023-07-10T08:28:42.770Z
 excerpt: "My exports for my new podcast were really quiet compared to other podcasts. Turns out GarageBand has a setting causing this"
-layout: post
 tags:
   - Podcasting
 ---

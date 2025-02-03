@@ -2,7 +2,6 @@
 title: Moving from Google Calendar to iCloud Syncing
 permalink: /blog/moving-from-google-calendar-to-icloud-syncing/
 date: 2011-10-14 13:05:14
-layout: post
 ---
 
 If, like me, you've been using Google Calendar to sync events to your Mac and iPhone, you know the process is a little convoluted; subscribe to your calendars in iCal, then sync either with GSync or with iTunes. With the release of iCloud, I decided to moved my calendar syncing away from Google for the ease of use. I have detailed the process below in case anyone else is looking to do the same thing. 

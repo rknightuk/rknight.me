@@ -2,7 +2,6 @@
 title: Minority Report-Style Online Shopping
 permalink: /blog/minority-report-style-online-shopping/
 date: 2011-04-11 10:46:50
-layout: post
 ---
 
 This looks amazing. Make a video call, connect to a salespreson and they dynamically show you new products for you to view. I would definitely shop like this. 

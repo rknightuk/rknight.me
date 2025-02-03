@@ -3,7 +3,6 @@ title: Just 2022 Things
 permalink: /blog/just-2022-things/index.html
 date: 2022-12-30T00:00:00.000Z
 excerpt: "A big list of things that happened in 2022"
-layout: post
 tags:
     - Personal
     - YearInReview

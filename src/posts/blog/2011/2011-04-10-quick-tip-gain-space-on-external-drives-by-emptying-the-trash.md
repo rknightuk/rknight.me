@@ -2,7 +2,6 @@
 title: "Quick Tip: Gain Space on External Drives by Emptying the Trash"
 permalink: /blog/quick-tip-gain-space-on-external-drives-by-emptying-the-trash/
 date: 2011-04-10 20:30:59
-layout: post
 ---
 
 Have you deleted a load of files on an external drive, but still haven't gained any space? I had the same problem. Simply empty the trash and all that precious space will return.

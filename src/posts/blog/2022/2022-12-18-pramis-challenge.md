@@ -3,7 +3,6 @@ title: Prami's Challenge
 permalink: /blog/pramis-challenge/index.html
 date: 2022-12-18T07:43:47.235Z
 excerpt: "I attempted Prami's challenge and didn't even get close"
-layout: post
 tags:
     - Development
     - SocialMedia

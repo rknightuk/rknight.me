@@ -3,7 +3,6 @@ title: "My Podcast History"
 permalink: /blog/my-podcast-history/index.html
 date: 2024-05-15T05:41:19.497Z
 excerpt: "How I got started listening to podcasts"
-layout: post
 tags:
     - Podcasting
     - WeblogPoMo

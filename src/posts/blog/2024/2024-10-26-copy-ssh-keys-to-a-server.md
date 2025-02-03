@@ -3,7 +3,6 @@ title: "Copy SSH Keys to a Server"
 permalink: /blog/copy-ssh-keys-to-a-server/index.html
 date: 2024-10-26T13:44:37.552Z
 excerpt: "Notes on setting up SSH on a fresh server"
-layout: post
 tags:
     - Development
 ---

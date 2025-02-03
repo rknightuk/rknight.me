@@ -3,7 +3,6 @@ title: Roast Potato Recipe
 permalink: /blog/roast-potato-recipe/index.html
 date: 2023-12-30T23:52:12.845Z
 excerpt: "A delicious roast potato recipe"
-layout: post
 tags:
     - Recipes
     - Food

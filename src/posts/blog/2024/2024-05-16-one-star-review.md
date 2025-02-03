@@ -3,7 +3,6 @@ title: "One Star Review"
 permalink: /blog/one-star-review/index.html
 date: 2024-05-16T07:05:44.122Z
 excerpt: "The tale of my one star review for a beloved movie"
-layout: post
 tags:
     - Movies
     - WeblogPoMo

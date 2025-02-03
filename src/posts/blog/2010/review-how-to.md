@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: How to Cook Everything"
 date: 2010-05-17T00:00:00.000Z
 permalink: /blog/appadvice-review-how-to/index.html

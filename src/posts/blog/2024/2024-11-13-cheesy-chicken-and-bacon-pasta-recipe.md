@@ -3,7 +3,6 @@ title: "Cheesy Chicken and Bacon Pasta Recipe"
 permalink: /blog/cheesy-chicken-and-bacon-pasta-recipe/index.html
 date: 2024-11-13T11:55:12.594Z
 excerpt: "Day three of recipe week is this new-to-me recipe I tried last week"
-layout: post
 tags:
     - Recipes
     - RecipeWeek

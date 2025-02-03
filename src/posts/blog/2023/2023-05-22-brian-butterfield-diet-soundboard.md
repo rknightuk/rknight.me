@@ -3,7 +3,6 @@ title: Brian Butterfield Diet Soundboard
 permalink: /blog/brian-butterfield-diet-soundboard/index.html
 date: 2023-05-22T14:27:43.112Z
 excerpt: "A soundboard for the Brian Butterfield Diet"
-layout: post
 tags:
   - Development
   - TV

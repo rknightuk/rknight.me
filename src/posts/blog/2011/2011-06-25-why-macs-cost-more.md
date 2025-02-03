@@ -2,7 +2,6 @@
 title: Why Macs Cost More
 permalink: /blog/why-macs-cost-more/
 date: 2011-06-25 16:25:57
-layout: post
 ---
 
 Exactly why I buy Macs: The hardware is just better.

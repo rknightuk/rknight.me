@@ -3,7 +3,6 @@ title: "Slash Pages"
 permalink: /blog/slash-pages/index.html
 date: 2024-05-22T20:21:10.913Z
 excerpt: "A website I made as a guide to common pages you can add to your website"
-layout: post
 tags:
     - Development
     - OpenWeb

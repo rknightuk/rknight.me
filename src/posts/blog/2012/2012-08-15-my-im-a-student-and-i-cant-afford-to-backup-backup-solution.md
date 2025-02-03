@@ -2,7 +2,6 @@
 title: My "I'm a Student and I Can't Afford to Backup" Backup Solution
 permalink: /blog/my-im-a-student-and-i-cant-afford-to-backup-backup-solution/
 date: 2012-08-15 09:00:21
-layout: post
 ---
 
 With all this talk of losing data (see [here](http://www.wired.com/gadgetlab/2012-08-mat-honan-video/) and [here](http://bettermess.com/100/)), I thought I should share my I’m-a-student-don’t-judge-me-I-backup-on-the-cheap backup solution. You might be thinking “What’s with the title, Robb?”. I have heard many of my uni friends make this claim when I enquire as to the workings of their backup. It’s simply not true.

@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Analytics App"
 date: 2010-04-20T00:00:00.000Z
 tags:

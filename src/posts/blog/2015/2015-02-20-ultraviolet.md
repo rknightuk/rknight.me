@@ -1,7 +1,6 @@
 ---
 title: "UltraViolet: Everything is Not Awesome"
 permalink: /blog/ultraviolet/index.html
-layout: post
 excerpt: "I tried to redeem an UltraViolet download code. It didn't go well."
 date: 2015-02-20T00:00:00.000Z
 tags:

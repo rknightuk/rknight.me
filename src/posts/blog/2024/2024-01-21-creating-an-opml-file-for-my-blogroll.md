@@ -3,7 +3,6 @@ title: "Creating an OPML File for my Blogroll"
 permalink: /blog/creating-an-opml-file-for-my-blogroll/index.html
 date: 2024-01-21T07:10:16.416Z
 excerpt: "How I'm creating OPML files for my blog, and pod, rolls so people can subscribe to all of the sites in one go"
-layout: post
 tags:
     - Development
     - Eleventy

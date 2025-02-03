@@ -1,7 +1,6 @@
 ---
 title: Create a Table in Markdown with No Headers
 permalink: /blog/create-a-blank-no-header-markdown-table/index.html
-layout: post
 excerpt: "Markdown doesn't allow you to create tables without a header by default. This little hack allows you to do that."
 date: 2013-11-12T00:00:00.000Z
 tags:

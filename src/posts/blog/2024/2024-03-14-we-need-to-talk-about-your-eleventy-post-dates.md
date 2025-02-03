@@ -3,7 +3,6 @@ title: "We Need to Talk About Your Eleventy Post Dates"
 permalink: /blog/eleventy-post-dates/index.html
 date: 2024-03-14T15:14:14.578Z
 excerpt: "Almost everyone using Eleventy is using blog post dates wrong"
-layout: post
 tags:
     - Development
     - Eleventy

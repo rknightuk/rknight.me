@@ -3,7 +3,6 @@ title: "Every Phone I've Ever Owned"
 permalink: /blog/every-phone-ive-ever-owned/index.html
 date: 2024-05-09T07:30:46.229Z
 excerpt: "A look back at all the phones I've owned in the past 22 years"
-layout: post
 tags:
     - WeblogPoMo
 ---

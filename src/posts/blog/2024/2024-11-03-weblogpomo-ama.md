@@ -3,7 +3,6 @@ title: "WeblogPoMo AMA"
 permalink: /blog/weblogpomo-ama/index.html
 date: 2024-11-03T10:32:36.662Z
 excerpt: "A collection of questions from #WeblogPoMoAMA"
-layout: post
 tags:
     - Personal
     - WeblogPoMo

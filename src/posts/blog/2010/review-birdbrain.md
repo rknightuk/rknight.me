@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Birdbrain"
 date: 2010-04-19T00:00:00.000Z
 tags:

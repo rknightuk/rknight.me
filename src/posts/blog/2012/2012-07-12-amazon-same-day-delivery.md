@@ -2,7 +2,6 @@
 title: Amazon Same Day Delivery
 permalink: /blog/amazon-same-day-delivery/
 date: 2012-07-12 11:50:42
-layout: post
 ---
 
 [According to Slate](http://www.slate.com/articles/business/small_business/2012-07-amazon_same_day_delivery_how_the_e_commerce_giant_will_destroy_local_retail_.single.html): 

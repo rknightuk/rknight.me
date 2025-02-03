@@ -3,7 +3,6 @@ title: "A WeblogPoMo Retrospective"
 permalink: /blog/weblogpomo-retrospective/index.html
 date: 2024-05-31T10:48:03.138Z
 excerpt: "A look at Weblog posting month now we're at the end"
-layout: post
 tags: [WeblogPoMo]
 ---
 

@@ -2,7 +2,6 @@
 title: "Guide: Use Geektool to Show Twitter Updates on Your Desktop"
 permalink: /blog/guide-use-geektool-to-show-twitter-updates-on-your-desktop/
 date: 2011-04-11 17:00:31
-layout: post
 ---
 
 Geektool is an amazing, well, tool for displaying a wealth of information on your desktop. From battery percentage to uptime, Geektool can do pretty much anything you want it to. So how about showing updates from a Twitter user such as, in this case, [@BroTipsHQ](http://twitter.com/brotipshq)?

@@ -3,7 +3,6 @@ title: The Knightpool
 permalink: /blog/the-knightpool/index.html
 date: 2023-03-09T10:02:00.753Z
 excerpt: "The list of baby name guesses in the Knightpool"
-layout: post
 tags:
   - BabyKnight
 ---

@@ -3,7 +3,6 @@ title: "EmojiStorm"
 permalink: /blog/emojistorm/index.html
 date: 2024-12-19T21:22:24.408Z
 excerpt: "A snow-fall project"
-layout: post
 tags:
     - Development
     - Eleventy

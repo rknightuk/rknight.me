@@ -2,7 +2,6 @@
 title: What happened when I celebrated my Facebook birthday on July 11. And July 25. And July 28.
 permalink: /blog/what-happened-when-i-celebrated-my-facebook-birthday-on-july-11-and-july-25-and-july-28/
 date: 2011-08-03 11:57:12
-layout: post
 ---
 
 David Plotz, on Facebook Birthdays:

@@ -3,7 +3,6 @@ title: "Buffalo Sauce Recipe"
 permalink: /blog/buffalo-sauce-recipe/index.html
 date: 2024-11-17T21:07:39.988Z
 excerpt: "The final recipe for recipe week is buffalo sauce"
-layout: post
 tags:
     - Recipes
     - RecipeWeek

@@ -2,7 +2,6 @@
 title: How to Create a Simple Print Stylesheet
 permalink: /blog/how-to-create-a-simple-print-stylesheet/
 date: 2011-08-15 11:00:24
-layout: post
 ---
 
 Print stylesheets are immensely useful for all types of web pages and in my opinion, should be included in _every single web site_. It doesn't matter if you think your visitors won't want to print, take the five minutes to create one (or get your web developer to do it). Here's a quick guide on creating a simple print stylesheet for your website.

@@ -3,7 +3,6 @@ title: "Adding Covers to Almanac"
 permalink: /blog/adding-covers-to-almanac/index.html
 date: 2024-05-28T08:18:19.492Z
 excerpt: "The scripts I used to add posters and covers to my media log entries"
-layout: post
 tags:
     - Development
     - Games

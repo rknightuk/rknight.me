@@ -3,7 +3,6 @@ title: "Stopping Mastodon From Fetching Metadata for My Notes"
 permalink: /blog/stopping-mastodon-from-fetching-metadata-for-my-notes/index.html
 date: 2024-11-19T13:34:28.680Z
 excerpt: "How I configured nginx to block Mastodon from fetching my note pages"
-layout: post
 tags:
     - Development
     - OpenWeb

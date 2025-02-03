@@ -3,7 +3,6 @@ title: "Things I Like: The Incomparable Back to the Future"
 permalink: /blog/things-i-like-the-incomparable-back-to-the-future/index.html
 date: 2024-03-10T08:33:39.014Z
 excerpt: "The Incomparable gave the Back to the Future movies the respect they deserve with an episode for each movie"
-layout: post
 tags:
     - Movies
     - Podcasting

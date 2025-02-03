@@ -3,7 +3,6 @@ title: "My Favourite \"My Favourite Game\" Covers"
 permalink: /blog/my-favourite-my-favourite-game-covers/index.html
 date: 2024-05-07T06:58:31.435Z
 excerpt: "I listened to way too many covers of My Favourite Game to find the best ones, for a joke"
-layout: post
 tags:
     - Music
     - WeblogPoMo

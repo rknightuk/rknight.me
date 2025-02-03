@@ -3,7 +3,6 @@ title: The Web is Fantastic
 permalink: /blog/the-web-is-fantastic/index.html
 date: 2023-12-28T23:52:27.372Z
 excerpt: "No not that web. The real web."
-layout: post
 tags:
     - OpenWeb
     - SocialMedia

@@ -3,7 +3,6 @@ title: "Useful Bluesky Tools"
 permalink: /blog/useful-bluesky-tools/index.html
 date: 2024-11-18T15:15:19.485Z
 excerpt: "Some handy Bluesky-related things I found this weekend"
-layout: post
 tags:
     - Development
     - SocialMedia

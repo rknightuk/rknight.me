@@ -3,7 +3,6 @@ title: "Chicken Tinga Recipe"
 permalink: /blog/chicken-tinga-recipe/index.html
 date: 2024-12-10T12:59:44.000Z
 excerpt: "My modified version of Brian Lagerstrom's chicken tinga recipe"
-layout: post
 tags:
     - Recipes
 recipe: >

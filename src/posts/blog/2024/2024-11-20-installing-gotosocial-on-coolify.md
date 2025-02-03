@@ -3,7 +3,6 @@ title: "Installing GoToSocial on Coolify"
 permalink: /blog/installing-gotosocial-on-coolify/index.html
 date: 2024-11-20T21:00:33.816Z
 excerpt: "Some solutions to a couple of issues I had installing GoToSocial as well as some general notes about it"
-layout: post
 tags:
     - ActivityPub
     - Development

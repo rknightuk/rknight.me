@@ -2,7 +2,6 @@
 title: My Best Friend's Wedding Website
 permalink: /blog/my-best-friends-wedding-website/
 date: 2011-08-15 12:00:09
-layout: post
 ---
 
 ![](https://cdn.rknight.me/site/ab-wedding-website.png)

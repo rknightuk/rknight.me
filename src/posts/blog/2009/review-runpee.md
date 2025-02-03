@@ -6,7 +6,6 @@ type: post
 tags:
   - iPhoneWorldCA
 repost: This article originally appeared on iphoneworld.ca
-layout: post
 ---
 
 When you’ve got to go, you’ve got to go, right? What if you’re watching a movie? If you’re at home you can just pause it. But what if you’re at the cinema? What if you miss something important? That’s where RunPee comes in.

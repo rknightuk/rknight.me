@@ -3,7 +3,6 @@ title: "The Worlds of Podcasting"
 permalink: /blog/the-worlds-of-podcasting/index.html
 date: 2024-04-14T14:42:17.213Z
 excerpt: "ATP and the two different types of podcasts"
-layout: post
 tags:
     - Podcasting
 ---

@@ -2,7 +2,6 @@
 title: Rating an Entire iTunes Library with I Love Stars (And Some Willpower)
 permalink: /blog/rating-an-entire-itunes-library-with-i-love-stars-and-some-willpower/
 date: 2011-07-30 10:00:11
-layout: post
 ---
 
 A few days ago, I got really fed up of having to manually create playlists of songs I love so I set out to rate my iTunes library, in the hopes of using smart playlists for more than just '_songs that were made in the 1990s_'.

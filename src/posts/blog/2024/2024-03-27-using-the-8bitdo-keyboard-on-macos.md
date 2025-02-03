@@ -3,7 +3,6 @@ title: "Using the 8BitDo Keyboard on MacOS"
 permalink: /blog/using-the-8bitdo-keyboard-on-macos/index.html
 date: 2024-03-27T20:30:08.729Z
 excerpt: "How I setup the 8BitDo Keyboard to work as I'd like on MacOS"
-layout: post
 tags:
     - MacOS
 featured: true

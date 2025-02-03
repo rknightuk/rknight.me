@@ -3,7 +3,6 @@ title: Blogs and Wikis and Links
 permalink: /blog/blogs-and-wikis-and-links/index.html
 date: 2023-01-07T00:00:00.000Z
 excerpt: "A brain dump of thoughts of how to handle links, wikis, and websites"
-layout: post
 tags:
   - OpenWeb
 ---

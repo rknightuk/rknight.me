@@ -3,7 +3,6 @@ title: The Difference Between Fact and Trivia
 permalink: /blog/the-difference-between-fact-and-trivia/index.html
 excerpt: "A weird and annoying conversation I had at university today"
 date: 2013-02-27T13:11:00.000Z
-layout: post
 ---
 
 This morning I took a practice exam for one of the web units I’m studying. Most of the questions were fairly easy but one of them in particular annoyed me. The question was:

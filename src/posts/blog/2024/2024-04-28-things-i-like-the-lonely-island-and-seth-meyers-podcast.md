@@ -3,7 +3,6 @@ title: "Things I Like: The Lonely Island and Seth Meyers Podcast"
 permalink: /blog/things-i-like-the-lonely-island-and-seth-meyers-podcast/index.html
 date: 2024-04-28T20:57:19.547Z
 excerpt: "The Lonely Island talk to Seth Meyers about all their digital shorts"
-layout: post
 tags:
     - Music
     - Podcasting

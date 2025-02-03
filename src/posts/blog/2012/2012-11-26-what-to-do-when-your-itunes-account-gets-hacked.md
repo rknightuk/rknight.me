@@ -3,7 +3,6 @@ title: What to Do When Your iTunes Account Gets Hacked
 permalink: /blog/what-to-do-when-your-itunes-account-gets-hacked/index.html
 excerpt: "How I quickly solved an unauthorised purchase on my iTunes account at 2am."
 date: 2012-11-26T20:30:00.000Z
-layout: post
 ---
 
 Early Saturday morning, 2am to be exact, I recieved an email from Apple confirming my lastest purchase. Nothing unusual, I buy apps all the time. Didn’t bother checking it, just marked it as read and archived it. Then I started thinking about what I had bought that day from the iTunes store. I couldn’t think of anything, so I checked the email: £149.99 for an in-app purchase of NBA Season Pass. “Shit” was my first reaction. My account had been comprimised. 

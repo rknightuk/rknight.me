@@ -3,7 +3,6 @@ title: Navigate Project Folders with Pick
 permalink: /blog/navigate-project-folders-with-pick/index.html
 date: 2023-01-19T00:00:00.000Z
 excerpt: "Using pick to jump to a project quickly"
-layout: post
 tags:
   - Development
   - MacOS

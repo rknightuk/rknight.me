@@ -3,7 +3,6 @@ title: "Things I Like: Pizza the Action Seasoning"
 permalink: /blog/things-i-like-pizza-the-action-seasoning/index.html
 date: 2024-02-04T15:50:46.788Z
 excerpt: "A pizza seasoning I bought recently that I've been enjoying"
-layout: post
 tags:
     - Food
     - ThingsILike

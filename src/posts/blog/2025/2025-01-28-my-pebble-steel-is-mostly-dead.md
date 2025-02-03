@@ -3,7 +3,6 @@ title: "My Pebble Steel is (Mostly) Dead"
 permalink: /blog/my-pebble-steel-is-mostly-dead/index.html
 date: 2025-01-28T13:44:41.895Z
 excerpt: "I tried to resurrect my Pebble Steel"
-layout: post
 ---
 
 With the news that [Pebble is coming back](https://ericmigi.com/blog/why-were-bringing-pebble-back) I dug out my Pebble Steel to see if it still worked.

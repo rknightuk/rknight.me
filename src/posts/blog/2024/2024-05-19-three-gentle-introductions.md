@@ -3,7 +3,6 @@ title: "Three Gentle Introductions"
 permalink: /blog/three-gentle-introductions/index.html
 date: 2024-05-19T15:42:28.584Z
 excerpt: "Seven-song playlists as introductions to The Dollyrots, MC Lars, and The Lonely Island"
-layout: post
 tags:
     - Music
     - WeblogPoMo

@@ -2,7 +2,6 @@
 title: Recipe for Any Android Phone Review Ever
 permalink: /blog/recipe-for-any-android-phone-review-ever/
 date: 2011-09-24 17:00:44
-layout: post
 ---
 
 >   * The screen is better, brighter and bigger than on previous devices.

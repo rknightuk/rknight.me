@@ -2,7 +2,6 @@
 title: Fixing the WiFi
 permalink: /blog/fixing-the-wifi/
 date: 2012-01-22 17:08:18
-layout: post
 ---
 
 [Mike Lacher](http://www.mcsweeneys.net/articles/in-which-i-fix-my-girlfriends-grandparents-wifi-and-am-hailed-as-a-conquering-hero#.Txl6BNkI7fg.twitter):

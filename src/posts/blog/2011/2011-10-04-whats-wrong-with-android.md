@@ -2,7 +2,6 @@
 title: What's wrong with Android
 permalink: /blog/whats-wrong-with-android/
 date: 2011-10-04 15:31:00
-layout: post
 ---
 
 From a former iPhone owner: 

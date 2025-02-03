@@ -3,7 +3,6 @@ title: I'm (Not) Building a Podcast Host
 permalink: /blog/im-not-building-a-podcast-host/index.html
 date: 2023-09-20T11:32:33.057Z
 excerpt: "Why I considered building a podcast host until I did the maths on the costs"
-layout: post
 tags:
   - Podcasting
   - Development

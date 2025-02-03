@@ -3,7 +3,6 @@ title: "A Birthday Poem I'm Sure Jason Actually Wrote and Didn't Get AI to Gener
 permalink: /blog/a-birthday-poem-im-sure-jason-actually-wrote-and-didnt-get-ai-to-generate-for-him/index.html
 date: 2024-01-09T22:35:07.022Z
 excerpt: "I got a poem and a picture via email from Jason that he definitely lovingly made all by himself"
-layout: post
 tags:
     - Personal
 ---

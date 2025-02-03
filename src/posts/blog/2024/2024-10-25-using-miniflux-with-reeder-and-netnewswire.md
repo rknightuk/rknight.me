@@ -3,7 +3,6 @@ title: "Using Miniflux with Reeder and NetNewsWire"
 permalink: /blog/using-miniflux-with-reeder-and-netnewswire/index.html
 date: 2024-10-25T11:14:36.069Z
 excerpt: "Instructions on how to log into Miniflux with Reeder and NetNewsWire"
-layout: post
 tags:
     - Apps
     - SelfHosted

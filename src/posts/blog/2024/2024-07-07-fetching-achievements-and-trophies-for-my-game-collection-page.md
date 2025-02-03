@@ -3,7 +3,6 @@ title: "Fetching Achievements and Trophies for my Game Collection Page"
 permalink: /blog/fetching-achievements-and-trophies-for-my-game-collection-page/index.html
 date: 2024-07-07T18:21:00.565Z
 excerpt: "How I'm fetching trophy and achievements to show on my game collection"
-layout: post
 tags:
     - Development
     - Eleventy

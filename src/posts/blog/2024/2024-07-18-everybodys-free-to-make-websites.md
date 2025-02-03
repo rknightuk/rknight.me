@@ -3,7 +3,6 @@ title: "Everybody's Free (to Make Websites)"
 permalink: /blog/everybodys-free-to-make-websites/index.html
 date: 2024-07-18T07:37:59.982Z
 excerpt: "A project by Sara, Keenan, and myself"
-layout: post
 tags:
     - OpenWeb
 ---

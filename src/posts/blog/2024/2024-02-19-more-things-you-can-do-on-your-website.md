@@ -3,7 +3,6 @@ title: "More Things You Can Do on Your Website"
 permalink: /blog/more-things-you-can-do-on-your-website/index.html
 date: 2024-02-19T12:14:03.264Z
 excerpt: "Adding more ideas to James' list of 83 things to do on your website"
-layout: post
 tags:
     - OpenWeb
 ---

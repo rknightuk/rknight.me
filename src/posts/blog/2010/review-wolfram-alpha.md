@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Wolfram Alpha"
 date: 2010-04-13T00:00:00.000Z
 type: post

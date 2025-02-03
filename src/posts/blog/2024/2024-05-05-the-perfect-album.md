@@ -3,7 +3,6 @@ title: "The Perfect Album"
 permalink: /blog/the-perfect-album/index.html
 date: 2024-05-05T08:31:56.253Z
 excerpt: "Albums I love with no tracks I skip"
-layout: post
 tags:
     - Music
     - Podcasting

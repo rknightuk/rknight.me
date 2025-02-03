@@ -3,7 +3,6 @@ title: "Naming My Computers"
 permalink: /blog/naming-my-computers/index.html
 date: 2024-11-15T13:23:18.246Z
 excerpt: "The naming scheme for my computers and other devices"
-layout: post
 ---
 
 Alex has an excellent post about how [they name their computers](https://alexwlchan.net/2024/how-i-name-my-computers/) which is, as they mention, a very important part of setting up a new device.

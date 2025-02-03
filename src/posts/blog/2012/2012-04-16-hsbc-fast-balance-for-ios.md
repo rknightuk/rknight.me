@@ -2,7 +2,6 @@
 title: HSBC Fast Balance for iOS
 permalink: /blog/hsbc-fast-balance-for-ios/
 date: 2012-04-16 16:35:31
-layout: post
 ---
 
 HSBC have finally released a current account app for iOS. HSBC Fast Balance does exactly what it says on the tin: allows you to quickly check your balance and your five most recent transactions. Other features include topping up your mobile phone credit and multiple account support.

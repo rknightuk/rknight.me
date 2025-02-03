@@ -3,7 +3,6 @@ title: "Two Game Posts Saved from the Archives"
 permalink: /blog/two-game-posts-saved-from-the-archives/index.html
 date: 2024-05-26T11:40:05.485Z
 excerpt: "A couple of game related Twitter memes I saved from the archives"
-layout: post
 tags:
     - Games
     - WeblogPoMo

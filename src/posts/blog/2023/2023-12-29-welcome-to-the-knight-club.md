@@ -3,7 +3,6 @@ title: Welcome to the Knight Club
 permalink: /blog/welcome-to-the-knight-club/index.html
 date: 2023-12-29T13:21:50.421Z
 excerpt: "The inaugural RSS club post"
-layout: post
 rssClub: true
 ---
 

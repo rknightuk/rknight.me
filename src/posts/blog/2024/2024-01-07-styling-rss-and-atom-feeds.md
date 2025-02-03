@@ -3,7 +3,6 @@ title: Styling RSS and Atom Feeds
 permalink: /blog/styling-rss-and-atom-feeds/index.html
 date: 2024-01-07T15:08:15.093Z
 excerpt: "Some notes on how to style RSS and Atom feeds with XSLT stylesheets"
-layout: post
 tags:
     - Development
     - OpenWeb

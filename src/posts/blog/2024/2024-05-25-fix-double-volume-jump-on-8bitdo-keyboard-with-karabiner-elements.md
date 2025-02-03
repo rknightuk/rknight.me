@@ -3,7 +3,6 @@ title: "Fix Double Volume Jump on 8BitDo Keyboard with Karabiner Elements"
 permalink: /blog/fix-double-volume-jump-on-8bitdo-keyboard-with-karabiner-elements/index.html
 date: 2024-05-25T13:10:57.264Z
 excerpt: "A slightly hacky fix for the volume knob moving the volume twice"
-layout: post
 tags:
     - MacOS
     - WeblogPoMo

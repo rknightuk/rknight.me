@@ -3,7 +3,6 @@ title: "Music Questions Challenge"
 permalink: /blog/music-questions-challenge/index.html
 date: 2025-02-02T23:24:30.568Z
 excerpt: "Another blogging challenge, music this time"
-layout: post
 tags:
     - Music
     - Personal

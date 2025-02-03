@@ -3,7 +3,6 @@ title: "Trying Raycast: Part Two"
 permalink: /blog/trying-raycast-part-two/index.html
 date: 2024-05-23T07:26:43.253Z
 excerpt: "In this second part I dig into extensions including building some of my own"
-layout: post
 tags:
     - Alfred
     - MacOS

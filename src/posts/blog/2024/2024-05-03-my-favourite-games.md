@@ -3,7 +3,6 @@ title: "My Favourite Games"
 permalink: /blog/my-favourite-games/index.html
 date: 2024-05-03T07:25:16.000Z
 excerpt: "A big list of my favourite games of all time broken down by genre"
-layout: post
 tags:
     - Games
     - WeblogPoMo

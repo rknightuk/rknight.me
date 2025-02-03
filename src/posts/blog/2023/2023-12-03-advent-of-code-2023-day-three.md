@@ -3,7 +3,6 @@ title: "Advent of Code 2023: Day Three"
 permalink: /blog/advent-of-code-2023-day-three/index.html
 date: 2023-12-03T11:50:39.013Z
 excerpt: "My solution for \"Gear Ratios\""
-layout: post
 tags:
     - Development
     - AdventOfCode

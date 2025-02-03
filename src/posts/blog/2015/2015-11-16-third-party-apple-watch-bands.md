@@ -1,7 +1,6 @@
 ---
 title: Third Party Apple Watch Bands Review
 permalink: /blog/third-party-apple-watch-bands/index.html
-layout: post
 excerpt: "A review of some third-party replicas of Apple's watch bands"
 date: 2015-11-16T00:00:00.000Z
 ---

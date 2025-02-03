@@ -3,7 +3,6 @@ title: "How I Make a Podcast Episode"
 permalink: /blog/how-i-make-a-podcast-episode/index.html
 date: 2024-02-17T12:45:47.234Z
 excerpt: "A quick overview of how I record, edit, and release a podcast episode"
-layout: post
 tags:
     - Podcasting
 project: https://ruminatepodcast.com

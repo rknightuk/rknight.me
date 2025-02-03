@@ -3,7 +3,6 @@ title: "Fix Missing Distutils on MacOS"
 permalink: /blog/fix-missing-distutils-on-macos/index.html
 date: 2024-03-01T23:00:14.663Z
 excerpt: "A fix to a very annoying issue I encounted"
-layout: post
 tags:
     - Development
 ---

@@ -2,7 +2,6 @@
 title: Cameron Banga's iPhone User Interface Cookbook
 permalink: /blog/cameron-bangas-iphone-user-interface-cookbook/
 date: 2011-12-05 14:46:25
-layout: post
 ---
 
 About a year ago [Cameron Banga](http://cameronbanga.com) was looking for a couple of technical reviewers for a book he was writing. I jumped at the chance to be part of the process and immediately told him I would do it. Fast forward to today when I received my print copy of the completed book in the post. I was excited not only to see the finished project, but also to see my name in a book that isn't "_Britain's Most Wanted Criminals_". ((I'm kidding. They never printed my name)) This post is a quick look at the book as well as my thoughts on being a technical reviewer for such a publication.

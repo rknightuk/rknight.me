@@ -3,7 +3,6 @@ title: My Home Screen (November 2017)
 permalink: /blog/homescreen-november-2017/index.html
 date: 2018-03-15T15:25:00.000Z
 excerpt: "My iPhone home screen as of November 2017"
-layout: post
 tags:
     - Homescreen
 repost: This post originally appeared in <a href="https://club.macstories.net/posts/home-screen-robb-lewis">issue 104 of MacStories Weekly</a>

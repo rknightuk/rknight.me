@@ -3,7 +3,6 @@ title: Creating Permanent and Temporary Redirects with Nginx
 permalink: /blog/creating-permanent-and-temporary-redirects-with-nginx/index.html
 date: 2024-01-01T13:16:10.649Z
 excerpt: "How to create redirects in Nginx"
-layout: post
 tags:
     - Development
 ---

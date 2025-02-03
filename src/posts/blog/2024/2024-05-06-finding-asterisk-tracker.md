@@ -3,7 +3,6 @@ title: "Finding Asterisk Tracker"
 permalink: /blog/finding-asterisk-tracker/index.html
 date: 2024-05-06T07:20:00.210Z
 excerpt: "The story of how I found 30-year-old game with a crude Keynote drawing and Google reverse image search"
-layout: post
 tags:
     - Games
     - WeblogPoMo

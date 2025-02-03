@@ -3,7 +3,6 @@ title: "The Converse Experiment: Report One"
 permalink: /blog/the-converse-experiment-report-one/index.html
 date: 2024-05-30T14:20:14.493Z
 excerpt: "How long does a pair of Converse last?"
-layout: post
 tags:
     - WeblogPoMo
 ---

@@ -3,7 +3,6 @@ title: "Quick Thoughts on Crisps"
 permalink: /blog/quick-thoughts-on-crisps/index.html
 date: 2024-01-25T17:17:34.688Z
 excerpt: "Crisps: My specialist subject that isn't Back to the Future"
-layout: post
 tags:
     - Food
 ---

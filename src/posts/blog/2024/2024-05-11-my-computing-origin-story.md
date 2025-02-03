@@ -3,7 +3,6 @@ title: "My Computing Origin Story"
 permalink: /blog/my-computing-origin-story/index.html
 date: 2024-05-11T19:56:49.919Z
 excerpt: "All the computers I've owned or used"
-layout: post
 tags:
     - Personal
     - Podcasting

@@ -3,7 +3,6 @@ title: "Some Alfred Workflow Updates"
 permalink: /blog/some-alfred-workflow-updates/index.html
 date: 2024-02-27T14:44:09.243Z
 excerpt: "A few updates and changes to my Alfred workflows"
-layout: post
 tags:
     - Alfred
     - MacOS

@@ -2,7 +2,6 @@
 title: Teenweb Conference 2011
 permalink: /blog/teenweb-conference-2011/
 date: 2011-12-10 17:24:09
-layout: post
 ---
 
 I'm on the train home after a long but awesome day at [Teenweb Conference](http://teenwebconf.com) and thought I should write up some of my thoughts about the day.

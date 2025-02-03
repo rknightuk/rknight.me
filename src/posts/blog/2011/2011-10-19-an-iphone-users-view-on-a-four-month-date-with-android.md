@@ -2,7 +2,6 @@
 title: An iPhone User's View on a Four Month Date with Android
 permalink: /blog/an-iphone-users-view-on-a-four-month-date-with-android/
 date: 2011-10-19 14:28:49
-layout: post
 ---
 
 Ryan Heise: 

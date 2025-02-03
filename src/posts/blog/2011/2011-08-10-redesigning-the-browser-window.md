@@ -2,7 +2,6 @@
 title: Redesigning the browser window
 permalink: /blog/redesigning-the-browser-window/
 date: 2011-08-10 13:41:19
-layout: post
 ---
 
 On tab placement:

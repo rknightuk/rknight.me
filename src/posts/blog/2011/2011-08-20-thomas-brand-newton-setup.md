@@ -2,7 +2,6 @@
 title: Thomas Brand’s Sweet Newton Setup
 permalink: /blog/thomas-brand-newton-setup/
 date: 2011-08-20 10:00:23
-layout: post
 ---
 
 Interview by Shawn Blanc with Thomas Brand, who uses his Apple Newton _every day_: 

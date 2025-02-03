@@ -2,7 +2,6 @@
 title: Grab a Bargain via RSS with Apple Refurb Tracker
 permalink: /blog/grab-a-bargain-via-rss-with-apple-refurb-tracker/
 date: 2011-04-05 09:00:40
-layout: post
 ---
 
 Feed generator for tracking refurbished Apple products in a number of countries, with the ability to choose specific products: 

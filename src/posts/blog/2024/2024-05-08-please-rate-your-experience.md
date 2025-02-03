@@ -3,7 +3,6 @@ title: "Please Rate Your Experience"
 permalink: /blog/please-rate-your-experience/index.html
 date: 2024-05-08T04:54:10.491Z
 excerpt: "Stop asking me to rate your service"
-layout: post
 tags:
     - WeblogPoMo
 ---

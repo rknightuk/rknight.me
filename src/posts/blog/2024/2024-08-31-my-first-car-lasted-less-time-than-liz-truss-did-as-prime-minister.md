@@ -3,7 +3,6 @@ title: "My First Car Lasted Less Time Than Liz Truss Did as Prime Minister"
 permalink: /blog/my-first-car-lasted-less-time-than-liz-truss-did-as-prime-minister/index.html
 date: 2024-08-31T20:39:16.119Z
 excerpt: "I only had my first car for ten days"
-layout: post
 tags:
     - Personal
 ---

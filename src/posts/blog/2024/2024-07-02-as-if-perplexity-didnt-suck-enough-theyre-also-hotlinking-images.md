@@ -3,7 +3,6 @@ title: "As If Perplexity Didn’t Suck Enough They’re Also Hotlinking Images"
 permalink: /blog/as-if-perplexity-didnt-suck-enough-theyre-also-hotlinking-images/index.html
 date: 2024-07-02T11:31:09.823Z
 excerpt: "Perplexity are hotlinking images like the grifters they are"
-layout: post
 tags:
     - AI
     - OpenWeb

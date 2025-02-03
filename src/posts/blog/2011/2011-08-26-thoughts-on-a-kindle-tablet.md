@@ -2,7 +2,6 @@
 title: Thoughts on a Kindle Tablet
 permalink: /blog/thoughts-on-a-kindle-tablet/
 date: 2011-08-26 18:20:07
-layout: post
 ---
 
 Dan Provost, on the rumoured Amazon 'tablet': 

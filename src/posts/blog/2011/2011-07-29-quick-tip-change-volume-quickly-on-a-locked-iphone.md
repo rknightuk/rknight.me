@@ -2,7 +2,6 @@
 title: "Quick Tip: Change Volume Quickly on a Locked iPhone"
 permalink: /blog/quick-tip-change-volume-quickly-on-a-locked-iphone/
 date: 2011-07-29 21:04:16
-layout: post
 ---
 
 [Mac OS X Hints](http://hints.macworld.com/article.php?story=20110722201229322):

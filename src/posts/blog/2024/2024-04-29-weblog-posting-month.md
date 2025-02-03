@@ -3,7 +3,6 @@ title: "Weblog Posting Month 2024"
 permalink: /blog/weblog-posting-month-2024/index.html
 date: 2024-04-29T19:45:59.141Z
 excerpt: "I'm going to be posting every day in May for WeblogPoMo"
-layout: post
 tags:
     - WeblogPoMo
 ---

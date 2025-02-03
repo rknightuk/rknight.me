@@ -1,7 +1,6 @@
 ---
 title: Enable HDR with PS4 on Hisense H43M3000
 permalink: /blog/hdr-hisense-tv-ps4/index.html
-layout: post
 excerpt: "Enabling PS4 HDR on Hisense H43M3000"
 date: 2017-05-05T00:00:00.000Z
 ---

@@ -3,7 +3,6 @@ title: "Fix Crackly Audio When Using Bluetooth Headphones on MacOS"
 permalink: /blog/fix-crackly-audio-when-using-bluetooth-headphones-on-macos/index.html
 date: 2024-10-18T11:59:23.000Z
 excerpt: "Switching the input settings on MacOS fixes crackly audio over bluetooth"
-layout: post
 tags:
     - MacOS
 ---

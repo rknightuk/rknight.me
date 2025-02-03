@@ -3,7 +3,6 @@ title: Compiling CSS with Eleventy
 permalink: /blog/compiling-css-with-eleventy/index.html
 date: 2023-08-16T12:30:35.115Z
 excerpt: "A list of different options for compiling CSS with Eleventy"
-layout: post
 tags:
   - Development
   - Eleventy

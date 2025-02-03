@@ -2,7 +2,6 @@
 title: My Macbook Pro Setup for University
 permalink: /blog/my-macbook-pro-setup-for-university/
 date: 2011-08-29 10:11:30
-layout: post
 ---
 
 In preparation for starting Web Technologies at uni next month, I did a clean install on my MacBook Pro and install only the apps that I will need for uni. After a lot of swapping, testing and changing, here is the complete list: 

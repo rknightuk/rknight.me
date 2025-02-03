@@ -2,7 +2,6 @@
 title: The Meaning Behind the Sony Vaio Logo
 permalink: /blog/the-meaning-behind-the-sony-vaio-logo/
 date: 2011-08-12 12:39:16
-layout: post
 ---
 
 So that's what it means. Cool.

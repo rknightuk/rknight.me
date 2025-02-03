@@ -2,7 +2,6 @@
 title: 60 Year Old Reviews the iPad, Her First Computer
 permalink: /blog/60-year-old-reviews-the-ipad/
 date: 2011-04-03 19:31:04
-layout: post
 ---
 
 David Worthington's mum got an iPad, which just so happens to be her first computer. This is my favourite bit: 

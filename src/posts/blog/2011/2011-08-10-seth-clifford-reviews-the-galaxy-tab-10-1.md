@@ -2,7 +2,6 @@
 title: Seth Clifford Reviews the Galaxy Tab 10.1
 permalink: /blog/seth-clifford-reviews-the-galaxy-tab-10-1/
 date: 2011-08-10 12:36:53
-layout: post
 ---
 
 Seth Clifford, on available apps:

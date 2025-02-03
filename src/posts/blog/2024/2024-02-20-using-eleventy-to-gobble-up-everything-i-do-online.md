@@ -3,7 +3,6 @@ title: "Using Eleventy to Gobble Up Everything I Do Online"
 permalink: /blog/using-eleventy-to-gobble-up-everything-i-do-online/index.html
 date: 2024-02-21T20:47:27.981Z
 excerpt: "A blog post about how my site works based on a talk I did at the Eleventy meetup"
-layout: post
 tags:
     - Development
     - Eleventy
@@ -253,7 +252,6 @@ title: "Using Eleventy to Gobble Up Everything I Do Online"
 permalink: /blog/using-eleventy-to-gobble-up-everything-i-do-online/index.html
 date: 2024-02-20T16:47:27.981Z
 excerpt: "A blog post about how my site works based on a talk I did at the Eleventy meetup"
-layout: post
 tags:
     - Development
     - Eleventy
@@ -321,7 +319,6 @@ title: "A New Post"
 permalink: /blog/a-new-post/index.html
 date: 2024-02-21T11:36:14.696Z
 excerpt: ""
-layout: post
 tags:
     - Eleventy
     - OpenWeb

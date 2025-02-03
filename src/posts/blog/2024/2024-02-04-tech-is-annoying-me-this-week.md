@@ -3,7 +3,6 @@ title: "Tech is Annoying Me This Week"
 permalink: /blog/tech-is-annoying-me-this-week/index.html
 date: 2024-02-04T10:35:52.352Z
 excerpt: "An incomplete list of tech things that are annoying me this week"
-layout: post
 tags:
     - Development
     - MacOS

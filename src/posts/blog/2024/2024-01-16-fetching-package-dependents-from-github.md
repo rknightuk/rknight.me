@@ -3,7 +3,6 @@ title: "Fetching Package Dependents from GitHub"
 permalink: /blog/fetching-package-dependents-from-github/index.html
 date: 2024-01-16T20:50:28.515Z
 excerpt: "Using linkedom to grab all repositories that are depending on my post graph plugin"
-layout: post
 tags:
     - Development
     - Eleventy

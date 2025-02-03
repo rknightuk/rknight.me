@@ -1,5 +1,5 @@
 {
-    "layout": "note",
+    "layout": "posts/note",
     "eleventyComputed": {
         "title": "{{ date | postDate }} at {{ date | postTime }}",
         "metaTitle": "A note from the desk of Robb Knight",

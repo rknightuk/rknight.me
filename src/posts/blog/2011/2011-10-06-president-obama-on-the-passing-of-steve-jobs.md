@@ -2,7 +2,6 @@
 title: President Obama on the Passing of Steve Jobs
 permalink: /blog/president-obama-on-the-passing-of-steve-jobs/
 date: 2011-10-06 13:42:25
-layout: post
 ---
 
 > The world has lost a visionary. And there may be no greater tribute to Steve’s success than the fact that much of the world learned of his passing on a device he invented. 

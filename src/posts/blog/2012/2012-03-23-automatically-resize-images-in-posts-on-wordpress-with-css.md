@@ -2,7 +2,6 @@
 title: Automatically Resize Images in Posts on Wordpress with CSS
 permalink: /blog/automatically-resize-images-in-posts-on-wordpress-with-css/
 date: 2012-03-23 16:34:08
-layout: post
 ---
 
 Quick tip for something that I just worked out on how to automatically resize a large image to the maximum width of your Wordpress post section: 

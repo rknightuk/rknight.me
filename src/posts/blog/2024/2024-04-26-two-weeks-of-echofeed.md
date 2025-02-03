@@ -3,7 +3,6 @@ title: "Two Weeks of EchoFeed"
 permalink: /blog/two-weeks-of-echofeed/index.html
 date: 2024-04-26T11:28:19.621Z
 excerpt: "EchoFeed launched two weeks ago and it's been more successful than I could have hoped."
-layout: post
 tags:
     - Development
     - EchoFeed

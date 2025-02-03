@@ -3,7 +3,6 @@ title: "My First Mac"
 permalink: /blog/my-first-mac/index.html
 date: 2024-01-25T07:47:37.325Z
 excerpt: "It's the Mac's 40th anniversary so here's the story of my first Mac"
-layout: post
 tags:
     - MacOS
     - Personal

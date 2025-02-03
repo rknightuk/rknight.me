@@ -3,7 +3,6 @@ title: Follow Mastodon User on Micro.blog Shortcut
 permalink: /blog/follow-mastodon-user-on-micro.blog-shortcut/index.html
 date: 2022-11-03T00:00:00.000Z
 excerpt: "A shortcut to redirect to the correct follow page to follow a Mastodon user on Micro.blog"
-layout: post
 tags:
     - Mastodon
     - SocialMedia

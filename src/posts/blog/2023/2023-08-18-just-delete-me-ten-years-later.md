@@ -3,7 +3,6 @@ title: "Just Delete Me: Ten Years Later"
 permalink: /blog/just-delete-me-ten-years-later/index.html
 date: 2023-08-18T12:44:06.279Z
 excerpt: "Ten years ago we launched JustDelete.me"
-layout: post
 tags:
   - Development
 ---

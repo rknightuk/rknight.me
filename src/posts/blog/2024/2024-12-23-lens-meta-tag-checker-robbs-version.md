@@ -3,7 +3,6 @@ title: "Lens: Meta Tag Checker (Robb's Version)"
 permalink: /blog/lens-meta-tag-checker-robbs-version/index.html
 date: 2024-12-23T15:53:34.000Z
 excerpt: "Lens is my take on a meta tag checker that works exactly how I want it to"
-layout: post
 tags:
     - Development
     - OpenWeb

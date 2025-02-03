@@ -3,7 +3,6 @@ title: Letters with Kev Quirk
 permalink: /blog/letters-with-kev-quirk/index.html
 date: 2023-12-30T23:24:40.599Z
 excerpt: "I emailed with Kev during December as part of his PenPals project"
-layout: post
 tags:
     - Letters
     - OpenWeb

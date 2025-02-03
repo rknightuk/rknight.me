@@ -3,7 +3,6 @@ title: "St Jude 2024"
 permalink: /blog/st-jude-2024/index.html
 date: 2024-08-28T15:48:58.070Z
 excerpt: "Our annual St Jude sub campaign is live"
-layout: post
 tags:
     - StJude
 ---

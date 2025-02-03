@@ -3,7 +3,6 @@ title: "Setting Up DNSControl"
 permalink: /blog/setting-up-dnscontrol/index.html
 date: 2024-10-17T20:36:45.692Z
 excerpt: "A quick overview of getting started with DNSControl"
-layout: post
 tags:
     - Development
     - OpenWeb

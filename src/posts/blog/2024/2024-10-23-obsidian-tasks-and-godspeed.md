@@ -3,7 +3,6 @@ title: "Obsidian Tasks and Godspeed"
 permalink: /blog/obsidian-tasks-and-godspeed/index.html
 date: 2024-10-23T20:16:52.096Z
 excerpt: "I tried to use Obsidian Tasks for two weeks and it didn't work out so I'm using Godspeed now"
-layout: post
 tags:
     - Apps
     - MacOS

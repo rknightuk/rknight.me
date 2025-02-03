@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: qStatus"
 date: 2010-07-27T00:00:00.000Z
 permalink: /blog/appadvice-review-qstatus/index.html

@@ -3,7 +3,6 @@ title: "Using Setapp"
 permalink: /blog/using-setapp/index.html
 date: 2024-10-28T20:09:57.674Z
 excerpt: "Working out if Setapp is worth it for me. Turns out it is."
-layout: post
 tags:
     - Apps
     - MacOS

@@ -2,7 +2,6 @@
 title: Lovefilm's Cancellation Procedure Sucks Big Time
 permalink: /blog/lovefilms-cancellation-procedure-sucks-big-time/
 date: 2011-08-29 08:00:17
-layout: post
 ---
 
 Here's Lovefilm's current steps for cancelling an account:

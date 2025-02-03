@@ -1,7 +1,6 @@
 ---
 title: My Home Screen (September 2015)
 permalink: /blog/homescreen-september-2015/index.html
-layout: post
 excerpt: "My iPhone home screen as of September 2015"
 date: 2015-09-11T00:00:00.000Z
 tags:

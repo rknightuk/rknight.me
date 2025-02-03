@@ -1,7 +1,6 @@
 ---
 title: Amazon Echo Initial Thoughts
 permalink: /blog/amazon-echo-initial-thoughts/index.html
-layout: post
 excerpt: "My initial thoughts on the Amazon Echo"
 date: 2016-09-29T00:00:00.000Z
 ---

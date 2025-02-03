@@ -3,7 +3,6 @@ title: "Mastodon Webmentions and Privacy"
 permalink: /blog/mastodon-webmentions-and-privacy/index.html
 date: 2024-02-10T16:36:01.450Z
 excerpt: "Some thoughts on the privacy implications of doing Mastodon-based webmentions"
-layout: post
 tags:
     - ActivityPub
     - Development

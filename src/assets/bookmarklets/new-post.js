@@ -64,7 +64,6 @@ title: "${title}"
 permalink: /links/${slug}/index.html
 date: ${dateString}
 excerpt: ""
-layout: post
 tags:
 ---
 ${linkUrl}

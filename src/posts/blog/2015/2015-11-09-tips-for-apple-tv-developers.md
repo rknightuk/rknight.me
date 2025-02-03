@@ -1,7 +1,6 @@
 ---
 title: Tips for Apple TV App Developers
 permalink: /blog/tips-for-apple-tv-app-developers/index.html
-layout: post
 excerpt: "Some tips for marketing your Apple TV app successfully."
 date: 2015-11-09T00:00:00.000Z
 tags:

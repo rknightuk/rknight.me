@@ -3,7 +3,6 @@ title: "Thinking About Recipe Formats More Than Anyone Should"
 permalink: /blog/thinking-about-recipe-formats-more-than-anyone-should/index.html
 date: 2024-11-04T20:23:58.764Z
 excerpt: "I investigated the various standards available for storing and presenting recipes on the web"
-layout: post
 tags:
     - OpenWeb
     - Recipes

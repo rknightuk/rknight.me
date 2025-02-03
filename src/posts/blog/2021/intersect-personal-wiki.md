@@ -3,7 +3,6 @@ title: "The Intersect: My Personal Wiki"
 permalink: /blog/intersect/index.html
 date: 2021-08-23T00:00:00.000Z
 excerpt: "Intersect is a personal wiki built with Eleventy"
-layout: post
 tags:
     - Development
     - Eleventy

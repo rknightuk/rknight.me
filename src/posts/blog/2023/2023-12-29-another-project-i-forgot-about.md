@@ -3,7 +3,6 @@ title: Another Project I Forgot About
 permalink: /blog/another-project-i-forgot-about/index.html
 date: 2023-12-29T15:58:44.740Z
 excerpt: "A project I forgot to include in the first Knight club post"
-layout: post
 rssClub: true
 ---
 

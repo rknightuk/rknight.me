@@ -2,7 +2,6 @@
 title: Initial Thoughts on App.Net
 permalink: /blog/initial-thoughts-on-app-net/
 date: 2012-08-21 13:18:14
-layout: post
 ---
 
 ### Timeline feels crowded

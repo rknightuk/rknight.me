@@ -3,7 +3,6 @@ title: "Snippets I Use Regularly"
 permalink: /blog/snippets-i-use-regularly/index.html
 date: 2024-01-13T14:17:27.713Z
 excerpt: "A list of my most-used snippets in Alfred"
-layout: post
 tags:
     - Development
     - Alfred

@@ -3,7 +3,6 @@ title: "100 Best Albums (Robb's Version)"
 permalink: /blog/100-best-albums-robbs-version/index.html
 date: 2024-05-14T10:15:24.153Z
 excerpt: "My top albums and artists from the past three years"
-layout: post
 tags:
     - Development
     - Music

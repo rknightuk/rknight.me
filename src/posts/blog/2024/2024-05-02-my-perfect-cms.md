@@ -3,7 +3,6 @@ title: "My Perfect CMS"
 permalink: /blog/my-perfect-cms/index.html
 date: 2024-05-02T07:17:03.000Z
 excerpt: "The features of my perfect content management system"
-layout: post
 tags:
     - Development
     - WeblogPoMo

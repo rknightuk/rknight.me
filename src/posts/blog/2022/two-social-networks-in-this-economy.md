@@ -3,7 +3,6 @@ title: Two Social Networks? In This Economy?
 permalink: /blog/two-social-networks-in-this-economy/index.html
 date: 2022-12-22T00:00:00.000Z
 excerpt: "Why I'm using Micro.blog and Mastodon"
-layout: post
 tags:
     - SocialMedia
     - Mastodon

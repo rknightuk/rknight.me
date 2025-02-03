@@ -3,7 +3,6 @@ title: "Do You Not Fear Death, Sir?"
 permalink: /blog/do-you-not-fear-death-sir/index.html
 date: 2024-05-20T08:18:18.852Z
 excerpt: "I drove a car for the first time in 15 years yesterday"
-layout: post
 tags:
     - Personal
     - WeblogPoMo

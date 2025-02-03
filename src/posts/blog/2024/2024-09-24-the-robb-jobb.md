@@ -3,7 +3,6 @@ title: "The Robb Jobb"
 permalink: /blog/the-robb-jobb/index.html
 date: 2024-09-24T12:47:53.000Z
 excerpt: "The recipe for my party punch that no one should ever make or drink"
-layout: post
 tags:
     - Food
     - Recipes

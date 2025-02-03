@@ -3,7 +3,6 @@ title: Save Bookmark to Micro.blog Shortcut
 permalink: /blog/save-bookmark-to-micro-blog-shortcut/index.html
 date: 2022-04-28T00:00:00.000Z
 excerpt: "A shortcut to save bookmarks on micro.blog"
-layout: post
 tags:
     - Shortcuts
 ---

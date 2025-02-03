@@ -2,7 +2,6 @@
 title: Stop the Flow, Go Against the Flow, Start the flow
 permalink: /blog/stop-the-flow-go-against-the-flow-start-the-flow/
 date: 2011-10-22 16:12:00
-layout: post
 ---
 
 Ricky Gervias on being life: 

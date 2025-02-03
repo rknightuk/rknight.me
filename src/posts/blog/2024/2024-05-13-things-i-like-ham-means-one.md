@@ -3,7 +3,6 @@ title: "Things I Like: Ham Means One"
 permalink: /blog/things-i-like-ham-means-one/index.html
 date: 2024-05-13T06:35:30.641Z
 excerpt: "I can't stop thinking about a video from Waffle House about how they \"mark\" orders"
-layout: post
 tags:
     - Podcasting
     - ThingsILike

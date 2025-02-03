@@ -3,7 +3,6 @@ title: Instapaper Beta
 permalink: /blog/instapaper-beta/index.html
 excerpt: "Instapaper has a new beta version of the website"
 date: 2013-08-10T00:00:00.000Z
-layout: post
 tags:
     - Apps
 ---

@@ -3,7 +3,6 @@ title: "Three Months of The Johnny Decimal System"
 permalink: /blog/three-months-of-the-johnny-decimal-system/index.html
 date: 2024-02-15T08:24:22.349Z
 excerpt: "Looking at my Johnny Decimal System three months into implementing it"
-layout: post
 tags:
     - MacOS
 ---

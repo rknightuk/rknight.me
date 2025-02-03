@@ -2,7 +2,6 @@
 title: The Top Two Best Selling Phones for Quarter Two this Year Were...
 permalink: /blog/the-top-two-best-selling-phones-for-quarter-two-this-year-were/
 date: 2011-08-26 12:56:53
-layout: post
 ---
 
 [SplatF](http://www.splatf.com/2011-08-npd-iphone-2q11/): 

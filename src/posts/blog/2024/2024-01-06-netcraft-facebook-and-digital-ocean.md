@@ -3,7 +3,6 @@ title: Netcraft, Facebook, and Digital Ocean
 permalink: /blog/netcraft-facebook-and-digital-ocean/index.html
 date: 2024-01-06T12:18:26.504Z
 excerpt: "Facebook, via Netcraft, falsely reported a blog post of mine as phishing and Digital Ocean threatened to suspend my server"
-layout: post
 tags:
     - SocialMedia
     - OpenWeb

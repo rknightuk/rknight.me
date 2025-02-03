@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: myPhoneDesktop"
 date: 2010-05-28T00:00:00.000Z
 permalink: /blog/appadvice-review-myphonedesktop/index.html

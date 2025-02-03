@@ -2,7 +2,6 @@
 title: Get Notified of New Comments through Boxcar and Wordpress
 permalink: /blog/get-notified-of-new-comments-through-boxcar-and-wordpress/
 date: 2011-07-03 12:42:34
-layout: post
 ---
 
 [David Rauch](http://daver.at) has just released a plugin for Wordpress that uses the Boxcar API to send push notifications directly to your iOS device every time someone comments on your blog. And setting it up is really simple. Note: This is for self-hosted Wordpress blogs.  To get started you need to [download the plugin](http://daver.at/wp-content/uploads/2011-01-wp-comment-push.zip) and extract the contents of the archive to wp-content/plugins. Then log into your Wordpress dashboard, activate the plugin and input your Boxcar details on the settings page. 

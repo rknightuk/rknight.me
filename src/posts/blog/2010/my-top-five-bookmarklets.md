@@ -1,7 +1,6 @@
 ---
 title: My Top Five Bookmarklets
 permalink: /blog/my-top-five-bookmarklets/index.html
-layout: post
 date: 2010-03-05T00:00:00.000Z
 ---
 

@@ -3,7 +3,6 @@ title: New Old Posts
 permalink: /blog/new-old-posts/index.html
 date: 2024-01-03T13:31:33.449Z
 excerpt: "I dug into the internet archives and imported a shedload of old posts"
-layout: post
 tags:
     - Apps
     - AppAdvice

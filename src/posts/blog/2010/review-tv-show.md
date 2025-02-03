@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: TV Show Tracker"
 date: 2010-05-27T00:00:00.000Z
 tags:

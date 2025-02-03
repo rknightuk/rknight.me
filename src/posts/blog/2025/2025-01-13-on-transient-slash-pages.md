@@ -3,7 +3,6 @@ title: "On Transient Slash Pages"
 permalink: /blog/on-transient-slash-pages/index.html
 date: 2025-01-13T22:11:53.138Z
 excerpt: "Thinking too much about slash pages again"
-layout: post
 tags:
     - Development
     - OpenWeb

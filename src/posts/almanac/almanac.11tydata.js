@@ -1,6 +1,6 @@
 module.exports = {
 	eleventyComputed: {
-        layout: 'almanac',
+        layout: 'posts/almanac',
         excerpt: function (data) {
             return this.getAlmanacDescription(data)
         }

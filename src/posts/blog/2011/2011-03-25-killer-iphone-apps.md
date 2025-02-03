@@ -2,7 +2,6 @@
 title: Killer iPhone Apps aka Why I Won't Switch to Android aka My Top Five iPhone-Exclusive Apps
 permalink: /blog/killer-iphone-apps/
 date: 2011-03-25 13:17:00
-layout: post
 ---
 
 After having yet another “Why should I get an iPhone?” conversation, I decided to put together a list of the apps I use every day that I consider to be ‘killer’ iPhone apps. And by ‘killer’, I mean not only that they are excellent apps to use, but are also iPhone-exclusive and are, in some respects, keeping me from switching to Android.[^1] Number one on the list is [Reeder](http://reederapp.com). If you don’t know already, Reeder is a Google Reader-powered RSS client. The interface is absolute perfection, bugs are fixed quickly and sending articles elsewhere, e.g. Twitter, is fast and easy. Add in the fact that there is a nearly-as-good [Mac version](http://madeatgloria.com/brewery/silvio/reeder) and I know I won’t be using another RSS client for a long time to come. 

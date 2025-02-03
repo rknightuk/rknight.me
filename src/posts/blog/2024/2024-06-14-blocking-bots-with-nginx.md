@@ -3,7 +3,6 @@ title: "Blocking Bots with Nginx"
 permalink: /blog/blocking-bots-with-nginx/index.html
 date: 2024-06-14T07:26:37.214Z
 excerpt: "How I've automated updating the bot list to block access to my site"
-layout: post
 tags:
     - Development
     - Eleventy

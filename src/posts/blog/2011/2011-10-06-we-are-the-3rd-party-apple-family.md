@@ -2,7 +2,6 @@
 title: We Are The 3rd Party Apple Family
 permalink: /blog/we-are-the-3rd-party-apple-family/
 date: 2011-10-06 22:08:27
-layout: post
 ---
 
 Shawn Blanc, on us, the Mac nerds: 

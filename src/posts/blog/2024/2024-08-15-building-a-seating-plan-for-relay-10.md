@@ -3,7 +3,6 @@ title: "Building a Seating Plan for Relay 10"
 permalink: /blog/building-a-seating-plan-for-relay-10/index.html
 date: 2024-08-15T20:30:37.877Z
 excerpt: "A site I built so people could know who they might be sat near at Relay's 10th anniversary live show"
-layout: post
 tags:
     - Development
     - Eleventy

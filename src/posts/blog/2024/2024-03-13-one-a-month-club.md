@@ -3,7 +3,6 @@ title: "One a Month Club"
 permalink: /blog/one-a-month-club/index.html
 date: 2024-03-13T22:09:29.727Z
 excerpt: "I've added a membership option to Buy Me a Coffee and joined the One a Month Club"
-layout: post
 tags:
     - Development
 ---

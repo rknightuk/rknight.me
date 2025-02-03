@@ -3,7 +3,6 @@ title: "Orzo Bolognese Recipe"
 permalink: /blog/orzo-bolognese-recipe/index.html
 date: 2024-05-27T08:06:39.903Z
 excerpt: "A simple recipe we use for Baby Knight"
-layout: post
 tags:
     - Food
     - Recipes

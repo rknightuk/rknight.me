@@ -2,7 +2,6 @@
 title: How to Use Green Screen in iMovie '11
 permalink: /blog/how-to-use-green-screen-in-imovie-11/
 date: 2011-04-10 16:13:05
-layout: post
 ---
 
 Green screen, if you don't know, is a technique used to place footage of something over the top of another image or video. Many think that this sort of feature is limited to advanced movie editing software such as Final Cut Pro but this just isn't the case. Green screen is not on by defualt in iMovie so the first thing you need to do is turn it on. Open up preferences (⌘+,) and tick the 'Show Advanced Tools' checkbox. 

@@ -3,7 +3,6 @@ title: "Unorganised Thoughts about Bluesky"
 permalink: /blog/unorganised-thoughts-about-bluesky/index.html
 date: 2024-11-14T17:05:08.767Z
 excerpt: "A collection of random thoughts about Bluesky"
-layout: post
 tags:
     - ActivityPub
     - OpenWeb

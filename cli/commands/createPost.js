@@ -60,8 +60,7 @@ export default async (__siteroot) => {
 title: "${title}"
 permalink: /blog/${slug}/index.html
 date: ${postDate}
-excerpt: ""
-layout: post`
+excerpt: ""`
 
     if (tags.length > 0)
     {

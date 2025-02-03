@@ -3,7 +3,6 @@ title: "Moving my DNS Records with DNSControl"
 permalink: /blog/moving-my-dns-records-with-dnscontrol/index.html
 date: 2024-10-22T14:00:05.000Z
 excerpt: "Using DNSControl I was able to move ~100 DNS records really easily"
-layout: post
 tags:
     - Development
     - OpenWeb

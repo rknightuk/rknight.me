@@ -3,7 +3,6 @@ title: Getting Closer to the Perfect TV
 permalink: /blog/getting-closer-to-the-perfect-tv/index.html
 excerpt: "I bought what I think is a near-perfect TV"
 date: 2017-05-15T00:00:00.000Z
-layout: post
 ---
 
 In 2015, Pieter Siekerman [wrote a blog post](http://technology.siekerman.nl/post/133644449664/the-perfect-tv) describing what the perfect TV should be:

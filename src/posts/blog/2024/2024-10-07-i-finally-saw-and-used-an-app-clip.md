@@ -3,7 +3,6 @@ title: "I Finally Saw, and Used, an App Clip"
 permalink: /blog/i-finally-saw-and-used-an-app-clip/index.html
 date: 2024-10-07T11:09:15.861Z
 excerpt: "My first experience with an App Clip"
-layout: post
 ---
 
 > [!NOTE] Update

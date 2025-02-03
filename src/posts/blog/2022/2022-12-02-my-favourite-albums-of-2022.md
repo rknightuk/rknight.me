@@ -3,7 +3,6 @@ title: My Favourite Albums of 2022
 permalink: /blog/my-favourite-albums-of-2022/index.html
 date: 2022-12-02T19:50:00.081Z
 excerpt: "My favourite albums of 2022"
-layout: post
 tags:
     - Music
     - YearInReview

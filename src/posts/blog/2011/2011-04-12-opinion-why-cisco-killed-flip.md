@@ -2,7 +2,6 @@
 title: "Opinion: Why Cisco Killed Flip"
 permalink: /blog/opinion-why-cisco-killed-flip/
 date: 2011-04-12 14:03:35
-layout: post
 ---
 
 Cisco [just announced](http://www.marketwire.com/press-release/Cisco-Restructures-Consumer-Business-NASDAQ-CSCO-1426209.htm) that they will be killing the Flip business for good. Why? According to Cisco to _"...realign the remaining consumer business"_. But why would they kill what is an essential name in the portable video camera market? Mobile phones.  

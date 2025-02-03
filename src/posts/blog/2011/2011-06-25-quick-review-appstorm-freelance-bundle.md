@@ -2,7 +2,6 @@
 title: "Quick Review: AppStorm Freelance Bundle"
 permalink: /blog/quick-review-appstorm-freelance-bundle/
 date: 2011-06-25 09:13:00
-layout: post
 ---
 
 A few days before the AppStorm Freelance bundle was released I had made the decision that I wanted both 1Password and TextExpander, but that I would wait until at least one of them was in a bundle. So when I saw the AppStorm bundle I had to get it.

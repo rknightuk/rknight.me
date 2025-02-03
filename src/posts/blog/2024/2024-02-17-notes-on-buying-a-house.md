@@ -3,7 +3,6 @@ title: "Notes on Buying a House"
 permalink: /blog/notes-on-buying-a-house/index.html
 date: 2024-02-17T15:20:26.441Z
 excerpt: "My notes on the process of buying a house"
-layout: post
 tags:
     - Personal
 note: This post was originally an article in <a href="/intersect">my wiki</a> but I decided it made more sense to have it as a post.

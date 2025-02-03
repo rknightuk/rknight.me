@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: MusicID"
 date: 2010-05-28T00:00:00.000Z
 permalink: /blog/appadvice-review-musicid/index.html

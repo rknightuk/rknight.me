@@ -3,7 +3,6 @@ title: Building an ActivityPub Server
 permalink: /blog/building-an-activitypub-server/index.html
 date: 2023-06-28T05:48:41.588Z
 excerpt: "I built Bugle, an ActivityPub server with Laravel and PHP. These are my notes on how it all works to the best of my understanding"
-layout: post
 tags:
   - ActivityPub
   - Development

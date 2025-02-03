@@ -2,7 +2,6 @@
 title: Booq Viper Macbook Air 11" Case Review
 permalink: /blog/booq-viper-macbook-air-11-case-review/
 date: 2012-01-17 15:15:35
-layout: post
 ---
 
 I recently got a MacBook Air and the first thing I always look for once I get a new gadget is protection. Due to the size and weight of the Air I didn't want anything to bulky or heavy, but still something that would protect it from knocks and scrapes whilst being dragged around from lecture to lecture at Uni. With most of my gadgets, I tend to sway towards slip case as they are easy to access your gear. But honestly, most slip cases look awful with no decreeable style at all. After a lot of searching around, sifting through Amazon reviews and asking a few people on Twitter, I decided on the [Booq Viper](http://www.booqbags.com/Viper-11-macbook-air-case). 

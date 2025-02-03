@@ -2,7 +2,6 @@
 title: The Printer Companies Are Screwing Us Even More Now Than Ever
 permalink: /blog/the-printer-companies-are-screwing-us-even-more-now-than-ever/
 date: 2012-05-09 23:06:20
-layout: post
 ---
 
 I own a printer. A HP Photosmart something-or-other. Most of the time, I use it because it's there. I could make do without out it but it's there. It cost me £20 from a company I used to work for and I've only replaced the ink once. But once this ink runs out I was considering never using it again. And then I see [this on the HP Ink Cartidges blog:](http://www.hpinkcartridges.co.uk/technology-blog/2012-05-hp-introduces-nano-sponge)

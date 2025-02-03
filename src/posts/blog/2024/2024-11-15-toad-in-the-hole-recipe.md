@@ -3,7 +3,6 @@ title: "Toad in the Hole Recipe"
 permalink: /blog/toad-in-the-hole-recipe/index.html
 date: 2024-11-15T09:29:43.686Z
 excerpt: "This is barely a recipe but whatever, it's my site I can do what I want"
-layout: post
 tags:
     - Recipes
     - RecipeWeek

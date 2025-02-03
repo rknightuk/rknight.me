@@ -2,7 +2,6 @@
 title: My Apple Event Predictions
 permalink: /blog/my-apple-event-predictions/
 date: 2011-10-02 18:18:01
-layout: post
 ---
 
 5 minutes ago, I was writing a somewhat sarcastic post about what's going to 'happen' on Tuesday at the Apple Event. I finished the first draft and then I stopped to check my RSS feeds. At the time I stopped I had written the following: 

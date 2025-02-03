@@ -1,5 +1,4 @@
 ---
-layout: post
 title: "Review: Ego"
 date: 2010-04-07T00:00:00.000Z
 permalink: /blog/appadvice-review-ego/index.html

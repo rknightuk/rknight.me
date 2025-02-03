@@ -3,7 +3,6 @@ title: "My Favourite Type of Time Travel"
 permalink: /blog/my-favourite-type-of-time-travel/index.html
 date: 2024-02-06T17:30:00.000Z
 excerpt: "A look at the different types of time travel plus my preferred method"
-layout: post
 tags:
     - Movies
     - TV

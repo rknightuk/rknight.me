@@ -3,7 +3,6 @@ title: "The Sticker Book"
 permalink: /blog/the-sticker-book/index.html
 date: 2024-10-03T18:55:03.506Z
 excerpt: "I solved my sticker anxiety"
-layout: post
 ---
 
 Me every time I open a drawer at my desk:

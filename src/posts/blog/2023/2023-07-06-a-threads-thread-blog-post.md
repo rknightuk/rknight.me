@@ -3,7 +3,6 @@ title: A Threads Thread Blog Post
 permalink: /blog/a-threads-thread-blog-post/index.html
 date: 2023-07-06T08:05:16.652Z
 excerpt: "A thread about Threads that turned in a blog post about Threads"
-layout: post
 tags:
   - SocialMedia
   - ActivityPub

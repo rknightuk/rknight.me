@@ -3,7 +3,6 @@ title: "Advent of Code 2023: Day One"
 permalink: /blog/advent-of-code-2023-day-one/index.html
 date: 2023-12-01T11:30:30.578Z
 excerpt: "My solution for \"Trebuchet?!\""
-layout: post
 tags:
     - Development
     - AdventOfCode

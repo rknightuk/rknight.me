@@ -2,7 +2,6 @@
 title: 24 Hours of Just Delete Me
 permalink: /blog/24-hours-of-just-delete-me/index.html
 date: 2013-08-20T12:49:00.000Z
-layout: post
 excerpt: "“I’m sure I’ll get a couple of hundred visitors”. That’s what I was thinking yesterday when I launched justdelete.me. I wasn’t completely wrong."
 tags:
     - Development

@@ -3,7 +3,6 @@ title: "Webmentions Redux"
 permalink: /blog/webmentions-redux/index.html
 date: 2024-02-16T13:05:34.143Z
 excerpt: "I've rethought everything about how I show webmentions on my blog posts and switched to just showing syndicated posts instead"
-layout: post
 tags:
     - ActivityPub
     - Development

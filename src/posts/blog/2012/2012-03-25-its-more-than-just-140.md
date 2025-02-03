@@ -2,7 +2,6 @@
 title: It's More Than Just 140
 permalink: /blog/its-more-than-just-140/
 date: 2012-03-25 09:00:22
-layout: post
 ---
 
 [Myke Hurley:](http://mykehurley.net/post/19799577778/its-more-than-just-140)

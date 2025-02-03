@@ -3,7 +3,6 @@ title: Block ChatGPT and other AI Bots with robots.txt
 permalink: /blog/block-chatgpt-with-robotstxt/index.html
 date: 2023-08-12T09:12:43.328Z
 excerpt: "How to block ChatGPT from crawling your site with a robots.txt file"
-layout: post
 tags:
   - AI
 ---
