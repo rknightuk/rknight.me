@@ -7,18 +7,6 @@
 
         <p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> or <a href="https://psnprofiles.com/rknightuk">PSN</a>, and more things as <code>rknightuk</code>. <a href="/verify">Verify Me</a>.</p>
 
-        <div class="home-links">
-            {%- for link in site.links -%}
-                <div>
-                    <a href="{{ link.link }}" target="_blank" rel="noopener" aria-label="Link to {{ link.icon }}">
-                        <svg class="icon icon-{{ link.icon }}">
-                            <use xlink:href="#{{ link.icon }}"></use>
-                        </svg>
-                    </a>
-                </div>
-            {%- endfor -%}
-        </div>
-
         <a href="/about">More about me</a>
 
         <hr>
