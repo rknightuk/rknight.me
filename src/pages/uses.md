@@ -174,3 +174,9 @@ I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersec
 	- P205
 	- P207
 	- P209
+
+#### Other Paper Products
+
+- [Ottergami Dotgrid Bullet Journal A5](https://www.amazon.co.uk/dp/B07DHJNNR3)
+- [Mabor pen holders](https://www.amazon.co.uk/dp/B0CSMZL829)
+
