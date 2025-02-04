@@ -153,3 +153,24 @@ I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersec
 - This screwdriver set is compact and covers 90% of my screwdriving needs [Wera Kraftform Kompakt 40 Bitholding Screwdriver](https://www.amazon.co.uk/gp/product/B000X1UXXK/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - [Black and Decker Roto-Bit Storage Screwdriver](https://www.amazon.co.uk/gp/product/B01MUHXX24/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1)
 - [Wera allen key set](https://www.amazon.co.uk/gp/product/B009ODV0OE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&th=1)
+
+### Analogue
+
+#### Pens
+
+- [Mark One Enigma Edition](https://rknight.me/blog/mark-one-enigma-edition-pen-review/)
+- [Uni Jetstream](https://www.jetpens.com/blog/Uni-Jetstream-A-Comprehensive-Guide/pt/758)
+- [Zebra Mildliners and Z-Grip Smooth](https://www.tesco.com/groceries/en-GB/products/312091022)
+- [Pentel Eneregel, Pokemon Limited Edition - Pikachu Pink](https://www.afth.co.uk/pentel---eneregel---pokemon-limited-edition---pickachu-pink-57787-p.asp)
+
+#### Pencils
+
+- [Tombow Mechanical Pencil Mono Graph Lite Smokey Blue 0.5mm](https://www.amazon.co.uk/dp/B0CZ6ZLKP4)
+- [SUN-STAR Metacil Retractable Click Pencil](https://www.amazon.co.uk/dp/B0BKRV5PJF)
+- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils/)
+- [Uni Kurutoga - Pokemon edition 0.3mm](https://www.afth.co.uk/uni---kurutoga---pokemon-collection-03mm---pocket-monsters-always-together-57277-p.asp)
+- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils/?srsltid=AfmBOoozAXQj6DO9syFGoRLvH-qaiR7lGzbrh5LSOnPv2we99elrfU-o)
+	- P203
+	- P205
+	- P207
+	- P209
