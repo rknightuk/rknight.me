@@ -3,12 +3,9 @@ layout: base
 ---
 
 <a class="u-url" style="display:none" href="https://rknight.me{{ page.url | stripIndex }}"></a>
-<a rel="author" style="display:none" class="p-author h-card" href="https://rknight.me">Robb Knight</a>
-<img style="display:none" class="u-photo" src="/assets/indieweb/avatar.jpg" alt="Robb Knight's avatar">
+<img class="u-photo" src="/assets/indieweb/avatar.jpg" alt="Robb Knight's avatar">
 
-<span class="post e-content" data-pagefind-body>
-    <span style="display: none;" data-pagefind-filter="type">posts</span>
-    <span style="display: none" data-pagefind-sort="date">{{ page.date.toISOString() | isoDateOnly }}</span>
+<span class="post e-content">
     {%- set isOldPost -%}{{ page.date | isOldPost }}{%- endset -%}
     {% if isOldPost == "true" and '/blog' in page.url %}
         <aside class="alert">
@@ -37,7 +34,7 @@ layout: base
     {% if almanacImage %}
         <div class="almanac-poster-wrap">
             <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
-                <img class="u-photo" src="{{ almanacImage }}" alt="{{ title }}">
+                <img src="{{ almanacImage }}" alt="{{ title }}">
             </hyper-card>   
         </div>
     {% endif %}
@@ -45,7 +42,7 @@ layout: base
     {% if poster %}
         <div class="almanac-poster-wrap">
             <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
-                <img class="u-photo" src="{{ poster }}" alt="{{ title }}">
+                <img src="{{ poster }}" alt="{{ title }}">
             </hyper-card>   
         </div>
     {% endif %}

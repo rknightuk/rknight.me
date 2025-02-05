@@ -3,7 +3,6 @@ title: "Zebra Big 30 Pack of Pens"
 permalink: /blog/zebra-big-30-pack-of-pens/index.html
 date: 2025-02-04T19:46:17.000Z
 excerpt: "I bought some pens and if I write about it then I'm helping other people make good decisions about pens"
-layout: post
 tags:
     - Analogue
 ---

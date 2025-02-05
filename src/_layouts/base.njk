@@ -95,7 +95,7 @@
         {% else %}
             <div class="rkblock block-main">
                 <div class="container">
-                    <h2 class="p-name" data-pagefind-meta="title">
+                    <h2 class="p-name">
                         {{ title }}
                     </h2>
                     {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
@@ -136,7 +136,7 @@
                             <svg class="icon">
                                 <use xlink:href="#calendar"></use>
                             </svg>
-                            <time class="dt-published" datetime="{{ page.date | toDateTime }}">{{ page.date | postDate }}</time>
+                            <time class="dt-published" datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>
                             {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or type === "live" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
                         </div>
                         {% if tmdbid %}

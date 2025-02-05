@@ -245,7 +245,7 @@ getAlmanacImage: ({ type, tmdbid, giantbombid, customImage, isbn13 }) => {
 {% if almanacImage %}
 	<div class="almanac-poster-wrap">
 		<hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
-			<img class="u-photo" src="{{ almanacImage }}" alt="{{ title }}">
+			<img src="{{ almanacImage }}" alt="{{ title }}">
 		</hyper-card>   
 	</div>
 {% endif %}

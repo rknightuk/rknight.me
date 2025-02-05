@@ -3,7 +3,6 @@ title: "Loading Pixelfed Photos with Eleventy"
 permalink: /blog/loading-pixelfed-photos-with-eleventy/index.html
 date: 2025-02-03T22:21:01.918Z
 excerpt: "How to load my latest photos from Pixelfed"
-layout: post
 tags:
     - Eleventy
 ---
