@@ -2,44 +2,23 @@
 <!DOCTYPE html>
 <html lang="en">
 	<head>
-		<meta charset="UTF-8" >
-
-		<meta name="viewport" content="width=device-width" >
-
-		<meta name="generator" content="{{ eleventy.generator }}">
-
-		<title>{{ title or metaTitle | safe }}{% if title !== 'Robb Knight' %} • Robb Knight{% endif %}</title>
-
-        <link rel="stylesheet" href="/assets/css/app.css?{% timestamp %}" type="text/css" media="screen" title="no title">
+        {% include 'head/meta.njk' %}
 
         {% include 'head/rss.njk' %}
 
         {% include 'head/icons.njk' %}
 
-        {% include 'head/opengraph.njk' %}
+        <link rel="stylesheet" href="/assets/css/app.css" type="text/css" media="screen" title="no title">
         
         {% if site.production %}
             <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
         {% endif %}
 
-        <link rel="webmention" href="https://webmention.io/rknight.me/webmention">
-        <link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc">
-
         <script type="module" src="/assets/js/hypercard.js"></script>
 	</head>
 	<body>
 
-		<a style="display: none;" rel="me" href="https://social.lol/@robb">Mastodon</a>
-        <a style="display: none;" href="https://github.com/rknightuk" rel="me">github.com/rknightuk</a>
-        <a style="display: none;" href="https://proven.lol/aaecd5">proven.lol/aaecd5</a>
-
-        <span class="p-author h-card" style="display: none">
-            <img class="u-photo" src="/assets/indieweb/avatar.jpg" alt="Robb Knight's avatar">
-            <img class="u-logo" src="/assets/indieweb/logo.png" alt="Robb Knight's logo">
-            <a class="p-name" href="https://rknight.me" rel="author">Robb Knight</a>
-            <span class="p-note">{{ site.config.description }}</span>
-            <a rel="me" class="u-url u-uid" href="https://rknight.me{{ page.url }}">Permalink</a>
-        </span>
+		{% include 'indieweb.njk' %}
 
         <header class="main">
             <div class="container">

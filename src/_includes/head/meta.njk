@@ -1,3 +1,7 @@
+<meta charset="UTF-8" >
+<meta name="viewport" content="width=device-width" >
+<meta name="generator" content="{{ eleventy.generator }}">
+<title>{{ title or metaTitle | safe }}{% if title !== 'Robb Knight' %} • Robb Knight{% endif %}</title>
 <meta property="og:title" content="{{ title or metaTitle }}">
 <meta name="description" content="{% if excerpt %}{{ excerpt }}{% else %}{{ site.config.description }}{% endif %}">
 <meta property="og:description" content="{% if excerpt %}{{ excerpt}}{% else %}{{ site.config.description }}{% endif %}">
@@ -5,3 +9,6 @@
 <meta property="og:url" content="https://rknight.me{{ page.url }}">
 <meta property="og:image" content="{{ { url: page.url, type: layout, attachments: attachments, permalink: permalink, date: page.date } | getOgImageUrl }}">
 <meta name="fediverse:creator" content="@robb@social.lol">
+
+<link rel="webmention" href="https://webmention.io/rknight.me/webmention">
+<link rel="pingback" href="https://webmention.io/rknight.me/xmlrpc">
