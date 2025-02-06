@@ -160,16 +160,15 @@ I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersec
 
 - [Mark One Enigma Edition](https://rknight.me/blog/mark-one-enigma-edition-pen-review/)
 - [Uni Jetstream](https://www.jetpens.com/blog/Uni-Jetstream-A-Comprehensive-Guide/pt/758)
-- [Zebra Mildliners and Z-Grip Smooth](https://www.tesco.com/groceries/en-GB/products/312091022)
-- [Pentel Eneregel, Pokemon Limited Edition - Pikachu Pink](https://www.afth.co.uk/pentel---eneregel---pokemon-limited-edition---pickachu-pink-57787-p.asp)
+- [Zebra Mildliners and Z-Grip Smooth](https://www.tesco.com/groceries/en-GB/products/312091022) ([post](https://rknight.me/blog/zebra-big-30-pack-of-pens/))
+- [Pentel Eneregel, Pokemon Limited Edition - Pikachu Pink](https://www.afth.co.uk/pentel---eneregel---pokemon-limited-edition---pickachu-pink-57787-p.asp) ([post](https://rknight.me/notes/202501292224/))
 
 #### Pencils
 
 - [Tombow Mechanical Pencil Mono Graph Lite Smokey Blue 0.5mm](https://www.amazon.co.uk/dp/B0CZ6ZLKP4)
 - [SUN-STAR Metacil Retractable Click Pencil](https://www.amazon.co.uk/dp/B0BKRV5PJF)
-- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils/)
-- [Uni Kurutoga - Pokemon edition 0.3mm](https://www.afth.co.uk/uni---kurutoga---pokemon-collection-03mm---pocket-monsters-always-together-57277-p.asp)
-- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils/?srsltid=AfmBOoozAXQj6DO9syFGoRLvH-qaiR7lGzbrh5LSOnPv2we99elrfU-o)
+- [Uni Kurutoga - Pokemon edition 0.3mm](https://www.afth.co.uk/uni---kurutoga---pokemon-collection-03mm---pocket-monsters-always-together-57277-p.asp) ([post](https://rknight.me/notes/202501292224/))
+- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils) ([post](https://rknight.me/notes/202502061251/))
 	- P203
 	- P205
 	- P207
@@ -179,4 +178,5 @@ I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersec
 
 - [Ottergami Dotgrid Bullet Journal A5](https://www.amazon.co.uk/dp/B07DHJNNR3)
 - [Mabor pen holders](https://www.amazon.co.uk/dp/B0CSMZL829)
+- [Lihit Lab compact pen case (red)](https://cultpens.com/products/lihit-lab-compact-pen-case)
 
