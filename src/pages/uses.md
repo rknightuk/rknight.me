@@ -35,12 +35,14 @@ eleventyNavigation:
 - [8BitDo Retro Mechanical Keyboard](https://www.8bitdo.com/retro-mechanical-keyboard/)
 - Apple Magic Keyboard in black (non-touchID version) - only for podcasting 
 - [Razer Seiren Mini microphone](https://www.razer.com/gb-en/streaming-microphones/razer-seiren-mini) for podcasting
-- [Logitech Z200 Speakers](https://www.logitech.com/en-gb/products/speakers/z200-multimedia-stereo-speakers.980-000812.html)
+- [Creative GigaWorks T40 Series II](https://uk.creative.com/p/speakers/gigaworks-t40-series-ii)
 - [Audio Technica ATH-M50x](https://www.audio-technica.com/en-gb/ath-m50x) (home/podcasting)
 - [AirPods Max Gen 1](https://en.wikipedia.org/wiki/AirPods_Max) (office/gaming)
 - [Twelve South StayGo USB-C hub](https://www.twelvesouth.com/products/staygo-usb-c-hub)
 
 ```diff
++ [2025-02-09] Creative GigaWorks T40 Series II
+- [2025-02-09] Logitech Z200 Speakers
 + [2024-09-19] AirPods Max Gen 1
 - [2024-09-19] Anker Soundcore Life Q30
 + [2024-05-04] MX Master 3S
