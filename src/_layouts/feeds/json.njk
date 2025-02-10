@@ -21,7 +21,7 @@
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         "content_html": {{ post.templateContent | renderContentForFeed(post) | dump | safe }},
         "summary": {% if post.data.excerpt %}{{ post.data.excerpt | dump | safe }}{% else %}""{% endif %},
-        {% if post.data.layout === 'link' %}
+        {% if post.data.postType === 'link' %}
         "external_url": "{{ post.data.link }}",
         "authors": [
             {
@@ -33,7 +33,7 @@
         ],{% endif %}
         "_knightposse": {
             "about": "https://rknight.me/about/colophon/",
-            "text": {{ { "externalLink": post.data.layout === 'link', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.templateContent, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
+            "text": {{ { "externalLink": post.data.postType === 'link', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "postType": post.data.postType, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.templateContent, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
             "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %},
             "opengraph": "{{ post.url | getOpengraphUrl }}"
         },

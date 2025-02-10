@@ -4,7 +4,7 @@ const assert = require('node:assert')
 
 const fakePost = {
     title: 'This is the title',
-    layout: 'post',
+    postType: 'post',
     permalink: '/blog/example',
     content: '<p>This is the content</p>\n</p>this is some more content</p>',
 }
@@ -20,7 +20,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
             }),
             'This is the content\n\nthis is some more content\n\n∞ https://rknight.me/blog/example'
         );
@@ -30,7 +30,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
                 content: '<p>Esse aliqua aliquip incididunt deserunt exercitation nostrud incididunt dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehenderit adipisicing exercitation irure nisi veniam elit. Id elit culpa minim et Lorem officia dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehenderit adipisicing exercitation irure nisi veniam elit. Id elit culpa minim et Lorem officia.</p>',
             }),
             'Esse aliqua aliquip incididunt deserunt exercitation nostrud incididunt dolor ullamco dolore sunt reprehenderit eiusmod deserunt. Id sint in nostrud irure id pariatur duis culpa esse quis non mollit. Esse mollit adipisicing velit aliquip pariatur aute mollit qui sint ex aliqua. Cillum veniam consequat eiusmod quis reprehenderit minim excepteur tempor pariatur nulla sint mollit nostrud. Lorem aute consectetur sunt nulla excepteur eiusmod officia laborum sunt. Reprehenderi… https://rknight.me/blog/example'
@@ -41,7 +41,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
                 content: '<p>This is the content</p>\n</p>this is <a href="https://rknight.me">a link</a></p>',
             }),
             'This is the content\n\nthis is a link (https://rknight.me)\n\n∞ https://rknight.me/blog/example'
@@ -52,7 +52,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p>',
             }),
             '"This is a quote from some person"\n\nSome commentary from me\n\n∞ https://rknight.me/blog/example'
@@ -63,7 +63,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
                 content: '<blockquote><p>This is a quote from some person</p></blockquote>\n<p>Some commentary from me</p><img src="https://rknight.me/imaxxge.jpg">',
             }),
             '"This is a quote from some person"\n\nSome commentary from me\n\n∞ https://rknight.me/blog/example'
@@ -75,8 +75,8 @@ describe('tootText', () => {
             tootText({
                 ...fakePost,
                 title: 'Top Gear',
+                postType: 'almanac',
                 season: 12,
-                layout: 'almanac',
                 content: '',
                 type: 'tv',
             }),
@@ -89,8 +89,8 @@ describe('tootText', () => {
             tootText({
                 ...fakePost,
                 title: 'Ratchet and Clank',
+                postType: 'almanac',
                 platform: 'PS5',
-                layout: 'almanac',
                 content: '',
                 type: 'game',
             }),
@@ -104,8 +104,8 @@ describe('tootText', () => {
             tootText({
                 ...fakePost,
                 title: 'Top Gear',
+                postType: 'almanac',
                 season: 12,
-                layout: 'almanac',
                 content: '<p>This is a review of this show</p>\n<p>This is some more stuff that I\'ve said about a thing</p>',
                 type: 'tv',
             }),
@@ -118,7 +118,7 @@ describe('tootText', () => {
             tootText({
                 ...fakePost,
                 title: 'A cool link',
-                layout: 'link',
+                postType: 'link',
                 link: 'https://example.com',
                 author: {
                     name: 'Joe Steel',
@@ -137,7 +137,7 @@ describe('tootText', () => {
             tootText({
                 ...fakePost,
                 title: 'A cool link',
-                layout: 'link',
+                postType: 'link',
                 link: 'https://example.com',
                 author: {
                     name: 'Joe Steel',
@@ -156,7 +156,7 @@ describe('tootText', () => {
             tootText({
                 ...fakePost,
                 title: 'A cool link',
-                layout: 'link',
+                postType: 'link',
                 link: 'https://example.com',
                 author: {
                     name: 'Joe Steel',
@@ -174,7 +174,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
                 content: '<p>The Mac mini <em>things</em> @jerrod@mastodon.social has designed are so fucking good <a href="https://makerworld.com/en/collections/3215167">https://makerworld.com/en/collections/3215167</a></p>',
             }),
             'The Mac mini _things_ @jerrod@mastodon.social has designed are so fucking good https://makerworld.com/en/collections/3215167\n\n∞ https://rknight.me/blog/example'
@@ -185,7 +185,7 @@ describe('tootText', () => {
         assert.strictEqual(
             tootText({
                 ...fakePost,
-                layout: 'note',
+                postType: 'note',
                 content: '<p>A test of mentioning a person like <a href="https://mastodon.social/@crashthearcade">@crashthearcade</a>.</p>',
             }),
             'A test of mentioning a person like @crashthearcade@mastodon.social.\n\n∞ https://rknight.me/blog/example'

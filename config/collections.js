@@ -96,7 +96,7 @@ module.exports = {
             .filter(p => {
                 if (['post', 'link'].includes(p.data.layout)) return true
 
-                if (p.data.layout === 'almanac') {
+                if (p.data.postType === 'almanac') {
                     const d = DateTime.fromISO(p.data.date.toISOString())
                         .setZone('Europe/London')
 

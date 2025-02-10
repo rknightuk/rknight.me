@@ -9,7 +9,7 @@ const tootText = (post) => {
     let content = ''
     const permalink = `https://rknight.me${post.permalink}`
 
-    if (!['link', 'almanac', 'note'].includes(post.layout))
+    if (!['link', 'almanac', 'note'].includes(post.postType))
     {
         content = `${decode(post.title)} ${permalink}`
 
@@ -51,9 +51,9 @@ const tootText = (post) => {
 
     const turnedDown = turndownService.turndown(decode(post.content))
 
-    if (post.layout === 'note') return formatNote(turnedDown, permalink)
-    if (post.layout === 'almanac') return formatAlmanac(post, turnedDown, permalink)
-    if (post.layout === 'link') return formatLink(post, turnedDown, permalink)
+    if (post.postType === 'note') return formatNote(turnedDown, permalink)
+    if (post.postType === 'almanac') return formatAlmanac(post, turnedDown, permalink)
+    if (post.postType === 'link') return formatLink(post, turnedDown, permalink)
 }
 
 const formatNote = (content, permalink) => {

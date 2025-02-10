@@ -1,3 +1,4 @@
 {
-    "layout": "posts/link"
+    "layout": "posts/link",
+    "postType": "link"
 }

@@ -14,11 +14,11 @@
   {% set absolutePostUrl %}{{ post.url | url | absoluteUrl(metadata.url) }}{% endset %}
   <entry>
     <title>{{ post.data.title }}</title>
-    <link href="{% if post.data.layout === 'link' %}{{ post.data.link }}{% else %}https://rknight.me{{ post.url }}{% endif %}"/>
+    <link href="{% if post.data.postType === 'link' %}{{ post.data.link }}{% else %}https://rknight.me{{ post.url }}{% endif %}"/>
     <updated>{{ post.date | rssDate }}</updated>
     <id>https://rknight.me{{ post | getRssId }}</id>
     <content type="html">{{ post.templateContent | htmlToAbsoluteUrls(absolutePostUrl) | renderContentForFeed(post) }}</content>
-    <summary>{% if post.data.excerpt %}{{ post.data.excerpt | safe }}{% elif post.data.layout === 'link' %}{{ post.data.title }} by {{ post.data.author.name }}{% else %}{{ post.data.title }}{% endif %}</summary>
+    <summary>{% if post.data.excerpt %}{{ post.data.excerpt | safe }}{% elif post.data.postType === 'link' %}{{ post.data.title }} by {{ post.data.author.name }}{% else %}{{ post.data.title }}{% endif %}</summary>
     <author>
       <name>Robb Knight</name>
     </author>
