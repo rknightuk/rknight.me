@@ -78,7 +78,7 @@ describe('tootText', () => {
                 postType: 'almanac',
                 season: 12,
                 content: '',
-                type: 'tv',
+                mediaType: 'tv',
             }),
             '📺 Watched: Top Gear Season 12 https://rknight.me/blog/example'
         );
@@ -92,7 +92,7 @@ describe('tootText', () => {
                 postType: 'almanac',
                 platform: 'PS5',
                 content: '',
-                type: 'game',
+                mediaType: 'game',
             }),
             '🎮 Played: Ratchet and Clank (PS5) https://rknight.me/blog/example'
         );
@@ -107,7 +107,7 @@ describe('tootText', () => {
                 postType: 'almanac',
                 season: 12,
                 content: '<p>This is a review of this show</p>\n<p>This is some more stuff that I\'ve said about a thing</p>',
-                type: 'tv',
+                mediaType: 'tv',
             }),
             '📺 Watched: Top Gear Season 12 https://rknight.me/blog/example\n\nThis is a review of this show\n\nThis is some more stuff that I\'ve said about a thing'
         );

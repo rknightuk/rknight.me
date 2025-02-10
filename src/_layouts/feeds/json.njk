@@ -33,7 +33,7 @@
         ],{% endif %}
         "_knightposse": {
             "about": "https://rknight.me/about/colophon/",
-            "text": {{ { "externalLink": post.data.postType === 'link', "season": post.data.season, "platform": post.data.platform, "layout": post.data.layout, "type": post.data.type, "postType": post.data.postType, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.templateContent, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
+            "text": {{ { "externalLink": post.data.postType === 'link', "season": post.data.season, "platform": post.data.platform, "mediaType": post.data.mediaType, "postType": post.data.postType, "title": post.data.title, "author": post.data.author, "link": post.data.link, "content": post.templateContent, "permalink": post.data.permalink | stripIndex } | makeTootText | dump | safe }},
             "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %},
             "opengraph": "{{ post.url | getOpengraphUrl }}"
         },

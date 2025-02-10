@@ -29,7 +29,7 @@ layout: base
         </aside>
     {% endif %}
 
-    {% set almanacImage %}{{ { type: type, tmdbid: tmdbid, giantbombid: giantbombid, customImage: customImage, isbn13: isbn13 } | getAlmanacImage }}{% endset %}
+    {% set almanacImage %}{{ { mediaType: mediaType, tmdbid: tmdbid, giantbombid: giantbombid, customImage: customImage, isbn13: isbn13 } | getAlmanacImage }}{% endset %}
 
     {% if almanacImage %}
         <div class="almanac-poster-wrap">
@@ -59,7 +59,7 @@ layout: base
 </span>
 
 <footer>
-    {% if layout !== 'almanac' %}
+    {% if postType !== 'almanac' %}
         <div class="callout">
             <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
         </div>

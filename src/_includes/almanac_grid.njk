@@ -8,13 +8,13 @@
         <div class="almanac-empty-box">{{ postYear }}</div>
     {% endif %}
 
-    {% if entry.data.type === 'event' and entry.data.poster %}
+    {% if entry.data.mediaType === 'event' and entry.data.poster %}
       <hyper-card>
         <a href="{{ entry.data.permalink | stripIndex }}">
           <img class="almanac-poster" src="{{ entry.data.poster }}">
         </a>
       </hyper-card>
-    {% elseif entry.data.type === 'event' %}
+    {% elseif entry.data.mediaType === 'event' %}
       <hyper-card>
         <a href="{{ entry.data.permalink | stripIndex }}" class="almanac-empty-box gig">
           <img class="almanac-poster" src="/assets/img/almanac/ticket-bg.jpg">
@@ -24,7 +24,7 @@
     {% else %}
       <hyper-card>
         <a href="{{ entry.data.permalink | stripIndex }}">
-          <img class="almanac-poster" src="{{ { type: entry.data.type, tmdbid: entry.data.tmdbid, giantbombid: entry.data.giantbombid, customImage: entry.data.customImage, isbn13: entry.data.isbn13 } | getAlmanacImage }}">
+          <img class="almanac-poster" src="{{ { mediaType: entry.data.mediaType, tmdbid: entry.data.tmdbid, giantbombid: entry.data.giantbombid, customImage: entry.data.customImage, isbn13: entry.data.isbn13 } | getAlmanacImage }}">
         </a>
       </hyper-card>
     {% endif %}

@@ -50,7 +50,7 @@ module.exports = {
     },
     getTypeEmoji: (type) => utils.getAlmanacEmoji(type),
     getPostEmoji: (data) => {
-        switch (data.layout) {
+        switch (data.postType) {
             case 'note':
                 return '📝'
             case 'link':
@@ -123,7 +123,7 @@ module.exports = {
     getAlmanacDescription: (data) => {
         return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
     },
-    getAlmanacImage: ({ type, tmdbid, giantbombid, customImage, isbn13 }) => {
+    getAlmanacImage: ({ mediaType, tmdbid, giantbombid, customImage, isbn13 }) => {
         let filePath = null
 
         if (customImage) {
@@ -136,20 +136,20 @@ module.exports = {
             filePath = isbn13
         }
 
-        return filePath ? utils.getAlmanacImagePath(type, filePath) : null
+        return filePath ? utils.getAlmanacImagePath(mediaType, filePath) : null
     },
-    getBackdropImage: ({ type, tmdbid, customBackdrop, imageIndex }) => {
+    getBackdropImage: ({ mediaType, tmdbid, customBackdrop, imageIndex }) => {
         let filePath = null
 
-        if (!['movie', 'tv'].includes(type)) return null
+        if (!['movie', 'tv'].includes(mediaType)) return null
 
         if (customBackdrop) {
             filePath = `custom/${customBackdrop}`
-        } else if (tmdbid && imageIndex[type].includes(`${tmdbid.toString()}.jpg`)) {
+        } else if (tmdbid && imageIndex[mediaType].includes(`${tmdbid.toString()}.jpg`)) {
             filePath = `bd/${tmdbid}`
         }
 
-        return filePath ? utils.getAlmanacImagePath(type, filePath) : null
+        return filePath ? utils.getAlmanacImagePath(mediaType, filePath) : null
     },
     getRelatedEntries: ({ entries, type, tmdbid, giantbombid }) => {
         let related = []

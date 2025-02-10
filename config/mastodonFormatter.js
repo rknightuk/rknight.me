@@ -69,8 +69,8 @@ const formatNote = (content, permalink) => {
 
 const formatAlmanac = (post, content, permalink) => {
     let title = [
-        utils.getAlmanacEmoji(post.type),
-        `${utils.getAlmanacVerb(post.type)}:`,
+        utils.getAlmanacEmoji(post.mediaType),
+        `${utils.getAlmanacVerb(post.mediaType)}:`,
         decode(post.title),
         post.season ? `Season ${post.season}` : null,
         post.platform ? `(${post.platform})` : null,

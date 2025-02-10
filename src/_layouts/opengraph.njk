@@ -60,7 +60,7 @@
                 }
             {% endif %}
 
-            {% set backdropImage %}{{ { type: type, tmdbid: tmdbid, customBackdrop: customBackdrop, imageIndex: collections.almanacBackdrops } | getBackdropImage }}{% endset %}
+            {% set backdropImage %}{{ { mediaType: mediaType, tmdbid: tmdbid, customBackdrop: customBackdrop, imageIndex: collections.almanacBackdrops } | getBackdropImage }}{% endset %}
 
             {% if backdropImage %}
                 body {

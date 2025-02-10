@@ -79,7 +79,7 @@
                     </h2>
                     {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
                     <nav class="header-nav">
-                        {% if layout !== 'intersect' %}
+                        {% if postType !== 'intersect' %}
                             {% if eleventyNavigation %}
                                 {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
                             {% endif %}
