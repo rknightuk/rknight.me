@@ -50,7 +50,7 @@ module.exports = {
     },
     getTypeEmoji: (type) => utils.getAlmanacEmoji(type),
     getPostEmoji: (data) => {
-        switch (data.layout) {
+        switch (data.postType) {
             case 'note':
                 return '📝'
             case 'link':

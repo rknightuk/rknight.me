@@ -60,7 +60,7 @@ module.exports = {
     pagesForOg: (collectionApi) => {
         const pages = collectionApi.getAll()
             .filter(p => {
-                const notAPost = !['post', 'link', 'almanac', 'note'].includes(p.data.layout)
+                const notAPost = !['post', 'link', 'almanac', 'note'].includes(p.data.postType)
                 const hasNavigation = p.data.eleventyNavigation
 
                 return notAPost && hasNavigation
@@ -94,7 +94,7 @@ module.exports = {
     postsForOg: (collectionApi) => {
         return collectionApi.getAll()
             .filter(p => {
-                if (['post', 'link'].includes(p.data.layout)) return true
+                if (['post', 'link'].includes(p.data.postType)) return true
 
                 if (p.data.postType === 'almanac') {
                     const d = DateTime.fromISO(p.data.date.toISOString())
@@ -108,7 +108,7 @@ module.exports = {
     },
     everything: (collectionApi) => {
         return collectionApi.getAll()
-            .filter(p => ['post', 'link', 'almanac', 'note'].includes(p.data.layout))
+            .filter(p => ['post', 'link', 'almanac', 'note'].includes(p.data.postType))
             .sort((a,b) => (a.data.date < b.data.date) ? 1 : ((b.data.date < a.data.date) ? -1 : 0))
     },
     posts: (collectionApi) => {
