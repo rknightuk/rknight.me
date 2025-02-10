@@ -3,7 +3,6 @@ title: "My First Digital Photo"
 permalink: /blog/my-first-digital-photo/index.html
 date: 2025-02-09T00:15:26.743Z
 excerpt: "The first photos I ever took with a digital camera"
-layout: post
 tags:
     - Personal
 ---
