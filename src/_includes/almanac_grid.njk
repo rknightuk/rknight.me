@@ -24,7 +24,7 @@
     {% else %}
       <hyper-card>
         <a href="{{ entry.data.permalink | stripIndex }}">
-          <img class="almanac-poster" src="{{ { type: entry.data.mediaType, tmdbid: entry.data.tmdbid, giantbombid: entry.data.giantbombid, customImage: entry.data.customImage, isbn13: entry.data.isbn13 } | getAlmanacImage }}">
+          <img class="almanac-poster" src="{{ { mediaType: entry.data.mediaType, tmdbid: entry.data.tmdbid, giantbombid: entry.data.giantbombid, customImage: entry.data.customImage, isbn13: entry.data.isbn13 } | getAlmanacImage }}">
         </a>
       </hyper-card>
     {% endif %}

@@ -123,7 +123,7 @@ module.exports = {
     getAlmanacDescription: (data) => {
         return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
     },
-    getAlmanacImage: ({ type, tmdbid, giantbombid, customImage, isbn13 }) => {
+    getAlmanacImage: ({ mediaType, tmdbid, giantbombid, customImage, isbn13 }) => {
         let filePath = null
 
         if (customImage) {
@@ -136,7 +136,7 @@ module.exports = {
             filePath = isbn13
         }
 
-        return filePath ? utils.getAlmanacImagePath(type, filePath) : null
+        return filePath ? utils.getAlmanacImagePath(mediaType, filePath) : null
     },
     getBackdropImage: ({ mediaType, tmdbid, customBackdrop, imageIndex }) => {
         let filePath = null
@@ -149,7 +149,7 @@ module.exports = {
             filePath = `bd/${tmdbid}`
         }
 
-        return filePath ? utils.getAlmanacImagePath(type, filePath) : null
+        return filePath ? utils.getAlmanacImagePath(mediaType, filePath) : null
     },
     getRelatedEntries: ({ entries, type, tmdbid, giantbombid }) => {
         let related = []
