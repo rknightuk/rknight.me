@@ -138,14 +138,14 @@ module.exports = {
 
         return filePath ? utils.getAlmanacImagePath(type, filePath) : null
     },
-    getBackdropImage: ({ type, tmdbid, customBackdrop, imageIndex }) => {
+    getBackdropImage: ({ mediaType, tmdbid, customBackdrop, imageIndex }) => {
         let filePath = null
 
-        if (!['movie', 'tv'].includes(type)) return null
+        if (!['movie', 'tv'].includes(mediaType)) return null
 
         if (customBackdrop) {
             filePath = `custom/${customBackdrop}`
-        } else if (tmdbid && imageIndex[type].includes(`${tmdbid.toString()}.jpg`)) {
+        } else if (tmdbid && imageIndex[mediaType].includes(`${tmdbid.toString()}.jpg`)) {
             filePath = `bd/${tmdbid}`
         }
 
