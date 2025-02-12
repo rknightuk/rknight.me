@@ -83,5 +83,8 @@ location /notes {
 }
 ```
 
+> [!NOTE] Update 2025-02-12
+> [Caleb has a solution](https://calebhearth.com/prevent-microblog-link-previews) for doing the same thing in Rails
+
 [^1]: [Adam](https://neatnik.net/) would argue they're always superfluous
 [^2]: You can see how I'm keeping nginx changes in version control in [this post](https://rknight.me/blog/blocking-bots-with-nginx/)
