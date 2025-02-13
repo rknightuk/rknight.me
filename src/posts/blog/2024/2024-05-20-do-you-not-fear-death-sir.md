@@ -21,3 +21,6 @@ We drove around in circles on an industrial estate for a bit then I pulled over 
 _Do you not fear death, sir?_.
 
 It was fine, no one died, we made it back in one piece. Still. The man clearly has no fear.
+
+> [!NOTE] Update 2025-02-13
+> This post and specifically the note about Portsmouth, caused a months-long debate wherein [Zoe wrote a post](https://zoeaubert.me/blog/we-need-to-talk-about-islands/) and [then I did](https://rknight.me/blog/we-need-to-talk-about-zoe-being-wrong-about-islands/)
