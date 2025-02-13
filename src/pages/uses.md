@@ -21,7 +21,15 @@ eleventyNavigation:
     }
 </style>
 
-![My Desk](https://cdn.rknight.me/site/desk-2023.jpg)
+![My desk](https://cdn.rknight.me/site/desk-2025.jpg)
+
+<details>
+    <summary>Previous Desks</summary>
+    <ul>
+        <li><a href="https://cdn.rknight.me/site/desk-2024.jpg" target="_blank">2024</a></li>
+        <li><a href="https://cdn.rknight.me/site/desk-2023.jpg" target="_blank">2023</a></li>
+    </ul>
+</details>
 
 > "A chaotic tribute to the art of procrastination" - [JD](https://jdburch.com)
 
