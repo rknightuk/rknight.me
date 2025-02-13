@@ -7,7 +7,7 @@ excerpt: "A debate about islands that got a little bit out of hand"
 
 Firstly, I'd like to thank my right honorable friend for giving me an advanced copy of her post.
 
-A few months ago, as we are want to do, [Zoe](https://zoeaubert.me) and I got into a heated discussion about if Portsmouth is an island or not. Then [she went a bit overboard in this post](https://zoeaubert.me/blog/we-need-to-talk-about-islands/) correcting me about the density of Portmouth's population which is fair enough because I was misled by Wikipedia. 
+A few months ago, as we are wont to do, [Zoe](https://zoeaubert.me) and I got into a heated discussion about if Portsmouth is an island or not. Then [she went a bit overboard in this post](https://zoeaubert.me/blog/we-need-to-talk-about-islands/) correcting me about the density of Portmouth's population which is fair enough because I was misled by Wikipedia. 
 
 The second half of her post, however, is nothing short of lunacy, claiming Portsmouth isn't an island because you could get there using [shank's pony](https://dictionary.cambridge.org/dictionary/english/shanks-s-pony):
 
