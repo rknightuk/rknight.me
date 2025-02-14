@@ -52,7 +52,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Fontshare: Quality Fonts. Free.](https://www.fontshare.com/)
 - [Foundries List](https://type-atlas.xyz/foundries/)
 
-### Small Foundries
+#### Small Foundries
 
 - [Beth Mathews Design](https://www.bethmathews.com/shop)
 - [Abby Swain](https://www.abbyswain.com/font-shop)
