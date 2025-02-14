@@ -178,15 +178,11 @@ I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersec
 - [Tombow Mechanical Pencil Mono Graph Lite Smokey Blue 0.5mm](https://www.amazon.co.uk/dp/B0CZ6ZLKP4)
 - [SUN-STAR Metacil Retractable Click Pencil](https://www.amazon.co.uk/dp/B0BKRV5PJF)
 - [Uni Kurutoga - Pokemon edition 0.3mm](https://www.afth.co.uk/uni---kurutoga---pokemon-collection-03mm---pocket-monsters-always-together-57277-p.asp) ([post](https://rknight.me/notes/202501292224/))
-- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils) ([post](https://rknight.me/notes/202502061251/))
-	- P203
-	- P205
-	- P207
-	- P209
+- [Pentel P200 set](https://www.pentel.co.uk/product/p200-automatic-pencils) ([post](https://rknight.me/notes/202502061251/)) P203/P205/P207/P209
 
 #### Other Paper Products
 
 - [Ottergami Dotgrid Bullet Journal A5](https://www.amazon.co.uk/dp/B07DHJNNR3)
 - [Mabor pen holders](https://www.amazon.co.uk/dp/B0CSMZL829)
-- [Lihit Lab compact pen case (red)](https://cultpens.com/products/lihit-lab-compact-pen-case)
+- [Lihit Lab compact pen case](https://cultpens.com/products/lihit-lab-compact-pen-case) ([post](https://rknight.me/blog/lihit-labs-compact-pen-case-review/))
 
