@@ -50,7 +50,15 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Bunny Fonts](https://bunny.net/fonts/)
 - [UNCUT.wtf](https://uncut.wtf/)
 - [Fontshare: Quality Fonts. Free.](https://www.fontshare.com/)
+- [Foundries List](https://type-atlas.xyz/foundries/)
 
+### Small Foundries
+
+- [Beth Mathews Design](https://www.bethmathews.com/shop)
+- [Abby Swain](https://www.abbyswain.com/font-shop)
+- [Beasts of England](https://beastsofengland.co/)
+- [Fonts Archives - Hoodzpah](https://hoodzpahdesign.com/product-category/fonts/)
+- [Remedy667 – We ♥ Horror Fonts](https://remedy667.com/)
 - [SimpleBits®](https://simplebits.shop/collections/fonts)
 - [Tom Chalky](https://tomchalky.com/product-category/fonts/)
 - [Future Fonts](https://www.futurefonts.xyz/)

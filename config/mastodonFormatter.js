@@ -96,7 +96,7 @@ const formatLink = (post, content, permalink) => {
         mastoUsername = `${url.pathname.replace('/', '')}@${url.host}`
     }
 
-    formatted = `⭐ ${decode(post.title)} ${mastoUsername ? `by ${mastoUsername}` : ''} ${post.link}`
+    formatted = `⭐ ${decode(post.title)}${mastoUsername ? ` by ${mastoUsername}` : ''} ${post.link}`
 
     const firstLine = content.split('\n')[0]
     const formattedWithFirstLine = `${formatted}\n\n${firstLine}\n\n${permalinkSymbol} Read more: ${permalink}`
