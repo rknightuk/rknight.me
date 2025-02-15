@@ -1,0 +1,12 @@
+<nav class="main">
+    <div class="container">
+        <a href="/about" {% if ('/about' in page.url) %}class="active"{% endif %}>About</a>
+        <a href="/blog" {% if ('/blog' in page.url) %}class="active"{% endif %}>Blog</a>
+        <a href="/links" {% if ('/links' in page.url) %}class="active"{% endif %}>Links</a>
+        <a href="/notes" {% if ('/notes' in page.url) %}class="active"{% endif %}>Notes</a>
+        <a href="/projects" {% if ('/projects' in page.url) %}class="active"{% endif %}>Projects</a>
+        <a href="/now" {% if ('/now' in page.url) and ('/blog/now' not in page.url) %}class="active"{% endif %}>/now</a>
+        <a href="/uses" {% if ('/uses' in page.url) %}class="active"{% endif %}>/uses</a>
+        <a href="/explore" {% if ('/explore' in page.url) %}class="active"{% endif %}>Explore</a>
+    </div>
+</nav>
