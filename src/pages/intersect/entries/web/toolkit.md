@@ -41,6 +41,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Flexoki](https://stephango.com/flexoki)
 - [Customizing Colors - Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 - [Flat UI Colors](https://flatuicolors.com/)
+- [Color Hunt](https://colorhunt.co)
 - [BrandColors - official brand color hex codes](https://brandcolors.net/)
 - [CSS HD Gradients](https://gradient.style/)
 - [Randoma11y - Accessible color combinations](https://randoma11y.com/)
