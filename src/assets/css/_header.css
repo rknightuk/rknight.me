@@ -7,7 +7,7 @@ header.main .container {
 header.main {
     background-color: var(--nearblack);
     overflow: auto;
-    padding: 10px 0;
+    padding: 10px 0 0 0;
 }
 
 header.main h1 {
@@ -39,8 +39,8 @@ header.main a:hover {
     border: 2px solid var(--offwhite);
     border-radius: 5px;
     margin-right: 10px;
-    width: 60px;
-    height: 60px;
+    width: 40px;
+    height: 40px;
     display: flex;
     align-items: center;
     justify-content: center;
