@@ -203,6 +203,11 @@ module.exports = {
     notes: (collectionApi) => {
         return collectionApi.getFilteredByGlob(makePath('notes')).reverse()
     },
+    photos: (collectionApi) => {
+        return collectionApi.getFilteredByGlob(makePath('notes')).reverse().filter(n => {
+            return n.data.images.length > 0
+        })
+    },
     blogTags: (collectionApi) => {
         const allTags = collectionApi.getFilteredByGlob(makePath('blog')).reverse().reduce((tags, p) => {
             if (p.data.tags && Array.isArray(p.data.tags))
