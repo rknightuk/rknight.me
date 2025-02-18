@@ -120,6 +120,9 @@ module.exports = {
             return a.title.toLowerCase().localeCompare(b.title.toLowerCase())
         });
     },
+    getImages: (data) => {
+        return utils.extractImages(data)
+    },
     getAlmanacDescription: (data) => {
         return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
     },

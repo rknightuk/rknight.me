@@ -1,0 +1,30 @@
+---
+pagination:
+  data: collections.photos
+  size: 50
+  alias: note
+permalink: 'photos/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
+layout: base
+wide: true
+eleventyNavigation:
+  key: Photos
+  parent: Home
+eleventyComputed:
+    title: Photos
+    subtitle: photos of things
+---
+
+<div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
+{%- for note in pagination.items %}
+    {%- for image in note.data.images %}
+        <a href="{{ note.data.permalink | stripIndex }}">
+            <img style="aspect-ratio: 1 / 1;object-fit: cover;"src="{{ image.url }}" alt="{{ image.alt }}">
+        </a>
+    {%- endfor %}
+{% endfor -%}
+</div>
+
+<div class="pagination box">
+    <div>{% if pagination.href.previous %}<a href="{{ pagination.href.previous }}">Newer Photos</a>{% else %}{% endif %}</div>
+    <div>{% if pagination.href.next %}<a href="{{ pagination.href.next }}">Older Photos</a>{% else %}{% endif %}</div>
+</div>

@@ -38,7 +38,16 @@
             "opengraph": "{{ post.url | getOpengraphUrl }}"
         },
         "date_published": "{{ post.data.date | dateForFeed }}",
-        "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %}
+        "tags": {% if post.data.tags %}{{ post.data.tags | dump | safe }}{% else %}[]{% endif %},
+        "attachments": [
+            {%- for attachment in post.data.images -%}
+            {
+                "url": "{{ attachment.url }}",
+                "mime_type": "image/jpeg",
+                "title": {% if attachment.alt %}{{ attachment.alt | dump | safe }}{% else %}""{% endif %}
+            }{%- if not loop.last %},{% else %}{%- endif -%}
+            {%- endfor -%}
+        ]
     }{% if not loop.last %},{% else %}{%- endif -%}
     {%- endfor -%}
 ]}
