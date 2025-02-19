@@ -8,12 +8,6 @@
     color: var(--nearblack);
 }
 
-.logo-dot {
-    fill: var(--primary);
-    stroke: var(--primary);
-    color: var(--primary);
-}
-
 .design--logo {
     height: 200px;
     border: 1px solid var(--offwhite);

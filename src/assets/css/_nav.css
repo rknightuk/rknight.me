@@ -11,29 +11,39 @@ nav.main .container {
     margin-bottom: 5px;
 }
 
-nav.main a:hover,
-nav.main a.active {
-    background-color: var(--primary-subtle);
-    color: var(--nav-text);
-}
-
-
-nav.main a {
-    background-color: var(--primary);
-    padding: 2px 0;
-    text-decoration: none;
-    color: var(--nav-text);
-    border-radius: 3px;
-    text-transform: lowercase;
-    font-size: 0.8em;
-    font-family: var(--cr);
-    text-align: center;
-    transition: text-shadow 0.5s ease;
-}
-
 @media (max-width: 550px) {
     nav.main .container {
         display: grid;
         grid-template-columns: repeat(3, 1fr);
     }
+}
+
+
+.nav-link, 
+nav.main a {
+    text-decoration: none;
+    background-color: var(--offwhite);
+    color: var(--nav-text);
+    text-transform: lowercase;
+    font-size: .9em;
+    font-family: var(--cbr);
+    text-align: center;
+    border-bottom: none;
+    border-radius: 5px;
+    padding: 2px 0;
+    text-decoration: none;
+    box-shadow: var(--double-shadow);
+    transition: box-shadow .5s ease-in-out;
+}
+
+.nav-link:hover, nav.main a:hover {
+    box-shadow: none;
+}
+
+nav.main a.active {
+    padding-left: 5px;
+}
+nav.main a.active:after {
+    content: '.';
+    color: var(--primary);
 }

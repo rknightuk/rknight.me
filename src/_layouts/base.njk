@@ -8,7 +8,7 @@
 
         {% include 'head/icons.njk' %}
 
-        <link rel="stylesheet" href="/assets/css/app.css" type="text/css" media="screen" title="no title">
+        <link rel="stylesheet" href="/assets/css/app2.css" type="text/css" media="screen" title="no title">
         
         {% if site.production %}
             <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
@@ -133,35 +133,6 @@
         {% include 'footer.njk' %}
 
         {% include 'svgs.njk' %}
-
-        <script>
-            (function() {
-                const jasonMode = document.getElementById('jason-thinks-thanos-was-right')
-                
-                if (window.localStorage)
-                {
-                    const jasonModeEnabled = localStorage.getItem('jasonModeEnabled') === 'true'
-                    if (jasonModeEnabled)
-                    {
-                        jasonMode.classList.add('balanced')
-                        Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
-                        Array.from(document.getElementsByClassName('rkblock')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
-                        Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.add('perfect-balanced-as-all-things-should-be'))
-                    }
-                }
-                jasonMode.addEventListener('click', (e) => {
-                    e.preventDefault()
-                    jasonMode.classList.toggle('balanced')
-                    if (window.localStorage)
-                    {
-                        jasonMode.classList.contains('balanced') ? localStorage.setItem('jasonModeEnabled', true) : localStorage.setItem('jasonModeEnabled', false)
-                    }
-                    Array.from(document.getElementsByClassName('callout')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
-                    Array.from(document.getElementsByClassName('rkblock')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
-                    Array.from(document.getElementsByClassName('block-header')).forEach(e => e.classList.toggle('perfect-balanced-as-all-things-should-be'))
-                })
-            })()
-        </script>
 
 	</body>
 </html>

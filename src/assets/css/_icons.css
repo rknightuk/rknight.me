@@ -29,3 +29,11 @@
 .icon-prami {
     color: #E34198;
 }
+
+.subscribe-icon {
+    color: var(--color-rss);
+}
+
+.mastodon-icon {
+    color: var(--color-mastodon);
+}

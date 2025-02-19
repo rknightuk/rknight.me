@@ -253,69 +253,8 @@ th {
     padding: 3px 10px;
 }
 
-.alert {
-    position: relative;
-    font-size: 0.8em;
-    padding: 15px;
-    margin-bottom: 20px;
-    margin-top: 10px;
-    border: 1px solid var(--secondary);
-}
-
-.recipe .alert {
-    font-size: 0.9em;
-}
-
-.alert h1 {
-    font-family: var(--cr);
-}
-
-.alert p:first-child,
-.alert p:last-child {
-    margin: 0;
-}
-
-.alert p {
-    margin: 5px 0;
-}
-
-.alert .alert-icon {
-    position: absolute;
-    top: -15px;
-    left: 10px;
-    background: var(--nearblack);
-    padding: 5px;
-}
-
-.alert svg {
-    width: 15px;
-    height: 15px;
-}
-
-.alert .alert-calendar {
-    color: var(--color-warning);
-}
-
-.alert .alert-repost {
-    color: var(--secondary);
-}
-
-.alert .alert-note {
-    color: var(--tertiary);
-}
-
-.subscribe-icon {
-    color: var(--color-rss);
-}
-
-.mastodon-icon {
-    color: var(--color-mastodon);
-}
-
-.youtube-embed {
-    /* center this? */
-}
-
-.alert .alert-recipe {
+.logo-dot {
+    fill: var(--primary);
+    stroke: var(--primary);
     color: var(--primary);
 }
