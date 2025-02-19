@@ -1,11 +1,9 @@
-const utils = require('./utils')
-const cheerio = require('cheerio')
-const { decode } = require('html-entities')
-const mastodonCount = require('../mastodonCounter.js')
-const { tootText } = require('../mastodonFormatter.js')
-const { DateTime } = require('luxon')
+import utils from './utils.js'
+import { decode } from 'html-entities'
+import { tootText } from '../mastodonFormatter.js'
+import { DateTime } from 'luxon'
 
-module.exports = {
+export default {
     makeTootText: (post) => {
         return tootText(post)
     },
@@ -16,24 +14,19 @@ module.exports = {
         return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
     },
     getOgImageUrl: (page) => {
-        if (page.attachments && page.attachments.length > 0)
-        {
+        if (page.attachments && page.attachments.length > 0) {
             return page.attachments[0].url ? page.attachments[0].url : page.attachments[0]
         }
-
         let path = page.url
         if (page.permalink === '404.html') {
             path = '/404/'
         }
-
         if (path.startsWith('/notes/') && path !== '/notes/') {
             path = '/notes/single/'
         }
-
         if (path.startsWith('/almanac/') && path !== '/almanac/') {
             const d = DateTime.fromISO(page.date.toISOString())
                 .setZone('Europe/London')
-
             if (DateTime.now().diff(d, 'days').days > 90) {
                 path = '/almanac/single/'
             }
@@ -46,7 +39,6 @@ module.exports = {
         if (path.startsWith('/notes/') && path !== '/notes/') {
             path = '/notes/single/'
         }
-
         const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
         return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123`
     }

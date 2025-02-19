@@ -1,5 +1,5 @@
-const { Recipe } = require('@cooklang/cooklang-ts')
-const marked = require('marked')
+import { Recipe } from '@cooklang/cooklang-ts'
+import * as marked from 'marked'
 
 const makeJsonLd = (recipe) => {
     return {
@@ -7,7 +7,7 @@ const makeJsonLd = (recipe) => {
         '@type': 'Recipe',
         author: 'Robb Knight',
         recipeIngredient: recipe.ingredients.map(i => {
-            return `${i.quantity }${i.units} ${i.name}`
+            return `${i.quantity}${i.units} ${i.name}`
         }),
         name: recipe.metadata.name,
         image: [
@@ -19,11 +19,14 @@ const makeJsonLd = (recipe) => {
                 text: step.map(s => {
                     if (s.type === 'text') {
                         return s.value
-                    } else if (s.type === 'ingredient') {
+                    }
+                    else if (s.type === 'ingredient') {
                         return s.name.toLowerCase()
-                    } else if (s.type === 'timer') {
+                    }
+                    else if (s.type === 'timer') {
                         return `${s.quantity} ${s.units}`
-                    } else if (s.type === 'cookware') {
+                    }
+                    else if (s.type === 'cookware') {
                         return s.name.toLowerCase()
                     }
                 }).join('')
@@ -31,17 +34,14 @@ const makeJsonLd = (recipe) => {
         }),
     }
 }
-
 const getRecipeData = (raw) => {
     const recipe = new Recipe(raw)
     const notes = (recipe.metadata.notes || '').split('|').map(n => marked.parse(n.trim()))
     const json = makeJsonLd(recipe)
     const { image, name } = recipe.metadata
-    
     delete recipe.metadata.notes
     delete recipe.metadata.name
     delete recipe.metadata.image
-
     return {
         json,
         name,
@@ -60,11 +60,14 @@ const getRecipeData = (raw) => {
             return marked.parse(step.map(s => {
                 if (s.type === 'text') {
                     return s.value
-                } else if (s.type === 'ingredient') {
+                }
+                else if (s.type === 'ingredient') {
                     return `<span class="cl-ingredient">${s.name.toLowerCase()}</span>`
-                } else if (s.type === 'timer') {
+                }
+                else if (s.type === 'timer') {
                     return `<span class="cl-timer">${s.quantity} ${s.units}</span>`
-                } else if (s.type === 'cookware') {
+                }
+                else if (s.type === 'cookware') {
                     return `<span class="cl-cookware">${s.name.toLowerCase()}</span>`
                 }
             }).join(''))
@@ -72,4 +75,6 @@ const getRecipeData = (raw) => {
     }
 }
 
-module.exports = { getRecipeData }
+export default {
+    getRecipeData
+}

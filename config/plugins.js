@@ -1,29 +1,36 @@
-module.exports = [
+import rss from '@11ty/eleventy-plugin-rss'
+import syntaxhighlight from '@11ty/eleventy-plugin-syntaxhighlight'
+import lightningcss from '@11tyrocks/eleventy-plugin-lightningcss'
+import navigation from '@11ty/eleventy-navigation'
+import youtube from 'eleventy-plugin-youtube-embed'
+import popstgraph from '@rknightuk/eleventy-plugin-post-graph'
+
+export default [
     {
-        name: '@11ty/eleventy-plugin-rss',
+        name: rss,
     },
     {
-        name: '@11ty/eleventy-plugin-syntaxhighlight',
+        name: syntaxhighlight,
     },
     {
-        name: '@11tyrocks/eleventy-plugin-lightningcss',
+        name: lightningcss,
     },
     {
-        name: '@11ty/eleventy-navigation',
+        name: navigation,
     },
     {
-        name: 'eleventy-plugin-youtube-embed',
+        name: youtube,
         options: {
             lite: true,
             embedClass: 'youtube-embed',
         },
     },
     {
-        name: '@rknightuk/eleventy-plugin-post-graph',
+        name: popstgraph,
         options: {
             textColor: 'white',
             highlightColor: 'var(--primary-subtle)',
             sort: 'desc'
         }
     }
-]
+];

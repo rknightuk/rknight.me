@@ -1,4 +1,4 @@
-module.exports = {
+export default {
     postType: 'note',
     layout: 'posts/note',
 	eleventyComputed: {

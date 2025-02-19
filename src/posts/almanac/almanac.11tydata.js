@@ -1,4 +1,4 @@
-module.exports = {
+export default {
 	eleventyComputed: {
         layout: 'posts/almanac',
         postType: 'almanac',

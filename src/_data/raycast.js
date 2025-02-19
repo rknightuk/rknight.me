@@ -1,4 +1,4 @@
-module.exports = () => {
+export default () => {
     return [
         {
             title: 'My script commands',
@@ -28,5 +28,5 @@ module.exports = () => {
             desc: 'Contributed status.lol',
             link: 'https://www.raycast.com/danpalmer/omg-lol',
         }
-    ]
-}
+    ];
+};

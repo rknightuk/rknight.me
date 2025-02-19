@@ -1,866 +1,866 @@
 {
-  "PS5": {
-    "marvelsspiderman2": {
-      "titleRaw": "Marvel's Spider-Man 2",
-      "progress": 97,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 22,
-        "silver": 17,
-        "gold": 2,
-        "platinum": 1
-      }
+    "PS5": {
+        "marvelsspiderman2": {
+            "titleRaw": "Marvel's Spider-Man 2",
+            "progress": 97,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 22,
+                "silver": 17,
+                "gold": 2,
+                "platinum": 1
+            }
+        },
+        "marvelsguardiansofthegalaxy": {
+            "titleRaw": "Marvel's Guardians of the Galaxy",
+            "progress": 13,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 9,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "stray": {
+            "titleRaw": "Stray",
+            "progress": 39,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 5,
+                "silver": 5,
+                "gold": 2,
+                "platinum": 0
+            }
+        },
+        "thelastofusparti": {
+            "titleRaw": "The Last of Us™ Part I",
+            "progress": 1,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "horizonforbiddenwest": {
+            "titleRaw": "Horizon Forbidden West",
+            "progress": 65,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 47,
+                "silver": 6,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "grandtheftautov": {
+            "titleRaw": "Grand Theft Auto V",
+            "progress": 2,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 3,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "grandtheftautosanandreasthedefinitiveedition": {
+            "titleRaw": "Grand Theft Auto: San Andreas – The Definitive Edition",
+            "progress": 19,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 5,
+                "silver": 1,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "grandtheftautovicecitythedefinitiveedition": {
+            "titleRaw": "Grand Theft Auto: Vice City – The Definitive Edition",
+            "progress": 97,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 19,
+                "silver": 8,
+                "gold": 5,
+                "platinum": 0
+            }
+        },
+        "grandtheftautoiiithedefinitiveedition": {
+            "titleRaw": "Grand Theft Auto III – The Definitive Edition",
+            "progress": 75,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 10,
+                "silver": 9,
+                "gold": 4,
+                "platinum": 0
+            }
+        },
+        "kenabridgeofspirits": {
+            "titleRaw": "Kena: Bridge of Spirits",
+            "progress": 4,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 3,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "hotwheelsunleashed": {
+            "titleRaw": "Hot Wheels Unleashed™",
+            "progress": 18,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 15,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "wreckfest": {
+            "titleRaw": "Wreckfest",
+            "progress": 4,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 1,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "deathloop": {
+            "titleRaw": "Deathloop",
+            "progress": 50,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 15,
+                "silver": 8,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "ratchetclankriftapart": {
+            "titleRaw": "Ratchet & Clank: Rift Apart",
+            "progress": 100,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 36,
+                "silver": 7,
+                "gold": 3,
+                "platinum": 1
+            }
+        },
+        "controlultimateedition": {
+            "titleRaw": "Control Ultimate Edition",
+            "progress": 71,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 35,
+                "silver": 11,
+                "gold": 2,
+                "platinum": 0
+            }
+        },
+        "thepathless": {
+            "titleRaw": "The Pathless",
+            "progress": 1,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "destructionallstars": {
+            "titleRaw": "Destruction AllStars",
+            "progress": 2,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 0,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "immortalsfenyxrising": {
+            "titleRaw": "Immortals Fenyx Rising ™",
+            "progress": 64,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 38,
+                "silver": 10,
+                "gold": 2,
+                "platinum": 1
+            }
+        },
+        "sackboyabigadventure": {
+            "titleRaw": "Sackboy: A Big Adventure",
+            "progress": 48,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 18,
+                "silver": 5,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "marvelsspidermanmilesmorales": {
+            "titleRaw": "Marvel's Spider-Man: Miles Morales",
+            "progress": 100,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 37,
+                "silver": 10,
+                "gold": 2,
+                "platinum": 1
+            }
+        },
+        "bugsnax": {
+            "titleRaw": "Bugsnax",
+            "progress": 87,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 11,
+                "silver": 10,
+                "gold": 6,
+                "platinum": 1
+            }
+        },
+        "wormsrumble": {
+            "titleRaw": "Worms Rumble",
+            "progress": 1,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "marvelsspidermanremastered": {
+            "titleRaw": "Marvel's Spider-Man Remastered",
+            "progress": 94,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 53,
+                "silver": 16,
+                "gold": 5,
+                "platinum": 1
+            }
+        },
+        "astrosplayroom": {
+            "titleRaw": "ASTRO’s PLAYROOM",
+            "progress": 93,
+            "platform": "PS5",
+            "earned": {
+                "bronze": 27,
+                "silver": 13,
+                "gold": 5,
+                "platinum": 1
+            }
+        }
     },
-    "marvelsguardiansofthegalaxy": {
-      "titleRaw": "Marvel's Guardians of the Galaxy",
-      "progress": 13,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 9,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
+    "PS4": {
+        "peggle2": {
+            "titleRaw": "Peggle 2",
+            "progress": 20,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 5,
+                "silver": 5,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "legoharrypottercollectionyears57": {
+            "titleRaw": "LEGO® Harry Potter™ Collection: Years 5-7",
+            "progress": 52,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 31,
+                "silver": 3,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "rocketleague": {
+            "titleRaw": "Rocket League®",
+            "progress": 83,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 44,
+                "silver": 19,
+                "gold": 10,
+                "platinum": 1
+            }
+        },
+        "starwarssquadronstrophies": {
+            "titleRaw": "STAR WARS™: Squadrons Trophies",
+            "progress": 1,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "legoharrypottercollectionyears14": {
+            "titleRaw": "LEGO® Harry Potter™ Collection: Years 1-4",
+            "progress": 87,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 11,
+                "silver": 13,
+                "gold": 4,
+                "platinum": 0
+            }
+        },
+        "shadowofthetombraider": {
+            "titleRaw": "Shadow of The Tomb Raider",
+            "progress": 25,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 35,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "unraveltwo": {
+            "titleRaw": "Unravel Two",
+            "progress": 14,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 10,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "myfriendpedro": {
+            "titleRaw": "My Friend Pedro",
+            "progress": 70,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 8,
+                "silver": 14,
+                "gold": 2,
+                "platinum": 0
+            }
+        },
+        "untitledgoosegame": {
+            "titleRaw": "Untitled Goose Game",
+            "progress": 65,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 14,
+                "silver": 1,
+                "gold": 5,
+                "platinum": 0
+            }
+        },
+        "needforspeedpayback": {
+            "titleRaw": "Need for Speed™ Payback",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "infamoussecondson": {
+            "titleRaw": "inFAMOUS Second Son™",
+            "progress": 1,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 1,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "ratchetclank": {
+            "titleRaw": "Ratchet & Clank™",
+            "progress": 55,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 21,
+                "silver": 6,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "uncharted4athiefsend": {
+            "titleRaw": "Uncharted 4: A Thief’s End™",
+            "progress": 21,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 18,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "tonyhawksproskater12": {
+            "titleRaw": "Tony Hawk's Pro Skater 1 + 2",
+            "progress": 52,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 16,
+                "silver": 7,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "fallguys": {
+            "titleRaw": "Fall Guys",
+            "progress": 25,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 15,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "thelastofuspartii": {
+            "titleRaw": "The Last of Us™ Part II",
+            "progress": 35,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 7,
+                "silver": 6,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "crashbandicootwarped": {
+            "titleRaw": "Crash Bandicoot: Warped",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "crashbandicoot2cortexstrikesback": {
+            "titleRaw": "Crash Bandicoot 2: Cortex Strikes Back",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "crashbandicoot": {
+            "titleRaw": "Crash Bandicoot",
+            "progress": 4,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 3,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "godofwar": {
+            "titleRaw": "God of War",
+            "progress": 7,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 5,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "thelastofusremastered": {
+            "titleRaw": "The Last of Us™ Remastered",
+            "progress": 7,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 6,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "grandtheftautovicecity": {
+            "titleRaw": "Grand Theft Auto: Vice City",
+            "progress": 4,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 1,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "detroitbecomehuman": {
+            "titleRaw": "DETROIT: BECOME HUMAN",
+            "progress": 51,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 25,
+                "silver": 2,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "marvelsspiderman": {
+            "titleRaw": "Marvel's Spider-Man",
+            "progress": 97,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 53,
+                "silver": 13,
+                "gold": 5,
+                "platinum": 1
+            }
+        },
+        "reddeadredemption2": {
+            "titleRaw": "Red Dead Redemption 2",
+            "progress": 37,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 16,
+                "silver": 2,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "lifeisstrangebeforethestorm": {
+            "titleRaw": "Life is Strange: Before the Storm",
+            "progress": 21,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 5,
+                "silver": 2,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "lifeisstrange": {
+            "titleRaw": "Life Is Strange™",
+            "progress": 67,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 38,
+                "silver": 0,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "horizonzerodawn": {
+            "titleRaw": "Horizon Zero Dawn",
+            "progress": 84,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 58,
+                "silver": 7,
+                "gold": 2,
+                "platinum": 1
+            }
+        },
+        "unchartedthelostlegacy": {
+            "titleRaw": "Uncharted: The Lost Legacy™",
+            "progress": 30,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 15,
+                "silver": 3,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "sonicmania": {
+            "titleRaw": "Sonic Mania",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "yookalaylee": {
+            "titleRaw": "Yooka-Laylee",
+            "progress": 24,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 12,
+                "silver": 2,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "firewatch": {
+            "titleRaw": "Firewatch",
+            "progress": 92,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 4,
+                "silver": 1,
+                "gold": 3,
+                "platinum": 0
+            }
+        },
+        "discjam": {
+            "titleRaw": "Disc Jam",
+            "progress": 25,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 3,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "legodimensions": {
+            "titleRaw": "LEGO® DIMENSIONS™",
+            "progress": 7,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 8,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "journey": {
+            "titleRaw": "Journey",
+            "progress": 38,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 6,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "olliolli2welcometoolliwoodepiccomboedition": {
+            "titleRaw": "OlliOlli2: Welcome to Olliwood (Epic Combo Edition)",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "olliolliepiccomboedition": {
+            "titleRaw": "OlliOlli (Epic Combo Edition)",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "grandtheftauto3": {
+            "titleRaw": "Grand Theft Auto 3",
+            "progress": 0,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "gonehome": {
+            "titleRaw": "Gone Home",
+            "progress": 47,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 2,
+                "silver": 4,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "legostarwarstheforceawakens": {
+            "titleRaw": "LEGO® STAR WARS™: The Force Awakens",
+            "progress": 100,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 60,
+                "silver": 6,
+                "gold": 3,
+                "platinum": 1
+            }
+        },
+        "uncharteddrakesfortuneremastered": {
+            "titleRaw": "Uncharted: Drake’s Fortune™ Remastered",
+            "progress": 9,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 6,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "grandtheftautov": {
+            "titleRaw": "Grand Theft Auto V",
+            "progress": 5,
+            "platform": "PS4",
+            "earned": {
+                "bronze": 6,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        }
     },
-    "stray": {
-      "titleRaw": "Stray",
-      "progress": 39,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 5,
-        "silver": 5,
-        "gold": 2,
-        "platinum": 0
-      }
-    },
-    "thelastofusparti": {
-      "titleRaw": "The Last of Us™ Part I",
-      "progress": 1,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 1,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "horizonforbiddenwest": {
-      "titleRaw": "Horizon Forbidden West",
-      "progress": 65,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 47,
-        "silver": 6,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "grandtheftautov": {
-      "titleRaw": "Grand Theft Auto V",
-      "progress": 2,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 3,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "grandtheftautosanandreasthedefinitiveedition": {
-      "titleRaw": "Grand Theft Auto: San Andreas – The Definitive Edition",
-      "progress": 19,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 5,
-        "silver": 1,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "grandtheftautovicecitythedefinitiveedition": {
-      "titleRaw": "Grand Theft Auto: Vice City – The Definitive Edition",
-      "progress": 97,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 19,
-        "silver": 8,
-        "gold": 5,
-        "platinum": 0
-      }
-    },
-    "grandtheftautoiiithedefinitiveedition": {
-      "titleRaw": "Grand Theft Auto III – The Definitive Edition",
-      "progress": 75,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 10,
-        "silver": 9,
-        "gold": 4,
-        "platinum": 0
-      }
-    },
-    "kenabridgeofspirits": {
-      "titleRaw": "Kena: Bridge of Spirits",
-      "progress": 4,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 3,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "hotwheelsunleashed": {
-      "titleRaw": "Hot Wheels Unleashed™",
-      "progress": 18,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 15,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "wreckfest": {
-      "titleRaw": "Wreckfest",
-      "progress": 4,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 1,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "deathloop": {
-      "titleRaw": "Deathloop",
-      "progress": 50,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 15,
-        "silver": 8,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "ratchetclankriftapart": {
-      "titleRaw": "Ratchet & Clank: Rift Apart",
-      "progress": 100,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 36,
-        "silver": 7,
-        "gold": 3,
-        "platinum": 1
-      }
-    },
-    "controlultimateedition": {
-      "titleRaw": "Control Ultimate Edition",
-      "progress": 71,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 35,
-        "silver": 11,
-        "gold": 2,
-        "platinum": 0
-      }
-    },
-    "thepathless": {
-      "titleRaw": "The Pathless",
-      "progress": 1,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 1,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "destructionallstars": {
-      "titleRaw": "Destruction AllStars",
-      "progress": 2,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 0,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "immortalsfenyxrising": {
-      "titleRaw": "Immortals Fenyx Rising ™",
-      "progress": 64,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 38,
-        "silver": 10,
-        "gold": 2,
-        "platinum": 1
-      }
-    },
-    "sackboyabigadventure": {
-      "titleRaw": "Sackboy: A Big Adventure",
-      "progress": 48,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 18,
-        "silver": 5,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "marvelsspidermanmilesmorales": {
-      "titleRaw": "Marvel's Spider-Man: Miles Morales",
-      "progress": 100,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 37,
-        "silver": 10,
-        "gold": 2,
-        "platinum": 1
-      }
-    },
-    "bugsnax": {
-      "titleRaw": "Bugsnax",
-      "progress": 87,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 11,
-        "silver": 10,
-        "gold": 6,
-        "platinum": 1
-      }
-    },
-    "wormsrumble": {
-      "titleRaw": "Worms Rumble",
-      "progress": 1,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 1,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "marvelsspidermanremastered": {
-      "titleRaw": "Marvel's Spider-Man Remastered",
-      "progress": 94,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 53,
-        "silver": 16,
-        "gold": 5,
-        "platinum": 1
-      }
-    },
-    "astrosplayroom": {
-      "titleRaw": "ASTRO’s PLAYROOM",
-      "progress": 93,
-      "platform": "PS5",
-      "earned": {
-        "bronze": 27,
-        "silver": 13,
-        "gold": 5,
-        "platinum": 1
-      }
+    "PS3": {
+        "mirrorsedge": {
+            "titleRaw": "Mirror's Edge™",
+            "progress": 3,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 1,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "thelastofus": {
+            "titleRaw": "The Last of Us™",
+            "progress": 0,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "ratchetclank2": {
+            "titleRaw": "Ratchet & Clank 2",
+            "progress": 0,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 0,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "uncharted3drakesdeception": {
+            "titleRaw": "Uncharted 3: Drake's Deception™",
+            "progress": 15,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 15,
+                "silver": 3,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "uncharted2amongthieves": {
+            "titleRaw": "Uncharted 2: Among Thieves™ ",
+            "progress": 21,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 10,
+                "silver": 2,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "ratchetclank": {
+            "titleRaw": "Ratchet & Clank",
+            "progress": 8,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 4,
+                "silver": 1,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "ducktalesremastered": {
+            "titleRaw": "DuckTales: Remastered",
+            "progress": 19,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 4,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "uncharteddrakesfortune": {
+            "titleRaw": "Uncharted: Drake's Fortune",
+            "progress": 35,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 13,
+                "silver": 3,
+                "gold": 1,
+                "platinum": 0
+            }
+        },
+        "infamous": {
+            "titleRaw": "inFamous",
+            "progress": 4,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 3,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "jakanddaxtertheprecursorlegacy": {
+            "titleRaw": "Jak and Daxter: The Precursor Legacy",
+            "progress": 100,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 22,
+                "silver": 12,
+                "gold": 4,
+                "platinum": 1
+            }
+        },
+        "littlebigplanet": {
+            "titleRaw": "LittleBigPlanet™",
+            "progress": 7,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 7,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        },
+        "modnationracers": {
+            "titleRaw": "ModNation™ Racers",
+            "progress": 3,
+            "platform": "PS3",
+            "earned": {
+                "bronze": 4,
+                "silver": 0,
+                "gold": 0,
+                "platinum": 0
+            }
+        }
     }
-  },
-  "PS4": {
-    "peggle2": {
-      "titleRaw": "Peggle 2",
-      "progress": 20,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 5,
-        "silver": 5,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "legoharrypottercollectionyears57": {
-      "titleRaw": "LEGO® Harry Potter™ Collection: Years 5-7",
-      "progress": 52,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 31,
-        "silver": 3,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "rocketleague": {
-      "titleRaw": "Rocket League®",
-      "progress": 83,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 44,
-        "silver": 19,
-        "gold": 10,
-        "platinum": 1
-      }
-    },
-    "starwarssquadronstrophies": {
-      "titleRaw": "STAR WARS™: Squadrons Trophies",
-      "progress": 1,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 1,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "legoharrypottercollectionyears14": {
-      "titleRaw": "LEGO® Harry Potter™ Collection: Years 1-4",
-      "progress": 87,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 11,
-        "silver": 13,
-        "gold": 4,
-        "platinum": 0
-      }
-    },
-    "shadowofthetombraider": {
-      "titleRaw": "Shadow of The Tomb Raider",
-      "progress": 25,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 35,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "unraveltwo": {
-      "titleRaw": "Unravel Two",
-      "progress": 14,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 10,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "myfriendpedro": {
-      "titleRaw": "My Friend Pedro",
-      "progress": 70,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 8,
-        "silver": 14,
-        "gold": 2,
-        "platinum": 0
-      }
-    },
-    "untitledgoosegame": {
-      "titleRaw": "Untitled Goose Game",
-      "progress": 65,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 14,
-        "silver": 1,
-        "gold": 5,
-        "platinum": 0
-      }
-    },
-    "needforspeedpayback": {
-      "titleRaw": "Need for Speed™ Payback",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "infamoussecondson": {
-      "titleRaw": "inFAMOUS Second Son™",
-      "progress": 1,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 1,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "ratchetclank": {
-      "titleRaw": "Ratchet & Clank™",
-      "progress": 55,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 21,
-        "silver": 6,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "uncharted4athiefsend": {
-      "titleRaw": "Uncharted 4: A Thief’s End™",
-      "progress": 21,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 18,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "tonyhawksproskater12": {
-      "titleRaw": "Tony Hawk's Pro Skater 1 + 2",
-      "progress": 52,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 16,
-        "silver": 7,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "fallguys": {
-      "titleRaw": "Fall Guys",
-      "progress": 25,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 15,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "thelastofuspartii": {
-      "titleRaw": "The Last of Us™ Part II",
-      "progress": 35,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 7,
-        "silver": 6,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "crashbandicootwarped": {
-      "titleRaw": "Crash Bandicoot: Warped",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "crashbandicoot2cortexstrikesback": {
-      "titleRaw": "Crash Bandicoot 2: Cortex Strikes Back",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "crashbandicoot": {
-      "titleRaw": "Crash Bandicoot",
-      "progress": 4,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 3,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "godofwar": {
-      "titleRaw": "God of War",
-      "progress": 7,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 5,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "thelastofusremastered": {
-      "titleRaw": "The Last of Us™ Remastered",
-      "progress": 7,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 6,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "grandtheftautovicecity": {
-      "titleRaw": "Grand Theft Auto: Vice City",
-      "progress": 4,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 1,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "detroitbecomehuman": {
-      "titleRaw": "DETROIT: BECOME HUMAN",
-      "progress": 51,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 25,
-        "silver": 2,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "marvelsspiderman": {
-      "titleRaw": "Marvel's Spider-Man",
-      "progress": 97,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 53,
-        "silver": 13,
-        "gold": 5,
-        "platinum": 1
-      }
-    },
-    "reddeadredemption2": {
-      "titleRaw": "Red Dead Redemption 2",
-      "progress": 37,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 16,
-        "silver": 2,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "lifeisstrangebeforethestorm": {
-      "titleRaw": "Life is Strange: Before the Storm",
-      "progress": 21,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 5,
-        "silver": 2,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "lifeisstrange": {
-      "titleRaw": "Life Is Strange™",
-      "progress": 67,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 38,
-        "silver": 0,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "horizonzerodawn": {
-      "titleRaw": "Horizon Zero Dawn",
-      "progress": 84,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 58,
-        "silver": 7,
-        "gold": 2,
-        "platinum": 1
-      }
-    },
-    "unchartedthelostlegacy": {
-      "titleRaw": "Uncharted: The Lost Legacy™",
-      "progress": 30,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 15,
-        "silver": 3,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "sonicmania": {
-      "titleRaw": "Sonic Mania",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "yookalaylee": {
-      "titleRaw": "Yooka-Laylee",
-      "progress": 24,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 12,
-        "silver": 2,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "firewatch": {
-      "titleRaw": "Firewatch",
-      "progress": 92,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 4,
-        "silver": 1,
-        "gold": 3,
-        "platinum": 0
-      }
-    },
-    "discjam": {
-      "titleRaw": "Disc Jam",
-      "progress": 25,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 3,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "legodimensions": {
-      "titleRaw": "LEGO® DIMENSIONS™",
-      "progress": 7,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 8,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "journey": {
-      "titleRaw": "Journey",
-      "progress": 38,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 6,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "olliolli2welcometoolliwoodepiccomboedition": {
-      "titleRaw": "OlliOlli2: Welcome to Olliwood (Epic Combo Edition)",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "olliolliepiccomboedition": {
-      "titleRaw": "OlliOlli (Epic Combo Edition)",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "grandtheftauto3": {
-      "titleRaw": "Grand Theft Auto 3",
-      "progress": 0,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "gonehome": {
-      "titleRaw": "Gone Home",
-      "progress": 47,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 2,
-        "silver": 4,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "legostarwarstheforceawakens": {
-      "titleRaw": "LEGO® STAR WARS™: The Force Awakens",
-      "progress": 100,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 60,
-        "silver": 6,
-        "gold": 3,
-        "platinum": 1
-      }
-    },
-    "uncharteddrakesfortuneremastered": {
-      "titleRaw": "Uncharted: Drake’s Fortune™ Remastered",
-      "progress": 9,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 6,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "grandtheftautov": {
-      "titleRaw": "Grand Theft Auto V",
-      "progress": 5,
-      "platform": "PS4",
-      "earned": {
-        "bronze": 6,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    }
-  },
-  "PS3": {
-    "mirrorsedge": {
-      "titleRaw": "Mirror's Edge™",
-      "progress": 3,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 1,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "thelastofus": {
-      "titleRaw": "The Last of Us™",
-      "progress": 0,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "ratchetclank2": {
-      "titleRaw": "Ratchet & Clank 2",
-      "progress": 0,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 0,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "uncharted3drakesdeception": {
-      "titleRaw": "Uncharted 3: Drake's Deception™",
-      "progress": 15,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 15,
-        "silver": 3,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "uncharted2amongthieves": {
-      "titleRaw": "Uncharted 2: Among Thieves™ ",
-      "progress": 21,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 10,
-        "silver": 2,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "ratchetclank": {
-      "titleRaw": "Ratchet & Clank",
-      "progress": 8,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 4,
-        "silver": 1,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "ducktalesremastered": {
-      "titleRaw": "DuckTales: Remastered",
-      "progress": 19,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 4,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "uncharteddrakesfortune": {
-      "titleRaw": "Uncharted: Drake's Fortune",
-      "progress": 35,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 13,
-        "silver": 3,
-        "gold": 1,
-        "platinum": 0
-      }
-    },
-    "infamous": {
-      "titleRaw": "inFamous",
-      "progress": 4,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 3,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "jakanddaxtertheprecursorlegacy": {
-      "titleRaw": "Jak and Daxter: The Precursor Legacy",
-      "progress": 100,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 22,
-        "silver": 12,
-        "gold": 4,
-        "platinum": 1
-      }
-    },
-    "littlebigplanet": {
-      "titleRaw": "LittleBigPlanet™",
-      "progress": 7,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 7,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    },
-    "modnationracers": {
-      "titleRaw": "ModNation™ Racers",
-      "progress": 3,
-      "platform": "PS3",
-      "earned": {
-        "bronze": 4,
-        "silver": 0,
-        "gold": 0,
-        "platinum": 0
-      }
-    }
-  }
 }

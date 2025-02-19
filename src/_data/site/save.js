@@ -1,12 +1,12 @@
-module.exports = function() {
+export default (function () {
     return [
-        { 
+        {
             name: 'omg.lol',
             slug: 'omglol',
             link: 'https://home.omg.lol/referred-by/robb',
             desc: 'A cool domain (e.g. robb.omg.lol), email forwarding, profile page, pastebin, Mastodon instance and more',
         },
-        { 
+        {
             name: 'Backblaze',
             slug: 'backblaze',
             link: 'https://secure.backblaze.com/r/01gkf3',
@@ -24,13 +24,13 @@ module.exports = function() {
             link: 'https://godspeedapp.com/a/RKNIGHT25',
             desc: 'Get 25% off your first 12 months',
         },
-        { 
+        {
             name: 'Fathom Analytics',
             slug: 'fathom',
             link: 'https://usefathom.com/ref/IXCLSF',
             desc: 'Privacy-focused web analytics. $10 credit',
         },
-        { 
+        {
             name: 'Bunny CDN',
             slug: 'bunny',
             link: 'https://bunny.net?ref=b2i4y24apu',
@@ -42,7 +42,7 @@ module.exports = function() {
             link: 'https://hetzner.cloud/?ref=Lt9D9KzKP6UQ',
             desc: 'Hosting. $5 credit',
         },
-        { 
+        {
             name: 'Ooni',
             slug: 'ooni',
             link: 'http://rwrd.io/4orgua6?c',
@@ -60,5 +60,5 @@ module.exports = function() {
             link: 'https://cleanshot.sjv.io/robb',
             desc: 'The best screen capture tool for macOS',
         }
-    ]
-}
+    ];
+});

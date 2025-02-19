@@ -58,5 +58,6 @@
     "test": "node --test"
   },
   "author": "Robb Knight",
-  "license": "ISC"
+  "license": "ISC",
+  "type": "module"
 }

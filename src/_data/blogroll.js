@@ -1,4 +1,4 @@
-module.exports = () => {
+export default () => {
     return [
         {
             name: 'Cory Dransfeldt',
@@ -102,5 +102,5 @@ module.exports = () => {
             feed: 'https://notes.neatnik.net/rss.xml',
             description: 'The creator of omg.lol who has to write more stuff if I list him here.',
         }
-    ]
-}
+    ];
+};

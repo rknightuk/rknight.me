@@ -1,6 +1,6 @@
-const { tootText } = require('../config/mastodonFormatter.js')
-const { describe, it } = require('node:test')
-const assert = require('node:assert')
+import { tootText } from '../config/mastodonFormatter.js'
+import { describe, it } from 'node:test'
+import assert from 'node:assert'
 
 const fakePost = {
     title: 'This is the title',
