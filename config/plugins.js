@@ -6,31 +6,31 @@ import youtube from 'eleventy-plugin-youtube-embed'
 import popstgraph from '@rknightuk/eleventy-plugin-post-graph'
 
 export default [
-    {
-        name: rss,
-    },
-    {
-        name: syntaxhighlight,
-    },
-    {
-        name: lightningcss,
-    },
-    {
-        name: navigation,
-    },
-    {
-        name: youtube,
-        options: {
-            lite: true,
-            embedClass: 'youtube-embed',
-        },
-    },
-    {
-        name: popstgraph,
-        options: {
-            textColor: 'white',
-            highlightColor: 'var(--primary-subtle)',
-            sort: 'desc'
-        }
-    }
-];
+	{
+		name: rss,
+	},
+	{
+		name: syntaxhighlight,
+	},
+	{
+		name: lightningcss,
+	},
+	{
+		name: navigation,
+	},
+	{
+		name: youtube,
+		options: {
+			lite: true,
+			embedClass: 'youtube-embed',
+		},
+	},
+	{
+		name: popstgraph,
+		options: {
+			textColor: 'white',
+			highlightColor: 'var(--primary-subtle)',
+			sort: 'desc',
+		},
+	},
+]

@@ -36,11 +36,14 @@
     "@11ty/eleventy-plugin-syntaxhighlight": "^4.2.0",
     "eleventy-plugin-purgecss": "^0.4.0",
     "glob": "^10.3.10",
+    "husky": "^9.1.7",
+    "lint-staged": "^15.4.3",
     "markdown-it": "^14.0.0",
     "markdown-it-footnote": "^3.0.3",
     "moment": "^2.29.4",
     "node-fetch": "^2.6.1",
     "pagefind": "^0.10.7",
+    "prettier": "3.5.1",
     "qs": "^6.11.2",
     "sass": "^1.65.1",
     "xml2json": "^0.12.0"
@@ -55,9 +58,14 @@
     "clear": "rm -rf .cache",
     "pagefind": "npx pagefind --source public --glob \"**/*.html\"",
     "cli": "node cli/index.js run",
-    "test": "node --test"
+    "test": "node --test",
+    "prettier": "npx prettier ./config --write",
+    "prepare": "husky"
   },
   "author": "Robb Knight",
   "license": "ISC",
-  "type": "module"
+  "type": "module",
+  "lint-staged": {
+    "config/**/*.{js}": "prettier --write --ignore-unknown"
+  }
 }
