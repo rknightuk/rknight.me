@@ -14,9 +14,6 @@ const nth = (d) => {
 	}
 }
 
-const dateForFeedX = (date) => {
-	return date.toISOString()
-}
 const dateForFeed = (date) => {
 	return date.toISOString()
 }
