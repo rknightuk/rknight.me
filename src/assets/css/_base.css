@@ -37,12 +37,12 @@ p {
     word-break: break-word;
 }
 
-h2 {
-    background: url(/assets/img/scribble.svg);
+h2,h3 {
+    background: url(/assets/img/path.svg);
     background-size: contain;
     background-repeat: no-repeat;
-    background-position: left center;
-    background-size: auto 80%;
+    background-position: left bottom;
+    background-size: auto 15px;
 }
 
 h1,
@@ -51,13 +51,6 @@ h3,
 h4 {
     font-family: var(--cbr);
     color: var(--offwhite);
-}
-
-h2:after,
-h3:after,
-h4:after {
-    content: ".";
-    color: var(--primary);
 }
 
 h2 {

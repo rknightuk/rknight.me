@@ -4,7 +4,6 @@ import lightningcss from '@11tyrocks/eleventy-plugin-lightningcss'
 import navigation from '@11ty/eleventy-navigation'
 import youtube from 'eleventy-plugin-youtube-embed'
 import postgraph from '@rknightuk/eleventy-plugin-post-graph'
-import fontawesome from '@11ty/font-awesome'
 
 export default [
 	{
@@ -34,7 +33,4 @@ export default [
 			sort: 'desc',
 		},
 	},
-	{
-		name: fontawesome,
-	}
 ]
