@@ -1,3 +1,8 @@
+.header-wrapper {
+    padding-bottom: 10px;
+    background-color: var(--bg-darker);
+}
+
 header.main .container {
     display: flex;
     justify-content: space-between;
@@ -5,7 +10,6 @@ header.main .container {
 }
 
 header.main {
-    background-color: var(--nearblack);
     overflow: auto;
     padding: 10px 0 0 0;
 }
@@ -94,9 +98,10 @@ header.main a:hover {
     }
 }
 
-.main__links .icon {
-    width: 20px;
-    height: 20px;
+.main__links svg {
+    width: 1em;
+    height: 1em;
+    margin-right: 5px;
 }
 
 .main__links {
@@ -110,10 +115,6 @@ header.main a:hover {
     text-transform: lowercase;
     line-height: 1px;
     justify-content: flex-end;
-}
-
-.main__links .icon {
-    margin-right: 5px;
 }
 
 .main__links span {

@@ -18,4 +18,4 @@ For any posts on my main blog, I manually post those to my [Mastodon account](ht
 
 I fetch webmentions about my blog posts with [webmention.io](https://webmention.io). I wrote about how I did it [in this post](https://rknight.me/blog/adding-webmentions-to-your-site/). [I no longer collect Mastodon replies](https://rknight.me/blog/webmentions-redux/).
 
-I send webmentions for my posts with EchoFeed.
+I send webmentions for my posts with [EchoFeed](https://echofeed.app).

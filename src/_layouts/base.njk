@@ -20,9 +20,11 @@
 
 		{% include 'indieweb.njk' %}
 
-        {% include 'header.njk' %}
+        <div class="header-wrapper">
+            {% include 'header.njk' %}
 
-        {% include 'nav.njk' %}
+            {% include 'nav.njk' %}
+        </div>
 
 
         <style>
@@ -35,28 +37,13 @@
             }
         </style>
 
-        <div class="container">
-            <h1 class="weee">Full Width</h1>
-        </div>
-
-        <div class="container container-m">
-            <h1 class="weee">Med Width</h1>
-        </div>
-
-        <div class="container container-sm">
-            <h1 class="weee">Small Width</h1>
-        </div>
-
-        <div style="height:1000px;background: white;"></div>
-
         {% if homepage %}
-            {% include 'homepage_blocks.njk' %}
+            {# {% include 'homepage_blocks.njk' %} #}
+            {% include 'homepage_blocks2.njk' %}
         {% else %}
             <div class="rkblock block-main">
                 <div class="container">
-                    <h2 class="p-name">
-                        {{ title }}
-                    </h2>
+                    <h2 class="p-name">{{ title }}</h2>
                     {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
                     <nav class="header-nav">
                         {% if postType !== 'intersect' %}
@@ -82,7 +69,7 @@
         <main>
             <div class="
                 container
-                {% if wide %}{% else %}container-sm{% endif %}
+                {% if wide %}container-m{% else %}container-sm{% endif %}
                 h-entry
             ">
                 {% if postType == 'post' or postType == 'link' or postType == 'almanac' %}
@@ -132,7 +119,8 @@
 
         {% include 'footer.njk' %}
 
-        {% include 'svgs.njk' %}
+        {% getBundle "fontawesome" %}
 
+        {% include 'svgs.njk' %}
 	</body>
 </html>

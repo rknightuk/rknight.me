@@ -25,10 +25,24 @@ body {
     color: var(--offwhite);
 }
 
+@media (max-width: 650px) {
+    body {
+        font-size: 1em;
+    }
+}
+
 p {
     margin-bottom: 1em;
     margin-top: 1em;
     word-break: break-word;
+}
+
+h2 {
+    background: url(/assets/img/scribble.svg);
+    background-size: contain;
+    background-repeat: no-repeat;
+    background-position: left center;
+    background-size: auto 80%;
 }
 
 h1,
@@ -36,22 +50,28 @@ h2,
 h3,
 h4 {
     font-family: var(--cbr);
-    color: var(--secondary);
+    color: var(--offwhite);
+}
+
+h2:after,
+h3:after,
+h4:after {
+    content: ".";
+    color: var(--primary);
 }
 
 h2 {
-    font-size: 1.6em;
+    font-size: 2em;
 }
 
 h3 {
-    font-size: 1.4em;
+    font-size: 1.7em;
     display: flex;
     align-items: center;
 }
 
 h4 {
-    font-size: 1.3em;
-    color: var(--tertiary);
+    font-size: 1.5em;
     display: flex;
     align-items: center;
 }

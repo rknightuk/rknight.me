@@ -3,7 +3,8 @@ import syntaxhighlight from '@11ty/eleventy-plugin-syntaxhighlight'
 import lightningcss from '@11tyrocks/eleventy-plugin-lightningcss'
 import navigation from '@11ty/eleventy-navigation'
 import youtube from 'eleventy-plugin-youtube-embed'
-import popstgraph from '@rknightuk/eleventy-plugin-post-graph'
+import postgraph from '@rknightuk/eleventy-plugin-post-graph'
+import fontawesome from '@11ty/font-awesome'
 
 export default [
 	{
@@ -26,11 +27,14 @@ export default [
 		},
 	},
 	{
-		name: popstgraph,
+		name: postgraph,
 		options: {
 			textColor: 'white',
 			highlightColor: 'var(--primary-subtle)',
 			sort: 'desc',
 		},
 	},
+	{
+		name: fontawesome,
+	}
 ]
