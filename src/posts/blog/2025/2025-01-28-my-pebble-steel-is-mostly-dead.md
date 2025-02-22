@@ -12,3 +12,6 @@ After fiddling around with the _terrible_ charging cable, getting stuck in a loo
 ![A Pebble Steel](https://cdn.rknight.me/site/2025/pebble-steel.jpg)
 
 Sadly when I disconnect the charger, it turns off. I guess it needs a new battery but I don't have the energy or the time to do that so back into storage it goes.
+
+> [!NOTE] Update 2025-02-18
+> [Definitely dead](https://rknight.me/notes/202502180911/)
