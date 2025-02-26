@@ -32,7 +32,6 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - Books: [Google Books](https://developers.google.com/books/docs/v1/using)
 - Music/Movies/TV/Podcasts: [iTunes Search](https://developer.apple.com/library/archive/documentation/AudioVideo/Conceptual/iTuneSearchAPI/index.html)
 - Music: [Last.fm](https://www.last.fm/api)
-- [🏳️‍🌈 Pride Flag API](https://pride.dev/)
 
 ### Colors and Gradients
 
@@ -40,6 +39,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Open Color](https://yeun.github.io/open-color/)
 - [Flexoki](https://stephango.com/flexoki)
 - [Customizing Colors - Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
+- [Tailwind CSS Color Generator](https://uicolors.app/create)
 - [Flat UI Colors](https://flatuicolors.com/)
 - [Color Hunt](https://colorhunt.co)
 - [BrandColors - official brand color hex codes](https://brandcolors.net/)
