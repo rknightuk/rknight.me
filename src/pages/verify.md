@@ -28,6 +28,7 @@ If you see an account that looks like it might be me but isn't listed here, plea
 - Signal: `rknightuk.01`
 - LastFM: [rknightuk](https://last.fm/user/rknightuk)
 - omg.lol: [robb](https://robb.omg.lol)
+  - finger me: `finger robb@omg.lol`
 - GitHub: [rknightuk](https://github.com/rknightuk)
 - Apple Music: [rknightuk](https://music.apple.com/profile/rknightuk)
 - Buy Me a Coffee: [rknightuk](https://www.buymeacoffee.com/rknightuk)
