@@ -114,9 +114,6 @@ const sortByName = (arr) => {
 const getImages = (data) => {
 	return utils.extractImages(data)
 }
-const getAlmanacDescription = (data) => {
-	return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
-}
 const getAlmanacImage = ({
 	mediaType,
 	tmdbid,
@@ -242,7 +239,6 @@ export default {
 	getDiscussionIcon,
 	sortByName,
 	getImages,
-	getAlmanacDescription,
 	getAlmanacImage,
 	getBackdropImage,
 	getRelatedEntries,
