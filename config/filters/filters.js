@@ -123,9 +123,6 @@ module.exports = {
     getImages: (data) => {
         return utils.extractImages(data)
     },
-    getAlmanacDescription: (data) => {
-        return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
-    },
     getAlmanacImage: ({ mediaType, tmdbid, giantbombid, customImage, isbn13 }) => {
         let filePath = null
 

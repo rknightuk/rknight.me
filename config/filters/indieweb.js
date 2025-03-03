@@ -13,7 +13,7 @@ module.exports = {
         return decode(post.data.title)
     },
     getAlmanacDescription: (data) => {
-        return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.type)}`
+        return `An Almanac entry for ${data.title} ${utils.getAlmanacEmoji(data.mediaType)}`
     },
     getOgImageUrl: (page) => {
         if (page.attachments && page.attachments.length > 0)
