@@ -1,8 +1,9 @@
 .note {
     position: relative;
-    border: 1px solid var(--offwhite-subtle-extra);
+    border: 1px solid var(--code-black);
     color: var(--offwhite);
-    padding-bottom: 1.5em;
+    padding-bottom: 2em;
+    background-color: var(--bg-darker);
 }
 
 .note img {
@@ -10,7 +11,7 @@
 }
 
 .note__content {
-    padding: 0 10px;
+    padding: 0 15px;
 }
 
 .note__footer {
@@ -18,10 +19,18 @@
     bottom: 0;
     left: 0;
     right: 0;
-    border-top: 1px solid var(--offwhite-subtle-extra);
-    padding: 10px;
+    text-align: right;
+    padding: 15px;
     color: var(--offwhite-subtle-extra);
-    display: flex;
-    justify-content: space-between;
-    font-size: 0.7em;
+    font-size: 0.7em; 
+}
+
+.note__footer a {
+    color: var(--offwhite-subtle);
+    text-decoration: none;
+}
+
+.note__footer a:hover {
+    color: var(--offwhite);
+    text-decoration: underline;
 }

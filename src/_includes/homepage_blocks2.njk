@@ -43,6 +43,19 @@
             grid-gap: 5px;
             font-size: 0.7em;
         }
+
+        .home-notes-grid {
+            display: grid; 
+            grid-gap: 10px;
+            grid-template-columns: repeat(2, 1fr);
+            margin: 10px 0;
+        }
+
+        @media (max-width: 650px) {
+            .home-notes-grid {
+                grid-template-columns: 1fr;
+            }
+        }
     </style>
     <div class="home-grid-2">
         <div class="titlebox">
@@ -65,8 +78,8 @@
             {%- for post in collections.links.slice(0, 3) %}
                 <div class="home-post-item">
                     <h1><a href="{{ post.data.permalink | stripIndex }}">&infin;</a> <a href="{{ post.data.link }}">{{ post.data.title }} <span style="font-weight: normal;">&nearrow;</span></a></h1>
-                    <div style="display: flex; justify-content: flex-start;grid-gap: 5px;">
-                        <div class="date">{{ post.data.date.toISOString() | isoDateOnly }}</div>
+                    <div class="home-post-item__meta">
+                        <div class="home-post-item__meta--date">{{ post.data.date.toISOString() | isoDateOnly }}</div>
                     </div>
                 </div>
             {% endfor %}
@@ -76,7 +89,7 @@
 
     <div class="titlebox">
         <h2 class="titlebox__name">Notes</h2>
-        <div style="display: grid; grid-gap: 10px;grid-template-columns: repeat(2, 1fr);">
+        <div class="home-notes-grid">
             {%- for post in collections.notes.slice(0, 4) %}
             <div class="note">
                 <div class="note__content">
@@ -87,7 +100,7 @@
                 </div>
 
                 <div class="note__footer">
-                    <div class="note__footer--date"><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }}</a></div>
+                    <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }} {{ post.data.date | postTime }}</a>
                 </div>
             </div>
             {%- endfor -%}
