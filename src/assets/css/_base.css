@@ -25,24 +25,21 @@ body {
     color: var(--offwhite);
 }
 
-@media (max-width: 650px) {
-    body {
-        font-size: 1em;
-    }
-}
-
 p {
     margin-bottom: 1em;
     margin-top: 1em;
     word-break: break-word;
 }
 
-h2,h3 {
+h2,h3,h4 {
     background: url(/assets/img/path.svg);
-    background-size: contain;
     background-repeat: no-repeat;
     background-position: left bottom;
     background-size: auto 15px;
+}
+
+h4 {
+    background-size: auto 8px;
 }
 
 h1,
@@ -83,6 +80,7 @@ h4 svg {
 
 a {
     color: var(--primary-links);
+    text-underline-offset: 2px;
 }
 
 a:hover {
@@ -90,9 +88,13 @@ a:hover {
 }
 
 hr {
-    border: 1px solid var(--offwhite-subtle);
-    width: 50%;
-    margin: 20px auto;
+    border: none;
+    background-image: url(/assets/img/rule.svg);
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    height: 7px;
+    margin: 30px auto;
 }
 
 code {
@@ -270,4 +272,14 @@ th {
     fill: var(--primary);
     stroke: var(--primary);
     color: var(--primary);
+}
+
+@media (max-width: 650px) {
+    body {
+        font-size: 1em;
+    }
+
+    h2, h3 {
+        background-size: auto 12px;
+    }
 }

@@ -1,0 +1,192 @@
+---
+title: Features
+layout: base
+permalink: 'about/features/index.html'
+templateEngineOverride: njk,html,md
+eleventyNavigation:
+  key: Features
+  parent: About
+---
+
+<h3>Titlebox</h3>
+
+<div class="titlebox">
+    <h2 class="titlebox__name">Posts</h2>
+
+    <p>Minim amet proident ipsum ullamco amet cupidatat aliquip culpa deserunt adipisicing minim eu. Non duis velit esse. Consequat voluptate fugiat in consequat. Aliquip nulla cillum labore eu quis nulla consectetur eu minim aliqua.</p>
+
+    <p>Tempor nisi consequat et excepteur sunt veniam mollit consequat. Anim excepteur exercitation tempor consequat excepteur id. Veniam ex mollit officia incididunt aliquip consectetur anim velit non eiusmod laborum. Irure aliquip anim ea commodo culpa laboris pariatur minim labore culpa pariatur nostrud et ad veniam. Adipisicing laborum laborum laborum laborum. Adipisicing laborum laborum laborum laborum.</p>
+
+    <a class="titlebox__link" href="#">All Posts &rarr;</a>
+</div>
+
+```html
+<div class="titlebox">
+    <h2 class="titlebox__name">Title</h2>
+
+    <p>Content goes here</p>
+
+    <a class="titlebox__link" href="#">Link &rarr;</a>
+</div>
+```
+
+---
+
+### Almanac
+
+#### Grid
+
+<div class="almanac-grid">
+    <div class="almanac-empty-box">Empty</div>
+    <hyper-card>
+        <a href="#">
+            <img class="almanac-poster" src="/assets/catalog/almanac/game/78420.jpg">
+        </a>
+    </hyper-card>
+    <hyper-card>
+        <a href="#" class="almanac-empty-box gig">
+            <img class="almanac-poster" src="/assets/img/almanac/ticket-bg.jpg">
+            <div class="gig-info">Band Name @ Venue</div>
+        </a>
+    </hyper-card>
+</div>
+
+```html
+<div class="almanac-grid">
+    <div class="almanac-empty-box">Empty</div>
+    <hyper-card>
+        <a href="#">
+            <img class="almanac-poster" src="imageurl">
+        </a>
+    </hyper-card>
+    <hyper-card>
+        <a href="#" class="almanac-empty-box gig">
+            <img class="almanac-poster" src="/assets/img/almanac/ticket-bg.jpg">
+            <div class="gig-info">Band Name @ Venue</div>
+        </a>
+    </hyper-card>
+</div>
+```
+
+#### Fixed size (five across)
+
+```html
+<div class="almanac-grid fixed">
+    <!-- ... -->
+```
+
+#### Single Poster
+
+<div class="almanac-poster-wrap">
+    <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
+        <img src="/assets/catalog/almanac/movie/105.jpg" alt="Back to the Future">
+    </hyper-card>   
+</div>
+
+```html
+<div class="almanac-poster-wrap">
+    <hyper-card class="almanac-single-poster" style="--hypercard-scale: 1.03">
+        <img src="imageurl" alt="title">
+    </hyper-card>   
+</div>
+```
+
+---
+
+### Note
+
+<div class="note">
+    <div class="note__content">
+        <p>My wife asked to watch “the show where they live underground” so we started Silo.</p>
+
+        <p>Ten minutes in: “So where’s the girl in blue?”</p>
+
+        <p>Fallout. She wanted to watch Fallout.</p>
+    </div>
+
+    <div class="note__footer"><div class="note__footer--date">2021-10-10</div><div class="note__footer--from">from the desk of Robb Knight</div></div>
+</div>
+
+### Heading 3
+
+#### Heading 4
+
+**Post Metadata**
+
+```markdown
+---
+rssClub: true
+repost: This originally appeared on another website
+note: This is something worth noting about the post, like I was wrong
+---
+```
+
+---
+
+<aside class="alert">
+    <div class="alert-icon">
+        <svg class="icon subscribe-icon">
+            <use xlink:href="#rss"></use>
+        </svg>
+    </div>
+    <p>Welcome to the Knight club - RSS-only posts. These only show for RSS subscribers but feel free to share them. <a href="https://daverupert.com/rss-club/">Read more about RSS club</a>.</p>
+</aside>
+<aside class="alert">
+    <div class="alert-icon">
+        <svg class="icon alert-repost">
+            <use xlink:href="#repost"></use>
+        </svg>
+    </div>
+    <p>This originally appeared on another website</p>
+</aside>
+
+<aside class="alert">
+    <div class="alert-icon">
+        <svg class="icon alert-note">
+            <use xlink:href="#bell"></use>
+        </svg>
+    </div>
+    <p>This is something worth noting about the post, like I was wrong</p>
+</aside>
+
+<aside class="alert">
+    <div class="alert-icon">
+        <svg class="icon alert-calendar">
+            <use xlink:href="#calendar"></use>
+        </svg>
+    </div>
+    <p>This post is over X years old and may contain outdated opinions or incorrect information. The takes are still hot as hell though ❤️‍🔥</p>
+</aside>
+
+**Recipes**
+
+<aside class="alert">
+    <div class="alert-icon">
+        <svg class="icon alert-recipe">
+            <use xlink:href="#kitchen"></use>
+        </svg>
+    </div>
+    <p>Notes about a recipe</p>
+</aside>
+
+**Code Blocks**
+
+```js
+const foo = ['one', 'two', 'three']
+```
+
+**Callouts**
+
+```md
+> [!NOTE] Update
+> This is a callout
+```
+
+> [!NOTE] Update
+> This is a callout
+
+**Footnotes**
+
+This is a sentence[^1].
+
+[^1]: This is a footnote

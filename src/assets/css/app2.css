@@ -6,3 +6,7 @@
 @import "_header.css";
 @import "_nav.css";
 @import "_highlight.css";
+
+@import "components/_titlebox.css";
+@import "components/_almanac.css";
+@import "components/_note.css";

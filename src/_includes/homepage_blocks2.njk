@@ -7,26 +7,106 @@
 
     <p>Find out <a href="/about">about me</a> or <a href="/about/colophon">this internet website</a>.</p>
 
-    <h2>My Writing</h2>
+    <style>
+        .home-post-item {
+            margin-bottom: 10px;
+        }
 
-    <div style="display: flex; justify-content: space-between;grid-gap: 10px;">
-        <div>
+        .home-post-item h1,
+        .home-post-item p {
+            margin: 0;
+        }
+
+        .home-post-item h1 {
+            font-size: 1em;
+        }
+
+        .home-post-item .home-post-item__meta--date {
+            color: var(--offwhite-subtle);
+        }
+
+        .home-grid-2 {
+            display: grid; 
+            grid-template-columns: 1fr 1fr; 
+            grid-gap: 10px;
+        }
+
+        @media (max-width: 650px) {
+            .home-grid-2 {
+                grid-template-columns: 1fr;
+            }
+        }
+
+        .home-post-item__meta {
+            display: flex;
+            justify-content: flex-start;
+            grid-gap: 5px;
+            font-size: 0.7em;
+        }
+    </style>
+    <div class="home-grid-2">
+        <div class="titlebox">
+            <h2 class="titlebox__name">Posts</h2>
             {%- for post in collections.firstPosts %}
-                <div style="display: grid;grid-template-columns: 1fr 1fr;">
-                    <div><a href="{{ post.url }}">{{ post.data.title }}</a></div>
-                    <div style="text-align: right;">{{ post.data.date.toISOString() | isoDateOnly }}</div>
+                <div class="home-post-item">
+                    <h1><a href="{{ post.url }}">{{ post.data.title }}</a></h1>
+                    <div class="home-post-item__meta">
+                        <div class="home-post-item__meta--date">{{ post.data.date.toISOString() | isoDateOnly }}</div>
+                        {%- for tag in post.data.tags | sort -%}
+                            <a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>
+                        {%- endfor -%}
+                    </div>
                 </div>
             {% endfor %}
+            <a class="titlebox__link" href="/posts">All Posts &rarr;</a>
         </div>
-        <div>
-            {%- for post in collections.firstPosts %}
-                <div style="display: grid;grid-template-columns: 1fr 1fr;">
-                    <div><a href="{{ post.url }}">{{ post.data.title }}</a></div>
-                    <div style="text-align: right;">{{ post.data.date.toISOString() | isoDateOnly }}</div>
+        <div class="titlebox">
+            <h2 class="titlebox__name">Links</h2>
+            {%- for post in collections.links.slice(0, 3) %}
+                <div class="home-post-item">
+                    <h1><a href="{{ post.data.permalink | stripIndex }}">&infin;</a> <a href="{{ post.data.link }}">{{ post.data.title }} <span style="font-weight: normal;">&nearrow;</span></a></h1>
+                    <div style="display: flex; justify-content: flex-start;grid-gap: 5px;">
+                        <div class="date">{{ post.data.date.toISOString() | isoDateOnly }}</div>
+                    </div>
                 </div>
             {% endfor %}
+            <a class="titlebox__link" href="/links">All Links &rarr;</a>
         </div>
     </div>
 
+    <div class="titlebox">
+        <h2 class="titlebox__name">Notes</h2>
+        <div style="display: grid; grid-gap: 10px;grid-template-columns: repeat(2, 1fr);">
+            {%- for post in collections.notes.slice(0, 4) %}
+            <div class="note">
+                <div class="note__content">
+                    {{ post.content | safe }}
 
+                    {%- set attachments = post.data.attachments -%}
+                    {% include 'attachments.njk' %}
+                </div>
+
+                <div class="note__footer">
+                    <div class="note__footer--date"><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }}</a></div>
+                </div>
+            </div>
+            {%- endfor -%}
+        </div>
+        <a class="titlebox__link" href="/notes">All Notes &rarr;</a>
+    </div>
+
+    <div class="titlebox">
+        <h2 class="titlebox__name">Almanac Entries</h2>
+        <div class="almanac-grid fixed">
+            {%- for post in collections.almanac.slice(0, 5) %}
+                {% set almanacImage %}{{ { mediaType: post.data.mediaType, tmdbid: post.data.tmdbid, giantbombid: post.data.giantbombid, customImage: post.data.customImage, isbn13: post.data.isbn13 } | getAlmanacImage }}{% endset %}
+                <hyper-card>
+                    <a href="{{ post.data.permalink | stripIndex }}">
+                        <img class="almanac-poster" src="{{ almanacImage }}">
+                    </a>
+                </hyper-card>
+            {% endfor %}
+        </div>
+        <a class="titlebox__link" href="/almanac">All Entries &rarr;</a>
+    </div>
 </div>

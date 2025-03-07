@@ -1,0 +1,27 @@
+.note {
+    position: relative;
+    border: 1px solid var(--offwhite-subtle-extra);
+    color: var(--offwhite);
+    padding-bottom: 1.5em;
+}
+
+.note img {
+    max-width: 400px;
+}
+
+.note__content {
+    padding: 0 10px;
+}
+
+.note__footer {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    border-top: 1px solid var(--offwhite-subtle-extra);
+    padding: 10px;
+    color: var(--offwhite-subtle-extra);
+    display: flex;
+    justify-content: space-between;
+    font-size: 0.7em;
+}

@@ -1,0 +1,26 @@
+.titlebox {
+    position: relative;
+    border: 1px solid var(--offwhite-subtle-extra);
+    padding: 1em;
+    border-radius: 5px;
+    margin: 2em 0 1em 0;
+}
+
+.titlebox__name {
+    position: absolute;
+    top: -1em;
+    margin-left: -5px;
+    text-transform: lowercase;
+    width: fit-content;
+    padding: 0 5px;
+    background: var(--nearblack);
+}
+
+.titlebox__link {
+    position: absolute;
+    right: 1em;
+    bottom: -0.75em;
+    margin-right: -5px;
+    padding: 0 5px;
+    background: var(--nearblack);
+}

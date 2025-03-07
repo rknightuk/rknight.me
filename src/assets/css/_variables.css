@@ -1,13 +1,14 @@
 :root {
     --offwhite: #fff0d4;
     --offwhite-subtle: #c4baa8;
+    --offwhite-subtle-extra: #57524a;
     --purewhite: #ffffff;
     --nearblack: #272523;
     --bg-darker: #1e1d1b;
     --code-black: #060606;
     --primary: #e33d94;
-    --primary-subtle: #f37ab9;
-    --primary-links: #E29CBE;
+    --primary-subtle: #ef77ba;
+    --primary-links: #f6abd6;
     --secondary: #4394A8;
     --tertiary: #fd9e2b;
     --nav-text: #1B2528;
