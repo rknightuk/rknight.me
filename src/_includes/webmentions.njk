@@ -7,7 +7,7 @@
             {% if loop.index === 1 %}
             <div class="toot">
                 <div class="toot__header">
-                    <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}" rel="syndication" class="u-syndication">Discuss on the 'don</a>&nbsp;{{ m.created_at | isoDateOnly }}
+                    <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}" rel="syndication" class="u-syndication">Discuss on the 'don</a>&nbsp;{{ m.created_at | isoDateOnly }}
                 </div>
                 <div class="toot__content">{{ m.content | safe }}</div>
                 <div class="toot__data">
@@ -19,7 +19,7 @@
             {% else %}
                 <div class="toot">
                     <div class="toot__linkonly">
-                        <svg class="icon mastodon-icon"><use xlink:href="#mastodon"></use></svg> <a rel="syndication" class="u-syndication" href="{{ m.url }}" target="_blank" rel="noopener">Discuss on the 'don</a>&nbsp;{{ m.created_at | isoDateOnly }}
+                        <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a rel="syndication" class="u-syndication" href="{{ m.url }}" target="_blank" rel="noopener">Discuss on the 'don</a>&nbsp;{{ m.created_at | isoDateOnly }}
                     </div>
                 </div>
             {% endif %}

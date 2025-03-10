@@ -15,10 +15,6 @@
     align-items: center;
 }
 
-.toot__header a {
-    /* color: var(--offwhite); */
-}
-
 .toot__header a:hover {
     text-decoration: none;
 }

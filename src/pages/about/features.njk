@@ -93,28 +93,107 @@ eleventyNavigation:
 
 ---
 
-### Note
+### Micropost
 
-<div class="note">
-    <div class="note__content">
-        <p>My wife asked to watch “the show where they live underground” so we started Silo.</p>
+#### Full
 
-        <p>Ten minutes in: “So where’s the girl in blue?”</p>
-
-        <p>Fallout. She wanted to watch Fallout.</p>
+<div class="micropost">
+    <div class="micropost__header">
+        <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="https://social.lol/@robb/111623646954145554" rel="syndication" class="u-syndication">Discuss on the 'don</a>&nbsp;2023-12-22
     </div>
-    <div class="note__footer">
-        <a href="#">2021-10-10 12:01</a>
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__data">
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554"><svg class="icon"><use xlink:href="#socialreply"></use></svg> 6</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/reblogs"><svg class="icon"><use xlink:href="#socialboost"></use></svg> 2</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> 21</a></div>
     </div>
 </div>
 
 ```html
-<div class="note">
-    <div class="note__content">
-        <p>Content</p>
+<div class="micropost">
+    <div class="micropost__header">
+        <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="https://social.lol/@robb/111623646954145554" rel="syndication" class="u-syndication">Discuss on the 'don</a>&nbsp;2023-12-22
     </div>
-    <div class="note__footer">
-        <a href="#">2021-10-10 12:01</a>
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__data">
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554"><svg class="icon"><use xlink:href="#socialreply"></use></svg> 6</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/reblogs"><svg class="icon"><use xlink:href="#socialboost"></use></svg> 2</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> 21</a></div>
+    </div>
+</div>
+```
+
+#### Small
+
+<div class="micropost small">
+    <div class="micropost__header">
+        <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="https://social.lol/@robb/111623646954145554" rel="syndication" class="u-syndication">Discuss on the 'don</a>&nbsp;2023-12-22
+    </div>
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__data">
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554"><svg class="icon"><use xlink:href="#socialreply"></use></svg> 6</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/reblogs"><svg class="icon"><use xlink:href="#socialboost"></use></svg> 2</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> 21</a></div>
+    </div>
+</div>
+
+```diff
+- <div class="micropost">
++ <div class="micropost small">
+```
+
+#### No header
+
+<div class="micropost">
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__data">
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554"><svg class="icon"><use xlink:href="#socialreply"></use></svg> 6</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/reblogs"><svg class="icon"><use xlink:href="#socialboost"></use></svg> 2</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> 21</a></div>
+    </div>
+</div>
+
+```html
+<div class="micropost">
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__data">
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554"><svg class="icon"><use xlink:href="#socialreply"></use></svg> 6</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/reblogs"><svg class="icon"><use xlink:href="#socialboost"></use></svg> 2</a></div>
+        <div><a target="_blank" href="https://social.lol/@robb/111623646954145554/favourites"><svg class="icon"><use xlink:href="#sociallike"></use></svg> 21</a></div>
+    </div>
+</div>
+```
+
+### Date metadata
+
+<div class="micropost">
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__date">
+        <a href="#">2023-12-22 12:01</a>
+    </div>
+</div>
+
+```html
+<div class="micropost">
+    <div class="micropost__content"><p>Here's my end of year post for 2023 <a href="https://rknight.me/just-2024-things/" target="_blank" rel="nofollow noopener noreferrer" translate="no"><span class="invisible">https://</span><span class="">rknight.me/just-2024-things/</span><span class="invisible"></span></a></p><p>I did way more than I thought I had.</p></div>
+    <div class="micropost__date">
+        <a href="#">2023-12-22 12:01</a>
+    </div>
+</div>
+```
+
+### Link Only
+
+<div class="micropost">
+    <div class="micropost__linkonly">
+        <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a rel="syndication" class="u-syndication" href="#" target="_blank" rel="noopener">Discuss on the 'don</a>&nbsp;12-01-01
+    </div>
+</div>
+
+```html
+<div class="micropost">
+    <div class="micropost__linkonly">
+        <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a rel="syndication" class="u-syndication" href="#" target="_blank" rel="noopener">Discuss on the 'don</a>&nbsp;12-01-01
     </div>
 </div>
 ```
