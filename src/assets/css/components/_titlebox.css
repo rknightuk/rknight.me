@@ -23,4 +23,6 @@
     margin-right: -5px;
     padding: 0 5px;
     background: var(--nearblack);
+    text-transform: uppercase;
+    font-size: 0.8em;
 }

@@ -155,7 +155,7 @@ export const firstPosts = (collectionApi) => {
 			return !p.data.rssClub
 		})
 		.reverse()
-		.slice(0, 3)
+		.slice(0, 5)
 }
 export const postsForFeed = (collectionApi) => {
 	return collectionApi

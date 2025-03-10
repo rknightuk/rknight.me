@@ -87,7 +87,7 @@ a:hover {
     color: var(--offwhite);
 }
 
-hr {
+/* hr {
     border: none;
     background-image: url(/assets/img/rule.svg);
     background-position: center center;
@@ -95,6 +95,12 @@ hr {
     background-size: contain;
     height: 7px;
     margin: 30px auto;
+} */
+
+hr {
+    border: 1px solid var(--offwhite-subtle);
+    width: 50%;
+    margin: 20px auto;
 }
 
 code {

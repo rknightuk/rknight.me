@@ -1,9 +1,8 @@
 .note {
     position: relative;
-    border: 1px solid var(--code-black);
+    border: 1px solid var(--offwhite-subtle-extra);
     color: var(--offwhite);
     padding-bottom: 2em;
-    background-color: var(--bg-darker);
 }
 
 .note img {

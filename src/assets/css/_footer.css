@@ -6,31 +6,12 @@ footer.main {
     font-size: 0.8em;
 }
 
-@media (max-width: 500px) {
-    footer.main .container {
-        flex-direction: column;
-        grid-gap: 10px;
-    }
-}
-
-.coffee-button {
-    border: none;
-    font-size: 0.8em;
-    padding: 5px 10px;
-    border-radius: 10px;
-}
-
 .footer-buttons {
     display: grid;
-    grid-template-columns: repeat(4, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(88px, 1fr));
     grid-gap: 10px;
     margin-bottom: 20px;
-}
-
-@media (max-width: 400px) {
-    .footer-buttons {
-        grid-template-columns: repeat(2, 1fr);
-    }
+    justify-content: space-between;
 }
 
 .footer-buttons div {
