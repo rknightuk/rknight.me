@@ -11,3 +11,6 @@
 @import "components/_titlebox.css";
 @import "components/_almanac.css";
 @import "components/_micropost.css";
+@import "components/_alerts.css";
+@import "components/_callouts.css";
+@import "components/_footnotes.css";

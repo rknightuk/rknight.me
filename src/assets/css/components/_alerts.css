@@ -1,5 +1,3 @@
-/* todo alerts */
-
 .alert {
     position: relative;
     font-size: 0.8em;
@@ -49,18 +47,6 @@
 
 .alert .alert-note {
     color: var(--tertiary);
-}
-
-.subscribe-icon {
-    color: var(--color-rss);
-}
-
-.mastodon-icon {
-    color: var(--color-mastodon);
-}
-
-.youtube-embed {
-    /* center this? */
 }
 
 .alert .alert-recipe {
