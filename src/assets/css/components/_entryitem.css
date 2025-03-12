@@ -1,0 +1,35 @@
+.entryitem--data {
+    display: grid;
+    grid-template-columns: auto 1fr auto;
+    grid-column-gap: 10px;
+    align-items: center;
+}
+
+.entryitem--data a {
+    font-family: var(--cr);
+}
+
+.entryitem--data hr {
+    width: 100%;
+    border-color: var(--offwhite-subtle-extra);
+    border-style: dashed;
+}
+
+.entryitem--date,
+.entryitem--date a {
+    font-family: var(--monospace);
+    font-size: 0.9em;
+}
+
+.entryitem--content {
+    font-size: 0.9em;
+    padding: 0 1em;
+}
+
+.entryitem--excerpt {
+    font-size: 0.9em;
+}
+
+.entryitem--excerpt p {
+    margin-top: 0;
+}

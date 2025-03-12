@@ -1,0 +1,33 @@
+.header-nav {
+    width: 100%;
+    margin-top: 10px;
+    border-bottom: 1px solid var(--offwhite-subtle-extra);
+    border-top: 1px solid var(--offwhite-subtle-extra);
+}
+
+.header-nav:empty {
+    display: none;
+}
+
+.header-nav ul {
+    display: flex;
+    list-style-type: none;
+    grid-gap: 10px;
+    justify-content: center;
+    align-items: center;
+    margin-block-start: 0;
+    padding-inline-start: 0;
+    flex-wrap: wrap;
+    font-size: 0.9em;
+    margin-bottom: 0;
+    padding: 7px 0 9px 0;
+}
+
+.header-nav ul:before {
+    content: '☰';
+    font-style: italic;
+}
+
+.header-nav li ul {
+    display: none;
+}

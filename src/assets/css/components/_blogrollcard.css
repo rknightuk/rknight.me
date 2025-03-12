@@ -31,7 +31,7 @@
 }
 
 .blogroll--blog {
-    border: 1px solid var(--purewhite);
+    border: 1px solid var(--offwhite-subtle-extra);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
@@ -43,7 +43,7 @@
 }
 
 .blogroll--blog h3 a {
-    color: var(--purewhite)!important;
+    color: var(--offwhite)!important;
 }
 
 .blogroll--blog h3 a:hover {

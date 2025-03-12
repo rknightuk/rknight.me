@@ -1,5 +1,6 @@
 ---
 title: Apps
+subtitle: It's just the one app, actually
 layout: base
 permalink: 'projects/apps/index.html'
 eleventyNavigation:

@@ -24,7 +24,7 @@ const handle = (data, key) => {
         return {
             show: showData,
             title: l['title'],
-            desc: l['itunes:summary'],
+            desc: l['itunes:summary'] ? l['itunes:summary'] : l['itunes:subtitle'],
             link: l.link,
             date: [year, month, day].join('-'),
             year: year,

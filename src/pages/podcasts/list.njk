@@ -26,12 +26,15 @@ I currently have two podcasts: <a href='https://ruminatepodcast.com'>Ruminate</a
         <h3>{{ podYear }}</h3>
     {% endif %}
 
-    <div>
-        <p class="post-title"><a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a></p>
-        <em class="post-excerpt">{{ pod.desc }}</em><br>
-        <p style="margin-top: 0;font-size:0.8em;">
-            {{ pod.date }}
-        </p>
+    <div class="entryitem">
+        <div class="entryitem--data">
+            <a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a>
+            <hr>
+            <span class="entryitem--date">{{ pod.date }}</span>
+        </div>
+        <div class="entryitem--excerpt">
+            <p><em>{{ pod.desc }}</em></p>
+        </div>
     </div>
 
     {% set currentYear = podYear %}

@@ -3,60 +3,11 @@
 
     <p>I'm a developer at my day job, a developer and podcaster at <a href="https://macstories.net/about">MacStories</a>, a member of <a href="http://devsdodesign.com">#DevsDoDesign</a>, an award winning hackathon team, and a podcaster with <a href="https://ruminatepodcast.com">two</a> <a href="https://wegot.family">shows</a>. I also <a href="/projects">make a bunch of stuff</a> including <a href="https://echofeed.app">EchoFeed</a>.</p>
 
-    <p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> and more things as <code>rknightuk</code>.</p>
+    <p>You can find me on Mastodon as <a href="https://social.lol/@robb">robb@social.lol</a> and more things as <code>rknightuk</code>. You can also <a href="https://rknight.me/verify">verify what is and isn't me</a>.</p>
 
     <p>Find out <a href="/about">about me</a> or <a href="/about/colophon">this internet website</a>.</p>
 
     <style>
-        .home-post-item2 {
-            margin-bottom: 10px;
-        }
-
-        .home-post-item2 h1,
-        .home-post-item2 p {
-            margin: 0;
-        }
-
-        .home-post-item2 h1 {
-            font-size: 1em;
-        }
-
-        .home-post-item2 .home-post-item2__meta--date {
-            color: var(--offwhite-subtle);
-        }
-
-        .home-grid-2 {
-            display: grid; 
-            grid-template-columns: 1fr 1fr; 
-            grid-gap: 10px;
-        }
-
-        @media (max-width: 650px) {
-            .home-grid-2 {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        .home-post-item2__meta {
-            display: flex;
-            justify-content: flex-start;
-            grid-gap: 5px;
-            font-size: 0.7em;
-        }
-
-        .home-notes-grid {
-            display: grid; 
-            grid-gap: 10px;
-            grid-template-columns: 1fr;
-            margin: 10px 0;
-        }
-
-        {# @media (max-width: 650px) {
-            .home-notes-grid {
-                grid-template-columns: 1fr;
-            }
-        } #}
-
         .home-projects {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
@@ -96,28 +47,6 @@
     border-bottom: 1px solid var(--purewhite);
 }
 
-.home-post-item {
-    display: grid;
-    grid-template-columns: auto 1fr auto;
-    grid-column-gap: 10px;
-    align-items: center;
-}
-
-.home-post-item a {
-    font-family: var(--cr);
-}
-
-.home-post-item hr {
-    width: 100%;
-    border-color: var(--offwhite-subtle-extra);
-    border-style: dashed;
-}
-
-.home-post-item--date {
-    font-family: var(--monospace);
-    font-size: 0.8em;
-}
-
 .webring--navicon {
     width: 25px;
     height: 25px;
@@ -128,7 +57,7 @@
     height: 30px;
 }
 
-.home-post-item--webringbuttons {
+.entryitem--webringbuttons {
     display: flex;
     grid-gap: 10px;
     align-items: center;
@@ -137,66 +66,36 @@
 
     </style>
 
-    <div class="home-grid-2">
-    <div class="titlebox">
-        <h2 class="titlebox__name">Posts</h2>
-        {%- for post in collections.firstPosts %}
-            <div class="home-post-item">
-                <a href="{{ post.url }}">{{ post.data.title }}</a>
-                <hr>
-                <span class="home-post-item--date">{{ post.data.date.toISOString() | isoDateOnly }}</span>
-            </div>
-        {% endfor %}
-        <a class="titlebox__link" href="/blog">All Posts &rarr;</a>
-    </div>
-    <div class="titlebox">
-        <h2 class="titlebox__name">Links</h2>
-        {%- for post in collections.links.slice(0, 5) %}
-            <div class="home-post-item">
-                <a href="{{ post.data.link }}">{{ post.data.title }} <span style="font-weight: normal;">&nearrow;</span></a>
-                <hr>
-                <span class="home-post-item--date">
-                    <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date.toISOString() | isoDateOnly }}</a>
-                </span>
-            </div>
-        {% endfor %}
-        <a class="titlebox__link" href="/links">All Links &rarr;</a>
-    </div>
-    </div>
-    {# <div class="home-grid-2">
+    <div class="grid-2">
         <div class="titlebox">
-            <h2 class="titlebox__name">Notes</h2>
-            <div class="home-notes-grid">
-                {%- for post in collections.notes.slice(0, 2) %}
-                <div class="note">
-                    <div class="note__content">
-                        {{ post.content | safe }}
-
-                        {%- set attachments = post.data.attachments -%}
-                        {% include 'attachments.njk' %}
-                    </div>
-
-                    <div class="note__footer">
-                        <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }} {{ post.data.date | postTime }}</a>
+            <h2 class="titlebox__name">Posts</h2>
+            {%- for post in collections.firstPosts %}
+                <div class="entryitem">
+                    <div class="entryitem--data">
+                        <a href="{{ post.url }}">{{ post.data.title }}</a>
+                        <hr>
+                        <span class="entryitem--date">{{ post.data.date.toISOString() | isoDateOnly }}</span>
                     </div>
                 </div>
-                {%- endfor -%}
-            </div>
-            <a class="titlebox__link" href="/notes">All Notes &rarr;</a>
+            {% endfor %}
+            <a class="titlebox__link" href="/blog">All Posts &rarr;</a>
         </div>
         <div class="titlebox">
             <h2 class="titlebox__name">Links</h2>
             {%- for post in collections.links.slice(0, 5) %}
-                <div class="home-post-item2">
-                    <h1><a href="{{ post.data.permalink | stripIndex }}">&infin;</a> <a href="{{ post.data.link }}">{{ post.data.title }} <span style="font-weight: normal;">&nearrow;</span></a></h1>
-                    <div class="home-post-item2__meta">
-                        <div class="home-post-item2__meta--date">{{ post.data.date.toISOString() | isoDateOnly }}</div>
+                <div class="entryitem">
+                    <div class="entryitem--data">
+                        <a href="{{ post.data.link }}">{{ post.data.title }} <span style="font-weight: normal;">&nearrow;</span></a>
+                        <hr>
+                        <span class="entryitem--date">
+                            <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date.toISOString() | isoDateOnly }}</a>
+                        </span>
                     </div>
                 </div>
             {% endfor %}
             <a class="titlebox__link" href="/links">All Links &rarr;</a>
         </div>
-    </div> #}
+    </div>
 
     <div class="titlebox">
         <h2 class="titlebox__name">Projects</h2>
@@ -227,26 +126,28 @@
 
     <div class="titlebox">
         <h2 class="titlebox__name">Webrings</h2>
-        <div class="home-post-item">
-            <a href="https://cs.sjoy.lol">CSS Joy</a>
-            <hr>
-            <span class="home-post-item--webringbuttons">
-                <a href="https://webri.ng/webring/cssjoy/previous?via=https://rknight.me" aria-label="See the previous website from the webring">
-                    <svg class="icon webring--navicon">
-                        <use xlink:href="#chevron-left"></use>
-                    </svg>
-                </a>
-                <a href="https://webri.ng/webring/cssjoy/random?via=https://rknight.me" aria-label="Show a random website from the webring">
-                    <svg class="icon webring--randomicon">
-                        <use xlink:href="#dice"></use>
-                    </svg>
-                </a>
-                <a href="https://webri.ng/webring/cssjoy/next?via=https://rknight.me" aria-label="See the next website from the webring">
-                    <svg class="icon webring--navicon">
-                        <use xlink:href="#chevron-right"></use>
-                    </svg>
-                </a>
-            </span>
+        <div class="entryitem">
+            <div class="entryitem--data">
+                <a href="https://cs.sjoy.lol">CSS Joy</a>
+                <hr>
+                <span class="entryitem--webringbuttons">
+                    <a href="https://webri.ng/webring/cssjoy/previous?via=https://rknight.me" aria-label="See the previous website from the webring">
+                        <svg class="icon webring--navicon">
+                            <use xlink:href="#chevron-left"></use>
+                        </svg>
+                    </a>
+                    <a href="https://webri.ng/webring/cssjoy/random?via=https://rknight.me" aria-label="Show a random website from the webring">
+                        <svg class="icon webring--randomicon">
+                            <use xlink:href="#dice"></use>
+                        </svg>
+                    </a>
+                    <a href="https://webri.ng/webring/cssjoy/next?via=https://rknight.me" aria-label="See the next website from the webring">
+                        <svg class="icon webring--navicon">
+                            <use xlink:href="#chevron-right"></use>
+                        </svg>
+                    </a>
+                </span>
+            </div>
         </div>
     </div>
 </div>

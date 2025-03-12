@@ -9,6 +9,9 @@
         {% include 'head/icons.njk' %}
 
         <link rel="stylesheet" href="/assets/css/app2.css" type="text/css" media="screen" title="no title">
+
+        <link rel="preconnect" href="https://fonts.bunny.net">
+        <link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i" rel="stylesheet" />
         
         {% if site.production %}
             <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
@@ -26,44 +29,11 @@
             {% include 'nav.njk' %}
         </div>
 
-
-        <style>
-            .weee {
-                color: var(--offwhite);
-            }
-            .weee:after {
-                content: ".";
-                color: var(--primary);
-            }
-        </style>
-
         {% if homepage %}
             {# {% include 'homepage_blocks.njk' %} #}
             {% include 'homepage_blocks2.njk' %}
         {% else %}
-            <div class="rkblock block-main">
-                <div class="container">
-                    <h2 class="p-name">{{ title }}</h2>
-                    {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
-                    <nav class="header-nav">
-                        {% if postType !== 'intersect' %}
-                            {% if eleventyNavigation %}
-                                {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
-                            {% endif %}
-                            {% if title === 'Almanac' %}
-                                {%- set navKey -%}Almanac{%- endset -%}
-                            {% endif %}
-                            {% if navKey %}
-                                {{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}
-                            {% endif %}
-                        {% else %}
-                            {% if title !== 'Intersect' %}
-                                {{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | eleventyNavigationToHtml | safe }}
-                            {% endif %}
-                        {% endif %}
-                    </nav>
-                </div>
-            </div>
+            {% include 'page_header.njk' %}
         {% endif %}
 
         <main>
@@ -110,6 +80,8 @@
                 {% endif %}
 
                 {{ content | safe }}
+
+                <hr>
             </div>
         </main>
 

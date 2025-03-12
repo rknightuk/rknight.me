@@ -1,4 +1,7 @@
 {
     "layout": "posts/link",
-    "postType": "link"
+    "postType": "link",
+    "eleventyComputed": {
+        "noHeading": true
+    }
 }

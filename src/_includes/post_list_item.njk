@@ -1,10 +1,15 @@
-<div>
-    <p class="post-title">{% if post.data.featured %}⭐{% endif %} <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
-    {% if post.data.excerpt %}<em class="post-excerpt">{{ post.data.excerpt }}</em><br>{% endif %}
-    <p class="post-date">
-        {{ post.data.date | postDateNoYear }}
-    {% for tag in post.data.tags | sort -%}
-        &nbsp;<a href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < post.data.tags.length %}&nbsp;{% endif %}
-    {%- endfor -%}
-    </p>
+
+
+<div class="entryitem">
+    <div class="entryitem--data">
+        <span>{% if post.data.featured %}⭐{% endif %} <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></span>
+        <hr>
+        <span class="entryitem--date">{{ post.data.date | postDateNoYear }}</span>
+    </div>
+    {% if post.data.excerpt %}
+        <div class="entryitem--excerpt">
+            <p><em>{{ post.data.excerpt }}</em></p>
+        </div>
+    {% endif %}
+    
 </div>

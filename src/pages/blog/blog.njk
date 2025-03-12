@@ -3,29 +3,36 @@ title: Blog
 subtitle: "Subscribe to get new posts [via RSS](/subscribe)"
 layout: base
 permalink: 'blog/index.html'
+wide: true
 eleventyNavigation:
   key: Blog
   parent: Home
 ---
 
-<h3>Post Highlights</h3>
+<div class="grid-2">
+  <div class="titlebox">
+      <h2 class="titlebox__name">Post Highlights</h2>
+      {%- for post in collections.featuredPosts %}
+          <div class="entryitem">
+              <div class="entryitem--data">
+                  <a href="{{ post.url }}">{{ post.data.title }}</a>
+                  <hr>
+                  <span class="entryitem--date">{{ post.data.date.toISOString() | isoDateOnly }}</span>
+              </div>
+          </div>
+      {% endfor %}
+  </div>
 
-<ul>
-{%- for post in collections.featuredPosts %}
-    <li><a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></li>
-{% endfor %}
-</ul>
-
-<h3>Featured Series</h3>
-
-<ul>
-  <li><a href="/blog/tags/thingsilike">#ThingsILike</a> - A series where I recommened various things I'm enjoying.</li>
-  <li><a href="/blog/tags/homescreen">#Homescreen</a> - My homescreens over the years.</li>
-  <li><a href="/blog/tags/eleventy">#Eleventy</a> - Posts about building this website, and others, with <a href="https://11ty.dev">Eleventy</a>.</li>
-  <li><a href="/blog/tags/weblogpomo">#WeblogPoMo</a> - Weblog Posting Month started by Anne. <a href="https://weblog.anniegreens.lol/weblog-posting-month-2024">Read more about it here</a>.</li>
-</ul>
-
-<h3>All Posts</h3>
+  <div class="titlebox">
+      <h2 class="titlebox__name">Featured Series</h2>
+      <ul style="margin-left: -20px;">
+        <li><a href="/blog/tags/thingsilike">#ThingsILike</a> - A series where I recommened various things I'm enjoying.</li>
+        <li><a href="/blog/tags/homescreen">#Homescreen</a> - My homescreens over the years.</li>
+        <li><a href="/blog/tags/eleventy">#Eleventy</a> - Posts about building this website, and others, with <a href="https://11ty.dev">Eleventy</a>.</li>
+        <li><a href="/blog/tags/weblogpomo">#WeblogPoMo</a> - Weblog Posting Month started by Anne. <a href="https://weblog.anniegreens.lol/weblog-posting-month-2024">Read more about it here</a>.</li>
+      </ul>
+  </div>
+</div>
 
 {% set datePrinted = false %}
 {% set currentYear = 1000 %}

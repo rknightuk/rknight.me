@@ -3,24 +3,6 @@
     font-size: 0.9em;
 }
 
-.post-author {
-    color: var(--offwhite-subtle);
-    margin: 0;
-    font-size: 0.9em;
-    display: flex;
-    align-items: center;
-}
-
-.post-author svg {
-    width: 20px;
-    height: 20px;
-    margin-right: 5px;
-}
-
-.post-author a {
-    height: 20px;
-}
-
 .post-title {
     font-weight: bold;
     margin-bottom: 0;

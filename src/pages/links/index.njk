@@ -14,11 +14,18 @@ eleventyComputed:
 ---
 
 {%- for link in pagination.items %}
-    {% include 'link_list_item.njk' %}
-    {% if loop.last %}
-    {% else %}
-        <hr>
-    {% endif %}
+    <div class="entryitem">
+        <div class="entryitem--data">
+            <a href="{{ link.data.link }}">{{ link.data.title }} <span style="font-weight: normal;">&nearrow;</span></a>
+            <hr>
+            <span class="entryitem--date">
+                <a href="{{ link.data.permalink | stripIndex }}">{{ link.data.date.toISOString() | isoDateOnly }}</a>
+            </span>
+        </div>
+        <div class="entryitem--content">
+            {{ link.content | safe }}
+          </div>
+    </div>
 {% endfor -%}
 
 <div class="pagination box">

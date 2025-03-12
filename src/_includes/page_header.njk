@@ -1,0 +1,22 @@
+<header class="container container-m page-header">
+    {% if not noHeading %}
+        <h2 class="p-name">{{ title }}</h2>
+    {% endif %}
+    {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
+
+    {% if postType !== 'intersect' %}
+        {% if eleventyNavigation %}
+            {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
+        {% endif %}
+        {% if title === 'Almanac' %}
+            {%- set navKey -%}Almanac{%- endset -%}
+        {% endif %}
+        {% if navKey %}
+            <nav class="header-nav">{{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}</nav>
+        {% endif %}
+    {% else %}
+        {% if title !== 'Intersect' %}
+            <nav class="header-nav">{{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | eleventyNavigationToHtml | safe }}</nav>
+        {% endif %}
+    {% endif %}
+</header>

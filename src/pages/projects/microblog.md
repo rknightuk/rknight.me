@@ -1,5 +1,6 @@
 ---
 title: Micro.blog Projects
+subtitle: Various micro.blog-related projects
 layout: base
 permalink: /projects/microblog/index.html
 eleventyNavigation:

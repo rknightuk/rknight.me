@@ -5,6 +5,7 @@
 @import "_container.css";
 @import "_header.css";
 @import "_nav.css";
+@import "_page-nav.css";
 @import "_highlight.css";
 @import "_footer.css";
 
@@ -13,4 +14,8 @@
 @import "components/_micropost.css";
 @import "components/_alerts.css";
 @import "components/_callouts.css";
-@import "components/_footnotes.css";
+@import "components/_post-footer.css";
+@import "components/_page-header.css";
+@import "components/_entryitem.css";
+@import "components/_cards.css";
+@import "components/_blogrollcard.css";

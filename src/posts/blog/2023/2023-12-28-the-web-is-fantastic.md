@@ -15,7 +15,7 @@ featured: true
 
 Reading the title you might be thinking "_Yeah no shit Robb of course the web[^1] is fantastic it's literally the cornerstone of all commerce and communications in the modern world_". Or maybe you're not thinking that. But I'm not talking about the web as a whole, I'm talking about the open web. The _come-do-cool-things-with-our-api_ web. The open standards web. The [indie web](https://indieweb.org/).
 
-## Links
+### Links
 
 Services like [Linktree](https://linktr.ee/) exist because Facebook, TikTok, et al decided that links are okay but only if it's to their stuff. You, the creator of the video/photo/whatever only get one link, better make it a good one. Even then, my wife sometimes sends me links of Facebook _don't-call-it-tiktoks_ and unless I install the mobile app, those links just don't work.
 
@@ -40,7 +40,7 @@ Look at this journey [Chris went through to stumble upon the App Defaults projec
 > She had included a link to an episode a podcast called Hemispheric Views, and this defaults page.
 
 That is cool. That is how we should find interesting things. With links. The big social media sites have decided that actually no, we don't like links. Just sort of "find" things and if you don't find it well tough shit. Sharing interesting websites, blogs, and articles on your own site is the way to go. Make a [blogroll](https://blogroll.org). Make a [podroll](/podcasts/roll/). Share links on your Mastodon account. 
-### Blogs and RSS
+#### Blogs and RSS
 
 Check out [About Feeds](https://aboutfeeds.com/) to see how RSS works and apps that work with it. I use [NetNewsWire](https://netnewswire.com/).
 
@@ -56,7 +56,7 @@ He's right. Blogging _is_ where it's at. Get a blog. Post some stuff.
 
 If you have a website, don't forget to [expose your RSS](https://rknight.me/please-expose-your-rss/). Have a big prominent button. Make sure it's in your `head` for auto-detection. Maybe start an [RSS club](https://daverupert.com/rss-club/). Post some wonderful things, or sad things, or _only-interesting-to-you_ things.[^3]
 
-### Extras
+#### Extras
 
 - Add a `/now` page to your site. Check out a [whole load of them here](https://nownownow.com/) and [on the now garden](https://now.garden/).
 - Add a `/uses` page to list what apps and hardware and whatever else you use. [uses.tech](https://uses.tech/) has nearly 800 examples.
@@ -64,7 +64,7 @@ If you have a website, don't forget to [expose your RSS](https://rknight.me/plea
 
 It's your website, you can add literally anything you want[^4] and no one can stop you.
 
-### Useful links to get started
+#### Useful links to get started
 
 This is all well and good but if you don't already have a website it can be daunting to know where to go.
 
@@ -78,7 +78,7 @@ This is all well and good but if you don't already have a website it can be daun
 
 Reach out to me on Mastodon if you have questions and I'll do what I can to help get you started.
 
-### Conclusion
+#### Conclusion
 
 The real web, the small web, the indie web is amazing. Don't give Facebook and the rest of these clowns your content. Don't give them the time or your attention. Get a blog, a website, a Mastodon account, something _you control_, and share links to cool things you find. Make a list of your favourite blogs or websites or photos of cats. Write about a pizza you had that was delicious. Share a recipe. Go down a rabbit hole for hours on end adding weird stuff to your site. Just do it somewhere you control because the _real_ web is fantastic.
 

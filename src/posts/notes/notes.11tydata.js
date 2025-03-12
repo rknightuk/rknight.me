@@ -8,6 +8,7 @@ export default {
         subtitle: 'A note from the desk of Robb Knight',
         images: function (data) {
             return this.getImages(data)
-        }
+        },
+        noHeading: true,
 	},
 }

@@ -14,16 +14,18 @@ eleventyComputed:
 ---
 
 {%- for note in pagination.items %}
-    {{ note.content | safe }}
-
-    {%- set attachments = note.data.attachments -%}
-    {% include 'attachments.njk' %}
+  <div class="micropost">
+      <div class="micropost__content">
+        {{ note.content | safe }}
+        {%- set attachments = note.data.attachments -%}
+        {% include 'attachments.njk' %}
+      </div>
+      <div class="micropost__date">
+          <a href="{{ note.data.permalink | stripIndex }}">{{ note.data.date | postDate }}</a>
+      </div>
+  </div>
 
     <p class="post-date">&infin; <a href="{{ note.data.permalink | stripIndex }}">{{ note.data.date | postDate }}</a></p>
-    {% if loop.last %}
-    {% else %}
-        <hr>
-    {% endif %}
 {% endfor -%}
 
 <div class="pagination box">

@@ -55,7 +55,7 @@ These are me, but I don't actively use them.
 Everything posted to these accounts will be nonsense and likely deleted.
 
 - Threads: [@rknightuk](https://threads.net/@rknightuk)
-- Bluesky: [@echofeed.app](https://bsky.app/profile/echofeed.app)
+- Bluesky: [@brightknob.bsky.social](https://bsky.app/profile/brightknob.bsky.social)
 
 ### Do Not Have
 

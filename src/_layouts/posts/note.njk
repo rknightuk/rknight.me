@@ -2,4 +2,23 @@
 layout: posts/post
 ---
 
-{{ content | safe }}
+{%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
+
+<div class="micropost">
+    {% if discussion[webmentionUrl] %}
+        {%- set discussionData = discussion[webmentionUrl] | sortDiscussion -%}
+        {%- for m in [discussionData[0]] %}
+            <div class="micropost__header">
+                <svg class="icon ic-mastodon"><use xlink:href="#mastodon"></use></svg> <a target="_blank" href="{{ m.url }}" rel="syndication" class="u-syndication">Discuss on the 'don</a>
+            </div>
+        {% endfor %}
+    {% endif %}
+    <div class="micropost__content">
+        {{ content | safe }}
+        {%- set attachments = attachments -%}
+        {% include 'attachments.njk' %}
+    </div>
+    <div class="micropost__date">
+        <a href="{{ permalink | stripIndex }}">{{ date | postDate }}</a>
+    </div>
+</div>

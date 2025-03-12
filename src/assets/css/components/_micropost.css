@@ -24,7 +24,7 @@
 }
 
 .micropost__content {
-    padding: 0 1em;
+    padding: 1em;
     padding-top: 0;
 }
 
@@ -78,4 +78,21 @@
 .micropost__linkonly {
     padding: 10px 1em;
     background-color: var(--bg-darker);
+}
+
+.photogrid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-gap: 10px;
+}
+
+.photogrid .photogrid__photo:first-child {
+    grid-column: span 3;
+    margin: 0 auto;
+    max-width: 100%;
+}
+
+.photogrid .photogrid__photo:not(:first-child) img {
+    aspect-ratio: 1;
+    object-fit: cover;
 }

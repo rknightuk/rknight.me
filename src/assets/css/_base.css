@@ -18,7 +18,7 @@ body {
     line-height: 1.6;
     padding: 0;
     margin: 0;
-    font-family: system-ui, sans-serif;
+    font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
     font-weight: normal;
     font-size: 1.2em;
     background-color: var(--nearblack);
@@ -31,15 +31,12 @@ p {
     word-break: break-word;
 }
 
-h2,h3,h4 {
-    background: url(/assets/img/path.svg);
+h2 {
+    /* background: url(/assets/img/path.svg);
     background-repeat: no-repeat;
     background-position: left bottom;
-    background-size: auto 15px;
-}
-
-h4 {
-    background-size: auto 8px;
+    background-size: auto 15px; */
+    text-shadow: -2px 2px 1px rgba(227, 61, 148, 0.7);
 }
 
 h1,
@@ -57,7 +54,7 @@ h2 {
 h3 {
     font-size: 1.7em;
     display: flex;
-    align-items: center;
+    align-items: center; 
 }
 
 h4 {
@@ -87,15 +84,15 @@ a:hover {
     color: var(--offwhite);
 }
 
-/* hr {
+hr.dots {
     border: none;
     background-image: url(/assets/img/rule.svg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: contain;
     height: 7px;
-    margin: 30px auto;
-} */
+    margin: 10px auto;
+}
 
 hr {
     border: 1px solid var(--offwhite-subtle);
@@ -287,5 +284,23 @@ th {
 
     h2, h3 {
         background-size: auto 12px;
+    }
+}
+
+.pagination {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 10px;
+}
+
+.grid-2 {
+    display: grid; 
+    grid-template-columns: 1fr 1fr; 
+    grid-gap: 10px;
+}
+
+@media (max-width: 650px) {
+    .grid-2 {
+        grid-template-columns: 1fr;
     }
 }

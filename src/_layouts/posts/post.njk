@@ -25,7 +25,7 @@ layout: base
             <div class="alert-icon">
                 <svg class="icon"><use xlink:href="#link"></use></svg>
             </div>
-            <a style="font-weight: bold;" href="{{ link }}">{{ title }} &#x2192;</a>
+            <a style="font-weight: bold;" href="{{ link }}">{{ title }} &nearrow;</a>
         </aside>
     {% endif %}
 
@@ -53,21 +53,23 @@ layout: base
         {% include 'recipe.njk' %}
     {% endif %}
 
-    {% include 'attachments.njk' %}
-
     {% include 'almanac_previous.njk' %}
 </span>
 
+{% if postType === 'note' %}
+    <p><small><a href="/posse">Why is this identical to what's on Mastodon?</a></small></p>
+{% endif %}
+
 <footer>
     {% if postType !== 'almanac' %}
-        <div class="callout">
+        <div class="bmac">
             <p>If you like this post or one of my projects you can <a href="/coffee">buy me a coffee</a> 💖</p>
         </div>
     {% endif %}
 
     <p class="footer-social"><a href="https://social.lol/@robb"><svg class="icon ic-mastodon">
         <use xlink:href="#mastodon"></use>
-    </svg>Follow me on Mastodon</a> <a href="/subscribe"><svg class="icon subscribe-icon">
+    </svg>Follow me on Mastodon</a> <a href="/subscribe"><svg class="icon ic-rss">
         <use xlink:href="#rss"></use>
     </svg>Subscribe with RSS</a></p>
 
@@ -85,9 +87,13 @@ layout: base
 	{% endif %}
 </footer>
 
-{%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
-{% include 'webmentions.njk' %}
+{% if postType !== 'note' %}
+    {%- set webmentionUrl -%}{{ page.url | stripIndex }}{%- endset -%}
+    {% include 'webmentions.njk' %}
+{% endif %}
 
-{%- set pageUrl -%}{{ page.url | stripIndex }}{%- endset -%}
-{%- set popular = fathom | popularPosts(5, pageUrl) -%}
-{% include 'popular_posts.njk' %}
+{% if postType === 'post' %}
+    {%- set pageUrl -%}{{ page.url | stripIndex }}{%- endset -%}
+    {%- set popular = fathom | popularPosts(5, pageUrl) -%}
+    {% include 'popular_posts.njk' %}
+{% endif %}

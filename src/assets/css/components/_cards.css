@@ -21,7 +21,7 @@
     margin-top: 10px;
     max-width: 100%;
     position: relative;
-    border: 1px solid var(--purewhite);
+    border: 1px solid var(--offwhite-subtle);
 }
 
 .card__image {
@@ -55,7 +55,7 @@
 }
 
 .card__text {
-    border-top: 1px solid var(--purewhite);
+    border-top: 1px solid var(--offwhite-subtle-extra);
     padding: 5px 10px;
     font-size: 0.9em;
 }
