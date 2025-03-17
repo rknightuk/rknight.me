@@ -4,19 +4,40 @@
     {% endif %}
     {% if subtitle %}<span class="post-subtitle">{{ subtitle | mdToHtml | safe }}</span>{% endif %}
 
-    {% if postType !== 'intersect' %}
-        {% if eleventyNavigation %}
-            {%- set navKey -%}{% if eleventyNavigation.parent === 'Home' %}{{ eleventyNavigation.key }}{% else %}{{ eleventyNavigation.parent }}{% endif %}{%- endset -%}
-        {% endif %}
-        {% if title === 'Almanac' %}
-            {%- set navKey -%}Almanac{%- endset -%}
-        {% endif %}
-        {% if navKey %}
-            <nav class="header-nav">{{ collections.all | eleventyNavigation(navKey) | eleventyNavigationToHtml | safe }}</nav>
-        {% endif %}
-    {% else %}
-        {% if title !== 'Intersect' %}
-            <nav class="header-nav">{{ collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key) | eleventyNavigationToHtml | safe }}</nav>
+    {% if eleventyNavigation %}
+        {% set navPages = collections.all | eleventyNavigationBreadcrumb(eleventyNavigation.key, { includeSelf: true }) %}
+        {% set navPages2 = collections.all | eleventyNavigation(eleventyNavigation.key) %}
+
+        {% if navPages.length > 2 or navPages2.length > 0 %}
+            <nav class="header-nav">
+                <ul>
+                {%- for item in navPages -%}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>{% if loop.index !== navPages.length %}<li>&nbsp;&rsaquo;&nbsp;</li>{% endif %}
+                {%- endfor -%}
+                {% if ('/intersect' in page.url) and navPages.length > 2 %}
+                {% else %}    
+                    {%- for item in navPages2 -%}
+                        {% if loop.index === 1 %}<li>&nbsp;&raquo;&nbsp;</li>{% endif %}<li><a href="{{ item.url }}">{{ item.title }}</a></li>{% if loop.index !== navPages2.length %}<li>&nbsp;&middot;&nbsp;</li>{% endif %}
+                    {%- endfor -%}
+                {% endif %}
+                </ul>
+            </nav>
         {% endif %}
     {% endif %}
 </header>
+
+{% if ('/intersect' in page.url) and navPages.length > 2 and navPages2.length > 0 %}
+    <div class="container container-sm">
+        <div class="titlebox">
+            <h3 class="titlebox__name">Related {{ eleventyNavigation.key }} Entries</h3>
+            
+            <ul>
+                 {%- for item in navPages2 -%}
+                    <li><a href="{{ item.url }}">{{ item.title }}</a></li>
+                {%- endfor -%}
+            </ul>
+
+            
+        </div>
+    </div>
+{% endif %}

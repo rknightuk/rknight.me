@@ -10,7 +10,13 @@
         <h3>{{ postYear }}</h3>
     {% endif %}
 
-    <p>{{ post.data.mediaType | getTypeEmoji }} <span class="almanac-list--date">{{ post.data.date.toISOString() | isoDateOnly }}</span> <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></p>
+    <div class="entryitem">
+        <div class="entryitem--data">
+            <span>{{ post.data.mediaType | getTypeEmoji }} <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.title }}</a></span>
+            <hr>
+            <span class="entryitem--date">{{ post.data.date.toISOString() | isoDateOnly }}</span>
+        </div>
+    </div>
 
     {% set currentYear = postYear %}
 {% endfor %}

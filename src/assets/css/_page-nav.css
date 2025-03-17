@@ -12,7 +12,7 @@
 .header-nav ul {
     display: flex;
     list-style-type: none;
-    grid-gap: 10px;
+    grid-gap: 5px;
     justify-content: center;
     align-items: center;
     margin-block-start: 0;
@@ -23,10 +23,10 @@
     padding: 7px 0 9px 0;
 }
 
-.header-nav ul:before {
+/* .header-nav ul:before {
     content: '☰';
     font-style: italic;
-}
+} */
 
 .header-nav li ul {
     display: none;

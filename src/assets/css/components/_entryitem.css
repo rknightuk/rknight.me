@@ -33,3 +33,8 @@
 .entryitem--excerpt p {
     margin-top: 0;
 }
+
+.entryitem--more {
+    padding-left: 1em;
+    margin-top: -0.5em;
+}

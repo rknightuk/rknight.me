@@ -9,38 +9,41 @@ eleventyNavigation:
 ---
 
 {%- for page in site.explore.stuff -%}
-<div class="exp-block">
-  <div class="exp-block-icon">
-    <svg class="icon"><use xlink:href="#icon-{{ page.icon }}"></use></svg>
-  </div>
-  <div>
-    <a href="{{ page.link }}">{{ page.title }}</a>
-    <p>{{ page.description }}</p>
-  </div>
+<div class="entryitem">
+    <div class="entryitem--data">
+        <a href="{{ page.link }}">{{ page.title }}</a>
+        <hr>
+    </div>
+    <div class="entryitem--excerpt">
+      <p><em>{{ page.description }}</em></p>
+    </div>
 </div>
 {% if page.more %}
   {%- for more in page.more -%}
-    <div class="exp-block exp-indent">
-      <div class="exp-block-icon">
-        <svg class="icon"><use xlink:href="#icon-{{ more.icon }}"></use></svg>
+    <div class="entryitem entryitem--more">
+      <div class="entryitem--data">
+          <a href="{{ more.link }}">{{ more.title }}</a>
+          <hr>
       </div>
-      <div>
-        <a href="{{ more.link }}">{{ more.title }}</a>
-        <p>{{ more.description }}</p>
+      <div class="entryitem--excerpt">
+        <p><em>{{ more.description }}</em></p>
       </div>
     </div>
   {% endfor %}
 {% endif %}
 {%- endfor -%}
 
+<h3>Slash Pages</h3>
+<p style="margin-top: -10px;"><small><em><a href="https://slashpages.net">what are slash pages</a></em></small></p>
+
 {%- for page in site.explore.slash -%}
-<div class="exp-block">
-  <div class="exp-block-icon">
-    <svg class="icon"><use xlink:href="#icon-slash"></use></svg>
-  </div>
-  <div>
-    <a href="{{ page.link }}">{{ page.title }}</a>
-    <p>{{ page.description }}</p>
-  </div>
+<div class="entryitem">
+    <div class="entryitem--data">
+        <a href="{{ page.link }}">/{{ page.title }}</a>
+        <hr>
+    </div>
+    <div class="entryitem--excerpt">
+      <p><em>{{ page.description }}</em></p>
+    </div>
 </div>
 {%- endfor -%}
