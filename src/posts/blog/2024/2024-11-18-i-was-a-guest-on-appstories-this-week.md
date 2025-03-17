@@ -2,7 +2,7 @@
 title: "I Was a Guest On AppStories"
 permalink: /blog/i-was-a-guest-on-appstories-this-week/index.html
 date: 2024-11-18T12:52:40.199Z
-excerpt: "John and Federico invited me to be on AppStories 412"
+excerpt: "I was a guest on episode 412 of AppStories"
 tags:
     - Appearance
     - Podcasting
