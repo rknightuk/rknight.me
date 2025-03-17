@@ -2,7 +2,7 @@
 title: "I Was a Guest on Conduit"
 permalink: /blog/i-was-a-guest-on-conduit/index.html
 date: 2024-12-26T17:34:00.000Z
-excerpt: "I was a guest on the latest episode of Conduit"
+excerpt: "I was a guest on episode 91 of Conduit"
 tags: [Appearance,Development,Podcasting]
 ---
 
