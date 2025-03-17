@@ -3,7 +3,10 @@ title: "I Was a Guest on Conduit"
 permalink: /blog/i-was-a-guest-on-conduit/index.html
 date: 2024-12-26T17:34:00.000Z
 excerpt: "I was a guest on episode 91 of Conduit"
-tags: [Appearance,Development,Podcasting]
+tags: 
+    - Appearance
+    - Development
+    - Podcasting
 ---
 
 A couple of weeks ago, [Jay](https://kjaymiller.com/) reached out to see if I’d be like to be a guest on [Conduit](https://www.relay.fm/conduit) and of course I immediately said yes. 
