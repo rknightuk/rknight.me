@@ -14,11 +14,19 @@ eleventyNavigation:
 {%- for post in collections.everything -%}
     {% set postYear = post.data.date.getFullYear() %}
 
+    
+
     {% if postYear != currentYear %}
         <h3>{{ postYear }}</h3>
     {% endif %}
 
-    <p style="margin: 5px 0;">{{ post.data | getPostEmoji }} <a href="{{ post.url }}">{{ post.data.title }}</a></p>
+    <div class="entryitem">
+        <div class="entryitem--data">
+            <a href="{{ post.url | stripIndex }}">{{ post.data | getPostEmoji }} {{ post.data.title }}</a>
+            <hr>
+            <span class="entryitem--date">{{ post.data.date | toDateTimeNoSeconds }}</span>
+        </div>
+    </div>
 
     {% set currentYear = postYear %}
 {% endfor %}

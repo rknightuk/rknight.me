@@ -26,7 +26,10 @@ const diffInYears = (date) => {
 	return Math.floor(DateTime.now().diff(d, 'years').years)
 }
 const toDateTime = (date) => {
-	return DateTime.fromISO(date).toFormat('yyyy-MM-dd HH:mm:ss')
+	return DateTime.fromISO(date.toISOString()).toFormat('yyyy-MM-dd HH:mm:ss')
+}
+const toDateTimeNoSeconds = (date) => {
+	return DateTime.fromISO(date.toISOString()).toFormat('yyyy-MM-dd HH:mm')
 }
 const isoDateOnlyForDiscussion = (date) => {
 	return DateTime.fromISO(date.toISOString())
@@ -54,6 +57,7 @@ export default {
 	isOldPost,
 	diffInYears,
 	toDateTime,
+	toDateTimeNoSeconds,
 	isoDateOnlyForDiscussion,
 	isoDateOnly,
 	postDate,
