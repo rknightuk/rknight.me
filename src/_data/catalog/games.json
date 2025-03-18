@@ -1056,11 +1056,6 @@
         "title": "Detroit: Become Human"
       },
       {
-        "gameID": 52805,
-        "platformID": 4919,
-        "title": "God of War"
-      },
-      {
         "gameID": 20954,
         "platformID": 4919,
         "title": "Grand Theft Auto V"
@@ -1661,19 +1656,9 @@
         "title": "Gears of War 4"
       },
       {
-        "gameID": 41765,
-        "platformID": 4920,
-        "title": "LEGO Jurassic World"
-      },
-      {
         "gameID": 53379,
         "platformID": 4920,
         "title": "LEGO Marvel Super Heroes 2"
-      },
-      {
-        "gameID": 34840,
-        "platformID": 4920,
-        "title": "LEGO Marvel's Avengers"
       },
       {
         "gameID": 32132,
@@ -1694,11 +1679,6 @@
         "gameID": 23924,
         "platformID": 4920,
         "title": "The LEGO Movie Videogame"
-      },
-      {
-        "gameID": 19196,
-        "platformID": 4920,
-        "title": "Tomb Raider"
       },
       {
         "gameID": 41601,
