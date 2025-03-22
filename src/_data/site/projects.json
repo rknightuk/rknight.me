@@ -1,5 +1,11 @@
 {
     "featured": [
+		{
+			"title": "The Wellness Place",
+			"desc": "Severance × The Good Place",
+			"image": "wellness.png",
+			"link": "https://wellness.rknight.me"
+		},
         {
             "title": "Connected Outro Maker",
             "desc": "Make your own Connected outro!",
@@ -9,7 +15,6 @@
         { "title": "Lens", "desc": "Check your meta tags, icons, and rss feeds", "image": "lens.jpg", "link": "https://lens.rknight.me", "tags": ["PHP", "Alpine"] },
         { "title": "EmojiStorm", "desc": "So many emoji please make it stop", "image": "emojistorm.jpg", "link": "https://emojistorm.rknight.me", "tags": ["11ty"] },
         { "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
-        { "title": "Hemispheric Views - Perfect Albums", "desc": "An iTunes UI for perfect albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
         { "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Micro.blog, and more", "image": "echofeed.jpg" }
     ],
     "current": [
