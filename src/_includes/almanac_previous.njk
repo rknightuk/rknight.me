@@ -1,7 +1,7 @@
 {%- set relatedEntries = { entries: collections.almanacGrouped, type: type, tmdbid: tmdbid, giantbombid: giantbombid } | getRelatedEntries -%}
 
 {% if relatedEntries.length %}
-    <h3>Previously {{ type | getAlmanacVerb | lower }}:</h3>
+    <h3>Previously {{ mediaType | getAlmanacVerb | lower }}:</h3>
 
     <div class="related-entries">
         <ul>
