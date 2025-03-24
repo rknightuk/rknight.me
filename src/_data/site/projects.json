@@ -20,6 +20,12 @@
     "current": [
         { "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },
         {
+			"title": "The Wellness Place",
+			"desc": "Severance × The Good Place",
+			"image": "wellness.png",
+			"link": "https://wellness.rknight.me"
+		},
+        {
             "title": "Connected Outro Maker",
             "desc": "Make your own Connected outro!",
             "image": "outro.jpg",

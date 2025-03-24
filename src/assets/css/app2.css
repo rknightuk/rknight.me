@@ -1,6 +1,5 @@
 @import "_reset.css"; /* https: //andy-bell.co.uk/a-modern-css-reset/ */
 @import "_variables.css";
-@import "_icon_colors.css";
 @import "_base.css";
 @import "_container.css";
 @import "_header.css";
@@ -9,6 +8,7 @@
 @import "_highlight.css";
 @import "_footer.css";
 
+@import "components/_icon_colors.css";
 @import "components/_titlebox.css";
 @import "components/_almanac.css";
 @import "components/_micropost.css";
@@ -19,3 +19,4 @@
 @import "components/_entryitem.css";
 @import "components/_cards.css";
 @import "components/_blogrollcard.css";
+@import "components/_design.css";
