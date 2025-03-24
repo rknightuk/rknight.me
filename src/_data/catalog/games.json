@@ -1,75 +1,5 @@
 {
-  "platforms": [
-    {
-      "name": "PS5",
-      "key": "ps5",
-      "color": "white"
-    },
-    {
-      "name": "PS4",
-      "key": "ps4",
-      "color": "white"
-    },
-    {
-      "name": "PS3",
-      "key": "ps3",
-      "color": "white"
-    },
-    {
-      "name": "PS2",
-      "key": "ps2",
-      "color": "white"
-    },
-    {
-      "name": "PS1",
-      "key": "ps1"
-    },
-    {
-      "name": "Xbox One",
-      "key": "xbox",
-      "color": "#107C10"
-    },
-    {
-      "name": "Xbox 360",
-      "key": "xbox",
-      "color": "#107C10"
-    },
-    {
-      "name": "Xbox",
-      "key": "xbox",
-      "color": "#107C10"
-    },
-    {
-      "name": "Switch",
-      "key": "switch",
-      "color": "#e60012"
-    },
-    {
-      "name": "Wii",
-      "key": "wii",
-      "color": "#8B8B8B"
-    },
-    {
-      "name": "3DS",
-      "key": "3ds",
-      "color": "#D12228"
-    },
-    {
-      "name": "GameCube",
-      "key": "gamecube",
-      "color": "#6A5FBB"
-    },
-    {
-      "name": "N64",
-      "key": "n64"
-    },
-    {
-      "name": "Master System",
-      "key": "sega",
-      "color": "#0089CF"
-    }
-  ],
-  "games": {
+   "games": {
     "PS2": [
       {
         "gameID": 5869,
@@ -1092,6 +1022,14 @@
         "title": "LEGO Marvel Super Heroes"
       },
       {
+        "gameID": 110221,
+        "title": "LEGO Marvel Super Heroes 2"
+      },
+      {
+        "gameID": 117299,
+        "title": "LEGO Marvel's Avengers"
+      },
+      {
         "gameID": 50022,
         "platformID": 4919,
         "title": "LEGO Star Wars: The Force Awakens"
@@ -1195,6 +1133,10 @@
       {
         "gameID": 31808,
         "title": "Tony Hawk's Pro Skater 5"
+      },
+      {
+        "gameID": 43352,
+        "title": "Rise of The Tomb Raider"
       }
     ],
     "Xbox 360": [
@@ -1656,11 +1598,6 @@
         "title": "Gears of War 4"
       },
       {
-        "gameID": 53379,
-        "platformID": 4920,
-        "title": "LEGO Marvel Super Heroes 2"
-      },
-      {
         "gameID": 32132,
         "platformID": 4920,
         "title": "Rare Replay"
@@ -1674,11 +1611,6 @@
         "gameID": 20792,
         "platformID": 4920,
         "title": "Sunset Overdrive"
-      },
-      {
-        "gameID": 23924,
-        "platformID": 4920,
-        "title": "The LEGO Movie Videogame"
       },
       {
         "gameID": 41601,

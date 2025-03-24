@@ -82,7 +82,7 @@ eleventyComputed:
               <div class="almanac-grid-item">
                 <hyper-card>
                   <a href="https://thegamesdb.net/game.php?id={{ game.gameID }}">
-                    <img class="almanac-poster" src="/assets/catalog/games/{{ game.gameID }}.jpg">
+                    <img class="almanac-poster {{ platform.class }}" src="/assets/catalog/games/{{ game.gameID }}.jpg">
                   </a>
                   {{ { "title": game.title, "platform": platform.name, "trophies": catalog.trophies } | getTrophies | safe }}
                   {{ { "title": game.title, "platform": platform.name, "achievements": catalog.achievements } | getAchievements | safe }}
