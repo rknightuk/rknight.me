@@ -1,6 +1,10 @@
 export default (function () {
     return [
         {
+            label: 'Colophon',
+            link: '/about/colophon'
+        },
+        {
             label: 'Contact',
             link: '/contact'
         },
@@ -12,9 +16,5 @@ export default (function () {
             label: '/save',
             link: '/save'
         },
-        {
-            label: 'AI Manifesto',
-            link: '/ai'
-        }
     ];
 });

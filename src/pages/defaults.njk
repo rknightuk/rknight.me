@@ -16,7 +16,7 @@ eleventyNavigation:
                 <use xlink:href="#bell"></use>
             </svg>
         </div>
-        <p>Last updated <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }}</a> &bull; <a href="/blog/tags/defaults">Previous Entries</a></p>
+        <p>Last updated <a href="{{ post.data.permalink | stripIndex }}">{{ post.data.date | postDate }}</a> &middot; <a href="/blog/tags/defaults">Previous Entries</a></p>
     </aside>
     {{ post.content | safe }}
 {%- endfor -%}

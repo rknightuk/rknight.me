@@ -1,5 +1,5 @@
 {
-   "games": {
+  "games": {
     "PS2": [
       {
         "gameID": 5869,
@@ -1012,9 +1012,17 @@
         "title": "LEGO CITY Undercover"
       },
       {
+        "gameID": 106682,
+        "title": "LEGO DC Super-Villains"
+      },
+      {
         "gameID": 42062,
         "platformID": 4919,
         "title": "LEGO Harry Potter Collection"
+      },
+      {
+        "gameID": 26237,
+        "title": "LEGO Jurassic World"
       },
       {
         "gameID": 18573,
@@ -1571,16 +1579,6 @@
         "gameID": 40680,
         "platformID": 4920,
         "title": "Back to the Future: The Game"
-      },
-      {
-        "gameID": 21415,
-        "platformID": 4920,
-        "title": "Batman: Arkham Knight"
-      },
-      {
-        "gameID": 46199,
-        "platformID": 4920,
-        "title": "Batman: Return to Arkham"
       },
       {
         "gameID": 20800,

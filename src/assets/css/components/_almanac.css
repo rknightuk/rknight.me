@@ -63,7 +63,8 @@ a.almanac-empty-box {
 }
 
 .almanac-poster.ps5,
-.almanac-poster.ps4 {
+.almanac-poster.ps4,
+.almanac-poster.xbox-one {
     aspect-ratio: 1 / 1.3;
 }
 

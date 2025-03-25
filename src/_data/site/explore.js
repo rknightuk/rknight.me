@@ -126,6 +126,11 @@ export default function() {
 				description: 'Things I\'m interested in, passionate about, or otherwise enjoy',
 			},
 			{
+				title: 'posse',
+				link: '/posse',
+				description: 'My POSSE strategy',
+			},
+			{
 				title: 'save',
 				link: '/save',
 				description: 'Use these referral links for services I use and we both get free stuff',
