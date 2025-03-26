@@ -152,10 +152,15 @@ I keep a list of icon sets I find [on The Intersect](https://rknight.me/intersec
 
 - [Global Ukon Knives](https://www.globalknives.uk/knife-types-c1/knife-sets-c13/gu-505-6b-global-ukon-6-pce-knife-block-set-p1190)
 - [Victorinox 8 cm Pointed Tip/Serrated Edge Knife](https://www.amazon.co.uk/gp/product/B0050DIPMC/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - these are sharp as hell, be careful
-- [Tower T12015 2-in-1 Electric Potato Masher and Stick Blender](https://www.amazon.co.uk/Tower-T12015-Electric-Adjustable-Ergonomic/dp/B0123I5RNQ)
+- [Masha Electric Potato Masher](https://mymasha.co.uk)
 - [These bin bags](https://www.amazon.co.uk/gp/product/B017WUSUNE/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - Don't waste your time with anything else
 - [Metal Lint Remover](https://www.amazon.co.uk/gp/product/B08FD5QMZR/ref=ppx_yo_dt_b_search_asin_title?ie=UTF8&psc=1) - this is amazing at removing pet hairs from carpets
 - OXO good grips is always a good choice for kitchen items.
+
+```diff
++ [2024-09-24] Masha Electric Potato Masher
+- [2024-09-24] Tower T12015 2-in-1 Electric Potato Masher and Stick Blender (Discontinued)
+```
 
 <h3><svg class="icon"><use xlink:href="#diy"></use></svg>DIY</h3>
 
