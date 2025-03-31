@@ -4,7 +4,7 @@ permalink: /links/vision-accessibility-on-apple-vision-pro/index.html
 link: https://zmknox.com/2024/02/18/vision-accessibility-on-apple-vision-pro
 date: 2024-02-20T10:54:56.550Z
 author: 
-  name: Zach Knox
+  name: Zoe Knox
   web: https://zmknox.com
   feed: https://zmknox.com/feed.xml
   mastodon: https://snailedit.social/@zmk
