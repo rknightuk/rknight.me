@@ -2,7 +2,7 @@
 title: "Hack Pompey: Portal Kombat"
 permalink: /blog/hack-pompey-portal-kombat/index.html
 date: 2025-03-31T11:21:32.000Z
-excerpt: "My hackathon project for the Sea Change Hack Pompey hackathon"
+excerpt: "My project for the Sea Change Hack Pompey hackathon"
 tags:
     - Development
     - Hackathon
