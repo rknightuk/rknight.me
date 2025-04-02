@@ -981,6 +981,10 @@
         "title": "Crash Bandicoot N. Sane Trilogy"
       },
       {
+        "gameID": 19197,
+        "title": "Tomb Raider: Definitive Edition"
+      },
+      {
         "gameID": 48142,
         "platformID": 4919,
         "title": "Detroit: Become Human"
@@ -1087,6 +1091,10 @@
         "title": "Red Dead Redemption 2"
       },
       {
+        "gameID": 43352,
+        "title": "Rise of The Tomb Raider"
+      },
+      {
         "gameID": 70831,
         "platformID": 4919,
         "title": "Sayonara Wild Hearts"
@@ -1122,6 +1130,10 @@
         "title": "Tony Hawk's Pro Skater 1 + 2"
       },
       {
+        "gameID": 31808,
+        "title": "Tony Hawk's Pro Skater 5"
+      },
+      {
         "gameID": 35301,
         "platformID": 4919,
         "title": "Uncharted 4: A Thief's End",
@@ -1141,14 +1153,6 @@
         "gameID": 68992,
         "platformID": 4919,
         "title": "Untitled Goose Game"
-      },
-      {
-        "gameID": 31808,
-        "title": "Tony Hawk's Pro Skater 5"
-      },
-      {
-        "gameID": 43352,
-        "title": "Rise of The Tomb Raider"
       }
     ],
     "Xbox 360": [
