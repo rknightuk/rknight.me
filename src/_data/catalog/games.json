@@ -981,10 +981,6 @@
         "title": "Crash Bandicoot N. Sane Trilogy"
       },
       {
-        "gameID": 19197,
-        "title": "Tomb Raider: Definitive Edition"
-      },
-      {
         "gameID": 48142,
         "platformID": 4919,
         "title": "Detroit: Become Human"
@@ -1114,6 +1110,10 @@
         "gameID": 63395,
         "platformID": 4919,
         "title": "Starlink: Battle for Atlas (Starter Pack)"
+      },
+      {
+        "gameID": 19197,
+        "title": "Tomb Raider: Definitive Edition"
       },
       {
         "gameID": 21182,
