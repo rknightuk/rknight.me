@@ -14,6 +14,8 @@ On Saturday I attended [Hack Pompey](https://hackpompey.co.uk) which was in coll
 
 Sea Change provided some data about port movements, carbon levels, and related things for attendees to use for their projects. They released it a few days beforehand and I was able to have a poke around and work out an idea. [Portal Kombat](https://portkom.rknight.me), which is legally distinct from Top Trumps.
 
+![Me presenting in front of a large screen showing Portal Kombat](https://cdn.rknight.me/site/2025/hack-pompey-2025-presentation.jpg)
+
 Each card has data about the ship like size, length, weight, as well as number of visits and time spent in the port. It works just like Top Trumps: pick the stat you think will beat the other card and if you win, you get a point. In the case of Portal Kombat, you can see the name of the ship and the country of origin before guessing.
 
 ![The Portal Kombat website showing two ships on different cards as well as a scoreboard](https://cdn.rknight.me/site/2025/portal-kombat.jpg)
