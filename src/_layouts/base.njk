@@ -48,11 +48,11 @@
                                 <use xlink:href="#calendar"></use>
                             </svg>
                             <time class="dt-published" datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>
-                            {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or type === "live" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
+                            {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or mediaType === "event" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
                         </div>
                         {% if tmdbid %}
                             <div>
-                                <a href="https://www.themoviedb.org/{{ type }}/{{ tmdbid }}" target="_blank">{{ title }} on TMDB</a>
+                                <a href="https://www.themoviedb.org/{{ mediaType }}/{{ tmdbid }}" target="_blank">{{ title }} on TMDB</a>
                             </div>
                         {% endif %}
                         {% if giantbomburl %}
