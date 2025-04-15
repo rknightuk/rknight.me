@@ -20,7 +20,7 @@ So you are a nation that only exports bananas which is bad for politics. Got it.
 
 ### Yak shaving 
 
-> Any apparently [useless](https://en.wiktionary.org/wiki/useless#English "useless") [activity](https://en.wiktionary.org/wiki/activity#English "activity") which, by allowing one to overcome intermediate difficulties, allows one to solve a larger problem
+> Any apparently useless activity which, by allowing one to overcome intermediate difficulties, allows one to solve a larger problem
 
 _Can I use it in a sentence?_
 
