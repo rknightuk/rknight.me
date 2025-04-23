@@ -9,6 +9,6 @@ author:
 
 ---
 
-> too many ideas were trying to be a bit too perfect in my brain
+> ...too many ideas were trying to be a bit too perfect in my brain
 
 Big mood (do we still say "big mood"? We should).
