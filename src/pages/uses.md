@@ -37,18 +37,21 @@ eleventyNavigation:
 
 #### Hardware
 
-- 16" M2 Max/64GB/1TB
+- 15" Macbook Air/32GB/1TB Midnight
+    - [TomToc 360 Sleeve](https://www.amazon.co.uk/dp/B0C9M8C9S2)
+    - [MOFT stand](https://www.amazon.co.uk/dp/B0BD7VQRQD)
 - [PiSight web cam](https://rknight.me/building-a-pisight/)
 - [MX Master 3S mouse](https://www.logitech.com/en-gb/products/mice/mx-master-3s.910-006559.html)
 - [8BitDo Retro Mechanical Keyboard](https://www.8bitdo.com/retro-mechanical-keyboard/)
-- Apple Magic Keyboard in black (non-touchID version) - only for podcasting 
-- [Razer Seiren Mini microphone](https://www.razer.com/gb-en/streaming-microphones/razer-seiren-mini) for podcasting
+- Apple Magic Keyboard in black (non-touchID version) [podcasting] 
+- [Razer Seiren Mini microphone](https://www.razer.com/gb-en/streaming-microphones/razer-seiren-mini) [podcasting]
 - [Creative GigaWorks T40 Series II](https://uk.creative.com/p/speakers/gigaworks-t40-series-ii)
-- [Audio Technica ATH-M50x](https://www.audio-technica.com/en-gb/ath-m50x) (home/podcasting)
-- [AirPods Max Gen 1](https://en.wikipedia.org/wiki/AirPods_Max) (office/gaming)
+- [Audio Technica ATH-M50x](https://www.audio-technica.com/en-gb/ath-m50x) [home/podcasting]
+- [AirPods Max Gen 1](https://en.wikipedia.org/wiki/AirPods_Max) [office/gaming]
 - [Twelve South StayGo USB-C hub](https://www.twelvesouth.com/products/staygo-usb-c-hub)
 
 ```diff
++ [2025-04-23] 15" MacBook Air
 + [2025-02-09] Creative GigaWorks T40 Series II
 - [2025-02-09] Logitech Z200 Speakers
 + [2024-09-19] AirPods Max Gen 1
