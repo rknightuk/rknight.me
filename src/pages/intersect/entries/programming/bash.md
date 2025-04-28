@@ -104,3 +104,5 @@ for file in ./dir/*; do
     echo "${file##*/}"
 done
 ```
+
+`touch ~/.hushlogin` - Hide login message SSH to Ubuntu
