@@ -20,4 +20,4 @@ This was way better than the previous one and I sent a preview to Kevin and [Ada
 
 ![Three circles but the right hand side is the RSS logo in orange](https://cdn.rknight.me/site/2025/echofeed-logo-new-v2.jpg)
 
-I'm not designer so I can't pinpoint _why_ this is more pleasing to my eye, but I like it. I updated the site, [the 88x31 button](https://rknight.me/assets/img/buttons/echofeed.svg), the [Amplify account](https://beep.town/@echofeedamplify), and the [GTS account](https://hub.7622.me/@echofeed) with the new logo and now I have one I like, I can order some stickers.
+I'm not designer so I can't pinpoint _why_ this is more pleasing to my eye, but I like it. I updated the site, [the buttons](https://help.echofeed.app/buttons/), the [Amplify account](https://beep.town/@echofeedamplify), and the [GTS account](https://hub.7622.me/@echofeed) with the new logo and now I have one I like, I can order some stickers.
