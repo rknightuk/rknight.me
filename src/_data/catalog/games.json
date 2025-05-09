@@ -971,6 +971,10 @@
         "title": "A Hat in Time"
       },
       {
+        "gameID": 37240,
+        "title": "Batman: Return to Arkham"
+      },
+      {
         "gameID": 114853,
         "platformID": 4919,
         "title": "Cat Quest + Cat Quest 2: Pawsome Pack"
@@ -1059,6 +1063,11 @@
         "platformID": 4919,
         "title": "Life is Strange: Before the Storm",
         "notes": "Limited Edition"
+      },
+      {
+        "gameID": 85199,
+        "title": "Marvel's Avengers",
+        "notes": "Steelbook Edition"
       },
       {
         "gameID": 61067,
