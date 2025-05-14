@@ -37,6 +37,7 @@ h2 {
     background-position: left bottom;
     background-size: auto 15px; */
     text-shadow: -2px 2px 1px rgba(227, 61, 148, 0.7);
+    word-wrap: break-word;
 }
 
 h1,
