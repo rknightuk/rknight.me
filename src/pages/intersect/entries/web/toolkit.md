@@ -38,6 +38,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [uchū](https://uchu.style)
 - [Open Color](https://yeun.github.io/open-color/)
 - [Flexoki](https://stephango.com/flexoki)
+- [The 12-bit rainbow palette](https://iamkate.com/data/12-bit-rainbow/)
 - [Customizing Colors - Tailwind CSS](https://tailwindcss.com/docs/customizing-colors)
 - [Tailwind CSS Color Generator](https://uicolors.app/create)
 - [Flat UI Colors](https://flatuicolors.com/)
