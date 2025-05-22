@@ -28,6 +28,8 @@ rewrite ^/save/{{ s.slug }} {{ s.link }} redirect;{% endfor %}
 # st jude
 rewrite ^/stjude https://tiltify.com/@rknightuk/stjude2024 redirect;
 
+rewrite ^/shop/dont-at-me https://buy.stripe.com/eVq7sL72U8b4dfCeuM2kw00 redirect;
+
 # Redirect old blog posts to /blog
 rewrite ^/sitemap /explore permanent;
 rewrite ^/feed.xml /subscribe/posts/atom.xml permanent;

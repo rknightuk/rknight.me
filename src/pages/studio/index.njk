@@ -1,0 +1,29 @@
+---
+title: Shop
+subtitle: Money can be exchanged for goods and services.
+layout: base
+permalink: 'shop/index.html'
+eleventyNavigation:
+  key: Shop
+  parent: Home
+---
+
+<script async
+  src="https://js.stripe.com/v3/buy-button.js">
+</script>
+
+{%- for item in shop %}
+    <div style="">
+        <h3 style="margin-bottom: 0;">{{ item.name}}</h3>
+        <p>{{ item.description }} <a href="{{ item.link }}" target="_blank">Direct link</a>.</p>
+        {# <img src="{{ item.image }}" alt="{{ item.name }}" style="max-width: 600px; margin: 0 auto;"/> #}
+        {% if item.active %}
+            <stripe-buy-button
+                buy-button-id="{{ item.id }}"
+                publishable-key="pk_live_51RRVVjGoUXgcrg9dRhrMJvsKxUOVBhqbM7QG4gU01nXdNT9tskDnFvO4bpoFuELBuzdLI5K2HYNWt3lV1SyVxzWk00Gk6MBpLl"
+            ></stripe-buy-button>
+        {% else %}
+            <p>Sold Out</p>
+        {% endif %}
+    </div>
+{%- endfor %}
