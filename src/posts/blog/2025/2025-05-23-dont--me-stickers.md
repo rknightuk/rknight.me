@@ -8,7 +8,7 @@ excerpt: "I think this is what the kids called manifesting"
 > [!NOTE] Update
 > 2025-05-26 Now includes a "websites 🪄" sticker as well
 
-![A pink gradient background. In the middle is a sticker that says Don't Know, Don't Care, Don't @ Me and a smiley face at the end. There is a second sticker which is glittery and says websites on it with a wand in the middle](https://cdn.rknight.me/shop/dont-at-me-stickers-updated.jpg)
+![A pink gradient background. In the middle is a sticker that says Don't Know, Don't Care, Don't @ Me and a smiley face at the end. There is a second sticker which is glittery and says websites on it with a wand in the middle](https://cdn.rknight.me/shop/dont-at-me-stickers-updated-v2.jpg)
 
 Last week on the 'don [I said](https://social.lol/@robb/114502589160211103):
 
