@@ -223,6 +223,9 @@ export const almanacGames = (collectionApi) => {
 export const almanacEvents = (collectionApi) => {
 	return collectionApi.getFilteredByGlob(makePath('almanac/events')).reverse()
 }
+export const almanacMusic = (collectionApi) => {
+	return collectionApi.getFilteredByGlob(makePath('almanac/music')).reverse()
+}
 export const notes = (collectionApi) => {
 	return collectionApi.getFilteredByGlob(makePath('notes')).reverse()
 }
@@ -406,6 +409,7 @@ export default {
 	almanacBooks,
 	almanacGames,
 	almanacEvents,
+	almanacMusic,
 	notes,
 	photos,
 	blogTags,

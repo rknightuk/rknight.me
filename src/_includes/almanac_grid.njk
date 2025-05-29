@@ -21,6 +21,15 @@
           <div class="gig-info">{{ entry.data.title }} @ {{ entry.data.venue }}</div>
         </a>
       </hyper-card>
+    {% elseif entry.data.mediaType === 'music' %}
+      <hyper-card>
+        <a href="{{ entry.data.permalink | stripIndex }}" class="almanac-empty-box music">
+          {% if entry.data.poster %}
+            <img class="almanac-poster" src="{{ entry.data.poster }}">
+          {% endif %}
+          <div class="music-info">{{ entry.data.title }}</div>
+        </a>
+      </hyper-card>
     {% else %}
       <hyper-card>
         <a href="{{ entry.data.permalink | stripIndex }}">

@@ -41,6 +41,21 @@ a.almanac-empty-box {
     opacity: 0.9;
 }
 
+.almanac-empty-box.music {
+    background-color: var(--bg-darker);
+    color: var(--offwhite);
+    flex-direction: column;
+    font-size: 0.7em;
+    padding: 5px;
+}
+
+.almanac-empty-box.music img {
+    width: 90%;
+    aspect-ratio: 1 / 1;
+    margin-bottom: 10px;
+    box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.3);
+}
+
 .gig-info {
     position: absolute;
     top: 0;

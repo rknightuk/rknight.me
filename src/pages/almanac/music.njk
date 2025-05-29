@@ -1,0 +1,19 @@
+---
+pagination:
+  data: collections.almanacMusic
+  size: 50
+  alias: music
+permalink: 'almanac/music/{% if pagination.pageNumber > 0 %}page-{{ pagination.pageNumber + 1 }}/{% endif %}'
+layout: base
+wide: true
+eleventyNavigation:
+  key: Music
+  title: 🎸 Music
+  parent: Almanac
+eleventyComputed:
+    title: Music
+    subtitle: "[Almanac](/almanac): Music I've listened to"
+    plural: Music
+---
+
+{% include 'almanac_grid.njk' %}
