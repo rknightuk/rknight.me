@@ -5,9 +5,13 @@ date: 2025-06-03T13:32:22.311Z
 excerpt: "I've been doing something akin to bullet journalling for the best part of five months and have some thoughts"
 tags:
     - Analogue
+discuss:
+- type: "Stephen Gower's Blog"
+  link: https://lwgrs.bearblog.dev/re-five-months-of-journalling/
+  date: 2025-06-03T21:57:00
 ---
 
-> [!NOTE] Styleguide Notice
+> [!NOTE] Style Guide Notice
 > Journalling can be spelt with one "L" or two, the latter being the British English way so that's what I've gone for.
 
 I [started doing bullet journalling in January](https://rknight.me/blog/biting-the-bullet/) and amazingly, I've kept it up. I [read the book](https://rknight.me/almanac/books/2025-01-20-the-bullet-journal-method/), watched a bunch of the videos, and spoke about it [on Ruminate](https://ruminatepodcast.com). I'll start off with some questions, starting with [Marco](https://social.lol/@esamecar/113992147299808545):
