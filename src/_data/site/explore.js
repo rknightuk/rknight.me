@@ -14,6 +14,11 @@ export default function() {
 				icon: 'blog',
 			},
 			{
+				title: 'Style Guide',
+				link: '/styleguide',
+				description: 'My style guide',
+			},
+			{
 				title: 'Notes',
 				link: '/notes',
 				description: 'notes, toots, and shitposts',
