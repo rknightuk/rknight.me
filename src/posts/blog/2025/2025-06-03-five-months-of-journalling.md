@@ -52,7 +52,7 @@ The bullet system itself (todo, done, migrated, event, note) I _do_ find useful.
 
 Now I've written it out like this it's pretty clear: I'm not doing the Bullet Journal method, I'm just journalling. [The purpose of a system is what it does](https://en.wikipedia.org/wiki/The_purpose_of_a_system_is_what_it_does) and a quick glance at the [BuJo](https://bulletjournal.com) website (which has changed significantly even in the past 4 months), tells you what the system does: it sells courses and notebooks. That's not a necessarily a bad thing but it's a big jump from "do journalling".
 
-One thing I've had to contend with is not having access to my journal while I'm with my kids because they like to grab everything with their grubby little hands. So I have to use something on my phone to dump notes at those times. I started with [Godspeed](rknight.me/save/godspeed) and I'm currently using [Tot](https://tot.rocks). When I do sit down with my journal, I'll open Tot and transfer anything in there over to the daily log.
+One thing I've had to contend with is not having access to my journal while I'm with my kids because they like to grab everything with their grubby little hands. So I have to use something on my phone to dump notes at those times. I started with [Godspeed](https://rknight.me/save/godspeed) and I'm currently using [Tot](https://tot.rocks). When I do sit down with my journal, I'll open Tot and transfer anything in there over to the daily log.
 
 For the start of a month I do a small monthly spread along with a section to add any general notes I think of for that month. I don't use this spread that much so I'm considering dropping it completely.
 
