@@ -21,3 +21,5 @@ Preference for British English over American English with noted exceptions.
 "_Color_" or "_Colour_" are both acceptable.
 
 "_Home screen_" is two words.
+
+"_Weeknote_" is one word.
