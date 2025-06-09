@@ -2,7 +2,7 @@
 title: "Robb Knight - omg.lol Interview Series 7"
 permalink: /links/robb-knight-omglol-interview-series-7/index.html
 date: 2025-04-16T13:04:00.000Z
-link: https://krrd.ing/posts/robb-knight-omglol-interview-series-7/
+link: https://krrd.ing/blog/omglol-interview-robb/
 author:
     web: 'https://krrd.ing'
 
