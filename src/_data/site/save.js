@@ -19,6 +19,12 @@ export default (function () {
             desc: 'Extended 30 day trial with code <code>RKNIGHT</code>',
         },
         {
+            name: 'TRMNL',
+            slug: 'trmnl',
+            link: 'https://usetrmnl.com',
+            desc: '$15 off, use code <code>ROBB15</code>',
+        },
+        {
             name: 'Godspeed',
             slug: 'godspeed',
             link: 'https://godspeedapp.com/a/RKNIGHT25',
