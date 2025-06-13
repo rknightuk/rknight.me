@@ -11,7 +11,7 @@ Last week I ordered [a TRMNL](https://usetrmnl.com). It's an 800x480 e-ink scree
 
 > [!NOTE] /save
 > 
-> Use the code `robb15` to get $15 off. I get $5 towards another TRMNL if you use it so we both win. Except my wife who will wonder why I bought yet another thing for the house.
+> Use the code `robb15` to get $15 off. I get $5 towards another TRMNL if you use it so everyone wins. Except my wife who will wonder why I bought yet another thing for the house.
 
 I bought the developer edition which gives you access to make your own plugins rather than exclusively rely on the work of others. It also means I was able to get going before it even arrived with a virtual device. The way plugins works, I was able to put together an EchoFeed plugin pretty easily to show sign ups, posts, and other things. I added an endpoint to EchoFeed and piped that into the plugin.
 
