@@ -44,6 +44,6 @@ You can, if you choose to, host your own server instead of relying on theirs. I'
 
 I've wanted some kind of "screen with data" for a while and had similar thoughts to [Jachin](https://jachinrupe.name/): there are lots of other options (iPads, Raspberry Pi mirrors, Skylight) but they all have major downsides. TRMNL meets most of my requirements and I'm already considering getting another one for the kitchen[^3].
 
-[^1]: It's basically September
+[^1]: [It's basically September](https://isitseptember.fyi)
 [^2]: More on that soon, also codenames are always cool
 [^3]: So please use my code `robb15` thanks very much
