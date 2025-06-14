@@ -7,6 +7,7 @@ import plugins from './config/plugins.js'
 
 import markdownIt from 'markdown-it'
 import markdownItFootnote from 'markdown-it-footnote'
+import markdownItFigCaptions from 'markdown-it-image-figures'
 import markdownItGithubAlerts from 'markdown-it-github-alerts'
 import { mention } from '@fedify/markdown-it-mention'
 
@@ -20,6 +21,7 @@ export default (function (eleventyConfig) {
     let markdownLib = markdownIt(options)
         .use(markdownItFootnote)
         .use(markdownItGithubAlerts)
+        .use(markdownItFigCaptions, { figcaption: true })
         .use(mention, {
             link: (handle) => {
                 const [username, domain] = handle.split('@').filter(f => f)

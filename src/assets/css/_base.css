@@ -259,6 +259,13 @@ blockquote {
     color: var(--offwhite-subtle);
 }
 
+figcaption {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 0.5em;
+    color: var(--offwhite-subtle);
+}
+
 table {
     margin-bottom: 10px;
     width: 100%;
