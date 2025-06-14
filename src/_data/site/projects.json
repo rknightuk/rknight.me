@@ -74,6 +74,11 @@
         { "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.jpg", "tags": ["11ty", "Audio"] },
         { "title": "We Got Family", "link": "https://wegot.family", "desc": "A Fast and Furious podcast", "image": "wegotfamily.jpg", "tags": ["11ty", "Audio"] }
     ],
+    "trmnl": [
+        { "title": "Fathom Analytics", "link": "https://usetrmnl.com/recipes/89064", "desc": "Shows visits, views, and top pages", "image": "trmnl-fathom.jpg" },
+        { "title": "Mastodon", "link": "https://usetrmnl.com/recipes/89880", "desc": "Show your Mastodon profile, toots, followers, and following counts", "image": "trmnl-mastodon.jpg" },
+        { "title": "Stripe", "link": "https://usetrmnl.com/recipes/89809", "desc": "Shows recent transaction data", "image": "trmnl-stripe.jpg" }
+    ],
     "profile": [
         { "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.jpg", "tags": ["JS"] },
         { "title": "omgnow", "link": "https://omgnow.rknight.me/", "desc": "Embed your omg.lol/now page", "image": "omgnow.jpg", "tags": ["JS", "PHP"] },
