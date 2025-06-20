@@ -17,3 +17,7 @@ Both [Rickipedia](https://rickies.net/) and [The Rickies](https://rickies.co) ha
 The plugin handles the scenario like now where we have a benchman as well as if there are separate keynote and annual chairmen. I spent some time working out the percentages so I can place the winner "magnets" on the globe and if I resize it it still works which will come in handy if I add any new views or modes.
 
 You can [install it here](https://usetrmnl.com/recipes/97896), search "The Rickies" on the plugins page, or the code [is on GitHub](https://github.com/rknightuk/trmnl-the-rickies/tree/main).
+
+> [!NOTE] /save
+> 
+> Use the code `robb15` to get $15 off and I get $5 towards another TRMNL.
