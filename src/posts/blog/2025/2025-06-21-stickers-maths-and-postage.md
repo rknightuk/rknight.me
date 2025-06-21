@@ -2,7 +2,7 @@
 title: "Stickers, Maths, and Postage"
 permalink: /blog/stickers-maths-and-postage/index.html
 date: 2025-06-21T21:48:28.220Z
-excerpt: ""
+excerpt: "The breakdown of cost and profit on the stickers"
 ---
 
 A few days ago, I put ~60 envelopes in the postbox to be whisked away to various places across the world. 
