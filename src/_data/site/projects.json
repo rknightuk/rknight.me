@@ -77,7 +77,9 @@
     "trmnl": [
         { "title": "Fathom Analytics", "link": "https://usetrmnl.com/recipes/89064", "desc": "Shows visits, views, and top pages", "image": "trmnl-fathom.jpg" },
         { "title": "Mastodon", "link": "https://usetrmnl.com/recipes/89880", "desc": "Show your Mastodon profile, toots, followers, and following counts", "image": "trmnl-mastodon.jpg" },
-        { "title": "Stripe", "link": "https://usetrmnl.com/recipes/89809", "desc": "Shows recent transaction data", "image": "trmnl-stripe.jpg" }
+        { "title": "Stripe", "link": "https://usetrmnl.com/recipes/89809", "desc": "Shows recent transaction data", "image": "trmnl-stripe.jpg" },
+        { "title": "The Rickies", "link": "https://usetrmnl.com/recipes/97896", "desc": "Show the current chairmen of The Rickies", "image": "trmnl-rickies.jpg" },
+        { "title": "Mario Kart Track", "link": "https://usetrmnl.com/recipes/101176", "desc": "Shows info about a random track including an image, map if it's available, and trivia", "image": "trmnl-mario-kart.jpg" }
     ],
     "profile": [
         { "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.jpg", "tags": ["JS"] },
