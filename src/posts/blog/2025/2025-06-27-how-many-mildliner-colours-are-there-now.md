@@ -10,7 +10,7 @@ project: https://mildliners.rknight.me
 
 Yesterday I ordered the 2025 Mildliner pack which I've had to get direct from China because nowhere in the UK appears had them for sale yet and I'm nothing if not an obsessive completionist with no patience. 
 
-New colours meant I needed to update my [already-updated color chart](http://localhost:8080/blog/how-many-mildliner-colours-are-there/) to include these new ones[^1] but updating a static image doesn't spark joy so I did what I always do: new website.
+New colours meant I needed to update my [already-updated color chart](/blog/how-many-mildliner-colours-are-there/) to include these new ones[^1] but updating a static image doesn't spark joy so I did what I always do: new website.
 
 tl;dr: It's called Mildliner Reference and it lives at [mildliners.rknight.me](https://mildliners.rknight.me). Subdomains, baby!
 
