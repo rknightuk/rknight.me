@@ -5,7 +5,12 @@ date: 2025-02-15T23:44:05.734Z
 excerpt: "I couldn't help myself but buy every colour of mildliner and I needed to know exactly how many colours were available"
 tags:
     - Analogue
+project: https://mildliners.rknight.me
 ---
+
+> [!NOTE] Update 2025-06-27
+>
+> There are now 41 colors so I made [Mildliner Reference](https://mildliners.rknight.me). Read [the blog post](/blog/how-many-mildliner-colours-are-there-now).
 
 Remember [a week ago](https://rknight.me/blog/zebra-big-30-pack-of-pens/) when I bought some Zebra Mildliners? Well now I have all of them because I have no self control. But _how many are there?_. If you check the Zebra website, you'd see [this natty graphic](https://www.zebrapen.com/pages/mildliner-highlighter-color-chart?srsltid=AfmBOoqP8E9bStyvLEqug7cNSckEA_aZ2UecyVmE70DKhV0-SdpyOe_u) that shows there are 35 colours available across seven sets. You might also find [this "complete" set](https://www.afth.co.uk/zebra-pens---mildliner-set---35pk-50828-p.asp) and assume that 35 is the number but it's not.
 

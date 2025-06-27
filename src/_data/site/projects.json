@@ -2,10 +2,10 @@
     "featured": [
         { "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Bluesky, and more", "image": "echofeed.jpg" },
         {
-			"title": "Portal Kombat",
-			"desc": "Boat battles",
-			"image": "portkom.jpg",
-			"link": "https://portkom.rknight.me"
+			"title": "Mildliners Reference",
+			"desc": "A guide to all the Mildliner colors and sets",
+			"image": "mildliners.jpg",
+			"link": "https://mildliners.rknight.me"
 		},
 		{
 			"title": "The Wellness Place",
@@ -25,6 +25,12 @@
     "current": [
         { "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Bluesky, and more", "image": "echofeed.jpg", "tags": ["PHP", "Laravel"] },
         { "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },
+        {
+			"title": "Mildliners Reference",
+			"desc": "A guide to all the Mildliner colors and sets",
+			"image": "mildliners.jpg",
+			"link": "https://mildliners.rknight.me"
+		},
         {
 			"title": "Portal Kombat",
 			"desc": "Boat battles",
