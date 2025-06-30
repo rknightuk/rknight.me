@@ -2,7 +2,7 @@
 title: "Bookaroo Sticky Tabs Review"
 permalink: /blog/bookaroo-sticky-tabs-review/index.html
 date: 2025-06-30T21:48:45.077Z
-excerpt: ""
+excerpt: "A review of the pastel Bookaroo sticky tabs"
 tags:
     - Analogue
 ---
