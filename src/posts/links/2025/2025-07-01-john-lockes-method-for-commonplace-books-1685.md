@@ -11,4 +11,4 @@ author:
 
 This is so cool
 
-!{John Locke's double-page index as published in 1706](https://cdn.rknight.me/site/2025/john-locke-commonplace-book.jpg)
+![John Locke's double-page index as published in 1706](https://cdn.rknight.me/site/2025/john-locke-commonplace-book.jpg)
