@@ -18,3 +18,7 @@ footer.main {
     display: flex;
     justify-content: center;
 }
+
+.footer-buttons img {
+    image-rendering: pixelated;
+}
