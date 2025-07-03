@@ -6,6 +6,7 @@ excerpt: "I made a TRMNL plugin to keep track of the chairmen"
 tags:
     - Development
     - Podcasting
+    - TRMNL
 ---
 
 I was listening to [the results of the Rickies](https://www.relay.fm/connected/556) a couple of days ago and realised it was a perfect candidate for a plugin for my [TRMNL](https://usetrmnl.com/).

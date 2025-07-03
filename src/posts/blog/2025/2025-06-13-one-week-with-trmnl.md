@@ -4,6 +4,7 @@ permalink: /blog/one-week-with-trmnl/index.html
 date: 2025-06-13T22:19:28.203Z
 excerpt: 'I bought a TRMNL and I"m having a lot of fun with it'
 tags:
+    - TRMNL
     - Development
 ---
 
