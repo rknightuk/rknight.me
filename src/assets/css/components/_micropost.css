@@ -28,6 +28,10 @@
     padding-top: 0;
 }
 
+.micropost__content figure:first-child {
+    margin-top: 1em;
+}
+
 .micropost__data,
 .micropost__date {
     background-color: var(--bg-darker);
