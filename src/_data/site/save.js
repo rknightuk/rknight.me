@@ -21,7 +21,7 @@ export default (function () {
         {
             name: 'TRMNL',
             slug: 'trmnl',
-            link: 'https://usetrmnl.com',
+            link: 'https://usetrmnl.com?ref=robb15',
             desc: '$15 off, use code <code>ROBB15</code>',
         },
         {
