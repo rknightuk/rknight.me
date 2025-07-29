@@ -150,6 +150,11 @@ export default function() {
 				link: '/verify',
 				description: 'Verify my identities',
 			},
+			{
+				title: 'blank',
+				link: '/blank',
+				description: '',
+			},
 		],
 	}
 }
