@@ -2,7 +2,7 @@
 title: "Pepsi Max Pencil Case"
 permalink: /blog/pepsi-max-pencil-case/index.html
 date: 2025-07-31T13:05:03.749Z
-excerpt: ""
+excerpt: "Nostalgia is a hell of a drug"
 tags:
     - Analogue
     - Food
