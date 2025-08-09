@@ -1,6 +1,5 @@
 <nav class="main">
     <div class="container container-m">
-        {# <a href="/about" {% if ('/about' in page.url) %}class="active"{% endif %}>About</a> #}
         <a href="/blog" {% if ('/blog' in page.url) %}class="active"{% endif %}>Blog</a>
         <a href="/notes" {% if ('/notes' in page.url) %}class="active"{% endif %}>Notes</a>
         <a href="/links" {% if ('/links' in page.url) %}class="active"{% endif %}>Links</a>
@@ -10,3 +9,17 @@
         <a href="/explore" {% if ('/explore' in page.url) %}class="active"{% endif %}>Explore</a>
     </div>
 </nav>
+
+{% set shopIsActive = false %}
+{%- for item in shop %}
+    {% if item.active %}
+        {% set shopIsActive = true %}
+    {% endif %}
+{%- endfor -%}
+{% if shopIsActive %}
+<div class="container container-m" style="margin-top: 1em; text-align: center;">
+    <aside class="alert">
+        <p>✨ Stickers are live in <a href="/shop">the shop</a> now! ✨</p>
+    </aside>
+</div>
+{% endif %}
