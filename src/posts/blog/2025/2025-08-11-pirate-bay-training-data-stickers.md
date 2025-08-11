@@ -5,6 +5,13 @@ date: 2025-08-11T07:49:45.302Z
 excerpt: "I'm selling some new stickers after a shitposting session"
 ---
 
+> [!NOTE] Update 2025-08-11
+> A Piracy is a Crime sticker is gunna be included as a bonus thanks to [Sophie](https://localghost.dev)
+
+![The Pirate Bay logo but it says Training Data and a You Wouldn't Download a Training Data sticker in a rectangle](https://cdn.rknight.me/shop/training-data-promo-2.jpg)
+
+---
+
 I went on a bit of a [shitposting session](https://social.lol/@robb/114993136245775769) on Friday and the end result is I now have new stickers for sale which [you can buy here](https://rknight.me/shop/training-data). It's a pack of two for $10 that I will send out in the next couple of weeks.
 
 ![The Pirate Bay logo but it says Training Data](https://cdn.rknight.me/shop/training-data-promo.jpg)

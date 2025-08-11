@@ -2,7 +2,7 @@ export default () => {
     return [
         {
             name: 'Training Data Stickers × 2',
-            image: 'https://cdn.rknight.me/shop/training-data-promo.jpg',
+            image: 'https://cdn.rknight.me/shop/training-data-promo-2.jpg',
             description: "Two pack of Training Data stickers. Shipped worldwide in August. $10.",
             id: 'buy_btn_1RtwVSGoUXgcrg9dkkCWbLEp',
             active: true,
