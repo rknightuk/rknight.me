@@ -17,3 +17,4 @@ Discontinued food items I miss.
 - [Tooty Frooties](https://www.mirror.co.uk/news/uk-news/nestl-discontinued-tooty-frooties-after-14175754)
 - [Mingles](https://en.wikipedia.org/wiki/Mingles)
 - [Sensations Regal Lamb and Mint](https://www.betterretailing.com/br/product-news/walkers-launches-limited-edition-sensations-to-mark-coronation/)
+- Cheesestrings with bacon bits
