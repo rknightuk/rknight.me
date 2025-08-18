@@ -65,6 +65,12 @@ export default (function () {
             slug: 'cleanshot',
             link: 'https://cleanshot.sjv.io/robb',
             desc: 'The best screen capture tool for macOS',
+        },
+        {
+            name: 'Cult Pens',
+            slug: 'cultpens',
+            link: 'https://cult-pens.upzelo.com?upz_ref=AKztjoiLUPm8L',
+            desc: '10% at Cult Pens'
         }
     ];
 });
