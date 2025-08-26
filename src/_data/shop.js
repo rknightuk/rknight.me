@@ -5,7 +5,7 @@ export default () => {
             image: 'https://cdn.rknight.me/shop/training-data-promo-2.jpg',
             description: "Two pack of Training Data stickers. Shipped worldwide in August. $10.",
             id: 'buy_btn_1RtwVSGoUXgcrg9dkkCWbLEp',
-            active: true,
+            active: false,
             link: '/shop/training-data',
         },
         {
