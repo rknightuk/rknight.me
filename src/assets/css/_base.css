@@ -20,6 +20,7 @@ body {
     margin: 0;
     font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
     font-weight: normal;
+    font-display: swap;
     font-size: 1.2em;
     background-color: var(--nearblack);
     color: var(--offwhite);
