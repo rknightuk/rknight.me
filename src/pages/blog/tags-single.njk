@@ -15,7 +15,7 @@ eleventyComputed:
 
 {% set taglist = collections[tag] %}
 {%- for post in taglist | reverse -%}
-    {% if post.data.layout == 'posts/post' %}
+    {# {% if post.data.layout == 'posts/post' %} #}
       {% set postYear = post.date.getFullYear() %}
 
       {% if postYear != currentYear %}
@@ -25,5 +25,5 @@ eleventyComputed:
       {% include 'post_list_item.njk' %}
 
       {% set currentYear = postYear %}
-    {% endif %}
+    {# {% endif %} #}
 {%- endfor -%}
