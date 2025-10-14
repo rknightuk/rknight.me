@@ -84,8 +84,10 @@ eleventyNavigation:
 - [NetNewsWire](https://netnewswire.com/) for RSS
 - [Color Slurp](https://colorslurp.com/)
 - [Boop](https://boop.okat.best/) for formatting HTML, JSON, XML, and loads of other stuff
+- [Discord Presence](https://musicpresence.app)
 
 ```diff
++ [2025-10-14] Discord Presence
 + [2024-05-01] Raycast
 - [2024-05-01] Alfred
 - [2023-08-01] Dato
@@ -95,13 +97,15 @@ eleventyNavigation:
 
 #### Hardware
 
-- Purple iPhone 14 Pro
+- Purple iPhone 17 Pro
 - Apple Watch Series 10
 - Headphones
     - [Beats Studio Buds](https://www.beatsbydre.com/uk/earbuds/studio-buds)
     - [AirPods Pro 1st Generation](https://support.apple.com/kb/SP811?locale=en_US) (backup)
 
 ```diff
++ [2025-10-12] iPhone 17 Pro
+- [2025-10-12] iPhone 14 Pro
 + [2024-06-14] Apple Watch Series 10
 - [2024-06-14] Apple Watch Series 4 44mm
 + [2022-09-16] iPhone 14 Pro
