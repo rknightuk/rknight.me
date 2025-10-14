@@ -97,7 +97,7 @@ eleventyNavigation:
 
 #### Hardware
 
-- Purple iPhone 17 Pro
+- Orange iPhone 17 Pro
 - Apple Watch Series 10
 - Headphones
     - [Beats Studio Buds](https://www.beatsbydre.com/uk/earbuds/studio-buds)
