@@ -8,6 +8,9 @@ tags:
   - Development
 ---
 
+> [!NOTE] Note
+> At the time of writing this, I had no idea this was all built on stolen art from everyone on the planet. Fuck OpenAI, Perplexity, and everyone else in this space.
+
 [ChatGPT](https://chat.openai.com/chat) is wild. I entered "_Describe a mysql database schema for tracking the owned books of multiple people_" and it came back with the queries to write the tables including foreign keys:
 
 ```sql
