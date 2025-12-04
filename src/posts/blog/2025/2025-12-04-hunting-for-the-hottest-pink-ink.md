@@ -2,7 +2,7 @@
 title: "Hunting for the Hottest Pink Ink"
 permalink: /blog/hunting-for-the-hottest-pink-ink/index.html
 date: 2025-12-04T21:09:14.030Z
-excerpt: "I bought a boatload of pink and pink-adjecent inks to find the hottest one"
+excerpt: "I bought a boatload of pink and pink-adjacent inks to find the hottest one"
 tags:
     - Analogue
 ---
