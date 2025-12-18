@@ -22,7 +22,7 @@ The latter problem was easy to solve: an [Adam](https://www.neatnik.net)-approve
 
 The first problem though, of having a proper store, was a bit more complicated. There are so many fees associated with some platforms (looking at you Etsy) that it's hard to know how much it would cost to sell a single sticker. Then I remembered my friends over at [Hemispheric Views](https://hemisphericviews.com) have [a sticker store](https://hemisphericviews.bigcartel.com) that runs on [Big Cartel](https://www.bigcartel.com). Big Cartel has a free tier limited to five products, one photo per product, plus some other limitations, but it's perfect for me to get started. Even when I do upgrade, it's $15 a month and that's it. No skimming a percentage from sales or anything like that. 
 
-I bought a cutting mat to take photos on, ordered the first batch of stickers, and got the store up and running last night. There are three new designs: Pen Addiction, Mildliner Bouquet, and nAIve,. plus the aforementioned Pirate Bay ones and a discount pack which gets you everything in the shop plus a bonus Jeff Sinclair sticker.
+I bought a cutting mat to take photos on, ordered the first batch of stickers, and got the store up and running last night. There are three new designs: Pen Addiction, Mildliner Bouquet, and nAIve plus the aforementioned Pirate Bay ones and a discount pack which gets you everything in the shop plus a bonus Jeff Sinclair sticker.
 
 ![A selection of stickers on a blue mat, plus some pens, a Lego Police officer and the this is fine dog](https://cdn.rknight.me/site/2025/all-stickers-discount-pack.jpg)
 
