@@ -33,6 +33,9 @@ This also isn't the last of Jeff, he's featured in the November cover page of my
 
 ![A dotgrid journal page. The top has tree branchs with pink flowers on it, then it says November in capitals in the middle. Below is a dinosaur in a wooly hat and coat.](https://cdn.rknight.me/site/2025/november-journal-page-with-jeff.jpg)
 
+> [!NOTE] Update 2025-12-18
+> You can get the Jeff Sinclair sticker on [my sticker shop](/shop)
+
 And I'm working on a sticker based on the [Sinclair Oil Corporation](https://en.wikipedia.org/wiki/Sinclair_Oil_Corporation) logo:
 
 ![A white sticker with a green border. It says Jeff in bold italic letters at the top and has a green dinosaur at the bottom](https://cdn.rknight.me/site/2025/jeff-sinclair-sticker.png)
