@@ -6,6 +6,7 @@ excerpt: "I have a shiny new store and new sticker designs for 2026"
 tags:
     - AI
     - Analogue
+project: https://github.com/rknightuk/thermal-label-formatter
 ---
 
 tl;dr: I have a proper shop now with new sticker designs which you can [find here](http://rknight.me/shop/).
