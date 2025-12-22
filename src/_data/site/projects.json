@@ -8,13 +8,13 @@
     },
     {
       "title": "Thermal Label Formatter",
-      "description": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
+      "desc": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
       "image": "thermal-label-formatter.png",
       "link": "https://github.com/rknightuk/thermal-label-formatter"
     },
     {
       "title": "Clickart Color Reference",
-      "description": "A guide to all the Clickart colors and sets",
+      "desc": "A guide to all the Clickart colors and sets",
       "image": "clickart.jpg",
       "link": "https://clickart.rknight.me"
     },
@@ -54,7 +54,7 @@
     },
     {
       "title": "Thermal Label Formatter",
-      "description": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
+      "desc": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
       "image": "thermal-label-formatter.png",
       "link": "https://github.com/rknightuk/thermal-label-formatter"
     },
@@ -66,7 +66,7 @@
     },
     {
       "title": "Clickart Color Reference",
-      "description": "A guide to all the Clickart colors and sets",
+      "desc": "A guide to all the Clickart colors and sets",
       "image": "clickart.jpg",
       "link": "https://clickart.rknight.me"
     },
