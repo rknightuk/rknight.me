@@ -18,6 +18,9 @@ The "effort" was twofold: setting up Stripe payment links every time I wanted to
 
 The latter problem was easy to solve: an [Adam](https://www.neatnik.net)-approved [thermal printer](https://www.amazon.com/dp/B0C3B6RRDG), the beautifully named "_OFFNOVA USB Shipping Label Printer, 4x6 Thermal Printer for Shipping Packages, High-Speed Label Maker, Compatible with ShipStation, UPS, FedEx, Ebay, Amazon, Shopify, USPS_". It's a 4×6 thermal printer that has drivers for MacOS, Windows, and Linux. The only learning curve was making sure to pick the 4×6 paper size from the print dialog otherwise you get cut-off labels. Like before, I setup an Eleventy site that takes a CSV and outputs each address as a full page which then print to the labels. Because it's just HTML, I could easily add the Robb Knight × omg.lol logos in the bottom left.
 
+> [!NOTE] Update 2025-12-22
+> [The code for this](https://github.com/rknightuk/thermal-label-formatter) is now on GitHub 
+
 ![A label that has a fake sample address printed on it](https://cdn.rknight.me/site/2025/address-label-sample.jpg)
 
 The first problem though, of having a proper store, was a bit more complicated. There are so many fees associated with some platforms (looking at you Etsy) that it's hard to know how much it would cost to sell a single sticker. Then I remembered my friends over at [Hemispheric Views](https://hemisphericviews.com) have [a sticker store](https://hemisphericviews.bigcartel.com) that runs on [Big Cartel](https://www.bigcartel.com). Big Cartel has a free tier limited to five products, one photo per product, plus some other limitations, but it's perfect for me to get started. Even when I do upgrade, it's $15 a month and that's it. No skimming a percentage from sales or anything like that. 
