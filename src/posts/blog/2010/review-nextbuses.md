@@ -1,7 +1,7 @@
 ---
 title: "Review: NextBuses"
 date: 2010-05-05T00:00:00.000Z
-permalink: /blog/appadvice-review-nextbuses.html
+permalink: /blog/appadvice-review-nextbuses/index.html
 tags:
     - "AppAdvice"
 repost: This article originally appeared on AppAdvice
