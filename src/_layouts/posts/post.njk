@@ -47,7 +47,12 @@ layout: base
         </div>
     {% endif %}
 
-	{{ content | safe }}
+    {% if postType === 'post' %}
+        <span data-pagefind-meta="title" style="display: none">{{ title }}</span>
+	    <span data-pagefind-body>{{ content | safe }}</span>
+    {% else %}
+        {{ content | safe }}
+    {% endif %}
 
     {% if recipe %}
         {% include 'recipe.njk' %}

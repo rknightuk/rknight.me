@@ -6,7 +6,7 @@ eleventyNavigation:
   key: Search
   parent: Home
 ---
-<style>
+{# <style>
 .pagefind-ui__search-input {
     font-size: 1em;
     width: 100%;
@@ -18,23 +18,27 @@ eleventyNavigation:
     list-style-type: none;
     margin-left: -25px;
 }
-</style>
-<script src="/_pagefind/pagefind-ui.js" type="text/javascript"></script>
+</style> #}
 
+<style>
+    body {
+        --pagefind-ui-primary: #eeeeee;
+        --pagefind-ui-text: #eeeeee;
+        --pagefind-ui-background: #152028;
+        --pagefind-ui-border: #152028;
+        --pagefind-ui-tag: #152028;
+    }
+</style>
+
+<link href="/pagefind/pagefind-ui.css" rel="stylesheet">
+<script src="/pagefind/pagefind-ui.js"></script>
 <div id="search"></div>
 <script>
     window.addEventListener('DOMContentLoaded', (event) => {
-        new PagefindUI({
-            element: "#search",
-            showImages: false,
-            showEmptyFilters: false,
-            sort: { date: "desc" },
-            processResult: function (result) {
-                if (!result.meta.title) {
-                    result.meta.title = `${result.content.split('•')[0]}`
-                }
-                return result;
-            }
+        new PagefindUI({ 
+            element: "#search", 
+            showSubResults: false,
+            autofocus: true,
         });
     });
 </script>
