@@ -384,6 +384,36 @@
       "link": "https://usetrmnl.com/recipes/101176",
       "desc": "Shows info about a random track including an image, map if it's available, and trivia",
       "image": "trmnl-mario-kart.jpg"
+    },
+    {
+      "title": "Relay for St Jude",
+      "link": "https://usetrmnl.com/recipes/87177",
+      "desc": "Shows the current fundraising total for Relay for St Jude or specific campaigns",
+      "image": "trmnl-st-jude.jpg"
+    },
+    {
+      "title": "Literate Movies",
+      "link": "https://usetrmnl.com/recipes/122948",
+      "desc": "Shows info about movies that are based on books",
+      "image": "trmnl-literate-movies.jpg"
+    },
+    {
+      "title": "PS2 Title Screens",
+      "link": "https://usetrmnl.com/recipes/130437",
+      "desc": "Shows random PS2 title screens",
+      "image": "trmnl-ps2-title-screens.jpg"
+    },
+    {
+      "title": "GameCube Title Screens",
+      "link": "https://usetrmnl.com/recipes/202626",
+      "desc": "Shows random GameCube title screens",
+      "image": "trmnl-gamecube-title-screens.jpg"
+    },
+    {
+      "title": "Game Boy Title Screens",
+      "link": "https://usetrmnl.com/recipes/202774",
+      "desc": "Shows random Game Boy title screens",
+      "image": "trmnl-gameboy-title-screens.jpg"
     }
   ],
   "profile": [
