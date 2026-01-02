@@ -15,7 +15,7 @@ Lots of folks wrote about it, many of them as a test of EchoFeed which is very m
 
 >  if you're looking for a no hassle cross-posting service that's cheap, but works _extremely_ well, check out EchoFeed.
 
-[Michael has a great flow chart](https://mihobu.lol/2024/04/automatic-archival-using-echofeed) of how he's using EchoFeed. With that in mind, I thought I'd do the same and show what I'm doing with EchoFeed:
+[Michael has a great flow chart](https://mihobu.lol/automatic-archival-using-echofeed) of how he's using EchoFeed. With that in mind, I thought I'd do the same and show what I'm doing with EchoFeed:
 
 ![My Echoes in EchoFeed](http://cdn.rknight.me/site/the-echofeed-flow.jpg)
 
@@ -44,6 +44,6 @@ I also have a big list of features that I want to implement including:
 - Basic logic support (if/else/etc): This will likely be handlebars or mustache but I haven't decided yet
 - Custom headers for webhooks: IFTTT require specific headers to function
 
-I also wrote [on the EchoFeed blog](https://news.echofeed.app/echofeed-and-posse/) about where EchoFeed fits with POSSE and what I want the service to be: "_A no-hassle cross-poster for the IndieWeb_". There are other features I am considering that have been suggested and if I think they meet the goals of EchoFeed I will get them added.
+I also wrote [about where EchoFeed fits with POSSE](/blog/echofeed-and-posse/) and what I want the service to be: "_A no-hassle cross-poster for the IndieWeb_". There are other features I am considering that have been suggested and if I think they meet the goals of EchoFeed I will get them added.
 
 Thank you to everyone who has signed up, written, or posted about EchoFeed, I really appreciate it.
