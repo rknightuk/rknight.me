@@ -67,6 +67,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Future Fonts](https://www.futurefonts.xyz/)
 - [Very Cool Studio](https://verycoolstudio.com/)
 - [Set Sail Studios](https://setsailstudios.com/)
+- [Tom DeForest](https://www.smallandsimplethings.org)
 
 ### CSS
 
