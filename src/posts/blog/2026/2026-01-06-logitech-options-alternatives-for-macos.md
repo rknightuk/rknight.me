@@ -2,7 +2,7 @@
 title: "Logitech Options+ Alternatives for MacOS"
 permalink: /blog/logitech-options-alternatives-for-macos/index.html
 date: 2026-01-06T23:29:22.589Z
-excerpt: ""
+excerpt: "If the Logitech servers are down, my mouse is broken and that is fucking stupid"
 tags:
     - MacOS
 ---
