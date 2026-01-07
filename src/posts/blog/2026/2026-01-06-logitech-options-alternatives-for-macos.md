@@ -7,6 +7,11 @@ tags:
     - MacOS
 ---
 
+>  [!NOTE] Update 2026-01-07
+> It turns out [Logitech let their developer certificate expire](https://www.reddit.com/r/logitech/comments/1q5vjyn/comment/ny3k3k9/) which is equally stupid for a $10 billion company.
+>
+> Also, as pointed out by [Mel](https://melanie.lol) and [Jason](https://grepjason.sh), Logitech/Logi has another name in Japan: Logicool. Which is clearly the best one.
+
 > [!NOTE] Note
 > Logitech is called "Logi" in some markets but not all of them and to be honest I don't care enough to work out which is "correct" in this case.
 
