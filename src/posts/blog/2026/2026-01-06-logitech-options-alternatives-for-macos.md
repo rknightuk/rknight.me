@@ -19,6 +19,9 @@ As of this moment [Logitech Options+](https://www.logitech.com/en-gb/software/lo
 
 [I posted about this](https://rknight.me/notes/202601062305/) and [Reilly](https://rknight.me/notes/202601062305/) was all over it suggesting [LinearMouse](https://linearmouse.app/). I downloaded it and it's an almost-exact replacement for the Logitech crap with the exception of gestures. In Options+ I could set <kbd>thumb button</kbd> + <kbd>swipe</kbd> to switch between spaces (or in my case, my single full screen app - the Music app). As a workaround, I set LinearMouse to use <kbd>⌘</kbd> + the back/forward button to do the same thing.
 
+> [!NOTE] Update 2026-01-07
+> The beta version `0.10.3 beta-2` of LinearMouse has support for gestures although it doesn't have the option to use the MX Master thumb button at the moment.
+
 ![The LinearMouse settings window showing my custom button actions](https://cdn.rknight.me/site/2026/linearmouse-settings.jpg)
 
 The Logitech software has always been shit but I could live with it but not being able to use my mouse because servers are down? Fuck right off. 
