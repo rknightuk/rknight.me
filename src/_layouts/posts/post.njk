@@ -26,6 +26,8 @@ layout: base
                 <svg class="icon"><use xlink:href="#link"></use></svg>
             </div>
             <a style="font-weight: bold;" href="{{ link }}">{{ title }} &nearrow;</a>
+            {% if link_am %}<br><a style="font-weight: bold;" target="_blank" href="{{ link_am }}">Apple Music &nearrow;</a>{% endif %}
+            {% if link_sl %}<br><a style="font-weight: bold;" target="_blank" href="{{ link_sl }}">SongLink &nearrow;</a>{% endif %}
         </aside>
     {% endif %}
 
