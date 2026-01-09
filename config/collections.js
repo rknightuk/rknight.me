@@ -238,8 +238,10 @@ export const photos = (collectionApi) => {
 		})
 }
 export const blogTags = (collectionApi) => {
-	const allTags = collectionApi
-		.getFilteredByGlob(makePath('blog'))
+	const allTags = [
+		...collectionApi.getFilteredByGlob(makePath('blog')),
+		...collectionApi.getFilteredByGlob(makePath('notes')),
+	]
 		.reverse()
 		.reduce((tags, p) => {
 			if (p.data.tags && Array.isArray(p.data.tags)) {

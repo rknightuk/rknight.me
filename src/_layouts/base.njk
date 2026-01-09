@@ -8,10 +8,7 @@
 
         {% include 'head/icons.njk' %}
 
-        <link rel="stylesheet" href="/assets/css/app2.css" type="text/css" media="screen" title="no title">
-
-        <link rel="preconnect" href="https://fonts.bunny.net">
-        <link href="https://fonts.bunny.net/css?family=atkinson-hyperlegible:400,400i,700,700i" rel="stylesheet">
+        <link rel="stylesheet" href="/assets/css/app.css" type="text/css" media="screen" title="no title">
         
         {% if site.production %}
             <script src="https://cdn.usefathom.com/script.js" data-site="ISEJUYJY" defer></script>
@@ -41,7 +38,7 @@
                 {% if wide %}container-m{% else %}container-sm{% endif %}
                 h-entry
             ">
-                {% if postType == 'post' or postType == 'link' or postType == 'almanac' %}
+                {% if postType == 'post' or postType == 'link' or postType == 'note' or postType == 'almanac' %}
                     <div class="post-meta">
                         <div>
                             <svg class="icon">

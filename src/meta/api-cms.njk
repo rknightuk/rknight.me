@@ -4,7 +4,7 @@ permalink: /api/cms.json
 
 {
     "tags": [
-        {%- for tag in collections.posts | getAllTags | sort -%}
+        {%- for tag in collections.everything | getAllTags | sort -%}
             "{{ tag }}"{% if not loop.last %},{% else %}{%- endif -%}
         {%- endfor -%}
     ],

@@ -7,8 +7,11 @@ import plugins from './config/plugins.js'
 
 import markdownIt from 'markdown-it'
 import markdownItFootnote from 'markdown-it-footnote'
+import markdownItFigCaptions from 'markdown-it-image-figures'
 import markdownItGithubAlerts from 'markdown-it-github-alerts'
 import { mention } from '@fedify/markdown-it-mention'
+
+import slugify from 'slugify'
 
 export default (function (eleventyConfig) {
     const options = {
@@ -20,6 +23,7 @@ export default (function (eleventyConfig) {
     let markdownLib = markdownIt(options)
         .use(markdownItFootnote)
         .use(markdownItGithubAlerts)
+        .use(markdownItFigCaptions, { figcaption: true })
         .use(mention, {
             link: (handle) => {
                 const [username, domain] = handle.split('@').filter(f => f)
@@ -36,6 +40,11 @@ export default (function (eleventyConfig) {
         return ' <a href="#fnref' + id + '" class="footnote-backref">&#10558;</a>'
     }
     eleventyConfig.setLibrary('md', markdownLib);
+
+    eleventyConfig.addFilter("slug", function (str, options = {}) {
+        options.lower ??= true;
+        return slugify('' + str, options);
+    });
     
     // passthrough
     ['src/assets'].forEach(path => {

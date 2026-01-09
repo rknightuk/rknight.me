@@ -8,7 +8,7 @@ tags:
 project: https://echofeed.app
 ---
 
-Last week [Kevin](https://social.lol/@humdrum#.) posted about running [sponsorships on Foofaraw](https://foofaraw.press/sponsorship/) and I figured it would be a nice, small-scale experiment with running ads for [EchoFeed](https://echofeed.app) so I bought three slots. The problem was I _hated_ the EchoFeed logo and have done since the site launched. It does the job but it was put together last minute and I didn't have any better ideas at the time:
+Last week [Kevin](https://social.lol/@humdrum) posted about running [sponsorships on Foofaraw](https://foofaraw.press/sponsorship/) and I figured it would be a nice, small-scale experiment with running ads for [EchoFeed](https://echofeed.app) so I bought three slots. The problem was I _hated_ the EchoFeed logo and have done since the site launched. It does the job but it was put together last minute and I didn't have any better ideas at the time:
 
 ![The original EchoFeed logo with a soundwave in the middle and two white squares around it](https://cdn.rknight.me/site/2025/echofeed-logo-original.jpg)
 

@@ -19,6 +19,12 @@ export default (function () {
             desc: 'Extended 30 day trial with code <code>RKNIGHT</code>',
         },
         {
+            name: 'TRMNL',
+            slug: 'trmnl',
+            link: 'https://usetrmnl.com?ref=robb15',
+            desc: '$15 off, use code <code>ROBB15</code>',
+        },
+        {
             name: 'Godspeed',
             slug: 'godspeed',
             link: 'https://godspeedapp.com/a/RKNIGHT25',
@@ -59,6 +65,12 @@ export default (function () {
             slug: 'cleanshot',
             link: 'https://cleanshot.sjv.io/robb',
             desc: 'The best screen capture tool for macOS',
+        },
+        {
+            name: 'Cult Pens',
+            slug: 'cultpens',
+            link: 'https://cult-pens.upzelo.com?upz_ref=AKztjoiLUPm8L',
+            desc: '10% at Cult Pens'
         }
     ];
 });

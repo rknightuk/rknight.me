@@ -1,12 +1,12 @@
 @font-face {
-    font-family: 'Cartridge-BoldRough';
-    src: url('/assets/fonts/Cartridge-BoldRough.woff2 ') format('woff2');
+    font-family: 'Cartridge-RegularSoft';
+    src: url('/assets/fonts/Cartridge-RegularSoft.woff2 ') format('woff2');
     font-display: swap;
 }
 
 @font-face {
-    font-family: 'Cartridge-Rough';
-    src: url('/assets/fonts/Cartridge-Rough.woff2 ') format('woff2');
+    font-family: 'Cartridge-LightSoft';
+    src: url('/assets/fonts/Cartridge-LightSoft.woff2 ') format('woff2');
     font-display: swap;
 }
 
@@ -18,8 +18,9 @@ body {
     line-height: 1.6;
     padding: 0;
     margin: 0;
-    font-family: 'Atkinson Hyperlegible', system-ui, sans-serif;
+    font-family: system-ui, sans-serif;
     font-weight: normal;
+    font-display: swap;
     font-size: 1.2em;
     background-color: var(--nearblack);
     color: var(--offwhite);
@@ -36,10 +37,6 @@ p {
 }
 
 h2 {
-    /* background: url(/assets/img/path.svg);
-    background-repeat: no-repeat;
-    background-position: left bottom;
-    background-size: auto 15px; */
     text-shadow: -2px 2px 1px rgba(227, 61, 148, 0.7);
     word-wrap: break-word;
 }
@@ -60,12 +57,14 @@ h3 {
     font-size: 1.7em;
     display: flex;
     align-items: center; 
+    margin-top: 0.4em;
 }
 
 h4 {
     font-size: 1.5em;
     display: flex;
     align-items: center;
+    margin-top: 0.3em;
 }
 
 h3 svg {
@@ -249,6 +248,7 @@ fieldset {
 img,
 video {
     max-width: 100%;
+    margin: 0 auto;
 }
 
 blockquote {
@@ -256,6 +256,13 @@ blockquote {
     margin: 0 0 15px;
     padding: 0 0 0 20px;
     font-style: italic;
+    color: var(--offwhite-subtle);
+}
+
+figcaption {
+    font-size: 0.9em;
+    text-align: center;
+    margin-top: 0.5em;
     color: var(--offwhite-subtle);
 }
 

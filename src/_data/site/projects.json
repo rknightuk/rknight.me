@@ -1,123 +1,659 @@
 {
-    "featured": [
-        { "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Bluesky, and more", "image": "echofeed.jpg" },
-        {
-			"title": "Portal Kombat",
-			"desc": "Boat battles",
-			"image": "portkom.jpg",
-			"link": "https://portkom.rknight.me"
-		},
-		{
-			"title": "The Wellness Place",
-			"desc": "Severance × The Good Place",
-			"image": "wellness.png",
-			"link": "https://wellness.rknight.me"
-		},
-        {
-            "title": "Connected Outro Maker",
-            "desc": "Make your own Connected outro!",
-            "image": "outro.jpg",
-            "link": "https://outro.rknight.me"
-        },
-        { "title": "Lens", "desc": "Check your meta tags, icons, and rss feeds", "image": "lens.jpg", "link": "https://lens.rknight.me", "tags": ["PHP", "Alpine"] },
-        { "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] }
-    ],
-    "current": [
-        { "title": "EchoFeed", "link": "https://echofeed.app", "desc": "Cross post RSS content to Mastodon, Bluesky, and more", "image": "echofeed.jpg", "tags": ["PHP", "Laravel"] },
-        { "title": "Raycast Extensions", "link": "/projects/raycast-extensions", "desc": "All of my Raycast extensions and scripts", "image": "raycast.jpg" },
-        {
-			"title": "Portal Kombat",
-			"desc": "Boat battles",
-			"image": "portkom.jpg",
-			"link": "https://portkom.rknight.me"
-		},
-        {
-			"title": "The Wellness Place",
-			"desc": "Severance × The Good Place",
-			"image": "wellness.png",
-			"link": "https://wellness.rknight.me"
-		},
-        {
-            "title": "Connected Outro Maker",
-            "desc": "Make your own Connected outro!",
-            "image": "outro.jpg",
-            "link": "https://outro.rknight.me"
-        },
-        { "title": "EmojiStorm", "desc": "So many emoji please make it stop", "image": "emojistorm.jpg", "link": "https://emojistorm.rknight.me", "tags": ["11ty"] },
-        { "title": "Lens", "desc": "Check your meta tags, icons, and rss feeds", "image": "lens.jpg", "link": "https://lens.rknight.me", "tags": ["PHP", "Alpine"] },
-        { "title": "lodon", "desc": "Tag Yourself at Relay's 10th Anniversary Extravaganza", "image": "lodonlol.jpg", "link": "https://github.com/rknightuk/lodon.lol", "tags": ["11ty"] },
-        { "title": "slash pages", "desc": "A guide to common pages you can add to your website", "image": "slashpages.jpg", "link": "https://slashpages.net", "tags": ["11ty"] },
-        { "title": "Hemispheric Views - Perfect Albums", "desc": "An iTunes UI for perfect albums", "image": "albums.jpg", "link": "https://albums.rknight.me", "tags": ["11ty"] },
-        { "title": "Humonize!", "link": "https://hum.rknight.me", "desc": "Humonize forever", "image": "humonize.jpg" },
-        { "title": "Eleventy Post Graph", "link": "https://postgraph.rknight.me", "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy", "image": "postgraph.jpg", "tags": ["JS"] },
-        { "title": "Crossover", "link": "https://crossover.rknight.me", "desc": "Compare actors who have appeared in any two TV shows", "image": "crossover.jpg", "tags": ["JS"] },
-        { "title": "DoubleShift", "link": "https://doubleshift.rknight.me", "desc": "Actors who have appeared in multiple medical TV shows", "image": "doubleshift.jpg", "tags": ["11ty", "JS"] },
-        { "title": "Pokédon", "link": "https://pokedon.rknight.me", "desc": "Browse the 'don on a Pokédex", "image": "pokedon.jpg", "tags": ["PHP", "Laravel", "JS"] },
-        { "title": "App Defaults", "link": "https://defaults.rknight.me", "desc": "Collecting all the app default posts from Hemispheric Views 097 - Duel of the Defaults!", "image": "defaults.jpg", "tags": ["11ty"] },
-        { "title": "VLCNR", "link": "https://vlcnr.rknight.me", "desc": "The original VLCNR soundboard revived from the dead", "image": "vlcnr.jpg" },
-        { "title": "Bugle", "link": "https://bugle.lol", "desc": "A minimal ActivityPub server built with Laravel", "image": "bugle.jpg", "tags": ["PHP", "Laravel"] },
-        { "title": "Echo", "link": "https://echo.rknight.me", "desc": "RSS Cross Poster for Micro.blog and Mastodon", "image": "echo.jpg", "tags": ["JS"] },
-        { "title": "Brian Butterfield Diet Soundboard", "link": "https://treatday.rknight.me/", "desc": "Saturday is treat day", "image": "treatday.jpg", "tags": ["JS", "11ty"] },
-        { "title": "Podcast Duration", "link": "https://podduration.rknight.me", "desc": "Find out the total duration of all episodes of a podcast", "image": "podduration.jpg", "tags": ["JS"] },
-        { "title": "Monzo Pot Image Generator", "link": "https://potimages.rknight.me", "desc": "Generate images for your Monzo pots", "image": "potimages.jpg", "tags": ["JS", "11ty"] },
-        { "title": "Intersect", "link": "https://intersect.rknight.me", "desc": "Everything I know. Mostly.", "image": "intersect.jpg", "tags": ["JS", "11ty"] },
-        { "title": "Custom Finder Sidebar Icons", "link": "https://github.com/rknightuk/custom-finder-sidebar-icons", "desc": "Customise your sidebar icons in Finder", "image": "sidebar.jpg", "tags": ["Swift"] },
-        { "title": "Defocused vs. the Movies", "link": "https://defocused-vs-the-movies.netlify.app/", "desc": "Which is longer: every episode of Defocused or the runtime of all the movies they've reviewed?", "image": "dvsm.jpg", "tags": ["JS", "11ty"] },
-        { "title": "Now API", "link": "https://github.com/rknightuk/api", "desc": "API for fetching now page information and archiving my toots ", "image": "nowapi.jpg", "tags": ["JS", "Python"] },
-        { "title": "TrackerZapper", "link": "/apps/tracker-zapper", "desc": "Remove link tracking parameters automatically", "image": "trackerzapper.jpg", "tags": ["Swift"] },
-        { "title": "Mac 30th Anniversary Icons", "link": "https://rknightuk.github.io/mac-30-font-svg/", "desc": "SVG icons extracted from the 30th Anniversary Mac Font", "image": "mac-30.jpg", "tags": ["11ty"] },
-        { "title": "Blahbarian", "link": "https://zoeaubert.me/blog/hack-pompey-2023/", "desc": "Chief noise maker for a game during HackPompey", "image": "blahbarian.jpg", "tags": ["Audio"] },
-        { "title": "Corpora", "link": "https://github.com/rknightuk/corpora", "desc": "A collection of small corpuses of interesting data for the creation of bots and similar stuff.", "image": "corpora.jpg" },
-        { "title": "Alfred Workflows", "link": "/alfred-workflows", "desc": "All of my Alfred Workflows", "image": "alfred.jpg", "tags": ["JS", "AppleScript", "Python"] }
-    ],
-    "podcasts": [
-        { "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.jpg", "tags": ["11ty", "Audio"] },
-        { "title": "We Got Family", "link": "https://wegot.family", "desc": "A Fast and Furious podcast", "image": "wegotfamily.jpg", "tags": ["11ty", "Audio"] }
-    ],
-    "profile": [
-        { "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.jpg", "tags": ["JS"] },
-        { "title": "omgnow", "link": "https://omgnow.rknight.me/", "desc": "Embed your omg.lol/now page", "image": "omgnow.jpg", "tags": ["JS", "PHP"] },
-        { "title": "RecentFM", "link": "https://recentfm.rknight.me/", "desc": "Embed your now playing song from Last.fm", "image": "recentfm.jpg", "tags": ["JS", "PHP"] }
-    ],
-    "stjude": [
-        { "title": "Septembed", "link": "https://septembed.rknight.me/", "desc": "Embed your St Jude Fundraising Campaign", "image": "septembed.jpg", "tags": ["JS", "PHP"] },
-        { "title": "Desk Mat Help", "link": "https://deskmat.help/", "desc": "Help someone out who is close to getting a Relay for St Jude desk mat", "image": "deskmathelp.jpg", "tags": ["JS", "PHP"] },
-        { "title": "Hat Help", "link": "https://hathelp.rknight.me", "desc": "Help someone out who is close to getting a Relay for St Jude hat and tumbler", "image": "hathelp.jpg", "tags": ["JS", "PHP"] },
-        { "title": "Coin Me, Daddy", "link": "https://coinme.dad/", "desc": "Help someone out who needs just one dollar to get a Relay for St Jude challenge coin", "image": "coinmedad.jpg", "tags": ["JS", "PHP"] },
-        { "title": "Donation Treats", "link": "https://donationtreats.rknight.me/", "desc": "Donate some money, get a treat", "image": "donationtreats.jpg", "tags": ["JS", "PHP"] }
-    ],
-    "design": [
-        { "title": "Ruminate × omg.lol sticker", "link": "/assets/projects/ruminate-sticker.jpg", "desc": "Limited Edition Ruminate sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/giants-2.font\">Giants</a>, <a href=\"https://www.creativefabrica.com/product/spicy-pizza/\">Spicy Pizza</a>, and <a href=\"https://www.dafont.com/culinary-art.font\">Culinary Art</a>", "image": "ruminate-sticker.jpg" },
-        { "title": "We Got Family × omg.lol sticker", "link": "/assets/projects/wgf-sticker.jpg", "desc": "Limited Edition We Got Family sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/niiiii-trous.font\">Niiiii-trous</a>", "image": "wgf-sticker.jpg" }
-    ],
-    "bots": [
-        { "title": "KnightBot", "link": "https://knightbot.rknight.me", "desc": "Script for bots on Bugle. Uses Tracery.", "image": "knightbot.jpg", "tags": ["JS"] },
-        { "title": "GifBot", "link": "https://github.com/rknightuk/gifbot", "desc": "Script for mine and Jason's movie gif bots on beep.town", "image": "bot-gifbot.jpg", "tags": ["JS"] },
-        { "title": "We Got Family", "link": "https://bugle.lol/@family", "image": "bot-family.jpg", "desc": "<strong>family@bugle.lol</strong> <br> \"I don't have a bio, I got family\"." },
-        { "title": "Daddy Bot", "link": "https://bugle.lol/@daddy", "image": "bot-daddy.jpg", "desc": "<strong>daddy@bugle.lol</strong> <br>Tooting a random Daddy™ every 5 hours." },
-        { "title": "Zobot", "link": "https://bugle.lol/@zobot", "image": "bot-zobot.jpg", "desc": "<strong>zobot@bugle.lol</strong> <br>Leveraging Your Everything." },
-        { "title": "Great Scott", "link": "https://beep.town/@greatscott", "image": "bot-greatscott.jpg", "desc": "<strong>greatscott@beep.town</strong> <br>1156 Back to the Future gifs served up once every 5 hours." },
-        { "title": "Bad Movie Remakes", "link": "https://bugle.lol/@movieremakes", "image": "bot-movies.jpg", "desc": "<strong>movieremakes@bugle.lol</strong> <br> Takes the top ~250 movies of all time and swaps the actors for those in the top films of the last decade with an AI-generated image.", "tags": ["retired"] },
-        { "title": "Brian Butterfield Restuarant Bot", "link": "https://bugle.lol/@treatday", "image": "bot-treatday.jpg", "desc": "<strong>treatday@bugle.lol</strong> <br>Generates an ad read for a new themed restaurant with a menu from the Butterfield Diet.", "tags": ["retired"] }
-    ],
-    "ddd": [],
-    "playlists": [],
-    "other": [
-        { "title": "Brickset CSV to JSON script", "link": "https://github.com/rknightuk/brickset-csv-to-json", "desc": "", "tags": ["JS"] },
-        { "title": "Back to the Future drinking game", "link": "https://rknightuk.github.io/back-to-the-future-drinking-game/", "desc": "" },
-        { "title": "Micro Blog Tools", "link": "/projects/microblog/", "desc": "All the Micro.blog-related things I've made", "tags": ["JS", "PHP", "Hugo"] },
-        { "title": "Stig Quote Generator", "link": "https://rknightuk.github.io/stig-quotes/", "desc": "" },
-        { "title": "Worst popup ever", "link": "https://github.com/rknightuk/worst-popup-ever" },
-        { "title": "Who's That Emoji?", "link": "https://rknightuk.github.io/whos-that-emoji/" },
-        { "title": "Bonanza! Coffee", "link": "https://rknightuk.github.io/bonanzacoffee/" },
-        { "title": "Hexo JSON Feed plugin", "link": "https://github.com/rknightuk/hexo-generator-json-feed-org" },
-        { "title": "Better Mastodon aka Joe Rosentoot", "link": "https://rknightuk.github.io/better-mastodon" },
-        { "title": "Mastodon Toot Bookmarklet", "link": "https://rknightuk.github.io/mastodon-toot-bookmarklet/" },
-        { "title": "FlatUI for Transmission Web", "link": "https://github.com/rknightuk/transmission-flatUI" },
-        { "title": "Matt Bot or Not", "link": "https://rknightuk.github.io/mattbotornot/" },
-        { "title": "Pebble Watch Faces", "link": "https://github.com/rknightuk/pebble-faces" },
-        { "title": "GoSquared for Pebble", "link": "https://github.com/rknightuk/gosquared-for-pebble" },
-        { "title": "Almanac", "link": "http://github.com/rknightuk/almanac/", "desc": "A microblog for what you've watched, read, and listened to." },
-        { "title": "Just Delete Me", "link": "https://justdeleteme.xyz/" }
-    ]
+  "featured": [
+    {
+      "title": "EchoFeed",
+      "link": "https://echofeed.app",
+      "desc": "Cross post RSS content to Mastodon, Bluesky, and more",
+      "image": "echofeed.jpg"
+    },
+    {
+      "title": "Thermal Label Formatter",
+      "desc": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
+      "image": "thermal-label-formatter.png",
+      "link": "https://github.com/rknightuk/thermal-label-formatter"
+    },
+    {
+      "title": "Clickart Color Reference",
+      "desc": "A guide to all the Clickart colors and sets",
+      "image": "clickart.jpg",
+      "link": "https://clickart.rknight.me"
+    },
+    {
+      "title": "Mildliners Reference",
+      "desc": "A guide to all the Mildliner colors and sets",
+      "image": "mildliners.jpg",
+      "link": "https://mildliners.rknight.me"
+    },
+    {
+      "title": "The Wellness Place",
+      "desc": "Severance × The Good Place",
+      "image": "wellness.png",
+      "link": "https://wellness.rknight.me"
+    },
+    {
+      "title": "Lens",
+      "desc": "Check your meta tags, icons, and rss feeds",
+      "image": "lens.jpg",
+      "link": "https://lens.rknight.me",
+      "tags": [
+        "PHP",
+        "Alpine"
+      ]
+    }
+  ],
+  "current": [
+    {
+      "title": "EchoFeed",
+      "link": "https://echofeed.app",
+      "desc": "Cross post RSS content to Mastodon, Bluesky, and more",
+      "image": "echofeed.jpg",
+      "tags": [
+        "PHP",
+        "Laravel"
+      ]
+    },
+    {
+      "title": "Thermal Label Formatter",
+      "desc": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
+      "image": "thermal-label-formatter.png",
+      "link": "https://github.com/rknightuk/thermal-label-formatter"
+    },
+    {
+      "title": "Raycast Extensions",
+      "link": "/projects/raycast-extensions",
+      "desc": "All of my Raycast extensions and scripts",
+      "image": "raycast.jpg"
+    },
+    {
+      "title": "Clickart Color Reference",
+      "desc": "A guide to all the Clickart colors and sets",
+      "image": "clickart.jpg",
+      "link": "https://clickart.rknight.me"
+    },
+    {
+      "title": "Mildliners Reference",
+      "desc": "A guide to all the Mildliner colors and sets",
+      "image": "mildliners.jpg",
+      "link": "https://mildliners.rknight.me"
+    },
+    {
+      "title": "Portal Kombat",
+      "desc": "Boat battles",
+      "image": "portkom.jpg",
+      "link": "https://portkom.rknight.me"
+    },
+    {
+      "title": "The Wellness Place",
+      "desc": "Severance × The Good Place",
+      "image": "wellness.png",
+      "link": "https://wellness.rknight.me"
+    },
+    {
+      "title": "Connected Outro Maker",
+      "desc": "Make your own Connected outro!",
+      "image": "outro.jpg",
+      "link": "https://outro.rknight.me"
+    },
+    {
+      "title": "EmojiStorm",
+      "desc": "So many emoji please make it stop",
+      "image": "emojistorm.jpg",
+      "link": "https://emojistorm.rknight.me",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
+      "title": "Lens",
+      "desc": "Check your meta tags, icons, and rss feeds",
+      "image": "lens.jpg",
+      "link": "https://lens.rknight.me",
+      "tags": [
+        "PHP",
+        "Alpine"
+      ]
+    },
+    {
+      "title": "lodon",
+      "desc": "Tag Yourself at Relay's 10th Anniversary Extravaganza",
+      "image": "lodonlol.jpg",
+      "link": "https://github.com/rknightuk/lodon.lol",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
+      "title": "slash pages",
+      "desc": "A guide to common pages you can add to your website",
+      "image": "slashpages.jpg",
+      "link": "https://slashpages.net",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
+      "title": "Hemispheric Views - Perfect Albums",
+      "desc": "An iTunes UI for perfect albums",
+      "image": "albums.jpg",
+      "link": "https://albums.rknight.me",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
+      "title": "Humonize!",
+      "link": "https://hum.rknight.me",
+      "desc": "Humonize forever",
+      "image": "humonize.jpg"
+    },
+    {
+      "title": "Eleventy Post Graph",
+      "link": "https://postgraph.rknight.me",
+      "desc": "Generate Github-style post distribution graph for your blog posts in Eleventy",
+      "image": "postgraph.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "Crossover",
+      "link": "https://crossover.rknight.me",
+      "desc": "Compare actors who have appeared in any two TV shows",
+      "image": "crossover.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "DoubleShift",
+      "link": "https://doubleshift.rknight.me",
+      "desc": "Actors who have appeared in multiple medical TV shows",
+      "image": "doubleshift.jpg",
+      "tags": [
+        "11ty",
+        "JS"
+      ]
+    },
+    {
+      "title": "Pokédon",
+      "link": "https://pokedon.rknight.me",
+      "desc": "Browse the 'don on a Pokédex",
+      "image": "pokedon.jpg",
+      "tags": [
+        "PHP",
+        "Laravel",
+        "JS"
+      ]
+    },
+    {
+      "title": "App Defaults",
+      "link": "https://defaults.rknight.me",
+      "desc": "Collecting all the app default posts from Hemispheric Views 097 - Duel of the Defaults!",
+      "image": "defaults.jpg",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
+      "title": "VLCNR",
+      "link": "https://vlcnr.rknight.me",
+      "desc": "The original VLCNR soundboard revived from the dead",
+      "image": "vlcnr.jpg"
+    },
+    {
+      "title": "Bugle",
+      "link": "https://bugle.lol",
+      "desc": "A minimal ActivityPub server built with Laravel",
+      "image": "bugle.jpg",
+      "tags": [
+        "PHP",
+        "Laravel"
+      ]
+    },
+    {
+      "title": "Echo",
+      "link": "https://echo.rknight.me",
+      "desc": "RSS Cross Poster for Micro.blog and Mastodon",
+      "image": "echo.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "Brian Butterfield Diet Soundboard",
+      "link": "https://treatday.rknight.me/",
+      "desc": "Saturday is treat day",
+      "image": "treatday.jpg",
+      "tags": [
+        "JS",
+        "11ty"
+      ]
+    },
+    {
+      "title": "Podcast Duration",
+      "link": "https://podduration.rknight.me",
+      "desc": "Find out the total duration of all episodes of a podcast",
+      "image": "podduration.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "Monzo Pot Image Generator",
+      "link": "https://potimages.rknight.me",
+      "desc": "Generate images for your Monzo pots",
+      "image": "potimages.jpg",
+      "tags": [
+        "JS",
+        "11ty"
+      ]
+    },
+    {
+      "title": "Intersect",
+      "link": "https://intersect.rknight.me",
+      "desc": "Everything I know. Mostly.",
+      "image": "intersect.jpg",
+      "tags": [
+        "JS",
+        "11ty"
+      ]
+    },
+    {
+      "title": "Custom Finder Sidebar Icons",
+      "link": "https://github.com/rknightuk/custom-finder-sidebar-icons",
+      "desc": "Customise your sidebar icons in Finder",
+      "image": "sidebar.jpg",
+      "tags": [
+        "Swift"
+      ]
+    },
+    {
+      "title": "Defocused vs. the Movies",
+      "link": "https://defocused-vs-the-movies.netlify.app/",
+      "desc": "Which is longer: every episode of Defocused or the runtime of all the movies they've reviewed?",
+      "image": "dvsm.jpg",
+      "tags": [
+        "JS",
+        "11ty"
+      ]
+    },
+    {
+      "title": "Now API",
+      "link": "https://github.com/rknightuk/api",
+      "desc": "API for fetching now page information and archiving my toots ",
+      "image": "nowapi.jpg",
+      "tags": [
+        "JS",
+        "Python"
+      ]
+    },
+    {
+      "title": "TrackerZapper",
+      "link": "/apps/tracker-zapper",
+      "desc": "Remove link tracking parameters automatically",
+      "image": "trackerzapper.jpg",
+      "tags": [
+        "Swift"
+      ]
+    },
+    {
+      "title": "Mac 30th Anniversary Icons",
+      "link": "https://rknightuk.github.io/mac-30-font-svg/",
+      "desc": "SVG icons extracted from the 30th Anniversary Mac Font",
+      "image": "mac-30.jpg",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
+      "title": "Blahbarian",
+      "link": "https://zoeaubert.me/blog/hack-pompey-2023/",
+      "desc": "Chief noise maker for a game during HackPompey",
+      "image": "blahbarian.jpg",
+      "tags": [
+        "Audio"
+      ]
+    },
+    {
+      "title": "Corpora",
+      "link": "https://github.com/rknightuk/corpora",
+      "desc": "A collection of small corpuses of interesting data for the creation of bots and similar stuff.",
+      "image": "corpora.jpg"
+    },
+    {
+      "title": "Alfred Workflows",
+      "link": "/alfred-workflows",
+      "desc": "All of my Alfred Workflows",
+      "image": "alfred.jpg",
+      "tags": [
+        "JS",
+        "AppleScript",
+        "Python"
+      ]
+    }
+  ],
+  "podcasts": [
+    {
+      "title": "Ruminate",
+      "link": "https://ruminatepodcast.com",
+      "desc": "A podcast about what's on our minds",
+      "image": "ruminate.jpg",
+      "tags": [
+        "11ty",
+        "Audio"
+      ]
+    },
+    {
+      "title": "We Got Family",
+      "link": "https://wegot.family",
+      "desc": "A Fast and Furious podcast",
+      "image": "wegotfamily.jpg",
+      "tags": [
+        "11ty",
+        "Audio"
+      ]
+    }
+  ],
+  "trmnl": [
+    {
+      "title": "Fathom Analytics",
+      "link": "https://usetrmnl.com/recipes/89064",
+      "desc": "Shows visits, views, and top pages",
+      "image": "trmnl-fathom.jpg"
+    },
+    {
+      "title": "Mastodon",
+      "link": "https://usetrmnl.com/recipes/89880",
+      "desc": "Show your Mastodon profile, toots, followers, and following counts",
+      "image": "trmnl-mastodon.jpg"
+    },
+    {
+      "title": "Stripe",
+      "link": "https://usetrmnl.com/recipes/89809",
+      "desc": "Shows recent transaction data",
+      "image": "trmnl-stripe.jpg"
+    },
+    {
+      "title": "The Rickies",
+      "link": "https://usetrmnl.com/recipes/97896",
+      "desc": "Show the current chairmen of The Rickies",
+      "image": "trmnl-rickies.jpg"
+    },
+    {
+      "title": "Mario Kart Track",
+      "link": "https://usetrmnl.com/recipes/101176",
+      "desc": "Shows info about a random track including an image, map if it's available, and trivia",
+      "image": "trmnl-mario-kart.jpg"
+    },
+    {
+      "title": "Relay for St Jude",
+      "link": "https://usetrmnl.com/recipes/87177",
+      "desc": "Shows the current fundraising total for Relay for St Jude or specific campaigns",
+      "image": "trmnl-st-jude.jpg"
+    },
+    {
+      "title": "Literate Movies",
+      "link": "https://usetrmnl.com/recipes/122948",
+      "desc": "Shows info about movies that are based on books",
+      "image": "trmnl-literate-movies.jpg"
+    },
+    {
+      "title": "PS2 Title Screens",
+      "link": "https://usetrmnl.com/recipes/130437",
+      "desc": "Shows random PS2 title screens",
+      "image": "trmnl-ps2-title-screens.jpg"
+    },
+    {
+      "title": "GameCube Title Screens",
+      "link": "https://usetrmnl.com/recipes/202626",
+      "desc": "Shows random GameCube title screens",
+      "image": "trmnl-gamecube-title-screens.jpg"
+    },
+    {
+      "title": "Game Boy Title Screens",
+      "link": "https://usetrmnl.com/recipes/202774",
+      "desc": "Shows random Game Boy title screens",
+      "image": "trmnl-gameboy-title-screens.jpg"
+    }
+  ],
+  "profile": [
+    {
+      "title": "omg.log cli",
+      "link": "https://github.com/rknightuk/omglolcli",
+      "desc": "A CLI tool for using omg.lol",
+      "image": "omgcli.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "omgnow",
+      "link": "https://omgnow.rknight.me/",
+      "desc": "Embed your omg.lol/now page",
+      "image": "omgnow.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    },
+    {
+      "title": "RecentFM",
+      "link": "https://recentfm.rknight.me/",
+      "desc": "Embed your now playing song from Last.fm",
+      "image": "recentfm.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    }
+  ],
+  "stjude": [
+    {
+      "title": "Septembed",
+      "link": "https://septembed.rknight.me/",
+      "desc": "Embed your St Jude Fundraising Campaign",
+      "image": "septembed.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    },
+    {
+      "title": "Desk Mat Help",
+      "link": "https://deskmat.help/",
+      "desc": "Help someone out who is close to getting a Relay for St Jude desk mat",
+      "image": "deskmathelp.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    },
+    {
+      "title": "Hat Help",
+      "link": "https://hathelp.rknight.me",
+      "desc": "Help someone out who is close to getting a Relay for St Jude hat and tumbler",
+      "image": "hathelp.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    },
+    {
+      "title": "Coin Me, Daddy",
+      "link": "https://coinme.dad/",
+      "desc": "Help someone out who needs just one dollar to get a Relay for St Jude challenge coin",
+      "image": "coinmedad.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    },
+    {
+      "title": "Donation Treats",
+      "link": "https://donationtreats.rknight.me/",
+      "desc": "Donate some money, get a treat",
+      "image": "donationtreats.jpg",
+      "tags": [
+        "JS",
+        "PHP"
+      ]
+    }
+  ],
+  "design": [
+    {
+      "title": "Ruminate × omg.lol sticker",
+      "link": "/assets/projects/ruminate-sticker.jpg",
+      "desc": "Limited Edition Ruminate sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/giants-2.font\">Giants</a>, <a href=\"https://www.creativefabrica.com/product/spicy-pizza/\">Spicy Pizza</a>, and <a href=\"https://www.dafont.com/culinary-art.font\">Culinary Art</a>",
+      "image": "ruminate-sticker.jpg"
+    },
+    {
+      "title": "We Got Family × omg.lol sticker",
+      "link": "/assets/projects/wgf-sticker.jpg",
+      "desc": "Limited Edition We Got Family sticker for <a href=\"https://rknight.me/st-jude-2023-final-numbers/\">St Jude 2023</a>. Fonts: <a href=\"https://www.dafont.com/niiiii-trous.font\">Niiiii-trous</a>",
+      "image": "wgf-sticker.jpg"
+    }
+  ],
+  "bots": [
+    {
+      "title": "KnightBot",
+      "link": "https://knightbot.rknight.me",
+      "desc": "Script for bots on Bugle. Uses Tracery.",
+      "image": "knightbot.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "GifBot",
+      "link": "https://github.com/rknightuk/gifbot",
+      "desc": "Script for mine and Jason's movie gif bots on beep.town",
+      "image": "bot-gifbot.jpg",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "We Got Family",
+      "link": "https://bugle.lol/@family",
+      "image": "bot-family.jpg",
+      "desc": "<strong>family@bugle.lol</strong> <br> \"I don't have a bio, I got family\"."
+    },
+    {
+      "title": "Daddy Bot",
+      "link": "https://bugle.lol/@daddy",
+      "image": "bot-daddy.jpg",
+      "desc": "<strong>daddy@bugle.lol</strong> <br>Tooting a random Daddy™ every 5 hours."
+    },
+    {
+      "title": "Zobot",
+      "link": "https://bugle.lol/@zobot",
+      "image": "bot-zobot.jpg",
+      "desc": "<strong>zobot@bugle.lol</strong> <br>Leveraging Your Everything."
+    },
+    {
+      "title": "Great Scott",
+      "link": "https://beep.town/@greatscott",
+      "image": "bot-greatscott.jpg",
+      "desc": "<strong>greatscott@beep.town</strong> <br>1156 Back to the Future gifs served up once every 5 hours."
+    },
+    {
+      "title": "Bad Movie Remakes",
+      "link": "https://bugle.lol/@movieremakes",
+      "image": "bot-movies.jpg",
+      "desc": "<strong>movieremakes@bugle.lol</strong> <br> Takes the top ~250 movies of all time and swaps the actors for those in the top films of the last decade with an AI-generated image.",
+      "tags": [
+        "retired"
+      ]
+    },
+    {
+      "title": "Brian Butterfield Restuarant Bot",
+      "link": "https://bugle.lol/@treatday",
+      "image": "bot-treatday.jpg",
+      "desc": "<strong>treatday@bugle.lol</strong> <br>Generates an ad read for a new themed restaurant with a menu from the Butterfield Diet.",
+      "tags": [
+        "retired"
+      ]
+    }
+  ],
+  "ddd": [],
+  "playlists": [],
+  "other": [
+    {
+      "title": "Brickset CSV to JSON script",
+      "link": "https://github.com/rknightuk/brickset-csv-to-json",
+      "desc": "",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
+      "title": "Back to the Future drinking game",
+      "link": "https://rknightuk.github.io/back-to-the-future-drinking-game/",
+      "desc": ""
+    },
+    {
+      "title": "Micro Blog Tools",
+      "link": "/projects/microblog/",
+      "desc": "All the Micro.blog-related things I've made",
+      "tags": [
+        "JS",
+        "PHP",
+        "Hugo"
+      ]
+    },
+    {
+      "title": "Stig Quote Generator",
+      "link": "https://rknightuk.github.io/stig-quotes/",
+      "desc": ""
+    },
+    {
+      "title": "Worst popup ever",
+      "link": "https://github.com/rknightuk/worst-popup-ever"
+    },
+    {
+      "title": "Who's That Emoji?",
+      "link": "https://rknightuk.github.io/whos-that-emoji/"
+    },
+    {
+      "title": "Bonanza! Coffee",
+      "link": "https://rknightuk.github.io/bonanzacoffee/"
+    },
+    {
+      "title": "Hexo JSON Feed plugin",
+      "link": "https://github.com/rknightuk/hexo-generator-json-feed-org"
+    },
+    {
+      "title": "Better Mastodon aka Joe Rosentoot",
+      "link": "https://rknightuk.github.io/better-mastodon"
+    },
+    {
+      "title": "Mastodon Toot Bookmarklet",
+      "link": "https://rknightuk.github.io/mastodon-toot-bookmarklet/"
+    },
+    {
+      "title": "FlatUI for Transmission Web",
+      "link": "https://github.com/rknightuk/transmission-flatUI"
+    },
+    {
+      "title": "Matt Bot or Not",
+      "link": "https://rknightuk.github.io/mattbotornot/"
+    },
+    {
+      "title": "Pebble Watch Faces",
+      "link": "https://github.com/rknightuk/pebble-faces"
+    },
+    {
+      "title": "GoSquared for Pebble",
+      "link": "https://github.com/rknightuk/gosquared-for-pebble"
+    },
+    {
+      "title": "Almanac",
+      "link": "http://github.com/rknightuk/almanac/",
+      "desc": "A microblog for what you've watched, read, and listened to."
+    },
+    {
+      "title": "Just Delete Me",
+      "link": "https://justdeleteme.xyz/"
+    }
+  ]
 }

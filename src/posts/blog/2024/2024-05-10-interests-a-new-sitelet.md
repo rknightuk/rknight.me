@@ -9,7 +9,7 @@ tags:
 
 Okay so maybe the [definition of sitelet](https://en.wiktionary.org/wiki/sitelet#English) doesn't quite fit but it's close enough to describe these common pages people have on their sites. Maybe it needs a better name. Pagelets? Web dongles? Barnacles? Do they need a name? I want one.
 
-> ![NOTE] Update
+> [!NOTE] Update
 > [Shellsharks suggested "slash pages"](https://shellsharks.social/@shellsharks/112416323777089561) which I like.
 
 Anyway, Chris had an idea [for a /interests page](https://chrisburnell.com/note/slash-interests/), similar to [/about](/about), [/now](/now) and [/uses](/uses).

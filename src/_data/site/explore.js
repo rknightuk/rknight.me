@@ -14,6 +14,11 @@ export default function() {
 				icon: 'blog',
 			},
 			{
+				title: 'Style Guide',
+				link: '/styleguide',
+				description: 'My style guide',
+			},
+			{
 				title: 'Notes',
 				link: '/notes',
 				description: 'notes, toots, and shitposts',
@@ -144,6 +149,11 @@ export default function() {
 				title: 'verify',
 				link: '/verify',
 				description: 'Verify my identities',
+			},
+			{
+				title: 'blank',
+				link: '/blank',
+				description: '',
 			},
 		],
 	}

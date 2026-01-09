@@ -15,7 +15,7 @@ Want to know about this site? Check out [the colophon](/about/colophon).
 
 ### Professional
 
-I am a developer at my day job. I also work part-time as a developer for [MacStories](https://www.macstories.net).
+I am a developer at my day job and I run [EchoFeed](https://echofeed.app) outside of that.
 
 I have a Web Technologies degree from University of Portsmouth as well as a smattering of basically-useless college-level qualifications.
 

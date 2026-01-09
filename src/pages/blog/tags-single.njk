@@ -14,15 +14,29 @@ eleventyComputed:
 {% set currentYear = 1000 %}
 
 {% set taglist = collections[tag] %}
-{%- for post in taglist | reverse -%}
 
-    {% set postYear = post.date.getFullYear() %}
+{% if tag in 'Inktober,Inktober2025' %}
+  <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
+  {%- for post in taglist | reverse -%}
+      {%- for image in post.data.images %}
+          <a href="{{ post.data.permalink | stripIndex }}">
+              <img style="aspect-ratio: 1 / 1;object-fit: cover;"src="{{ image.url }}" alt="{{ image.alt }}">
+          </a>
+      {%- endfor %}
+  {% endfor %}
+  </div>
+{% else %}
+  {%- for post in taglist | reverse -%}
+      {# {% if post.data.layout == 'posts/post' %} #}
+        {% set postYear = post.date.getFullYear() %}
 
-    {% if postYear != currentYear %}
-        <h3>{{ postYear }}</h3>
-    {% endif %}
+        {% if postYear != currentYear %}
+            <h3>{{ postYear }}</h3>
+        {% endif %}
 
-    {% include 'post_list_item.njk' %}
+        {% include 'post_list_item.njk' %}
 
-    {% set currentYear = postYear %}
-{%- endfor -%}
+        {% set currentYear = postYear %}
+      {# {% endif %} #}
+  {%- endfor -%}
+{% endif %}

@@ -5,6 +5,7 @@ date: 2025-02-04T19:46:17.000Z
 excerpt: "I bought some pens and if I write about it then I'm helping other people make good decisions about pens"
 tags:
     - Analogue
+project: https://mildliners.rknight.me
 ---
 
 I wanted to buy a pack of [mildliners](https://www.zebrapen.com/pages/discover-mildliner) to add some colour to my [bullet journal](https://rknight.me/blog/biting-the-bullet/) and they mostly come in packs of five which is plenty for one person. When I googled to see who stocked them I saw [this 30 pack](https://www.tesco.com/groceries/en-GB/products/312091022) that comes with 15 mildliners, 15 pens, and a natty pen holder and it was only £10 so if I'd be losing money if I didn't buy it[^1].

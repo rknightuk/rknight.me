@@ -66,6 +66,9 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Tom Chalky](https://tomchalky.com/product-category/fonts/)
 - [Future Fonts](https://www.futurefonts.xyz/)
 - [Very Cool Studio](https://verycoolstudio.com/)
+- [Set Sail Studios](https://setsailstudios.com/)
+- [Tom DeForest](https://www.smallandsimplethings.org)
+- [Rachel Kick](https://rachelkickdesign.com/collections/fonts)
 
 ### CSS
 
@@ -113,3 +116,6 @@ html {
 - [Squoosh](https://squoosh.app/)
 - [ProgressBar.js - Progress bars with JavaScript](https://kimmobrunfeldt.github.io/progressbar.js/)
 - [Markdown Crash Test](https://roneo.org/markdown/)
+- [Glass3D generator](https://glass3d.dev)
+- [Openverse - free stock photos, images, and audio](https://openverse.org)
+- [Stress Test Data for Web Projects](https://didoesdigital.com/blog/stress-test-data-for-web-projects/)

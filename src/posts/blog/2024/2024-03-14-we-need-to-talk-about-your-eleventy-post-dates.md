@@ -33,7 +33,7 @@ date: 2024-03-14T15:14:14.578Z
 
 Maybe you don't care about this which I totally get but I also think there might be some people who didn't even realise this was happening with their posts.
 
-> ![!NOTE] Update
+> [!NOTE] Update
 > this is also explained in more detail [on the Eleventy docs](https://www.11ty.dev/docs/dates/#dates-off-by-one-day).
 
 [^1]: This might also be a problem with other static site generators but I didn't check

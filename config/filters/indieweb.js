@@ -35,7 +35,7 @@ export default {
 			}
 		}
 		const url = encodeURIComponent(`https://rknight.me/opengraph${path}`)
-		return `https://v1.screenshot.11ty.dev/${url}/opengraph/_123456`
+		return `https://v1.screenshot.11ty.dev/${url}/opengraph/_1438965`
 	},
 	getOpengraphUrl: (inputPath) => {
 		let path = inputPath

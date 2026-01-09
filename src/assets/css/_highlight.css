@@ -47,6 +47,7 @@ pre[class*="language-"] {
 	position: relative;
 	margin: 0.5em 0;
 	padding: 1.25em 1em;
+	color-scheme: dark;
 }
 
 .language-css > code,

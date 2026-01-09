@@ -1,5 +1,5 @@
 ---
-title: "My Homescreen (December 2024)"
+title: "My Home Screen (December 2024)"
 permalink: /blog/my-homescreen-december-2024/index.html
 date: 2024-12-30T21:37:53.202Z
 excerpt: "My iPhone homescreen as of December 2024"
@@ -7,9 +7,9 @@ tags:
     - Homescreen
 ---
 
-![My homescreen](https://cdn.rknight.me/site/homescreen-dec-2024.png)
+![My home screen](https://cdn.rknight.me/site/homescreen-dec-2024.png)
 
-Since I [last shared my homescreen](https://rknight.me/blog/my-home-screen-january-2024/) at the start of the year, iOS18 added dark mode icons which I immediately switched on. I still have a couple of apps that haven't updated but I need them on my home screen so I just live with it. 
+Since I [last shared my home screen](https://rknight.me/blog/my-home-screen-january-2024/) at the start of the year, iOS18 added dark mode icons which I immediately switched on. I still have a couple of apps that haven't updated but I need them on my home screen so I just live with it. 
 
 Other changes:
 

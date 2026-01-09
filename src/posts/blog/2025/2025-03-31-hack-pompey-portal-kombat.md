@@ -6,6 +6,7 @@ excerpt: "My project for the Sea Change Hack Pompey hackathon"
 tags:
     - Development
     - Hackathon
+project: https://portkom.rknight.me
 ---
 
 On Saturday I attended [Hack Pompey](https://hackpompey.co.uk) which was in collaboration with [Sea Change](https://portsmouth-port.co.uk/about-us/sustainability/sea-change/) this year:
