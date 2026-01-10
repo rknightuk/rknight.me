@@ -70,6 +70,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Tom DeForest](https://www.smallandsimplethings.org)
 - [Rachel Kick](https://rachelkickdesign.com/collections/fonts)
 - [Taylor Penton](https://taylorpenton.com/collections/all-fonts)
+- [Beth Mathews](https://www.bethmathews.com/shop)
 
 ### CSS
 
