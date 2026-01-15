@@ -26,3 +26,6 @@ Oh and the the images that go along with these plans? AI generated slop because 
 I'm not angry about them adding "plans", courses, whatever else they want. Businesses gunna business. It's just yet another thing that was a nice thing that now isn't any more. It's just another system that exists only to either sell the system, learn about that system, or learning how to teach that system to other people at costs that are clearly designed to get employers to pay for them. A person who's curious about Bullet Journaling will hit the site, see it's not for them, and leave.
 
 What I find most frustrating about this is that it _has_ become a useful tool for me (I'm on my third notebook) but I can't reasonably send anyone to the site to learn about it any more. At this point, if you _do_ want to find out more about bullet journalling, or journalling in general, you'd be much better served by [Matt Ragland](https://www.youtube.com/c/mattragland) or [Jashii Corrin](https://www.youtube.com/jashiicorrin). I _could_ recommend [the book](https://rknight.me/almanac/books/2025-01-20-the-bullet-journal-method/) but if they can't be bothered to pay people for their art, then you shouldn't give them money either.
+
+> [!NOTE] Update 2026-01-15
+> Brad and Myke discussed this on [The Pen Addict 699](https://www.relay.fm/penaddict/699) starting at the 23 minute mark.
