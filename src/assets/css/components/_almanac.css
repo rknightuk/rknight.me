@@ -50,7 +50,6 @@ a.almanac-empty-box {
 }
 
 .music img {
-    aspect-ratio: 1 / 1;
     margin-bottom: 10px;
     box-shadow: 1px 1px 15px rgba(255, 255, 255, 0.3);
 }

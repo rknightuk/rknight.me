@@ -20,7 +20,7 @@ poster: ${item._song_details.artwork_url || ''}
 ${item._song_details.content}
 ` 
 
-        fs.writeFileSync(`../src/posts/almanac/music/2025/ct${item.url.split('/').pop()}.md`, content, 'utf8')
+        fs.writeFileSync(`../src/posts/almanac/music/${item.date_published.split('-')[0]}/ct${item.url.split('/').pop()}.md`, content, 'utf8')
     });
 
     

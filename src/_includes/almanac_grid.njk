@@ -25,19 +25,10 @@
     <hyper-card>
         <a href="{{ entry.data.permalink | stripIndex }}" class="{% if entry.data.poster %}{% else %}almanac-empty-box {% endif %} music">
           {% if entry.data.poster %}
-            <img class="almanac-poster" src="{{ entry.data.poster }}">
+            <img class="almanac-poster" src="{{ entry.data.poster }}" {% if isMusic %}style="aspect-ratio: 1 / 1;"{% endif %}>
           {% else %}
             <div class="music-info">{{ entry.data.title }}</div>
           {% endif %}
-        </a>
-      </hyper-card>
-    {% elseif entry.data.mediaType === 'musicx' %}
-      <hyper-card>
-        <a href="{{ entry.data.permalink | stripIndex }}" class="almanac-empty-box music">
-          {% if entry.data.poster %}
-            <img class="almanac-poster" src="{{ entry.data.poster }}">
-          {% endif %}
-          <div class="music-info">{{ entry.data.title }}</div>
         </a>
       </hyper-card>
     {% else %}
