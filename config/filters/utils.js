@@ -36,11 +36,21 @@ export default {
 			})
 		}
 		images = images.filter((i) => {
-			return i.url.includes('cdn.rknight.me') && i.url.includes('.jpg')
+			return (
+				i.url.includes('cdn.rknight.me') &&
+				(i.url.includes('.jpg') ||
+					i.url.includes('.png') ||
+					i.url.includes('.gif'))
+			)
 		})
 		return [
 			...(post.attachments ?? []).filter((i) => {
-				return i.url.includes('cdn.rknight.me') && i.url.includes('.jpg')
+				return (
+					i.url.includes('cdn.rknight.me') &&
+					(i.url.includes('.jpg') ||
+						i.url.includes('.png') ||
+						i.url.includes('.gif'))
+				)
 			}),
 			...images,
 		]
