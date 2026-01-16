@@ -9,6 +9,6 @@ author:
 
 ---
 
-> In my experience, the people who are excited about AI art also happen to be some of the most talentless fucking people I've ever
+> In my experience, the people who are excited about AI art also happen to be some of the most talentless fucking people I've ever met
 
 I missed this when it was first posted but I'm glad I found it now.
