@@ -14,4 +14,4 @@ I made an SVG of a standard Monster can, then the inputs set the colours on the 
 https://monster.rknight.me/?can=a81fd7&label=4e4824&name=virgin+moleskin
 ```
 
-That is a link to a purple and brown monster named "Virgin Moleskin". So yeah, this is a thing that exists.
+That is [a link to a purple and brown monster named "Virgin Moleskin"](https://monster.rknight.me/?can=a81fd7&label=4e4824&name=virgin+moleskin). So yeah, this is a thing that exists.
