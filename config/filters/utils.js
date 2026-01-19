@@ -6,6 +6,7 @@ export default {
 			tv: '📺',
 			game: '🎮',
 			event: '🤘',
+			music: '🎸',
 		}
 		return emoji[type] ?? '✨'
 	},
