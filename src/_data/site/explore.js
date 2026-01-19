@@ -155,6 +155,11 @@ export default function() {
 				link: '/blank',
 				description: '',
 			},
+			{
+				title: 'calendar',
+				link: '/calendar',
+				description: 'A list of dates from movies, tv shows, culture, that I like to observe',
+			},
 		],
 	}
 }

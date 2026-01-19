@@ -15,12 +15,12 @@ eleventyComputed:
 
 {% set taglist = collections[tag] %}
 
-{% if tag in 'Inktober,Inktober2025' %}
+{% if tag in 'Inktober,Inktober2025,AvengersDoomsday' %}
   <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); gap: 1rem;">
   {%- for post in taglist | reverse -%}
       {%- for image in post.data.images %}
           <a href="{{ post.data.permalink | stripIndex }}">
-              <img style="aspect-ratio: 1 / 1;object-fit: cover;"src="{{ image.url }}" alt="{{ image.alt }}">
+              <img style="aspect-ratio: {% if tag == 'AvengersDoomsday' %}3{% else %}1{% endif %} / 1; object-fit: cover;"src="{{ image.url }}" alt="{{ image.alt }}">
           </a>
       {%- endfor %}
   {% endfor %}
