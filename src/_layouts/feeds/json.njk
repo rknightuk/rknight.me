@@ -21,8 +21,8 @@
         "url": "https://rknight.me{{ post.data.permalink | stripIndex }}",
         "content_html": {{ post.templateContent | renderContentForFeed(post) | dump | safe }},
         "summary": {% if post.data.excerpt %}{{ post.data.excerpt | dump | safe }}{% else %}""{% endif %},
+        {% if post.data.link %}"external_url": "{{ post.data.link }}",{% endif %}
         {% if post.data.postType === 'link' %}
-        "external_url": "{{ post.data.link }}",
         "authors": [
             {
                 "name": {% if post.data.author.name %}"{{ post.data.author.name }}",{% else %}null,{% endif %}
