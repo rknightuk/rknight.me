@@ -16,6 +16,7 @@ export default {
 			tv: 'Watched',
 			game: 'Played',
 			event: 'Attended',
+			music: 'Listened to',
 		}
 		return verb[type]
 	},
