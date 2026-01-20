@@ -54,7 +54,11 @@
         <h2 class="titlebox__name">Almanac Entries</h2>
         <div class="almanac-grid fixed">
             {%- for post in collections.almanac.slice(0, 5) %}
-                {% set almanacImage %}{{ { mediaType: post.data.mediaType, tmdbid: post.data.tmdbid, giantbombid: post.data.giantbombid, customImage: post.data.customImage, isbn13: post.data.isbn13 } | getAlmanacImage }}{% endset %}
+                {% if post.data.mediaType === 'music' %}
+                    {% set almanacImage %}{{ post.data.poster }}{% endset %}
+                {% else %}
+                    {% set almanacImage %}{{ { mediaType: post.data.mediaType, tmdbid: post.data.tmdbid, giantbombid: post.data.giantbombid, customImage: post.data.customImage, isbn13: post.data.isbn13 } | getAlmanacImage }}{% endset %}
+                {% endif %}
                 <hyper-card>
                     <a href="{{ post.data.permalink | stripIndex }}">
                         <img class="almanac-poster" src="{{ almanacImage }}" alt="{{ post.data.title }} Poster">
