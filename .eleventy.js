@@ -45,6 +45,22 @@ export default (function (eleventyConfig) {
         options.lower ??= true;
         return slugify('' + str, options);
     });
+
+    eleventyConfig.addFilter("catcolor", function (path) {
+        if (path === '/' || path.startsWith('/blog/')) {
+            return 'main';
+        } else if (path.startsWith('/links/')) {
+            return 'links';
+        } else if (path.startsWith('/notes/')) {
+            return 'notes';
+        } else if (path.startsWith('/almanac/')) {
+            return 'almanac';
+        } else if (path.startsWith('/subscribe/')) {
+            return 'subscribe';
+        } else {
+            return 'other';
+        }
+    });
     
     // passthrough
     ['src/assets'].forEach(path => {

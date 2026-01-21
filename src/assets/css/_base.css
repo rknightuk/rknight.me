@@ -1,15 +1,8 @@
 @font-face {
-    font-family: 'Cartridge-RegularSoft';
-    src: url('/assets/fonts/Cartridge-RegularSoft.woff2 ') format('woff2');
+    font-family: 'Cartridge-Regular';
+    src: url('/assets/fonts/Cartridge-Regular.woff2 ') format('woff2');
     font-display: swap;
 }
-
-@font-face {
-    font-family: 'Cartridge-LightSoft';
-    src: url('/assets/fonts/Cartridge-LightSoft.woff2 ') format('woff2');
-    font-display: swap;
-}
-
 * {
     box-sizing: border-box;
 }
@@ -39,18 +32,16 @@ p {
 h2 {
     text-shadow: -2px 2px 1px rgba(227, 61, 148, 0.7);
     word-wrap: break-word;
+    font-size: 2em;
+    margin: 0.5em 0;
 }
 
 h1,
 h2,
 h3,
 h4 {
-    font-family: var(--cbr);
+    font-family: var(--cart);
     color: var(--offwhite);
-}
-
-h2 {
-    font-size: 2em;
 }
 
 h3 {
@@ -58,6 +49,7 @@ h3 {
     display: flex;
     align-items: center; 
     margin-top: 0.4em;
+    margin-bottom: 0.4em;
 }
 
 h4 {
@@ -238,9 +230,9 @@ fieldset {
 }
 
 .details summary {
-    font-family: var(--cbr);
+    font-family: var(--cart);
     font-size: 1.4em;
-    color: var(--tertiary);
+    color: var(--primary);
     margin-bottom: 10px;
     margin-top: 10px;
 }

@@ -45,7 +45,7 @@
 }
 
 .card__tag {
-    background-color: var(--secondary);
+    background-color: var(--primary);
     color: white;
     border-radius: 5px;
     text-align: center;

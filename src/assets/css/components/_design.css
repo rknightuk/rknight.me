@@ -25,7 +25,7 @@
 
 .design--colors {
     display: grid;
-    grid-template-columns: repeat(3, 1fr);
+    grid-template-columns: repeat(2, 1fr);
     grid-gap: 10px;
 }
 
@@ -47,14 +47,10 @@
 }
 
 .design--colors div:nth-child(3) {
-    background-color: var(--tertiary);
-}
-
-.design--colors div:nth-child(4) {
     background-color: var(--offwhite);
     color: var(--nearblack)
 }
 
-.design--colors div:nth-child(5) {
+.design--colors div:nth-child(4) {
     background-color: var(--nearblack);
 }

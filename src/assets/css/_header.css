@@ -1,6 +1,7 @@
 .header-wrapper {
     padding-bottom: 10px;
     background-color: var(--bg-darker);
+    border-bottom: 3px solid var(--color-main);
 }
 
 header.main .container {
@@ -26,7 +27,7 @@ header.main h1 {
 header.main a {
     color: var(--offwhite);
     text-decoration: none;
-    font-family: var(--cr);
+    font-family: var(--cart);
 }
 
 header.main a:hover {
@@ -36,7 +37,7 @@ header.main a:hover {
 .main__title a {
     color: var(--offwhite);
     text-decoration: none;
-    font-family: var(--cr);
+    font-family: var(--cart);
 }
 
 .main__title .logo {

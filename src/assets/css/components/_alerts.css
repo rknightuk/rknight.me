@@ -4,7 +4,7 @@
     padding: 15px;
     margin-bottom: 20px;
     margin-top: 10px;
-    border: 1px solid var(--secondary);
+    border: 1px solid var(--primary);
     color: var(--offwhite);
 }
 
@@ -13,7 +13,7 @@
 }
 
 .alert h1 {
-    font-family: var(--cr);
+    font-family: var(--cart);
 }
 
 .alert p:first-child,
@@ -43,11 +43,11 @@
 }
 
 .alert .alert-repost {
-    color: var(--secondary);
+    color: var(--primary);
 }
 
 .alert .alert-note {
-    color: var(--tertiary);
+    color: var(--primary);
 }
 
 .alert .alert-recipe {

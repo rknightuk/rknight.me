@@ -14,7 +14,7 @@
 
 .titlebox__name {
     position: absolute;
-    top: -1em;
+    top: -1.5em;
     margin-left: -5px;
     text-transform: lowercase;
     width: fit-content;

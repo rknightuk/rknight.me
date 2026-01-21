@@ -27,7 +27,7 @@ h2 + .post-subtitle p {
     display: flex;
     align-items: center;
     font-size: 0.8em;
-    font-family: var(--cr);
+    font-family: var(--cart);
     flex-wrap: wrap;
     justify-content: center;
 }

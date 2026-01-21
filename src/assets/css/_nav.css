@@ -26,7 +26,7 @@ nav.main a {
     color: var(--nav-text);
     text-transform: lowercase;
     font-size: .9em;
-    font-family: var(--cbr);
+    font-family: var(--cart);
     text-align: center;
     border-bottom: none;
     border-radius: 5px;

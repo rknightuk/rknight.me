@@ -28,7 +28,7 @@ a.almanac-empty-box {
     display: flex;
     align-items: center;
     justify-content:center;
-    font-family:var(--cbr);
+    font-family:var(--cart);
     font-size:1.2em;
     background:var(--bg-darker);
     text-align: center;
