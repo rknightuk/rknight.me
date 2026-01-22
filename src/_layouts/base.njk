@@ -42,7 +42,7 @@
             ">
                 {% if postType == 'post' or postType == 'link' or postType == 'note' or postType == 'almanac' %}
                     <div class="post-meta-v2">
-                        Published on <time class="dt-published" datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>{% if tags.length > 0 %}. Filed under&nbsp;
+                        Posted on <time class="dt-published" datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>{% if tags.length > 0 %}. Filed under&nbsp;
                         {%- for tag in tags | sort -%}
                             <a class="p-category" href="/blog/tags/{{ tag | slug }}">{{ tag }}</a>{% if loop.index < tags.length %}, {% endif %}
                         {%- endfor -%}
