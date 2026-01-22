@@ -39,6 +39,7 @@
 .bmac {
     text-align: center;
     font-style: italic;
+    color: var(--offwhite-subtle);
 }
 
 .bmac svg {

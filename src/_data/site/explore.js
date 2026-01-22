@@ -111,11 +111,6 @@ export default function() {
 				description: 'What I\'m up to now',
 			},
 			{
-				title: 'next',
-				link: '/next',
-				description: 'What I\'m up to next',
-			},
-			{
 				title: 'uses',
 				link: '/uses',
 				description: 'All the things I use on a day-to-day basis',
@@ -124,11 +119,6 @@ export default function() {
 				title: 'defaults',
 				link: '/defaults',
 				description: 'My app defaults',
-			},
-			{
-				title: 'interests',
-				link: '/interests',
-				description: 'Things I\'m interested in, passionate about, or otherwise enjoy',
 			},
 			{
 				title: 'posse',
