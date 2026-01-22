@@ -49,7 +49,7 @@
                         {% endif %}
                     </div>
 
-                    {% if postType != 'post' and postType != 'link' and postType != 'note' %}
+                    {# {% if postType != 'post' and postType != 'link' and postType != 'note' %}
                         <div class="post-meta">
                             <div>
                                 {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or mediaType === "event" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
@@ -75,7 +75,7 @@
                                 </div>
                             {% endif %}
                         </div>
-                    {% endif %}
+                    {% endif %} #}
                 {% endif %}
 
                 {{ content | safe }}
