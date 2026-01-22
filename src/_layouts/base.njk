@@ -41,40 +41,41 @@
                 h-entry
             ">
                 {% if postType == 'post' or postType == 'link' or postType == 'note' or postType == 'almanac' %}
-                    <div class="post-meta">
-                        <div>
-                            <svg class="icon">
-                                <use xlink:href="#calendar"></use>
-                            </svg>
-                            <time class="dt-published" datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>
-                            {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or mediaType === "event" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
-                        </div>
-                        {% if tmdbid %}
-                            <div>
-                                <a href="https://www.themoviedb.org/{{ mediaType }}/{{ tmdbid }}" target="_blank">{{ title }} on TMDB</a>
-                            </div>
+                    <div class="post-meta-v2">
+                        Published on <time class="dt-published" datetime="{{ page.date.toISOString() }}">{{ page.date | postDate }}</time>{% if tags.length > 0 %}. Filed under&nbsp;
+                        {%- for tag in tags | sort -%}
+                            <a class="p-category" href="/blog/tags/{{ tag | slug }}">{{ tag }}</a>{% if loop.index < tags.length %}, {% endif %}
+                        {%- endfor -%}
                         {% endif %}
-                        {% if giantbomburl %}
-                            <div>
-                                <a href="{{ giantbomburl }}" target="_blank">{{ title }} on GiantBomb</a>
-                            </div>
-                        {% endif %}
-                        {% if isbn13 %}
-                            <div>
-                                <a href="https://openlibrary.org/isbn/{{ isbn13 }}" target="_blank">{{ title }} on OpenLibrary</a>
-                            </div>
-                        {% endif %}
-                        {% if support %}
-                            <div>
-                                Support:&nbsp;{%- for s in support -%}{{ s }}{% if loop.index < support.length %}, {% endif %}{%- endfor -%}
-                            </div>
-                        {% endif %}
-                        <div>
-                            {%- for tag in tags | sort -%}
-                                <a class="p-category" href="/blog/tags/{{ tag | slug }}">#{{ tag }}</a>{% if loop.index < tags.length %}&nbsp;&nbsp; {% endif %}
-                            {%- endfor -%}
-                        </div>
                     </div>
+
+                    {% if postType != 'post' and postType != 'link' and postType != 'note' %}
+                        <div class="post-meta">
+                            <div>
+                                {% if venue %}&nbsp;@ {{ venue }}{% endif %}{% if cinema or mediaType === "event" %}&nbsp;• 🎟️{% endif %}{% if platform %}&nbsp;• {{ platform }}{% endif %}{% if season %}&nbsp;• Season {{ season }}{% endif %}{% if year %}&nbsp;• ({{ year }}){% endif %}
+                            </div>
+                            {% if tmdbid %}
+                                <div>
+                                    <a href="https://www.themoviedb.org/{{ mediaType }}/{{ tmdbid }}" target="_blank">{{ title }} on TMDB</a>
+                                </div>
+                            {% endif %}
+                            {% if giantbomburl %}
+                                <div>
+                                    <a href="{{ giantbomburl }}" target="_blank">{{ title }} on GiantBomb</a>
+                                </div>
+                            {% endif %}
+                            {% if isbn13 %}
+                                <div>
+                                    <a href="https://openlibrary.org/isbn/{{ isbn13 }}" target="_blank">{{ title }} on OpenLibrary</a>
+                                </div>
+                            {% endif %}
+                            {% if support %}
+                                <div>
+                                    Support:&nbsp;{%- for s in support -%}{{ s }}{% if loop.index < support.length %}, {% endif %}{%- endfor -%}
+                                </div>
+                            {% endif %}
+                        </div>
+                    {% endif %}
                 {% endif %}
 
                 {{ content | safe }}

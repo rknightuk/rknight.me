@@ -73,12 +73,12 @@ layout: base
         </div>
     {% endif %}
 
-    <p class="footer-social"><a href="https://social.lol/@robb"><svg class="icon ic-mastodon">
+    {# <p class="footer-social"><a href="https://social.lol/@robb"><svg class="icon ic-mastodon">
         <use xlink:href="#mastodon"></use>
     </svg>Follow me on Mastodon</a> <a href="/subscribe"><svg class="icon ic-rss">
         <use xlink:href="#rss"></use>
-    </svg>Subscribe with RSS</a></p>
-
+    </svg>Subscribe with RSS</a></p> #}
+{# 
     {% if nextPost.url %}
 		<p class="ctr">
 			<strong>Next</strong>:
@@ -90,7 +90,7 @@ layout: base
 			<strong>Previously</strong>:
 			<a class="previous" href="{{ prevPost.url }}">{{ prevPost.data.title }}</a>
 		</p>
-	{% endif %}
+	{% endif %} #}
 </footer>
 
 {% if postType !== 'note' %}
@@ -98,8 +98,8 @@ layout: base
     {% include 'webmentions.njk' %}
 {% endif %}
 
-{% if postType === 'post' %}
+{# {% if postType === 'post' %}
     {%- set pageUrl -%}{{ page.url | stripIndex }}{%- endset -%}
     {%- set popular = fathom | popularPosts(5, pageUrl) -%}
     {% include 'popular_posts.njk' %}
-{% endif %}
+{% endif %} #}
