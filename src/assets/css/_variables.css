@@ -10,9 +10,9 @@
     /* colors - main */
     --primary: #e33d94;
     --secondary: #ef77ba;
-    --nearblack: #272523;
+    --nearblack: #191817;
     --bg: var(--nearblack);
-    --bg-darker: #1e1d1b;
+    --bg-darker: #141412;
 
     /* colors - sections */
     --color-main: var(--primary);
