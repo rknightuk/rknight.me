@@ -47,3 +47,34 @@ nav.main a.active:after {
     content: '.';
     color: var(--primary);
 }
+
+.mainv2 {
+    
+}
+
+.mainv2 .container {
+    display: flex;
+}
+
+.nav-link, 
+nav.mainv2 a {
+    text-transform: lowercase;
+    font-size: 0.9em;
+    padding: 0.5em 1em;
+    text-decoration: none;
+    color: var(--bg);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-family: var(--monospace);
+}
+nav.mainv2 a:hover {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
+
+nav.mainv2 a.active {
+    text-decoration: underline;
+    text-underline-offset: 3px;
+}
