@@ -71,6 +71,12 @@ export default (function () {
             slug: 'cultpens',
             link: 'https://cult-pens.upzelo.com?upz_ref=AKztjoiLUPm8L',
             desc: '10% at Cult Pens'
+        },
+        {
+            name: 'Tom\s Studio',
+            slug: 'tomsstudio',
+            link: 'https://tomsstudio.refr.cc/refer-UK/u/robbknight',
+            desc: '£10 off at Tom\'s Studio (new customers)'
         }
     ];
 });

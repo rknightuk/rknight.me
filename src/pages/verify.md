@@ -30,6 +30,7 @@ If you see an account that looks like it might be me but isn't listed here, plea
 - omg.lol: [robb](https://robb.omg.lol)
   - finger me: `finger robb@omg.lol`
 - GitHub: [rknightuk](https://github.com/rknightuk)
+- Source Tube: [robb](https://source.tube/robb)
 - Apple Music: [rknightuk](https://music.apple.com/profile/rknightuk)
 - Buy Me a Coffee: [rknightuk](https://www.buymeacoffee.com/rknightuk)
 
