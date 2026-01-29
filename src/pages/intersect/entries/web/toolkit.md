@@ -70,7 +70,6 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Tom DeForest](https://www.smallandsimplethings.org)
 - [Rachel Kick](https://rachelkickdesign.com/collections/fonts)
 - [Taylor Penton](https://taylorpenton.com/collections/all-fonts)
-- [Beth Mathews](https://www.bethmathews.com/shop)
 
 ### CSS
 
@@ -108,6 +107,7 @@ html {
 - [Favicon Generator for perfect icons on all browsers](https://realfavicongenerator.net/)
 - [SVG Sprite generator](https://svgsprit.es/)
 - [Image to  SVG image converter](https://image.online-convert.com/convert-to-svg)
+- [Iconify - All open source icon sets](https://icon-sets.iconify.design)
 
 ### Misc
 
