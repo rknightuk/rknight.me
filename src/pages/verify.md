@@ -73,6 +73,7 @@ If an account with my name is on these networks, it is not me.
 - [7622.me](https://7622.me)
 - [therobb.com](http://therobb.com) (redirects here)
 - [knightshift.dev](https://knightshift.dev)
+- [knightshift.studio](https://knightshift.studio)
 - [echofeed.app](https://echofeed.app)
 - [ruminatepodcast.com](https://ruminatepodcast.com)
 - [wegot.family](https://wegot.family)
