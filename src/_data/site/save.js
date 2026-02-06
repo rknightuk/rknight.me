@@ -55,12 +55,6 @@ export default (function () {
             desc: 'I love my Ooni pizza oven. 10% off',
         },
         {
-            name: 'City Fibre',
-            slug: 'cityfibre',
-            link: 'https://refer.cityfibre.com/robbk-13',
-            desc: 'Fibre broadband - Get £25',
-        },
-        {
             name: 'Cleanshot X',
             slug: 'cleanshot',
             link: 'https://cleanshot.sjv.io/robb',
