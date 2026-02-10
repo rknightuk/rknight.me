@@ -6,3 +6,4 @@ config.json
 .env
 tmp
 nginx.conf
+blocked-countries.conf

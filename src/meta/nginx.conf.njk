@@ -7,6 +7,14 @@ if ($http_user_agent ~* ({{ site.robots.nginx | safe }})){
     return 307 https://ash-speed.hetzner.com/10GB.bin;
 }
 
+geo $block_country {
+  default 0; include ./blocked-countries.conf;
+}
+
+if ($block_country) {
+  return 403;
+}
+
 # Allow .xml files to be served as XML in Safari
 location ^.xml {
     add_header "Content-Type" "application/xml; charset=utf-8";
