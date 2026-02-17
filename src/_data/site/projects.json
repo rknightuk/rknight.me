@@ -425,7 +425,7 @@
   "profile": [
     {
       "title": "omg.log cli",
-      "link": "https://github.com/rknightuk/omglolcli",
+      "link": "https://source.tube/robb/omglolcli",
       "desc": "A CLI tool for using omg.lol",
       "image": "omgcli.jpg",
       "tags": [

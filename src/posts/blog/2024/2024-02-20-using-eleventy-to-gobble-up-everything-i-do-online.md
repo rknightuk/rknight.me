@@ -225,7 +225,7 @@ Which brings me to my next point about using data files: any page that has a lis
 		{ "title": "Ruminate", "link": "https://ruminatepodcast.com", "desc": "A podcast about what's on our minds", "image": "ruminate.png", "tags": ["11ty", "Audio"] }
 	],
 	"profile": [
-		{ "title": "omg.log cli", "link": "https://github.com/rknightuk/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.png", "tags": ["JS"] }
+		{ "title": "omg.log cli", "link": "https://source.tube/robb/omglolcli", "desc": "A CLI tool for using omg.lol", "image": "omgcli.png", "tags": ["JS"] }
 	],
 }
 ```
