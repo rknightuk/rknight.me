@@ -7,6 +7,15 @@
       "image": "echofeed.jpg"
     },
     {
+      "title": "Code Corners",
+      "description": "A platform-agnostic alternative to GitHub corners",
+      "image": "codecorners.jpg",
+      "link": "https://codecorners.rknight.me",
+      "tags": [
+        "11ty"
+      ]
+    },
+    {
       "title": "Random Monster Generator",
       "description": "Generate a random Monster can design and flavour",
       "image": "monster.jpg",
@@ -33,12 +42,6 @@
       "desc": "A guide to all the Mildliner colors and sets",
       "image": "mildliners.jpg",
       "link": "https://mildliners.rknight.me"
-    },
-    {
-      "title": "The Wellness Place",
-      "desc": "Severance × The Good Place",
-      "image": "wellness.png",
-      "link": "https://wellness.rknight.me"
     }
   ],
   "current": [
@@ -50,6 +53,15 @@
       "tags": [
         "PHP",
         "Laravel"
+      ]
+    },
+    {
+      "title": "Code Corners",
+      "description": "A platform-agnostic alternative to GitHub corners",
+      "image": "codecorners.jpg",
+      "link": "https://codecorners.rknight.me",
+      "tags": [
+        "11ty"
       ]
     },
     {
