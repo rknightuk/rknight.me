@@ -3,6 +3,7 @@ title: "Code Corners"
 permalink: /blog/code-corners/index.html
 date: 2026-03-02T21:57:29.398Z
 excerpt: "A platform-agnostic alternative to GitHub corners"
+project: https://codecorners.rknight.me
 tags:
     - Development
     - OpenWeb
