@@ -8,6 +8,51 @@ tags:
     - WeblogPoMo
 ---
 
+> [!NOTE] Update 2026-03-05
+> John sent me [this gist](https://gist.github.com/johnsturgeon/4b859596359cc39ee895387419b9b4ca) that will do volume incrementally by invoking ⇧/shift while doing volume changes and this has the added bonus that the volume HUD shows up when changing the volume.
+
+```json
+{
+    "description": "Fix 8BitDo Volume",
+    "manipulators": [
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "vendor_id": 11720 }],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "key_code": "volume_increment" },
+            "to": [
+                {
+                    "key_code": "volume_increment",
+                    "modifiers": ["left_shift", "left_option"]
+                }
+            ],
+            "type": "basic"
+        },
+        {
+            "conditions": [
+                {
+                    "identifiers": [{ "vendor_id": 11720 }],
+                    "type": "device_if"
+                }
+            ],
+            "from": { "key_code": "volume_decrement" },
+            "to": [
+                {
+                    "key_code": "volume_decrement",
+                    "modifiers": ["left_shift", "left_option"]
+                }
+            ],
+            "type": "basic"
+        }
+    ]
+}
+```
+
+---
+
 After writing this post and using the new setup for a few days I would occasionally get a delay when changing the volume so I've turned this off but I want to keep the post anyway for reference in the future.
 
 ---
