@@ -7,6 +7,15 @@
       "image": "echofeed.jpg"
     },
     {
+      "title": "Ash Fetchum",
+      "description": "Gotta Fetch 'Em All",
+      "image": "ashfetchum.jpg",
+      "link": "https://git.7622.me/robb/ash-fetchum",
+      "tags": [
+        "JS"
+      ]
+    },
+    {
       "title": "Code Corners",
       "description": "A platform-agnostic alternative to GitHub corners",
       "image": "codecorners.jpg",
@@ -36,12 +45,6 @@
         "PHP",
         "Alpine"
       ]
-    },
-    {
-      "title": "Mildliners Reference",
-      "desc": "A guide to all the Mildliner colors and sets",
-      "image": "mildliners.jpg",
-      "link": "https://mildliners.rknight.me"
     }
   ],
   "current": [
@@ -53,6 +56,15 @@
       "tags": [
         "PHP",
         "Laravel"
+      ]
+    },
+    {
+      "title": "Ash Fetchum",
+      "description": "Gotta Fetch 'Em All",
+      "image": "ashfetchum.jpg",
+      "link": "https://git.7622.me/robb/ash-fetchum",
+      "tags": [
+        "JS"
       ]
     },
     {
