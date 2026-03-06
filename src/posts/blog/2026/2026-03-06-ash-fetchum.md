@@ -15,7 +15,7 @@ I currently have code in three code forges: GitHub, [Source Tube](https://source
 
 ![A red hat like Ash from Pokémon but it has the git logo on it](https://cdn.rknight.me/site/2026/ash-fetchum-banner.jpg)
 
-Ash Fetchum work by connecting to the GitHub or Forgejo API, fetches every repository, then cloning or fetching that repository to the defined location on your local machine, in my case `/repo-backups`. The [readme has instructions](https://git.7622.me/robb/ash-fetchum/src/branch/main/readme.md) on how to set it up and it should be relatively straight forward as long as you get the token permissions correct.
+Ash Fetchum works by connecting to the GitHub or Forgejo API, fetches every repository, then cloning or fetching that repository to the defined location on your local machine, in my case `/repo-backups`. The [readme has instructions](https://git.7622.me/robb/ash-fetchum/src/branch/main/readme.md) on how to set it up and it should be relatively straight forward as long as you get the token permissions correct.
 
 ![A terminal output showing Ash Fectchum fetching changes for multiple repositories](https://cdn.rknight.me/site/2026/ash-fetchum-in-action.jpg)
 
