@@ -357,11 +357,6 @@
         "title": "Swing Away Golf"
       },
       {
-        "gameID": 4877,
-        "platformID": 11,
-        "title": "The Incredible Hulk: Ultimate Destruction"
-      },
-      {
         "gameID": 4572,
         "platformID": 11,
         "title": "The Matrix: Path of Neo"
@@ -385,21 +380,6 @@
         "gameID": 5421,
         "platformID": 11,
         "title": "The Simpsons: Road Rage"
-      },
-      {
-        "gameID": 9232,
-        "platformID": 11,
-        "title": "TimeSplitters"
-      },
-      {
-        "gameID": 3878,
-        "platformID": 11,
-        "title": "TimeSplitters 2"
-      },
-      {
-        "gameID": 9231,
-        "platformID": 11,
-        "title": "TimeSplitters: Future Perfect"
       },
       {
         "gameID": 4773,
@@ -1068,11 +1048,6 @@
         "gameID": 9333,
         "platformID": 15,
         "title": "Deus Ex: Human Revolution"
-      },
-      {
-        "gameID": 8862,
-        "platformID": 15,
-        "title": "Driver: San Francisco"
       },
       {
         "gameID": 8913,
