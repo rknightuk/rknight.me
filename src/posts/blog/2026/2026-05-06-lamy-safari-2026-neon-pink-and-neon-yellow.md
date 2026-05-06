@@ -20,3 +20,5 @@ I'm not going to "review" these - they're glossy Safaris, you know what you're g
 Here's the new neon pink at the bottom compared to a pink Balloon, the AL Star Fiery, and the standard Safari pink. When it's next to the standard pink it's more obvious how bright it is.
 
 ![Four fountain pens on a green cutting board, of various shades of pink](https://cdn.rknight.me/site/2026/lamy-safari-neon-pink-comparison.jpg) 
+
+<br>
