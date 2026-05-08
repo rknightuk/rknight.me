@@ -62,11 +62,6 @@
         "title": "Futurama"
       },
       {
-        "gameID": 7283,
-        "platformID": 11,
-        "title": "GoldenEye: Rogue Agent"
-      },
-      {
         "gameID": 4165,
         "platformID": 11,
         "title": "Grand Theft Auto III"
@@ -1284,7 +1279,7 @@
     ]
   },
   "count": {
-    "games": 252,
+    "games": 251,
     "platforms": 12
   }
 }
