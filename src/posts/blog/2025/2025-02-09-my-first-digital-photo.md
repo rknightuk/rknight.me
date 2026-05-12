@@ -7,7 +7,7 @@ tags:
     - Personal
 ---
 
-Adam [tooted earlier](https://social.lol/@adam/113969207723093283) about the first photo he ever took with a digital camera and it got me thinking about what mine was. Initially I thought it was this photo of Manhattan take from the Empire State Building in February 2006 taken with a [Fujifilm FinePix A345](https://www.dpreview.com/products/fujifilm/compacts/fuji_finepixa345z).
+Adam tooted earlier about the first photo he ever took with a digital camera and it got me thinking about what mine was. Initially I thought it was this photo of Manhattan take from the Empire State Building in February 2006 taken with a [Fujifilm FinePix A345](https://www.dpreview.com/products/fujifilm/compacts/fuji_finepixa345z).
 
 ![New York taken from the Empire State Building](https://cdn.rknight.me/site/2025/2006-02-24-new-york.jpg)
 
