@@ -5,7 +5,7 @@ date: 2025-07-07T22:28:42.935Z
 excerpt: "My calm set of mildliners arrived today"
 tags:
     - Analogue
-project: https://mildliners.rknight.me
+    - Mildliners
 ---
 
 ![A white notebook with samples of five different color highlighters on it](https://cdn.rknight.me/site/2025/mildliners-noble.jpg)

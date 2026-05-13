@@ -5,6 +5,7 @@ date: 2026-05-09T10:58:44.559Z
 excerpt: "Turns out Mildliner mixes have their own little secrets to reveal"
 tags:
     - Analogue
+    - Mildliners
 ---
 
 A couple of weeks ago [Ben](https://bencardy.co.uk) was kind enough to send me [a 3-pack of Mildliner Mix pens](https://rknight.me/notes/202604201342/) — two-colour highlighters made by Zebra. This led me down a path of looking for the second set called "Cool" but the price of shipping meant I would have been paying ~£5 a pen which I wasn't willing to do. 

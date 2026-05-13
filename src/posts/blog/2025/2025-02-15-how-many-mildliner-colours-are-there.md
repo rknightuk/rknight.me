@@ -5,6 +5,7 @@ date: 2025-02-15T23:44:05.734Z
 excerpt: "I couldn't help myself but buy every colour of mildliner and I needed to know exactly how many colours were available"
 tags:
     - Analogue
+    - Mildliners
 project: https://mildliners.rknight.me
 ---
 
