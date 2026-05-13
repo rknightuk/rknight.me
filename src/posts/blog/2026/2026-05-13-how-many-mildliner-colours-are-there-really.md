@@ -25,7 +25,7 @@ Version two of the site includes:
 
 ![All the yellows available in Mildliners with icon indicators to say which types those colours exist in](https://cdn.rknight.me/site/2026/mildliner-type-indicators.jpg)
 
-While looking for something else I noticed on [this page on Zebra's website](https://www.zebrapen.com/pages/discover-mildliner-new)[^1] that they say there are 42 colours which is one less than the 41 I was aware of. I looked through the list and none of them seemed unfamiliar so I started writing them out one by one until I found it — deep gray, which I had overlooked on my first pass, is a new colour that only exists in the [Mildliner fine pens](https://rknight.me/blog/mildliner-fine-review/). I had misidentified the dark gray as dark gray in my review — I got _really close_ to noticing and then didn't:
+While looking for something else I noticed on [this page on Zebra's website](https://www.zebrapen.com/pages/discover-mildliner-new)[^1] that they say there are 42 colours which is one less than the 41 I was aware of. I looked through the list and none of them seemed unfamiliar so I started writing them out one by one until I found it — deep gray, which I had overlooked on my first pass, is a new colour that only exists in the [Mildliner fine pens](https://rknight.me/blog/mildliner-fine-review/). I had misidentified the deep gray as dark gray in my review — I got _really close_ to noticing and then didn't:
 
 > [...] all the cap colours match with the exception of dark grey where the cap is much darker on the fine one than it's standard counterpart.
 
