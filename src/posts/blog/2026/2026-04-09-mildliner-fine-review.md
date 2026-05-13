@@ -7,6 +7,9 @@ tags:
     - Analogue
 ---
 
+> [!NOTE] Update 2026-05-13
+> I incorrectly identified the darker gray as "Dark Gray" but Zebra made a brand new colour for these called "Deep Gray" presumably to send me into a spiral of trying to work out where the 42nd colour was.
+
 I'm not saying I'm obsessed with Mildliners but this review of the new fine versions will be my fourth post about them so make of that what you will.
 
 ![A notepad showing a sample of 10 different mildliner highlighters. All the pens are resting on the pad at the bottom.](https://cdn.rknight.me/site/2026/mildliner-fine-samples.jpg)
@@ -17,7 +20,7 @@ These new fine versions have two tips: a fine 0.7 and an extra fine 0.5. They're
 - Brown
 - Dark Blue
 - Red
-- Dark Gray
+- ~~Dark~~ Deep Gray
 - Gold
 - Apricot
 - Fuchsia
@@ -30,6 +33,6 @@ The extra fine tip doesn't give the kind of resistance I like from a fineliner u
 
 ![A notepad showing the differences in size new fine mildliners next to their standard counterparts. The new ones are longer](https://cdn.rknight.me/site/2026/mildliner-fine-samples-tips.jpg)
 
-One other oddity when comparing them is that all the cap colours match with the exception of dark grey where the cap is much darker on the fine one than it's standard counterpart.
+~~One other oddity when comparing them is that all the cap colours match with the exception of dark grey where the cap is much darker on the fine one than it's standard counterpart.~~ As above, this is because _it's a different colour_. Swing and a miss from me.
 
 I paid £10 for each set of these which is about right for Mildliners and I'm impressed with them. As of right now I've only seen them on [Art from the Heart](https://www.afth.co.uk/zebra---mildliners-1367-c.asp) but I'd imagine other retailers will get some soon.
