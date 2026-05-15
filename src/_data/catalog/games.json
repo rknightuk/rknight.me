@@ -353,11 +353,6 @@
         "title": "Bomb Rush Cyberfunk"
       },
       {
-        "gameID": 73721,
-        "platformID": 4980,
-        "title": "Deathloop"
-      },
-      {
         "gameID": 97933,
         "platformID": 4980,
         "title": "Horizon: Forbidden West",
@@ -1005,39 +1000,9 @@
         "title": "Grand Theft Auto V"
       },
       {
-        "gameID": 12565,
-        "platformID": 15,
-        "title": "LEGO Batman 2"
-      },
-      {
-        "gameID": 7515,
-        "platformID": 15,
-        "title": "LEGO Batman"
-      },
-      {
-        "gameID": 12800,
-        "platformID": 15,
-        "title": "LEGO Indiana Jones 2"
-      },
-      {
-        "gameID": 13038,
-        "platformID": 15,
-        "title": "LEGO Indiana Jones"
-      },
-      {
         "gameID": 13198,
         "platformID": 15,
         "title": "LEGO Pirates of the Caribbean: The Video Game"
-      },
-      {
-        "gameID": 12773,
-        "platformID": 15,
-        "title": "LEGO Star Wars III: The Clone Wars"
-      },
-      {
-        "gameID": 13200,
-        "platformID": 15,
-        "title": "LEGO Star Wars: The Complete Saga"
       },
       {
         "gameID": 11008,
@@ -1221,11 +1186,6 @@
         "title": "Dishonored: Definitive Edition"
       },
       {
-        "gameID": 32352,
-        "platformID": 4920,
-        "title": "Gears of War 4"
-      },
-      {
         "gameID": 32132,
         "platformID": 4920,
         "title": "Rare Replay"
@@ -1274,7 +1234,7 @@
     ]
   },
   "count": {
-    "games": 251,
+    "games": 242,
     "platforms": 12
   }
 }
