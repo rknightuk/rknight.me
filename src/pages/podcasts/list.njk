@@ -8,34 +8,20 @@ eleventyNavigation:
   parent: Home
 ---
 
-I currently have two podcasts: <a href='https://ruminatepodcast.com'>Ruminate</a> and <a href='https://wegot.family'>We Got Family</a>. This is a combined feed of both shows.
-
-{% set imagePrefix = '/assets/projects/' %}
+<p>I currently have two podcasts: <a href='https://ruminatepodcast.com'>Ruminate</a> and <a href='https://wegot.family'>We Got Family</a>. I've also made a number of <a href="/blog/tags/appearance/">appearances</a> on other shows.</p>
 
 <div class="cards" style="grid-template-columns: repeat(2,1fr);margin-top: 20px;">
-{%- for project in site.projects.podcasts %}<a href="{{ project.link }}"><img style="border-radius: 10px;" src="{{ imagePrefix }}{{ project.image }}"></a>{% endfor%}
+{%- for project in site.projects.podcasts %}<a href="{{ project.link }}"><img style="border-radius: 10px;" src="/assets/projects/{{ project.image }}"></a>{% endfor%}
 </div>
 
-{% set datePrinted = false %}
-{% set currentYear = 1000 %}
+<h3 id="notable-mentions">Notable Mentions</h3>
 
-{%- for pod in mypodcasts.all %}
-    {% set podYear = pod.year %}
-
-    {% if podYear != currentYear %}
-        <h3>{{ podYear }}</h3>
-    {% endif %}
-
-    <div class="entryitem">
-        <div class="entryitem--data">
-            <a href="{{ pod.link }}">{{ pod.show.title }} {{ pod.title | safe }}</a>
-            <hr>
-            <span class="entryitem--date">{{ pod.date }}</span>
-        </div>
-        <div class="entryitem--excerpt">
-            <p><em>{{ pod.desc }}</em></p>
-        </div>
-    </div>
-
-    {% set currentYear = podYear %}
-{% endfor %}
+<ul>
+    <li><a href="https://www.relay.fm/analogue/10">Analog(ue) #10: It’s an Internet Show for the Radio</a> (2:45) - &quot;<em>my favourite piece of follow up</em>&quot;. Myke got his age wrong and I pointed it out</li>
+    <li><a href="https://www.relay.fm/connected/9">Connected #9: A War of Semantics</a> (5:30) - &quot;<em>Why does everyone know this Robb guy</em>&quot; - Viticci</li>
+    <li><a href="http://5by5.tv/b2w/546">Back to Work #546: Snow Day for Nerds</a> - Merlin and Dan recommending TrackerZapper</li>
+    <li><a href="https://twit.tv/shows/macbreak-weekly/episodes/855">Macbreak Weekly #855</a> (1:50:00) - Leo's pick of the week is my <a href="https://rknightuk.github.io/mac-30-font-svg/">Mac 30th Icons</a></li>
+    <li><a href="https://listen.hemisphericviews.com/094">Hemispheric Views #094: Tiny Capes!</a> - (13:00) - My desk gets roasted</li>
+    <li><a href="https://www.relay.fm/connected/478">Connected #478: Not So Bankrupt Anymore</a> - (29:45) - <a href="https://defaults.rknight.me">App Defaults</a> gets discussed as the inspiration for the <a href="https://www.macstories.net/setups/">MacStories setups page</a></li>
+    <li><a href="https://listen.hemisphericviews.com/098">Hemispheric Views #098: That’s Some Good Foley!</a> - (06:00) - Follow up on <a href="https://defaults.rknight.me">App Defaults</a></li>
+</ul>
