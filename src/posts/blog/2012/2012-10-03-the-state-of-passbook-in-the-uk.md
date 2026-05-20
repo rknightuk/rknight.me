@@ -1,7 +1,7 @@
 ---
 title: The State of Passbook in the UK
 permalink: /blog/the-state-of-passbook-in-the-uk/index.html
-excerpt: "A look at how is and isn't planning to support Passbook"
+excerpt: "A look at who is and isn't planning to support Passbook"
 date: 2012-10-03T13:16:00.000Z
 ---
 
