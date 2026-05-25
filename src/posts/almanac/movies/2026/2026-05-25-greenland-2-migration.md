@@ -6,4 +6,4 @@ year: 2026
 tmdbid: 840464
 ---
 
-If you suspend disbelief so that the distance they covere in vehicles leftover from an apocalypse feels realistic, this is still not a good movie. 
+If you suspend disbelief so that the distance they cover in vehicles leftover from an apocalypse feels realistic, this is still not a good movie. 
