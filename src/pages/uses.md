@@ -73,20 +73,20 @@ eleventyNavigation:
 - [TablePlus](https://tableplus.com/) for database management
 - [Obsidian](https://obsidian.md)
 - [Fantastical](https://flexibits.com/fantastical) for calendars.
-- [Batteries for Mac](https://www.fadel.io/batteries)
-- [Godspeed](https://godspeedapp.com/a/RKNIGHT25)
 - [SoundSource](https://rogueamoeba.com/soundsource/)
 - [Gitify](https://www.gitify.io/) for GitHub notifications in the menu bar
 - [CleanShot X](https://cleanshot.com) for screenshots, screen recording, and annotation
 - [Sleeve](https://replay.software/sleeve) for now playing
 - [Rectangle](https://rectangleapp.com/) for window snapping
 - [Mic Drop](https://getmicdrop.com/) for muting my microphone
-- [NetNewsWire](https://netnewswire.com/) for RSS
 - [Color Slurp](https://colorslurp.com/)
 - [Boop](https://boop.okat.best/) for formatting HTML, JSON, XML, and loads of other stuff
 - [Discord Presence](https://musicpresence.app)
+- [AirPodsSanity](https://github.com/Gaulomatic/AirPodsSanity)
 
 ```diff
++ [2024-03-05] Raycast
+- [2024-03-05] Raycast
 + [2025-10-14] Discord Presence
 + [2024-05-01] Raycast
 - [2024-05-01] Alfred
