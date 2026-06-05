@@ -26,6 +26,11 @@ location /notes {
 {%- for s in site.save %}
 rewrite ^/save/{{ s.slug }} {{ s.link }} redirect;{% endfor %}
 
+# profiles
+rewrite ^/go/fpc https://www.fountainpencompanion.com/users/95147 redirect;
+rewrite ^/go/brickset https://brickset.com/sets/ownedby-rknightuk redirect;
+rewrite ^/go/mastodon https://social.lol/@robb redirect;
+
 # st jude
 rewrite ^/stjude https://tiltify.com/@rknightuk/stjude2024 redirect;
 
