@@ -21,11 +21,12 @@ eleventyNavigation:
     }
 </style>
 
-![My desk](https://cdn.rknight.me/site/desk-2025.jpg)
+![My desk](https://cdn.rknight.me/site/desk-2026.jpg)
 
-<details>
+<details style="margin-top: 10px;">
     <summary>Previous Desks</summary>
     <ul>
+        <li><a href="https://cdn.rknight.me/site/desk-2025.jpg" target="_blank">2025</a></li>
         <li><a href="https://cdn.rknight.me/site/desk-2024.jpg" target="_blank">2024</a></li>
         <li><a href="https://cdn.rknight.me/site/desk-2023.jpg" target="_blank">2023</a></li>
     </ul>
