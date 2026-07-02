@@ -243,6 +243,10 @@ video {
     margin: 0 auto;
 }
 
+img {
+    margin-bottom: 1em;
+}
+
 blockquote {
     border-left: 2px solid var(--primary);
     margin: 0 0 15px;
