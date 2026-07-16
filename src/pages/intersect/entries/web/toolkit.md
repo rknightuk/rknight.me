@@ -54,8 +54,9 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [UNCUT.wtf](https://uncut.wtf/)
 - [Fontshare: Quality Fonts. Free.](https://www.fontshare.com/)
 - [Foundries List](https://type-atlas.xyz/foundries/)
+- [Future Fonts](https://www.futurefonts.xyz/)
 
-#### Small Foundries
+#### Foundries and Designers
 
 - [Beth Mathews Design](https://www.bethmathews.com/shop)
 - [Abby Swain](https://www.abbyswain.com/font-shop)
@@ -64,13 +65,13 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Remedy667 – We ♥ Horror Fonts](https://remedy667.com/)
 - [SimpleBits®](https://simplebits.shop/collections/fonts)
 - [Tom Chalky](https://tomchalky.com/product-category/fonts/)
-- [Future Fonts](https://www.futurefonts.xyz/)
 - [Very Cool Studio](https://verycoolstudio.com/)
 - [Set Sail Studios](https://setsailstudios.com/)
 - [Tom DeForest](https://www.smallandsimplethings.org)
 - [Rachel Kick](https://rachelkickdesign.com/collections/fonts)
 - [Taylor Penton](https://taylorpenton.com/collections/all-fonts)
-- [Handwritten Fonts | Jen Wagner Type](https://jenwagner.co/shop-handwritten-fonts/)
+- [Jen Wagner Type](https://jenwagner.co/)
+- [Travis Price](https://www.travisprice.com.au/)
 
 ### CSS
 
@@ -109,6 +110,7 @@ html {
 - [SVG Sprite generator](https://svgsprit.es/)
 - [Image to  SVG image converter](https://image.online-convert.com/convert-to-svg)
 - [Iconify - All open source icon sets](https://icon-sets.iconify.design)
+- [Lucide](https://lucide.dev/)
 
 ### Misc
 
