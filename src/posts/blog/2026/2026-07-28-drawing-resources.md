@@ -3,6 +3,8 @@ title: "Drawing Resources"
 permalink: /blog/drawing-resources/index.html
 date: 2026-07-28T08:22:00.000Z
 excerpt: "A list of books recommended to me when I asked for suggestions"
+tags:
+    - Analogue
 ---
 
 I asked for [recommendations for courses and books](https://rknight.me/notes/202607241729/) related to learning drawing techniques and I got a bunch of great suggestions. I've not tried any of these yet (except a single video from [Alphonso Dunn](https://www.youtube.com/@alphonsodunn) but I want to collect these in one place I can refer back to.
