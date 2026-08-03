@@ -7,12 +7,15 @@ tags:
     - Development
 ---
 
+> [!NOTE] Update 2026-08-03
+> Updated class name
+
 Over the past month or so I've sold a bunch of stuff on [Vinted](https://vinted.co.uk) and I wanted to know how much I've made but Vinted don't give you that data, at least not in a nice way. They have monthly reports but that shows what you started with and ended with which only works if you don't withdraw or spend anything, which I had.
 
 So I went to the [sold page](https://www.vinted.co.uk/my_orders?order_type=sold), scrolled the infinite scroll list until it had loaded the months worth of stuff and whipped up this snippet to take the price and title of the item and add it to the clipboard.
 
 ```js
-list = document.getElementsByClassName('my-orders-content')[0]
+list = document.getElementsByClassName('body-content__content')[0]
 items = Array.from(list.querySelectorAll('a .web_ui__Cell__content'))
 data = items.map(i => {
 	price = i.getElementsByClassName('web_ui__Text__text')[0].innerText
