@@ -28,6 +28,10 @@ Examples: [Back to the Future](https://en.wikipedia.org/wiki/Back_to_the_Future)
 This is the most common version seen in media and the one I'm most familiar with, having watched the Back to the Future movies at least once a year for the past 30 years. You go back, do something, and on your return things have changed. Maybe you go back and accidentally stop your mum meeting your dad, come up with an elaborate plan to get them back together even though she's into you now, turn your dad into a completely different person, play Johnny B. Goode for your parents classmates, then your mum names you after a guy she had the hots for in school and your dad says nothing about this. Or something less...weird.
 
 The second movie explains these changes further as the timeline "skewing"; to get back to the "original" future you came from you need to fix whatever change you made in the past. 
+
+> [!NOTE] Update 2026-08-04
+> It occured to me I didn't mention the variation that Hot Tub Time Machine introduces: they go back to the past but they _become_ thier previous selves, there isn't two of them there.
+
 ##### Inconsistencies
 
 - Do Marty's parents just not notice their kid looks a hell of a lot like that guy from when they were at school? Why did they name their third kid Marty and not their first one?
