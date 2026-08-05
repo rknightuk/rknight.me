@@ -17,3 +17,5 @@ I asked for [recommendations for courses and books](https://rknight.me/notes/202
 - [Draw](https://www.abebooks.co.uk/9780863180392/Draw-Master-Art-Jeffery-Camp-0863180396/plp) by Jeffrey Camp and [Drawing on the Artist Within](https://www.drawright.com/bettys-books), another Betty Edwards one came via [Gary](https://social.lol/@gary/116976523217332774).
 
 I'm not going to get everything on this list because that would be chaos but there's lots of great stuff in here that I can choose from.
+
+[The Art Coach](https://www.theartcoach.com) was the course advertised to me on Instagram which triggered me to ask this question in the first place.
