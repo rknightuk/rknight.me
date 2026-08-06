@@ -12,8 +12,6 @@ repost: This post originally appeared on the now-removed EchoFeed blog
 
 On the suggestion of Vincent of [Scribbles](https://scribbles.page) fame, a few days ago I added a new feature to EchoFeed for people who run services that generate RSS feeds like blogging platforms.
 
-![Add to EchoFeed button](/img/button.png)
-
 Add to EchoFeed is a simple system to be able to direct users to add their feeds to EchoFeed in a more automated way. This can be done by passing `feed` to the new echo path like so:
 
 ```
