@@ -8,6 +8,9 @@ tags:
     - TV
 ---
 
+> [!NOTE] Update 2026-08-08
+> I made this article [into a zine](/blog/types-of-time-travel-zine/).
+
  I was recently[^1] asked by [Zoe](https://zoeaubert.me/) the following question:
  
 > What's your preferred type of time travel (like singular timeline where things always where, multiverse when you go back, some other shit)

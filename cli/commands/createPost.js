@@ -18,6 +18,7 @@ export default async (__siteroot) => {
             { name: 'AdventOfCode', value: 'AdventOfCode' },
             { name: 'AI', value: 'AI' },
             { name: 'Alfred', value: 'Alfred' },
+            { name: 'Analogue', value: 'Analogue' },
             { name: 'Appearance', value: 'Appearance' },
             { name: 'Apps', value: 'Apps' },
             { name: 'BabyKnight', value: 'BabyKnight' },
