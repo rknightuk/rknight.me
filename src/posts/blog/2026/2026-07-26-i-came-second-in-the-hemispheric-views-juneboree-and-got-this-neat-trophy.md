@@ -9,4 +9,4 @@ excerpt: "A photo of my June-Boree trophy"
 
 After some shenanigans with trying to send it to a pickup location which UPS couldn't do three days in a row, I finally got my hands on it and it's glorious.
 
-![A floppy disc on a 3d=-printed stand on a desk. The label says Hemispheric Views June-Boree and it has a second place trophy on it](https://cdn.rknight.me/site/2026/june-boree-trophy.jpg)
+![A floppy disc on a 3d-printed stand on a desk. The label says Hemispheric Views June-Boree and it has a second place trophy on it](https://cdn.rknight.me/site/2026/june-boree-trophy.jpg)
