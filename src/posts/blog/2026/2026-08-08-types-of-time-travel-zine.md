@@ -19,9 +19,9 @@ My plan was to draw directly to the single sheet of A4 paper, scan it it, and th
 
 I scanned[^1] all the pages in, dropped them all in Pixelmator, and set out each page in the correct order. Doing it like this also allowed me to move about some things that weren't quite right and fix some mistakes but what you see is more of less exactly as I drew it. 
 
-You can download Types of Time Travel zine in [PDF](https://cdn.rknight.me/zines/types-of-time-travel/types-of-time-travel-zine.pdf) or [PNG](https://cdn.rknight.me/zines/types-of-time-travel/types-of-time-travel-zine-crushed.png) formats. I hope you enjoy it. As seems to be tradition with zine websites, I am including a link to [this illustration of unknown origin that shows how to fold an eight-page zine](https://cdn.rknight.me/zines/folding-a-zine.png).
+You can download Types of Time Travel zine in [PDF](https://cdn.rknight.me/zines/types-of-time-travel/types-of-time-travel-zine.pdf) or [PNG](https://cdn.rknight.me/zines/types-of-time-travel/types-of-time-travel-zine-crushed.png) formats. I hope you enjoy it. As seems to be tradition with zine websites, I am including a link to [this illustration of <s>unknown origin</s> that shows how to fold an eight-page zine](https://cdn.rknight.me/zines/folding-a-zine.png): Update: [image source](https://wiki.xxiivv.com/site/zines.html) via Spike.
 
-I was  surprised there's no web component or drop-in library to pass in a zine and make it readable easily online. Watch this space but for now you can read it below.
+I was surprised there's no web component or drop-in library to pass in a zine and make it readable easily online. Watch this space but for now you can read it below.
 
 <style>
     .zine {
