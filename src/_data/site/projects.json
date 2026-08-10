@@ -1,10 +1,10 @@
 {
   "featured": [
     {
-      "title": "EchoFeed",
-      "link": "https://echofeed.app",
-      "desc": "Cross post RSS content to Mastodon, Bluesky, and more",
-      "image": "echofeed.jpg"
+      "title": "Doodle Scan",
+      "description": "Remove the paper background from your doodles, sketches, and drawings",
+      "image": "doodlescan.jpg",
+      "link": "https://doodlescan.rknight.me"
     },
     {
       "title": "Ash Fetchum",
@@ -57,6 +57,12 @@
         "PHP",
         "Laravel"
       ]
+    },
+    {
+      "title": "Doodle Scan",
+      "description": "Remove the paper background from your doodles, sketches, and drawings",
+      "image": "doodlescan.jpg",
+      "link": "https://doodlescan.rknight.me"
     },
     {
       "title": "Ash Fetchum",
