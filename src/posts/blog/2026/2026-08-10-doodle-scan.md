@@ -23,7 +23,7 @@ tl;dr: The website is up at [doodlescan.rknight.me](https://doodlescan.rknight.m
 > [!NOTE] Update mere hours after this went live
 > Apparently Jeff looked like a penis so I redid him
 
-![A beige backround that says Doodle Scan at the top in red and a dinosaur that doesn't look like a penis.](https://cdn.rknight.me/site/2026/doode-scan-logo-version-2.jpg)
+![A beige backround that says Doodle Scan at the top in red and a dinosaur that doesn't look like a penis.](https://cdn.rknight.me/site/2026/doodle-scan-logo-version-2.jpg)
 
 ### Removing the Background
 
