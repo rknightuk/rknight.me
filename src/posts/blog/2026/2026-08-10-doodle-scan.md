@@ -19,6 +19,12 @@ I came across [a couple](https://removewhite.com/scan/) of [websites](https://pi
 tl;dr: The website is up at [doodlescan.rknight.me](https://doodlescan.rknight.me) — read on for the technical nonsense. Also Jeff is back.
 
 ![A beige backround that says Doodle Scan at the top in red and a dinosaur holding a pencil below it.](https://cdn.rknight.me/site/2026/doode-scan-logo.jpg)
+
+> [!NOTE] Update mere hours after this went live
+> Apparently Jeff looked like a penis so I redid him
+
+![A beige backround that says Doodle Scan at the top in red and a dinosaur that doesn't look like a penis.](https://cdn.rknight.me/site/2026/doode-scan-logo-version-2.jpg)
+
 ### Removing the Background
 
 "Relative luminance" is the key to this part as [defined by WCAG 2.x](https://www.w3.org/WAI/GL/wiki/Relative_luminance). Take the RGB values and do the following calculation to get the relative luminance, a single value to compare against. I can't find where I read this now but green and blue are weighted higher because the human eye are more sensitive to those colours. An easy example is a grey where all the values are the same — given an RGB value of `51,51,51` the output will be `51`. For something like [sky blue](https://htmlcolorcodes.com/colors/sky-blue/) the RGB is `130,200,222` we get `186.7064`.
@@ -79,11 +85,13 @@ I wanted a black ink only mode where it would set all kept pixels to black (or a
 A bonus of the threshold control is how much it helps in removing backgrounds on uneven scans or photos, like the example below. With the default threshold nothing gets removed but if I drop it to ~100 and switch to black and white mode, I'm able to remove most of the background while not losing too much detail on the drawings themselves. If this were more important I would use a proper scanner or light the image better but this will be handy for quick doodles.
 
 ![On the top is a badly lit photo of dotgrid paper with sketches of some people. The bottom shows the same image but with the paper removed](https://cdn.rknight.me/site/2026/doodle-scan-uneven-comparison.jpg)
+
 ### Edge Shrink
 
 I looked through how this worked on the other websites I found, read the code, made some notes, had a little cry, drew some diagrams, read more code, then I finally understood it. It looks at every pixel and if it has a transparent neighbour, then set it to transparent and do the same for each pass up to five times. This diagram I made explains better than I can about how it works over two passes.
 
-![sdfasd](https://cdn.rknight.me/site/2026/doodle-scan-edge-shrink.jpg)
+![On the top is a badly lit photo of dotgrid paper with sketches of some people. The bottom shows the same image but with the paper removed](https://cdn.rknight.me/site/2026/doodle-scan-edge-shrink.jpg)
+
 ### Darken Lines
 
 This was the the part where I really had to focus to understand what this was doing. The darken lines slider sets a percentage which is then used to determine how much to darken the ink by. It involves getting the darkness or inverse luminance of the pixel, then calculating the amount to darken by by multiplying the darken value by darkness squared, multplied by the alpha level divided by 255 — as best I can tell this last bit reduces the effect on semi-transparent pixels. So yeah, maths. This feature is only useful when using colour mode.
@@ -96,6 +104,7 @@ data[i] = Math.round(r * (1 - amountToDarken))
 data[i + 1] = Math.round(g * (1 - amountToDarken))
 data[i + 2] = Math.round(b * (1 - amountToDarken))
 ```
+
 ### Out of the rabbit hole
 
 Now I'm "done" with this I can loop back around to where I started which was making some illustrations for my new website design and all I had to do was build an entirely new tool to do it. This will also be handy in September when where I'll be doing [drawings for St Jude](https://rknight.me/blog/get-okay/) again.
