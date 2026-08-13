@@ -99,6 +99,7 @@ html {
     - [RPGUI - RPG-style gui in HTML5!](http://ronenness.github.io/RPGUI/)
     - [sindresorhus/github-markdown-css](https://github.com/sindresorhus/github-markdown-css)
 - [Fluid Space Calculator](https://utopia.fyi/space/calculator/)
+- [CSS buttons](https://cssbuttons.io)
 
 ### Icons
 
@@ -115,7 +116,7 @@ html {
 
 ### Misc
 
-- [SVG GitHub Corners](https://tholman.com/github-corners/)
+- ~~[SVG GitHub Corners](https://tholman.com/github-corners/)~~ [Code Corners](https://codecorners.rknight.me)
 - [MockDrop](https://mockdrop.io/)
 - [Buttons.cool - The coolest buttons in town](https://www.buttons.cool/buttons)
 - [Shape Divider App](https://www.shapedivider.app/)
@@ -125,3 +126,4 @@ html {
 - [Glass3D generator](https://glass3d.dev)
 - [Openverse - free stock photos, images, and audio](https://openverse.org)
 - [Stress Test Data for Web Projects](https://didoesdigital.com/blog/stress-test-data-for-web-projects/)
+- [Noice - Noice helps generate SVG filters for noise textures.](https://noice.vercel.app/)
