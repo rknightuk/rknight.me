@@ -61,7 +61,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Beth Mathews Design](https://www.bethmathews.com/shop)
 - [Abby Swain](https://www.abbyswain.com/font-shop)
 - [Beasts of England](https://beastsofengland.co/)
-- [Fonts Archives - Hoodzpah](https://hoodzpahdesign.com/product-category/fonts/)
+- [Hoodzpah](https://hoodzpahdesign.com/product-category/fonts/)
 - [Remedy667 – We ♥ Horror Fonts](https://remedy667.com/)
 - [SimpleBits®](https://simplebits.shop/collections/fonts)
 - [Tom Chalky](https://tomchalky.com/product-category/fonts/)
@@ -72,6 +72,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 - [Taylor Penton](https://taylorpenton.com/collections/all-fonts)
 - [Jen Wagner Type](https://jenwagner.co/)
 - [Travis Price](https://www.travisprice.com.au/)
+- [Public Type Works](https://publictype.works/font/furrow/)
 
 ### CSS
 
