@@ -2,7 +2,7 @@
 title: "Favicons to Go"
 permalink: /blog/favicons-to-go/index.html
 date: 2026-08-17T11:11:08.640Z
-excerpt: ""
+excerpt: "I made a favicon generator site to work exactly how I want without being riddled with ads"
 tags:
     - Development
 project: https://favicons.rknight.me
