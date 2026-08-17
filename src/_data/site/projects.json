@@ -1,6 +1,12 @@
 {
   "featured": [
     {
+      "title": "Favicons To Go",
+      "description": "Generate favicons, apple touch icons, and open graph images",
+      "image": "favicons.jpg",
+      "link": "https://favicons.rknight.me"
+    },
+    {
       "title": "Doodle Scan",
       "description": "Remove the paper background from your doodles, sketches, and drawings",
       "image": "doodlescan.jpg",
@@ -35,16 +41,6 @@
       "desc": "Home-cooked webapp to print shipping addresses from unshipped Big Cartel orders",
       "image": "thermal-label-formatter.png",
       "link": "https://github.com/rknightuk/thermal-label-formatter"
-    },
-    {
-      "title": "Lens",
-      "desc": "Check your meta tags, icons, and rss feeds",
-      "image": "lens.jpg",
-      "link": "https://lens.rknight.me",
-      "tags": [
-        "PHP",
-        "Alpine"
-      ]
     }
   ],
   "current": [
@@ -57,6 +53,12 @@
         "PHP",
         "Laravel"
       ]
+    },
+    {
+      "title": "Favicons To Go",
+      "description": "Generate favicons, apple touch icons, and open graph images",
+      "image": "favicons.jpg",
+      "link": "https://favicons.rknight.me"
     },
     {
       "title": "Doodle Scan",
