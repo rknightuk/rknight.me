@@ -5,6 +5,7 @@ import path from 'path'
 import { fileURLToPath } from 'url'
 
 import createPost from './commands/createPost.js'
+import createNow from './commands/createNow.js'
 import createLink from './commands/createLink.js'
 import createNote from './commands/createNote.js'
 
@@ -43,6 +44,11 @@ const runWizard = async () => {
                 name: 'Create a new post',
                 value: 'post',
                 description: 'Create a new post',
+            },
+            {
+                name: 'Create /now post',
+                value: 'now',
+                description: 'Create a /now post',
             },
             {
                 name: 'Create a new link post',
@@ -85,6 +91,9 @@ const runWizard = async () => {
     switch (type) {
         case 'post':
             createPost(__siteroot)
+            break
+        case 'now':
+            createNow(__siteroot)
             break
         case 'link':
             createLink(__siteroot)
