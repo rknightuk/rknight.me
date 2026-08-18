@@ -49,6 +49,7 @@ I check all this stuff with [Lens](https://lens.rknight.me). I don't include Twi
 
 ### Fonts
 
+- [FontFridge - enhanced Google Fonts Collection](https://font.chingru.com)
 - [Modern Font Stacks](https://modernfontstacks.com/)
 - [Bunny Fonts](https://bunny.net/fonts/)
 - [UNCUT.wtf](https://uncut.wtf/)
