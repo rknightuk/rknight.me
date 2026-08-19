@@ -32,3 +32,4 @@ Anyway, I _had_ started collecting alternatives while I was putting Baby Knight 
 - [BetterMouse](https://better-mouse.com/) - this one looks like it has _all_ the options.
 - [SteerMouse](https://plentycom.jp/en/steermouse/)
 - [Mac Mouse Fix](https://macmousefix.com/en/)
+- [OpenLogi](https://openlogi.org/en#faq) (added 2026-08-19)
