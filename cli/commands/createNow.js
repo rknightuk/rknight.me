@@ -21,7 +21,19 @@ permalink: /blog/${slug}/index.html
 date: ${postDate}
 excerpt: "What I'm doing now. ${currentMonth} ${currentYear} edition"
 tags: [now]
----`
+---
+
+### Doing...
+
+### Making...
+
+### Listening...
+
+### Watching...
+
+### Writing with...
+
+`
 
     fs.writeFileSync(`${__siteroot}/src/posts/blog/${year}/${slugDate}xx-${slug}.md`, meta, { flag: "wx" })
 }
